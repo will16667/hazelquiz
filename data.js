@@ -12055,8 +12055,18 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Break or tear in blood vessel wal Feedback cycle initiated Released Clotting occurs chemicals as platelets attract more adhere to site platelets and release chemicals ee) Feedback cycle ends Clotting proceeds until break is sealed by newly, formed clot Copyright© 2004 Pearson Education, no. publishing as Benjamin Cummings.",
-                "zh": "血管破裂或撕裂wal反饋循環啟動釋放凝血發生化學物質，因為血小板吸引更多粘附到部位血小板並釋放化學物質ee)反饋週期結束凝血收益，直到新形成的凝血塊密封為止版權所有©2004PearsonEducation，編號BenjaminCummings出版"
+                "t": "Feedback cycle initiated; Feedback cycle ends.",
+                "zh": "回饋循環開始；回饋循環結束。"
+              },
+              {
+                "k": "p",
+                "t": "1 Break or tear in blood vessel wall. 2 Clotting occurs as platelets adhere to site and release chemicals. 3 Released chemicals attract more platelets. 4 Clotting proceeds until break is sealed by newly formed clot.",
+                "zh": "1 血管壁破裂或撕裂。2 血小板黏附傷口並釋放化學物質，開始凝血。3 釋放嘅化學物質吸引更多血小板。4 凝血持續，直至新形成嘅血塊封閉傷口。"
+              },
+              {
+                "k": "p",
+                "t": "Copyright © 2004 Pearson Education, Inc., publishing as Benjamin Cummings.",
+                "zh": "Copyright © 2004 Pearson Education, Inc., publishing as Benjamin Cummings."
               }
             ]
           }
@@ -12182,14 +12192,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Extracellular Phospholipid bilayer Intracellular Hydrophobic tail Hydrophilic head",
-                "zh": "胞外磷脂雙層胞內疏水尾巴親水頭"
+                "k": "p",
+                "t": "Figure 2. Phospholipid Bilayer; Extracellular; Intracellular; Phospholipid bilayer; Hydrophobic tail; Hydrophilic head.",
+                "zh": "圖 2．磷脂雙層；細胞外；細胞內；磷脂雙層；疏水尾；親水頭。"
               },
               {
                 "k": "p",
-                "t": "(water loving) polar heads contact the fluid inside and outside of the cell.",
-                "zh": "（愛水）極頭接觸細胞內外的液體。"
+                "t": "The phospholipid bilayer consists of two adjacent sheets of phospholipids, arranged tail to tail. The hydrophobic (water fearing) tails associate with one another, forming the interior of the membrane. The hydrophilic (water loving) polar heads contact the fluid inside and outside of the cell.",
+                "zh": "磷脂雙層由兩層尾對尾排列嘅磷脂組成。疏水尾互相聚集形成膜內部；親水極性頭接觸細胞內外嘅液體。"
               }
             ]
           },
@@ -12248,8 +12258,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Passive transport eee 6866 eee High concentration Extracellular fluid Intracellular fluid Carrier Channel protein protein Low concentration Simple diffusion Facilitated diffusion",
-                "zh": "被動運輸eee6866eee高濃度細胞外液細胞內液載體通道蛋白質低濃度簡單擴散促進擴散"
+                "t": "Passive transport; Extracellular fluid; Intracellular fluid; High concentration; Low concentration; Simple diffusion; Facilitated diffusion; Carrier protein; Channel protein.",
+                "zh": "被動運輸；細胞外液；細胞內液；高濃度；低濃度；簡單擴散；協助擴散；載體蛋白；通道蛋白。"
               }
             ]
           },
@@ -12261,13 +12271,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "ier ss eof \"ee Beeelic.«s eve ee, i.",
-                "zh": "iersseof\"eeBeeelic.«seveee,i."
+                "t": "OSMOSIS; Lipid bilayer.",
+                "zh": "滲透（OSMOSIS）；脂質雙層。"
               },
               {
                 "k": "p",
-                "t": "roe OSMOSIS",
-                "zh": ""
+                "t": "Water moves across the lipid bilayer toward the side with higher solute concentration until levels change.",
+                "zh": "水經脂質雙層移向溶質濃度較高嘅一側，直至液面改變。"
               }
             ]
           }
@@ -12311,8 +12321,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Extracellular fluid ropes Re LOoSo oP &@ 5 @ SQ 0 lope) Lonel WhO © (exe) eoI°q o Lipid bilayer thembrane) oO 5 Oo loRe) Timi Cytoplasm",
-                "zh": "細胞外液繩ReLOoSooP&@5@SQ0lope)LonelWHO©(exe)eoI°qo脂質雙層膜)oO5OoloRe)Timi細胞質"
+                "t": "Small uncharged molecules; Lipid bilayer (plasma membrane); Extracellular fluid; Cytoplasm; Time.",
+                "zh": "細而無電荷分子；脂質雙層（質膜）；細胞外液；細胞質；時間。"
               }
             ]
           },
@@ -12378,8 +12388,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Simple Diffusion Movement of particles from high to low concentration without a protein High concentration r of particles eae cell ee ~. 2 a Sa Gell membrancy bight rnin til Hell HL Att til Hie Inside cell oe @ Same concentration concentration (equilibrium) Simple diffusion",
-                "zh": "簡單擴散顆粒從高濃度到低濃度而沒有蛋白質的移動高濃度r顆粒eae細胞ee~.2aSa凝膠膜bightrnintilHellHLAtttilHie細胞內oe@相同濃度濃度（平衡）簡單擴散"
+                "t": "Simple Diffusion; Outside cell; Cell membrane; Inside cell; High concentration of particles; Low concentration; Same concentration (equilibrium).",
+                "zh": "簡單擴散；細胞外；細胞膜；細胞內；粒子高濃度；低濃度；相同濃度（平衡）。"
+              },
+              {
+                "k": "p",
+                "t": "Simple diffusion is the movement of particles from high to low concentration without a protein.",
+                "zh": "簡單擴散係粒子由高濃度去低濃度、唔經蛋白質嘅移動。"
               }
             ]
           },
@@ -12391,13 +12406,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Airis inhaled and exhaled Alveoli Thin, moist walls Diffusion of CO.",
-                "zh": "Airis吸入和呼出肺泡薄，濕潤的牆壁擴散CO"
-              },
-              {
-                "k": "h",
-                "t": "Capillary",
-                "zh": "毛細管 (Capillary)"
+                "t": "Alveoli; Thin, moist walls; Capillary; Air is inhaled and exhaled; Diffusion of CO₂; Diffusion of O₂.",
+                "zh": "肺泡；薄而濕潤嘅壁；微血管；空氣吸入同呼出；CO₂ 擴散；O₂ 擴散。"
               }
             ]
           },
@@ -12459,8 +12469,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "membrane solute protein outside inside Figure 5.9 Facilitated transport.",
-                "zh": "膜溶質蛋白在圖5.9促進運輸。"
+                "t": "Figure 5.9 Facilitated transport; membrane; solute; carrier protein; outside; inside.",
+                "zh": "圖 5.9 協助運輸；膜；溶質；載體蛋白；細胞外；細胞內。"
+              },
+              {
+                "k": "p",
+                "t": "During facilitated transport, a carrier protein speeds the rate at which the solute crosses the plasma membrane in the direction of decreasing concentration. Note that the carrier protein undergoes a change in shape (called a conformational change) as it moves a solute across the membrane.",
+                "zh": "協助運輸時，載體蛋白加快溶質沿濃度下降方向穿過質膜嘅速率。載體蛋白運送溶質過膜時會發生形狀改變（構象改變）。"
               }
             ]
           },
@@ -12472,8 +12487,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Carrier Protein Hydrophilic O Pocket Conformational Change ENN Gee HEA",
-                "zh": "CarrierProtein親水性OPocketConformationalChangeENNGeeHEA"
+                "t": "Carrier Protein; Hydrophilic Pocket; Conformational Change.",
+                "zh": "載體蛋白；親水口袋；構象改變。"
               }
             ]
           }
@@ -12620,8 +12635,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
+                "t": "Isotonic Solution.",
+                "zh": "等張溶液。"
+              },
+              {
+                "k": "p",
                 "t": "Functioning cell of normal size.",
-                "zh": "正常大小的功能性細胞。"
+                "zh": "功能正常、大小正常嘅細胞。"
               }
             ]
           },
@@ -12632,9 +12652,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "G's Normal Shriveled Lysed",
-                "zh": "G的普通萎縮裂解"
+                "k": "p",
+                "t": "Tonicity; Hypotonic; Isotonic; Hypertonic; H₂O; Lysed; Normal; Shriveled.",
+                "zh": "張力；低張；等張；高張；H₂O；溶血／脹破；正常；皺縮。"
               }
             ]
           }
@@ -12693,8 +12713,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Semipermeable membrane Solvent. Net movement No net molecule of solvent Osmotic movement Pressure!",
-                "zh": "半透膜溶劑。NETMOVEMENT無溶劑淨分子滲透運動壓力！"
+                "t": "Semipermeable membrane; Solvent molecule; Solute molecule; Net movement of solvent; No net movement of solvent; Osmotic Pressure; Initial state; Final state.",
+                "zh": "半透膜；溶劑分子；溶質分子；溶劑淨移動；溶劑無淨移動；滲透壓；初始狀態；最終狀態。"
+              },
+              {
+                "k": "p",
+                "t": "Initial state: solute molecules partly shield membrane pores for the passage of solvent molecules from right to left. Final state: the compensating pressure impedes the passage of solvent molecules from left to right.",
+                "zh": "初始狀態：溶質分子部分遮擋膜孔，影響溶劑由右至左通過。最終狀態：補償壓力阻礙溶劑由左至右通過。"
               }
             ]
           }
