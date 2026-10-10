@@ -5303,7 +5303,7 @@ window.HAZEL_LECTURES = [
             "zh": "人體生理學概論I"
           }
         ],
-        "img": "assets/slides/L1/001.webp"
+        "figures": []
       },
       {
         "n": 2,
@@ -5324,7 +5324,7 @@ window.HAZEL_LECTURES = [
             "zh": "•解釋主要身體系統的細胞、組織和器官的結構和功能以及生理過程。"
           }
         ],
-        "img": "assets/slides/L1/002.webp"
+        "figures": []
       },
       {
         "n": 3,
@@ -5365,7 +5365,7 @@ window.HAZEL_LECTURES = [
             "zh": "•細胞分裂和凋亡"
           }
         ],
-        "img": "assets/slides/L1/003.webp"
+        "figures": []
       },
       {
         "n": 4,
@@ -5406,7 +5406,7 @@ window.HAZEL_LECTURES = [
             "zh": "•描述細胞分裂和凋亡的過程。"
           }
         ],
-        "img": "assets/slides/L1/004.webp"
+        "figures": []
       },
       {
         "n": 5,
@@ -5442,7 +5442,20 @@ window.HAZEL_LECTURES = [
             "zh": "•生理學-身體及其部位的工作或功能，功能例如心臟如何泵送血液？"
           }
         ],
-        "img": "assets/slides/L1/005.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p005-01.webp",
+            "w": 1000,
+            "h": 1413,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p005-02.webp",
+            "w": 257,
+            "h": 368,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 6,
@@ -5478,7 +5491,26 @@ window.HAZEL_LECTURES = [
             "zh": "•水"
           }
         ],
-        "img": "assets/slides/L1/006.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p006-01.webp",
+            "w": 159,
+            "h": 147,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p006-02.webp",
+            "w": 1000,
+            "h": 915,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p006-03.webp",
+            "w": 605,
+            "h": 507,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 7,
@@ -5534,7 +5566,20 @@ window.HAZEL_LECTURES = [
             "zh": "•多糖"
           }
         ],
-        "img": "assets/slides/L1/007.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p007-01.webp",
+            "w": 630,
+            "h": 422,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p007-02.webp",
+            "w": 1000,
+            "h": 642,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 8,
@@ -5630,7 +5675,14 @@ window.HAZEL_LECTURES = [
             "zh": "•人類無法消化"
           }
         ],
-        "img": "assets/slides/L1/008.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p008-01.webp",
+            "w": 1000,
+            "h": 411,
+            "kind": "vector"
+          }
+        ]
       },
       {
         "n": 9,
@@ -5666,7 +5718,7 @@ window.HAZEL_LECTURES = [
             "zh": "•當能量需求增加時， RNA （核糖核酸）核糖核酸糖原被分解成葡萄糖並用作能量"
           }
         ],
-        "img": "assets/slides/L1/009.webp"
+        "figures": []
       },
       {
         "n": 10,
@@ -5722,7 +5774,26 @@ window.HAZEL_LECTURES = [
             "zh": "•甘油三三酸甘油酯酯（ 3 +1 ）由3個脂肪酸分子和1個甘油分子組成的脂質亞❑類"
           }
         ],
-        "img": "assets/slides/L1/010.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p010-01.webp",
+            "w": 1000,
+            "h": 646,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p010-02.webp",
+            "w": 967,
+            "h": 544,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p010-03.webp",
+            "w": 255,
+            "h": 216,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 11,
@@ -5768,7 +5839,14 @@ window.HAZEL_LECTURES = [
             "zh": "•內臟周圍的脂肪，如腎臟，起到減震作用（減震作用 ）"
           }
         ],
-        "img": "assets/slides/L1/011.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p011-01.webp",
+            "w": 895,
+            "h": 457,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 12,
@@ -5799,7 +5877,26 @@ window.HAZEL_LECTURES = [
             "zh": "胺基酸 "
           }
         ],
-        "img": "assets/slides/L1/012.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p012-01.webp",
+            "w": 1000,
+            "h": 383,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p012-02.webp",
+            "w": 506,
+            "h": 316,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p012-03.webp",
+            "w": 232,
+            "h": 222,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 13,
@@ -5835,7 +5932,14 @@ window.HAZEL_LECTURES = [
             "zh": "5.運輸/儲存-蛋白質將重要分子移動到需要去的地方；例如，血紅蛋白通過血液攜帶氧氣，而其他蛋白質則儲存鐵等營養物質。"
           }
         ],
-        "img": "assets/slides/L1/013.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p013-01.webp",
+            "w": 1000,
+            "h": 761,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 14,
@@ -5881,7 +5985,20 @@ window.HAZEL_LECTURES = [
             "zh": "•恢復蛋白質的生物活性"
           }
         ],
-        "img": "assets/slides/L1/014.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p014-01.webp",
+            "w": 1000,
+            "h": 332,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p014-02.webp",
+            "w": 250,
+            "h": 251,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 15,
@@ -5912,7 +6029,14 @@ window.HAZEL_LECTURES = [
             "zh": "•化學物質，例如非極性溶劑和洗滌劑"
           }
         ],
-        "img": "assets/slides/L1/015.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p015-01.webp",
+            "w": 400,
+            "h": 204,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 16,
@@ -5933,7 +6057,14 @@ window.HAZEL_LECTURES = [
             "zh": "•水是一種重要的物質"
           }
         ],
-        "img": "assets/slides/L1/016.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p016-01.webp",
+            "w": 1000,
+            "h": 982,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 17,
@@ -6014,7 +6145,14 @@ window.HAZEL_LECTURES = [
             "zh": "•水在食物通過消化道時會滋潤食物，從口腔和喉嚨的唾液開始，使吞咽變得容易，最後是水軟化的糞便通過肛門三磷酸腺苷（ ATP ） 三磷酸腺苷"
           }
         ],
-        "img": "assets/slides/L1/017.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p017-01.webp",
+            "w": 1000,
+            "h": 518,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 18,
@@ -6070,7 +6208,26 @@ window.HAZEL_LECTURES = [
             "zh": "解剖學與生理學"
           }
         ],
-        "img": "assets/slides/L1/018.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p018-01.webp",
+            "w": 452,
+            "h": 509,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p018-02.webp",
+            "w": 277,
+            "h": 197,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p018-03.webp",
+            "w": 525,
+            "h": 525,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 19,
@@ -6111,7 +6268,20 @@ window.HAZEL_LECTURES = [
             "zh": "轉錄翻譯DNA RNA蛋白質礦物質鹽和離子礦物質鹽和離子功能"
           }
         ],
-        "img": "assets/slides/L1/019.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p019-01.webp",
+            "w": 800,
+            "h": 891,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p019-02.webp",
+            "w": 206,
+            "h": 200,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 20,
@@ -6167,7 +6337,7 @@ window.HAZEL_LECTURES = [
             "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
           }
         ],
-        "img": "assets/slides/L1/020.webp"
+        "figures": []
       },
       {
         "n": 21,
@@ -6178,7 +6348,7 @@ window.HAZEL_LECTURES = [
             "zh": "•解釋主要身體系統的細胞、組織和器官的結構和功能以及生理過程。"
           }
         ],
-        "img": "assets/slides/L1/021.webp"
+        "figures": []
       },
       {
         "n": 22,
@@ -6194,7 +6364,14 @@ window.HAZEL_LECTURES = [
             "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
           }
         ],
-        "img": "assets/slides/L1/022.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p022-01.webp",
+            "w": 1000,
+            "h": 890,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 23,
@@ -6220,7 +6397,14 @@ window.HAZEL_LECTURES = [
             "zh": "•分化細胞在多細胞生物體中很重要，因為它們能夠在體內發揮特殊功能"
           }
         ],
-        "img": "assets/slides/L1/023.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p023-01.webp",
+            "w": 1000,
+            "h": 986,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 24,
@@ -6286,7 +6470,26 @@ window.HAZEL_LECTURES = [
             "zh": "（參考／來源）"
           }
         ],
-        "img": "assets/slides/L1/024.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p024-01.webp",
+            "w": 1000,
+            "h": 607,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p024-02.webp",
+            "w": 640,
+            "h": 525,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p024-03.webp",
+            "w": 457,
+            "h": 308,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 25,
@@ -6332,7 +6535,14 @@ window.HAZEL_LECTURES = [
             "zh": "•提供其他細胞器可以在細胞內運作的平臺。細胞擴增、生長和複製的所有功能都在細胞的細胞質中進行"
           }
         ],
-        "img": "assets/slides/L1/025.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p025-01.webp",
+            "w": 750,
+            "h": 557,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 26,
@@ -6378,7 +6588,14 @@ window.HAZEL_LECTURES = [
             "zh": "•包含蛋白質合成的遺傳資訊"
           }
         ],
-        "img": "assets/slides/L1/026.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p026-01.webp",
+            "w": 855,
+            "h": 814,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 27,
@@ -6424,7 +6641,20 @@ window.HAZEL_LECTURES = [
             "zh": "•功能：從食物分子中釋放能量，並將能量轉化為ATP"
           }
         ],
-        "img": "assets/slides/L1/027.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p027-01.webp",
+            "w": 700,
+            "h": 473,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p027-02.webp",
+            "w": 1000,
+            "h": 537,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 28,
@@ -6480,7 +6710,20 @@ window.HAZEL_LECTURES = [
             "zh": "•有助於合成和代謝碳水化合物、脂質和其他非蛋白質物質"
           }
         ],
-        "img": "assets/slides/L1/028.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p028-01.webp",
+            "w": 808,
+            "h": 563,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p028-02.webp",
+            "w": 998,
+            "h": 698,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 29,
@@ -6551,7 +6794,14 @@ window.HAZEL_LECTURES = [
             "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
           }
         ],
-        "img": "assets/slides/L1/029.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p029-01.webp",
+            "w": 1000,
+            "h": 490,
+            "kind": "vector"
+          }
+        ]
       },
       {
         "n": 30,
@@ -6562,7 +6812,7 @@ window.HAZEL_LECTURES = [
             "zh": "身體中的組織層級"
           }
         ],
-        "img": "assets/slides/L1/030.webp"
+        "figures": []
       },
       {
         "n": 31,
@@ -6633,7 +6883,14 @@ window.HAZEL_LECTURES = [
             "zh": "•由器官系統組成"
           }
         ],
-        "img": "assets/slides/L1/031.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p031-01.webp",
+            "w": 911,
+            "h": 1499,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 32,
@@ -6664,7 +6921,14 @@ window.HAZEL_LECTURES = [
             "zh": "4.結締組織-基礎和支撐其他組織類型"
           }
         ],
-        "img": "assets/slides/L1/032.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p032-01.webp",
+            "w": 353,
+            "h": 260,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 33,
@@ -6705,7 +6969,26 @@ window.HAZEL_LECTURES = [
             "zh": "平滑肌"
           }
         ],
-        "img": "assets/slides/L1/033.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p033-01.webp",
+            "w": 1000,
+            "h": 519,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p033-02.webp",
+            "w": 1000,
+            "h": 516,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p033-03.webp",
+            "w": 1000,
+            "h": 516,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 34,
@@ -6731,7 +7014,14 @@ window.HAZEL_LECTURES = [
             "zh": "•支持細胞：支持神經元"
           }
         ],
-        "img": "assets/slides/L1/034.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p034-01.webp",
+            "w": 1000,
+            "h": 491,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 35,
@@ -6782,7 +7072,14 @@ window.HAZEL_LECTURES = [
             "zh": "•允許細胞不斷丟失和更新"
           }
         ],
-        "img": "assets/slides/L1/035.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p035-01.webp",
+            "w": 977,
+            "h": 394,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 36,
@@ -6848,7 +7145,14 @@ window.HAZEL_LECTURES = [
             "zh": "（參考／來源）"
           }
         ],
-        "img": "assets/slides/L1/036.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p036-01.webp",
+            "w": 1000,
+            "h": 546,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 37,
@@ -6859,7 +7163,14 @@ window.HAZEL_LECTURES = [
             "zh": "4.結締組織-基礎和支撐其他組織類型"
           }
         ],
-        "img": "assets/slides/L1/037.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p037-01.webp",
+            "w": 1000,
+            "h": 614,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 38,
@@ -6925,7 +7236,14 @@ window.HAZEL_LECTURES = [
             "zh": "人體是一個複雜的系統。身體的結構協同工作，以維持體內平衡，即身體內部環境的平衡。"
           }
         ],
-        "img": "assets/slides/L1/038.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p038-01.webp",
+            "w": 1000,
+            "h": 1016,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 39,
@@ -6936,7 +7254,7 @@ window.HAZEL_LECTURES = [
             "zh": "Gene （基因基因）"
           }
         ],
-        "img": "assets/slides/L1/039.webp"
+        "figures": []
       },
       {
         "n": 40,
@@ -7022,7 +7340,14 @@ window.HAZEL_LECTURES = [
             "zh": "•翻譯： RNA→蛋白（發生在核糖體的細胞質中） DNA （脫氧核糖核酸）和RNA （核糖核酸）的大體結構"
           }
         ],
-        "img": "assets/slides/L1/040.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p040-01.webp",
+            "w": 600,
+            "h": 682,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 41,
@@ -7093,7 +7418,20 @@ window.HAZEL_LECTURES = [
             "zh": ""
           }
         ],
-        "img": "assets/slides/L1/041.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p041-01.webp",
+            "w": 756,
+            "h": 712,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p041-02.webp",
+            "w": 397,
+            "h": 577,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 42,
@@ -7129,7 +7467,20 @@ window.HAZEL_LECTURES = [
             "zh": "（見英文原文）"
           }
         ],
-        "img": "assets/slides/L1/042.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p042-01.webp",
+            "w": 1000,
+            "h": 375,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p042-02.webp",
+            "w": 320,
+            "h": 198,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 43,
@@ -7185,7 +7536,14 @@ window.HAZEL_LECTURES = [
             "zh": "•根據遺傳密碼以特定順序連接在一起，形成蛋白質。"
           }
         ],
-        "img": "assets/slides/L1/043.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p043-01.webp",
+            "w": 673,
+            "h": 436,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 44,
@@ -7216,7 +7574,14 @@ window.HAZEL_LECTURES = [
             "zh": "基因表達發生在兩個步驟：轉錄（發生在核中）和翻譯（發生在核糖體的細胞質中）。"
           }
         ],
-        "img": "assets/slides/L1/044.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p044-01.webp",
+            "w": 1000,
+            "h": 1256,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 45,
@@ -7292,7 +7657,14 @@ window.HAZEL_LECTURES = [
             "zh": "•導致更多的蛋白質產生、更多的線粒體和增加的新陳代謝。"
           }
         ],
-        "img": "assets/slides/L1/045.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p045-01.webp",
+            "w": 958,
+            "h": 1197,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 46,
@@ -7353,7 +7725,14 @@ window.HAZEL_LECTURES = [
             "zh": "•一條新合成的鏈。"
           }
         ],
-        "img": "assets/slides/L1/046.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p046-01.webp",
+            "w": 910,
+            "h": 1419,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 47,
@@ -7364,7 +7743,7 @@ window.HAZEL_LECTURES = [
             "zh": "細胞分裂"
           }
         ],
-        "img": "assets/slides/L1/047.webp"
+        "figures": []
       },
       {
         "n": 48,
@@ -7445,7 +7824,32 @@ window.HAZEL_LECTURES = [
             "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
           }
         ],
-        "img": "assets/slides/L1/048.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p048-01.webp",
+            "w": 457,
+            "h": 254,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p048-02.webp",
+            "w": 715,
+            "h": 411,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p048-03.webp",
+            "w": 613,
+            "h": 360,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p048-04.webp",
+            "w": 287,
+            "h": 252,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 49,
@@ -7501,7 +7905,20 @@ window.HAZEL_LECTURES = [
             "zh": "繁殖"
           }
         ],
-        "img": "assets/slides/L1/049.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p049-01.webp",
+            "w": 600,
+            "h": 420,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L1/p049-02.webp",
+            "w": 1000,
+            "h": 331,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 50,
@@ -7542,7 +7959,14 @@ window.HAZEL_LECTURES = [
             "zh": "•例如，由於疾病或傷害導致的細胞凋亡"
           }
         ],
-        "img": "assets/slides/L1/050.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p050-01.webp",
+            "w": 855,
+            "h": 855,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 51,
@@ -7598,7 +8022,7 @@ window.HAZEL_LECTURES = [
             "zh": "•免疫細胞可觸發有害細胞的凋亡。"
           }
         ],
-        "img": "assets/slides/L1/051.webp"
+        "figures": []
       },
       {
         "n": 52,
@@ -7649,7 +8073,14 @@ window.HAZEL_LECTURES = [
             "zh": "•巨噬細胞吞噬（吞噬和消化）細胞碎片。"
           }
         ],
-        "img": "assets/slides/L1/052.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L1/p052-01.webp",
+            "w": 489,
+            "h": 381,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 53,
@@ -7670,7 +8101,7 @@ window.HAZEL_LECTURES = [
             "zh": "（參考／來源）"
           }
         ],
-        "img": "assets/slides/L1/053.webp"
+        "figures": []
       },
       {
         "n": 54,
@@ -7681,7 +8112,7 @@ window.HAZEL_LECTURES = [
             "zh": "多謝！"
           }
         ],
-        "img": "assets/slides/L1/054.webp"
+        "figures": []
       }
     ],
     "blocks": [
@@ -9817,7 +10248,7 @@ window.HAZEL_LECTURES = [
             "zh": "人體生理學介紹II"
           }
         ],
-        "img": "assets/slides/L2/001.webp"
+        "figures": []
       },
       {
         "n": 2,
@@ -9838,7 +10269,7 @@ window.HAZEL_LECTURES = [
             "zh": "•解釋主要身體系統的細胞、組織和器官的結構和功能以及生理過程。"
           }
         ],
-        "img": "assets/slides/L2/002.webp"
+        "figures": []
       },
       {
         "n": 3,
@@ -9869,7 +10300,7 @@ window.HAZEL_LECTURES = [
             "zh": "•膜運輸"
           }
         ],
-        "img": "assets/slides/L2/003.webp"
+        "figures": []
       },
       {
         "n": 4,
@@ -9905,7 +10336,7 @@ window.HAZEL_LECTURES = [
             "zh": "•識別和解釋不同類型的膜運輸（例如擴散、滲透、主動運輸）及其在細胞功能中的作用。"
           }
         ],
-        "img": "assets/slides/L2/004.webp"
+        "figures": []
       },
       {
         "n": 5,
@@ -9916,7 +10347,7 @@ window.HAZEL_LECTURES = [
             "zh": "- 新陳代谢"
           }
         ],
-        "img": "assets/slides/L2/005.webp"
+        "figures": []
       },
       {
         "n": 6,
@@ -9972,7 +10403,20 @@ window.HAZEL_LECTURES = [
             "zh": "合成代謝"
           }
         ],
-        "img": "assets/slides/L2/006.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p006-01.webp",
+            "w": 1000,
+            "h": 473,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p006-02.webp",
+            "w": 671,
+            "h": 590,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 7,
@@ -10003,7 +10447,20 @@ window.HAZEL_LECTURES = [
             "zh": "糖酵解是一系列化學反應，涉及將葡萄糖分解為稱為丙酮酸（丙酮酸）的3碳分子，糖酵解發生在細胞的細胞質中，而此過程不需要氧氣。"
           }
         ],
-        "img": "assets/slides/L2/007.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p007-01.webp",
+            "w": 453,
+            "h": 361,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p007-02.webp",
+            "w": 521,
+            "h": 703,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 8,
@@ -10039,7 +10496,20 @@ window.HAZEL_LECTURES = [
             "zh": "第3階段將這些活化的前體組裝成複雜的分子，如蛋白質、多醣、脂質和核酸。"
           }
         ],
-        "img": "assets/slides/L2/008.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p008-01.webp",
+            "w": 963,
+            "h": 514,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p008-02.webp",
+            "w": 624,
+            "h": 843,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 9,
@@ -10050,7 +10520,7 @@ window.HAZEL_LECTURES = [
             "zh": "酶"
           }
         ],
-        "img": "assets/slides/L2/009.webp"
+        "figures": []
       },
       {
         "n": 10,
@@ -10111,7 +10581,20 @@ window.HAZEL_LECTURES = [
             "zh": "•通過增加底物的能量水平來降低反應的活化能酶是如何工作的？"
           }
         ],
-        "img": "assets/slides/L2/010.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p010-01.webp",
+            "w": 1000,
+            "h": 606,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p010-02.webp",
+            "w": 967,
+            "h": 668,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 11,
@@ -10137,7 +10620,14 @@ window.HAZEL_LECTURES = [
             "zh": "酵素"
           }
         ],
-        "img": "assets/slides/L2/011.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p011-01.webp",
+            "w": 975,
+            "h": 320,
+            "kind": "vector"
+          }
+        ]
       },
       {
         "n": 12,
@@ -10188,7 +10678,7 @@ window.HAZEL_LECTURES = [
             "zh": "酵素"
           }
         ],
-        "img": "assets/slides/L2/012.webp"
+        "figures": []
       },
       {
         "n": 13,
@@ -10214,7 +10704,14 @@ window.HAZEL_LECTURES = [
             "zh": "•酶降低活化能，使反應更容易進行。"
           }
         ],
-        "img": "assets/slides/L2/013.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p013-01.webp",
+            "w": 600,
+            "h": 290,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 14,
@@ -10245,7 +10742,14 @@ window.HAZEL_LECTURES = [
             "zh": "（參考／來源）"
           }
         ],
-        "img": "assets/slides/L2/014.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p014-01.webp",
+            "w": 834,
+            "h": 576,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 15,
@@ -10256,7 +10760,14 @@ window.HAZEL_LECTURES = [
             "zh": "（參考／來源）"
           }
         ],
-        "img": "assets/slides/L2/015.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p015-01.webp",
+            "w": 1000,
+            "h": 437,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 16,
@@ -10292,7 +10803,14 @@ window.HAZEL_LECTURES = [
             "zh": "5.存在任何抑制劑或活化劑"
           }
         ],
-        "img": "assets/slides/L2/016.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p016-01.webp",
+            "w": 937,
+            "h": 531,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 17,
@@ -10313,7 +10831,20 @@ window.HAZEL_LECTURES = [
             "zh": "•當達到最大速率時，由於酶失去其活性構象並變性，進一步的溫度升高將降低反應速率"
           }
         ],
-        "img": "assets/slides/L2/017.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p017-01.webp",
+            "w": 521,
+            "h": 363,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p017-02.webp",
+            "w": 1000,
+            "h": 332,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 18,
@@ -10344,7 +10875,14 @@ window.HAZEL_LECTURES = [
             "zh": "•氫離子含量越高，該區域的酸性越高pH值越➢低或越高？ ？ ？"
           }
         ],
-        "img": "assets/slides/L2/018.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p018-01.webp",
+            "w": 403,
+            "h": 500,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 19,
@@ -10375,7 +10913,20 @@ window.HAZEL_LECTURES = [
             "zh": "•酶的pH最佳值通常反映其中存在酶的體液的pH"
           }
         ],
-        "img": "assets/slides/L2/019.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p019-01.webp",
+            "w": 518,
+            "h": 415,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p019-02.webp",
+            "w": 482,
+            "h": 359,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 20,
@@ -10416,7 +10967,20 @@ window.HAZEL_LECTURES = [
             "zh": "•腸腔內酶原的活化保護胰臟細胞免受自我消化"
           }
         ],
-        "img": "assets/slides/L2/020.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p020-01.webp",
+            "w": 564,
+            "h": 584,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p020-02.webp",
+            "w": 600,
+            "h": 206,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 21,
@@ -10447,7 +11011,14 @@ window.HAZEL_LECTURES = [
             "zh": "•當進一步添加底物後反應速率沒有增加時，該酶被稱為飽和輔因子輔因子"
           }
         ],
-        "img": "assets/slides/L2/021.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p021-01.webp",
+            "w": 463,
+            "h": 282,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 22,
@@ -10478,7 +11049,14 @@ window.HAZEL_LECTURES = [
             "zh": "•增加反應輔酶的速度輔酶"
           }
         ],
-        "img": "assets/slides/L2/022.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p022-01.webp",
+            "w": 448,
+            "h": 515,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 23,
@@ -10519,7 +11097,14 @@ window.HAZEL_LECTURES = [
             "zh": "（參考／來源）"
           }
         ],
-        "img": "assets/slides/L2/023.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p023-01.webp",
+            "w": 613,
+            "h": 285,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 24,
@@ -10555,7 +11140,7 @@ window.HAZEL_LECTURES = [
             "zh": "•因此抑制反應酶抑制劑"
           }
         ],
-        "img": "assets/slides/L2/024.webp"
+        "figures": []
       },
       {
         "n": 25,
@@ -10596,7 +11181,14 @@ window.HAZEL_LECTURES = [
             "zh": "•因此抑制反應酶抑制劑"
           }
         ],
-        "img": "assets/slides/L2/025.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p025-01.webp",
+            "w": 991,
+            "h": 410,
+            "kind": "vector"
+          }
+        ]
       },
       {
         "n": 26,
@@ -10662,7 +11254,7 @@ window.HAZEL_LECTURES = [
             "zh": "核/細胞質（在→脫氧核糖核苷酸DNA催化新DNA聚合酶細胞分裂合成期間）在複製和修復期間的鏈。"
           }
         ],
-        "img": "assets/slides/L2/026.webp"
+        "figures": []
       },
       {
         "n": 27,
@@ -10673,7 +11265,7 @@ window.HAZEL_LECTURES = [
             "zh": "稳态"
           }
         ],
-        "img": "assets/slides/L2/027.webp"
+        "figures": []
       },
       {
         "n": 28,
@@ -10724,7 +11316,20 @@ window.HAZEL_LECTURES = [
             "zh": "動態平衡：條件並非嚴格恆定；相反，它們在目標設定點附近緊湊、健康的生理範圍內波動。"
           }
         ],
-        "img": "assets/slides/L2/028.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p028-01.webp",
+            "w": 366,
+            "h": 588,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p028-02.webp",
+            "w": 623,
+            "h": 132,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 29,
@@ -10765,7 +11370,14 @@ window.HAZEL_LECTURES = [
             "zh": "解剖學與生理學"
           }
         ],
-        "img": "assets/slides/L2/029.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p029-01.webp",
+            "w": 1000,
+            "h": 1298,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 30,
@@ -10781,7 +11393,20 @@ window.HAZEL_LECTURES = [
             "zh": "負反饋機制：體溫（ a ）負反饋是維持體內平衡的機制之一。受體"
           }
         ],
-        "img": "assets/slides/L2/030.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p030-01.webp",
+            "w": 1000,
+            "h": 587,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p030-02.webp",
+            "w": 1000,
+            "h": 610,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 31,
@@ -10802,7 +11427,14 @@ window.HAZEL_LECTURES = [
             "zh": "•快進機制導致生理變量在實際需要之前發生變化問題？"
           }
         ],
-        "img": "assets/slides/L2/031.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p031-01.webp",
+            "w": 441,
+            "h": 600,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 32,
@@ -10828,7 +11460,7 @@ window.HAZEL_LECTURES = [
             "zh": "正面回饋與負面回饋？"
           }
         ],
-        "img": "assets/slides/L2/032.webp"
+        "figures": []
       },
       {
         "n": 33,
@@ -10839,7 +11471,14 @@ window.HAZEL_LECTURES = [
             "zh": "（此頁主要為標題／圖表）"
           }
         ],
-        "img": "assets/slides/L2/033.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p033-01.webp",
+            "w": 967,
+            "h": 860,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 34,
@@ -10855,7 +11494,7 @@ window.HAZEL_LECTURES = [
             "zh": ""
           }
         ],
-        "img": "assets/slides/L2/034.webp"
+        "figures": []
       },
       {
         "n": 35,
@@ -10901,7 +11540,32 @@ window.HAZEL_LECTURES = [
             "zh": "•主動運輸-細胞必須提供代謝能（ ATP ）被動膜運輸"
           }
         ],
-        "img": "assets/slides/L2/035.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p035-01.webp",
+            "w": 965,
+            "h": 538,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p035-02.webp",
+            "w": 958,
+            "h": 570,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p035-03.webp",
+            "w": 786,
+            "h": 494,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p035-04.webp",
+            "w": 960,
+            "h": 600,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 36,
@@ -10927,7 +11591,20 @@ window.HAZEL_LECTURES = [
             "zh": "•識別和解釋不同類型的膜運輸（例如擴散、滲透、主動運輸）及其在細胞功能中的作用。"
           }
         ],
-        "img": "assets/slides/L2/036.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p036-01.webp",
+            "w": 713,
+            "h": 500,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p036-02.webp",
+            "w": 502,
+            "h": 299,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 37,
@@ -10958,7 +11635,20 @@ window.HAZEL_LECTURES = [
             "zh": "跨質膜擴散https://teachmephysiology.com/biochemistry/molecules-and-signalling/diffusion/"
           }
         ],
-        "img": "assets/slides/L2/037.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p037-01.webp",
+            "w": 810,
+            "h": 339,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p037-02.webp",
+            "w": 344,
+            "h": 479,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 38,
@@ -11004,7 +11694,26 @@ window.HAZEL_LECTURES = [
             "zh": "•例如：葡萄糖、離子（ Na、K、Ca2 ）、葡萄糖、乙醇、氨基酸"
           }
         ],
-        "img": "assets/slides/L2/038.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p038-01.webp",
+            "w": 713,
+            "h": 397,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p038-02.webp",
+            "w": 1000,
+            "h": 671,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p038-03.webp",
+            "w": 624,
+            "h": 624,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 39,
@@ -11040,7 +11749,26 @@ window.HAZEL_LECTURES = [
             "zh": "促進性擴散"
           }
         ],
-        "img": "assets/slides/L2/039.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p039-01.webp",
+            "w": 1000,
+            "h": 377,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p039-02.webp",
+            "w": 662,
+            "h": 497,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p039-03.webp",
+            "w": 661,
+            "h": 497,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 40,
@@ -11086,7 +11814,20 @@ window.HAZEL_LECTURES = [
             "zh": "•水分子通過選擇性滲透膜從濃度較低的溶液（高水勢區域高水勢）到濃度較高的溶液（低水勢區域低水勢）的淨移動 半透膜"
           }
         ],
-        "img": "assets/slides/L2/040.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p040-01.webp",
+            "w": 829,
+            "h": 435,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p040-02.webp",
+            "w": 683,
+            "h": 276,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 41,
@@ -11112,7 +11853,7 @@ window.HAZEL_LECTURES = [
             "zh": "•產生尿液：滲透作用影響腎臟中的尿液濃度。當腎小球濾液通過Henle迴圈時，滲透將水分吸出高度濃縮的髓質，形成更濃縮的尿液。"
           }
         ],
-        "img": "assets/slides/L2/041.webp"
+        "figures": []
       },
       {
         "n": 42,
@@ -11133,7 +11874,7 @@ window.HAZEL_LECTURES = [
             "zh": "•小腸吸收水分：當含有水分的食物從小腸進入血液時，會發生滲透-水分子從腸道內容物的較高濃度通過腸壁移動到水分濃度較低的血液中。"
           }
         ],
-        "img": "assets/slides/L2/042.webp"
+        "figures": []
       },
       {
         "n": 43,
@@ -11159,7 +11900,32 @@ window.HAZEL_LECTURES = [
             "zh": "（參考／來源）"
           }
         ],
-        "img": "assets/slides/L2/043.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p043-01.webp",
+            "w": 369,
+            "h": 663,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p043-02.webp",
+            "w": 514,
+            "h": 378,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p043-03.webp",
+            "w": 316,
+            "h": 568,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p043-04.webp",
+            "w": 316,
+            "h": 546,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 44,
@@ -11170,7 +11936,14 @@ window.HAZEL_LECTURES = [
             "zh": "（此頁主要為標題／圖表）"
           }
         ],
-        "img": "assets/slides/L2/044.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p044-01.webp",
+            "w": 1000,
+            "h": 561,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 45,
@@ -11186,7 +11959,14 @@ window.HAZEL_LECTURES = [
             "zh": "滲透壓滲透壓是阻止水透過滲透膜擴散所需的壓力。"
           }
         ],
-        "img": "assets/slides/L2/045.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p045-01.webp",
+            "w": 750,
+            "h": 344,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 46,
@@ -11232,7 +12012,26 @@ window.HAZEL_LECTURES = [
             "zh": "胞吐作用"
           }
         ],
-        "img": "assets/slides/L2/046.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p046-01.webp",
+            "w": 902,
+            "h": 531,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p046-02.webp",
+            "w": 721,
+            "h": 521,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p046-03.webp",
+            "w": 788,
+            "h": 748,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 47,
@@ -11268,7 +12067,20 @@ window.HAZEL_LECTURES = [
             "zh": "鈉鉀泵次要有源運輸 次級主動運輸"
           }
         ],
-        "img": "assets/slides/L2/047.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p047-01.webp",
+            "w": 797,
+            "h": 520,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p047-02.webp",
+            "w": 984,
+            "h": 1017,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 48,
@@ -11304,7 +12116,26 @@ window.HAZEL_LECTURES = [
             "zh": "（參考／來源）"
           }
         ],
-        "img": "assets/slides/L2/048.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p048-01.webp",
+            "w": 799,
+            "h": 526,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p048-02.webp",
+            "w": 1000,
+            "h": 565,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L2/p048-03.webp",
+            "w": 358,
+            "h": 232,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 49,
@@ -11385,7 +12216,14 @@ window.HAZEL_LECTURES = [
             "zh": "<g>例如:</g>"
           }
         ],
-        "img": "assets/slides/L2/049.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p049-01.webp",
+            "w": 1000,
+            "h": 588,
+            "kind": "vector"
+          }
+        ]
       },
       {
         "n": 50,
@@ -11446,7 +12284,14 @@ window.HAZEL_LECTURES = [
             "zh": "•胞吞作用和胞吐作用都是主動運輸過程https://digfir-published.macmillanusa.com/life11e/life11e_ch06_25.html影響主動運輸速率的因素"
           }
         ],
-        "img": "assets/slides/L2/050.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L2/p050-01.webp",
+            "w": 922,
+            "h": 978,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 51,
@@ -11477,7 +12322,7 @@ window.HAZEL_LECTURES = [
             "zh": "2◼ .能量（ ATP ）可用性缺乏能量會降低主動運輸率參考Goodenough, J., & McGuire, B. (2017). Biology of humans: Concepts, Applications and Issues (6th ed.). Pearson."
           }
         ],
-        "img": "assets/slides/L2/051.webp"
+        "figures": []
       },
       {
         "n": 52,
@@ -11488,7 +12333,7 @@ window.HAZEL_LECTURES = [
             "zh": "（參考／來源）"
           }
         ],
-        "img": "assets/slides/L2/052.webp"
+        "figures": []
       },
       {
         "n": 53,
@@ -11499,7 +12344,7 @@ window.HAZEL_LECTURES = [
             "zh": "多謝！"
           }
         ],
-        "img": "assets/slides/L2/053.webp"
+        "figures": []
       }
     ],
     "blocks": [
@@ -12945,7 +13790,7 @@ window.HAZEL_LECTURES = [
             "zh": "•心血管系統•感官系統"
           }
         ],
-        "img": "assets/slides/L3/001.webp"
+        "figures": []
       },
       {
         "n": 2,
@@ -12971,7 +13816,7 @@ window.HAZEL_LECTURES = [
             "zh": "•描述不同身體系統之間的相互關係"
           }
         ],
-        "img": "assets/slides/L3/002.webp"
+        "figures": []
       },
       {
         "n": 3,
@@ -13017,7 +13862,7 @@ window.HAZEL_LECTURES = [
             "zh": "•描述壓力感受器在檢測血壓變化和啟動反射以維持體內平衡方面的作用。"
           }
         ],
-        "img": "assets/slides/L3/003.webp"
+        "figures": []
       },
       {
         "n": 4,
@@ -13028,7 +13873,7 @@ window.HAZEL_LECTURES = [
             "zh": "心臟心血管系統的結構和功能 心血管系統"
           }
         ],
-        "img": "assets/slides/L3/004.webp"
+        "figures": []
       },
       {
         "n": 5,
@@ -13084,7 +13929,14 @@ window.HAZEL_LECTURES = [
             "zh": "循環系統由肺循環和全身循環組成。心臟右側跳動"
           }
         ],
-        "img": "assets/slides/L3/005.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p005-01.webp",
+            "w": 1000,
+            "h": 800,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 6,
@@ -13125,7 +13977,14 @@ window.HAZEL_LECTURES = [
             "zh": "循環系統由將血液運送到身體組織的血管組成，允許交換物質，如氧氣、營養物質、二氧化碳和"
           }
         ],
-        "img": "assets/slides/L3/006.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p006-01.webp",
+            "w": 1000,
+            "h": 874,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 7,
@@ -13171,7 +14030,14 @@ window.HAZEL_LECTURES = [
             "zh": "血管舒張會擴大皮膚表面附近的血管以釋放熱量，而血管收縮溫度調節會縮小血管以保持溫暖。這些過程通過涉及下丘腦的反饋迴路來控制，下丘腦充當身體的恆溫器。"
           }
         ],
-        "img": "assets/slides/L3/007.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p007-01.webp",
+            "w": 460,
+            "h": 350,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 8,
@@ -13212,7 +14078,20 @@ window.HAZEL_LECTURES = [
             "zh": "Types"
           }
         ],
-        "img": "assets/slides/L3/008.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p008-01.webp",
+            "w": 402,
+            "h": 600,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p008-02.webp",
+            "w": 1000,
+            "h": 170,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 9,
@@ -13263,7 +14142,14 @@ window.HAZEL_LECTURES = [
             "zh": "血凝塊血凝塊由纖維蛋白組成，白細胞類型會捕獲紅細胞、血小板和液體。"
           }
         ],
-        "img": "assets/slides/L3/009.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p009-01.webp",
+            "w": 546,
+            "h": 273,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 10,
@@ -13334,7 +14220,14 @@ window.HAZEL_LECTURES = [
             "zh": "1.抗體-免疫應答。被稱為抗體的防禦性蛋白質與細菌和病毒等外來入侵者結合，從而將其從體內清除。"
           }
         ],
-        "img": "assets/slides/L3/010.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p010-01.webp",
+            "w": 893,
+            "h": 724,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 11,
@@ -13355,7 +14248,14 @@ window.HAZEL_LECTURES = [
             "zh": "（參考／來源）"
           }
         ],
-        "img": "assets/slides/L3/011.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p011-01.webp",
+            "w": 1000,
+            "h": 1003,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 12,
@@ -13401,7 +14301,20 @@ window.HAZEL_LECTURES = [
             "zh": "血紅蛋白(a)血紅蛋白由四個亞單位組成，每個亞單位都有一個血紅蛋白和一個血紅素血基質。"
           }
         ],
-        "img": "assets/slides/L3/012.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p012-01.webp",
+            "w": 1000,
+            "h": 370,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p012-02.webp",
+            "w": 1000,
+            "h": 398,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 13,
@@ -13417,7 +14330,14 @@ window.HAZEL_LECTURES = [
             "zh": "•防護：免受感染"
           }
         ],
-        "img": "assets/slides/L3/013.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p013-01.webp",
+            "w": 1000,
+            "h": 690,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 14,
@@ -13448,7 +14368,14 @@ window.HAZEL_LECTURES = [
             "zh": "•凝→聚在一起止血（止血）的功能止血"
           }
         ],
-        "img": "assets/slides/L3/014.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p014-01.webp",
+            "w": 1000,
+            "h": 683,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 15,
@@ -13464,7 +14391,14 @@ window.HAZEL_LECTURES = [
             "zh": ""
           }
         ],
-        "img": "assets/slides/L3/015.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p015-01.webp",
+            "w": 1000,
+            "h": 689,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 16,
@@ -13475,7 +14409,14 @@ window.HAZEL_LECTURES = [
             "zh": ""
           }
         ],
-        "img": "assets/slides/L3/016.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p016-01.webp",
+            "w": 1000,
+            "h": 587,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 17,
@@ -13486,7 +14427,7 @@ window.HAZEL_LECTURES = [
             "zh": "•解剖學-構結構成身體的結構以及這些結構如何相互關聯，例如心臟結構"
           }
         ],
-        "img": "assets/slides/L3/017.webp"
+        "figures": []
       },
       {
         "n": 18,
@@ -13542,7 +14483,14 @@ window.HAZEL_LECTURES = [
             "zh": "•心尖：心臟的下尖和尖尖；朝向左臀部，靜止在第5肋間隙左右心臟的功能"
           }
         ],
-        "img": "assets/slides/L3/018.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p018-01.webp",
+            "w": 606,
+            "h": 606,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 19,
@@ -13568,7 +14516,14 @@ window.HAZEL_LECTURES = [
             "zh": "•維持循環系統和調節血壓。"
           }
         ],
-        "img": "assets/slides/L3/019.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p019-01.webp",
+            "w": 736,
+            "h": 1118,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 20,
@@ -13629,7 +14584,20 @@ window.HAZEL_LECTURES = [
             "zh": "心包中的心臟"
           }
         ],
-        "img": "assets/slides/L3/020.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p020-01.webp",
+            "w": 1000,
+            "h": 859,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p020-02.webp",
+            "w": 469,
+            "h": 252,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 21,
@@ -13675,7 +14643,14 @@ window.HAZEL_LECTURES = [
             "zh": "•這是一層薄而光滑的內皮細胞，排列在心臟腔室內。"
           }
         ],
-        "img": "assets/slides/L3/021.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p021-01.webp",
+            "w": 574,
+            "h": 782,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 22,
@@ -13731,7 +14706,20 @@ window.HAZEL_LECTURES = [
             "zh": "下半身至右心）動脈=遠離心臟心臟瓣膜靜心臟瓣膜脈=朝向心臟"
           }
         ],
-        "img": "assets/slides/L3/022.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p022-01.webp",
+            "w": 1000,
+            "h": 804,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p022-02.webp",
+            "w": 627,
+            "h": 478,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 23,
@@ -13772,7 +14760,14 @@ window.HAZEL_LECTURES = [
             "zh": "•防止腔室或血管收縮時血液回流。"
           }
         ],
-        "img": "assets/slides/L3/023.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p023-01.webp",
+            "w": 650,
+            "h": 431,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 24,
@@ -13808,7 +14803,14 @@ window.HAZEL_LECTURES = [
             "zh": "當血液從肺部運送到全身循環時，保持足夠的氧合"
           }
         ],
-        "img": "assets/slides/L3/024.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p024-01.webp",
+            "w": 1000,
+            "h": 800,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 25,
@@ -13849,7 +14851,14 @@ window.HAZEL_LECTURES = [
             "zh": ""
           }
         ],
-        "img": "assets/slides/L3/025.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p025-01.webp",
+            "w": 725,
+            "h": 442,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 26,
@@ -13930,7 +14939,14 @@ window.HAZEL_LECTURES = [
             "zh": "*動脈攜帶缺氧血液"
           }
         ],
-        "img": "assets/slides/L3/026.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p026-01.webp",
+            "w": 780,
+            "h": 556,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 27,
@@ -13971,7 +14987,14 @@ window.HAZEL_LECTURES = [
             "zh": ""
           }
         ],
-        "img": "assets/slides/L3/027.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p027-01.webp",
+            "w": 725,
+            "h": 442,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 28,
@@ -14027,7 +15050,14 @@ window.HAZEL_LECTURES = [
             "zh": "*靜脈帶有含氧血液冠狀動冠狀循環脈溝的循環系統圖"
           }
         ],
-        "img": "assets/slides/L3/028.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p028-01.webp",
+            "w": 783,
+            "h": 529,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 29,
@@ -14038,7 +15068,20 @@ window.HAZEL_LECTURES = [
             "zh": ""
           }
         ],
-        "img": "assets/slides/L3/029.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p029-01.webp",
+            "w": 584,
+            "h": 583,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p029-02.webp",
+            "w": 630,
+            "h": 417,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 30,
@@ -14089,7 +15132,20 @@ window.HAZEL_LECTURES = [
             "zh": "任何冠狀動脈疾病或疾病都可能減少氧氣和營養物質流入心臟肌肉➢增加心臟病發作和可能死亡的風險"
           }
         ],
-        "img": "assets/slides/L3/030.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p030-01.webp",
+            "w": 447,
+            "h": 412,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p030-02.webp",
+            "w": 520,
+            "h": 393,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 31,
@@ -14160,7 +15216,14 @@ window.HAZEL_LECTURES = [
             "zh": "•涉及：竇❖房結（ SA結節） –開始心跳（起搏器）❖房室結（ AV結節） -稍微延遲His ❖ （房室束）的脈衝，左右束分支❖浦肯野纖維（整個心室）"
           }
         ],
-        "img": "assets/slides/L3/031.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p031-01.webp",
+            "w": 800,
+            "h": 621,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 32,
@@ -14216,7 +15279,14 @@ window.HAZEL_LECTURES = [
             "zh": "•心室收縮，從心尖開始，向上移動到心臟底部，有效地泵出血液。"
           }
         ],
-        "img": "assets/slides/L3/032.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p032-01.webp",
+            "w": 522,
+            "h": 439,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 33,
@@ -14242,7 +15312,14 @@ window.HAZEL_LECTURES = [
             "zh": "雙心房雙心室SA房室束浦肯野→ →去極化和去極→ → →化及His纖維結節收縮收縮"
           }
         ],
-        "img": "assets/slides/L3/033.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p033-01.webp",
+            "w": 640,
+            "h": 320,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 34,
@@ -14283,7 +15360,14 @@ window.HAZEL_LECTURES = [
             "zh": "3.完全心臟（ 4腔室）舒張期： 0.4秒心臟週期收縮機械事件等容收縮期心室收縮"
           }
         ],
-        "img": "assets/slides/L3/034.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p034-01.webp",
+            "w": 790,
+            "h": 572,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 35,
@@ -14294,7 +15378,14 @@ window.HAZEL_LECTURES = [
             "zh": "心動週期"
           }
         ],
-        "img": "assets/slides/L3/035.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p035-01.webp",
+            "w": 871,
+            "h": 749,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 36,
@@ -14360,7 +15451,26 @@ window.HAZEL_LECTURES = [
             "zh": "從心室噴出→血液（卒中量）舒張期等容量舒張期心室弛豫"
           }
         ],
-        "img": "assets/slides/L3/036.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p036-01.webp",
+            "w": 1000,
+            "h": 1089,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p036-02.webp",
+            "w": 143,
+            "h": 245,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p036-03.webp",
+            "w": 149,
+            "h": 254,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 37,
@@ -14371,7 +15481,14 @@ window.HAZEL_LECTURES = [
             "zh": "（此頁主要為標題／圖表）"
           }
         ],
-        "img": "assets/slides/L3/037.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p037-01.webp",
+            "w": 883,
+            "h": 763,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 38,
@@ -14447,7 +15564,26 @@ window.HAZEL_LECTURES = [
             "zh": "心房收縮→血液進一步充入心室（舒張末期容積）"
           }
         ],
-        "img": "assets/slides/L3/038.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p038-01.webp",
+            "w": 1000,
+            "h": 1089,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p038-02.webp",
+            "w": 331,
+            "h": 284,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p038-03.webp",
+            "w": 157,
+            "h": 265,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 39,
@@ -14458,7 +15594,14 @@ window.HAZEL_LECTURES = [
             "zh": "（此頁主要為標題／圖表）"
           }
         ],
-        "img": "assets/slides/L3/039.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p039-01.webp",
+            "w": 883,
+            "h": 763,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 40,
@@ -14494,7 +15637,14 @@ window.HAZEL_LECTURES = [
             "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
           }
         ],
-        "img": "assets/slides/L3/040.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p040-01.webp",
+            "w": 1000,
+            "h": 755,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 41,
@@ -14535,7 +15685,14 @@ window.HAZEL_LECTURES = [
             "zh": ""
           }
         ],
-        "img": "assets/slides/L3/041.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p041-01.webp",
+            "w": 1000,
+            "h": 766,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 42,
@@ -14566,7 +15723,14 @@ window.HAZEL_LECTURES = [
             "zh": "•心房復極記錄被較大的QRS複合心電圖（ ECG ）心電圖掩蓋血管血管系統系統循環系統由血管組成，血管將血液運送到身體組織，允許交換維持體內平衡所必需的物質，如氧氣、營養物質、二氧化碳和廢物。"
           }
         ],
-        "img": "assets/slides/L3/042.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p042-01.webp",
+            "w": 862,
+            "h": 795,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 43,
@@ -14577,7 +15741,14 @@ window.HAZEL_LECTURES = [
             "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
           }
         ],
-        "img": "assets/slides/L3/043.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p043-01.webp",
+            "w": 1000,
+            "h": 650,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 44,
@@ -14598,7 +15769,14 @@ window.HAZEL_LECTURES = [
             "zh": "循環系統由將血液運送到身體組織的血管組成，允許交換物質，如氧氣、營養物質、二氧化碳和"
           }
         ],
-        "img": "assets/slides/L3/044.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p044-01.webp",
+            "w": 1000,
+            "h": 873,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 45,
@@ -14654,7 +15832,14 @@ window.HAZEL_LECTURES = [
             "zh": "•血液可以通過動脈動脈、靜脈靜脈和毛細血管連續（不間斷）傳遞到身體的不同部位微血管"
           }
         ],
-        "img": "assets/slides/L3/045.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p045-01.webp",
+            "w": 600,
+            "h": 420,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 46,
@@ -14690,7 +15875,14 @@ window.HAZEL_LECTURES = [
             "zh": "血壓"
           }
         ],
-        "img": "assets/slides/L3/046.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p046-01.webp",
+            "w": 136,
+            "h": 129,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 47,
@@ -14716,7 +15908,7 @@ window.HAZEL_LECTURES = [
             "zh": "位置身體內部➢更深處的毛細血管微血管"
           }
         ],
-        "img": "assets/slides/L3/047.webp"
+        "figures": []
       },
       {
         "n": 48,
@@ -14772,7 +15964,26 @@ window.HAZEL_LECTURES = [
             "zh": "•正弦波。"
           }
         ],
-        "img": "assets/slides/L3/048.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p048-01.webp",
+            "w": 1000,
+            "h": 508,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p048-02.webp",
+            "w": 466,
+            "h": 298,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p048-03.webp",
+            "w": 350,
+            "h": 307,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 49,
@@ -14808,7 +16019,14 @@ window.HAZEL_LECTURES = [
             "zh": "血壓➢低(http://www.vascularconcepts.com/content/pages.php?pg=patients_cardio_system&page=the_blood)血液流動的靜脈力血液被迫瓣膜被血壓向心臟打開靜脈被肌肉擠壓"
           }
         ],
-        "img": "assets/slides/L3/049.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p049-01.webp",
+            "w": 706,
+            "h": 439,
+            "kind": "vector"
+          }
+        ]
       },
       {
         "n": 50,
@@ -14844,7 +16062,26 @@ window.HAZEL_LECTURES = [
             "zh": "位置➢ 靠近身體表面"
           }
         ],
-        "img": "assets/slides/L3/050.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p050-01.webp",
+            "w": 553,
+            "h": 899,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p050-02.webp",
+            "w": 393,
+            "h": 266,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p050-03.webp",
+            "w": 595,
+            "h": 516,
+            "kind": "vector"
+          }
+        ]
       },
       {
         "n": 51,
@@ -14900,7 +16137,14 @@ window.HAZEL_LECTURES = [
             "zh": "靜脈回流"
           }
         ],
-        "img": "assets/slides/L3/051.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p051-01.webp",
+            "w": 1000,
+            "h": 379,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 52,
@@ -14971,7 +16215,7 @@ window.HAZEL_LECTURES = [
             "zh": "例如，如果心率為75次/分鐘，例如，如果EDV = 135毫升， ESV = 65毫升，每次心跳噴射70毫升血液： SV = 135毫升– 65毫升= 70毫升CO = 5250毫升/分鐘(5.25 L/分鐘)行程容積(SV) Frank-Starling心臟定律EDV =舒張末期容積(預載)"
           }
         ],
-        "img": "assets/slides/L3/052.webp"
+        "figures": []
       },
       {
         "n": 53,
@@ -14982,7 +16226,20 @@ window.HAZEL_LECTURES = [
             "zh": "•每次抽吸的血量•每分鐘的卒中量（ SV ）心搏量心室（左心室） •每次心跳時從每個心室噴出的血量"
           }
         ],
-        "img": "assets/slides/L3/053.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p053-01.webp",
+            "w": 1000,
+            "h": 747,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p053-02.webp",
+            "w": 973,
+            "h": 654,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 54,
@@ -15008,7 +16265,14 @@ window.HAZEL_LECTURES = [
             "zh": "•每搏量（ SV ） ：按•噴射後每個心室殘留的血量刺激/抑制心室CO = HR • SV SV = EDV – ESV"
           }
         ],
-        "img": "assets/slides/L3/054.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p054-01.webp",
+            "w": 1000,
+            "h": 798,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 55,
@@ -15074,7 +16338,14 @@ window.HAZEL_LECTURES = [
             "zh": "•當其活性降低時，抑制作用會降低，導致心率升高。"
           }
         ],
-        "img": "assets/slides/L3/055.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p055-01.webp",
+            "w": 1000,
+            "h": 554,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 56,
@@ -15130,7 +16401,20 @@ window.HAZEL_LECTURES = [
             "zh": "腎上腺素提高心率和收縮力的血漿激素（腎上腺素） CO = HR x SV HR、SV和CO EDV的調節EDV =舒張末期容積（預負荷）"
           }
         ],
-        "img": "assets/slides/L3/056.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p056-01.webp",
+            "w": 1000,
+            "h": 610,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p056-02.webp",
+            "w": 1000,
+            "h": 551,
+            "kind": "vector"
+          }
+        ]
       },
       {
         "n": 57,
@@ -15176,7 +16460,14 @@ window.HAZEL_LECTURES = [
             "zh": "心輸出量"
           }
         ],
-        "img": "assets/slides/L3/057.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p057-01.webp",
+            "w": 1000,
+            "h": 595,
+            "kind": "vector"
+          }
+        ]
       },
       {
         "n": 58,
@@ -15232,7 +16523,26 @@ window.HAZEL_LECTURES = [
             "zh": "•單位：毫米汞柱(mmHg) CO = HR x SV"
           }
         ],
-        "img": "assets/slides/L3/058.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p058-01.webp",
+            "w": 488,
+            "h": 437,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p058-02.webp",
+            "w": 328,
+            "h": 201,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p058-03.webp",
+            "w": 322,
+            "h": 294,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 59,
@@ -15268,7 +16578,7 @@ window.HAZEL_LECTURES = [
             "zh": "MAP (BP) = CO x TPR CO = HR x SV動脈壓MAP調節= CO x TPR"
           }
         ],
-        "img": "assets/slides/L3/059.webp"
+        "figures": []
       },
       {
         "n": 60,
@@ -15314,7 +16624,14 @@ window.HAZEL_LECTURES = [
             "zh": "動脈壓調節平均動脈壓（ MAP ） （心臟週期期間的平均血壓）由以下因素決定："
           }
         ],
-        "img": "assets/slides/L3/060.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p060-01.webp",
+            "w": 1000,
+            "h": 648,
+            "kind": "vector"
+          }
+        ]
       },
       {
         "n": 61,
@@ -15385,7 +16702,7 @@ window.HAZEL_LECTURES = [
             "zh": "•肝臟、腎臟、肺、腎上腺CO = HR x SV"
           }
         ],
-        "img": "assets/slides/L3/061.webp"
+        "figures": []
       },
       {
         "n": 62,
@@ -15431,7 +16748,20 @@ window.HAZEL_LECTURES = [
             "zh": "•壓力感受器"
           }
         ],
-        "img": "assets/slides/L3/062.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p062-01.webp",
+            "w": 861,
+            "h": 685,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p062-02.webp",
+            "w": 961,
+            "h": 404,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 63,
@@ -15447,7 +16777,20 @@ window.HAZEL_LECTURES = [
             "zh": "•突然的血壓、動脈壁的伸展、壓力感受器的刺激、發送到腦幹延髓中的延髓心血管/心臟調節中心的脈衝（動作電位頻率） （副交感神經活動）壓力感受器反射增加血壓降低血壓CO = HR x SV壓力感受器反射圖= CO x TPR CO = HR x SV"
           }
         ],
-        "img": "assets/slides/L3/063.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p063-01.webp",
+            "w": 450,
+            "h": 338,
+            "kind": "embed"
+          },
+          {
+            "src": "assets/figures/L3/p063-02.webp",
+            "w": 1000,
+            "h": 760,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 64,
@@ -15463,7 +16806,14 @@ window.HAZEL_LECTURES = [
             "zh": "壓力感受器反射圖= CO x TPR"
           }
         ],
-        "img": "assets/slides/L3/064.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p064-01.webp",
+            "w": 560,
+            "h": 482,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 65,
@@ -15499,7 +16849,14 @@ window.HAZEL_LECTURES = [
             "zh": "心血管中心（ CVC ） CO = HR x SV腎臟調節（腎臟）圖= CO x TPR"
           }
         ],
-        "img": "assets/slides/L3/065.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p065-01.webp",
+            "w": 688,
+            "h": 217,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 66,
@@ -15530,7 +16887,14 @@ window.HAZEL_LECTURES = [
             "zh": "•血壓降低刺激腎臟保持水分，從而增加血壓CO = HR x SV Renin-Angiotensin-Aldosterone System MAP = CO x TPR References Goodenough, J., & McGuire, B. (2017)。Biology of humans: Concepts, Applications and Issues (6th ed.). Pearson."
           }
         ],
-        "img": "assets/slides/L3/066.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p066-01.webp",
+            "w": 479,
+            "h": 73,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 67,
@@ -15546,7 +16910,14 @@ window.HAZEL_LECTURES = [
             "zh": "•腎素-血管緊張素-醛固酮系統（ RAAS ）"
           }
         ],
-        "img": "assets/slides/L3/067.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p067-01.webp",
+            "w": 1000,
+            "h": 443,
+            "kind": "embed"
+          }
+        ]
       },
       {
         "n": 68,
@@ -15557,7 +16928,7 @@ window.HAZEL_LECTURES = [
             "zh": "（參考／來源）"
           }
         ],
-        "img": "assets/slides/L3/068.webp"
+        "figures": []
       },
       {
         "n": 69,
@@ -15568,7 +16939,14 @@ window.HAZEL_LECTURES = [
             "zh": "多謝！"
           }
         ],
-        "img": "assets/slides/L3/069.webp"
+        "figures": [
+          {
+            "src": "assets/figures/L3/p069-01.webp",
+            "w": 700,
+            "h": 435,
+            "kind": "embed"
+          }
+        ]
       }
     ],
     "blocks": [

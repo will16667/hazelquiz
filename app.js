@@ -1379,6 +1379,138 @@
     saveState(state);
   }
 
+  function ensureFigLightbox() {
+    var box = document.getElementById("fig-lightbox");
+    if (box) return box;
+    box = document.createElement("div");
+    box.id = "fig-lightbox";
+    box.className = "fig-lightbox";
+    box.hidden = true;
+    box.innerHTML =
+      '<button type="button" class="fig-lb-close" aria-label="關閉">×</button>' +
+      '<div class="fig-lb-stage">' +
+      '<img class="fig-lb-img" alt="" draggable="false" />' +
+      "</div>" +
+      '<p class="fig-lb-hint">雙指或滾輪縮放 · 拖移移動 · 點空白／Esc 關閉</p>';
+    document.body.appendChild(box);
+
+    var img = box.querySelector(".fig-lb-img");
+    var stage = box.querySelector(".fig-lb-stage");
+    var state = { scale: 1, x: 0, y: 0, px: 0, py: 0, dragging: false, pointers: new Map(), pinch: 0 };
+
+    function apply() {
+      img.style.transform =
+        "translate(" + state.x + "px," + state.y + "px) scale(" + state.scale + ")";
+    }
+    function resetView() {
+      state.scale = 1;
+      state.x = 0;
+      state.y = 0;
+      apply();
+    }
+    function close() {
+      box.hidden = true;
+      box.classList.remove("open");
+      document.body.classList.remove("lb-open");
+      img.removeAttribute("src");
+      resetView();
+    }
+    box._hqClose = close;
+    box._hqReset = resetView;
+    box._hqApply = apply;
+    box._hqState = state;
+
+    box.querySelector(".fig-lb-close").addEventListener("click", function (e) {
+      e.stopPropagation();
+      close();
+    });
+    box.addEventListener("click", function (e) {
+      if (e.target === box || e.target === stage) close();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (!box.hidden && e.key === "Escape") close();
+    });
+
+    stage.addEventListener(
+      "wheel",
+      function (e) {
+        if (box.hidden) return;
+        e.preventDefault();
+        var delta = e.deltaY > 0 ? -0.12 : 0.12;
+        state.scale = Math.min(5, Math.max(1, state.scale + delta));
+        if (state.scale === 1) {
+          state.x = 0;
+          state.y = 0;
+        }
+        apply();
+      },
+      { passive: false }
+    );
+
+    stage.addEventListener("pointerdown", function (e) {
+      if (box.hidden) return;
+      stage.setPointerCapture(e.pointerId);
+      state.pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (state.pointers.size === 1) {
+        state.dragging = true;
+        state.px = e.clientX - state.x;
+        state.py = e.clientY - state.y;
+      } else if (state.pointers.size === 2) {
+        var pts = Array.from(state.pointers.values());
+        var dx = pts[0].x - pts[1].x;
+        var dy = pts[0].y - pts[1].y;
+        state.pinch = Math.hypot(dx, dy) || 1;
+      }
+    });
+    stage.addEventListener("pointermove", function (e) {
+      if (!state.pointers.has(e.pointerId)) return;
+      state.pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (state.pointers.size === 2) {
+        var pts = Array.from(state.pointers.values());
+        var dx = pts[0].x - pts[1].x;
+        var dy = pts[0].y - pts[1].y;
+        var dist = Math.hypot(dx, dy) || 1;
+        if (state.pinch) {
+          var ratio = dist / state.pinch;
+          state.scale = Math.min(5, Math.max(1, state.scale * ratio));
+          state.pinch = dist;
+          apply();
+        }
+      } else if (state.dragging && state.scale > 1) {
+        state.x = e.clientX - state.px;
+        state.y = e.clientY - state.py;
+        apply();
+      }
+    });
+    function endPtr(e) {
+      state.pointers.delete(e.pointerId);
+      if (state.pointers.size < 2) state.pinch = 0;
+      if (state.pointers.size === 0) state.dragging = false;
+    }
+    stage.addEventListener("pointerup", endPtr);
+    stage.addEventListener("pointercancel", endPtr);
+    stage.addEventListener("dblclick", function () {
+      if (state.scale > 1) resetView();
+      else {
+        state.scale = 2.2;
+        apply();
+      }
+    });
+    return box;
+  }
+
+  function openFigLightbox(src, alt) {
+    if (!src) return;
+    var box = ensureFigLightbox();
+    var img = box.querySelector(".fig-lb-img");
+    box._hqReset();
+    img.alt = alt || "";
+    img.src = src;
+    box.hidden = false;
+    box.classList.add("open");
+    document.body.classList.add("lb-open");
+  }
+
   function renderLecture(id, opts) {
     opts = opts || {};
     var L = lectureById(id);
@@ -1392,7 +1524,7 @@
       try { window.__hqScrollCleanup(); } catch (e) {}
     }
 
-    var pages = L.pages && L.pages.length ? L.pages : [{ n: 1, blocks: L.blocks || [], img: "" }];
+    var pages = L.pages && L.pages.length ? L.pages : [{ n: 1, blocks: L.blocks || [], figures: [] }];
     var total = pages.length;
     var savedPg = savedPageFor(L);
     var pageNum = opts.page || (opts.resume && savedPg ? savedPg : 1);
@@ -1416,7 +1548,7 @@
       escapeHtml(L.titleEn) +
       "</p>" +
       '<div class="flow-steps compact"><span class="flow-step on">① 讀全文</span><span class="flow-arrow">→</span><span class="flow-step">② 溫重點</span><span class="flow-arrow">→</span><span class="flow-step">③ 測驗</span></div>' +
-      '<p class="lede reader-hint">跟 PDF 一頁一頁讀；點英文可睇解釋／發音／存生字。進度 ' +
+      '<p class="lede reader-hint">跟 PDF 一頁一頁讀；圖表喺文字下面，點圖可放大。點英文可睇解釋／發音／存生字。進度 ' +
       prog.done +
       "/" +
       prog.total +
@@ -1450,17 +1582,6 @@
       pageNum +
       '">';
 
-    if (page.img) {
-      html +=
-        '<figure class="slide-fig">' +
-        '<img class="slide-img" src="' +
-        escapeHtml(page.img) +
-        '" alt="投影片第 ' +
-        pageNum +
-        ' 頁" loading="eager" decoding="async" width="900" />' +
-        '<figcaption class="hint">投影片預覽 · 可放大睇圖</figcaption></figure>';
-    }
-
     (page.blocks || []).forEach(function (b, bi) {
       var t = b.t || "";
       var zh = b.zh || "";
@@ -1479,6 +1600,43 @@
         html += wrapOpen + '<p class="reader-p">' + linked + "</p>" + wrapClose;
       }
     });
+
+    var figs = page.figures || [];
+    if (figs.length) {
+      html += '<div class="fig-grid" aria-label="本頁圖表">';
+      figs.forEach(function (f, fi) {
+        var src = f.src || "";
+        if (!src) return;
+        html +=
+          '<figure class="fig-card">' +
+          '<button type="button" class="fig-btn" data-fig-src="' +
+          escapeHtml(src) +
+          '" data-fig-alt="第 ' +
+          pageNum +
+          " 頁圖 " +
+          (fi + 1) +
+          '" aria-label="放大圖 ' +
+          (fi + 1) +
+          '">' +
+          '<img class="fig-img" src="' +
+          escapeHtml(src) +
+          '" alt="第 ' +
+          pageNum +
+          " 頁圖 " +
+          (fi + 1) +
+          '" loading="lazy" decoding="async"' +
+          (f.w ? ' width="' + f.w + '"' : "") +
+          (f.h ? ' height="' + f.h + '"' : "") +
+          " />" +
+          '<span class="fig-zoom-hint" aria-hidden="true">🔍</span>' +
+          "</button>" +
+          '<figcaption class="hint">圖 ' +
+          (fi + 1) +
+          (figs.length > 1 ? " / " + figs.length : "") +
+          " · 點圖放大</figcaption></figure>";
+      });
+      html += "</div>";
+    }
 
     html +=
       '<div class="page-nav bottom card" role="navigation">' +
@@ -1540,16 +1698,11 @@
     bindNav("page-prev", "page-next");
     bindNav("page-prev-b", "page-next-b");
 
-    var slide = reader && reader.querySelector(".slide-img");
-    if (slide) {
-      slide.addEventListener("click", function () {
-        if (document.fullscreenElement) {
-          document.exitFullscreen().catch(function () {});
-        } else if (slide.requestFullscreen) {
-          slide.requestFullscreen().catch(function () {});
-        } else {
-          window.open(slide.src, "_blank");
-        }
+    if (reader) {
+      reader.querySelectorAll(".fig-btn").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          openFigLightbox(btn.getAttribute("data-fig-src"), btn.getAttribute("data-fig-alt") || "");
+        });
       });
     }
   }
