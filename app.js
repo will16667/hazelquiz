@@ -63,23 +63,28 @@
     );
   }
 
+  function emptyState() {
+    return { cleared: {}, bank: {}, progress: {}, readPos: {}, updatedAt: 0 };
+  }
+
   function loadState() {
     try {
       var raw = localStorage.getItem(STORAGE_KEY);
-      if (!raw) return { cleared: {}, bank: {}, progress: {}, readPos: {} };
+      if (!raw) return emptyState();
       var data = JSON.parse(raw);
       return {
         cleared: data.cleared || {},
         bank: data.bank || {},
         progress: data.progress || {},
         readPos: data.readPos || {},
+        updatedAt: data.updatedAt || 0,
       };
     } catch (e) {
-      return { cleared: {}, bank: {}, progress: {}, readPos: {} };
+      return emptyState();
     }
   }
 
-  function saveState(state) {
+  function persistLocal(state) {
     localStorage.setItem(
       STORAGE_KEY,
       JSON.stringify({
@@ -87,12 +92,345 @@
         bank: state.bank,
         progress: state.progress,
         readPos: state.readPos || {},
+        updatedAt: state.updatedAt || Date.now(),
         v: 1,
       })
     );
   }
 
+  function saveState(state) {
+    state.updatedAt = Date.now();
+    try {
+      persistLocal(state);
+    } catch (e) {
+      alert("無法寫入本機資料。");
+    }
+    scheduleCloudPush();
+    updateSyncStatus();
+  }
+
   var state = loadState();
+
+  /* ---- Cloud sync (Apps Script) ---- */
+  var SYNC_CFG_KEY = "hazelquiz-sync-cfg";
+  var DEFAULT_SYNC_URL = (window.HAZEL_SYNC_URL || "").trim();
+  var cloudReady = false;
+  var cloudPending = false;
+  var cloudTimer = null;
+  var syncGen = 0;
+  var syncStatus = "local"; // local | ready | syncing | synced | error | setup
+  var syncError = "";
+
+  function loadSyncCfg() {
+    try {
+      var raw = localStorage.getItem(SYNC_CFG_KEY);
+      var cfg = raw ? JSON.parse(raw) : {};
+      return {
+        url: String(cfg.url || DEFAULT_SYNC_URL || "").trim(),
+        user: String(cfg.user || "").trim(),
+        pin: String(cfg.pin || "").trim(),
+      };
+    } catch (e) {
+      return { url: DEFAULT_SYNC_URL || "", user: "", pin: "" };
+    }
+  }
+
+  function saveSyncCfg(cfg) {
+    localStorage.setItem(
+      SYNC_CFG_KEY,
+      JSON.stringify({
+        url: String(cfg.url || "").trim(),
+        user: String(cfg.user || "").trim(),
+        pin: String(cfg.pin || "").trim(),
+      })
+    );
+  }
+
+  function syncConfigured() {
+    var c = loadSyncCfg();
+    return !!(c.url && c.user && c.pin && c.pin.length >= 4);
+  }
+
+  function updateSyncStatus() {
+    var el = document.getElementById("sync-status");
+    if (!el) return;
+    var label = "僅本機";
+    var cls = "sync-pill local";
+    if (!syncConfigured()) {
+      label = "未開雲端";
+      cls = "sync-pill setup";
+      syncStatus = "setup";
+    } else if (syncStatus === "syncing") {
+      label = "同步中…";
+      cls = "sync-pill syncing";
+    } else if (syncStatus === "synced") {
+      label = "已同步";
+      cls = "sync-pill synced";
+    } else if (syncStatus === "error") {
+      label = "同步失敗";
+      cls = "sync-pill error";
+    } else if (syncStatus === "ready") {
+      label = "雲端就緒";
+      cls = "sync-pill ready";
+    }
+    el.className = cls;
+    el.textContent = label;
+    el.href = "#/sync";
+    el.title = syncError || "雲端同步設定";
+  }
+
+  function touchBankItem(item) {
+    if (!item) return item;
+    item.updatedAt = Date.now();
+    return item;
+  }
+
+  function pickNewerItem(a, b) {
+    var ta = a && a.updatedAt ? a.updatedAt : a && a.added ? Date.parse(a.added) || 0 : 0;
+    var tb = b && b.updatedAt ? b.updatedAt : b && b.added ? Date.parse(b.added) || 0 : 0;
+    if (tb > ta) return b;
+    if (ta > tb) return a;
+    // Prefer richer gloss / higher SRS stage on ties
+    if ((b.stage || 0) !== (a.stage || 0)) return (b.stage || 0) > (a.stage || 0) ? b : a;
+    return a;
+  }
+
+  function mergeMaps(localMap, remoteMap, pick) {
+    var out = Object.assign({}, localMap || {});
+    var remote = remoteMap && typeof remoteMap === "object" ? remoteMap : {};
+    Object.keys(remote).forEach(function (key) {
+      if (!Object.prototype.hasOwnProperty.call(out, key)) out[key] = remote[key];
+      else out[key] = pick(out[key], remote[key]);
+    });
+    return out;
+  }
+
+  function mergeCleared(a, b) {
+    var out = Object.assign({}, a || {});
+    Object.keys(b || {}).forEach(function (k) {
+      if (b[k]) out[k] = true;
+    });
+    return out;
+  }
+
+  function mergeReadPos(a, b) {
+    var out = Object.assign({}, a || {});
+    Object.keys(b || {}).forEach(function (k) {
+      var lv = Number((out[k] && out[k].y) || out[k] || 0);
+      var rv = Number((b[k] && b[k].y) || b[k] || 0);
+      if (rv > lv) out[k] = b[k];
+      else if (!out[k]) out[k] = b[k];
+    });
+    return out;
+  }
+
+  function mergeState(local, remote) {
+    var ls = local && typeof local === "object" ? local : emptyState();
+    var rs = remote && typeof remote === "object" ? remote : emptyState();
+    return {
+      cleared: mergeCleared(ls.cleared, rs.cleared),
+      bank: mergeMaps(ls.bank, rs.bank, pickNewerItem),
+      progress: mergeMaps(ls.progress, rs.progress, pickNewerItem),
+      readPos: mergeReadPos(ls.readPos, rs.readPos),
+      updatedAt: Math.max(ls.updatedAt || 0, rs.updatedAt || 0, Date.now()),
+    };
+  }
+
+  function cloudFetch(action, data) {
+    var cfg = loadSyncCfg();
+    if (!cfg.url || !cfg.user || !cfg.pin) {
+      return Promise.reject(new Error("not_configured"));
+    }
+    var payload = {
+      action: action,
+      user: cfg.user,
+      pin: cfg.pin,
+    };
+    if (data) payload.data = data;
+    return fetch(cfg.url, {
+      method: "POST",
+      // text/plain avoids CORS preflight on Apps Script
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(payload),
+    }).then(function (res) {
+      return res.text().then(function (text) {
+        var json = null;
+        try {
+          json = JSON.parse(text);
+        } catch (e) {
+          throw new Error("bad_response");
+        }
+        if (!json || !json.ok) {
+          throw new Error((json && json.error) || "cloud_error");
+        }
+        return json;
+      });
+    });
+  }
+
+  function statePayload() {
+    return {
+      cleared: state.cleared,
+      bank: state.bank,
+      progress: state.progress,
+      readPos: state.readPos || {},
+      updatedAt: state.updatedAt || Date.now(),
+      v: 1,
+    };
+  }
+
+  function pushCloud() {
+    if (!syncConfigured()) return;
+    var gen = syncGen;
+    var snap = JSON.stringify(statePayload());
+    syncStatus = "syncing";
+    updateSyncStatus();
+    cloudFetch("push", statePayload())
+      .then(function () {
+        if (gen !== syncGen) return;
+        if (JSON.stringify(statePayload()) !== snap) {
+          pushCloud();
+          return;
+        }
+        syncStatus = "synced";
+        syncError = "";
+        updateSyncStatus();
+      })
+      .catch(function (err) {
+        if (gen !== syncGen) return;
+        syncStatus = "error";
+        syncError = String(err && err.message ? err.message : err);
+        updateSyncStatus();
+      });
+  }
+
+  function scheduleCloudPush() {
+    if (!syncConfigured()) return;
+    if (!cloudReady) {
+      cloudPending = true;
+      return;
+    }
+    clearTimeout(cloudTimer);
+    syncStatus = "syncing";
+    updateSyncStatus();
+    cloudTimer = setTimeout(pushCloud, 500);
+  }
+
+  function pullCloud() {
+    if (!syncConfigured()) {
+      cloudReady = true;
+      syncStatus = "setup";
+      updateSyncStatus();
+      return;
+    }
+    var gen = syncGen;
+    syncStatus = "syncing";
+    updateSyncStatus();
+    cloudFetch("pull")
+      .then(function (json) {
+        if (gen !== syncGen) {
+          cloudReady = true;
+          if (cloudPending) {
+            cloudPending = false;
+            pushCloud();
+          }
+          return;
+        }
+        cloudReady = true;
+        var remote = json.data;
+        if (remote && typeof remote === "object") {
+          var merged = mergeState(state, remote);
+          var before = JSON.stringify(statePayload());
+          state.cleared = merged.cleared;
+          state.bank = merged.bank;
+          state.progress = merged.progress;
+          state.readPos = merged.readPos;
+          state.updatedAt = merged.updatedAt;
+          var after = JSON.stringify(statePayload());
+          if (after !== before) {
+            persistLocal(state);
+            updateBadge();
+            // Re-render current route if quiet
+            try {
+              route();
+            } catch (e) {}
+          }
+          if (after !== JSON.stringify({
+            cleared: remote.cleared || {},
+            bank: remote.bank || {},
+            progress: remote.progress || {},
+            readPos: remote.readPos || {},
+            updatedAt: remote.updatedAt || 0,
+            v: 1,
+          })) {
+            pushCloud();
+          } else {
+            syncStatus = "synced";
+            syncError = "";
+            updateSyncStatus();
+          }
+        } else if (
+          Object.keys(state.bank).length ||
+          Object.keys(state.cleared).length ||
+          cloudPending
+        ) {
+          pushCloud();
+        } else {
+          syncStatus = "synced";
+          syncError = "";
+          updateSyncStatus();
+        }
+        cloudPending = false;
+      })
+      .catch(function (err) {
+        cloudReady = true;
+        syncStatus = "error";
+        syncError = String(err && err.message ? err.message : err);
+        updateSyncStatus();
+        if (cloudPending) {
+          cloudPending = false;
+          pushCloud();
+        }
+      });
+  }
+
+  function exportStateFile() {
+    var blob = new Blob([JSON.stringify(statePayload(), null, 2)], {
+      type: "application/json",
+    });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "hazelquiz-backup-" + todayISO() + ".json";
+    a.click();
+    setTimeout(function () {
+      URL.revokeObjectURL(a.href);
+    }, 1000);
+  }
+
+  function importStateFile(file) {
+    var reader = new FileReader();
+    reader.onload = function () {
+      try {
+        var data = JSON.parse(String(reader.result || ""));
+        if (!data || typeof data !== "object") throw new Error("bad");
+        var merged = mergeState(state, data);
+        state.cleared = merged.cleared;
+        state.bank = merged.bank;
+        state.progress = merged.progress;
+        state.readPos = merged.readPos;
+        state.updatedAt = Date.now();
+        persistLocal(state);
+        scheduleCloudPush();
+        updateBadge();
+        alert("已匯入並合併生字／進度。");
+        location.hash = "#/bank";
+        route();
+      } catch (e) {
+        alert("匯入失敗：檔案格式不正確。");
+      }
+    };
+    reader.readAsText(file);
+  }
 
   function loadShowZh() {
     try {
@@ -131,12 +469,23 @@
     return !!state.cleared[id];
   }
 
+
+  function isLiveBankItem(item) {
+    return !!(item && !item.deleted && item.term);
+  }
+
+  function liveBankKeys() {
+    return Object.keys(state.bank).filter(function (k) {
+      return isLiveBankItem(state.bank[k]);
+    });
+  }
+
   function dueCount() {
     var t = todayISO();
     var n = 0;
     Object.keys(state.bank).forEach(function (k) {
       var item = state.bank[k];
-      if (item && item.due && item.due <= t) n += 1;
+      if (isLiveBankItem(item) && item.due && item.due <= t) n += 1;
     });
     return n;
   }
@@ -628,7 +977,7 @@
     }
     document.getElementById("sheet-gloss").textContent = vocab.gloss || "";
     var key = vocab.term.toLowerCase();
-    var saved = !!state.bank[key];
+    var saved = isLiveBankItem(state.bank[key]);
     document.getElementById("sheet-save").hidden = saved;
     document.getElementById("sheet-remove").hidden = !saved;
     var note = document.getElementById("sheet-note");
@@ -657,7 +1006,7 @@
     if (!sheetTerm) return;
     var v = sheetTerm.vocab;
     var key = v.term.toLowerCase();
-    state.bank[key] = {
+    state.bank[key] = touchBankItem({
       term: v.term,
       zh: v.zh || "",
       ipa: v.ipa || "",
@@ -667,7 +1016,7 @@
       stage: 0,
       due: todayISO(),
       added: todayISO(),
-    };
+    });
     saveState(state);
     updateBadge();
     openSheet(v, sheetTerm.gateId);
@@ -676,7 +1025,10 @@
   function removeVocab() {
     if (!sheetTerm) return;
     var key = sheetTerm.vocab.term.toLowerCase();
-    delete state.bank[key];
+    state.bank[key] = touchBankItem({
+      term: sheetTerm.vocab.term,
+      deleted: true,
+    });
     saveState(state);
     updateBadge();
     openSheet(sheetTerm.vocab, sheetTerm.gateId);
@@ -1304,10 +1656,24 @@
 
   function renderBank() {
     setNav("bank");
-    var keys = Object.keys(state.bank).sort();
+    var keys = liveBankKeys().sort();
+    var cfg = loadSyncCfg();
     var html =
       '<p class="kicker">生字庫</p><h2>已儲存生字</h2>' +
-      '<p class="lede">筆記入面所有英文都可點：睇解釋、發音、儲生字；複習頁會按間隔提醒。</p>';
+      '<p class="lede">筆記入面所有英文都可點：睇解釋、發音、儲生字；複習頁會按間隔提醒。</p>' +
+      '<div class="card sync-card">' +
+      '<div class="sync-row"><strong>雲端同步</strong> ' +
+      (syncConfigured()
+        ? '<span class="sync-inline synced">線上儲存已開 · ' + escapeHtml(cfg.user) + "</span>"
+        : '<span class="sync-inline setup">未設定（而家只存呢部機）</span>') +
+      '</div>' +
+      '<div class="gate-actions sync-actions">' +
+      '<a class="primary" href="#/sync">同步設定</a>' +
+      '<button type="button" class="ghost" id="btn-export">匯出備份</button>' +
+      '<label class="ghost file-btn">匯入<input type="file" id="btn-import" accept="application/json,.json" hidden /></label>' +
+      "</div>" +
+      '<p class="hint">開咗雲端之後，生字／關卡進度／複習進度會自動上線；無網都可繼續用本機。</p>' +
+      "</div>";
     if (!keys.length) {
       html +=
         '<div class="card empty"><p>未有生字。</p>' +
@@ -1336,6 +1702,14 @@
       });
     }
     main.innerHTML = html;
+    var ex = document.getElementById("btn-export");
+    if (ex) ex.addEventListener("click", exportStateFile);
+    var imp = document.getElementById("btn-import");
+    if (imp)
+      imp.addEventListener("change", function () {
+        if (imp.files && imp.files[0]) importStateFile(imp.files[0]);
+        imp.value = "";
+      });
     main.querySelectorAll("[data-bank]").forEach(function (btn) {
       btn.addEventListener("click", function () {
         var v = state.bank[btn.getAttribute("data-bank")];
@@ -1351,6 +1725,83 @@
     });
   }
 
+  function renderSync() {
+    setNav("bank");
+    var cfg = loadSyncCfg();
+    main.innerHTML =
+      '<p class="kicker">雲端</p><h2>線上同步設定</h2>' +
+      '<p class="lede">生字、關卡通關、閱讀進度、SRS 複習會存上 Google Drive（HazelQuiz 專用），換機一樣攞得返。本機仍然有快取，無網都用得。</p>' +
+      '<div class="card">' +
+      '<label class="field"><span>同步代號</span>' +
+      '<input id="sync-user" type="text" autocomplete="username" placeholder="例如 hazel 或電郵" value="' +
+      escapeHtml(cfg.user) +
+      '" /></label>' +
+      '<label class="field"><span>PIN（至少 4 位）</span>' +
+      '<input id="sync-pin" type="password" autocomplete="current-password" inputmode="numeric" placeholder="兩部機要用同一個" value="' +
+      escapeHtml(cfg.pin) +
+      '" /></label>' +
+      '<label class="field"><span>Apps Script 網址（/exec）</span>' +
+      '<input id="sync-url" type="url" placeholder="https://script.google.com/macros/s/…/exec" value="' +
+      escapeHtml(cfg.url) +
+      '" /></label>' +
+      '<p class="hint">首次要 Will 喺 Google 部署一次 sync/Code.gs（見 Drive 資料夾說明）。之後貼 /exec 連結到呢度。兩部裝置用<strong>同一個代號＋PIN</strong>就會合併。</p>' +
+      '<div class="gate-actions">' +
+      '<button type="button" class="primary" id="sync-save">儲存並同步</button>' +
+      '<button type="button" class="ghost" id="sync-now">立即同步</button>' +
+      '<a class="ghost" href="#/bank">返回生字</a>' +
+      "</div>" +
+      '<p class="hint" id="sync-msg"></p>' +
+      "</div>" +
+      '<div class="card">' +
+      '<h3 class="sync-h3">備份</h3>' +
+      '<div class="gate-actions">' +
+      '<button type="button" class="ghost" id="sync-export">匯出 JSON</button>' +
+      '<label class="ghost file-btn">匯入 JSON<input type="file" id="sync-import" accept="application/json,.json" hidden /></label>' +
+      "</div></div>";
+
+    function msg(t, ok) {
+      var el = document.getElementById("sync-msg");
+      if (!el) return;
+      el.textContent = t;
+      el.style.color = ok ? "var(--ok)" : "var(--bad)";
+    }
+
+    document.getElementById("sync-save").addEventListener("click", function () {
+      var next = {
+        user: document.getElementById("sync-user").value.trim(),
+        pin: document.getElementById("sync-pin").value.trim(),
+        url: document.getElementById("sync-url").value.trim(),
+      };
+      if (!next.user) return msg("請填同步代號", false);
+      if (next.pin.length < 4) return msg("PIN 至少 4 位", false);
+      if (!next.url || next.url.indexOf("http") !== 0) return msg("請貼 Apps Script /exec 網址", false);
+      saveSyncCfg(next);
+      syncGen += 1;
+      cloudReady = false;
+      cloudPending = true;
+      msg("已儲存，正在同步…", true);
+      updateSyncStatus();
+      pullCloud();
+      setTimeout(function () {
+        updateSyncStatus();
+        if (syncStatus === "synced") msg("已同步到雲端 ✓", true);
+        else if (syncStatus === "error") msg("同步失敗：" + (syncError || "請檢查網址／授權"), false);
+      }, 1200);
+    });
+    document.getElementById("sync-now").addEventListener("click", function () {
+      if (!syncConfigured()) return msg("請先儲存設定", false);
+      cloudPending = true;
+      pullCloud();
+      msg("同步中…", true);
+    });
+    document.getElementById("sync-export").addEventListener("click", exportStateFile);
+    document.getElementById("sync-import").addEventListener("change", function (e) {
+      var f = e.target.files && e.target.files[0];
+      if (f) importStateFile(f);
+      e.target.value = "";
+    });
+  }
+
   function grade(v, know) {
     var key = v.term.toLowerCase();
     var item = state.bank[key];
@@ -1360,7 +1811,7 @@
     else stage = 0;
     item.stage = stage;
     item.due = addDays(todayISO(), SRS[stage]);
-    state.bank[key] = item;
+    state.bank[key] = touchBankItem(item);
     saveState(state);
     updateBadge();
   }
@@ -1371,7 +1822,7 @@
     var due = [];
     Object.keys(state.bank).forEach(function (k) {
       var item = state.bank[k];
-      if (item && item.due && item.due <= t) due.push(item);
+      if (isLiveBankItem(item) && item.due && item.due <= t) due.push(item);
     });
     due.sort(function (a, b) {
       return (a.due || "").localeCompare(b.due || "");
@@ -1385,7 +1836,7 @@
       html +=
         '<div class="card empty"><p>今日無需複習 🎉</p>' +
         '<p class="hint">生字庫有 ' +
-        Object.keys(state.bank).length +
+        liveBankKeys().length +
         " 個詞。</p>" +
         '<a class="primary" href="#/bank">查看生字</a></div>';
       main.innerHTML = html;
@@ -1472,6 +1923,10 @@
       renderLecture(lm[1], { resume: !!lm[2] });
       return;
     }
+    if (hash.indexOf("#/sync") === 0) {
+      renderSync();
+      return;
+    }
     if (hash.indexOf("#/bank") === 0) {
       renderBank();
       return;
@@ -1485,6 +1940,8 @@
 
   todayLabel.textContent = todayISO();
   updateBadge();
+  updateSyncStatus();
   window.addEventListener("hashchange", route);
   route();
+  pullCloud();
 })();
