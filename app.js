@@ -9,7 +9,9 @@
   };
   var GATES = window.HAZEL_GATES || [];
   var LECTURES = window.HAZEL_LECTURES || [];
+  var GLOSSARY = window.HAZEL_GLOSSARY || {};
   var STORAGE_KEY = META.storageKey || "hazelquiz-v1";
+  var ZH_PREF_KEY = "hazelquiz-show-zh";
   var SRS = META.srsIntervals || [1, 3, 7, 14, 30];
 
   var main = document.getElementById("main");
@@ -72,6 +74,25 @@
   }
 
   var state = loadState();
+
+  function loadShowZh() {
+    try {
+      var v = localStorage.getItem(ZH_PREF_KEY);
+      if (v === null || v === undefined || v === "") return true; // default: Chinese ON
+      return v === "1" || v === "true";
+    } catch (e) {
+      return true;
+    }
+  }
+
+  function saveShowZh(on) {
+    try {
+      localStorage.setItem(ZH_PREF_KEY, on ? "1" : "0");
+    } catch (e) {}
+  }
+
+  var showZh = loadShowZh();
+
 
   function gateIndex(id) {
     for (var i = 0; i < GATES.length; i++) {
@@ -252,18 +273,26 @@
   function vocabTermList(preferGate) {
     var seen = {};
     var out = [];
+    function addTerm(term) {
+      if (!term) return;
+      var k = String(term).toLowerCase();
+      if (seen[k]) return;
+      seen[k] = true;
+      out.push(String(term));
+    }
     function add(list) {
       (list || []).forEach(function (v) {
         if (!v || !v.term) return;
-        var k = String(v.term).toLowerCase();
-        if (seen[k]) return;
-        seen[k] = true;
-        out.push(v.term);
+        addTerm(v.term);
       });
     }
     if (preferGate) add(preferGate.vocab);
     GATES.forEach(function (g) {
       add(g.vocab);
+    });
+    Object.keys(GLOSSARY).forEach(function (k) {
+      var g = GLOSSARY[k];
+      addTerm((g && g.term) || k);
     });
     out.sort(function (a, b) {
       return b.length - a.length;
@@ -341,7 +370,7 @@
 
   function findVocab(term, gate) {
     var t = String(term || "").toLowerCase();
-    var i, g, list;
+    var i, g, list, hit;
     if (gate && gate.vocab) {
       for (i = 0; i < gate.vocab.length; i++) {
         if (gate.vocab[i].term.toLowerCase() === t) return gate.vocab[i];
@@ -353,13 +382,47 @@
         if (list[i].term.toLowerCase() === t) return list[i];
       }
     }
+    hit = GLOSSARY[t];
+    if (hit) {
+      return {
+        term: hit.term || term,
+        zh: hit.zh || "",
+        ipa: hit.ipa || "",
+        say: hit.say || "",
+        gloss: hit.gloss || hit.zh || "",
+      };
+    }
+    // light stemming: plurals / -ing / -ed for common academic words
+    var alts = [];
+    if (t.length > 4 && t.slice(-1) === "s") alts.push(t.slice(0, -1));
+    if (t.length > 5 && t.slice(-3) === "ies") alts.push(t.slice(0, -3) + "y");
+    if (t.length > 5 && t.slice(-3) === "ing") {
+      alts.push(t.slice(0, -3));
+      alts.push(t.slice(0, -3) + "e");
+    }
+    if (t.length > 4 && t.slice(-2) === "ed") {
+      alts.push(t.slice(0, -2));
+      alts.push(t.slice(0, -1));
+    }
+    for (i = 0; i < alts.length; i++) {
+      hit = GLOSSARY[alts[i]];
+      if (hit) {
+        return {
+          term: String(term || "").trim() || term,
+          zh: hit.zh || "",
+          ipa: hit.ipa || "",
+          say: hit.say || "",
+          gloss: hit.gloss || hit.zh || "",
+        };
+      }
+    }
     var display = String(term || "").trim() || term;
     return {
       term: display,
       zh: "",
       ipa: "",
       say: "",
-      gloss: "未有詳細解釋",
+      gloss: "未有詳細解釋。可仍加進生字卡；之後更新詞庫會補上。",
     };
   }
 
@@ -593,7 +656,12 @@
         '<div class="gate-actions">' +
         '<a class="primary" href="#/lecture/' +
         encodeURIComponent(lid) +
-        '">讀全文</a>';
+        '">讀全文</a>' +
+        ((state.readPos && state.readPos[lid] > 80)
+          ? '<a class="ghost" href="#/lecture/' +
+            encodeURIComponent(lid) +
+            '">繼續上次</a>'
+          : '');
       var next = nextOpenGate(lid);
       if (next) {
         html +=
@@ -639,6 +707,7 @@
     }
     var prog = lectureProgress(L.id);
     var next = nextOpenGate(L.id);
+    var saved = (state.readPos && state.readPos[L.id]) || 0;
     var html =
       '<a class="backlink" href="#/">← 關卡列表</a>' +
       '<p class="kicker">' +
@@ -655,25 +724,47 @@
       "/" +
       prog.total +
       " 關已通。</p>" +
-      '<article class="card reader" id="lecture-reader">';
+      '<div class="reader-toolbar card">' +
+      '<button type="button" class="chipbtn' +
+      (showZh ? " on" : "") +
+      '" id="toggle-zh" aria-pressed="' +
+      (showZh ? "true" : "false") +
+      '">' +
+      (showZh ? "隱藏中文" : "顯示中文") +
+      "</button>" +
+      (saved > 80
+        ? '<button type="button" class="ghost" id="resume-read">繼續上次閱讀</button>'
+        : "") +
+      '<span class="hint reader-pos-hint" id="read-pos-hint">' +
+      (saved > 80 ? "已記住閱讀位置" : "向下捲動會自動記住進度") +
+      "</span></div>" +
+      '<article class="card reader' +
+      (showZh ? "" : " hide-zh") +
+      '" id="lecture-reader">';
 
     var preferGate = firstGateForLecture(L.id);
-    (L.blocks || []).forEach(function (b) {
+    (L.blocks || []).forEach(function (b, bi) {
       var t = b.t || "";
+      var zh = b.zh || "";
       var k = b.k || "p";
       var linked = linkAllEnglish(t, preferGate, preferGate ? preferGate.id : "");
+      var zhHtml = zh
+        ? '<p class="reader-zh" lang="zh-Hant">' + escapeHtml(zh) + "</p>"
+        : "";
+      var wrapOpen = '<div class="reader-seg" data-bi="' + bi + '">';
+      var wrapClose = zhHtml + "</div>";
       if (k === "h") {
-        html += '<h3 class="reader-h">' + linked + "</h3>";
+        html += wrapOpen + '<h3 class="reader-h">' + linked + "</h3>" + wrapClose;
       } else if (k === "li") {
-        html += '<p class="reader-li">' + linked + "</p>";
+        html += wrapOpen + '<p class="reader-li">' + linked + "</p>" + wrapClose;
       } else {
-        html += '<p class="reader-p">' + linked + "</p>";
+        html += wrapOpen + '<p class="reader-p">' + linked + "</p>" + wrapClose;
       }
     });
-    html += "</article>";
 
+    // Next-step actions ONLY at end of body (not sticky / not floating)
     html +=
-      '<div class="card feature sticky-next">' +
+      '<div class="card feature reader-next" id="lecture-next">' +
       "<p><strong>讀完？下一步溫重點同測驗。</strong></p>" +
       '<div class="gate-actions">' +
       (next
@@ -683,27 +774,50 @@
         : "") +
       '<a class="ghost" href="#/">返回關卡</a></div></div>';
 
+    html += "</article>";
+
     main.innerHTML = html;
 
     var reader = document.getElementById("lecture-reader");
-    var saved = (state.readPos && state.readPos[L.id]) || 0;
-    if (saved > 0) {
-      requestAnimationFrame(function () {
-        window.scrollTo(0, saved);
+    var toggle = document.getElementById("toggle-zh");
+    if (toggle) {
+      toggle.addEventListener("click", function () {
+        showZh = !showZh;
+        saveShowZh(showZh);
+        toggle.classList.toggle("on", showZh);
+        toggle.setAttribute("aria-pressed", showZh ? "true" : "false");
+        toggle.textContent = showZh ? "隱藏中文" : "顯示中文";
+        if (reader) reader.classList.toggle("hide-zh", !showZh);
       });
     }
+    var resumeBtn = document.getElementById("resume-read");
+    if (resumeBtn && saved > 80) {
+      resumeBtn.addEventListener("click", function () {
+        window.scrollTo({ top: saved, behavior: "smooth" });
+      });
+    }
+    // Auto-offer resume once if deep into page
+    if (saved > 120) {
+      requestAnimationFrame(function () {
+        /* stay at top; user taps 繼續上次 — avoid jump surprise */
+      });
+    }
+
     var saveTimer = null;
     function persistPos() {
       if (!state.readPos) state.readPos = {};
       state.readPos[L.id] = window.scrollY || 0;
       saveState(state);
+      var hint = document.getElementById("read-pos-hint");
+      if (hint && state.readPos[L.id] > 80) {
+        hint.textContent = "進度已存 · 可按「繼續上次閱讀」";
+      }
     }
     function onScroll() {
       if (saveTimer) clearTimeout(saveTimer);
       saveTimer = setTimeout(persistPos, 400);
     }
     window.addEventListener("scroll", onScroll, { passive: true });
-    // stash cleanup on next route via hashchange — remove previous if any
     if (window.__hqScrollCleanup) {
       try {
         window.__hqScrollCleanup();
@@ -715,6 +829,7 @@
       window.__hqScrollCleanup = null;
     };
   }
+
 
   function renderGate(id) {
     var g = null;

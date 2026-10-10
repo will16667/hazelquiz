@@ -416,14 +416,36 @@ a.gate-mini.locked { opacity: 0.72; }
   padding-left: 0.35em;
   border-left: 3px solid color-mix(in srgb, var(--accent) 35%, transparent);
 }
-.sticky-next {
-  position: sticky; bottom: calc(var(--nav-h) + 8px);
-  z-index: 5;
-  margin-top: 16px;
+/* Next-step card sits at end of lecture body only — never sticky/floating */
+.reader-next {
+  position: static;
+  margin-top: 28px;
+  margin-bottom: 8px;
 }
+.sticky-next { display: none !important; }
 .sheet-speak-hint { margin: 10px 0 0; font-size: 0.85rem; }
 
 @media (min-width: 801px) {
   .reader-p, .reader-li { font-size: 1.18rem; line-height: 1.8; }
   .gate-mini-list { grid-template-columns: 1fr 1fr; }
 }
+
+/* Full-text bilingual + toolbar */
+.reader-toolbar {
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  margin: 10px 0 12px; padding: 12px 14px;
+}
+.reader-pos-hint { margin: 0; flex: 1 1 120px; font-size: 0.88rem; }
+.reader-seg { margin: 0 0 0.35em; }
+.reader-zh {
+  margin: 0.15em 0 0.85em;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--soft) 75%, var(--card));
+  border-left: 3px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+.reader.hide-zh .reader-zh { display: none; }
+.reader-seg .reader-h { margin-bottom: 0.15em; }
