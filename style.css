@@ -156,13 +156,6 @@ h2 { font-size: 1.28rem; }
 .ghost { background: transparent; }
 .chipbtn.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 
-.progress {
-  height: 8px; border-radius: 999px; background: var(--soft); overflow: hidden; margin: 10px 0 4px;
-}
-.progress > span {
-  display: block; height: 100%; border-radius: 999px;
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
-}
 
 /* Tappable English: look like normal text until tapped (Readle-style). */
 button.term {

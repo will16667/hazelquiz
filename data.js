@@ -5443,8 +5443,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p005-01.webp",
-            "w": 1000,
-            "h": 1413,
+            "w": 768, "h": 1080,
             "kind": "embed",
             "blocks": [
               {
@@ -5876,8 +5875,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p008-01.webp",
-            "w": 1000,
-            "h": 411,
+            "w": 1000, "h": 414,
             "kind": "embed",
             "blocks": [
               {
@@ -6271,8 +6269,7 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L1/p012-02.webp",
-            "w": 506,
-            "h": 316,
+            "w": 374, "h": 237,
             "kind": "embed",
             "blocks": [
               {
@@ -6444,8 +6441,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p014-01.webp",
-            "w": 1000,
-            "h": 332,
+            "w": 1000, "h": 338,
             "kind": "embed",
             "blocks": [
               {
@@ -6776,8 +6772,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p018-03.webp",
-            "w": 525,
-            "h": 525,
+            "w": 387, "h": 387,
             "kind": "embed",
             "blocks": [
               {
@@ -6897,8 +6892,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p019-01.webp",
-            "w": 800,
-            "h": 891,
+            "w": 736, "h": 819,
             "kind": "embed",
             "blocks": [
               {
@@ -7353,8 +7347,7 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L1/p024-03.webp",
-            "w": 457,
-            "h": 308,
+            "w": 401, "h": 273,
             "kind": "embed",
             "blocks": [
               {
@@ -7869,8 +7862,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p029-01.webp",
-            "w": 1000,
-            "h": 490,
+            "w": 1000, "h": 492,
             "kind": "embed",
             "blocks": [
               {
@@ -8160,8 +8152,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p033-01.webp",
-            "w": 1000,
-            "h": 519,
+            "w": 895, "h": 469,
             "kind": "embed",
             "blocks": []
           }
@@ -8194,8 +8185,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p034-01.webp",
-            "w": 1000,
-            "h": 491,
+            "w": 1000, "h": 494,
             "kind": "embed",
             "blocks": []
           }
@@ -8253,8 +8243,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p035-01.webp",
-            "w": 977,
-            "h": 394,
+            "w": 712, "h": 292,
             "kind": "embed",
             "blocks": [
               {
@@ -8925,8 +8914,7 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L1/p042-02.webp",
-            "w": 320,
-            "h": 198,
+            "w": 529, "h": 331,
             "kind": "embed",
             "blocks": []
           }
@@ -9460,8 +9448,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p048-02.webp",
-            "w": 715,
-            "h": 411,
+            "w": 524, "h": 304,
             "kind": "embed",
             "blocks": [
               {
@@ -12232,8 +12219,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p006-01.webp",
-            "w": 1000,
-            "h": 473,
+            "w": 1000, "h": 477,
             "kind": "embed",
             "blocks": [
               {
@@ -12935,8 +12921,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p016-01.webp",
-            "w": 937,
-            "h": 531,
+            "w": 1000, "h": 569,
             "kind": "embed",
             "blocks": [
               {
@@ -13005,8 +12990,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p017-02.webp",
-            "w": 1000,
-            "h": 332,
+            "w": 1000, "h": 339,
             "kind": "embed",
             "blocks": [
               {
@@ -13073,8 +13057,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p018-01.webp",
-            "w": 403,
-            "h": 500,
+            "w": 838, "h": 1038,
             "kind": "embed",
             "blocks": [
               {
@@ -13850,8 +13833,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p029-01.webp",
-            "w": 1000,
-            "h": 1298,
+            "w": 795, "h": 1036,
             "kind": "embed",
             "blocks": [
               {
@@ -14011,51 +13993,60 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p033-01.webp",
-            "w": 967,
-            "h": 860,
+            "w": 1000, "h": 883,
             "kind": "embed",
             "blocks": [
-              {
-                "k": "h",
-                "t": "FIGURE 1.6 Negative feedback control of blood pressure",
-                "zh": "圖 1.6 血壓嘅負回饋控制"
-              },
-              {
-                "k": "p",
-                "t": "Lying down → Standing up",
-                "zh": "躺低 → 企起"
-              },
-              {
-                "k": "p",
-                "t": "1. Blood pressure falls (Stimulus)",
-                "zh": "1. 血壓下降（刺激）"
-              },
-              {
-                "k": "p",
-                "t": "2. Blood pressure receptors respond (Sensor)",
-                "zh": "2. 血壓受體反應（感應器）"
-              },
-              {
-                "k": "p",
-                "t": "Sensory nerve fibers → Medulla oblongata of brain (Integrating center)",
-                "zh": "感覺神經纖維 → 延髓（整合中心）"
-              },
-              {
-                "k": "p",
-                "t": "Motor nerve fibers → Heart (Effector)",
-                "zh": "運動神經纖維 → 心臟（效應器）"
-              },
-              {
-                "k": "p",
-                "t": "3. Heart rate increases",
-                "zh": "3. 心率加快"
-              },
-              {
-                "k": "p",
-                "t": "4. Rise in blood pressure (Negative feedback response)",
-                "zh": "4. 血壓回升（負回饋反應）"
-              }
-            ]
+                        {
+                          "k": "h",
+                          "t": "FIGURE 1.6 Negative feedback control of blood pressure",
+                          "zh": "圖 1.6 血壓嘅負回饋控制"
+                        },
+                        {
+                          "k": "p",
+                          "t": "Legend: Sensor; Integrating center; Effector",
+                          "zh": "圖例：感應器；整合中心；效應器"
+                        },
+                        {
+                          "k": "p",
+                          "t": "Lying down → Standing up",
+                          "zh": "躺低 → 企起"
+                        },
+                        {
+                          "k": "p",
+                          "t": "1. Blood pressure falls (Stimulus)",
+                          "zh": "1. 血壓下降（刺激）"
+                        },
+                        {
+                          "k": "p",
+                          "t": "2. Blood pressure receptors respond (Sensor)",
+                          "zh": "2. 血壓受體反應（感應器）"
+                        },
+                        {
+                          "k": "p",
+                          "t": "Sensory nerve fibers → Medulla oblongata of brain (Integrating center)",
+                          "zh": "感覺神經纖維 → 延髓（整合中心）"
+                        },
+                        {
+                          "k": "p",
+                          "t": "Motor nerve fibers → Heart (Effector)",
+                          "zh": "運動神經纖維 → 心臟（效應器）"
+                        },
+                        {
+                          "k": "p",
+                          "t": "3. Heart rate increases",
+                          "zh": "3. 心率加快"
+                        },
+                        {
+                          "k": "p",
+                          "t": "4. Rise in blood pressure (Negative feedback response)",
+                          "zh": "4. 血壓回升（負回饋反應）"
+                        },
+                        {
+                          "k": "p",
+                          "t": "FIGURE 1.6 Negative feedback control of blood pressure. Blood pressure influences the activity of sensory neurons from the blood pressure receptors (sensors); a rise in pressure increases the firing rate, and a fall in pressure decreases the firing rate of nerve impulses. When a person stands up from a lying-down position, the blood pressure momentarily falls. The resulting decreased firing rate of nerve impulses in sensory neurons affects the medulla oblongata of the brain (the integrating center). This causes the motor nerves to the heart (effector) to increase the heart rate, helping to raise the blood pressure.",
+                          "zh": "圖 1.6 血壓嘅負回饋控制。血壓會影響血壓感受器（感應器）感覺神經元嘅活動；壓力上升會加快發放頻率，壓力下降會減慢神經衝動發放頻率。當人由躺低轉企起，血壓會短暫下降。感覺神經元發放頻率因而減少，影響腦嘅延髓（整合中心）。呢個令通往心臟（效應器）嘅運動神經加快心率，幫助血壓回升。"
+                        }
+                      ]
           }
         ]
       },
@@ -14122,8 +14113,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p035-04.webp",
-            "w": 960,
-            "h": 600,
+            "w": 575, "h": 363,
             "kind": "embed",
             "blocks": []
           },
@@ -14147,8 +14137,7 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L2/p035-01.webp",
-            "w": 965,
-            "h": 538,
+            "w": 1000, "h": 561,
             "kind": "embed",
             "blocks": [
               {
@@ -14348,8 +14337,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p037-01.webp",
-            "w": 810,
-            "h": 339,
+            "w": 1000, "h": 422,
             "kind": "embed",
             "blocks": [
               {
@@ -14507,8 +14495,7 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L2/p038-01.webp",
-            "w": 713,
-            "h": 397,
+            "w": 841, "h": 472,
             "kind": "embed",
             "blocks": [
               {
@@ -14670,15 +14657,13 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p040-01.webp",
-            "w": 829,
-            "h": 435,
+            "w": 883, "h": 468,
             "kind": "embed",
             "blocks": []
           },
           {
             "src": "assets/figures/L2/p040-02.webp",
-            "w": 683,
-            "h": 276,
+            "w": 665, "h": 274,
             "kind": "embed",
             "blocks": [
               {
@@ -15023,8 +15008,7 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L2/p046-02.webp",
-            "w": 721,
-            "h": 521,
+            "w": 637, "h": 463,
             "kind": "embed",
             "blocks": [
               {
@@ -15116,8 +15100,7 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L2/p047-01.webp",
-            "w": 797,
-            "h": 520,
+            "w": 1000, "h": 656,
             "kind": "embed",
             "blocks": [
               {
@@ -15186,8 +15169,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p048-02.webp",
-            "w": 1000,
-            "h": 565,
+            "w": 940, "h": 538,
             "kind": "embed",
             "blocks": [
               {
@@ -15209,8 +15191,7 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L2/p048-01.webp",
-            "w": 799,
-            "h": 526,
+            "w": 999, "h": 660,
             "kind": "embed",
             "blocks": [
               {
@@ -15342,8 +15323,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p049-01.webp",
-            "w": 1000,
-            "h": 588,
+            "w": 1000, "h": 587,
             "kind": "embed",
             "blocks": [
               {
@@ -17129,8 +17109,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p005-01.webp",
-            "w": 1000,
-            "h": 800,
+            "w": 1000, "h": 802,
             "kind": "embed",
             "blocks": []
           }
@@ -17333,8 +17312,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p008-01.webp",
-            "w": 402,
-            "h": 600,
+            "w": 471, "h": 698,
             "kind": "embed",
             "blocks": []
           },
@@ -17575,8 +17553,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p011-01.webp",
-            "w": 1000,
-            "h": 1003,
+            "w": 1000, "h": 999,
             "kind": "embed",
             "blocks": [
               {
@@ -17805,8 +17782,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p014-01.webp",
-            "w": 1000,
-            "h": 683,
+            "w": 782, "h": 537,
             "kind": "embed",
             "blocks": []
           }
@@ -18195,8 +18171,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p020-01.webp",
-            "w": 1000,
-            "h": 859,
+            "w": 815, "h": 703,
             "kind": "embed",
             "blocks": [
               {
@@ -18646,8 +18621,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p024-01.webp",
-            "w": 1000,
-            "h": 800,
+            "w": 1000, "h": 805,
             "kind": "embed",
             "blocks": [
               {
@@ -19182,8 +19156,7 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L3/p030-01.webp",
-            "w": 447,
-            "h": 412,
+            "w": 657, "h": 607,
             "kind": "embed",
             "blocks": [
               {
@@ -19602,8 +19575,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p035-01.webp",
-            "w": 871,
-            "h": 749,
+            "w": 1000, "h": 856,
             "kind": "embed",
             "blocks": [
               {
@@ -19722,8 +19694,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p036-01.webp",
-            "w": 1000,
-            "h": 1089,
+            "w": 914, "h": 995,
             "kind": "embed",
             "blocks": [
               {
@@ -19790,8 +19761,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p037-01.webp",
-            "w": 883,
-            "h": 763,
+            "w": 1000, "h": 864,
             "kind": "embed",
             "blocks": [
               {
@@ -19910,8 +19880,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p038-01.webp",
-            "w": 1000,
-            "h": 1089,
+            "w": 814, "h": 890,
             "kind": "embed",
             "blocks": [
               {
@@ -20001,8 +19970,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p039-01.webp",
-            "w": 883,
-            "h": 763,
+            "w": 1000, "h": 864,
             "kind": "embed",
             "blocks": [
               {
@@ -20211,8 +20179,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p042-01.webp",
-            "w": 862,
-            "h": 795,
+            "w": 802, "h": 740,
             "kind": "embed",
             "blocks": [
               {
@@ -20841,8 +20808,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p051-01.webp",
-            "w": 1000,
-            "h": 379,
+            "w": 1000, "h": 383,
             "kind": "embed",
             "blocks": [
               {
@@ -20947,8 +20913,7 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p053-01.webp",
-            "w": 1000,
-            "h": 747,
+            "w": 964, "h": 728,
             "kind": "embed",
             "blocks": [
               {
@@ -20980,8 +20945,7 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L3/p053-02.webp",
-            "w": 973,
-            "h": 654,
+            "w": 936, "h": 632,
             "kind": "embed",
             "blocks": [
               {

@@ -1232,14 +1232,6 @@
     });
   }
 
-  function lectureProgress(lectureId) {
-    var gs = gatesForLecture(lectureId);
-    var done = 0;
-    gs.forEach(function (g) {
-      if (state.cleared[g.id]) done += 1;
-    });
-    return { done: done, total: gs.length };
-  }
 
   function firstGateForLecture(lectureId) {
     var gs = gatesForLecture(lectureId);
@@ -1260,21 +1252,10 @@
 
   function renderLevels() {
     setNav("levels");
-    var total = GATES.length;
-    var done = clearedCount();
-    var pct = total ? Math.round((done / total) * 100) : 0;
     var html =
       '<p class="kicker">Life Sciences</p>' +
       "<h2>課本列表</h2>" +
-      '<p class="lede">每課流程：<strong>讀全文</strong> → <strong>溫重點</strong>。點英文可存生字；複習頁間隔溫習。</p>' +
-      '<div class="card feature"><div class="cardtop"><span class="pill">總進度</span><strong>' +
-      done +
-      " / " +
-      total +
-      '</strong></div><div class="progress" aria-hidden="true"><span style="width:' +
-      pct +
-      '%"></span></div>' +
-      '<p class="hint" style="margin:6px 0 0">建議先讀該課全文，再逐關溫重點；生字入庫後去「複習」。</p></div>';
+      '<p class="lede">每課流程：<strong>讀全文</strong> → <strong>溫重點</strong>。點英文可存生字；複習頁間隔溫習。建議先讀該課全文，再逐關溫重點；生字入庫後去「複習」。</p>';
 
     var lectureIds = [];
     GATES.forEach(function (g) {
@@ -1289,8 +1270,6 @@
       var L = lectureById(lid);
       var titleZh = L ? L.titleZh : lid;
       var titleEn = L ? L.titleEn : "";
-      var prog = lectureProgress(lid);
-      var lpct = prog.total ? Math.round((prog.done / prog.total) * 100) : 0;
       var gs = gatesForLecture(lid);
       html +=
         '<section class="lecture-block card feature" id="lec-' +
@@ -1298,18 +1277,12 @@
         '">' +
         '<div class="cardtop"><span class="pill lecture">' +
         escapeHtml(lid) +
-        '</span><span class="pill">' +
-        prog.done +
-        "/" +
-        prog.total +
-        " 關</span></div>" +
+        "</span></div>" +
         "<h3>" +
         escapeHtml(titleZh) +
         '</h3><p class="entitle">' +
         escapeHtml(titleEn) +
-        '</p><div class="progress" aria-hidden="true"><span style="width:' +
-        lpct +
-        '%"></span></div>' +
+        "</p>" +
         '<div class="flow-steps" aria-label="本課學習步驟">' +
         '<span class="flow-step">① 讀全文</span>' +
         '<span class="flow-arrow">→</span>' +
@@ -1537,7 +1510,6 @@
     if (pageNum < 1) pageNum = 1;
     if (pageNum > total) pageNum = total;
     var page = pages[pageNum - 1] || pages[0];
-    var prog = lectureProgress(L.id);
     var next = nextOpenGate(L.id);
     var preferGate = firstGateForLecture(L.id);
 
@@ -1554,11 +1526,7 @@
       escapeHtml(L.titleEn) +
       "</p>" +
       '<div class="flow-steps compact"><span class="flow-step on">① 讀全文</span><span class="flow-arrow">→</span><span class="flow-step">② 溫重點</span></div>' +
-      '<p class="lede reader-hint">跟 PDF 一頁一頁讀；圖下有整理好嘅圖中文字（可點存生字），原圖可放大對照。進度 ' +
-      prog.done +
-      "/" +
-      prog.total +
-      " 關已溫。</p>" +
+      '<p class="lede reader-hint">跟 PDF 一頁一頁讀；圖下有整理好嘅圖中文字（可點存生字），原圖可放大對照。</p>' +
       '<div class="reader-toolbar card page-toolbar">' +
       '<button type="button" class="chipbtn' +
       (showZh ? " on" : "") +
