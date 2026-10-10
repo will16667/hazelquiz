@@ -14882,14 +14882,34 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "Semipermeable membrane; Solvent molecule; Solute molecule; Net movement of solvent; No net movement of solvent; Osmotic Pressure; Initial state; Final state.",
-                "zh": "半透膜；溶劑分子；溶質分子；溶劑淨移動；溶劑無淨移動；滲透壓；初始狀態；最終狀態。"
+                "k": "h",
+                "t": "Initial state",
+                "zh": "初始狀態"
               },
               {
                 "k": "p",
-                "t": "Initial state: solute molecules partly shield membrane pores for the passage of solvent molecules from right to left. Final state: the compensating pressure impedes the passage of solvent molecules from left to right.",
-                "zh": "初始狀態：溶質分子部分遮擋膜孔，影響溶劑由右至左通過。最終狀態：補償壓力阻礙溶劑由左至右通過。"
+                "t": "Semipermeable membrane; Solvent molecule; Solute molecule; Net movement of solvent",
+                "zh": "半透膜；溶劑分子；溶質分子；溶劑淨移動"
+              },
+              {
+                "k": "p",
+                "t": "Solute molecules partly shield membrane pores for the passage of solvent molecules from right to left.",
+                "zh": "溶質分子部分遮擋膜孔，影響溶劑由右至左通過。"
+              },
+              {
+                "k": "h",
+                "t": "Final state",
+                "zh": "最終狀態"
+              },
+              {
+                "k": "p",
+                "t": "No net movement of solvent; Osmotic Pressure",
+                "zh": "溶劑無淨移動；滲透壓"
+              },
+              {
+                "k": "p",
+                "t": "The compensating pressure impedes the passage of solvent molecules from left to right.",
+                "zh": "補償壓力阻礙溶劑由左至右通過。"
               }
             ]
           }
@@ -14948,13 +14968,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Outside cell; Inside cell; Cell membrane; Low concentration of molecules, ions; High concentration of molecules, ions; ATP; ADP; Pi.",
-                "zh": "細胞外；細胞內；細胞膜；分子／離子低濃度；分子／離子高濃度；ATP；ADP；Pi。"
+                "t": "Outside cell — Low concentration of molecules, ions",
+                "zh": "細胞外 — 分子／離子低濃度"
               },
               {
                 "k": "p",
-                "t": "Active transport moves molecules against their concentration gradient using energy from ATP hydrolysis.",
-                "zh": "主動運輸利用 ATP 水解嘅能量，逆濃度梯度運送分子。"
+                "t": "Inside cell — High concentration of molecules, ions",
+                "zh": "細胞內 — 分子／離子高濃度"
+              },
+              {
+                "k": "p",
+                "t": "Cell membrane",
+                "zh": "細胞膜"
+              },
+              {
+                "k": "p",
+                "t": "ATP → ADP + Pi",
+                "zh": "ATP → ADP + Pi"
               }
             ]
           },
@@ -14966,8 +14996,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Lipid bilayer; Channel protein; Carrier protein; Transported molecule; Energy; Simple diffusion; Facilitated diffusion; Passive transport; Active transport.",
-                "zh": "脂質雙層；通道蛋白；載體蛋白；被運送分子；能量；簡單擴散；協助擴散；被動運輸；主動運輸。"
+                "t": "Lipid bilayer",
+                "zh": "脂質雙層"
+              },
+              {
+                "k": "p",
+                "t": "Simple diffusion",
+                "zh": "簡單擴散"
+              },
+              {
+                "k": "p",
+                "t": "Facilitated diffusion — Channel protein; Carrier protein; Transported molecule",
+                "zh": "協助擴散 — 通道蛋白；載體蛋白；被運送分子"
+              },
+              {
+                "k": "p",
+                "t": "Passive transport",
+                "zh": "被動運輸"
+              },
+              {
+                "k": "p",
+                "t": "Active transport — Energy",
+                "zh": "主動運輸 — 能量"
               }
             ]
           },
@@ -14979,13 +15029,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Outside of cell; Inside of cell; Transported ions.",
-                "zh": "細胞外；細胞內；被運送嘅離子。"
+                "t": "Outside of cell; Inside of cell; Transported ions",
+                "zh": "細胞外；細胞內；被運送嘅離子"
               },
               {
                 "k": "p",
-                "t": "Uniport transports one substance in one direction. Symport transports two different substances in the same direction. Antiport transports two different substances in opposite directions.",
-                "zh": "單向轉運（Uniport）運送一種物質、一個方向。同向轉運（Symport）運送兩種不同物質、同一方向。反向轉運（Antiport）運送兩種不同物質、相反方向。"
+                "t": "Uniport transports one substance in one direction.",
+                "zh": "單向轉運（Uniport）運送一種物質、一個方向。"
+              },
+              {
+                "k": "p",
+                "t": "Symport transports two different substances in the same direction.",
+                "zh": "同向轉運（Symport）運送兩種不同物質、同一方向。"
+              },
+              {
+                "k": "p",
+                "t": "Antiport transports two different substances in opposite directions.",
+                "zh": "反向轉運（Antiport）運送兩種不同物質、相反方向。"
               }
             ]
           }
@@ -15033,14 +15093,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "Plasma membrane; Inside cell; Outside cell; Na+; K+; ATP; ADP + Pi.",
-                "zh": "細胞膜；細胞內；細胞外；Na+；K+；ATP；ADP + Pi。"
+                "k": "h",
+                "t": "Plasma membrane",
+                "zh": "質膜"
               },
               {
                 "k": "p",
-                "t": "The sodium-potassium pump uses ATP to move Na+ out of the cell and K+ into the cell.",
-                "zh": "鈉鉀泵利用 ATP 將 Na+ 泵出細胞、將 K+ 泵入細胞。"
+                "t": "Inside cell; Outside cell",
+                "zh": "細胞內；細胞外"
+              },
+              {
+                "k": "p",
+                "t": "Na⁺ out; K⁺ in",
+                "zh": "Na⁺ 出；K⁺ 入"
+              },
+              {
+                "k": "p",
+                "t": "ATP → ADP + Pᵢ",
+                "zh": "ATP → ADP + Pᵢ"
               }
             ]
           },
@@ -15052,8 +15122,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "This figure shows the sodium-potassium pump moving ions across the cell membrane. Outside the cell, sodium concentration is high and potassium is low; inside, the reverse is true. First, three sodium ions and one ATP bind to the pump from inside the cell. Hydrolysis of ATP phosphorylates the pump protein and changes its shape. That shape change releases sodium outside the cell and allows two potassium ions to bind. Release of the phosphate returns the pump to its original shape, releasing potassium into the cell interior and again exposing the sodium binding sites so the cycle can repeat.",
-                "zh": "呢幅圖展示鈉鉀泵點樣喺細胞膜兩邊運送離子。細胞外鈉離子濃度高、鉀離子低；細胞內則相反。首先，三個鈉離子同一分子 ATP 由細胞內結合到泵蛋白。ATP 水解令泵磷酸化並改變形狀。形狀改變後，鈉離子被釋放到細胞外，兩個鉀離子可以結合上去。磷酸基脫落後泵回復原形，把鉀離子釋放入細胞內，並再次露出鈉離子結合位，循環重覆。"
+                "t": "Outside of cell; Inside of cell",
+                "zh": "細胞外；細胞內"
+              },
+              {
+                "k": "p",
+                "t": "1. 3 Na⁺ and 1 ATP bind to the protein pump.",
+                "zh": "1. 3 個 Na⁺ 同一分子 ATP 結合到泵蛋白。"
+              },
+              {
+                "k": "p",
+                "t": "2. Hydrolysis of ATP phosphorylates the pump protein and changes its shape.",
+                "zh": "2. ATP 水解令泵磷酸化並改變形狀。"
+              },
+              {
+                "k": "p",
+                "t": "3. The shape change releases Na⁺ outside the cell and enables K⁺ to bind to the pump.",
+                "zh": "3. 形狀改變後，Na⁺ 釋放到細胞外，K⁺ 可以結合到泵。"
+              },
+              {
+                "k": "p",
+                "t": "4. Release of Pᵢ returns the pump to its original shape, releasing K⁺ to the cell's interior and once again exposing Na⁺ binding sites. The cycle repeats.",
+                "zh": "4. Pᵢ 脫落後泵回復原形，把 K⁺ 釋放入細胞內，並再次露出 Na⁺ 結合位，循環重覆。"
               }
             ]
           }
@@ -15102,13 +15192,18 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Na+; Glucose; Concentration.",
-                "zh": "鈉離子（Na+）；葡萄糖；濃度。"
+                "t": "Na⁺",
+                "zh": "Na⁺"
               },
               {
                 "k": "p",
-                "t": "Sodium moves down its concentration gradient into the cell and drives glucose into the cell against its concentration gradient through the same cotransporter.",
-                "zh": "鈉離子順濃度梯度進入細胞，驅動葡萄糖經同一協同運輸蛋白逆濃度梯度進入細胞。"
+                "t": "Glucose",
+                "zh": "葡萄糖"
+              },
+              {
+                "k": "p",
+                "t": "Concentration",
+                "zh": "濃度"
               }
             ]
           },
@@ -15120,13 +15215,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Outside of cell; Inside of cell; Sodium-potassium pump (antiport); Na+; K+; Glucose; ATP; ADP + Pi.",
-                "zh": "細胞外；細胞內；鈉鉀泵（反向轉運）；Na+；K+；葡萄糖；ATP；ADP + Pi。"
+                "t": "Outside of cell; Inside of cell",
+                "zh": "細胞外；細胞內"
               },
               {
                 "k": "p",
-                "t": "Primary active transport: the sodium-potassium pump moves Na+ using the energy of ATP hydrolysis to establish a concentration gradient of Na+. Secondary active transport: Na+, moving with the concentration gradient established by the sodium-potassium pump, drives the transport of glucose against its concentration gradient.",
-                "zh": "初級主動運輸：鈉鉀泵利用 ATP 水解嘅能量運送 Na+，建立 Na+ 濃度梯度。次級主動運輸：Na+ 順住鈉鉀泵建立嘅濃度梯度移動，驅動葡萄糖逆濃度梯度運送。"
+                "t": "Sodium-potassium pump (antiport); Na⁺; K⁺; ATP → ADP + Pᵢ",
+                "zh": "鈉鉀泵（反向轉運）；Na⁺；K⁺；ATP → ADP + Pᵢ"
+              },
+              {
+                "k": "p",
+                "t": "Glucose",
+                "zh": "葡萄糖"
+              },
+              {
+                "k": "p",
+                "t": "Primary active transport: The sodium–potassium pump moves Na⁺, using the energy of ATP hydrolysis to establish a concentration gradient of Na⁺.",
+                "zh": "初級主動運輸：鈉鉀泵利用 ATP 水解嘅能量運送 Na⁺，建立 Na⁺ 濃度梯度。"
+              },
+              {
+                "k": "p",
+                "t": "Secondary active transport: Na⁺, moving with the concentration gradient established by the sodium–potassium pump, drives the transport of glucose against its concentration gradient.",
+                "zh": "次級主動運輸：Na⁺ 順住鈉鉀泵建立嘅濃度梯度移動，驅動葡萄糖逆濃度梯度運送。"
               }
             ]
           },
@@ -15137,14 +15247,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "Symporter; Antiporter; A; B.",
-                "zh": "同向轉運蛋白（Symporter）；反向轉運蛋白（Antiporter）；A；B。"
+                "k": "h",
+                "t": "Symporter — A and B same direction",
+                "zh": "同向轉運蛋白（Symporter）— A 同 B 同一方向"
               },
               {
-                "k": "p",
-                "t": "A symporter moves A and B across the membrane in the same direction; an antiporter moves A and B in opposite directions.",
-                "zh": "同向轉運蛋白令 A 同 B 同一方向過膜；反向轉運蛋白令 A 同 B 相反方向過膜。"
+                "k": "h",
+                "t": "Antiporter — A and B opposite directions",
+                "zh": "反向轉運蛋白（Antiporter）— A 同 B 相反方向"
               }
             ]
           }
@@ -15235,7 +15345,48 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 588,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Basis of differentiation | Primary Active Transport | Secondary Active Transport",
+                "zh": "比較基礎 | 初級主動運輸 | 次級主動運輸"
+              },
+              {
+                "k": "p",
+                "t": "Definition — Primary: transport of molecules against a concentration gradient using energy generated by ATP. Secondary: transport of two distinct molecules across a membrane using energy in forms other than ATP.",
+                "zh": "定義 — 初級：利用 ATP 產生嘅能量逆濃度梯度運送分子。次級：用非 ATP 形式嘅能量運送兩種不同分子過膜。"
+              },
+              {
+                "k": "p",
+                "t": "Number of molecules transported — Primary: a single molecule. Secondary: two types of molecules simultaneously.",
+                "zh": "運送分子數目 — 初級：一種分子。次級：同時運送兩種分子。"
+              },
+              {
+                "k": "p",
+                "t": "Energy source — Primary: energy from ATP. Secondary: the concentration gradient of a driving ion supplies energy.",
+                "zh": "能量來源 — 初級：來自 ATP。次級：驅動離子嘅濃度梯度提供能量。"
+              },
+              {
+                "k": "p",
+                "t": "Number of substances transported — Primary: may transport one or more. Secondary: must transport more than one.",
+                "zh": "運送物質數目 — 初級：可以一種或多種。次級：必須多於一種。"
+              },
+              {
+                "k": "p",
+                "t": "Types of transmembrane proteins used — Primary: proteins specific to the ion transported. Secondary: both antiporters and symporters.",
+                "zh": "跨膜蛋白類型 — 初級：對運送離子特異。次級：反向同同向轉運蛋白都用。"
+              },
+              {
+                "k": "p",
+                "t": "Types of molecules transported — Primary: ions like sodium, potassium, and calcium. Secondary: ions like sodium act as the driving molecules.",
+                "zh": "運送分子類型 — 初級：鈉、鉀、鈣等離子。次級：鈉等離子作驅動分子。"
+              },
+              {
+                "k": "p",
+                "t": "Examples — Primary: sodium–potassium pump, calcium pump in muscles. Secondary: glucose–sodium pump (note: figure also lists sodium–potassium pump under secondary).",
+                "zh": "例子 — 初級：鈉鉀泵、肌肉鈣泵。次級：葡萄糖–鈉泵（圖上次級欄亦寫咗鈉鉀泵）。"
+              }
+            ]
           }
         ]
       },
@@ -15306,14 +15457,34 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "(A) Endocytosis: Outside of cell; Cell membrane; Endocytotic vesicle; Inside of cell. (B) Exocytosis: Secretory vesicle; Outside of cell; Inside of cell.",
-                "zh": "(A) 胞吞：細胞外；細胞膜；胞吞囊泡；細胞內。(B) 胞吐：分泌囊泡；細胞外；細胞內。"
+                "k": "h",
+                "t": "(A) Endocytosis",
+                "zh": "(A) 胞吞"
               },
               {
                 "k": "p",
-                "t": "In endocytosis, the cell membrane surrounds a part of the exterior environment and buds off as an internal vesicle. In exocytosis, a vesicle fuses with the cell membrane; the contents of the vesicle are released, and its membrane becomes part of the cell membrane.",
-                "zh": "胞吞時，細胞膜包裹細胞外一部分環境，內凹並夾斷成內部囊泡。胞吐時，分泌囊泡同細胞膜融合，內容物釋放到細胞外，囊泡膜併入細胞膜。"
+                "t": "Outside of cell; Cell membrane; Endocytotic vesicle; Inside of cell",
+                "zh": "細胞外；細胞膜；胞吞囊泡；細胞內"
+              },
+              {
+                "k": "p",
+                "t": "The cell membrane surrounds a part of the exterior environment and buds off as an internal vesicle.",
+                "zh": "細胞膜包裹細胞外一部分環境，內凹並夾斷成內部囊泡。"
+              },
+              {
+                "k": "h",
+                "t": "(B) Exocytosis",
+                "zh": "(B) 胞吐"
+              },
+              {
+                "k": "p",
+                "t": "Secretory vesicle; Outside of cell; Inside of cell",
+                "zh": "分泌囊泡；細胞外；細胞內"
+              },
+              {
+                "k": "p",
+                "t": "A vesicle fuses with the cell membrane. The contents of the vesicle are released, and its membrane becomes part of the cell membrane.",
+                "zh": "囊泡同細胞膜融合，內容物釋放到細胞外，囊泡膜併入細胞膜。"
               }
             ]
           }
