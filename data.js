@@ -17132,13 +17132,7 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 800,
             "kind": "embed",
-            "blocks": [
-              {
-                "k": "p",
-                "t": "This diagram shows pulmonary and systemic circulation: deoxygenated blood (blue) is pumped from the right heart to the lungs, becomes oxygenated (red), returns to the left heart, and is then sent through capillary beds to the upper and lower body before returning to the right heart.",
-                "zh": "呢幅圖顯示肺循環同體循環：缺氧血（藍）由右心泵去肺交換氧氣後變為含氧血（紅），返左心，再經上下身嘅微血管床供應全身，最後回流右心。"
-              }
-            ]
+            "blocks": []
           }
         ]
       },
@@ -17190,8 +17184,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Arteriole, small artery; Capillary network, site of exchange between blood and other tissue; Venule, small vein; Oxygen, nutrients, etc. delivered to tissues; Carbon dioxide and metabolic waste products removed from tissues.",
-                "zh": "小動脈；微血管網（血液同組織交換位置）；小靜脈；氧同營養等送去組織；二氧化碳同代謝廢物由組織帶走。"
+                "t": "Arteriole, small artery",
+                "zh": "小動脈"
+              },
+              {
+                "k": "p",
+                "t": "Capillary network, site of exchange between blood and other tissue",
+                "zh": "微血管網（血液同組織交換位置）"
+              },
+              {
+                "k": "p",
+                "t": "Venule, small vein",
+                "zh": "小靜脈"
+              },
+              {
+                "k": "p",
+                "t": "Oxygen, nutrients, etc. delivered to tissues.",
+                "zh": "氧同營養等送去組織。"
+              },
+              {
+                "k": "p",
+                "t": "Carbon dioxide and metabolic waste products removed from tissues.",
+                "zh": "二氧化碳同代謝廢物由組織帶走。"
               }
             ]
           }
@@ -17249,14 +17263,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "Vasoconstriction; Vasodilation; Capillary loop; Artery; Vein.",
-                "zh": "血管收縮；血管舒張；微血管袢；動脈；靜脈。"
+                "k": "h",
+                "t": "Vasoconstriction",
+                "zh": "血管收縮"
               },
               {
                 "k": "p",
-                "t": "Vasoconstriction: heat kept in and retained by the body. Vasodilation: heat loss by convection and radiation.",
-                "zh": "血管收縮：身體保留熱量。血管舒張：熱量以對流同輻射散失。"
+                "t": "Heat kept in and retained by the body.",
+                "zh": "熱量由身體保留。"
+              },
+              {
+                "k": "p",
+                "t": "Capillary loop; Artery; Vein",
+                "zh": "微血管袢；動脈；靜脈"
+              },
+              {
+                "k": "h",
+                "t": "Vasodilation",
+                "zh": "血管舒張"
+              },
+              {
+                "k": "p",
+                "t": "Heat loss by convection and radiation.",
+                "zh": "熱量以對流同輻射散失。"
               }
             ]
           }
@@ -17314,7 +17343,33 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 170,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "(a)",
+                "zh": "(a)"
+              },
+              {
+                "k": "p",
+                "t": "(b)",
+                "zh": "(b)"
+              },
+              {
+                "k": "p",
+                "t": "(c)",
+                "zh": "(c)"
+              },
+              {
+                "k": "p",
+                "t": "(d)",
+                "zh": "(d)"
+              },
+              {
+                "k": "p",
+                "t": "(e)",
+                "zh": "(e)"
+              }
+            ]
           }
         ]
       },
@@ -17375,9 +17430,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Centrifuged Blood Sample",
+                "zh": "離心血液樣本"
+              },
+              {
                 "k": "p",
-                "t": "Centrifuged Blood Sample; Blood plasma; Buffy coat; Red blood cells; Formed elements; Blood Smear; Platelets; White blood cells; Red blood cells.",
-                "zh": "離心血液樣本；血漿；血沉棕黃層；紅血球；有形成分；血塗片；血小板；白血球；紅血球。"
+                "t": "Blood plasma",
+                "zh": "血漿"
+              },
+              {
+                "k": "p",
+                "t": "Buffy coat → Platelets; White blood cells",
+                "zh": "血沉棕黃層 → 血小板；白血球"
+              },
+              {
+                "k": "p",
+                "t": "Formed elements — Red blood cells",
+                "zh": "有形成分 — 紅血球"
+              },
+              {
+                "k": "h",
+                "t": "Blood Smear",
+                "zh": "血塗片"
               }
             ]
           }
@@ -17460,9 +17535,19 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Anti-coagulant",
+                "zh": "抗凝血劑"
+              },
+              {
                 "k": "p",
-                "t": "Anti-coagulant; − : Serum; Blood clot; + : Plasma; Buffy coat (white blood cells and platelets); Red blood cells.",
-                "zh": "抗凝血劑；−：血清；血塊；+：血漿；血沉棕黃層（白血球同血小板）；紅血球。"
+                "t": "− : Serum; Blood clot",
+                "zh": "−：血清；血塊"
+              },
+              {
+                "k": "p",
+                "t": "+ : Plasma; Buffy coat (white blood cells and platelets); Red blood cells",
+                "zh": "+：血漿；血沉棕黃層（白血球同血小板）；紅血球"
               }
             ]
           }
@@ -17496,8 +17581,48 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Plasma 55%: Proteins 7% (Albumins 58%, Globulins 38%, Fibrinogen 4%); Water 91%; Other solutes 2% (Ions, Nutrients, Waste products, Gases, Regulatory substances). Buffy coat. Formed elements 45%: Platelets 250–400 thousand; White blood cells 5–10 thousand (Neutrophils 60%–70%, Lymphocytes 20%–25%, Monocytes 3%–8%, Eosinophils 2%–4%, Basophils 0.5%–1%); Red blood cells 4.2–6.2 million.",
-                "zh": "血漿 55%：蛋白質 7%（白蛋白 58%、球蛋白 38%、纖維蛋白原 4%）；水 91%；其他溶質 2%（離子、營養素、廢物、氣體、調節物質）。血沉棕黃層。有形成分 45%：血小板 25–40 萬；白血球 5–10 千（中性粒細胞 60%–70%、淋巴細胞 20%–25%、單核細胞 3%–8%、嗜酸性粒細胞 2%–4%、嗜鹼性粒細胞 0.5%–1%）；紅血球 420–620 萬。"
+                "t": "Plasma 55%",
+                "zh": "血漿 55%"
+              },
+              {
+                "k": "p",
+                "t": "Proteins 7% — Albumins 58%; Globulins 38%; Fibrinogen 4%",
+                "zh": "蛋白質 7% — 白蛋白 58%；球蛋白 38%；纖維蛋白原 4%"
+              },
+              {
+                "k": "p",
+                "t": "Water 91%",
+                "zh": "水 91%"
+              },
+              {
+                "k": "p",
+                "t": "Other solutes 2% — Ions; Nutrients; Waste products; Gases; Regulatory substances",
+                "zh": "其他溶質 2% — 離子；營養素；廢物；氣體；調節物質"
+              },
+              {
+                "k": "p",
+                "t": "Buffy coat",
+                "zh": "血沉棕黃層"
+              },
+              {
+                "k": "p",
+                "t": "Formed elements 45%",
+                "zh": "有形成分 45%"
+              },
+              {
+                "k": "p",
+                "t": "Platelets 150–400 thousand",
+                "zh": "血小板 15–40 萬"
+              },
+              {
+                "k": "p",
+                "t": "White blood cells 5–10 thousand — Neutrophils 60%–70%; Lymphocytes 20%–25%; Monocytes 3%–8%; Eosinophils 2%–4%; Basophils 0.5%–1%",
+                "zh": "白血球 5–10 千 — 中性粒細胞 60%–70%；淋巴細胞 20%–25%；單核細胞 3%–8%；嗜酸性粒細胞 2%–4%；嗜鹼性粒細胞 0.5%–1%"
+              },
+              {
+                "k": "p",
+                "t": "Red blood cells 4.2–6.2 million",
+                "zh": "紅血球 420–620 萬"
               }
             ]
           }
@@ -17553,7 +17678,33 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 398,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "(b)",
+                "zh": "(b)"
+              },
+              {
+                "k": "p",
+                "t": "Top view",
+                "zh": "頂視圖"
+              },
+              {
+                "k": "p",
+                "t": "Side view",
+                "zh": "側視圖"
+              },
+              {
+                "k": "p",
+                "t": "7.5 µm",
+                "zh": "7.5 µm"
+              },
+              {
+                "k": "p",
+                "t": "2.0 µm",
+                "zh": "2.0 µm"
+              }
+            ]
           }
         ]
       },
@@ -17577,7 +17728,48 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 690,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "TYPES OF WHITE BLOOD CELLS",
+                "zh": "白血球類型"
+              },
+              {
+                "k": "h",
+                "t": "Granulocytes",
+                "zh": "顆粒白血球"
+              },
+              {
+                "k": "p",
+                "t": "1. Neutrophil — Helps in phagocytosis.",
+                "zh": "1. 中性粒細胞 — 協助吞噬。"
+              },
+              {
+                "k": "p",
+                "t": "2. Eosinophil — Fights against parasitic infection.",
+                "zh": "2. 嗜酸性粒細胞 — 對抗寄生蟲感染。"
+              },
+              {
+                "k": "p",
+                "t": "3. Basophil — Produces inflammatory and allergic reactions.",
+                "zh": "3. 嗜鹼性粒細胞 — 引發炎症同過敏反應。"
+              },
+              {
+                "k": "h",
+                "t": "Agranulocytes",
+                "zh": "無顆粒白血球"
+              },
+              {
+                "k": "p",
+                "t": "4. Lymphocyte — Produces specific immune responses. (B Lymphocyte; T Lymphocyte; Natural Killer Cell)",
+                "zh": "4. 淋巴細胞 — 產生特異性免疫反應。（B 淋巴細胞；T 淋巴細胞；自然殺手細胞）"
+              },
+              {
+                "k": "p",
+                "t": "5. Monocyte — Fights off bacteria, viruses and fungi.",
+                "zh": "5. 單核細胞 — 對抗細菌、病毒同真菌。"
+              }
+            ]
           }
         ]
       },
@@ -17616,13 +17808,7 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 683,
             "kind": "embed",
-            "blocks": [
-              {
-                "k": "p",
-                "t": "Top: an injured vessel leaks red blood cells. Bottom: a fibrin mesh traps cells to form a clot that seals the break.",
-                "zh": "上圖：受損血管滲出紅血球。下圖：纖維蛋白網困住細胞形成血塊，封閉傷口。"
-              }
-            ]
+            "blocks": []
           }
         ]
       },
@@ -17646,7 +17832,43 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 689,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Neutrophils",
+                "zh": "中性粒細胞"
+              },
+              {
+                "k": "p",
+                "t": "Eosinophils",
+                "zh": "嗜酸性粒細胞"
+              },
+              {
+                "k": "p",
+                "t": "Basophils",
+                "zh": "嗜鹼性粒細胞"
+              },
+              {
+                "k": "p",
+                "t": "Lymphocytes",
+                "zh": "淋巴細胞"
+              },
+              {
+                "k": "p",
+                "t": "Monocytes",
+                "zh": "單核細胞"
+              },
+              {
+                "k": "p",
+                "t": "Platelets",
+                "zh": "血小板"
+              },
+              {
+                "k": "p",
+                "t": "Erythrocytes",
+                "zh": "紅血球"
+              }
+            ]
           }
         ]
       },
