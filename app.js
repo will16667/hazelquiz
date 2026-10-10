@@ -1548,7 +1548,7 @@
       escapeHtml(L.titleEn) +
       "</p>" +
       '<div class="flow-steps compact"><span class="flow-step on">① 讀全文</span><span class="flow-arrow">→</span><span class="flow-step">② 溫重點</span><span class="flow-arrow">→</span><span class="flow-step">③ 測驗</span></div>' +
-      '<p class="lede reader-hint">跟 PDF 一頁一頁讀；圖表喺文字下面，點圖可放大。點英文可睇解釋／發音／存生字。進度 ' +
+      '<p class="lede reader-hint">跟 PDF 一頁一頁讀；圖下有整理好嘅圖中文字（可點存生字），原圖可放大對照。進度 ' +
       prog.done +
       "/" +
       prog.total +
@@ -1601,14 +1601,50 @@
       }
     });
 
+    function renderFigText(blocks, gate, gateId, figIndex, figTotal) {
+      var list = blocks || [];
+      if (!list.length) return "";
+      var label =
+        "圖" +
+        (figIndex != null ? " " + (figIndex + 1) : "") +
+        (figTotal > 1 ? "／" + figTotal : "") +
+        " 內文字（OCR）· 點詞可睇解釋／存生字";
+      var h =
+        '<div class="fig-text" aria-label="圖中 OCR 文字">' +
+        '<p class="fig-text-label hint">' +
+        label +
+        "</p>";
+      list.forEach(function (b) {
+        var t = (b && b.t) || "";
+        if (!t) return;
+        var k = (b && b.k) || "p";
+        var linked = linkAllEnglish(t, gate, gateId || "");
+        if (k === "h") {
+          h += '<h4 class="fig-h">' + linked + "</h4>";
+        } else if (k === "li") {
+          h += '<p class="fig-li">' + linked + "</p>";
+        } else {
+          h += '<p class="fig-p">' + linked + "</p>";
+        }
+      });
+      h += "</div>";
+      return h;
+    }
+
     var figs = page.figures || [];
+    var gateIdForFigs = preferGate ? preferGate.id : "";
     if (figs.length) {
-      html += '<div class="fig-grid" aria-label="本頁圖表">';
+      html += '<div class="fig-block"><div class="fig-grid" aria-label="本頁圖表">';
       figs.forEach(function (f, fi) {
         var src = f.src || "";
         if (!src) return;
+        var tall = f.h && f.w && f.h > f.w * 1.15;
+        var ocrBlocks = f.blocks && f.blocks.length ? f.blocks : null;
         html +=
-          '<figure class="fig-card">' +
+          '<figure class="fig-card' +
+          (tall ? " tall" : "") +
+          (ocrBlocks ? " has-ocr" : "") +
+          '">' +
           '<button type="button" class="fig-btn" data-fig-src="' +
           escapeHtml(src) +
           '" data-fig-alt="第 ' +
@@ -1633,9 +1669,14 @@
           '<figcaption class="hint">圖 ' +
           (fi + 1) +
           (figs.length > 1 ? " / " + figs.length : "") +
-          " · 點圖放大</figcaption></figure>";
+          " · 點圖放大</figcaption>";
+        // Real OCR text under THIS figure only — never page body fallback
+        if (ocrBlocks) {
+          html += renderFigText(ocrBlocks, preferGate, gateIdForFigs, fi, figs.length);
+        }
+        html += "</figure>";
       });
-      html += "</div>";
+      html += "</div></div>";
     }
 
     html +=

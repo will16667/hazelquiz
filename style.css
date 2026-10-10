@@ -785,36 +785,110 @@ a.gate-mini.locked { opacity: 0.72; }
   letter-spacing: 0.02em; color: var(--ink);
   white-space: nowrap;
 }
+.fig-block {
+  margin: 1rem 0 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
 .fig-grid {
-  display: flex; flex-direction: column; gap: 0.85rem;
-  margin: 1rem 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin: 0;
 }
 .fig-card {
-  margin: 0; padding: 0;
-  border-radius: 12px; overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border-radius: 14px;
+  overflow: hidden;
   border: 1px solid var(--line);
   background: var(--card);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
 }
 .fig-btn {
-  display: block; width: 100%; margin: 0; padding: 0;
-  border: 0; background: #f8fafc; cursor: zoom-in;
-  position: relative; text-align: center;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0.35rem 0.35rem 0;
+  border: 0;
+  background: #f8fafc;
+  cursor: zoom-in;
+  position: relative;
+  text-align: center;
 }
 .fig-img {
-  display: block; max-width: 100%; height: auto; margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: min(52vh, 420px);
+  margin: 0 auto;
+  object-fit: contain;
   vertical-align: middle;
+  border-radius: 8px;
+}
+.fig-card.tall .fig-img {
+  max-height: min(58vh, 480px);
 }
 .fig-zoom-hint {
-  position: absolute; right: 8px; bottom: 8px;
+  position: absolute; right: 10px; bottom: 10px;
   background: rgba(15, 23, 42, 0.55); color: #fff;
   font-size: 0.85rem; line-height: 1;
   padding: 6px 8px; border-radius: 999px;
   pointer-events: none;
 }
 .fig-card figcaption {
-  margin: 0; padding: 6px 10px 8px;
-  background: color-mix(in srgb, var(--card) 92%, transparent);
+  margin: 0;
+  padding: 6px 12px 10px;
+  background: transparent;
 }
+.fig-text {
+  padding: 12px 14px 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--soft) 40%, var(--card));
+}
+.fig-card .fig-text {
+  border: 0;
+  border-radius: 0;
+  border-top: 1px solid var(--line);
+}
+.fig-text-label {
+  margin: 0 0 0.55rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+}
+.fig-h {
+  margin: 0 0 0.45rem;
+  font-size: 1.05rem;
+  font-weight: 800;
+  line-height: 1.35;
+  color: var(--ink);
+}
+.fig-p, .fig-li {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.fig-li {
+  padding-left: 0.85em;
+  position: relative;
+}
+.fig-li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--muted, #6b7280);
+}
+.fig-text .fig-p:last-child,
+.fig-text .fig-li:last-child,
+.fig-text .fig-h:last-child { margin-bottom: 0; }
+@media (prefers-color-scheme: dark) {
+  .fig-text { background: #151b2e; }
+}
+
 body.lb-open { overflow: hidden; }
 .fig-lightbox {
   position: fixed; inset: 0; z-index: 9999;
@@ -849,4 +923,28 @@ body.lb-open { overflow: hidden; }
 }
 @media (prefers-color-scheme: dark) {
   .fig-btn { background: #0f172a; }
+}
+
+.fig-card.has-ocr {
+  display: flex;
+  flex-direction: column;
+}
+.fig-card .fig-text {
+  border: 0;
+  border-radius: 0;
+  border-top: 1px solid var(--line);
+  background: color-mix(in srgb, var(--soft) 55%, var(--card));
+  padding: 10px 12px 12px;
+  text-align: left;
+}
+.fig-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.fig-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0.85rem 0 1rem;
 }

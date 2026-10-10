@@ -5446,13 +5446,96 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p005-01.webp",
             "w": 1000,
             "h": 1413,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Body Organ System"
+              },
+              {
+                "k": "li",
+                "t": "Brain"
+              },
+              {
+                "k": "li",
+                "t": "Lungs"
+              },
+              {
+                "k": "li",
+                "t": "Frontal Lobe"
+              },
+              {
+                "k": "li",
+                "t": "Parietal Lobe"
+              },
+              {
+                "k": "li",
+                "t": "Trachea"
+              },
+              {
+                "k": "li",
+                "t": "Carina"
+              },
+              {
+                "k": "li",
+                "t": "Bronchus"
+              },
+              {
+                "k": "li",
+                "t": "Occipital Lobe"
+              },
+              {
+                "k": "li",
+                "t": "Cerebellum"
+              },
+              {
+                "k": "li",
+                "t": "Temporal Lobe"
+              },
+              {
+                "k": "li",
+                "t": "Control centre"
+              },
+              {
+                "k": "li",
+                "t": "Right Lobe"
+              },
+              {
+                "k": "p",
+                "t": "Left Lobe of the body."
+              },
+              {
+                "k": "p",
+                "t": "Helps to breathe."
+              },
+              {
+                "k": "li",
+                "t": "Heart"
+              },
+              {
+                "k": "li",
+                "t": "Liver"
+              },
+              {
+                "k": "li",
+                "t": "Vena Cava"
+              },
+              {
+                "k": "li",
+                "t": "Superior"
+              },
+              {
+                "k": "li",
+                "t": "Left Lobe"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p005-02.webp",
             "w": 257,
             "h": 368,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -5495,13 +5578,133 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p006-02.webp",
             "w": 1000,
             "h": 915,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Eat the least"
+              },
+              {
+                "k": "li",
+                "t": "Salt"
+              },
+              {
+                "k": "li",
+                "t": "Milk and Alternatives"
+              },
+              {
+                "k": "li",
+                "t": "Egg and Alternatives"
+              },
+              {
+                "k": "li",
+                "t": "19K = 240 Ft"
+              },
+              {
+                "k": "li",
+                "t": "1M=1 Berra"
+              },
+              {
+                "k": "li",
+                "t": "4 glass = 240 ml"
+              },
+              {
+                "k": "p",
+                "t": "1 tael = meat in the size of a table tennis ball"
+              },
+              {
+                "k": "li",
+                "t": "Atleast servings"
+              },
+              {
+                "k": "li",
+                "t": "Atleast servings every day every day"
+              },
+              {
+                "k": "li",
+                "t": "1B=1 Bprkr Wer)"
+              },
+              {
+                "k": "li",
+                "t": "1B= 2 Rr"
+              },
+              {
+                "k": "li",
+                "t": "1 serving = 1 medium-sized fruit"
+              },
+              {
+                "k": "li",
+                "t": "cooked vegetables"
+              },
+              {
+                "k": "li",
+                "t": "1 serving = Ye bow! of"
+              },
+              {
+                "k": "li",
+                "t": "(e. g. orange or apple)"
+              },
+              {
+                "k": "li",
+                "t": "one"
+              },
+              {
+                "k": "li",
+                "t": "bowls"
+              },
+              {
+                "k": "li",
+                "t": "every day"
+              },
+              {
+                "k": "li",
+                "t": "WExz"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p006-03.webp",
             "w": 605,
             "h": 507,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Carbohydrates"
+              },
+              {
+                "k": "li",
+                "t": "Water"
+              },
+              {
+                "k": "li",
+                "t": "6 Essential"
+              },
+              {
+                "k": "li",
+                "t": "Vitamin,"
+              },
+              {
+                "k": "li",
+                "t": "Nutrients for fats"
+              },
+              {
+                "k": "li",
+                "t": "Good Health"
+              },
+              {
+                "k": "li",
+                "t": "Vitamins"
+              },
+              {
+                "k": "li",
+                "t": "Protein"
+              },
+              {
+                "k": "li",
+                "t": "Minerals"
+              }
+            ]
           }
         ]
       },
@@ -5561,16 +5764,128 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L1/p007-01.webp",
-            "w": 630,
-            "h": 422,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L1/p007-02.webp",
             "w": 1000,
             "h": 642,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Simple"
+              },
+              {
+                "k": "li",
+                "t": "Complex carbohydrates carbohydrates"
+              },
+              {
+                "k": "li",
+                "t": "Monosa-"
+              },
+              {
+                "k": "li",
+                "t": "Disaccharides"
+              },
+              {
+                "k": "li",
+                "t": "Oligo-/ ) ccharides polysaccharides it Mil"
+              },
+              {
+                "k": "p",
+                "t": "-> age."
+              },
+              {
+                "k": "li",
+                "t": "causes blood sugar to rise quickly"
+              },
+              {
+                "k": "li",
+                "t": "+ slower breakdown"
+              },
+              {
+                "k": "li",
+                "t": "quickly available energy"
+              },
+              {
+                "k": "li",
+                "t": "- lasts longer"
+              },
+              {
+                "k": "li",
+                "t": "does not last long"
+              },
+              {
+                "k": "li",
+                "t": "- keeps you full longer"
+              }
+            ]
+          },
+          {
+            "src": "assets/figures/L1/p007-01.webp",
+            "w": 630,
+            "h": 422,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Carbohydrates"
+              },
+              {
+                "k": "li",
+                "t": "Simple"
+              },
+              {
+                "k": "li",
+                "t": "Complex"
+              },
+              {
+                "k": "li",
+                "t": "Monosaccharides"
+              },
+              {
+                "k": "li",
+                "t": "Disaccharides"
+              },
+              {
+                "k": "li",
+                "t": "Polysaccharides"
+              },
+              {
+                "k": "li",
+                "t": "Glucose"
+              },
+              {
+                "k": "li",
+                "t": "Maltose"
+              },
+              {
+                "k": "li",
+                "t": "Starches"
+              },
+              {
+                "k": "li",
+                "t": "Fructose"
+              },
+              {
+                "k": "li",
+                "t": "Lactose"
+              },
+              {
+                "k": "li",
+                "t": "Fibers"
+              },
+              {
+                "k": "li",
+                "t": "Galactose"
+              },
+              {
+                "k": "li",
+                "t": "Sucrose"
+              },
+              {
+                "k": "li",
+                "t": "Glycogen"
+              }
+            ]
           }
         ]
       },
@@ -5673,7 +5988,89 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p008-01.webp",
             "w": 1000,
             "h": 411,
-            "kind": "vector"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Class"
+              },
+              {
+                "k": "li",
+                "t": "Example"
+              },
+              {
+                "k": "li",
+                "t": "Made up of"
+              },
+              {
+                "k": "li",
+                "t": "Characteristics"
+              },
+              {
+                "k": "li",
+                "t": "Major end-product of carbohydrate"
+              },
+              {
+                "k": "li",
+                "t": "Glucose (7iij ZH) digestion"
+              },
+              {
+                "k": "li",
+                "t": "Broken down during respiration to"
+              },
+              {
+                "k": "li",
+                "t": "Monosaccharide release energy"
+              },
+              {
+                "k": "li",
+                "t": "Sweetest simple sugar"
+              },
+              {
+                "k": "li",
+                "t": "Fructose (32%)"
+              },
+              {
+                "k": "li",
+                "t": "Commonly found in fruit and honey"
+              },
+              {
+                "k": "li",
+                "t": "Maltose (2824 #8)"
+              },
+              {
+                "k": "li",
+                "t": "Glucose + Glucose"
+              },
+              {
+                "k": "li",
+                "t": "Intermediate in the digestion of starch"
+              },
+              {
+                "k": "li",
+                "t": "Disaccharide"
+              },
+              {
+                "k": "li",
+                "t": "Sucrose (jt #f)"
+              },
+              {
+                "k": "li",
+                "t": "Glucose + Fructose"
+              },
+              {
+                "k": "li",
+                "t": "Commonly known as table sugar"
+              },
+              {
+                "k": "li",
+                "t": "Starch (32%})"
+              },
+              {
+                "k": "li",
+                "t": "Glucose"
+              }
+            ]
           }
         ]
       },
@@ -5772,19 +6169,149 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p010-01.webp",
             "w": 1000,
             "h": 646,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Lipids: Structure and Function"
+              },
+              {
+                "k": "li",
+                "t": "Triglyceride"
+              },
+              {
+                "k": "li",
+                "t": "Phospholipid"
+              },
+              {
+                "k": "li",
+                "t": "Steroid hosphate group"
+              },
+              {
+                "k": "li",
+                "t": "Ester ster bonds bonds"
+              },
+              {
+                "k": "li",
+                "t": "Membrane structure"
+              },
+              {
+                "k": "li",
+                "t": "Raf"
+              },
+              {
+                "k": "li",
+                "t": "Rrapr"
+              },
+              {
+                "k": "li",
+                "t": "6» acid"
+              },
+              {
+                "k": "li",
+                "t": "4 fused rings"
+              },
+              {
+                "k": "li",
+                "t": "Structure"
+              },
+              {
+                "k": "li",
+                "t": "Structure:"
+              },
+              {
+                "k": "li",
+                "t": "Glycerol + 3 fatty acids"
+              },
+              {
+                "k": "li",
+                "t": "Glycerol + 2 fatty acids"
+              },
+              {
+                "k": "li",
+                "t": "+ phosphate"
+              },
+              {
+                "k": "li",
+                "t": "Function"
+              },
+              {
+                "k": "li",
+                "t": "Function:"
+              },
+              {
+                "k": "li",
+                "t": "Long-term energy"
+              },
+              {
+                "k": "li",
+                "t": "Hormones, signaling storage"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p010-02.webp",
             "w": 967,
             "h": 544,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Lipids"
+              },
+              {
+                "k": "li",
+                "t": "Phospholipid"
+              },
+              {
+                "k": "li",
+                "t": "Triglycerid"
+              },
+              {
+                "k": "li",
+                "t": "Cholesterol"
+              },
+              {
+                "k": "li",
+                "t": "GO Danane"
+              },
+              {
+                "k": "li",
+                "t": "Cell"
+              },
+              {
+                "k": "li",
+                "t": "Phospholipid bilayer"
+              },
+              {
+                "k": "li",
+                "t": "(Cell membrane)"
+              },
+              {
+                "k": "li",
+                "t": "Ras"
+              },
+              {
+                "k": "li",
+                "t": "Cleveland linie"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p010-03.webp",
             "w": 255,
             "h": 216,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Lipids"
+              },
+              {
+                "k": "li",
+                "t": "Triglyceride"
+              }
+            ]
           }
         ]
       },
@@ -5837,7 +6364,45 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p011-01.webp",
             "w": 895,
             "h": 457,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Lipids"
+              },
+              {
+                "k": "li",
+                "t": "Phospholipid Triglycet"
+              },
+              {
+                "k": "li",
+                "t": "Cholesterol"
+              },
+              {
+                "k": "li",
+                "t": "Daa aOaaae"
+              },
+              {
+                "k": "p",
+                "t": "Seca Is Pis Es 38 Hbl 8 12 |"
+              },
+              {
+                "k": "li",
+                "t": "Ala"
+              },
+              {
+                "k": "li",
+                "t": "Cell hospholipid bilayer"
+              },
+              {
+                "k": "li",
+                "t": "(Cell membrane)"
+              },
+              {
+                "k": "li",
+                "t": "Raa"
+              }
+            ]
           }
         ]
       },
@@ -5875,19 +6440,120 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p012-01.webp",
             "w": 1000,
             "h": 383,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Amino acids"
+              },
+              {
+                "k": "li",
+                "t": "Protein"
+              },
+              {
+                "k": "li",
+                "t": "Peptide"
+              },
+              {
+                "k": "li",
+                "t": "Polypeptide"
+              },
+              {
+                "k": "li",
+                "t": "The building blocks"
+              },
+              {
+                "k": "li",
+                "t": "Asshort chain of amino acids"
+              },
+              {
+                "k": "li",
+                "t": "A longer chain of amino acids"
+              },
+              {
+                "k": "li",
+                "t": "A folded, functional 3D structure"
+              },
+              {
+                "k": "li",
+                "t": "Peptide bonds"
+              },
+              {
+                "k": "li",
+                "t": "‘Amino acids are individual"
+              },
+              {
+                "k": "li",
+                "t": "‘A peptide is a short chain of"
+              },
+              {
+                "k": "li",
+                "t": "Apolypeptide isa longer chain"
+              },
+              {
+                "k": "li",
+                "t": "A proteins one or more polypeptide"
+              },
+              {
+                "k": "li",
+                "t": "molecules with an amino group,"
+              },
+              {
+                "k": "li",
+                "t": "amino acids linked by"
+              },
+              {
+                "k": "li",
+                "t": "Cf amino acids connected by"
+              },
+              {
+                "k": "li",
+                "t": "chains folded into a specific 3D structure"
+              },
+              {
+                "k": "li",
+                "t": "a carboxyl group, and a variable"
+              },
+              {
+                "k": "p",
+                "t": "peptide bonds."
+              },
+              {
+                "k": "p",
+                "t": "that carries out a function."
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p012-02.webp",
             "w": 506,
             "h": 316,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Amino"
+              },
+              {
+                "k": "li",
+                "t": "Carboxyl"
+              },
+              {
+                "k": "li",
+                "t": "Group"
+              },
+              {
+                "k": "li",
+                "t": "Chain"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p012-03.webp",
             "w": 232,
             "h": 222,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -5930,7 +6596,65 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p013-01.webp",
             "w": 1000,
             "h": 761,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Functions Of"
+              },
+              {
+                "k": "li",
+                "t": "Proteins"
+              },
+              {
+                "k": "li",
+                "t": "Digestive enzymes"
+              },
+              {
+                "k": "li",
+                "t": "Antibodies support ion contraction and"
+              },
+              {
+                "k": "li",
+                "t": "Support muscle"
+              },
+              {
+                "k": "li",
+                "t": "Support the rae chemical reactions help facilitate"
+              },
+              {
+                "k": "li",
+                "t": "movement"
+              },
+              {
+                "k": "li",
+                "t": "and express:"
+              },
+              {
+                "k": "li",
+                "t": "hacen"
+              },
+              {
+                "k": "li",
+                "t": "Mes"
+              },
+              {
+                "k": "li",
+                "t": "Bion?"
+              },
+              {
+                "k": "li",
+                "t": "Provide support tothe body"
+              },
+              {
+                "k": "li",
+                "t": "Hormones help coordinate bodily function"
+              },
+              {
+                "k": "li",
+                "t": "Move essential molecules around the body"
+              }
+            ]
           }
         ]
       },
@@ -5983,13 +6707,15 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p014-01.webp",
             "w": 1000,
             "h": 332,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L1/p014-02.webp",
             "w": 250,
             "h": 251,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -6027,7 +6753,17 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p015-01.webp",
             "w": 400,
             "h": 204,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "denatures and"
+              },
+              {
+                "k": "li",
+                "t": "Bolling egg coagulates the egg proteins"
+              }
+            ]
           }
         ]
       },
@@ -6055,7 +6791,49 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p016-01.webp",
             "w": 1000,
             "h": 982,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Brain: 80-85%"
+              },
+              {
+                "k": "li",
+                "t": "Teeth: 8-10%"
+              },
+              {
+                "k": "li",
+                "t": "Lungs: 75-80%"
+              },
+              {
+                "k": "li",
+                "t": "Heart: 75-80%"
+              },
+              {
+                "k": "li",
+                "t": "Liver: _70-75%"
+              },
+              {
+                "k": "li",
+                "t": "Bones: 20-25%"
+              },
+              {
+                "k": "li",
+                "t": "Skin: 70-75%"
+              },
+              {
+                "k": "li",
+                "t": "Kidneys: 80-85%"
+              },
+              {
+                "k": "li",
+                "t": "Blood: 80%"
+              },
+              {
+                "k": "li",
+                "t": "Muscles: 70-75%"
+              }
+            ]
           }
         ]
       },
@@ -6143,7 +6921,33 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p017-01.webp",
             "w": 1000,
             "h": 518,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Capillary Action Illustrated"
+              },
+              {
+                "k": "li",
+                "t": "Water capillarity increases in smaller spaces"
+              },
+              {
+                "k": "p",
+                "t": "Water level is lower in wider spaces where surface tension is"
+              },
+              {
+                "k": "li",
+                "t": "reduced"
+              },
+              {
+                "k": "p",
+                "t": "Water is attracted to the sides of the container, the smaller the space,"
+              },
+              {
+                "k": "li",
+                "t": "the greater the attraction"
+              }
+            ]
           }
         ]
       },
@@ -6203,22 +7007,84 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
+            "src": "assets/figures/L1/p018-03.webp",
+            "w": 525,
+            "h": 525,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Atp"
+              },
+              {
+                "k": "li",
+                "t": "Reacts with H, 0 phosphate"
+              },
+              {
+                "k": "li",
+                "t": "Inorganic"
+              },
+              {
+                "k": "li",
+                "t": "Adp"
+              }
+            ]
+          },
+          {
             "src": "assets/figures/L1/p018-01.webp",
             "w": 452,
             "h": 509,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Reactants"
+              },
+              {
+                "k": "li",
+                "t": "Product"
+              },
+              {
+                "k": "li",
+                "t": "+P, + Energy ———>"
+              },
+              {
+                "k": "li",
+                "t": "Less potential"
+              },
+              {
+                "k": "li",
+                "t": "More potential energy energy"
+              },
+              {
+                "k": "li",
+                "t": "Products"
+              },
+              {
+                "k": "li",
+                "t": "More potential"
+              },
+              {
+                "k": "li",
+                "t": "Less potential energy energy"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p018-02.webp",
             "w": 277,
             "h": 197,
-            "kind": "embed"
-          },
-          {
-            "src": "assets/figures/L1/p018-03.webp",
-            "w": 525,
-            "h": 525,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "ate"
+              },
+              {
+                "k": "li",
+                "t": "Energy for wom ea working calls"
+              }
+            ]
           }
         ]
       },
@@ -6266,13 +7132,109 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p019-01.webp",
             "w": 800,
             "h": 891,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "DNA vs RNA: Key Differences"
+              },
+              {
+                "k": "li",
+                "t": "Shiver Regput ott"
+              },
+              {
+                "k": "li",
+                "t": "Dna"
+              },
+              {
+                "k": "li",
+                "t": "Rna"
+              },
+              {
+                "k": "li",
+                "t": "Deoxyribonucleic Acid"
+              },
+              {
+                "k": "li",
+                "t": "Sugar Type"
+              },
+              {
+                "k": "li",
+                "t": "Deoxyribose sugar"
+              },
+              {
+                "k": "li",
+                "t": "Oh Oh"
+              },
+              {
+                "k": "li",
+                "t": "Nitrogen Bases"
+              },
+              {
+                "k": "li",
+                "t": "Bases: A, T, G, C"
+              },
+              {
+                "k": "li",
+                "t": "Bases: A, U, G, C"
+              },
+              {
+                "k": "li",
+                "t": "(Adenine, Thymine, Guanine, Cytosine)"
+              },
+              {
+                "k": "li",
+                "t": "(Adenine, Uracil, Guanine, Cytosine)"
+              },
+              {
+                "k": "li",
+                "t": "Structure"
+              },
+              {
+                "k": "li",
+                "t": "Double-stranded"
+              },
+              {
+                "k": "li",
+                "t": "(double helix)"
+              },
+              {
+                "k": "li",
+                "t": "Single-stranded"
+              },
+              {
+                "k": "li",
+                "t": "Location"
+              },
+              {
+                "k": "li",
+                "t": "Mostly in nucleus"
+              },
+              {
+                "k": "li",
+                "t": "Nucleus & cytoplasm"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p019-02.webp",
             "w": 206,
             "h": 200,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Nucleic"
+              },
+              {
+                "k": "li",
+                "t": "Acids"
+              },
+              {
+                "k": "li",
+                "t": "Dna"
+              }
+            ]
           }
         ]
       },
@@ -6362,7 +7324,85 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p022-01.webp",
             "w": 1000,
             "h": 890,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Plasma Membrane"
+              },
+              {
+                "k": "li",
+                "t": "Outer boundary of the cell. Structure described in"
+              },
+              {
+                "k": "p",
+                "t": "Sections 3. 3-3. 5 and function described in Section 3. 6."
+              },
+              {
+                "k": "li",
+                "t": "Cytoplasm and Organelles"
+              },
+              {
+                "k": "p",
+                "t": "Organelles perform specific functions in the cell. The structure"
+              },
+              {
+                "k": "p",
+                "t": "and functions of organelles are described in Sections 3. 7 and 3. 8."
+              },
+              {
+                "k": "li",
+                "t": "Endoplasmic reticulum"
+              },
+              {
+                "k": "li",
+                "t": "Cilia"
+              },
+              {
+                "k": "li",
+                "t": "Ribosome"
+              },
+              {
+                "k": "li",
+                "t": "Golgi lysosome"
+              },
+              {
+                "k": "li",
+                "t": "Microvill apparatus"
+              },
+              {
+                "k": "li",
+                "t": "Machondidan 77 ots eee Fe ee a"
+              },
+              {
+                "k": "li",
+                "t": "Nucleolus"
+              },
+              {
+                "k": "li",
+                "t": "Nucleus"
+              },
+              {
+                "k": "li",
+                "t": "Organelle that contains the cell's genetic"
+              },
+              {
+                "k": "li",
+                "t": "information, thereby determining the cell's"
+              },
+              {
+                "k": "p",
+                "t": "structure and function. Sections 3. 9 and 3. 10"
+              },
+              {
+                "k": "li",
+                "t": "provide a detailed description of how the"
+              },
+              {
+                "k": "p",
+                "t": "nucleus directs the cell's activity."
+              }
+            ]
           }
         ]
       },
@@ -6395,7 +7435,61 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p023-01.webp",
             "w": 1000,
             "h": 986,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Cell Structure"
+              },
+              {
+                "k": "li",
+                "t": "Nucleus"
+              },
+              {
+                "k": "li",
+                "t": "Dna"
+              },
+              {
+                "k": "li",
+                "t": "Ribosome"
+              },
+              {
+                "k": "li",
+                "t": "Cell Membrane"
+              },
+              {
+                "k": "li",
+                "t": "Mitochondria"
+              },
+              {
+                "k": "li",
+                "t": "Lysosome"
+              },
+              {
+                "k": "li",
+                "t": "Endoplasmic reticulum"
+              },
+              {
+                "k": "li",
+                "t": "Centriole"
+              },
+              {
+                "k": "li",
+                "t": "Vacuole"
+              },
+              {
+                "k": "li",
+                "t": "Golgi complex"
+              },
+              {
+                "k": "li",
+                "t": "Peroxisome"
+              },
+              {
+                "k": "li",
+                "t": "Cytoplasm"
+              }
+            ]
           }
         ]
       },
@@ -6468,19 +7562,165 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p024-01.webp",
             "w": 1000,
             "h": 607,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "abi"
+              },
+              {
+                "k": "li",
+                "t": "Membrane channel"
+              },
+              {
+                "k": "li",
+                "t": "Extracellular Fluid"
+              },
+              {
+                "k": "li",
+                "t": "Integral protein"
+              },
+              {
+                "k": "li",
+                "t": "Glycoprotein ]"
+              },
+              {
+                "k": "li",
+                "t": "Peripheral"
+              },
+              {
+                "k": "li",
+                "t": "Carbohydrate chains membrane protein"
+              },
+              {
+                "k": "li",
+                "t": "| Glycocalyx"
+              },
+              {
+                "k": "li",
+                "t": "Integral membrane protein"
+              },
+              {
+                "k": "li",
+                "t": "Glycolipid |"
+              },
+              {
+                "k": "li",
+                "t": "Sete"
+              },
+              {
+                "k": "li",
+                "t": "Nonpolar"
+              },
+              {
+                "k": "li",
+                "t": "(hydrophobic)"
+              },
+              {
+                "k": "li",
+                "t": "External membrane regions of phospholipid surface molecules"
+              },
+              {
+                "k": "li",
+                "t": "(hydrophilic)"
+              },
+              {
+                "k": "li",
+                "t": "regions"
+              },
+              {
+                "k": "li",
+                "t": "Phospholipid of phospholipid bilayer molecules"
+              },
+              {
+                "k": "li",
+                "t": "Internal membrane surface"
+              },
+              {
+                "k": "li",
+                "t": "Cytoskeleton ——"
+              },
+              {
+                "k": "li",
+                "t": "CYTOPLASM (intracellular fluid)"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p024-02.webp",
             "w": 640,
             "h": 525,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Cell Membrane"
+              },
+              {
+                "k": "li",
+                "t": "Glycoprotein"
+              },
+              {
+                "k": "li",
+                "t": "Carbohydrate"
+              },
+              {
+                "k": "li",
+                "t": "Glycolipid"
+              },
+              {
+                "k": "li",
+                "t": "Globular"
+              },
+              {
+                "k": "li",
+                "t": "Cholesterol protein protein"
+              },
+              {
+                "k": "li",
+                "t": "Integral"
+              },
+              {
+                "k": "li",
+                "t": "Alpha-helix"
+              },
+              {
+                "k": "li",
+                "t": "Peripheral protein"
+              },
+              {
+                "k": "li",
+                "t": "Channel protein protein"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p024-03.webp",
             "w": 457,
             "h": 308,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Extracellular"
+              },
+              {
+                "k": "li",
+                "t": "Phospholipid bilayer"
+              },
+              {
+                "k": "li",
+                "t": "Intracellular"
+              },
+              {
+                "k": "li",
+                "t": "Hydrophobic tail"
+              },
+              {
+                "k": "li",
+                "t": "Hydrophilic head"
+              }
+            ]
           }
         ]
       },
@@ -6533,7 +7773,49 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p025-01.webp",
             "w": 750,
             "h": 557,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Byju'S he Lenning ABE"
+              },
+              {
+                "k": "li",
+                "t": "Cell Membrane"
+              },
+              {
+                "k": "li",
+                "t": "Endoplasmic Reticulum"
+              },
+              {
+                "k": "li",
+                "t": "Nucleus"
+              },
+              {
+                "k": "li",
+                "t": "Nucleolus"
+              },
+              {
+                "k": "li",
+                "t": "Cytoplasm"
+              },
+              {
+                "k": "li",
+                "t": "Cytosol"
+              },
+              {
+                "k": "p",
+                "t": "® Cytosol is a fluid present in the cell"
+              },
+              {
+                "k": "li",
+                "t": "* Cytoplasm is a cell component present"
+              },
+              {
+                "k": "li",
+                "t": "inside the cell membrane"
+              }
+            ]
           }
         ]
       },
@@ -6586,7 +7868,41 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p026-01.webp",
             "w": 855,
             "h": 814,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Cell Nucleus"
+              },
+              {
+                "k": "li",
+                "t": "Ribosome —_@"
+              },
+              {
+                "k": "li",
+                "t": "—+—— Nuclear envelope"
+              },
+              {
+                "k": "li",
+                "t": "Nuclear lamina"
+              },
+              {
+                "k": "li",
+                "t": "N Nucleoplasm"
+              },
+              {
+                "k": "li",
+                "t": "Chromatin orn +"
+              },
+              {
+                "k": "li",
+                "t": "Nucleolus"
+              },
+              {
+                "k": "li",
+                "t": "Nuclear pore"
+              }
+            ]
           }
         ]
       },
@@ -6636,16 +7952,72 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L1/p027-01.webp",
-            "w": 700,
-            "h": 473,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L1/p027-02.webp",
             "w": 1000,
             "h": 537,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Mitochondria"
+              },
+              {
+                "k": "li",
+                "t": "Cristae"
+              },
+              {
+                "k": "li",
+                "t": "Outer membrane"
+              },
+              {
+                "k": "li",
+                "t": "Inner membrane"
+              }
+            ]
+          },
+          {
+            "src": "assets/figures/L1/p027-01.webp",
+            "w": 700,
+            "h": 473,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Atp"
+              },
+              {
+                "k": "li",
+                "t": "Oxphos complexes"
+              },
+              {
+                "k": "li",
+                "t": "Carbohydrate"
+              },
+              {
+                "k": "li",
+                "t": "Mitochondrial"
+              },
+              {
+                "k": "li",
+                "t": "Dna"
+              },
+              {
+                "k": "li",
+                "t": "Act"
+              },
+              {
+                "k": "li",
+                "t": "Fatty acids"
+              },
+              {
+                "k": "li",
+                "t": "Mitochondrion"
+              },
+              {
+                "k": "p",
+                "t": "Atp."
+              }
+            ]
           }
         ]
       },
@@ -6705,16 +8077,80 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L1/p028-01.webp",
-            "w": 808,
-            "h": 563,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L1/p028-02.webp",
             "w": 998,
             "h": 698,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Ribosome"
+              },
+              {
+                "k": "li",
+                "t": "Nuclear Pore"
+              },
+              {
+                "k": "li",
+                "t": "Rough"
+              },
+              {
+                "k": "li",
+                "t": "Endoplasmic"
+              },
+              {
+                "k": "li",
+                "t": "Reticulum"
+              },
+              {
+                "k": "li",
+                "t": "Nucleus"
+              },
+              {
+                "k": "p",
+                "t": "Mie."
+              },
+              {
+                "k": "li",
+                "t": "‘Smooth"
+              }
+            ]
+          },
+          {
+            "src": "assets/figures/L1/p028-01.webp",
+            "w": 808,
+            "h": 563,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Endoplasmic reticulum"
+              },
+              {
+                "k": "li",
+                "t": "Smooth"
+              },
+              {
+                "k": "li",
+                "t": "Nucleolus endoplasmic reticulum"
+              },
+              {
+                "k": "li",
+                "t": "Nucleus"
+              },
+              {
+                "k": "li",
+                "t": "Nuclear pore"
+              },
+              {
+                "k": "li",
+                "t": "Ribosomes"
+              },
+              {
+                "k": "li",
+                "t": "Rough endoplasmic reticulum"
+              }
+            ]
           }
         ]
       },
@@ -6792,7 +8228,89 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p029-01.webp",
             "w": 1000,
             "h": 490,
-            "kind": "vector"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Organelle / component"
+              },
+              {
+                "k": "li",
+                "t": "Function"
+              },
+              {
+                "k": "li",
+                "t": "Controls materials in and out of cell"
+              },
+              {
+                "k": "li",
+                "t": "Plasma (cell) membrane"
+              },
+              {
+                "k": "p",
+                "t": "Serves as matrix substance for chemical reactions to occur"
+              },
+              {
+                "k": "li",
+                "t": "Cytoplasm"
+              },
+              {
+                "k": "li",
+                "t": "Endoplasmic reticulum (ER)"
+              },
+              {
+                "k": "li",
+                "t": "Rough ER: Assist protein synthesis"
+              },
+              {
+                "k": "li",
+                "t": "Smooth ER: Metabolize nonpolar compound"
+              },
+              {
+                "k": "li",
+                "t": "Ribosome"
+              },
+              {
+                "k": "li",
+                "t": "Protein synthesis"
+              },
+              {
+                "k": "li",
+                "t": "Golgi Complex"
+              },
+              {
+                "k": "li",
+                "t": "Synthesize carbohydrate and pack molecules for secretion"
+              },
+              {
+                "k": "li",
+                "t": "Mitochondrion"
+              },
+              {
+                "k": "li",
+                "t": "Transform energy from food to ATP"
+              },
+              {
+                "k": "li",
+                "t": "Lysosome"
+              },
+              {
+                "k": "li",
+                "t": "Digest foreign molecules, and worn and damaged organelles"
+              },
+              {
+                "k": "li",
+                "t": "Nucleus"
+              },
+              {
+                "k": "li",
+                "t": "Contains genetic information and directs cellullar activity"
+              },
+              {
+                "k": "li",
+                "t": "Nuclear membrane"
+              }
+            ]
           }
         ]
       },
@@ -6881,7 +8399,89 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p031-01.webp",
             "w": 911,
             "h": 1499,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Chemical"
+              },
+              {
+                "k": "li",
+                "t": "Level"
+              },
+              {
+                "k": "li",
+                "t": "Atoms"
+              },
+              {
+                "k": "li",
+                "t": "Atoms enoH"
+              },
+              {
+                "k": "li",
+                "t": "Molecules"
+              },
+              {
+                "k": "li",
+                "t": "Protein"
+              },
+              {
+                "k": "li",
+                "t": "Dna"
+              },
+              {
+                "k": "li",
+                "t": "Sucrose"
+              },
+              {
+                "k": "li",
+                "t": "Cell"
+              },
+              {
+                "k": "li",
+                "t": "Level jee"
+              },
+              {
+                "k": "li",
+                "t": "Cells"
+              },
+              {
+                "k": "li",
+                "t": "Epithlial cell"
+              },
+              {
+                "k": "li",
+                "t": "Neuron (cell)"
+              },
+              {
+                "k": "li",
+                "t": "Smooth muscle cell"
+              },
+              {
+                "k": "li",
+                "t": "Tissue"
+              },
+              {
+                "k": "li",
+                "t": "Level gy os"
+              },
+              {
+                "k": "li",
+                "t": "Tissues"
+              },
+              {
+                "k": "li",
+                "t": "Nervous tissue"
+              },
+              {
+                "k": "li",
+                "t": "Smooth muscle tissue"
+              },
+              {
+                "k": "li",
+                "t": "Epithelial tissue"
+              }
+            ]
           }
         ]
       },
@@ -6919,7 +8519,29 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p032-01.webp",
             "w": 353,
             "h": 260,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "wed"
+              },
+              {
+                "k": "li",
+                "t": "Connective tissue"
+              },
+              {
+                "k": "li",
+                "t": "Epithet tissue"
+              },
+              {
+                "k": "li",
+                "t": "‘Muscle tissue"
+              },
+              {
+                "k": "li",
+                "t": "NeWous Cisse"
+              }
+            ]
           }
         ]
       },
@@ -6967,19 +8589,17 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p033-01.webp",
             "w": 1000,
             "h": 519,
-            "kind": "embed"
-          },
-          {
-            "src": "assets/figures/L1/p033-02.webp",
-            "w": 1000,
-            "h": 516,
-            "kind": "embed"
-          },
-          {
-            "src": "assets/figures/L1/p033-03.webp",
-            "w": 1000,
-            "h": 516,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "[OO wr oe LEO"
+              },
+              {
+                "k": "li",
+                "t": "LM 800x"
+              }
+            ]
           }
         ]
       },
@@ -7012,7 +8632,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p034-01.webp",
             "w": 1000,
             "h": 491,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -7070,7 +8691,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p035-01.webp",
             "w": 977,
             "h": 394,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -7143,7 +8765,61 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p036-01.webp",
             "w": 1000,
             "h": 546,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "connective tissue |"
+              },
+              {
+                "k": "li",
+                "t": "| bone_|"
+              },
+              {
+                "k": "li",
+                "t": "areolar"
+              },
+              {
+                "k": "li",
+                "t": "regular"
+              },
+              {
+                "k": "li",
+                "t": "hyaline"
+              },
+              {
+                "k": "li",
+                "t": "compact"
+              },
+              {
+                "k": "li",
+                "t": "adipose"
+              },
+              {
+                "k": "li",
+                "t": "irregular"
+              },
+              {
+                "k": "li",
+                "t": "fibrocartilage"
+              },
+              {
+                "k": "li",
+                "t": "spongy"
+              },
+              {
+                "k": "li",
+                "t": "reticular"
+              },
+              {
+                "k": "li",
+                "t": "elastic"
+              },
+              {
+                "k": "li",
+                "t": "Cees"
+              }
+            ]
           }
         ]
       },
@@ -7161,7 +8837,57 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p037-01.webp",
             "w": 1000,
             "h": 614,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "scorer eae i"
+              },
+              {
+                "k": "li",
+                "t": "~1 OG Onee"
+              },
+              {
+                "k": "li",
+                "t": "ancape are"
+              },
+              {
+                "k": "li",
+                "t": "‘Sethe nemo"
+              },
+              {
+                "k": "li",
+                "t": "gee"
+              },
+              {
+                "k": "li",
+                "t": "tne cre |"
+              },
+              {
+                "k": "li",
+                "t": "att"
+              },
+              {
+                "k": "li",
+                "t": "occas iene)"
+              },
+              {
+                "k": "li",
+                "t": "eit"
+              },
+              {
+                "k": "li",
+                "t": "say"
+              },
+              {
+                "k": "li",
+                "t": "sete"
+              },
+              {
+                "k": "li",
+                "t": "2 tea"
+              }
+            ]
           }
         ]
       },
@@ -7234,7 +8960,45 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p038-01.webp",
             "w": 1000,
             "h": 1016,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Nervous system"
+              },
+              {
+                "k": "li",
+                "t": "Endocrine system"
+              },
+              {
+                "k": "li",
+                "t": "Respiratory system"
+              },
+              {
+                "k": "li",
+                "t": "Ta we"
+              },
+              {
+                "k": "li",
+                "t": "Cardiovascular and lymphatic systems x — Urinary system"
+              },
+              {
+                "k": "li",
+                "t": "ON et ail |"
+              },
+              {
+                "k": "li",
+                "t": "Reproductive system"
+              },
+              {
+                "k": "li",
+                "t": "/ } j i"
+              },
+              {
+                "k": "li",
+                "t": "Integumentary system"
+              }
+            ]
           }
         ]
       },
@@ -7338,7 +9102,89 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p040-01.webp",
             "w": 600,
             "h": 682,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Ley rsa)"
+              },
+              {
+                "k": "li",
+                "t": "Genes:"
+              },
+              {
+                "k": "li",
+                "t": "mil"
+              },
+              {
+                "k": "li",
+                "t": "Nye"
+              },
+              {
+                "k": "li",
+                "t": "By Qeue)) oat"
+              },
+              {
+                "k": "li",
+                "t": "Cuan"
+              },
+              {
+                "k": "li",
+                "t": "| Chromosome"
+              },
+              {
+                "k": "li",
+                "t": "Reh"
+              },
+              {
+                "k": "li",
+                "t": "Ung, aay"
+              },
+              {
+                "k": "li",
+                "t": "Histones"
+              },
+              {
+                "k": "li",
+                "t": "(proteins),"
+              },
+              {
+                "k": "li",
+                "t": "Nee"
+              },
+              {
+                "k": "li",
+                "t": "Linker DNA"
+              },
+              {
+                "k": "li",
+                "t": "Crt"
+              },
+              {
+                "k": "li",
+                "t": "Chromatin"
+              },
+              {
+                "k": "li",
+                "t": "Nucleotides"
+              },
+              {
+                "k": "li",
+                "t": "Components of DNA"
+              },
+              {
+                "k": "li",
+                "t": "DNA double helix"
+              },
+              {
+                "k": "li",
+                "t": "+ Guanine"
+              },
+              {
+                "k": "li",
+                "t": "+ Cytosine"
+              }
+            ]
           }
         ]
       },
@@ -7416,13 +9262,49 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p041-01.webp",
             "w": 756,
             "h": 712,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Base pair"
+              },
+              {
+                "k": "li",
+                "t": "DNA double helix"
+              },
+              {
+                "k": "li",
+                "t": "Cytosine"
+              },
+              {
+                "k": "li",
+                "t": "Guanine"
+              },
+              {
+                "k": "li",
+                "t": "Thymine"
+              },
+              {
+                "k": "li",
+                "t": "Adenine"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p041-02.webp",
             "w": 397,
             "h": 577,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "p",
+                "t": "pox."
+              },
+              {
+                "k": "li",
+                "t": "RNA nitrogenous bases"
+              }
+            ]
           }
         ]
       },
@@ -7465,13 +9347,15 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p042-01.webp",
             "w": 1000,
             "h": 375,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L1/p042-02.webp",
             "w": 320,
             "h": 198,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -7534,7 +9418,29 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p043-01.webp",
             "w": 673,
             "h": 436,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "— See S _k"
+              },
+              {
+                "k": "li",
+                "t": "Reverse =*"
+              },
+              {
+                "k": "li",
+                "t": "Protein"
+              },
+              {
+                "k": "li",
+                "t": "Dna"
+              },
+              {
+                "k": "li",
+                "t": "Rna"
+              }
+            ]
           }
         ]
       },
@@ -7572,7 +9478,45 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p044-01.webp",
             "w": 1000,
             "h": 1256,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Cytoplasm"
+              },
+              {
+                "k": "li",
+                "t": "— poe"
+              },
+              {
+                "k": "li",
+                "t": "Arginine tRNA “S>"
+              },
+              {
+                "k": "li",
+                "t": "Arginine"
+              },
+              {
+                "k": "li",
+                "t": "(2) Translation"
+              },
+              {
+                "k": "li",
+                "t": "Amino acid pool"
+              },
+              {
+                "k": "li",
+                "t": "Aspartic acid mRNA strand"
+              },
+              {
+                "k": "li",
+                "t": "Polypeptide chai"
+              },
+              {
+                "k": "li",
+                "t": "Ribosome"
+              }
+            ]
           }
         ]
       },
@@ -7655,7 +9599,33 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p045-01.webp",
             "w": 958,
             "h": 1197,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Receptor protein"
+              },
+              {
+                "k": "li",
+                "t": "Plasma membrane"
+              },
+              {
+                "k": "li",
+                "t": "Hormone-receptor complex"
+              },
+              {
+                "k": "li",
+                "t": "New protein"
+              },
+              {
+                "k": "li",
+                "t": "Dooom™"
+              },
+              {
+                "k": "li",
+                "t": "Dna mRNA"
+              }
+            ]
           }
         ]
       },
@@ -7723,7 +9693,65 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p046-01.webp",
             "w": 910,
             "h": 1419,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Cytosine mam ~Guanine"
+              },
+              {
+                "k": "li",
+                "t": "Thynine"
+              },
+              {
+                "k": "li",
+                "t": "Adenine"
+              },
+              {
+                "k": "li",
+                "t": "Origin"
+              },
+              {
+                "k": "li",
+                "t": "Dna"
+              },
+              {
+                "k": "li",
+                "t": "Cee"
+              },
+              {
+                "k": "li",
+                "t": "41} DNA stra|"
+              },
+              {
+                "k": "li",
+                "t": "strand"
+              },
+              {
+                "k": "li",
+                "t": "plate"
+              },
+              {
+                "k": "li",
+                "t": "Nucle"
+              },
+              {
+                "k": "li",
+                "t": "New strands on ecaaee,"
+              },
+              {
+                "k": "li",
+                "t": "@mwo new"
+              },
+              {
+                "k": "li",
+                "t": "identical DNA"
+              },
+              {
+                "k": "p",
+                "t": "molecules form."
+              }
+            ]
           }
         ]
       },
@@ -7819,28 +9847,96 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L1/p048-01.webp",
-            "w": 457,
-            "h": 254,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L1/p048-02.webp",
             "w": 715,
             "h": 411,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Prophase"
+              },
+              {
+                "k": "li",
+                "t": "Metaphase"
+              },
+              {
+                "k": "li",
+                "t": "Pee"
+              },
+              {
+                "k": "li",
+                "t": "Ses"
+              },
+              {
+                "k": "li",
+                "t": "Centrosomes in the poles"
+              },
+              {
+                "k": "li",
+                "t": "Chromosomes alligned"
+              },
+              {
+                "k": "li",
+                "t": "Condensed Chromatin in the equatorial plane forms Chromosomes"
+              },
+              {
+                "k": "li",
+                "t": "Centrosomes microtubules"
+              },
+              {
+                "k": "li",
+                "t": "Nucleus membrane breaks attached to the Centromeres"
+              }
+            ]
           },
           {
-            "src": "assets/figures/L1/p048-03.webp",
-            "w": 613,
-            "h": 360,
-            "kind": "embed"
+            "src": "assets/figures/L1/p048-01.webp",
+            "w": 457,
+            "h": 254,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Anaphase"
+              },
+              {
+                "k": "li",
+                "t": "Telophase cis"
+              },
+              {
+                "k": "li",
+                "t": "Sie"
+              },
+              {
+                "k": "li",
+                "t": "Formation of the 2 Nucleus"
+              },
+              {
+                "k": "li",
+                "t": "Sister Chromatides separation"
+              },
+              {
+                "k": "li",
+                "t": "Duplication process ends"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p048-04.webp",
             "w": 287,
             "h": 252,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Chromosome"
+              },
+              {
+                "k": "li",
+                "t": "Centromere"
+              }
+            ]
           }
         ]
       },
@@ -7900,16 +9996,84 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L1/p049-01.webp",
-            "w": 600,
-            "h": 420,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L1/p049-02.webp",
             "w": 1000,
             "h": 331,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Mit"
+              },
+              {
+                "k": "li",
+                "t": "Meiosis"
+              },
+              {
+                "k": "li",
+                "t": "Daughter"
+              },
+              {
+                "k": "li",
+                "t": "Nuclei i!"
+              },
+              {
+                "k": "li",
+                "t": "Nuclei replication’"
+              },
+              {
+                "k": "li",
+                "t": "Interpt"
+              },
+              {
+                "k": "li",
+                "t": "Homologous"
+              },
+              {
+                "k": "li",
+                "t": "Meiosis I!"
+              },
+              {
+                "k": "li",
+                "t": "Chromosomes,"
+              }
+            ]
+          },
+          {
+            "src": "assets/figures/L1/p049-01.webp",
+            "w": 600,
+            "h": 420,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "| owarepicates"
+              },
+              {
+                "k": "li",
+                "t": "| DNA replicates"
+              },
+              {
+                "k": "li",
+                "t": "2 daughter"
+              },
+              {
+                "k": "li",
+                "t": "cells"
+              },
+              {
+                "k": "li",
+                "t": "LN, 2eaughter cells"
+              },
+              {
+                "k": "li",
+                "t": "4 daughter"
+              },
+              {
+                "k": "li",
+                "t": "U. S. National Library of Medicine"
+              }
+            ]
           }
         ]
       },
@@ -7957,7 +10121,69 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p050-01.webp",
             "w": 855,
             "h": 855,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Normal cell"
+              },
+              {
+                "k": "li",
+                "t": "Necrosis"
+              },
+              {
+                "k": "li",
+                "t": "Apoptosis"
+              },
+              {
+                "k": "li",
+                "t": "Programmed death of cells"
+              },
+              {
+                "k": "li",
+                "t": "Cell death after in"
+              },
+              {
+                "k": "li",
+                "t": "Nuclear fragment"
+              },
+              {
+                "k": "li",
+                "t": "Cell swelling ————' W awe"
+              },
+              {
+                "k": "li",
+                "t": "@_. , debris"
+              },
+              {
+                "k": "li",
+                "t": "Cell disruption ————e"
+              },
+              {
+                "k": "li",
+                "t": "@) Apoptotic bodies"
+              },
+              {
+                "k": "li",
+                "t": "Inflammatory response"
+              },
+              {
+                "k": "li",
+                "t": "Debris is swallowed"
+              },
+              {
+                "k": "li",
+                "t": "No inflammatory reaction"
+              },
+              {
+                "k": "li",
+                "t": "Antibodies"
+              },
+              {
+                "k": "li",
+                "t": "Phagocyte"
+              }
+            ]
           }
         ]
       },
@@ -8071,7 +10297,57 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L1/p052-01.webp",
             "w": 489,
             "h": 381,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "eereee"
+              },
+              {
+                "k": "li",
+                "t": "‘Membrane starts blebbing™s,"
+              },
+              {
+                "k": "li",
+                "t": "‘The cell shrinks"
+              },
+              {
+                "k": "li",
+                "t": "Organelle disintegrate"
+              },
+              {
+                "k": "li",
+                "t": "Chromatin condenses"
+              },
+              {
+                "k": "li",
+                "t": "Arnormal cel"
+              },
+              {
+                "k": "li",
+                "t": "Apoptosis"
+              },
+              {
+                "k": "li",
+                "t": "Nucleus and organelles collapse"
+              },
+              {
+                "k": "li",
+                "t": "‘Membrane continues to bleb"
+              },
+              {
+                "k": "li",
+                "t": "serenity"
+              },
+              {
+                "k": "li",
+                "t": "‘Apoptotic bodies form"
+              },
+              {
+                "k": "li",
+                "t": "‘Macrophages phagociease"
+              }
+            ]
           }
         ]
       },
@@ -10401,13 +12677,81 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p006-01.webp",
             "w": 1000,
             "h": 473,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "@ eo 0o"
+              },
+              {
+                "k": "li",
+                "t": "@ Catabolism"
+              },
+              {
+                "k": "li",
+                "t": "© Anabolism"
+              },
+              {
+                "k": "li",
+                "t": "Ener¢ leas:"
+              },
+              {
+                "k": "li",
+                "t": "d from"
+              },
+              {
+                "k": "li",
+                "t": "Energy rele:"
+              },
+              {
+                "k": "li",
+                "t": "food po"
+              },
+              {
+                "k": "p",
+                "t": "s ATP."
+              },
+              {
+                "k": "p",
+                "t": "ATP breakdo\\ iN Pow production."
+              },
+              {
+                "k": "li",
+                "t": "cellular pro"
+              },
+              {
+                "k": "li",
+                "t": "@oeoe°0e"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p006-02.webp",
             "w": 671,
             "h": 590,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Catabolism"
+              },
+              {
+                "k": "li",
+                "t": "| Anabolism"
+              },
+              {
+                "k": "li",
+                "t": "Food"
+              },
+              {
+                "k": "li",
+                "t": "Releases"
+              },
+              {
+                "k": "li",
+                "t": "Requires energy energy"
+              }
+            ]
           }
         ]
       },
@@ -10442,16 +12786,116 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L2/p007-01.webp",
-            "w": 453,
-            "h": 361,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L2/p007-02.webp",
             "w": 521,
             "h": 703,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "tabo"
+              },
+              {
+                "k": "li",
+                "t": "larger molecule"
+              },
+              {
+                "k": "li",
+                "t": "energy"
+              },
+              {
+                "k": "li",
+                "t": "smaller molecules"
+              }
+            ]
+          },
+          {
+            "src": "assets/figures/L2/p007-01.webp",
+            "w": 453,
+            "h": 361,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "tom Wer"
+              },
+              {
+                "k": "li",
+                "t": "ucose"
+              },
+              {
+                "k": "li",
+                "t": "‘cpitary"
+              },
+              {
+                "k": "li",
+                "t": "yyy"
+              },
+              {
+                "k": "li",
+                "t": "neeees"
+              },
+              {
+                "k": "li",
+                "t": "eyytyy ey"
+              },
+              {
+                "k": "li",
+                "t": "ety"
+              },
+              {
+                "k": "li",
+                "t": "Inert hid anes odeee:"
+              },
+              {
+                "k": "li",
+                "t": "aay"
+              },
+              {
+                "k": "p",
+                "t": "OSOO ob bee dood pob06."
+              },
+              {
+                "k": "li",
+                "t": "Plasma membrane incolejopism"
+              },
+              {
+                "k": "li",
+                "t": "Giyeaysis"
+              },
+              {
+                "k": "li",
+                "t": "Anaorobic"
+              },
+              {
+                "k": "li",
+                "t": "Pyrue ai"
+              },
+              {
+                "k": "li",
+                "t": "Lactic"
+              },
+              {
+                "k": "li",
+                "t": "Cytopiaem etal"
+              },
+              {
+                "k": "li",
+                "t": "Instoltal asco"
+              },
+              {
+                "k": "li",
+                "t": "Into miocbondion +"
+              },
+              {
+                "k": "li",
+                "t": "Krebs"
+              },
+              {
+                "k": "li",
+                "t": "Elo"
+              }
+            ]
           }
         ]
       },
@@ -10491,16 +12935,56 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L2/p008-01.webp",
-            "w": 963,
-            "h": 514,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L2/p008-02.webp",
             "w": 624,
             "h": 843,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "anabolic reaction"
+              },
+              {
+                "k": "li",
+                "t": "vey"
+              },
+              {
+                "k": "li",
+                "t": "smaller molecules"
+              },
+              {
+                "k": "li",
+                "t": "larger molecule"
+              }
+            ]
+          },
+          {
+            "src": "assets/figures/L2/p008-01.webp",
+            "w": 963,
+            "h": 514,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Stages of Anabolism:"
+              },
+              {
+                "k": "li",
+                "t": "Production of the precursor"
+              },
+              {
+                "k": "li",
+                "t": "Energy (ATP) consumption"
+              },
+              {
+                "k": "li",
+                "t": "‘q¥a:"
+              },
+              {
+                "k": "li",
+                "t": "Complex molecule formation"
+              }
+            ]
           }
         ]
       },
@@ -10576,16 +13060,132 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L2/p010-01.webp",
-            "w": 1000,
-            "h": 606,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L2/p010-02.webp",
             "w": 967,
             "h": 668,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Enzyme as Catalyst"
+              },
+              {
+                "k": "li",
+                "t": "Products"
+              },
+              {
+                "k": "li",
+                "t": "Substrate (reactant)"
+              },
+              {
+                "k": "li",
+                "t": "Enzyme"
+              },
+              {
+                "k": "li",
+                "t": "Enzyme-substrate"
+              },
+              {
+                "k": "li",
+                "t": "Enzyme + product"
+              },
+              {
+                "k": "li",
+                "t": "Complex"
+              },
+              {
+                "k": "li",
+                "t": "Substrate enters"
+              },
+              {
+                "k": "li",
+                "t": "Chemical reaction is"
+              },
+              {
+                "k": "p",
+                "t": "Enzyme releases active site of triggered by the products"
+              },
+              {
+                "k": "li",
+                "t": "the enzyme"
+              }
+            ]
+          },
+          {
+            "src": "assets/figures/L2/p010-01.webp",
+            "w": 1000,
+            "h": 606,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Enzymes Function: How They Work"
+              },
+              {
+                "k": "li",
+                "t": "1. Sucrose and Enzyme before"
+              },
+              {
+                "k": "li",
+                "t": "binding together to form"
+              },
+              {
+                "k": "li",
+                "t": "enzyme-substrate complex"
+              },
+              {
+                "k": "li",
+                "t": "Glucose Fructose"
+              },
+              {
+                "k": "li",
+                "t": "2. The substrate and enzyme"
+              },
+              {
+                "k": "li",
+                "t": "bonding to form the"
+              },
+              {
+                "k": "li",
+                "t": "4. The products"
+              },
+              {
+                "k": "p",
+                "t": "Enzyme-substrate complex."
+              },
+              {
+                "k": "li",
+                "t": "glucose and fructose"
+              },
+              {
+                "k": "li",
+                "t": "are released from"
+              },
+              {
+                "k": "p",
+                "t": "the enzyme."
+              },
+              {
+                "k": "li",
+                "t": "woe -"
+              },
+              {
+                "k": "li",
+                "t": "3. Breaking the bond"
+              },
+              {
+                "k": "li",
+                "t": "net"
+              },
+              {
+                "k": "li",
+                "t": "between glucose"
+              },
+              {
+                "k": "p",
+                "t": "and fructose."
+              }
+            ]
           }
         ]
       },
@@ -10618,7 +13218,13 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p011-01.webp",
             "w": 975,
             "h": 320,
-            "kind": "vector"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "uw we’"
+              }
+            ]
           }
         ]
       },
@@ -10702,7 +13308,33 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p013-01.webp",
             "w": 600,
             "h": 290,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Enzyme"
+              },
+              {
+                "k": "li",
+                "t": "Nowat energy aetation"
+              },
+              {
+                "k": "li",
+                "t": "‘energy"
+              },
+              {
+                "k": "li",
+                "t": "‘enzyme"
+              },
+              {
+                "k": "li",
+                "t": "lowered by"
+              },
+              {
+                "k": "li",
+                "t": "Uceatonlnectenntros epuecsteclaanstaiaitiiey"
+              }
+            ]
           }
         ]
       },
@@ -10740,7 +13372,25 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p014-01.webp",
             "w": 834,
             "h": 576,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Product"
+              },
+              {
+                "k": "li",
+                "t": "Active site"
+              },
+              {
+                "k": "li",
+                "t": "Enzyme-Substrate complex"
+              },
+              {
+                "k": "li",
+                "t": "Enzyme lock and key model"
+              }
+            ]
           }
         ]
       },
@@ -10758,7 +13408,65 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p015-01.webp",
             "w": 1000,
             "h": 437,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "AzB G+"
+              },
+              {
+                "k": "li",
+                "t": "(Reactants)"
+              },
+              {
+                "k": "li",
+                "t": "(Products)"
+              },
+              {
+                "k": "li",
+                "t": "sul"
+              },
+              {
+                "k": "li",
+                "t": "te A"
+              },
+              {
+                "k": "li",
+                "t": "Prodi"
+              },
+              {
+                "k": "li",
+                "t": "Active sites ‘“@"
+              },
+              {
+                "k": "li",
+                "t": "Sons"
+              },
+              {
+                "k": "li",
+                "t": "Substrate B"
+              },
+              {
+                "k": "li",
+                "t": "Enzyme"
+              },
+              {
+                "k": "li",
+                "t": "Product D"
+              },
+              {
+                "k": "li",
+                "t": "(a) Enzyme and substrates"
+              },
+              {
+                "k": "li",
+                "t": "(b) Enzyme-substrate complex"
+              },
+              {
+                "k": "li",
+                "t": "(0) Reaction products and enzyme (unchanged)"
+              }
+            ]
           }
         ]
       },
@@ -10801,7 +13509,81 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p016-01.webp",
             "w": 937,
             "h": 531,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "_ Temperature"
+              },
+              {
+                "k": "li",
+                "t": "BIG influence"
+              },
+              {
+                "k": "li",
+                "t": "More heat = More kinetic energy"
+              },
+              {
+                "k": "li",
+                "t": "Enzymes have optimum pH optimum pH"
+              },
+              {
+                "k": "li",
+                "t": "‘optimum temp:"
+              },
+              {
+                "k": "li",
+                "t": "If higher/lower"
+              },
+              {
+                "k": "li",
+                "t": "But if too high"
+              },
+              {
+                "k": "p",
+                "t": "H+ in acid / OH- in alkaline enzyme is denatured can interfere enzyme structure"
+              },
+              {
+                "k": "li",
+                "t": "Enzyme concentration"
+              },
+              {
+                "k": "li",
+                "t": "Substrate concentration"
+              },
+              {
+                "k": "li",
+                "t": "steady increase if substrate avaiable"
+              },
+              {
+                "k": "li",
+                "t": "All enzyme lesubstrate is limited"
+              },
+              {
+                "k": "li",
+                "t": "‘are used"
+              },
+              {
+                "k": "li",
+                "t": "Increase substrate concentration"
+              },
+              {
+                "k": "li",
+                "t": "Increase enzyme concentration"
+              },
+              {
+                "k": "li",
+                "t": "= increase rate of reaction"
+              },
+              {
+                "k": "li",
+                "t": "“Until substrates amount are limited**"
+              },
+              {
+                "k": "li",
+                "t": "**Until active site of enzyme are used**"
+              }
+            ]
           }
         ]
       },
@@ -10826,16 +13608,23 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L2/p017-01.webp",
-            "w": 521,
-            "h": 363,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L2/p017-02.webp",
             "w": 1000,
             "h": 332,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
+          },
+          {
+            "src": "assets/figures/L2/p017-01.webp",
+            "w": 521,
+            "h": 363,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Temperature (°C)"
+              }
+            ]
           }
         ]
       },
@@ -10873,7 +13662,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p018-01.webp",
             "w": 403,
             "h": 500,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -10911,13 +13701,93 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p019-01.webp",
             "w": 518,
             "h": 415,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Table 4. 3 | pH Optima of Selected Enzymes"
+              },
+              {
+                "k": "li",
+                "t": "Pepsin (stomach)"
+              },
+              {
+                "k": "li",
+                "t": "Digestion of protein"
+              },
+              {
+                "k": "li",
+                "t": "Acid phosphatase (prostate)"
+              },
+              {
+                "k": "li",
+                "t": "Removal of phosphate group"
+              },
+              {
+                "k": "li",
+                "t": "Salivary amylase (saliva)"
+              },
+              {
+                "k": "li",
+                "t": "Digestion of starch"
+              },
+              {
+                "k": "li",
+                "t": "Lipase (pancreatic juice)"
+              },
+              {
+                "k": "li",
+                "t": "Digestion of fat"
+              },
+              {
+                "k": "li",
+                "t": "Alkaline phosphatase (bone)"
+              },
+              {
+                "k": "li",
+                "t": "Trypsin (pancreatic juice)"
+              },
+              {
+                "k": "li",
+                "t": "Monoamine oxidase"
+              },
+              {
+                "k": "li",
+                "t": "Removal of amine"
+              },
+              {
+                "k": "li",
+                "t": "{nerve endings)"
+              },
+              {
+                "k": "li",
+                "t": "group from"
+              },
+              {
+                "k": "li",
+                "t": "norepinephrine"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p019-02.webp",
             "w": 482,
             "h": 359,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Pepsin"
+              },
+              {
+                "k": "li",
+                "t": "Salivary"
+              },
+              {
+                "k": "li",
+                "t": "Trypsin amylase"
+              }
+            ]
           }
         ]
       },
@@ -10965,13 +13835,48 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p020-01.webp",
             "w": 564,
             "h": 584,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Pancreas"
+              },
+              {
+                "k": "li",
+                "t": "Membrane-bound"
+              },
+              {
+                "k": "li",
+                "t": "Inactive form nteropeptidase"
+              },
+              {
+                "k": "li",
+                "t": "Trypsinogen ———-~> Tr"
+              },
+              {
+                "k": "li",
+                "t": "Procarboxypeptidase ase"
+              },
+              {
+                "k": "li",
+                "t": "Chymotrypsinogen"
+              },
+              {
+                "k": "li",
+                "t": "Chymotry psin"
+              },
+              {
+                "k": "li",
+                "t": "Lumen of duodenum"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p020-02.webp",
             "w": 600,
             "h": 206,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -11009,7 +13914,17 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p021-01.webp",
             "w": 463,
             "h": 282,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Saturation"
+              },
+              {
+                "k": "li",
+                "t": "Maximum rate cor"
+              }
+            ]
           }
         ]
       },
@@ -11047,7 +13962,37 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p022-01.webp",
             "w": 448,
             "h": 515,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Substrates"
+              },
+              {
+                "k": "li",
+                "t": "Cofactor"
+              },
+              {
+                "k": "p",
+                "t": "Figure 4. 5 The roles of cofactors in enzyme function. In"
+              },
+              {
+                "k": "p",
+                "t": "{@) the cofactor changes the conformation of the active site, allowing"
+              },
+              {
+                "k": "p",
+                "t": "for a better fit between the enzyme and its substrates. In (b) the"
+              },
+              {
+                "k": "p",
+                "t": "cofactor participates in the temporary bonding between the active"
+              },
+              {
+                "k": "p",
+                "t": "site and the substrates."
+              }
+            ]
           }
         ]
       },
@@ -11095,7 +14040,33 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p023-01.webp",
             "w": 613,
             "h": 285,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "sae OP"
+              },
+              {
+                "k": "li",
+                "t": "Coenzyme"
+              },
+              {
+                "k": "li",
+                "t": "Cofactor"
+              },
+              {
+                "k": "li",
+                "t": "(protein portion),"
+              },
+              {
+                "k": "li",
+                "t": "(nonprotein portion),"
+              },
+              {
+                "k": "li",
+                "t": "(whole enzyme),"
+              }
+            ]
           }
         ]
       },
@@ -11179,7 +14150,17 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p025-01.webp",
             "w": 991,
             "h": 410,
-            "kind": "vector"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "sred active site"
+              },
+              {
+                "k": "li",
+                "t": "yor"
+              }
+            ]
           }
         ]
       },
@@ -11314,13 +14295,117 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p028-01.webp",
             "w": 366,
             "h": 588,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "p",
+                "t": "The three basic components of a feedback system are"
+              },
+              {
+                "k": "p",
+                "t": "the receptor, control center, and effector."
+              },
+              {
+                "k": "li",
+                "t": "‘Stimulus"
+              },
+              {
+                "k": "li",
+                "t": "disrupts homeostasis by"
+              },
+              {
+                "k": "li",
+                "t": "increasing or decreasing a"
+              },
+              {
+                "k": "li",
+                "t": "‘Controlled Condition"
+              },
+              {
+                "k": "li",
+                "t": "itored by"
+              },
+              {
+                "k": "li",
+                "t": "Receptors"
+              },
+              {
+                "k": "li",
+                "t": "Input"
+              },
+              {
+                "k": "li",
+                "t": "that send nerve impulses or"
+              },
+              {
+                "k": "li",
+                "t": "chemical signals to a"
+              },
+              {
+                "k": "li",
+                "t": "cen eter"
+              },
+              {
+                "k": "li",
+                "t": "Control Center, the response brings the controlled"
+              },
+              {
+                "k": "li",
+                "t": "‘condition back to"
+              },
+              {
+                "k": "li",
+                "t": "that receives the input"
+              },
+              {
+                "k": "li",
+                "t": "normal"
+              },
+              {
+                "k": "p",
+                "t": "Output and provides nerve impulses or chemical signals to"
+              },
+              {
+                "k": "li",
+                "t": "Effectors that bring about a change or"
+              },
+              {
+                "k": "li",
+                "t": "RESPONSE that alters the controlled condition"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p028-02.webp",
             "w": 623,
             "h": 132,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "[Ree"
+              },
+              {
+                "k": "li",
+                "t": "Set point"
+              },
+              {
+                "k": "li",
+                "t": "} Normal"
+              },
+              {
+                "k": "li",
+                "t": "(average|"
+              },
+              {
+                "k": "li",
+                "t": "Ace"
+              },
+              {
+                "k": "li",
+                "t": "OJ ‘ange"
+              }
+            ]
           }
         ]
       },
@@ -11368,7 +14453,21 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p029-01.webp",
             "w": 1000,
             "h": 1298,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "sees eeeeseneses"
+              },
+              {
+                "k": "li",
+                "t": "con cone"
+              },
+              {
+                "k": "li",
+                "t": "wend"
+              }
+            ]
           }
         ]
       },
@@ -11388,16 +14487,80 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L2/p030-01.webp",
-            "w": 1000,
-            "h": 587,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L2/p030-02.webp",
             "w": 1000,
             "h": 610,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Body cells take up glucose,"
+              },
+              {
+                "k": "li",
+                "t": "@eeee0"
+              },
+              {
+                "k": "li",
+                "t": "Beta cells in pancreas"
+              },
+              {
+                "k": "li",
+                "t": "Liver takes up"
+              },
+              {
+                "k": "p",
+                "t": "release insulin into the blood."
+              },
+              {
+                "k": "li",
+                "t": "glucose and"
+              },
+              {
+                "k": "li",
+                "t": "stores it as"
+              },
+              {
+                "k": "li",
+                "t": "Ver, glycogen"
+              },
+              {
+                "k": "p",
+                "t": "STIMULUS: blood glucose level rises."
+              },
+              {
+                "k": "li",
+                "t": "Homeostasis"
+              },
+              {
+                "k": "li",
+                "t": "(glucose levels 90mg/100mL)"
+              },
+              {
+                "k": "li",
+                "t": "Set Point"
+              },
+              {
+                "k": "p",
+                "t": "STIMULUS: blood glucose level falls."
+              },
+              {
+                "k": "p",
+                "t": "Blood glucose level rises."
+              },
+              {
+                "k": "li",
+                "t": "Liver breaks"
+              },
+              {
+                "k": "li",
+                "t": "Aipha cells in pancreas down glycogen release glucagon"
+              },
+              {
+                "k": "li",
+                "t": "and releases"
+              }
+            ]
           }
         ]
       },
@@ -11425,7 +14588,77 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p031-01.webp",
             "w": 441,
             "h": 600,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "@ Break or tear in"
+              },
+              {
+                "k": "li",
+                "t": "blood vessel"
+              },
+              {
+                "k": "li",
+                "t": "wal"
+              },
+              {
+                "k": "li",
+                "t": "Feedback cycle initiated"
+              },
+              {
+                "k": "li",
+                "t": "@ Released"
+              },
+              {
+                "k": "li",
+                "t": "@ Clotting occurs"
+              },
+              {
+                "k": "li",
+                "t": "chemicals"
+              },
+              {
+                "k": "li",
+                "t": "as platelets"
+              },
+              {
+                "k": "li",
+                "t": "attract more"
+              },
+              {
+                "k": "li",
+                "t": "adhere to site"
+              },
+              {
+                "k": "li",
+                "t": "and release"
+              },
+              {
+                "k": "li",
+                "t": "Feedback cycle ends"
+              },
+              {
+                "k": "li",
+                "t": "@ Clotting proceeds"
+              },
+              {
+                "k": "li",
+                "t": "until break is"
+              },
+              {
+                "k": "li",
+                "t": "sealed by newly,"
+              },
+              {
+                "k": "li",
+                "t": "formed clot"
+              },
+              {
+                "k": "p",
+                "t": "Copyright© 2004 Pearson Education, no. publishing as Benjamin Cummings"
+              }
+            ]
           }
         ]
       },
@@ -11469,7 +14702,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p033-01.webp",
             "w": 967,
             "h": 860,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -11535,28 +14769,150 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L2/p035-01.webp",
-            "w": 965,
-            "h": 538,
-            "kind": "embed"
+            "src": "assets/figures/L2/p035-04.webp",
+            "w": 960,
+            "h": 600,
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L2/p035-02.webp",
             "w": 958,
             "h": 570,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Extracellular"
+              },
+              {
+                "k": "li",
+                "t": "Phospholipid bilayer"
+              },
+              {
+                "k": "li",
+                "t": "Intracellular"
+              },
+              {
+                "k": "li",
+                "t": "Hydrophobic tail"
+              },
+              {
+                "k": "li",
+                "t": "Hydrophilic head"
+              },
+              {
+                "k": "p",
+                "t": "Figure 2. Phospholipid Bilayer. The phospholipid bilayer consists of two adjacent"
+              },
+              {
+                "k": "p",
+                "t": "sheets of phospholipids, arranged tail to tail. The hydrophobic (water fearing) tails"
+              },
+              {
+                "k": "p",
+                "t": "associate with one another, forming the interior of the membrane. The hydrophilic"
+              },
+              {
+                "k": "p",
+                "t": "(water loving) polar heads contact the fluid inside and outside of the cell."
+              }
+            ]
+          },
+          {
+            "src": "assets/figures/L2/p035-01.webp",
+            "w": 965,
+            "h": 538,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Glycoprotein: protein with"
+              },
+              {
+                "k": "li",
+                "t": "Glycolipid: lipid with carbohydrate attached carbohydrate"
+              },
+              {
+                "k": "li",
+                "t": "attached"
+              },
+              {
+                "k": "li",
+                "t": "Prs"
+              },
+              {
+                "k": "li",
+                "t": "Cess"
+              },
+              {
+                "k": "li",
+                "t": "Sisk"
+              },
+              {
+                "k": "li",
+                "t": "Caa"
+              },
+              {
+                "k": "li",
+                "t": "Cocr"
+              },
+              {
+                "k": "li",
+                "t": "Coree ole:"
+              },
+              {
+                "k": "li",
+                "t": "Sss Asasasas woe:"
+              },
+              {
+                "k": "li",
+                "t": "Caaa"
+              },
+              {
+                "k": "li",
+                "t": "Sass ene rae aGa Oa oes"
+              },
+              {
+                "k": "li",
+                "t": "Saar"
+              },
+              {
+                "k": "li",
+                "t": "KeSc$ aes"
+              },
+              {
+                "k": "li",
+                "t": "Sre"
+              },
+              {
+                "k": "li",
+                "t": "Pores"
+              },
+              {
+                "k": "li",
+                "t": "Ppe"
+              },
+              {
+                "k": "li",
+                "t": "Sass ore ce:"
+              },
+              {
+                "k": "li",
+                "t": "Cees"
+              },
+              {
+                "k": "li",
+                "t": "Ccs"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p035-03.webp",
             "w": 786,
             "h": 494,
-            "kind": "embed"
-          },
-          {
-            "src": "assets/figures/L2/p035-04.webp",
-            "w": 960,
-            "h": 600,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -11589,13 +14945,73 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p036-01.webp",
             "w": 713,
             "h": 500,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Passive transport eee 6866 eee"
+              },
+              {
+                "k": "li",
+                "t": "High concentration"
+              },
+              {
+                "k": "li",
+                "t": "Extracellular fluid"
+              },
+              {
+                "k": "li",
+                "t": "Intracellular fluid"
+              },
+              {
+                "k": "li",
+                "t": "Carrier"
+              },
+              {
+                "k": "li",
+                "t": "Channel protein protein"
+              },
+              {
+                "k": "li",
+                "t": "Low concentration"
+              },
+              {
+                "k": "li",
+                "t": "Simple diffusion"
+              },
+              {
+                "k": "li",
+                "t": "Facilitated diffusion"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p036-02.webp",
             "w": 502,
             "h": 299,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "ier ss"
+              },
+              {
+                "k": "li",
+                "t": "eof"
+              },
+              {
+                "k": "p",
+                "t": "Beeelic. «s eve ee, i."
+              },
+              {
+                "k": "li",
+                "t": "roe"
+              },
+              {
+                "k": "li",
+                "t": "Osmosis |"
+              }
+            ]
           }
         ]
       },
@@ -11633,13 +15049,52 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p037-01.webp",
             "w": 810,
             "h": 339,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Extracellular fluid ropes Re"
+              },
+              {
+                "k": "li",
+                "t": "LOoSo lope)"
+              },
+              {
+                "k": "li",
+                "t": "Lonel"
+              },
+              {
+                "k": "li",
+                "t": "WhO ©"
+              },
+              {
+                "k": "li",
+                "t": "(exe)"
+              },
+              {
+                "k": "li",
+                "t": "eoI°q o"
+              },
+              {
+                "k": "li",
+                "t": "Lipid bilayer thembrane) oO 5 Oo loRe)"
+              },
+              {
+                "k": "li",
+                "t": "Timi"
+              },
+              {
+                "k": "li",
+                "t": "Cytoplasm"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p037-02.webp",
             "w": 344,
             "h": 479,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -11689,22 +15144,152 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L2/p038-01.webp",
-            "w": 713,
-            "h": 397,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L2/p038-02.webp",
             "w": 1000,
             "h": 671,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Simple Diffusion"
+              },
+              {
+                "k": "p",
+                "t": "Movement of particles from high to low concentration without a protein"
+              },
+              {
+                "k": "li",
+                "t": "High concentration r of particles"
+              },
+              {
+                "k": "li",
+                "t": "eae cell ee ~. 2"
+              },
+              {
+                "k": "li",
+                "t": "a Sa"
+              },
+              {
+                "k": "li",
+                "t": "Gell membrancy bight rnin til"
+              },
+              {
+                "k": "li",
+                "t": "Hell"
+              },
+              {
+                "k": "li",
+                "t": "HL Att til"
+              },
+              {
+                "k": "li",
+                "t": "Hie"
+              },
+              {
+                "k": "li",
+                "t": "Inside cell"
+              },
+              {
+                "k": "li",
+                "t": "Same concentration concentration"
+              },
+              {
+                "k": "li",
+                "t": "(equilibrium)"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p038-03.webp",
             "w": 624,
             "h": 624,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Airis inhaled and exhaled"
+              },
+              {
+                "k": "li",
+                "t": "Alveoli"
+              },
+              {
+                "k": "li",
+                "t": "Thin, moist walls"
+              },
+              {
+                "k": "p",
+                "t": "Diffusion of CO."
+              },
+              {
+                "k": "li",
+                "t": "Capillary"
+              }
+            ]
+          },
+          {
+            "src": "assets/figures/L2/p038-01.webp",
+            "w": 713,
+            "h": 397,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Extracellular Fluid igh Concer"
+              },
+              {
+                "k": "li",
+                "t": "° re les (eg, ons)"
+              },
+              {
+                "k": "li",
+                "t": "BrP OOOOC aaa"
+              },
+              {
+                "k": "li",
+                "t": "Aian"
+              },
+              {
+                "k": "li",
+                "t": "Nnn"
+              },
+              {
+                "k": "li",
+                "t": "Nem"
+              },
+              {
+                "k": "li",
+                "t": "Yx Yo"
+              },
+              {
+                "k": "li",
+                "t": "(Mno"
+              },
+              {
+                "k": "li",
+                "t": "COCORO OBE Ga"
+              },
+              {
+                "k": "li",
+                "t": "Phospholipid he i"
+              },
+              {
+                "k": "li",
+                "t": "Pore"
+              },
+              {
+                "k": "li",
+                "t": "Low C¢ trati"
+              },
+              {
+                "k": "li",
+                "t": "Cytoplasm"
+              },
+              {
+                "k": "li",
+                "t": "Facilitated Diff"
+              }
+            ]
           }
         ]
       },
@@ -11747,19 +15332,81 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p039-01.webp",
             "w": 1000,
             "h": 377,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "membrane"
+              },
+              {
+                "k": "li",
+                "t": "solute"
+              },
+              {
+                "k": "li",
+                "t": "protein"
+              },
+              {
+                "k": "li",
+                "t": "outside"
+              },
+              {
+                "k": "li",
+                "t": "inside"
+              },
+              {
+                "k": "p",
+                "t": "Figure 5. 9 Facilitated transport."
+              },
+              {
+                "k": "p",
+                "t": "oncentration. Note that the carrier protein undergoes a change in shape (called a conformational change) as it moves a solute across the"
+              },
+              {
+                "k": "p",
+                "t": "membrane."
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p039-02.webp",
             "w": 662,
             "h": 497,
-            "kind": "embed"
-          },
-          {
-            "src": "assets/figures/L2/p039-03.webp",
-            "w": 661,
-            "h": 497,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Carrier Protein"
+              },
+              {
+                "k": "li",
+                "t": "Hydrophilic"
+              },
+              {
+                "k": "li",
+                "t": "O Pocket"
+              },
+              {
+                "k": "li",
+                "t": "Conformational"
+              },
+              {
+                "k": "li",
+                "t": "Change"
+              },
+              {
+                "k": "li",
+                "t": "Enn"
+              },
+              {
+                "k": "li",
+                "t": "Gee"
+              },
+              {
+                "k": "li",
+                "t": "Hea"
+              }
+            ]
           }
         ]
       },
@@ -11812,13 +15459,24 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p040-01.webp",
             "w": 829,
             "h": 435,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L2/p040-02.webp",
             "w": 683,
             "h": 276,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "xt } toes”"
+              },
+              {
+                "k": "li",
+                "t": "eee ee"
+              }
+            ]
           }
         ]
       },
@@ -11898,25 +15556,37 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p043-01.webp",
             "w": 369,
             "h": 663,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Functioning cell of normal size."
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p043-02.webp",
             "w": 514,
             "h": 378,
-            "kind": "embed"
-          },
-          {
-            "src": "assets/figures/L2/p043-03.webp",
-            "w": 316,
-            "h": 568,
-            "kind": "embed"
-          },
-          {
-            "src": "assets/figures/L2/p043-04.webp",
-            "w": 316,
-            "h": 546,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "G's"
+              },
+              {
+                "k": "li",
+                "t": "Normal"
+              },
+              {
+                "k": "li",
+                "t": "Shriveled"
+              },
+              {
+                "k": "li",
+                "t": "Lysed"
+              }
+            ]
           }
         ]
       },
@@ -11934,7 +15604,89 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p044-01.webp",
             "w": 1000,
             "h": 561,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Tonicity abilit of the con centr tion o olv ition to"
+              },
+              {
+                "k": "li",
+                "t": "ffect the"
+              },
+              {
+                "k": "li",
+                "t": "me and press"
+              },
+              {
+                "k": "li",
+                "t": "fithin ¢"
+              },
+              {
+                "k": "li",
+                "t": "Yew"
+              },
+              {
+                "k": "li",
+                "t": "Hypertonic"
+              },
+              {
+                "k": "li",
+                "t": "When both the cell and the"
+              },
+              {
+                "k": "li",
+                "t": "Ifa cell is placed in a hypotonic"
+              },
+              {
+                "k": "p",
+                "t": "Ifa cell is in a hypertonic solution, the surrounding solution have"
+              },
+              {
+                "k": "li",
+                "t": "solution will take in water across their"
+              },
+              {
+                "k": "li",
+                "t": "solution has a lower water concentration"
+              },
+              {
+                "k": "li",
+                "t": "equal solute concentrations"
+              },
+              {
+                "k": "li",
+                "t": "membranes, leading to hemolysis"
+              },
+              {
+                "k": "li",
+                "t": "than the cell cytosol, and water moves"
+              },
+              {
+                "k": "li",
+                "t": "e. g. , normal saline (0. 9% NaCl),"
+              },
+              {
+                "k": "li",
+                "t": ". g-, half saline (0. 45% NaCl),"
+              },
+              {
+                "k": "li",
+                "t": "‘out of the cell leading to crenation"
+              },
+              {
+                "k": "li",
+                "t": ", mannitol, reduce brain swelling"
+              },
+              {
+                "k": "li",
+                "t": "D5 (5% dextrose in water)"
+              },
+              {
+                "k": "li",
+                "t": "D2. 5 (2. 5% dextrose in water)"
+              }
+            ]
           }
         ]
       },
@@ -11957,7 +15709,73 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p045-01.webp",
             "w": 750,
             "h": 344,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Semipermeable membrane"
+              },
+              {
+                "k": "p",
+                "t": "Solvent."
+              },
+              {
+                "k": "li",
+                "t": "Net movement"
+              },
+              {
+                "k": "li",
+                "t": "No net molecule of solvent"
+              },
+              {
+                "k": "li",
+                "t": "Osmotic movement"
+              },
+              {
+                "k": "li",
+                "t": "Pressure!"
+              },
+              {
+                "k": "li",
+                "t": "of solvent"
+              },
+              {
+                "k": "li",
+                "t": "‘Solute"
+              },
+              {
+                "k": "li",
+                "t": "molecule"
+              },
+              {
+                "k": "li",
+                "t": "Initial state"
+              },
+              {
+                "k": "li",
+                "t": "Final state"
+              },
+              {
+                "k": "li",
+                "t": "Solute molecules partly shield"
+              },
+              {
+                "k": "li",
+                "t": "The compensating pressure membrane pores the passage of"
+              },
+              {
+                "k": "li",
+                "t": "impedes the passage of solvent"
+              },
+              {
+                "k": "li",
+                "t": "solvent molecules from right to Teft"
+              },
+              {
+                "k": "li",
+                "t": "molecules from left to right"
+              }
+            ]
           }
         ]
       },
@@ -12007,22 +15825,132 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
+            "src": "assets/figures/L2/p046-03.webp",
+            "w": 788,
+            "h": 748,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "fe) olecules, ions"
+              },
+              {
+                "k": "li",
+                "t": "Low concentratio utside cell"
+              },
+              {
+                "k": "li",
+                "t": "«Cell membrane"
+              },
+              {
+                "k": "li",
+                "t": "Inside cell"
+              },
+              {
+                "k": "li",
+                "t": "Gop) +) eee of molecules, ions"
+              },
+              {
+                "k": "li",
+                "t": "High concentratio"
+              }
+            ]
+          },
+          {
             "src": "assets/figures/L2/p046-01.webp",
             "w": 902,
             "h": 531,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Transported molecule"
+              },
+              {
+                "k": "li",
+                "t": "Carrier protein"
+              },
+              {
+                "k": "li",
+                "t": "Channel protein i\\J"
+              },
+              {
+                "k": "li",
+                "t": "Lipid bilayer rAYAY"
+              },
+              {
+                "k": "li",
+                "t": "Energy"
+              },
+              {
+                "k": "li",
+                "t": "Simple diffusion"
+              },
+              {
+                "k": "li",
+                "t": "Facilitated diffusion"
+              },
+              {
+                "k": "li",
+                "t": "Passive transport"
+              },
+              {
+                "k": "li",
+                "t": "Active transport"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p046-02.webp",
             "w": 721,
             "h": 521,
-            "kind": "embed"
-          },
-          {
-            "src": "assets/figures/L2/p046-03.webp",
-            "w": 788,
-            "h": 748,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Uniport transports"
+              },
+              {
+                "k": "li",
+                "t": "Symport transports two"
+              },
+              {
+                "k": "li",
+                "t": "Antiport transports two"
+              },
+              {
+                "k": "li",
+                "t": "‘one substance in"
+              },
+              {
+                "k": "li",
+                "t": "different substances in"
+              },
+              {
+                "k": "p",
+                "t": "‘one direction."
+              },
+              {
+                "k": "p",
+                "t": "the same direction."
+              },
+              {
+                "k": "p",
+                "t": "opposite directions."
+              },
+              {
+                "k": "li",
+                "t": "Outside of cell"
+              },
+              {
+                "k": "li",
+                "t": "Transported ions"
+              },
+              {
+                "k": "li",
+                "t": "Inside of cell"
+              }
+            ]
           }
         ]
       },
@@ -12062,16 +15990,124 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L2/p047-01.webp",
-            "w": 797,
-            "h": 520,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L2/p047-02.webp",
             "w": 984,
             "h": 1017,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Plasma membrane"
+              },
+              {
+                "k": "li",
+                "t": "Inside cell"
+              },
+              {
+                "k": "li",
+                "t": "Outside cell"
+              },
+              {
+                "k": "li",
+                "t": "Peet"
+              },
+              {
+                "k": "li",
+                "t": "Adp + P,"
+              },
+              {
+                "k": "li",
+                "t": "Nat"
+              }
+            ]
+          },
+          {
+            "src": "assets/figures/L2/p047-01.webp",
+            "w": 797,
+            "h": 520,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Outside of cell"
+              },
+              {
+                "k": "li",
+                "t": "The shape change"
+              },
+              {
+                "k": "p",
+                "t": "Release of P, returns the pump to its releases Na* outside the"
+              },
+              {
+                "k": "li",
+                "t": "original shape, releasing K* to the"
+              },
+              {
+                "k": "li",
+                "t": "cell and enables K* to"
+              },
+              {
+                "k": "li",
+                "t": "cell's interior and once again exposing"
+              },
+              {
+                "k": "p",
+                "t": "bind to the pump."
+              },
+              {
+                "k": "p",
+                "t": "Nat binding sites. The cycle repeats."
+              },
+              {
+                "k": "li",
+                "t": "net @"
+              },
+              {
+                "k": "li",
+                "t": "e@ Pe"
+              },
+              {
+                "k": "li",
+                "t": "Sodium:"
+              },
+              {
+                "k": "li",
+                "t": "potassium pump"
+              },
+              {
+                "k": "li",
+                "t": "ee ee"
+              },
+              {
+                "k": "li",
+                "t": "Fee"
+              },
+              {
+                "k": "li",
+                "t": "Wht fin!"
+              },
+              {
+                "k": "li",
+                "t": "ten"
+              },
+              {
+                "k": "li",
+                "t": "Lore ae °e (*)"
+              },
+              {
+                "k": "p",
+                "t": "Hydrolysis of ATP."
+              },
+              {
+                "k": "p",
+                "t": "BBS Na‘ and 1 ATP phosphorylates the bind to the protein"
+              },
+              {
+                "k": "li",
+                "t": "pump protein and"
+              }
+            ]
           }
         ]
       },
@@ -12111,22 +16147,120 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L2/p048-01.webp",
-            "w": 799,
-            "h": 526,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L2/p048-02.webp",
             "w": 1000,
             "h": 565,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "ail"
+              },
+              {
+                "k": "li",
+                "t": "asantan 4"
+              },
+              {
+                "k": "li",
+                "t": "nant"
+              },
+              {
+                "k": "li",
+                "t": "Uqquou wet Hh"
+              },
+              {
+                "k": "li",
+                "t": "Glucose"
+              }
+            ]
+          },
+          {
+            "src": "assets/figures/L2/p048-01.webp",
+            "w": 799,
+            "h": 526,
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Primary active transport"
+              },
+              {
+                "k": "li",
+                "t": "‘The sodium-potassium pump moves Nat,"
+              },
+              {
+                "k": "li",
+                "t": "Secondary active transport"
+              },
+              {
+                "k": "li",
+                "t": "using the energy of ATP hydrolysis to"
+              },
+              {
+                "k": "li",
+                "t": "Nat, moving with the concentration gradient established"
+              },
+              {
+                "k": "p",
+                "t": "establish a concentration gradient of Na*."
+              },
+              {
+                "k": "li",
+                "t": "by the sodium-potassium pump, drives the transport of"
+              },
+              {
+                "k": "p",
+                "t": "glucose against its concentration gradient."
+              },
+              {
+                "k": "li",
+                "t": "Outside of cell"
+              },
+              {
+                "k": "li",
+                "t": "Sochu. petaaslan. pump"
+              },
+              {
+                "k": "li",
+                "t": "Clerc"
+              },
+              {
+                "k": "li",
+                "t": "YAn))i"
+              },
+              {
+                "k": "li",
+                "t": "Pooce"
+              },
+              {
+                "k": "li",
+                "t": "Inside of cell"
+              },
+              {
+                "k": "li",
+                "t": "— COx"
+              },
+              {
+                "k": "li",
+                "t": "“?e Seo o Po"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p048-03.webp",
             "w": 358,
             "h": 232,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Symporter"
+              },
+              {
+                "k": "li",
+                "t": "Antiporter"
+              }
+            ]
           }
         ]
       },
@@ -12214,7 +16348,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p049-01.webp",
             "w": 1000,
             "h": 588,
-            "kind": "vector"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -12282,7 +16417,89 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L2/p050-01.webp",
             "w": 922,
             "h": 978,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "(A) Endocytosis"
+              },
+              {
+                "k": "li",
+                "t": "Outside of cell"
+              },
+              {
+                "k": "li",
+                "t": "Cell membrane tiny"
+              },
+              {
+                "k": "li",
+                "t": "Qut n ry Te"
+              },
+              {
+                "k": "li",
+                "t": "Mmn))"
+              },
+              {
+                "k": "li",
+                "t": "Soi"
+              },
+              {
+                "k": "li",
+                "t": "Kzn cul"
+              },
+              {
+                "k": "li",
+                "t": "Ctt"
+              },
+              {
+                "k": "li",
+                "t": "The cell membrane surrounds"
+              },
+              {
+                "k": "li",
+                "t": "Endocytotic vesicle"
+              },
+              {
+                "k": "li",
+                "t": "Inside of cell"
+              },
+              {
+                "k": "li",
+                "t": "a part of the exterior environment"
+              },
+              {
+                "k": "p",
+                "t": "and buds off as an internal vesicle."
+              },
+              {
+                "k": "li",
+                "t": "(B) Exocytosis"
+              },
+              {
+                "k": "li",
+                "t": "annua na UM ANU UUN UHHH aE"
+              },
+              {
+                "k": "li",
+                "t": "TIM 2a)"
+              },
+              {
+                "k": "li",
+                "t": "Se mmm"
+              },
+              {
+                "k": "li",
+                "t": "Ut gy"
+              },
+              {
+                "k": "li",
+                "t": "Mini"
+              },
+              {
+                "k": "li",
+                "t": "Crm"
+              }
+            ]
           }
         ]
       },
@@ -13927,7 +18144,25 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p005-01.webp",
             "w": 1000,
             "h": 800,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "isan"
+              },
+              {
+                "k": "li",
+                "t": "iss"
+              },
+              {
+                "k": "li",
+                "t": "Lee"
+              },
+              {
+                "k": "li",
+                "t": "Nss"
+              }
+            ]
           }
         ]
       },
@@ -13975,7 +18210,37 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p006-01.webp",
             "w": 1000,
             "h": 874,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Il artery eee"
+              },
+              {
+                "k": "li",
+                "t": "Capillary blood"
+              },
+              {
+                "k": "li",
+                "t": "Oxygi ts, et tissues delivered"
+              },
+              {
+                "k": "li",
+                "t": "Taa"
+              },
+              {
+                "k": "li",
+                "t": "\\d metab"
+              },
+              {
+                "k": "li",
+                "t": "Sal] issues"
+              },
+              {
+                "k": "li",
+                "t": "Venule, small vein"
+              }
+            ]
           }
         ]
       },
@@ -14028,7 +18293,45 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p007-01.webp",
             "w": 460,
             "h": 350,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "leat Kept In and retained"
+              },
+              {
+                "k": "li",
+                "t": "eal loss Dy convection"
+              },
+              {
+                "k": "li",
+                "t": "by the body"
+              },
+              {
+                "k": "li",
+                "t": "and radiation"
+              },
+              {
+                "k": "p",
+                "t": "pillary loop j."
+              },
+              {
+                "k": "li",
+                "t": "Vein"
+              },
+              {
+                "k": "li",
+                "t": "Artery:"
+              },
+              {
+                "k": "li",
+                "t": "Vasoconstriction"
+              },
+              {
+                "k": "li",
+                "t": "Vasodilation"
+              }
+            ]
           }
         ]
       },
@@ -14076,13 +18379,28 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p008-01.webp",
             "w": 402,
             "h": 600,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "wer"
+              },
+              {
+                "k": "li",
+                "t": "Clo’"
+              },
+              {
+                "k": "li",
+                "t": "Fibrin"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p008-02.webp",
             "w": 1000,
             "h": 170,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14140,7 +18458,49 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p009-01.webp",
             "w": 546,
             "h": 273,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Centr"
+              },
+              {
+                "k": "li",
+                "t": "Blood Sample"
+              },
+              {
+                "k": "li",
+                "t": "Blood Smear"
+              },
+              {
+                "k": "li",
+                "t": "Blood plasma"
+              },
+              {
+                "k": "li",
+                "t": "Platelets"
+              },
+              {
+                "k": "li",
+                "t": "“Buty coat’ < white bood —"
+              },
+              {
+                "k": "li",
+                "t": "cells"
+              },
+              {
+                "k": "p",
+                "t": "Formed."
+              },
+              {
+                "k": "p",
+                "t": "Red blood."
+              },
+              {
+                "k": "li",
+                "t": "‘elements"
+              }
+            ]
           }
         ]
       },
@@ -14218,7 +18578,41 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p010-01.webp",
             "w": 893,
             "h": 724,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Anti-coagulant"
+              },
+              {
+                "k": "li",
+                "t": "Cics"
+              },
+              {
+                "k": "li",
+                "t": "Serum"
+              },
+              {
+                "k": "li",
+                "t": "Plasma"
+              },
+              {
+                "k": "li",
+                "t": "Buffy coat"
+              },
+              {
+                "k": "li",
+                "t": "~ (white blood cells"
+              },
+              {
+                "k": "li",
+                "t": "and platelets)"
+              },
+              {
+                "k": "li",
+                "t": "Blood clot wo \\ J Red blood cells"
+              }
+            ]
           }
         ]
       },
@@ -14246,7 +18640,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p011-01.webp",
             "w": 1000,
             "h": 1003,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14296,16 +18691,11 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L3/p012-01.webp",
-            "w": 1000,
-            "h": 370,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L3/p012-02.webp",
             "w": 1000,
             "h": 398,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14328,7 +18718,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p013-01.webp",
             "w": 1000,
             "h": 690,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14366,7 +18757,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p014-01.webp",
             "w": 1000,
             "h": 683,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14389,7 +18781,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p015-01.webp",
             "w": 1000,
             "h": 689,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14407,7 +18800,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p016-01.webp",
             "w": 1000,
             "h": 587,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14481,7 +18875,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p018-01.webp",
             "w": 606,
             "h": 606,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14514,7 +18909,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p019-01.webp",
             "w": 736,
             "h": 1118,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14582,13 +18978,36 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p020-01.webp",
             "w": 1000,
             "h": 859,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L3/p020-02.webp",
             "w": 469,
             "h": 252,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Visceral pericardium"
+              },
+              {
+                "k": "li",
+                "t": "Pericardial cavity"
+              },
+              {
+                "k": "li",
+                "t": "Parietal pericardium"
+              },
+              {
+                "k": "li",
+                "t": "Air space"
+              },
+              {
+                "k": "li",
+                "t": "Balloon"
+              }
+            ]
           }
         ]
       },
@@ -14641,7 +19060,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p021-01.webp",
             "w": 574,
             "h": 782,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14704,13 +19124,32 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p022-01.webp",
             "w": 1000,
             "h": 804,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L3/p022-02.webp",
             "w": 627,
             "h": 478,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "atrium"
+              },
+              {
+                "k": "li",
+                "t": "Left atfurn ventricle"
+              },
+              {
+                "k": "p",
+                "t": "Right."
+              },
+              {
+                "k": "li",
+                "t": "Septur"
+              }
+            ]
           }
         ]
       },
@@ -14758,7 +19197,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p023-01.webp",
             "w": 650,
             "h": 431,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14801,7 +19241,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p024-01.webp",
             "w": 1000,
             "h": 800,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14849,7 +19290,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p025-01.webp",
             "w": 725,
             "h": 442,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -14937,7 +19379,53 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p026-01.webp",
             "w": 780,
             "h": 556,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "aorta"
+              },
+              {
+                "k": "li",
+                "t": "right"
+              },
+              {
+                "k": "li",
+                "t": "left"
+              },
+              {
+                "k": "li",
+                "t": "atrium"
+              },
+              {
+                "k": "li",
+                "t": "pulmonary"
+              },
+              {
+                "k": "li",
+                "t": "valve"
+              },
+              {
+                "k": "li",
+                "t": "mitral"
+              },
+              {
+                "k": "li",
+                "t": "tricuspid"
+              },
+              {
+                "k": "li",
+                "t": "aortic"
+              },
+              {
+                "k": "li",
+                "t": "right ventricle"
+              },
+              {
+                "k": "li",
+                "t": "left ventricle"
+              }
+            ]
           }
         ]
       },
@@ -14985,7 +19473,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p027-01.webp",
             "w": 725,
             "h": 442,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15048,7 +19537,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p028-01.webp",
             "w": 783,
             "h": 529,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15066,13 +19556,52 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p029-01.webp",
             "w": 584,
             "h": 583,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L3/p029-02.webp",
             "w": 630,
             "h": 417,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Pulmonary Artery:"
+              },
+              {
+                "k": "li",
+                "t": "Carries deoxygenated Aorta:"
+              },
+              {
+                "k": "li",
+                "t": "blood from heart to Carries oxygenated"
+              },
+              {
+                "k": "li",
+                "t": "lungs. blood from heart"
+              },
+              {
+                "k": "p",
+                "t": "\\ to all body parts."
+              },
+              {
+                "k": "li",
+                "t": "Vena cava: —"
+              },
+              {
+                "k": "li",
+                "t": "Carries deoxygenated IN blood from,"
+              },
+              {
+                "k": "li",
+                "t": "body to heart. Pulmonary Vein:"
+              },
+              {
+                "k": "p",
+                "t": "Nn Carries oxygenated blood from lungs to heart."
+              }
+            ]
           }
         ]
       },
@@ -15127,16 +19656,18 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L3/p030-01.webp",
-            "w": 447,
-            "h": 412,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L3/p030-02.webp",
             "w": 520,
             "h": 393,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
+          },
+          {
+            "src": "assets/figures/L3/p030-01.webp",
+            "w": 447,
+            "h": 412,
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15214,7 +19745,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p031-01.webp",
             "w": 800,
             "h": 621,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15277,7 +19809,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p032-01.webp",
             "w": 522,
             "h": 439,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15310,7 +19843,33 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p033-01.webp",
             "w": 640,
             "h": 320,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Atrial excitation"
+              },
+              {
+                "k": "li",
+                "t": "Ventricular excitation"
+              },
+              {
+                "k": "li",
+                "t": "Begins"
+              },
+              {
+                "k": "li",
+                "t": "Complete"
+              },
+              {
+                "k": "li",
+                "t": "SA node"
+              },
+              {
+                "k": "li",
+                "t": "AV node"
+              }
+            ]
           }
         ]
       },
@@ -15358,7 +19917,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p034-01.webp",
             "w": 790,
             "h": 572,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15376,7 +19936,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p035-01.webp",
             "w": 871,
             "h": 749,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15449,19 +20010,15 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p036-01.webp",
             "w": 1000,
             "h": 1089,
-            "kind": "embed"
-          },
-          {
-            "src": "assets/figures/L3/p036-02.webp",
-            "w": 143,
-            "h": 245,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L3/p036-03.webp",
             "w": 149,
             "h": 254,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15479,7 +20036,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p037-01.webp",
             "w": 883,
             "h": 763,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15562,19 +20120,39 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p038-01.webp",
             "w": 1000,
             "h": 1089,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L3/p038-02.webp",
             "w": 331,
             "h": 284,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Ventricular filling"
+              },
+              {
+                "k": "li",
+                "t": "1a Rapid filing"
+              },
+              {
+                "k": "li",
+                "t": "1c Atrial systole"
+              },
+              {
+                "k": "li",
+                "t": "1b Diastasis"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p038-03.webp",
             "w": 157,
             "h": 265,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15592,7 +20170,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p039-01.webp",
             "w": 883,
             "h": 763,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15635,7 +20214,49 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p040-01.webp",
             "w": 1000,
             "h": 755,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Semilunar valves close"
+              },
+              {
+                "k": "li",
+                "t": "Semilunar valves open"
+              },
+              {
+                "k": "li",
+                "t": "Aortic pressure"
+              },
+              {
+                "k": "li",
+                "t": "Ventricular pressure"
+              },
+              {
+                "k": "li",
+                "t": "AV valves"
+              },
+              {
+                "k": "li",
+                "t": "AV valves open close"
+              },
+              {
+                "k": "li",
+                "t": "Atrial pressure ist"
+              },
+              {
+                "k": "li",
+                "t": "Heart sounds"
+              },
+              {
+                "k": "li",
+                "t": "“Lub”"
+              },
+              {
+                "k": "li",
+                "t": "“Dub”"
+              }
+            ]
           }
         ]
       },
@@ -15683,7 +20304,25 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p041-01.webp",
             "w": 1000,
             "h": 766,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Right arm"
+              },
+              {
+                "k": "li",
+                "t": "Left. arm ame"
+              },
+              {
+                "k": "li",
+                "t": "/ Left leg"
+              },
+              {
+                "k": "li",
+                "t": "wae"
+              }
+            ]
           }
         ]
       },
@@ -15721,7 +20360,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p042-01.webp",
             "w": 862,
             "h": 795,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15739,7 +20379,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p043-01.webp",
             "w": 1000,
             "h": 650,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15767,7 +20408,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p044-01.webp",
             "w": 1000,
             "h": 873,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -15830,7 +20472,37 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p045-01.webp",
             "w": 600,
             "h": 420,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Vein"
+              },
+              {
+                "k": "li",
+                "t": "Artery"
+              },
+              {
+                "k": "li",
+                "t": "Capillaries"
+              },
+              {
+                "k": "li",
+                "t": "Arteriole"
+              },
+              {
+                "k": "li",
+                "t": "Venule"
+              },
+              {
+                "k": "li",
+                "t": "To Cell"
+              },
+              {
+                "k": "li",
+                "t": "From Cell arbor"
+              }
+            ]
           }
         ]
       },
@@ -15868,14 +20540,7 @@ window.HAZEL_LECTURES = [
             "zh": "血壓"
           }
         ],
-        "figures": [
-          {
-            "src": "assets/figures/L3/p046-01.webp",
-            "w": 136,
-            "h": 129,
-            "kind": "embed"
-          }
-        ]
+        "figures": []
       },
       {
         "n": 47,
@@ -15962,19 +20627,51 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p048-01.webp",
             "w": 1000,
             "h": 508,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L3/p048-02.webp",
             "w": 466,
             "h": 298,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Capillaries"
+              },
+              {
+                "k": "li",
+                "t": "Tissi"
+              },
+              {
+                "k": "li",
+                "t": "Venul"
+              },
+              {
+                "k": "li",
+                "t": "—o ~S"
+              },
+              {
+                "k": "li",
+                "t": "p Aa"
+              },
+              {
+                "k": "li",
+                "t": "Artery rey,"
+              },
+              {
+                "k": "li",
+                "t": "Veit"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p048-03.webp",
             "w": 350,
             "h": 307,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -16017,7 +20714,37 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p049-01.webp",
             "w": 706,
             "h": 439,
-            "kind": "vector"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "thin layer of"
+              },
+              {
+                "k": "li",
+                "t": "fibrous tissue"
+              },
+              {
+                "k": "li",
+                "t": "thinner muscular"
+              },
+              {
+                "k": "li",
+                "t": "wall; less elastic"
+              },
+              {
+                "k": "li",
+                "t": "large lumen to"
+              },
+              {
+                "k": "li",
+                "t": "reduce resistance"
+              },
+              {
+                "k": "li",
+                "t": "of blood flow"
+              }
+            ]
           }
         ]
       },
@@ -16060,13 +20787,76 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p050-01.webp",
             "w": 553,
             "h": 899,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L3/p050-03.webp",
             "w": 595,
             "h": 516,
-            "kind": "vector"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "a a"
+              },
+              {
+                "k": "li",
+                "t": "‘orced oe"
+              },
+              {
+                "k": "li",
+                "t": "@ valve"
+              },
+              {
+                "k": "li",
+                "t": "wards"
+              },
+              {
+                "k": "li",
+                "t": "art"
+              },
+              {
+                "k": "li",
+                "t": "by blood"
+              },
+              {
+                "k": "li",
+                "t": "by mu"
+              },
+              {
+                "k": "li",
+                "t": ") Valves"
+              },
+              {
+                "k": "li",
+                "t": "® Bod:"
+              },
+              {
+                "k": "li",
+                "t": "e closed"
+              },
+              {
+                "k": "li",
+                "t": "particul"
+              },
+              {
+                "k": "li",
+                "t": "prevent"
+              },
+              {
+                "k": "li",
+                "t": "the limk"
+              },
+              {
+                "k": "li",
+                "t": "wclkeflaias Af"
+              },
+              {
+                "k": "li",
+                "t": "and pre"
+              }
+            ]
           }
         ]
       },
@@ -16129,7 +20919,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p051-01.webp",
             "w": 1000,
             "h": 379,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -16218,13 +21009,15 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p053-01.webp",
             "w": 1000,
             "h": 747,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L3/p053-02.webp",
             "w": 973,
             "h": 654,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -16257,7 +21050,21 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p054-01.webp",
             "w": 1000,
             "h": 798,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Frank-Starling law"
+              },
+              {
+                "k": "li",
+                "t": "Increased contractility caused by sympathetic nerve stimulation"
+              },
+              {
+                "k": "li",
+                "t": "Ventricular end-diastolic volume (ml)"
+              }
+            ]
           }
         ]
       },
@@ -16330,7 +21137,49 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p055-01.webp",
             "w": 1000,
             "h": 554,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Adrenaline"
+              },
+              {
+                "k": "li",
+                "t": "& Activity of"
+              },
+              {
+                "k": "li",
+                "t": "| Activity of"
+              },
+              {
+                "k": "li",
+                "t": "nerves to heart"
+              },
+              {
+                "k": "li",
+                "t": "sympathetic"
+              },
+              {
+                "k": "li",
+                "t": "parasympathetic"
+              },
+              {
+                "k": "li",
+                "t": "e. g. stress and"
+              },
+              {
+                "k": "li",
+                "t": "e. g. rest and sleep"
+              },
+              {
+                "k": "li",
+                "t": "excitement"
+              },
+              {
+                "k": "li",
+                "t": "SA node tHeart rate"
+              }
+            ]
           }
         ]
       },
@@ -16393,13 +21242,15 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p056-01.webp",
             "w": 1000,
             "h": 610,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L3/p056-02.webp",
             "w": 1000,
             "h": 551,
-            "kind": "vector"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -16452,7 +21303,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p057-01.webp",
             "w": 1000,
             "h": 595,
-            "kind": "vector"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -16515,19 +21367,27 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p058-01.webp",
             "w": 488,
             "h": 437,
-            "kind": "embed"
-          },
-          {
-            "src": "assets/figures/L3/p058-02.webp",
-            "w": 328,
-            "h": 201,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Diastole"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p058-03.webp",
             "w": 322,
             "h": 294,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
+          },
+          {
+            "src": "assets/figures/L3/p058-02.webp",
+            "w": 328,
+            "h": 201,
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -16616,7 +21476,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p060-01.webp",
             "w": 1000,
             "h": 648,
-            "kind": "vector"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -16740,13 +21601,15 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p062-01.webp",
             "w": 861,
             "h": 685,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           },
           {
             "src": "assets/figures/L3/p062-02.webp",
             "w": 961,
             "h": 404,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -16766,16 +21629,18 @@ window.HAZEL_LECTURES = [
         ],
         "figures": [
           {
-            "src": "assets/figures/L3/p063-01.webp",
-            "w": 450,
-            "h": 338,
-            "kind": "embed"
-          },
-          {
             "src": "assets/figures/L3/p063-02.webp",
             "w": 1000,
             "h": 760,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
+          },
+          {
+            "src": "assets/figures/L3/p063-01.webp",
+            "w": 450,
+            "h": 338,
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -16798,7 +21663,17 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p064-01.webp",
             "w": 560,
             "h": 482,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "“Ngee"
+              },
+              {
+                "k": "li",
+                "t": "ey ‘Vie"
+              }
+            ]
           }
         ]
       },
@@ -16841,7 +21716,8 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p065-01.webp",
             "w": 688,
             "h": 217,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": []
           }
         ]
       },
@@ -16874,14 +21750,7 @@ window.HAZEL_LECTURES = [
             "zh": "血壓降低刺激腎臟保持水分，從而增加血壓"
           }
         ],
-        "figures": [
-          {
-            "src": "assets/figures/L3/p066-01.webp",
-            "w": 479,
-            "h": 73,
-            "kind": "embed"
-          }
-        ]
+        "figures": []
       },
       {
         "n": 67,
@@ -16902,7 +21771,73 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p067-01.webp",
             "w": 1000,
             "h": 443,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Drop in blood pressure"
+              },
+              {
+                "k": "li",
+                "t": "Drop in fluid volume Wer — —"
+              },
+              {
+                "k": "li",
+                "t": "yp. ); angiotensinogen d A Vasoconstriction"
+              },
+              {
+                "k": "li",
+                "t": "(gp Angiotensin Il also acts BP?"
+              },
+              {
+                "k": "li",
+                "t": "/ directly on blood vessels,"
+              },
+              {
+                "k": "li",
+                "t": "stimulating vasoconstriction"
+              },
+              {
+                "k": "p",
+                "t": "Renin acts on angiotensinogen to form angiotensin I. (narrowing)."
+              },
+              {
+                "k": "li",
+                "t": "fi ACE (angiotensin-converting «"
+              },
+              {
+                "k": "li",
+                "t": "x, enzyme) release from lungs i,"
+              },
+              {
+                "k": "li",
+                "t": ": >! > Reabsorption 7°"
+              },
+              {
+                "k": "li",
+                "t": "Ke y Urine production |"
+              },
+              {
+                "k": "p",
+                "t": "lm ACE acts on angiotensin | to for Blood volume 7"
+              },
+              {
+                "k": "li",
+                "t": "‘Angiotensin Il acts on the"
+              },
+              {
+                "k": "p",
+                "t": "adrenal gland to stimulate release of Aldosterone acts on the kidneys"
+              },
+              {
+                "k": "li",
+                "t": "[sidostorno] > to stmuat reabsorption o"
+              },
+              {
+                "k": "p",
+                "t": "salt (NaCl) and water (HO)."
+              }
+            ]
           }
         ]
       },
@@ -16931,7 +21866,33 @@ window.HAZEL_LECTURES = [
             "src": "assets/figures/L3/p069-01.webp",
             "w": 700,
             "h": 435,
-            "kind": "embed"
+            "kind": "embed",
+            "blocks": [
+              {
+                "k": "h",
+                "t": "ER sae ke 4 Not all of us"
+              },
+              {
+                "k": "li",
+                "t": "= ie Vea \\ |"
+              },
+              {
+                "k": "li",
+                "t": "\\ y= aS can do great things. But"
+              },
+              {
+                "k": "li",
+                "t": "N: rm SG we can do small things"
+              },
+              {
+                "k": "li",
+                "t": "ee S with great love?"
+              },
+              {
+                "k": "li",
+                "t": "> Fe 4 Mother Teresa"
+              }
+            ]
           }
         ]
       }
