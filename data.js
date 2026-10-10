@@ -8162,11 +8162,16 @@ window.HAZEL_LECTURES = [
             "w": 715,
             "h": 411,
             "kind": "embed",
-            "blocks": [
+                        "blocks": [
               {
                 "k": "p",
-                "t": "PROPHASE METAPHASE Pee SES SS 1 Centrosomes in the poles Chromosomes alligned Condensed Chromatin in the equatorial plane forms Chromosomes Centrosomes microtubules Nucleus membrane breaks attached to the Centromeres.",
-                "zh": "前期中期PEESESSS1兩極中心染色體赤道平面中的染色體同源濃縮染色質形成染色體中心染色體微管附著在中心細胞上的細胞核膜破裂"
+                "t": "PROPHASE; METAPHASE.",
+                "zh": "前期；中期。"
+              },
+              {
+                "k": "p",
+                "t": "Prophase: centrosomes in the poles; condensed chromatin forms chromosomes; nucleus membrane breaks. Metaphase: chromosomes aligned in the equatorial plane; centrosomes’ microtubules attached to the centromeres.",
+                "zh": "前期：中心體喺兩極；濃縮染色質形成染色體；核膜破裂。中期：染色體排列喺赤道面；中心體微管連去着絲粒。"
               }
             ]
           },
@@ -8258,16 +8263,11 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 331,
             "kind": "embed",
-            "blocks": [
+                        "blocks": [
               {
                 "k": "p",
-                "t": "MIT MEIOSIS Daughter Nuclei i! Daughter Nuclei replication’ Interpt GW) Homologous Meiosis I!",
-                "zh": "麻省理工學院減數分裂子核i!子核復制’InterptGW）同源減數分裂I！"
-              },
-              {
-                "k": "h",
-                "t": "Chromosomes,",
-                "zh": "染色体"
+                "t": "MITOSIS; MEIOSIS; DNA replication; Mitosis; Two diploid cells; Interphase; Homologous Chromosomes; Meiosis I; Daughter Nuclei; Meiosis II; Daughter Nuclei II.",
+                "zh": "有絲分裂；減數分裂；DNA 複製；有絲分裂；兩個二倍體細胞；間期；同源染色體；減數分裂 I；子核；減數分裂 II；子核 II。"
               }
             ]
           },
@@ -8276,11 +8276,11 @@ window.HAZEL_LECTURES = [
             "w": 600,
             "h": 420,
             "kind": "embed",
-            "blocks": [
+                        "blocks": [
               {
                 "k": "p",
-                "t": "owarepicates DNA replicates “NS 2 daughter cells LN, 2eaughter cells 4 daughter U.S. National Library of Medicine",
-                "zh": "owarepicatesDNA複製“NS2子細胞LN，2子細胞4子美國國家醫學圖書館"
+                "t": "Mitosis; Meiosis; Parent cell; DNA replicates; 2 daughter cells; 4 daughter cells; U.S. National Library of Medicine.",
+                "zh": "有絲分裂；減數分裂；母細胞；DNA 複製；2 個子細胞；4 個子細胞；U.S. National Library of Medicine。"
               }
             ]
           }
@@ -8331,11 +8331,16 @@ window.HAZEL_LECTURES = [
             "w": 855,
             "h": 855,
             "kind": "embed",
-            "blocks": [
+                        "blocks": [
               {
                 "k": "p",
-                "t": "Normal cell Necrosis Apoptosis Programmed death of cells Cell death after in Nuclear fragment awe _., debris ) Apoptotic bodies Inflammatory response oO. Debris is swallowed No inflammatory reaction Antibodies Phagocyte.",
-                "zh": "正常細胞壞死細胞凋亡計劃性細胞死亡後在核碎片畏懼，碎片）凋亡體炎症反應oO。吞食碎屑無炎症反應抗體吞噬細胞"
+                "t": "Normal cell; Necrosis: Cell death after injury; Apoptosis: Programmed death of cells; Cell swelling; Cell disruption; Inflammatory response; Antibodies; Nuclear fragment; Cell debris; Apoptotic bodies; Phagocyte.",
+                "zh": "正常細胞；壞死：受傷後細胞死亡；凋亡：程序性細胞死亡；細胞腫脹；細胞破裂；炎症反應；抗體；核碎片；細胞碎片；凋亡小體；吞噬細胞。"
+              },
+              {
+                "k": "p",
+                "t": "In necrosis the cell swells, disrupts, and triggers an inflammatory response with antibodies. In apoptosis the nucleus fragments, apoptotic bodies form, and a phagocyte swallows the debris with no inflammatory reaction.",
+                "zh": "壞死時細胞腫脹、破裂，並引發有抗體嘅炎症反應。凋亡時細胞核碎裂、形成凋亡小體，吞噬細胞吞掉碎片，無炎症反應。"
               }
             ]
           }
@@ -10930,16 +10935,16 @@ window.HAZEL_LECTURES = [
             "w": 624,
             "h": 843,
             "kind": "embed",
-            "blocks": [
+                        "blocks": [
               {
                 "k": "p",
-                "t": "anabolic reaction oe 2 fe) fo} vey oD?",
-                "zh": "合成代謝反應oe2fe)fo}veyoD？"
+                "t": "anabolic reaction; energy; smaller molecules; larger molecule.",
+                "zh": "合成代謝反應；能量；較小分子；較大分子。"
               },
               {
                 "k": "p",
-                "t": "smaller molecules larger molecule",
-                "zh": "小分子大分子"
+                "t": "An anabolic reaction uses energy to combine smaller molecules into a larger molecule.",
+                "zh": "合成代謝反應消耗能量，將較小分子結合成較大分子。"
               }
             ]
           },
@@ -10948,11 +10953,11 @@ window.HAZEL_LECTURES = [
             "w": 963,
             "h": 514,
             "kind": "embed",
-            "blocks": [
+                        "blocks": [
               {
                 "k": "p",
-                "t": "Stages of Anabolism: Production of the precursor Energy (ATP) consumption ‘q¥a: (Fl Complex molecule formation",
-                "zh": "合成代謝階段：產生前體能量（ATP）消耗‘q¥a：（Fl複合物分子形成"
+                "t": "Stages of Anabolism:; Production of the precursor; Energy (ATP) consumption; Complex molecule formation; nucleotides; DNA.",
+                "zh": "合成代謝階段：；前體產生；消耗能量（ATP）；形成複雜分子；核苷酸；DNA。"
               }
             ]
           }
@@ -11034,11 +11039,16 @@ window.HAZEL_LECTURES = [
             "w": 967,
             "h": 668,
             "kind": "embed",
-            "blocks": [
+                        "blocks": [
               {
                 "k": "p",
-                "t": "Enzyme as Catalyst Products Substrate (reactant) Enzyme Enzyme-substrate Enzyme + product Complex Substrate enters Chemical reaction is Enzyme releases active site of triggered by the products the enzyme the enzyme.",
-                "zh": "酶作為催化劑產物底物（反應物）酶酶底物酶+產物複合物底物進入化學反應是酶釋放活性位點由產物觸發酶酶"
+                "t": "Enzyme as Catalyst; Substrate (reactant); Enzyme; Enzyme-substrate Complex; Products; Enzyme + product.",
+                "zh": "酶作為催化劑；底物（反應物）；酶；酶－底物複合物；產物；酶＋產物。"
+              },
+              {
+                "k": "p",
+                "t": "Substrate enters active site of the enzyme. Chemical reaction is triggered by the enzyme. Enzyme releases the products.",
+                "zh": "底物進入酶嘅活性部位。酶觸發化學反應。酶釋放產物。"
               }
             ]
           },
@@ -11047,16 +11057,16 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 606,
             "kind": "embed",
-            "blocks": [
+                        "blocks": [
               {
-                "k": "h",
-                "t": "Enzymes: how they work",
-                "zh": "酵素：作用方式"
+                "k": "p",
+                "t": "Enzymes Function: How They Work; Sucrose; Enzyme; Glucose; Fructose.",
+                "zh": "酶點樣運作；蔗糖；酶；葡萄糖；果糖。"
               },
               {
                 "k": "p",
-                "t": "1. Sucrose and the enzyme approach each other before binding at the active site. 2. The enzyme–substrate complex forms; the enzyme lowers the activation energy of the reaction. 3. The reaction produces glucose and fructose, which are released; the enzyme is unchanged and can catalyse again.",
-                "zh": "1.蔗糖與酵素靠近，之後在活性部位結合。2.形成酵素–底物複合體；酵素降低反應的活化能。3.反應產生葡萄糖與果糖並釋出；酵素本身不變，可再催化。"
+                "t": "1. Sucrose and Enzyme before binding together to form enzyme-substrate complex. 2. The substrate and enzyme bonding to form the Enzyme-substrate complex. 3. Breaking the bond between glucose and fructose. 4. The products glucose and fructose are released from the enzyme.",
+                "zh": "1. 蔗糖同酶結合前。2. 底物同酶結合形成酶－底物複合物。3. 打斷葡萄糖同果糖之間嘅鍵。4. 產物葡萄糖同果糖由酶釋放。"
               }
             ]
           }
