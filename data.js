@@ -6018,7 +6018,23 @@ window.HAZEL_LECTURES = [
             "w": 255,
             "h": 216,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Lipids",
+                "zh": "脂質"
+              },
+              {
+                "k": "p",
+                "t": "Triglyceride",
+                "zh": "甘油三酯"
+              },
+              {
+                "k": "p",
+                "t": "Structure: glycerol backbone (CH₂–CH–CH₂) linked by ester bonds (−O−C=O) to three fatty-acid chains (R, R₁, R₂).",
+                "zh": "結構：甘油骨架（CH₂–CH–CH₂）以酯鍵（−O−C=O）連去三條脂肪酸鏈（R、R₁、R₂）。"
+              }
+            ]
           }
         ]
       },
