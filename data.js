@@ -17887,7 +17887,68 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 587,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Table 13.2 | Formed Elements of the Blood",
+                "zh": "表 13.2｜血液有形成分"
+              },
+              {
+                "k": "p",
+                "t": "Columns: Component; Description; Number Present; Function",
+                "zh": "欄：成分；描述；數量；功能"
+              },
+              {
+                "k": "p",
+                "t": "Erythrocyte (red blood cell): biconcave disc without nucleus; contains hemoglobin; survives 100 to 120 days. Number: 4,000,000 to 6,000,000 / mm³. Function: transports oxygen and carbon dioxide.",
+                "zh": "紅血球：雙凹圓盤、無細胞核；含血紅蛋白；存活 100–120 日。數量：4,000,000–6,000,000／mm³。功能：運送氧同二氧化碳。"
+              },
+              {
+                "k": "p",
+                "t": "Leukocytes (white blood cells): 5,000 to 10,000 / mm³. Function: aid in defense against infections by microorganisms.",
+                "zh": "白血球：5,000–10,000／mm³。功能：協助防禦微生物感染。"
+              },
+              {
+                "k": "p",
+                "t": "Granulocytes: about twice the size of red blood cells; cytoplasmic granules present; survive 12 hours to 3 days.",
+                "zh": "顆粒白血球：大約紅血球兩倍大；有細胞質顆粒；存活 12 小時至 3 日。"
+              },
+              {
+                "k": "p",
+                "t": "Neutrophil: nucleus with 2 to 5 lobes; granules stain slightly pink; 54% to 62% of white cells; phagocytic.",
+                "zh": "中性粒細胞：核有 2–5 葉；顆粒淡粉紅；佔白血球 54%–62%；吞噬作用。"
+              },
+              {
+                "k": "p",
+                "t": "Eosinophil: bilobed nucleus; granules stain red in eosin; 1% to 3% of white cells; detoxifies foreign substances, dissolves clots, fights parasites.",
+                "zh": "嗜酸性粒細胞：雙葉核；伊紅染色呈紅；佔 1%–3%；解毒、溶解血塊、對抗寄生蟲。"
+              },
+              {
+                "k": "p",
+                "t": "Basophil: lobed nucleus; granules stain blue in hematoxylin; less than 1% of white cells; releases anticoagulant heparin.",
+                "zh": "嗜鹼性粒細胞：分葉核；蘇木素染色呈藍；少於 1%；釋放抗凝血肝素。"
+              },
+              {
+                "k": "p",
+                "t": "Agranulocytes: cytoplasmic granules not visible; survive 100 to 300 days (some much longer).",
+                "zh": "無顆粒白血球：睇唔到細胞質顆粒；存活 100–300 日（有啲更長）。"
+              },
+              {
+                "k": "p",
+                "t": "Monocyte: 2 to 3 times larger than red blood cell; nuclear shape round to lobed; 3% to 9% of white cells; phagocytic.",
+                "zh": "單核細胞：紅血球 2–3 倍大；核由圓至分葉；佔 3%–9%；吞噬作用。"
+              },
+              {
+                "k": "p",
+                "t": "Lymphocyte: only slightly larger than red blood cell; nucleus nearly fits cell; 25% to 33% of white cells; specific immune response (including antibodies).",
+                "zh": "淋巴細胞：稍大於紅血球；核幾乎填滿細胞；佔 25%–33%；特異性免疫（包括抗體）。"
+              },
+              {
+                "k": "p",
+                "t": "Platelet (thrombocyte): cytoplasmic fragment; survives 5 to 9 days. Number: 130,000 to 400,000 / mm³. Function: enables clotting; releases serotonin causing vasoconstriction.",
+                "zh": "血小板：細胞質碎片；存活 5–9 日。數量：130,000–400,000／mm³。功能：凝血；釋放血清素引起血管收縮。"
+              }
+            ]
           }
         ]
       },
@@ -17962,7 +18023,48 @@ window.HAZEL_LECTURES = [
             "w": 606,
             "h": 606,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Location of Heart in Thoracic Cavity",
+                "zh": "心臟喺胸腔嘅位置"
+              },
+              {
+                "k": "p",
+                "t": "Trachea",
+                "zh": "氣管"
+              },
+              {
+                "k": "p",
+                "t": "First rib (cut)",
+                "zh": "第一肋骨（切開）"
+              },
+              {
+                "k": "p",
+                "t": "Right lung; Left lung",
+                "zh": "右肺；左肺"
+              },
+              {
+                "k": "p",
+                "t": "Base of heart; Apex of heart",
+                "zh": "心底；心尖"
+              },
+              {
+                "k": "p",
+                "t": "Pericardium (cut)",
+                "zh": "心包（切開）"
+              },
+              {
+                "k": "p",
+                "t": "Mediastinum",
+                "zh": "縱隔"
+              },
+              {
+                "k": "p",
+                "t": "Diaphragm",
+                "zh": "橫膈膜"
+              }
+            ]
           }
         ]
       },
@@ -17996,7 +18098,38 @@ window.HAZEL_LECTURES = [
             "w": 736,
             "h": 1118,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Heart",
+                "zh": "心臟"
+              },
+              {
+                "k": "p",
+                "t": "Head and forelimbs; Trunk and legs",
+                "zh": "頭同前肢；軀幹同腿"
+              },
+              {
+                "k": "p",
+                "t": "Lung; Pulmonary artery; Pulmonary vein",
+                "zh": "肺；肺動脈；肺靜脈"
+              },
+              {
+                "k": "p",
+                "t": "Anterior vena cava; Hepatic vein; Vein; Aorta",
+                "zh": "前腔靜脈；肝靜脈；靜脈；主動脈"
+              },
+              {
+                "k": "p",
+                "t": "Liver; Stomach; Kidneys",
+                "zh": "肝；胃；腎"
+              },
+              {
+                "k": "p",
+                "t": "CO₂; O₂",
+                "zh": "CO₂；O₂"
+              }
+            ]
           }
         ]
       },
@@ -18065,7 +18198,33 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 859,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Pericardium",
+                "zh": "心包"
+              },
+              {
+                "k": "p",
+                "t": "Fibrous pericardium",
+                "zh": "纖維心包"
+              },
+              {
+                "k": "p",
+                "t": "Serous pericardium — Parietal pericardium; Visceral pericardium (or epicardium)",
+                "zh": "漿膜心包 — 壁層心包；臟層心包（心外膜）"
+              },
+              {
+                "k": "p",
+                "t": "Pericardial cavity filled with pericardial fluid",
+                "zh": "心包腔（充滿心包液）"
+              },
+              {
+                "k": "p",
+                "t": "Anterior view",
+                "zh": "前面觀"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p020-02.webp",
@@ -18075,13 +18234,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Visceral pericardium; Pericardial cavity; Parietal pericardium; Air space; Balloon.",
-                "zh": "臟層心包；心包腔；壁層心包；空氣間隙；氣球。"
+                "t": "Visceral pericardium",
+                "zh": "臟層心包"
               },
               {
                 "k": "p",
-                "t": "The fist-in-a-balloon analogy shows the heart inside a continuous pericardial sac, with the cavity as the space between visceral and parietal layers.",
-                "zh": "拳頭插入氣球嘅比喻說明心臟包喺連續心包囊入面，心包腔就係臟層同壁層之間嘅空隙。"
+                "t": "Pericardial cavity",
+                "zh": "心包腔"
+              },
+              {
+                "k": "p",
+                "t": "Parietal pericardium",
+                "zh": "壁層心包"
+              },
+              {
+                "k": "p",
+                "t": "Air space",
+                "zh": "空氣空間"
+              },
+              {
+                "k": "p",
+                "t": "Balloon",
+                "zh": "氣球"
               }
             ]
           }
@@ -18137,7 +18311,63 @@ window.HAZEL_LECTURES = [
             "w": 574,
             "h": 782,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Fibrous layer",
+                "zh": "纖維層"
+              },
+              {
+                "k": "p",
+                "t": "Parietal pericardium",
+                "zh": "壁層心包"
+              },
+              {
+                "k": "p",
+                "t": "Epicardium",
+                "zh": "心外膜"
+              },
+              {
+                "k": "p",
+                "t": "Pericardial cavity",
+                "zh": "心包腔"
+              },
+              {
+                "k": "p",
+                "t": "Myocardium",
+                "zh": "心肌層"
+              },
+              {
+                "k": "p",
+                "t": "Endocardium",
+                "zh": "心內膜"
+              },
+              {
+                "k": "h",
+                "t": "Heart wall",
+                "zh": "心壁"
+              },
+              {
+                "k": "p",
+                "t": "Fibrous pericardium",
+                "zh": "纖維心包"
+              },
+              {
+                "k": "p",
+                "t": "Parietal layer of serous pericardium",
+                "zh": "漿膜心包壁層"
+              },
+              {
+                "k": "p",
+                "t": "Visceral layer of serous pericardium (epicardium)",
+                "zh": "漿膜心包臟層（心外膜）"
+              },
+              {
+                "k": "p",
+                "t": "Heart chamber",
+                "zh": "心腔"
+              }
+            ]
           }
         ]
       },
@@ -18201,7 +18431,48 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 804,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Ascending Aorta (to head and arms); Aorta; Descending aorta (to lower body)",
+                "zh": "升主動脈（去頭同手臂）；主動脈；降主動脈（去下身）"
+              },
+              {
+                "k": "p",
+                "t": "Ligamen arteriosum",
+                "zh": "動脈韌帶（圖上寫法）"
+              },
+              {
+                "k": "p",
+                "t": "Pulmonary artery (to left lung); Pulmonary artery (to right lung)",
+                "zh": "肺動脈（去左肺）；肺動脈（去右肺）"
+              },
+              {
+                "k": "p",
+                "t": "Left atrium; Right atrium",
+                "zh": "左心房；右心房"
+              },
+              {
+                "k": "p",
+                "t": "Left pulmonary veins (from left lung); Right pulmonary veins (from right lung)",
+                "zh": "左肺靜脈（由左肺）；右肺靜脈（由右肺）"
+              },
+              {
+                "k": "p",
+                "t": "Left coronary artery; Right coronary artery",
+                "zh": "左冠狀動脈；右冠狀動脈"
+              },
+              {
+                "k": "p",
+                "t": "Left ventricle; Right ventricle",
+                "zh": "左心室；右心室"
+              },
+              {
+                "k": "p",
+                "t": "Superior vena cava; Inferior vena cava",
+                "zh": "上腔靜脈；下腔靜脈"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p022-02.webp",
@@ -18211,8 +18482,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Right atrium; Right ventricle; Left atrium; Left ventricle; Interatrial Septum; Interventricular Septum.",
-                "zh": "右心房；右心室；左心房；左心室；房間隔；室間隔。"
+                "t": "Right atrium; Right ventricle",
+                "zh": "右心房；右心室"
+              },
+              {
+                "k": "p",
+                "t": "Left atrium; Left ventricle",
+                "zh": "左心房；左心室"
+              },
+              {
+                "k": "p",
+                "t": "Interatrial Septum",
+                "zh": "房間隔"
+              },
+              {
+                "k": "p",
+                "t": "Interventricular Septum",
+                "zh": "室間隔"
               }
             ]
           }
@@ -18263,7 +18549,63 @@ window.HAZEL_LECTURES = [
             "w": 650,
             "h": 431,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Superior Vena Cava; Inferior Vena Cava",
+                "zh": "上腔靜脈；下腔靜脈"
+              },
+              {
+                "k": "p",
+                "t": "Aorta; Pulmonary Trunk; Right Pulmonary Artery; Left Pulmonary Artery",
+                "zh": "主動脈；肺動脈幹；右肺動脈；左肺動脈"
+              },
+              {
+                "k": "p",
+                "t": "Right Atrium; Left Atrium",
+                "zh": "右心房；左心房"
+              },
+              {
+                "k": "p",
+                "t": "Right Pulmonary Veins; Left Pulmonary Veins",
+                "zh": "右肺靜脈；左肺靜脈"
+              },
+              {
+                "k": "p",
+                "t": "Fossa Ovalis; Pectinate Muscles (Horizontal Muscle Ridges)",
+                "zh": "卵圓窩；梳狀肌（水平肌脊）"
+              },
+              {
+                "k": "p",
+                "t": "Tricuspid Valve; Mitral (Bicuspid) Valve",
+                "zh": "三尖瓣；二尖瓣（僧帽瓣）"
+              },
+              {
+                "k": "p",
+                "t": "Aortic Semilunar Valve; Pulmonary Semilunar Valve",
+                "zh": "主動脈半月瓣；肺動脈半月瓣"
+              },
+              {
+                "k": "p",
+                "t": "Right Ventricle; Left Ventricle",
+                "zh": "右心室；左心室"
+              },
+              {
+                "k": "p",
+                "t": "Chordae Tendineae (Held by Papillary Muscles); Papillary Muscles; Trabeculae Carneae (Irregular Muscle Ridges)",
+                "zh": "腱索（由乳頭肌固定）；乳頭肌；肉柱（不規則肌脊）"
+              },
+              {
+                "k": "p",
+                "t": "Interventricular Septum",
+                "zh": "室間隔"
+              },
+              {
+                "k": "p",
+                "t": "Epicardium; Myocardium; Endocardium",
+                "zh": "心外膜；心肌層；心內膜"
+              }
+            ]
           }
         ]
       },
@@ -18307,7 +18649,38 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 800,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Pulmonary circulation (to the lungs)",
+                "zh": "肺循環（去肺）"
+              },
+              {
+                "k": "p",
+                "t": "Systemic circulation (to the tissues)",
+                "zh": "體循環（去組織）"
+              },
+              {
+                "k": "p",
+                "t": "Right side of heart; Left side of heart; Lung",
+                "zh": "右心；左心；肺"
+              },
+              {
+                "k": "p",
+                "t": "Circulation to tissues of head, neck, and upper limbs",
+                "zh": "去頭、頸同上肢組織嘅循環"
+              },
+              {
+                "k": "p",
+                "t": "Circulation to tissues of thorax, abdomen, and lower limbs",
+                "zh": "去胸、腹同下肢組織嘅循環"
+              },
+              {
+                "k": "p",
+                "t": "CO₂; O₂",
+                "zh": "CO₂；O₂"
+              }
+            ]
           }
         ]
       },
@@ -18356,7 +18729,18 @@ window.HAZEL_LECTURES = [
             "w": 725,
             "h": 442,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Deoxygenated Blood",
+                "zh": "缺氧血"
+              },
+              {
+                "k": "p",
+                "t": "Oxygenated Blood",
+                "zh": "含氧血"
+              }
+            ]
           }
         ]
       },
@@ -18448,8 +18832,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "superior vena cava; inferior vena cava; pulmonary artery; aorta; right atrium; left atrium; pulmonary valve; tricuspid valve; mitral valve; aortic valve; right ventricle; left ventricle.",
-                "zh": "上腔靜脈；下腔靜脈；肺動脈；主動脈；右心房；左心房；肺動脈瓣；三尖瓣；二尖瓣；主動脈瓣；右心室；左心室。"
+                "t": "superior vena cava; inferior vena cava",
+                "zh": "上腔靜脈；下腔靜脈"
+              },
+              {
+                "k": "p",
+                "t": "pulmonary artery; aorta",
+                "zh": "肺動脈；主動脈"
+              },
+              {
+                "k": "p",
+                "t": "right atrium; left atrium",
+                "zh": "右心房；左心房"
+              },
+              {
+                "k": "p",
+                "t": "pulmonary valve; tricuspid valve; mitral valve; aortic valve",
+                "zh": "肺動脈瓣；三尖瓣；二尖瓣；主動脈瓣"
+              },
+              {
+                "k": "p",
+                "t": "right ventricle; left ventricle",
+                "zh": "右心室；左心室"
               }
             ]
           }
@@ -22845,6 +23249,7 @@ window.HAZEL_LECTURES = [
     ]
   }
 ];
+
 window.HAZEL_GLOSSARY = {
   "learning": {
     "term": "Learning",
