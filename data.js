@@ -12939,47 +12939,47 @@ window.HAZEL_LECTURES = [
             "h": 531,
             "kind": "embed",
             "blocks": [
-                {
-                  "k": "h",
-                  "t": "Temperature",
-                  "zh": "溫度"
-                },
-                {
-                  "k": "p",
-                  "t": "BIG influence. More heat = more kinetic energy. But if too high, enzyme is denatured. Graph peaks at optimum temp.",
-                  "zh": "影響好大。熱力愈高動能愈大；但太高會令酶變性。圖喺最適溫度達峰。"
-                },
-                {
-                  "k": "h",
-                  "t": "pH",
-                  "zh": "pH"
-                },
-                {
-                  "k": "p",
-                  "t": "Enzymes have optimum pH. If higher/lower, H+ in acid / OH− in alkaline can interfere with enzyme structure.",
-                  "zh": "酶有最適 pH。偏高或偏低時，酸中 H+／鹼中 OH− 會干擾酶結構。"
-                },
-                {
-                  "k": "h",
-                  "t": "Enzyme concentration",
-                  "zh": "酶濃度"
-                },
-                {
-                  "k": "p",
-                  "t": "Increase enzyme concentration = increase rate of reaction, until substrate amount is limited.",
-                  "zh": "提高酶濃度會提高反應速率，直到底物數量受限。"
-                },
-                {
-                  "k": "h",
-                  "t": "Substrate concentration",
-                  "zh": "底物濃度"
-                },
-                {
-                  "k": "p",
-                  "t": "Increase substrate concentration = increase rate of reaction, until active sites of enzyme are used.",
-                  "zh": "提高底物濃度會提高反應速率，直到酶嘅活性部位用盡。"
-                }
-              ]
+              {
+                "k": "h",
+                "t": "Temperature",
+                "zh": "溫度"
+              },
+              {
+                "k": "p",
+                "t": "BIG influence. More heat = more kinetic energy. But if too high, enzyme is denatured. Graph peaks at optimum temp.",
+                "zh": "影響好大。熱力愈高動能愈大；但太高會令酶變性。圖喺最適溫度達峰。"
+              },
+              {
+                "k": "h",
+                "t": "pH",
+                "zh": "pH"
+              },
+              {
+                "k": "p",
+                "t": "Enzymes have optimum pH. If higher/lower, H+ in acid / OH− in alkaline can interfere with enzyme structure.",
+                "zh": "酶有最適 pH。偏高或偏低時，酸中 H+／鹼中 OH− 會干擾酶結構。"
+              },
+              {
+                "k": "h",
+                "t": "Enzyme concentration",
+                "zh": "酶濃度"
+              },
+              {
+                "k": "p",
+                "t": "Increase enzyme concentration = increase rate of reaction, until substrate amount is limited.",
+                "zh": "提高酶濃度會提高反應速率，直到底物數量受限。"
+              },
+              {
+                "k": "h",
+                "t": "Substrate concentration",
+                "zh": "底物濃度"
+              },
+              {
+                "k": "p",
+                "t": "Increase substrate concentration = increase rate of reaction, until active sites of enzyme are used.",
+                "zh": "提高底物濃度會提高反應速率，直到酶嘅活性部位用盡。"
+              }
+            ]
           }
         ]
       },
@@ -13009,17 +13009,17 @@ window.HAZEL_LECTURES = [
             "h": 332,
             "kind": "embed",
             "blocks": [
-                {
-                  "k": "p",
-                  "t": "Denaturation",
-                  "zh": "變性"
-                },
-                {
-                  "k": "p",
-                  "t": "Renaturation",
-                  "zh": "復性"
-                }
-              ]
+              {
+                "k": "p",
+                "t": "Denaturation",
+                "zh": "變性"
+              },
+              {
+                "k": "p",
+                "t": "Renaturation",
+                "zh": "復性"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p017-01.webp",
@@ -13077,27 +13077,27 @@ window.HAZEL_LECTURES = [
             "h": 500,
             "kind": "embed",
             "blocks": [
-                {
-                  "k": "p",
-                  "t": "BASIC",
-                  "zh": "鹼性"
-                },
-                {
-                  "k": "p",
-                  "t": "NEUTRAL",
-                  "zh": "中性"
-                },
-                {
-                  "k": "p",
-                  "t": "ACIDIC",
-                  "zh": "酸性"
-                },
-                {
-                  "k": "p",
-                  "t": "pH 0–14 (7 = neutral)",
-                  "zh": "pH 0–14（7 = 中性）"
-                }
-              ]
+              {
+                "k": "p",
+                "t": "BASIC",
+                "zh": "鹼性"
+              },
+              {
+                "k": "p",
+                "t": "NEUTRAL",
+                "zh": "中性"
+              },
+              {
+                "k": "p",
+                "t": "ACIDIC",
+                "zh": "酸性"
+              },
+              {
+                "k": "p",
+                "t": "pH 0–14 (7 = neutral)",
+                "zh": "pH 0–14（7 = 中性）"
+              }
+            ]
           }
         ]
       },
@@ -13137,47 +13137,47 @@ window.HAZEL_LECTURES = [
             "h": 415,
             "kind": "embed",
             "blocks": [
-                {
-                  "k": "h",
-                  "t": "Table 4.3 | pH Optima of Selected Enzymes",
-                  "zh": "表 4.3｜選定酶嘅最適 pH"
-                },
-                {
-                  "k": "p",
-                  "t": "Pepsin (stomach): Digestion of protein — pH 2.0",
-                  "zh": "胃蛋白酶（胃）：消化蛋白質 — pH 2.0"
-                },
-                {
-                  "k": "p",
-                  "t": "Acid phosphatase (prostate): Removal of phosphate group — pH 5.5",
-                  "zh": "酸性磷酸酶（前列腺）：移除磷酸基 — pH 5.5"
-                },
-                {
-                  "k": "p",
-                  "t": "Salivary amylase (saliva): Digestion of starch — pH 6.8",
-                  "zh": "唾液澱粉酶（唾液）：消化澱粉 — pH 6.8"
-                },
-                {
-                  "k": "p",
-                  "t": "Lipase (pancreatic juice): Digestion of fat — pH 7.0",
-                  "zh": "脂肪酶（胰液）：消化脂肪 — pH 7.0"
-                },
-                {
-                  "k": "p",
-                  "t": "Alkaline phosphatase (bone): Removal of phosphate group — pH 9.0",
-                  "zh": "鹼性磷酸酶（骨）：移除磷酸基 — pH 9.0"
-                },
-                {
-                  "k": "p",
-                  "t": "Trypsin (pancreatic juice): Digestion of protein — pH 9.5",
-                  "zh": "胰蛋白酶（胰液）：消化蛋白質 — pH 9.5"
-                },
-                {
-                  "k": "p",
-                  "t": "Monoamine oxidase (nerve endings): Removal of amine group from norepinephrine — pH 9.8",
-                  "zh": "單胺氧化酶（神經末梢）：由去甲腎上腺素移除胺基 — pH 9.8"
-                }
-              ]
+              {
+                "k": "h",
+                "t": "Table 4.3 | pH Optima of Selected Enzymes",
+                "zh": "表 4.3｜選定酶嘅最適 pH"
+              },
+              {
+                "k": "p",
+                "t": "Pepsin (stomach): Digestion of protein — pH 2.0",
+                "zh": "胃蛋白酶（胃）：消化蛋白質 — pH 2.0"
+              },
+              {
+                "k": "p",
+                "t": "Acid phosphatase (prostate): Removal of phosphate group — pH 5.5",
+                "zh": "酸性磷酸酶（前列腺）：移除磷酸基 — pH 5.5"
+              },
+              {
+                "k": "p",
+                "t": "Salivary amylase (saliva): Digestion of starch — pH 6.8",
+                "zh": "唾液澱粉酶（唾液）：消化澱粉 — pH 6.8"
+              },
+              {
+                "k": "p",
+                "t": "Lipase (pancreatic juice): Digestion of fat — pH 7.0",
+                "zh": "脂肪酶（胰液）：消化脂肪 — pH 7.0"
+              },
+              {
+                "k": "p",
+                "t": "Alkaline phosphatase (bone): Removal of phosphate group — pH 9.0",
+                "zh": "鹼性磷酸酶（骨）：移除磷酸基 — pH 9.0"
+              },
+              {
+                "k": "p",
+                "t": "Trypsin (pancreatic juice): Digestion of protein — pH 9.5",
+                "zh": "胰蛋白酶（胰液）：消化蛋白質 — pH 9.5"
+              },
+              {
+                "k": "p",
+                "t": "Monoamine oxidase (nerve endings): Removal of amine group from norepinephrine — pH 9.8",
+                "zh": "單胺氧化酶（神經末梢）：由去甲腎上腺素移除胺基 — pH 9.8"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p019-02.webp",
@@ -13185,32 +13185,32 @@ window.HAZEL_LECTURES = [
             "h": 359,
             "kind": "embed",
             "blocks": [
-                {
-                  "k": "p",
-                  "t": "Enzyme activity",
-                  "zh": "酶活性"
-                },
-                {
-                  "k": "p",
-                  "t": "pH",
-                  "zh": "pH"
-                },
-                {
-                  "k": "p",
-                  "t": "Pepsin (optimum ~2)",
-                  "zh": "胃蛋白酶（最適約 2）"
-                },
-                {
-                  "k": "p",
-                  "t": "Salivary amylase (optimum ~7)",
-                  "zh": "唾液澱粉酶（最適約 7）"
-                },
-                {
-                  "k": "p",
-                  "t": "Trypsin (optimum ~9)",
-                  "zh": "胰蛋白酶（最適約 9）"
-                }
-              ]
+              {
+                "k": "p",
+                "t": "Enzyme activity",
+                "zh": "酶活性"
+              },
+              {
+                "k": "p",
+                "t": "pH",
+                "zh": "pH"
+              },
+              {
+                "k": "p",
+                "t": "Pepsin (optimum ~2)",
+                "zh": "胃蛋白酶（最適約 2）"
+              },
+              {
+                "k": "p",
+                "t": "Salivary amylase (optimum ~7)",
+                "zh": "唾液澱粉酶（最適約 7）"
+              },
+              {
+                "k": "p",
+                "t": "Trypsin (optimum ~9)",
+                "zh": "胰蛋白酶（最適約 9）"
+              }
+            ]
           }
         ]
       },
@@ -13260,32 +13260,32 @@ window.HAZEL_LECTURES = [
             "h": 584,
             "kind": "embed",
             "blocks": [
-                {
-                  "k": "p",
-                  "t": "Pancreas",
-                  "zh": "胰臟"
-                },
-                {
-                  "k": "p",
-                  "t": "Lumen of duodenum",
-                  "zh": "十二指腸腔"
-                },
-                {
-                  "k": "p",
-                  "t": "Inactive form: Trypsinogen; Procarboxypeptidase; Chymotrypsinogen.",
-                  "zh": "無活性形式：胰蛋白酶原；羧肽酶原；糜蛋白酶原。"
-                },
-                {
-                  "k": "p",
-                  "t": "Membrane-bound enteropeptidase activates Trypsinogen → Trypsin.",
-                  "zh": "膜結合腸肽酶活化胰蛋白酶原 → 胰蛋白酶。"
-                },
-                {
-                  "k": "p",
-                  "t": "Trypsin then activates: more Trypsin; Carboxypeptidase; Chymotrypsin.",
-                  "zh": "胰蛋白酶再活化：更多胰蛋白酶；羧肽酶；糜蛋白酶。"
-                }
-              ]
+              {
+                "k": "p",
+                "t": "Pancreas",
+                "zh": "胰臟"
+              },
+              {
+                "k": "p",
+                "t": "Lumen of duodenum",
+                "zh": "十二指腸腔"
+              },
+              {
+                "k": "p",
+                "t": "Inactive form: Trypsinogen; Procarboxypeptidase; Chymotrypsinogen.",
+                "zh": "無活性形式：胰蛋白酶原；羧肽酶原；糜蛋白酶原。"
+              },
+              {
+                "k": "p",
+                "t": "Membrane-bound enteropeptidase activates Trypsinogen → Trypsin.",
+                "zh": "膜結合腸肽酶活化胰蛋白酶原 → 胰蛋白酶。"
+              },
+              {
+                "k": "p",
+                "t": "Trypsin then activates: more Trypsin; Carboxypeptidase; Chymotrypsin.",
+                "zh": "胰蛋白酶再活化：更多胰蛋白酶；羧肽酶；糜蛋白酶。"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p020-02.webp",
@@ -13293,17 +13293,17 @@ window.HAZEL_LECTURES = [
             "h": 206,
             "kind": "embed",
             "blocks": [
-                {
-                  "k": "p",
-                  "t": "Active",
-                  "zh": "活性"
-                },
-                {
-                  "k": "p",
-                  "t": "Inactive",
-                  "zh": "無活性"
-                }
-              ]
+              {
+                "k": "p",
+                "t": "Active",
+                "zh": "活性"
+              },
+              {
+                "k": "p",
+                "t": "Inactive",
+                "zh": "無活性"
+              }
+            ]
           }
         ]
       },
@@ -13343,27 +13343,27 @@ window.HAZEL_LECTURES = [
             "h": 282,
             "kind": "embed",
             "blocks": [
-                {
-                  "k": "p",
-                  "t": "Reaction rate",
-                  "zh": "反應速率"
-                },
-                {
-                  "k": "p",
-                  "t": "Substrate concentration",
-                  "zh": "底物濃度"
-                },
-                {
-                  "k": "p",
-                  "t": "Maximum rate",
-                  "zh": "最大速率"
-                },
-                {
-                  "k": "p",
-                  "t": "Saturation",
-                  "zh": "飽和"
-                }
-              ]
+              {
+                "k": "p",
+                "t": "Reaction rate",
+                "zh": "反應速率"
+              },
+              {
+                "k": "p",
+                "t": "Substrate concentration",
+                "zh": "底物濃度"
+              },
+              {
+                "k": "p",
+                "t": "Maximum rate",
+                "zh": "最大速率"
+              },
+              {
+                "k": "p",
+                "t": "Saturation",
+                "zh": "飽和"
+              }
+            ]
           }
         ]
       },
@@ -13463,32 +13463,32 @@ window.HAZEL_LECTURES = [
             "h": 285,
             "kind": "embed",
             "blocks": [
-                {
-                  "k": "p",
-                  "t": "Apoenzyme (protein portion), inactive",
-                  "zh": "脫輔基酶（蛋白質部分），無活性"
-                },
-                {
-                  "k": "p",
-                  "t": "Coenzyme",
-                  "zh": "輔酶"
-                },
-                {
-                  "k": "p",
-                  "t": "Cofactor (nonprotein portion), activator",
-                  "zh": "輔因子（非蛋白質部分），活化劑"
-                },
-                {
-                  "k": "p",
-                  "t": "Holoenzyme (whole enzyme), active",
-                  "zh": "全酶（完整酶），有活性"
-                },
-                {
-                  "k": "p",
-                  "t": "Substrate",
-                  "zh": "底物"
-                }
-              ]
+              {
+                "k": "p",
+                "t": "Apoenzyme (protein portion), inactive",
+                "zh": "脫輔基酶（蛋白質部分），無活性"
+              },
+              {
+                "k": "p",
+                "t": "Coenzyme",
+                "zh": "輔酶"
+              },
+              {
+                "k": "p",
+                "t": "Cofactor (nonprotein portion), activator",
+                "zh": "輔因子（非蛋白質部分），活化劑"
+              },
+              {
+                "k": "p",
+                "t": "Holoenzyme (whole enzyme), active",
+                "zh": "全酶（完整酶），有活性"
+              },
+              {
+                "k": "p",
+                "t": "Substrate",
+                "zh": "底物"
+              }
+            ]
           }
         ]
       },
@@ -13574,12 +13574,12 @@ window.HAZEL_LECTURES = [
             "h": 410,
             "kind": "embed",
             "blocks": [
-                {
-                  "k": "p",
-                  "t": "altered active site",
-                  "zh": "改變咗嘅活性部位"
-                }
-              ]
+              {
+                "k": "p",
+                "t": "altered active site",
+                "zh": "改變咗嘅活性部位"
+              }
+            ]
           }
         ]
       },
@@ -13723,13 +13723,63 @@ window.HAZEL_LECTURES = [
               },
               {
                 "k": "p",
-                "t": "STIMULUS; CONTROLLED CONDITION; RECEPTORS; Input; CONTROL CENTER; Output; EFFECTORS; RESPONSE that alters the controlled condition.",
-                "zh": "刺激；受控條件；受體；輸入；控制中心；輸出；效應器；改變受控條件嘅反應。"
+                "t": "STIMULUS",
+                "zh": "刺激"
               },
               {
                 "k": "p",
-                "t": "A stimulus disrupts homeostasis by increasing or decreasing a controlled condition that is monitored by receptors that send nerve impulses or chemical signals to a control center that receives the input and provides nerve impulses or chemical signals to effectors that bring about a change or response that alters the controlled condition. Return to homeostasis when the response brings the controlled condition back to normal.",
-                "zh": "刺激令穩態失衡，令受控條件升或降；受體監察後以神經衝動或化學訊號輸入控制中心；控制中心再輸出訊號至效應器，引起改變或反應以調受控條件。當反應令受控條件回復正常，就返回穩態。"
+                "t": "disrupts homeostasis by increasing or decreasing a",
+                "zh": "藉由升高或降低而擾亂穩態"
+              },
+              {
+                "k": "p",
+                "t": "CONTROLLED CONDITION",
+                "zh": "受控條件"
+              },
+              {
+                "k": "p",
+                "t": "RECEPTORS",
+                "zh": "受體"
+              },
+              {
+                "k": "p",
+                "t": "Input",
+                "zh": "輸入"
+              },
+              {
+                "k": "p",
+                "t": "that send nerve impulses or chemical signals to a",
+                "zh": "發送神經衝動或化學訊號到"
+              },
+              {
+                "k": "p",
+                "t": "CONTROL CENTER",
+                "zh": "控制中心"
+              },
+              {
+                "k": "p",
+                "t": "Output",
+                "zh": "輸出"
+              },
+              {
+                "k": "p",
+                "t": "that receives the input and provides nerve impulses or chemical signals to",
+                "zh": "接收輸入並提供神經衝動或化學訊號到"
+              },
+              {
+                "k": "p",
+                "t": "EFFECTORS",
+                "zh": "效應器"
+              },
+              {
+                "k": "p",
+                "t": "RESPONSE that alters the controlled condition",
+                "zh": "改變受控條件嘅反應"
+              },
+              {
+                "k": "p",
+                "t": "Return to homeostasis when the response brings the controlled condition back to normal.",
+                "zh": "當反應令受控條件回復正常，就返回穩態。"
               }
             ]
           },
@@ -13741,8 +13791,18 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Set point (average); Normal range; − (negative feedback).",
-                "zh": "設定點（平均）；正常範圍；−（負回饋）。"
+                "t": "Set point (average)",
+                "zh": "設定點（平均值）"
+              },
+              {
+                "k": "p",
+                "t": "Normal range",
+                "zh": "正常範圍"
+              },
+              {
+                "k": "p",
+                "t": "− (negative feedback)",
+                "zh": "−（負回饋）"
               }
             ]
           }
@@ -13796,13 +13856,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Receptor; Control Center; Effector; Response; Negative feedback.",
-                "zh": "受體；控制中心；效應器；反應；負回饋。"
+                "t": "Receptor",
+                "zh": "受體"
               },
               {
                 "k": "p",
-                "t": "A deviation is detected by the receptor, processed by the control center, and corrected by the effector’s response; negative feedback then acts on the control center to restore balance.",
-                "zh": "偏差由受體偵測、經控制中心處理，再由效應器產生反應矯正；負回饋作用於控制中心，令系統回復平衡。"
+                "t": "Control Center",
+                "zh": "控制中心"
+              },
+              {
+                "k": "p",
+                "t": "Effector",
+                "zh": "效應器"
+              },
+              {
+                "k": "p",
+                "t": "Response",
+                "zh": "反應"
+              },
+              {
+                "k": "p",
+                "t": "Negative feedback",
+                "zh": "負回饋"
               }
             ]
           }
@@ -13830,14 +13905,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "Homeostasis (glucose levels 90mg/100mL); Set Point; PANCREAS; LIVER; Insulin; Glucagon.",
-                "zh": "穩態（血糖 90mg/100mL）；設定點；胰臟；肝；胰島素；胰高血糖素。"
+                "k": "h",
+                "t": "Homeostasis (glucose levels 90mg/100mL) Set Point",
+                "zh": "穩態（血糖 90mg/100mL）設定點"
               },
               {
                 "k": "p",
-                "t": "STIMULUS: blood glucose level rises. Beta cells in pancreas release insulin into the blood. Body cells take up glucose. Liver takes up glucose and stores it as glycogen. Blood glucose level declines. STIMULUS: blood glucose level falls. Alpha cells in pancreas release glucagon. Liver breaks down glycogen and releases glucose. Blood glucose level rises.",
-                "zh": "刺激：血糖上升。胰臟 β 細胞釋放胰島素入血。身體細胞攝取葡萄糖。肝攝取葡萄糖並儲存為糖原。血糖下降。刺激：血糖下降。胰臟 α 細胞釋放胰高血糖素。肝分解糖原並釋放葡萄糖。血糖上升。"
+                "t": "STIMULUS: blood glucose level rises. Beta cells in pancreas release insulin into the blood. Body cells take up glucose. Liver takes up glucose and stores it as glycogen. Blood glucose level declines → homeostasis.",
+                "zh": "刺激：血糖上升。胰臟 β 細胞釋放胰島素入血。身體細胞攝取葡萄糖。肝臟攝取葡萄糖並儲存為糖原。血糖下降 → 穩態。"
+              },
+              {
+                "k": "p",
+                "t": "STIMULUS: blood glucose level falls. Alpha cells in pancreas release glucagon. Liver breaks down glycogen and releases glucose. Blood glucose level rises → homeostasis.",
+                "zh": "刺激：血糖下降。胰臟 α 細胞釋放升糖素。肝臟分解糖原並釋放葡萄糖。血糖上升 → 穩態。"
+              },
+              {
+                "k": "p",
+                "t": "PANCREAS; LIVER; Insulin; Glucagon",
+                "zh": "胰臟；肝臟；胰島素；升糖素"
               }
             ]
           }
@@ -13929,7 +14014,48 @@ window.HAZEL_LECTURES = [
             "w": 967,
             "h": 860,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "FIGURE 1.6 Negative feedback control of blood pressure",
+                "zh": "圖 1.6 血壓嘅負回饋控制"
+              },
+              {
+                "k": "p",
+                "t": "Lying down → Standing up",
+                "zh": "躺低 → 企起"
+              },
+              {
+                "k": "p",
+                "t": "1. Blood pressure falls (Stimulus)",
+                "zh": "1. 血壓下降（刺激）"
+              },
+              {
+                "k": "p",
+                "t": "2. Blood pressure receptors respond (Sensor)",
+                "zh": "2. 血壓受體反應（感應器）"
+              },
+              {
+                "k": "p",
+                "t": "Sensory nerve fibers → Medulla oblongata of brain (Integrating center)",
+                "zh": "感覺神經纖維 → 延髓（整合中心）"
+              },
+              {
+                "k": "p",
+                "t": "Motor nerve fibers → Heart (Effector)",
+                "zh": "運動神經纖維 → 心臟（效應器）"
+              },
+              {
+                "k": "p",
+                "t": "3. Heart rate increases",
+                "zh": "3. 心率加快"
+              },
+              {
+                "k": "p",
+                "t": "4. Rise in blood pressure (Negative feedback response)",
+                "zh": "4. 血壓回升（負回饋反應）"
+              }
+            ]
           }
         ]
       },
@@ -14026,9 +14152,49 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Figure 3. Cell Membrane",
+                "zh": "圖 3. 細胞膜"
+              },
+              {
                 "k": "p",
-                "t": "Figure 3. Cell membrane. The cell membrane is a phospholipid bilayer that separates the outside of the cell from the cytoplasm and contains many molecular components. Glycoproteins are proteins with carbohydrate attached, and glycolipids are lipids with carbohydrate attached. Integral membrane proteins and channel proteins span the bilayer, while peripheral membrane proteins sit on the membrane surface. Cholesterol molecules are tucked among the phospholipid tails within the bilayer.",
-                "zh": "圖3．細胞膜。細胞膜係磷脂雙層，分隔細胞外環境同細胞質，並含有多種分子成分。糖蛋白係附有碳水化合物嘅蛋白質，糖脂係附有碳水化合物嘅脂質。整合膜蛋白同通道蛋白橫跨雙層，外周膜蛋白則位於膜表面。膽固醇分子嵌喺磷脂尾部之間。"
+                "t": "Phospholipid bilayer",
+                "zh": "磷脂雙層"
+              },
+              {
+                "k": "p",
+                "t": "Integral membrane protein",
+                "zh": "整合膜蛋白"
+              },
+              {
+                "k": "p",
+                "t": "Channel protein",
+                "zh": "通道蛋白"
+              },
+              {
+                "k": "p",
+                "t": "Peripheral membrane protein",
+                "zh": "外周膜蛋白"
+              },
+              {
+                "k": "p",
+                "t": "Cholesterol",
+                "zh": "膽固醇"
+              },
+              {
+                "k": "p",
+                "t": "Glycoprotein: protein with carbohydrate attached",
+                "zh": "糖蛋白：附有碳水化合物嘅蛋白質"
+              },
+              {
+                "k": "p",
+                "t": "Glycolipid: lipid with carbohydrate attached",
+                "zh": "糖脂：附有碳水化合物嘅脂質"
+              },
+              {
+                "k": "p",
+                "t": "The cell membrane of the cell is a phospholipid bilayer containing many different molecular components, including proteins and cholesterol, some with carbohydrate groups attached.",
+                "zh": "細胞膜係磷脂雙層，含有多種分子成分，包括蛋白質同膽固醇，部分附有碳水化合物基團。"
               }
             ]
           },
@@ -14037,7 +14203,28 @@ window.HAZEL_LECTURES = [
             "w": 786,
             "h": 494,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Concentration Gradient",
+                "zh": "濃度梯度"
+              },
+              {
+                "k": "p",
+                "t": "The difference between the concentration of solutes in solutions.",
+                "zh": "溶液中溶質濃度嘅差異。"
+              },
+              {
+                "k": "p",
+                "t": "Natural flow is from high to low (with the concentration gradient).",
+                "zh": "自然流動係由高濃度去低濃度（順濃度梯度）。"
+              },
+              {
+                "k": "p",
+                "t": "Lipid bilayer (plasma membrane); Extracellular fluid; Cytoplasm; Time",
+                "zh": "脂質雙層（質膜）；細胞外液；細胞質；時間"
+              }
+            ]
           }
         ]
       },
@@ -14073,9 +14260,39 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Passive transport",
+                "zh": "被動運輸"
+              },
+              {
                 "k": "p",
-                "t": "Passive transport; Extracellular fluid; Intracellular fluid; High concentration; Low concentration; Simple diffusion; Facilitated diffusion; Carrier protein; Channel protein.",
-                "zh": "被動運輸；細胞外液；細胞內液；高濃度；低濃度；簡單擴散；協助擴散；載體蛋白；通道蛋白。"
+                "t": "Extracellular fluid",
+                "zh": "細胞外液"
+              },
+              {
+                "k": "p",
+                "t": "Intracellular fluid",
+                "zh": "細胞內液"
+              },
+              {
+                "k": "p",
+                "t": "Simple diffusion",
+                "zh": "簡單擴散"
+              },
+              {
+                "k": "p",
+                "t": "Facilitated diffusion via Carrier protein",
+                "zh": "經載體蛋白嘅協助擴散"
+              },
+              {
+                "k": "p",
+                "t": "Facilitated diffusion via Channel protein",
+                "zh": "經通道蛋白嘅協助擴散"
+              },
+              {
+                "k": "p",
+                "t": "High concentration → Low concentration",
+                "zh": "高濃度 → 低濃度"
               }
             ]
           },
