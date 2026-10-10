@@ -164,12 +164,34 @@ h2 { font-size: 1.28rem; }
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
 }
 
-.term {
-  color: var(--accent-2);
-  border-bottom: 1.5px dashed color-mix(in srgb, var(--accent) 55%, transparent);
-  cursor: pointer; font-weight: 700;
+button.term {
+  display: inline;
+  margin: 0;
+  padding: 0 1px;
+  min-height: 0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px dashed color-mix(in srgb, var(--accent) 40%, transparent);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  vertical-align: baseline;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
-.term:hover, .term:focus-visible { background: var(--soft); }
+button.term.known {
+  color: var(--accent-2);
+  font-weight: 700;
+  border-bottom-width: 1.5px;
+  border-bottom-color: color-mix(in srgb, var(--accent) 55%, transparent);
+}
+button.term.word {
+  color: inherit;
+  font-weight: inherit;
+}
+button.term:hover, button.term:focus-visible { background: var(--soft); }
 
 .study-card ul { margin: 8px 0 0; padding-left: 1.15em; }
 .study-card li { margin: 4px 0; }
@@ -330,4 +352,8 @@ h2 { font-size: 1.28rem; }
 .sheet-actions .primary,
 .sheet-actions .ghost {
   flex: 1 1 140px;
+}
+.sheet-actions #sheet-save,
+.sheet-actions #sheet-remove {
+  flex: 1 1 100%;
 }

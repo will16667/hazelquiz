@@ -245,43 +245,99 @@
   }
 
 
-  function linkTerms(text, vocab, gateId) {
-    if (!vocab || !vocab.length) return escapeHtml(text);
-    var terms = vocab
-      .map(function (v) {
-        return v.term;
-      })
-      .filter(Boolean)
-      .sort(function (a, b) {
-        return b.length - a.length;
+  /** Longest-first vocab phrases + every remaining English word → tappable. */
+  function vocabTermList(preferGate) {
+    var seen = {};
+    var out = [];
+    function add(list) {
+      (list || []).forEach(function (v) {
+        if (!v || !v.term) return;
+        var k = String(v.term).toLowerCase();
+        if (seen[k]) return;
+        seen[k] = true;
+        out.push(v.term);
       });
-    if (!terms.length) return escapeHtml(text);
-    var re = new RegExp(
-      "(" +
-        terms
-          .map(function (t) {
-            return t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-          })
-          .join("|") +
-        ")",
-      "g"
-    );
+    }
+    if (preferGate) add(preferGate.vocab);
+    GATES.forEach(function (g) {
+      add(g.vocab);
+    });
+    out.sort(function (a, b) {
+      return b.length - a.length;
+    });
+    return out;
+  }
+
+  function isEnWordChar(c) {
+    return /[A-Za-z0-9']/.test(c);
+  }
+
+  function linkAllEnglish(text, gate, gateId) {
+    var s = String(text || "");
+    if (!s) return "";
+    var terms = vocabTermList(gate);
     var gid = gateId || "";
-    return escapeHtml(text).replace(re, function (m) {
-      return (
-        '<button type="button" class="term" data-gate="' +
+    var known = {};
+    terms.forEach(function (t) {
+      known[t.toLowerCase()] = true;
+    });
+    var out = "";
+    var i = 0;
+    while (i < s.length) {
+      var ch = s.charAt(i);
+      if (!/[A-Za-z]/.test(ch)) {
+        out += escapeHtml(ch);
+        i += 1;
+        continue;
+      }
+      var matched = null;
+      var matchLen = 0;
+      var ti;
+      for (ti = 0; ti < terms.length; ti++) {
+        var term = terms[ti];
+        var len = term.length;
+        if (i + len > s.length) continue;
+        var slice = s.substr(i, len);
+        if (slice.toLowerCase() !== term.toLowerCase()) continue;
+        var after = i + len < s.length ? s.charAt(i + len) : "";
+        if (after && isEnWordChar(after)) continue;
+        matched = slice;
+        matchLen = len;
+        break;
+      }
+      if (matched) {
+        out +=
+          '<button type="button" class="term known" data-gate="' +
+          escapeHtml(gid) +
+          '" data-term="' +
+          escapeHtml(matched) +
+          '">' +
+          escapeHtml(matched) +
+          "</button>";
+        i += matchLen;
+        continue;
+      }
+      var j = i + 1;
+      while (j < s.length && /[A-Za-z0-9'-]/.test(s.charAt(j))) j += 1;
+      var word = s.slice(i, j);
+      var cls = known[word.toLowerCase()] ? "term known" : "term word";
+      out +=
+        '<button type="button" class="' +
+        cls +
+        '" data-gate="' +
         escapeHtml(gid) +
         '" data-term="' +
-        escapeHtml(m) +
+        escapeHtml(word) +
         '">' +
-        m +
-        "</button>"
-      );
-    });
+        escapeHtml(word) +
+        "</button>";
+      i = j;
+    }
+    return out;
   }
 
   function findVocab(term, gate) {
-    var t = term.toLowerCase();
+    var t = String(term || "").toLowerCase();
     var i, g, list;
     if (gate && gate.vocab) {
       for (i = 0; i < gate.vocab.length; i++) {
@@ -294,7 +350,14 @@
         if (list[i].term.toLowerCase() === t) return list[i];
       }
     }
-    return { term: term, zh: "", ipa: "", say: "", gloss: "筆記生字" };
+    var display = String(term || "").trim() || term;
+    return {
+      term: display,
+      zh: "",
+      ipa: "",
+      say: "",
+      gloss: "未有詳細解釋",
+    };
   }
 
   function openSheet(vocab, gateId) {
@@ -370,18 +433,41 @@
     if (!sheetTerm || !sheetTerm.vocab) return;
     speak(sheetTerm.vocab.term, rate);
   }
-  document.getElementById("sheet-speak").addEventListener("click", function () {
-    sheetSpeak(0.9);
-  });
-  var sheetSpeakPrimary = document.getElementById("sheet-speak-primary");
-  if (sheetSpeakPrimary) {
-    sheetSpeakPrimary.addEventListener("click", function () {
-      sheetSpeak(0.9);
+
+  /** One speak control; long-press (~0.55s) for slow rate. */
+  function bindSpeakControl(el) {
+    if (!el) return;
+    var timer = null;
+    var didLong = false;
+    function clearTimer() {
+      if (timer) {
+        clearTimeout(timer);
+        timer = null;
+      }
+    }
+    el.addEventListener("pointerdown", function () {
+      didLong = false;
+      clearTimer();
+      timer = setTimeout(function () {
+        didLong = true;
+        timer = null;
+        sheetSpeak(0.55);
+      }, 550);
+    });
+    el.addEventListener("pointerup", function () {
+      if (timer) {
+        clearTimer();
+        if (!didLong) sheetSpeak(0.9);
+      }
+    });
+    el.addEventListener("pointercancel", clearTimer);
+    el.addEventListener("pointerleave", clearTimer);
+    el.addEventListener("contextmenu", function (e) {
+      e.preventDefault();
     });
   }
-  document.getElementById("sheet-slow").addEventListener("click", function () {
-    sheetSpeak(0.6);
-  });
+  bindSpeakControl(document.getElementById("sheet-speak"));
+  bindSpeakControl(document.getElementById("sheet-speak-primary"));
 
   main.addEventListener("click", function (e) {
     var t = e.target.closest(".term");
@@ -521,7 +607,7 @@
       if (titleEn) {
         html +=
           '<h3 class="bi-en-title">' +
-          linkTerms(titleEn, g.vocab, g.id) +
+          linkAllEnglish(titleEn, g, g.id) +
           "</h3>";
       }
       if (titleZh) {
@@ -529,7 +615,7 @@
       }
       if (!titleEn && !titleZh) {
         html +=
-          "<h3>" + linkTerms(titleFallback, g.vocab, g.id) + "</h3>";
+          "<h3>" + linkAllEnglish(titleFallback, g, g.id) + "</h3>";
       }
       html += "</div>";
       (c.bullets || []).forEach(function (b) {
@@ -539,7 +625,7 @@
         if (en) {
           html +=
             '<p class="bi-en"><span class="lang-pill">EN</span>' +
-            linkTerms(en, g.vocab, g.id) +
+            linkAllEnglish(en, g, g.id) +
             "</p>";
         }
         if (zh) {
@@ -732,11 +818,11 @@
     var keys = Object.keys(state.bank).sort();
     var html =
       '<p class="kicker">生字庫</p><h2>已儲存生字</h2>' +
-      '<p class="lede">點英文詞睇解釋；複習頁會按間隔提醒。</p>';
+      '<p class="lede">筆記入面所有英文都可點：睇解釋、發音、儲生字；複習頁會按間隔提醒。</p>';
     if (!keys.length) {
       html +=
         '<div class="card empty"><p>未有生字。</p>' +
-        '<p class="hint">喺關卡筆記點藍色英文詞，再加進生字卡。</p>' +
+        '<p class="hint">喺關卡筆記點任何英文詞／片語，再加進生字卡。</p>' +
         '<a class="primary" href="#/">去關卡</a></div>';
     } else {
       html += '<p class="hint">共 ' + keys.length + " 個</p>";
@@ -844,7 +930,6 @@
         '</p><p class="phon" id="rev-ipa" hidden></p>' +
         '<div class="gate-actions">' +
         '<button type="button" class="ghost" id="rev-reveal">顯示答案</button>' +
-        '<button type="button" class="ghost" id="rev-slow">慢速發音</button>' +
         '<button type="button" class="primary" id="rev-know" hidden>記住了</button>' +
         '<button type="button" class="ghost" id="rev-forget" hidden>唔記得</button>' +
         "</div></div>";
@@ -855,9 +940,6 @@
       }
       document.getElementById("rev-speak").addEventListener("click", function () {
         speak(v.term, 0.9);
-      });
-      document.getElementById("rev-slow").addEventListener("click", function () {
-        speak(v.term, 0.6);
       });
       document.getElementById("rev-reveal").addEventListener("click", function () {
         document.getElementById("rev-zh").hidden = false;
