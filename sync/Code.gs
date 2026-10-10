@@ -1,13 +1,8 @@
 /**
  * HazelQuiz — shared cloud bank on Will's Drive
- * One JSON file for Hazel (+ anyone with the Web App URL). No Google login for friends.
- *
- * Deploy once (Will's Google that owns the HazelQuiz Drive folder):
- *   script.new → paste this → Deploy → Web app → Execute as Me → Anyone
- * Copy the /exec URL into config.js as HAZEL_SYNC_URL (or #/sync once).
- *
- * File written: hazelquiz-shared-bank.json in FOLDER_ID
- * Client POSTs text/plain JSON: { action: "pull"|"push"|"ping", bank?: "hazel", data? }
+ * Friends: no Google login. File: hazelquiz-shared-bank.json in FOLDER_ID
+ * POST text/plain JSON: { action, bankId?, data? }
+ * data shape: { vocab, cleared, progress, readPos, updatedAt, v }
  */
 var FOLDER_ID = '11NyWbJ-unM4wU1HNoFp_Mj4HMWHBqG1F';
 var BANK_FILE = 'hazelquiz-shared-bank.json';
@@ -17,10 +12,10 @@ function doGet(e) {
   return json_({
     ok: true,
     app: 'HazelQuiz',
-    version: 2,
+    version: 3,
     mode: 'shared-bank',
     file: BANK_FILE,
-    hint: 'POST text/plain JSON {action:"pull"|"push"|"ping", bank:"hazel", data?}',
+    hint: 'POST text/plain JSON {action:"pull"|"push"|"ping", bankId:"hazel", data?}',
   });
 }
 
@@ -31,10 +26,10 @@ function doPost(e) {
       body = JSON.parse(e.postData.contents);
     }
     var action = String(body.action || '').toLowerCase();
-    var bank = normalizeBank_(body.bank || body.user || DEFAULT_BANK);
+    var bankId = normalizeBank_(body.bankId || body.bank || body.user || DEFAULT_BANK);
 
     if (action === 'ping') {
-      return json_({ ok: true, bank: bank, file: BANK_FILE });
+      return json_({ ok: true, bankId: bankId, file: BANK_FILE });
     }
     if (action === 'pull') {
       var raw = readBank_();
@@ -46,9 +41,32 @@ function doPost(e) {
           return json_({ ok: false, error: 'corrupt_bank' });
         }
       }
+      // Normalize legacy shape where bank was overwritten with string
+      if (data && typeof data.bank === 'string') {
+        data = {
+          vocab: data.vocab || {},
+          cleared: data.cleared || {},
+          progress: data.progress || {},
+          readPos: data.readPos || {},
+          updatedAt: data.updatedAt || null,
+          v: data.v || 1,
+          bankId: data.bank,
+        };
+      } else if (data && data.bank && typeof data.bank === 'object' && !data.vocab) {
+        // Legacy client: bank map was vocab
+        data = {
+          vocab: data.bank,
+          cleared: data.cleared || {},
+          progress: data.progress || {},
+          readPos: data.readPos || {},
+          updatedAt: data.updatedAt || null,
+          v: data.v || 1,
+          bankId: bankId,
+        };
+      }
       return json_({
         ok: true,
-        bank: bank,
+        bankId: bankId,
         data: data,
         updatedAt: data && data.updatedAt ? data.updatedAt : null,
       });
@@ -57,12 +75,23 @@ function doPost(e) {
       if (!body.data || typeof body.data !== 'object') {
         return json_({ ok: false, error: 'missing_data' });
       }
-      var payload = body.data;
-      payload.updatedAt = Date.now();
-      payload.bank = bank;
-      payload.v = payload.v || 1;
+      var incoming = body.data;
+      var vocab = incoming.vocab;
+      if (!vocab && incoming.bank && typeof incoming.bank === 'object') {
+        vocab = incoming.bank;
+      }
+      if (!vocab || typeof vocab !== 'object') vocab = {};
+      var payload = {
+        vocab: vocab,
+        cleared: incoming.cleared || {},
+        progress: incoming.progress || {},
+        readPos: incoming.readPos || {},
+        updatedAt: Date.now(),
+        v: incoming.v || 1,
+        bankId: bankId,
+      };
       writeBank_(JSON.stringify(payload));
-      return json_({ ok: true, bank: bank, updatedAt: payload.updatedAt, file: BANK_FILE });
+      return json_({ ok: true, bankId: bankId, updatedAt: payload.updatedAt, file: BANK_FILE });
     }
     return json_({ ok: false, error: 'unknown_action' });
   } catch (err) {

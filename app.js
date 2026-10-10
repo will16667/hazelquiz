@@ -226,9 +226,13 @@
   function mergeState(local, remote) {
     var ls = local && typeof local === "object" ? local : emptyState();
     var rs = remote && typeof remote === "object" ? remote : emptyState();
+    var remoteVocab = rs.vocab;
+    if (!remoteVocab || typeof remoteVocab !== "object") {
+      remoteVocab = rs.bank && typeof rs.bank === "object" ? rs.bank : {};
+    }
     return {
       cleared: mergeCleared(ls.cleared, rs.cleared),
-      bank: mergeMaps(ls.bank, rs.bank, pickNewerItem),
+      bank: mergeMaps(ls.bank, remoteVocab, pickNewerItem),
       progress: mergeMaps(ls.progress, rs.progress, pickNewerItem),
       readPos: mergeReadPos(ls.readPos, rs.readPos),
       updatedAt: Math.max(ls.updatedAt || 0, rs.updatedAt || 0, Date.now()),
@@ -242,6 +246,7 @@
     }
     var payload = {
       action: action,
+      bankId: cfg.bank || DEFAULT_BANK,
       bank: cfg.bank || DEFAULT_BANK,
     };
     if (data) payload.data = data;
@@ -295,6 +300,7 @@
   function statePayload() {
     return {
       cleared: state.cleared,
+      vocab: state.bank,
       bank: state.bank,
       progress: state.progress,
       readPos: state.readPos || {},
