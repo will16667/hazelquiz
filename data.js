@@ -11186,8 +11186,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Enzyme Nowat energy aetation ‘energy ‘enzyme lowered by Uceatonlnectenntros epuecsteclaanstaiaitiiey",
-                "zh": "由Uceatonlnectenntrosepuecsteclaanstaiaitiiey降低的酶Nowat能量aetation“能量”酶"
+                "t": "Total energy; Reactant; Product; Enzyme; Normal activation energy; Activation energy lowered by enzyme.",
+                "zh": "總能量；反應物；產物；酶；正常活化能；酶降低咗嘅活化能。"
+              },
+              {
+                "k": "p",
+                "t": "An enzyme lowers the activation energy of a reaction compared with the uncatalyzed pathway, while reactant and product energy levels stay the same.",
+                "zh": "同無催化途徑相比，酶降低反應活化能，而反應物同產物能量水平不變。"
               }
             ]
           }
@@ -11231,8 +11236,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Product Active site Enzyme-Substrate complex Enzyme lock and key model",
-                "zh": "產品活性部位酵素-底物複合物酵素鎖和鑰匙模型"
+                "t": "Enzyme lock and key model; Substrates; Enzyme; Active site; Enzyme-Substrate complex; Product.",
+                "zh": "酶鎖鑰模型；底物；酶；活性部位；酶－底物複合物；產物。"
               }
             ]
           }
@@ -11306,8 +11311,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Enzyme concentration Substrate concentration steady increase if substrate avaiable All enzyme lesubstrate is limited ‘are used Increase substrate concentration Increase enzyme concentration = increase rate of reaction = increase rate of reaction Enzyme concentration Substrate concentration “Until substrates amount are limited** **Until active site of enzyme are used**.",
-                "zh": "酶濃度底物濃度穩定增加（如果底物可用）所有酶底物都受到限制‘使用增加底物濃度增加酶濃度=增加反應速率=增加反應速率酶濃度底物濃度「直到底物量受到限制****直到使用酶的活性部位**"
+                "t": "Temperature; pH; Enzyme concentration; Substrate concentration; optimum temp.; optimum pH.",
+                "zh": "溫度；pH；酶濃度；底物濃度；最適溫度；最適 pH。"
+              },
+              {
+                "k": "p",
+                "t": "Temperature: big influence; more heat means more kinetic energy, but if too high the enzyme is denatured. pH: enzymes have an optimum pH; if higher or lower, H+ in acid or OH− in alkaline can interfere with enzyme structure. Enzyme concentration: increase enzyme concentration increases rate of reaction until substrates are limited. Substrate concentration: increase substrate concentration increases rate of reaction until active sites of enzyme are used.",
+                "zh": "溫度：影響好大；熱多啲動能高，但太高會令酶變性。pH：酶有最適 pH；過高或過低時，酸嘅 H+ 或鹼嘅 OH− 會干擾酶結構。酶濃度：提高酶濃度會加快反應，直至底物不足。底物濃度：提高底物濃度會加快反應，直至酶活性部位用盡。"
               }
             ]
           }
@@ -11449,8 +11459,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Alkaline phosphatase (bone) Removal of phosphate group Trypsin (pancreatic juice) Digestion of protein Monoamine oxidase Removal of amine {nerve endings) group from norepinephrine",
-                "zh": "鹼性磷酸酶（骨骼）去除磷酸基團胰蛋白酶（胰液）消化蛋白質單胺氧化酶從去甲腎上腺素去除胺{神經末梢)基團"
+                "t": "Table 4.3 | pH Optima of Selected Enzymes. Enzyme; Reaction Catalyzed; pH Optimum. Pepsin (stomach) — Digestion of protein — 2.0. Acid phosphatase (prostate) — Removal of phosphate group — 5.5. Salivary amylase (saliva) — Digestion of starch — 6.8. Lipase (pancreatic juice) — Digestion of fat — 7.0. Alkaline phosphatase (bone) — Removal of phosphate group — 9.0. Trypsin (pancreatic juice) — Digestion of protein — 9.5. Monoamine oxidase (nerve endings) — Removal of amine group from norepinephrine — 9.8.",
+                "zh": "表 4.3｜選定酶嘅最適 pH。酶；催化反應；最適 pH。胃蛋白酶（胃）— 消化蛋白質 — 2.0。酸性磷酸酶（前列腺）— 去除磷酸基 — 5.5。唾液澱粉酶（唾液）— 消化澱粉 — 6.8。脂肪酶（胰液）— 消化脂肪 — 7.0。鹼性磷酸酶（骨）— 去除磷酸基 — 9.0。胰蛋白酶（胰液）— 消化蛋白質 — 9.5。單胺氧化酶（神經末梢）— 由去甲腎上腺素去除胺基 — 9.8。"
               }
             ]
           },
@@ -11461,9 +11471,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Pepsin Salivary Trypsin amylase",
-                "zh": "胃蛋白酶唾液胰蛋白酶澱粉酶"
+                "k": "p",
+                "t": "Enzyme activity; pH; Pepsin; Salivary amylase; Trypsin.",
+                "zh": "酶活性；pH；胃蛋白酶；唾液澱粉酶；胰蛋白酶。"
               }
             ]
           }
@@ -11517,8 +11527,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Pancreas Membrane-bound Inactive form nteropeptidase Trypsinogen ———-~> Tr Procarboxypeptidase ase Chymotrypsinogen Chymotry psin Lumen of duodenum",
-                "zh": "胰腺膜結合失活形式黃嘌呤肽酶胰蛋白酶原———-~>Tr前羧肽酶ase胰凝乳酶原糜蛋白酶糜蛋白酶psin十二指腸管腔"
+                "t": "Pancreas; Lumen of duodenum; Inactive form; Membrane-bound enteropeptidase; Trypsinogen; Trypsin; Procarboxypeptidase; Carboxypeptidase; Chymotrypsinogen; Chymotrypsin.",
+                "zh": "胰臟；十二指腸腔；無活性形式；膜結合腸肽酶；胰蛋白酶原；胰蛋白酶；羧肽酶原；羧肽酶；糜蛋白酶原；糜蛋白酶。"
               }
             ]
           },
@@ -11568,9 +11578,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Saturation Maximum rate cor",
-                "zh": "飽和度最大速率cor"
+                "k": "p",
+                "t": "Reaction rate; Substrate concentration; Maximum rate; Saturation.",
+                "zh": "反應速率；底物濃度；最大速率；飽和。"
               }
             ]
           }
@@ -11614,8 +11624,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Substrates fa) Cofactor Ge» Figure 4.5 The roles of cofactors in enzyme function. In",
-                "zh": "底物fa)輔因子Ge»圖4.5輔因子在酶功能中的作用。在"
+                "t": "Figure 4.5 The roles of cofactors in enzyme function; Substrates; Enzyme; Cofactor.",
+                "zh": "圖 4.5 輔因子喺酶功能中嘅角色；底物；酶；輔因子。"
+              },
+              {
+                "k": "p",
+                "t": "In (a) the cofactor changes the conformation of the active site, allowing for a better fit between the enzyme and its substrates. In (b) the cofactor participates in the temporary bonding between the active site and the substrates.",
+                "zh": "（a）輔因子改變活性部位構象，令酶同底物更吻合。（b）輔因子參與活性部位同底物之間嘅暫時結合。"
               }
             ]
           }
@@ -11669,8 +11684,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "sae OP Coenzyme Cofactor (protein portion), (nonprotein portion), (whole enzyme),",
-                "zh": "oP輔酶輔因子（蛋白質部分）、（非蛋白質部分）、（全酵素）、"
+                "t": "Apoenzyme (protein portion), inactive; Coenzyme; Cofactor (nonprotein portion), activator; Holoenzyme (whole enzyme), active; Substrate.",
+                "zh": "脫輔基酶（蛋白質部分），無活性；輔酶；輔因子（非蛋白質部分），激活劑；全酶（完整酶），有活性；底物。"
               }
             ]
           }
@@ -11908,17 +11923,17 @@ window.HAZEL_LECTURES = [
               {
                 "k": "p",
                 "t": "The three basic components of a feedback system are the receptor, control center, and effector.",
-                "zh": "反饋系統的三個基本組成部分是受體、控制中心和效應器。"
+                "zh": "回饋系統三個基本組件係受體、控制中心同效應器。"
               },
               {
                 "k": "p",
-                "t": "‘STIMULUS disrupts homeostasis by increasing or decreasing a ‘CONTROLLED CONDITION itored by RECEPTORS Input that send nerve impulses or chemical signals to a cen eter CONTROL CENTER, the response brings the controlled",
-                "zh": "“刺激通過增加或減少受體控制的條件來破壞體內穩定輸入將神經脈衝或化學信號發送到中心控制中心，反應將帶來受控的"
+                "t": "STIMULUS; CONTROLLED CONDITION; RECEPTORS; Input; CONTROL CENTER; Output; EFFECTORS; RESPONSE that alters the controlled condition.",
+                "zh": "刺激；受控條件；受體；輸入；控制中心；輸出；效應器；改變受控條件嘅反應。"
               },
               {
                 "k": "p",
-                "t": "‘condition back to that receives the input normal Output and provides nerve impulses or chemical signals to EFFECTORS that bring about a change or RESPONSE that alters the controlled condition.",
-                "zh": "‘條件回到接收輸入正常輸出，並向執行器提供神經脈衝或化學信號，從而導致變化或反應，從而改變受控條件"
+                "t": "A stimulus disrupts homeostasis by increasing or decreasing a controlled condition that is monitored by receptors that send nerve impulses or chemical signals to a control center that receives the input and provides nerve impulses or chemical signals to effectors that bring about a change or response that alters the controlled condition. Return to homeostasis when the response brings the controlled condition back to normal.",
+                "zh": "刺激令穩態失衡，令受控條件升或降；受體監察後以神經衝動或化學訊號輸入控制中心；控制中心再輸出訊號至效應器，引起改變或反應以調受控條件。當反應令受控條件回復正常，就返回穩態。"
               }
             ]
           },
@@ -11930,8 +11945,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "[Ree Set point } Normal (average| Ace OJ ‘ange",
-                "zh": "[ReeSetpoint}正常（平均|AceOJ‘ange"
+                "t": "Set point (average); Normal range; − (negative feedback).",
+                "zh": "設定點（平均）；正常範圍；−（負回饋）。"
               }
             ]
           }
@@ -12020,8 +12035,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Body cells take up glucose, Beta cells in pancreas Liver takes up release insulin into the blood glucose and stores it as VER, glycogen STIMULUS: blood glucose level rises. Homeostasis (glucose levels 90mg/100mL) Set Point STIMULUS: blood glucose level falls. Blood glucose level rises. Liver breaks Aipha cells in pancreas down glycogen release glucagon and releases glucose.",
-                "zh": "身體細胞吸收葡萄糖，胰腺中的β細胞肝臟吸收釋放的胰島素進入血液。葡萄糖並將其儲存為VER，糖原刺激：血糖水平升高。體內平衡（葡萄糖水平90毫克/100毫升）設定點刺激：血糖水平下降。血糖水平升高。肝臟破壞胰腺中的Aipha細胞，下調糖原釋放胰高血糖素並釋放葡萄糖"
+                "t": "Homeostasis (glucose levels 90mg/100mL); Set Point; PANCREAS; LIVER; Insulin; Glucagon.",
+                "zh": "穩態（血糖 90mg/100mL）；設定點；胰臟；肝；胰島素；胰高血糖素。"
+              },
+              {
+                "k": "p",
+                "t": "STIMULUS: blood glucose level rises. Beta cells in pancreas release insulin into the blood. Body cells take up glucose. Liver takes up glucose and stores it as glycogen. Blood glucose level declines. STIMULUS: blood glucose level falls. Alpha cells in pancreas release glucagon. Liver breaks down glycogen and releases glucose. Blood glucose level rises.",
+                "zh": "刺激：血糖上升。胰臟 β 細胞釋放胰島素入血。身體細胞攝取葡萄糖。肝攝取葡萄糖並儲存為糖原。血糖下降。刺激：血糖下降。胰臟 α 細胞釋放胰高血糖素。肝分解糖原並釋放葡萄糖。血糖上升。"
               }
             ]
           }
