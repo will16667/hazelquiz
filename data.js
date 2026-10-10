@@ -5249,6 +5249,7 @@ window.HAZEL_GATES = [
     ]
   }
 ];
+
 window.HAZEL_META = {
   "appName": "HazelQuiz",
   "storageKey": "hazelquiz-v1",
@@ -12752,8 +12753,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "fe) olecules, ions Low concentratio utside cell Tr) «Cell membrane Inside cell Gop) +) eee of molecules, ions High concentratio",
-                "zh": "fe)olecules,ions低濃度在細胞外Tr)«細胞膜細胞內Gop)+)eeeofmolecules,ions高濃度"
+                "t": "Outside cell; Inside cell; Cell membrane; Low concentration of molecules, ions; High concentration of molecules, ions; ATP; ADP; Pi.",
+                "zh": "細胞外；細胞內；細胞膜；分子／離子低濃度；分子／離子高濃度；ATP；ADP；Pi。"
+              },
+              {
+                "k": "p",
+                "t": "Active transport moves molecules against their concentration gradient using energy from ATP hydrolysis.",
+                "zh": "主動運輸利用 ATP 水解嘅能量，逆濃度梯度運送分子。"
               }
             ]
           },
@@ -12765,8 +12771,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Transported molecule Carrier protein Channel protein i\\J Lipid bilayer rAYAY Energy Simple diffusion Facilitated diffusion Passive transport Active transport",
-                "zh": "運輸分子載體蛋白通道蛋白i\\J脂質雙層rAYAY能量簡單擴散促進擴散被動運輸主動運輸"
+                "t": "Lipid bilayer; Channel protein; Carrier protein; Transported molecule; Energy; Simple diffusion; Facilitated diffusion; Passive transport; Active transport.",
+                "zh": "脂質雙層；通道蛋白；載體蛋白；被運送分子；能量；簡單擴散；協助擴散；被動運輸；主動運輸。"
               }
             ]
           },
@@ -12778,13 +12784,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Uniport transports Symport transports two Antiport transports two ‘one substance in different substances in different substances in ‘one direction the same direction opposite directions.",
-                "zh": "UniporttransportsSymport運輸兩種反港運輸兩種「不同物質中的一種物質在不同物質中的一種物質」。相同的方向。相反的方向。"
+                "t": "Outside of cell; Inside of cell; Transported ions.",
+                "zh": "細胞外；細胞內；被運送嘅離子。"
               },
               {
                 "k": "p",
-                "t": "Outside of cell Transported ions Inside of cell",
-                "zh": "在細胞外傳輸離子在細胞內"
+                "t": "Uniport transports one substance in one direction. Symport transports two different substances in the same direction. Antiport transports two different substances in opposite directions.",
+                "zh": "單向轉運（Uniport）運送一種物質、一個方向。同向轉運（Symport）運送兩種不同物質、同一方向。反向轉運（Antiport）運送兩種不同物質、相反方向。"
               }
             ]
           }
@@ -12833,8 +12839,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Plasma membrane Inside cell Outside cell Peet ADP + P, Nat Nat",
-                "zh": "質膜細胞內細胞外細胞PeetADP+P,NatNat"
+                "t": "Plasma membrane; Inside cell; Outside cell; Na+; K+; ATP; ADP + Pi.",
+                "zh": "細胞膜；細胞內；細胞外；Na+；K+；ATP；ADP + Pi。"
+              },
+              {
+                "k": "p",
+                "t": "The sodium-potassium pump uses ATP to move Na+ out of the cell and K+ into the cell.",
+                "zh": "鈉鉀泵利用 ATP 將 Na+ 泵出細胞、將 K+ 泵入細胞。"
               }
             ]
           },
@@ -14813,8 +14824,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Il artery eee Capillary blood Oxygi ts, et tissues delivered [ir TAA \\d metab Sal] issues Venule, small vein",
-                "zh": "Il動脈eee毛細血管血Oxygits，等組織輸送[irTAA\\dmetabSal]問題靜脈，小靜脈"
+                "t": "Arteriole, small artery; Capillary network, site of exchange between blood and other tissue; Venule, small vein; Oxygen, nutrients, etc. delivered to tissues; Carbon dioxide and metabolic waste products removed from tissues.",
+                "zh": "小動脈；微血管網（血液同組織交換位置）；小靜脈；氧同營養等送去組織；二氧化碳同代謝廢物由組織帶走。"
               }
             ]
           }
@@ -14873,13 +14884,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "leat Kept In and retained eal loss Dy convection by the body and radiation pillary loop j .",
-                "zh": "leat保持在和保留eal損失Dy對流由身體和輻射柱狀迴路j."
+                "t": "Vasoconstriction; Vasodilation; Capillary loop; Artery; Vein.",
+                "zh": "血管收縮；血管舒張；微血管袢；動脈；靜脈。"
               },
               {
-                "k": "h",
-                "t": "Vein Artery: Vasoconstriction Vasodilation",
-                "zh": "靜脈動脈：血管收縮血管舒張"
+                "k": "p",
+                "t": "Vasoconstriction: heat kept in and retained by the body. Vasodilation: heat loss by convection and radiation.",
+                "zh": "血管收縮：身體保留熱量。血管舒張：熱量以對流同輻射散失。"
               }
             ]
           }
@@ -15084,8 +15095,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Anti-coagulant CICS Serum Plasma Buffy coat ~ (white blood cells and platelets) Blood clot wo \\ J Red blood cells",
-                "zh": "抗凝血CICS血清血漿Buffy外套~（白血球和血小板）血凝塊wo\\J紅血球"
+                "t": "Anti-coagulant; − : Serum; Blood clot; + : Plasma; Buffy coat (white blood cells and platelets); Red blood cells.",
+                "zh": "抗凝血劑；−：血清；血塊；+：血漿；血沉棕黃層（白血球同血小板）；紅血球。"
               }
             ]
           }
@@ -15242,13 +15253,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "tim eC.",
-                "zh": ""
-              },
-              {
-                "k": "p",
-                "t": "Fe® eM joo, S22 2.",
-                "zh": "Fe®eMjoo,S222."
+                "t": "Top: an injured vessel leaks red blood cells. Bottom: a fibrin mesh traps cells to form a clot that seals the break.",
+                "zh": "上圖：受損血管滲出紅血球。下圖：纖維蛋白網困住細胞形成血塊，封閉傷口。"
               }
             ]
           }
@@ -15481,8 +15487,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Visceral pericardium Pericardial cavity Parietal pericardium Air space Balloon",
-                "zh": "內臟心包膜心包腔壁心包空氣空間氣球"
+                "t": "Visceral pericardium; Pericardial cavity; Parietal pericardium; Air space; Balloon.",
+                "zh": "臟層心包；心包腔；壁層心包；空氣間隙；氣球。"
+              },
+              {
+                "k": "p",
+                "t": "The fist-in-a-balloon analogy shows the heart inside a continuous pericardial sac, with the cavity as the space between visceral and parietal layers.",
+                "zh": "拳頭插入氣球嘅比喻說明心臟包喺連續心包囊入面，心包腔就係臟層同壁層之間嘅空隙。"
               }
             ]
           }
@@ -15612,13 +15623,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "atrium Left atfurn ventricle Right.",
-                "zh": "心房左心房右心室。"
-              },
-              {
-                "k": "h",
-                "t": "Septur",
-                "zh": "（見英文）"
+                "t": "Right atrium; Right ventricle; Left atrium; Left ventricle; Interatrial Septum; Interventricular Septum.",
+                "zh": "右心房；右心室；左心房；左心室；房間隔；室間隔。"
               }
             ]
           }
@@ -15854,8 +15860,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "aorta right left atrium atrium pulmonary valve mitral valve tricuspid valve aortic valve right ventricle left ventricle",
-                "zh": "主動脈右心房左心房肺動脈二尖瓣三尖瓣主動脈瓣右心室左心室"
+                "t": "superior vena cava; inferior vena cava; pulmonary artery; aorta; right atrium; left atrium; pulmonary valve; tricuspid valve; mitral valve; aortic valve; right ventricle; left ventricle.",
+                "zh": "上腔靜脈；下腔靜脈；肺動脈；主動脈；右心房；左心房；肺動脈瓣；三尖瓣；二尖瓣；主動脈瓣；右心室；左心室。"
               }
             ]
           }
@@ -15999,8 +16005,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Pulmonary Artery: Carries deoxygenated Aorta: blood from heart to Carries oxygenated lungs. blood from heart \\ to all body parts. Vena cava: — Carries deoxygenated IN blood from , body to heart. Pulmonary Vein: Nn Carries oxygenated blood from lungs to heart.",
-                "zh": "肺動脈：攜帶缺氧主動脈：從心臟到攜帶含氧肺的血液。從心臟到身體各部位的血液。腔靜脈：—將血液中的缺氧物從身體帶到心臟。肺靜脈：Nn將含氧血液從肺部運送到心臟。"
+                "t": "Pulmonary Artery: Carries deoxygenated blood from heart to lungs. Vena cava: Carries deoxygenated blood from body to heart. Aorta: Carries oxygenated blood from heart to all body parts. Pulmonary Vein: Carries oxygenated blood from lungs to heart.",
+                "zh": "肺動脈：將缺氧血由心臟送去肺。腔靜脈：將缺氧血由身體送返心臟。主動脈：將含氧血由心臟送去全身。肺靜脈：將含氧血由肺送返心臟。"
               }
             ]
           }
