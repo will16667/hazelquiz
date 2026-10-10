@@ -6089,13 +6089,7 @@ window.HAZEL_LECTURES = [
             "w": 250,
             "h": 251,
             "kind": "embed",
-            "blocks": [
-              {
-                "k": "h",
-                "t": "COX)",
-                "zh": "（見英文）"
-              }
-            ]
+            "blocks": []
           }
         ]
       },
@@ -7625,23 +7619,18 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "TP.",
-                "zh": "TP"
+                "t": "Chromosome; Genes; Histones (proteins); Linker DNA; Chromatin; Nucleotides; DNA double helix.",
+                "zh": "染色體；基因；組蛋白（蛋白質）；連接 DNA；染色質；核苷酸；DNA 雙螺旋。"
               },
               {
                 "k": "p",
-                "t": "mn, yy) Ley rsa) pi!",
-                "zh": ""
+                "t": "Components of DNA: Guanine; Cytosine; Adenine; Thymine; Deoxyribose sugar; Phosphate group.",
+                "zh": "DNA 組成：鳥嘌呤；胞嘧啶；腺嘌呤；胸腺嘧啶；脫氧核糖；磷酸基。"
               },
               {
                 "k": "p",
-                "t": "Genes: mil Nye PZ, By Qeue)) ne) oat Cuan Chromosome Reh UNG, aay so) Histones Ny} (proteins), Nee Linker DNA MC) Chromatin Nucleotides Components of DNA DNA double helix + Guanine + Cytosine + Adenine + Thymine",
-                "zh": "基因：milNyePZ,ByQeue))ne)oatCuanChromosomeRehUNG,aayso)HistonesNy}（蛋白質），NeeLinkerDNAMC)染色質核苷酸DNA的組分雙螺旋+鳥嘌呤+胞嘧啶+腺嘌呤+胸腺嘧啶"
-              },
-              {
-                "k": "p",
-                "t": "+ Deoxyribose sugar + Phosphate group ‘Adapted from Tortora and Grabowski, Principals of Anatomy and Physiology, 10th ed. 2003.",
-                "zh": "+Deoxyribosesugar+Phosphategroup‘改編自TortoraandGrabowski,PrincipalsofAnatomyandPhysiology,10thed.2003."
+                "t": "Adapted from Tortora and Grabowski, Principals of Anatomy and Physiology, 10th ed. 2003.",
+                "zh": "改編自 Tortora and Grabowski,《解剖生理學原理》第 10 版，2003。（原文書名拼作 Principals）"
               }
             ]
           }
@@ -16595,8 +16584,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Semilunar valves close Semilunar valves open Aortic pressure Ventricular pressure AV valves AV valves open close Atrial pressure ist 2nd 3rd Heart sounds “Lub” “Dub”",
-                "zh": "半月瓣關閉半月瓣開啟主動脈壓室壓房瓣開啟房瓣關閉心房壓是第二個第三個心音“Lub”“Dub”"
+                "t": "Pressure (mm Hg); Aortic pressure; Ventricular pressure; Atrial pressure; AV valves close; Semilunar valves open; Semilunar valves close; AV valves open; Heart sounds; 1st “Lub”; 2nd “Dub”; 3rd.",
+                "zh": "壓力（mm Hg）；主動脈壓；心室壓；心房壓；房室瓣關閉；半月瓣開啟；半月瓣關閉；房室瓣開啟；心音；第一心音「Lub」；第二心音「Dub」；第三心音。"
               }
             ]
           }
@@ -16650,8 +16639,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Right arm Left.arm ame re, / Left leg wae",
-                "zh": "右臂Left.armamere,/左腿wae"
+                "t": "Right arm; Left arm; Left leg; RA; LA; LL; Lead I; Lead II; Lead III; Precordial leads 1–6.",
+                "zh": "右手臂；左手臂；左腳；RA；LA；LL；導程 I；導程 II；導程 III；胸前導程 1–6。"
               }
             ]
           }
@@ -16807,8 +16796,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Vein Artery Capillaries Arteriole Venule To Cell From Cell arbor",
-                "zh": "靜脈動脈毛細血管小動脈到細胞從細胞心軸"
+                "t": "Blood Vessels; Arteries Capillaries Veins; Artery; Arteriole; Capillaries; Venule; Vein; To Cell: Oxygen, Nutrients; From Cell: Waste, Carbon dioxide.",
+                "zh": "血管；動脈／微血管／靜脈；動脈；小動脈；微血管；小靜脈；靜脈；至細胞：氧、營養素；由細胞：廢物、二氧化碳。"
               }
             ]
           }
@@ -16946,8 +16935,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Capillaries Tissi Venul —o ~S p Aa oe, Artery rey, Veit Capillaries",
-                "zh": "毛細血管TissiVenul—o~SpAaoe、Arteryrey、Veit毛細血管"
+                "t": "Capillaries; Tissue cells; Arteriole; Artery; Capillaries; Venule; Vein.",
+                "zh": "微血管；組織細胞；小動脈；動脈；微血管；小靜脈；靜脈。"
               }
             ]
           },
@@ -17003,8 +16992,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "thin layer of fibrous tissue thinner muscular wall; less elastic large lumen to reduce resistance of blood flow",
-                "zh": "薄層的纖維組織使肌肉壁變薄；較少彈性的大管腔，以減少血流阻力"
+                "t": "thin layer of fibrous tissue; thinner muscular wall; less elastic; large lumen to reduce resistance of blood flow.",
+                "zh": "薄層纖維組織；較薄肌層；彈性較少；大管腔以減少血流阻力。"
               }
             ]
           }
@@ -17060,8 +17049,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "a a ‘orced oe valve wards art by blood by mu ) Valves Bod: e closed particul prevent the limk wclkeflaias Af and pre",
-                "zh": "a‘orcedoevalvewardsartbybloodbymu)ValvesBod:eclosedparticulpreventthelimkwclkeflaiasAfandpre"
+                "t": "Blood is forced upwards to the heart. Valves are closed to prevent backflow of blood.",
+                "zh": "血液被向上擠向心臟。瓣膜關閉，防止血液倒流。"
+              },
+              {
+                "k": "p",
+                "t": "1 Body muscles, particularly in the limbs, contract and press on the vein. 2 Vein compressed by muscles. 3 Valves opened by blood.",
+                "zh": "1 身體肌肉（尤其肢體）收縮並壓向靜脈。2 靜脈被肌肉壓迫。3 血液沖開瓣膜。"
               }
             ]
           }
@@ -17261,8 +17255,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Frank-Starling law Increased contractility caused by sympathetic nerve stimulation Ventricular end-diastolic volume (ml)",
-                "zh": "Frank-Starling定律交感神經刺激引起的收縮性增加心室舒張末期容積（ml）"
+                "t": "Frank-Starling law; Stroke volume (ml); Ventricular end-diastolic volume (ml).",
+                "zh": "Frank–Starling 定律；每搏輸出量（ml）；心室舒張末期容積（ml）。"
+              },
+              {
+                "k": "p",
+                "t": "Increased contractility caused by sympathetic nerve stimulation.",
+                "zh": "交感神經刺激令心肌收縮力增加。"
               }
             ]
           }
@@ -17341,8 +17340,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Adrenaline & Activity of Activity of nerves to heart sympathetic parasympathetic nerves to heart e.g. stress and e.g. rest and sleep excitement SA node tHeart rate",
-                "zh": "腎上腺素和心臟神經活動的活動心臟交感神經副交感神經例如壓力，例如休息和睡眠興奮SA節點心率"
+                "t": "↑ Plasma epinephrine (Adrenaline); From adrenal gland; ↑ Activity of sympathetic nerves to heart; From brain; e.g. stress and excitement; ↓ Activity of parasympathetic nerves to heart; From brain; e.g. rest and sleep; SA node; ↑ Heart rate.",
+                "zh": "血漿腎上腺素↑（Adrenaline）；來自腎上腺；交感神經至心活性↑；來自腦；例如壓力同興奮；副交感神經至心活性↓；來自腦；例如休息同睡眠；竇房結；心率↑。"
               }
             ]
           }
@@ -17943,8 +17942,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Drop in blood pressure Drop in fluid volume Wer — — yp.) ; angiotensinogen d A Vasoconstriction (gp Angiotensin Il also acts BP? / directly on blood vessels, stimulating vasoconstriction Renin acts on angiotensinogen to form angiotensin I. (narrowing) fi ACE (angiotensin-converting « x, enzyme) release from lungs i, : >! > Reabsorption 7° Ke y Urine production | lm ACE acts on angiotensin | to for Blood volume 7 BP + ‘Angiotensin Il acts on the adrenal gland to stimulate release of Aldosterone acts on the kidneys [sidostorno] > to stmuat reabsorption o salt (NaCl) and water (HO).",
-                "zh": "血壓下降液體體積下降Wer——yp.)；血管收縮原dA血管收縮（gp血管收縮素Il也作用於血壓？/直接在血管上，刺激血管收縮腎素作用於血管緊張素原以形成血管緊張素I。（變窄）。fiACE（血管緊張素轉換«x，酶）從肺部釋放i,:>！>重吸收7°Key尿產生|lmACE作用於血管緊張素|至血液體積7BP+‘血管緊張素Il作用於腎上腺，刺激釋放醛固酮作用於腎臟[sidostorno]>再吸收鹽（NaCl）和水（HO）。"
+                "t": "Drop in blood pressure / Drop in fluid volume; liver; angiotensinogen; angiotensin I; angiotensin II; aldosterone; NaCl / H₂O; Vasoconstriction / BP ↑; Reabsorption ↑ / Urine production ↓ / Blood volume ↑ / BP ↑.",
+                "zh": "血壓下降／體液量下降；肝；血管張力素原；血管張力素 I；血管張力素 II；醛固酮；NaCl／H₂O；血管收縮／血壓↑；重吸收↑／尿量↓／血容量↑／血壓↑。"
+              },
+              {
+                "k": "p",
+                "t": "Renin release from the kidney acts on angiotensinogen to form angiotensin I. ACE (angiotensin-converting enzyme) released from the lungs acts on angiotensin I to form angiotensin II. Angiotensin II also acts directly on blood vessels, stimulating vasoconstriction (narrowing). Angiotensin II acts on the adrenal gland to stimulate release of aldosterone. Aldosterone acts on the kidneys to stimulate reabsorption of salt (NaCl) and water (H₂O).",
+                "zh": "腎臟釋放腎素，作用於血管張力素原變成血管張力素 I。肺釋出 ACE（血管張力素轉換酶），把血管張力素 I 轉成血管張力素 II。血管張力素 II 亦可直接作用於血管，引起血管收縮（管徑變窄）。血管張力素 II 作用於腎上腺，刺激醛固酮釋放。醛固酮再作用於腎，促進鹽（NaCl）同水（H₂O）重吸收。"
               }
             ]
           }
@@ -17979,13 +17983,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "ER sae ke 4 Not all of us = ie Vea \\ | \\ y= aS can do great things. But N : rm SG we can do small things ee S with great love?",
-                "zh": "ERsaeke4並非所有人都=即Vea\\|\\y=aS可以做出色的事情。但是N：rmSG我們可以用極大的愛做小事嗎？"
+                "t": "Not all of us can do great things. But we can do small things with great love.",
+                "zh": "唔係人人都可以做大事，但我們可以用大愛去做小事。"
               },
               {
                 "k": "p",
-                "t": "> Fe 4 Mother Teresa",
-                "zh": ">Fe4特蕾莎修女"
+                "t": "Mother Teresa",
+                "zh": "德蘭修女（Mother Teresa）"
               }
             ]
           }
