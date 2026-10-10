@@ -12939,17 +12939,47 @@ window.HAZEL_LECTURES = [
             "h": 531,
             "kind": "embed",
             "blocks": [
-              {
-                "k": "p",
-                "t": "Temperature; pH; Enzyme concentration; Substrate concentration; optimum temp.; optimum pH.",
-                "zh": "溫度；pH；酶濃度；底物濃度；最適溫度；最適 pH。"
-              },
-              {
-                "k": "p",
-                "t": "Temperature: big influence; more heat means more kinetic energy, but if too high the enzyme is denatured. pH: enzymes have an optimum pH; if higher or lower, H+ in acid or OH− in alkaline can interfere with enzyme structure. Enzyme concentration: increase enzyme concentration increases rate of reaction until substrates are limited. Substrate concentration: increase substrate concentration increases rate of reaction until active sites of enzyme are used.",
-                "zh": "溫度：影響好大；熱多啲動能高，但太高會令酶變性。pH：酶有最適 pH；過高或過低時，酸嘅 H+ 或鹼嘅 OH− 會干擾酶結構。酶濃度：提高酶濃度會加快反應，直至底物不足。底物濃度：提高底物濃度會加快反應，直至酶活性部位用盡。"
-              }
-            ]
+                {
+                  "k": "h",
+                  "t": "Temperature",
+                  "zh": "溫度"
+                },
+                {
+                  "k": "p",
+                  "t": "BIG influence. More heat = more kinetic energy. But if too high, enzyme is denatured. Graph peaks at optimum temp.",
+                  "zh": "影響好大。熱力愈高動能愈大；但太高會令酶變性。圖喺最適溫度達峰。"
+                },
+                {
+                  "k": "h",
+                  "t": "pH",
+                  "zh": "pH"
+                },
+                {
+                  "k": "p",
+                  "t": "Enzymes have optimum pH. If higher/lower, H+ in acid / OH− in alkaline can interfere with enzyme structure.",
+                  "zh": "酶有最適 pH。偏高或偏低時，酸中 H+／鹼中 OH− 會干擾酶結構。"
+                },
+                {
+                  "k": "h",
+                  "t": "Enzyme concentration",
+                  "zh": "酶濃度"
+                },
+                {
+                  "k": "p",
+                  "t": "Increase enzyme concentration = increase rate of reaction, until substrate amount is limited.",
+                  "zh": "提高酶濃度會提高反應速率，直到底物數量受限。"
+                },
+                {
+                  "k": "h",
+                  "t": "Substrate concentration",
+                  "zh": "底物濃度"
+                },
+                {
+                  "k": "p",
+                  "t": "Increase substrate concentration = increase rate of reaction, until active sites of enzyme are used.",
+                  "zh": "提高底物濃度會提高反應速率，直到酶嘅活性部位用盡。"
+                }
+              ]
           }
         ]
       },
@@ -12979,12 +13009,17 @@ window.HAZEL_LECTURES = [
             "h": 332,
             "kind": "embed",
             "blocks": [
-              {
-                "k": "p",
-                "t": "This figure shows denaturation and renaturation. Denaturation unfolds a molecule from its native three-dimensional form into loose, separated strands; renaturation is the reverse process that restores the folded structure.",
-                "zh": "呢幅圖說明變性同復性。變性令分子由天然三維構形展開成鬆散、分開嘅鏈；復性係逆向過程，令結構回復摺疊狀態。"
-              }
-            ]
+                {
+                  "k": "p",
+                  "t": "Denaturation",
+                  "zh": "變性"
+                },
+                {
+                  "k": "p",
+                  "t": "Renaturation",
+                  "zh": "復性"
+                }
+              ]
           },
           {
             "src": "assets/figures/L2/p017-01.webp",
@@ -13042,12 +13077,27 @@ window.HAZEL_LECTURES = [
             "h": 500,
             "kind": "embed",
             "blocks": [
-              {
-                "k": "p",
-                "t": "BASIC; NEUTRAL; ACIDIC; pH 0–14 (7 = neutral).",
-                "zh": "鹼性；中性；酸性；pH 0–14（7 為中性）。"
-              }
-            ]
+                {
+                  "k": "p",
+                  "t": "BASIC",
+                  "zh": "鹼性"
+                },
+                {
+                  "k": "p",
+                  "t": "NEUTRAL",
+                  "zh": "中性"
+                },
+                {
+                  "k": "p",
+                  "t": "ACIDIC",
+                  "zh": "酸性"
+                },
+                {
+                  "k": "p",
+                  "t": "pH 0–14 (7 = neutral)",
+                  "zh": "pH 0–14（7 = 中性）"
+                }
+              ]
           }
         ]
       },
@@ -13087,12 +13137,47 @@ window.HAZEL_LECTURES = [
             "h": 415,
             "kind": "embed",
             "blocks": [
-              {
-                "k": "p",
-                "t": "Table 4.3 | pH Optima of Selected Enzymes. Enzyme; Reaction Catalyzed; pH Optimum. Pepsin (stomach) — Digestion of protein — 2.0. Acid phosphatase (prostate) — Removal of phosphate group — 5.5. Salivary amylase (saliva) — Digestion of starch — 6.8. Lipase (pancreatic juice) — Digestion of fat — 7.0. Alkaline phosphatase (bone) — Removal of phosphate group — 9.0. Trypsin (pancreatic juice) — Digestion of protein — 9.5. Monoamine oxidase (nerve endings) — Removal of amine group from norepinephrine — 9.8.",
-                "zh": "表 4.3｜選定酶嘅最適 pH。酶；催化反應；最適 pH。胃蛋白酶（胃）— 消化蛋白質 — 2.0。酸性磷酸酶（前列腺）— 去除磷酸基 — 5.5。唾液澱粉酶（唾液）— 消化澱粉 — 6.8。脂肪酶（胰液）— 消化脂肪 — 7.0。鹼性磷酸酶（骨）— 去除磷酸基 — 9.0。胰蛋白酶（胰液）— 消化蛋白質 — 9.5。單胺氧化酶（神經末梢）— 由去甲腎上腺素去除胺基 — 9.8。"
-              }
-            ]
+                {
+                  "k": "h",
+                  "t": "Table 4.3 | pH Optima of Selected Enzymes",
+                  "zh": "表 4.3｜選定酶嘅最適 pH"
+                },
+                {
+                  "k": "p",
+                  "t": "Pepsin (stomach): Digestion of protein — pH 2.0",
+                  "zh": "胃蛋白酶（胃）：消化蛋白質 — pH 2.0"
+                },
+                {
+                  "k": "p",
+                  "t": "Acid phosphatase (prostate): Removal of phosphate group — pH 5.5",
+                  "zh": "酸性磷酸酶（前列腺）：移除磷酸基 — pH 5.5"
+                },
+                {
+                  "k": "p",
+                  "t": "Salivary amylase (saliva): Digestion of starch — pH 6.8",
+                  "zh": "唾液澱粉酶（唾液）：消化澱粉 — pH 6.8"
+                },
+                {
+                  "k": "p",
+                  "t": "Lipase (pancreatic juice): Digestion of fat — pH 7.0",
+                  "zh": "脂肪酶（胰液）：消化脂肪 — pH 7.0"
+                },
+                {
+                  "k": "p",
+                  "t": "Alkaline phosphatase (bone): Removal of phosphate group — pH 9.0",
+                  "zh": "鹼性磷酸酶（骨）：移除磷酸基 — pH 9.0"
+                },
+                {
+                  "k": "p",
+                  "t": "Trypsin (pancreatic juice): Digestion of protein — pH 9.5",
+                  "zh": "胰蛋白酶（胰液）：消化蛋白質 — pH 9.5"
+                },
+                {
+                  "k": "p",
+                  "t": "Monoamine oxidase (nerve endings): Removal of amine group from norepinephrine — pH 9.8",
+                  "zh": "單胺氧化酶（神經末梢）：由去甲腎上腺素移除胺基 — pH 9.8"
+                }
+              ]
           },
           {
             "src": "assets/figures/L2/p019-02.webp",
@@ -13100,12 +13185,32 @@ window.HAZEL_LECTURES = [
             "h": 359,
             "kind": "embed",
             "blocks": [
-              {
-                "k": "p",
-                "t": "Enzyme activity; pH; Pepsin; Salivary amylase; Trypsin.",
-                "zh": "酶活性；pH；胃蛋白酶；唾液澱粉酶；胰蛋白酶。"
-              }
-            ]
+                {
+                  "k": "p",
+                  "t": "Enzyme activity",
+                  "zh": "酶活性"
+                },
+                {
+                  "k": "p",
+                  "t": "pH",
+                  "zh": "pH"
+                },
+                {
+                  "k": "p",
+                  "t": "Pepsin (optimum ~2)",
+                  "zh": "胃蛋白酶（最適約 2）"
+                },
+                {
+                  "k": "p",
+                  "t": "Salivary amylase (optimum ~7)",
+                  "zh": "唾液澱粉酶（最適約 7）"
+                },
+                {
+                  "k": "p",
+                  "t": "Trypsin (optimum ~9)",
+                  "zh": "胰蛋白酶（最適約 9）"
+                }
+              ]
           }
         ]
       },
@@ -13155,19 +13260,50 @@ window.HAZEL_LECTURES = [
             "h": 584,
             "kind": "embed",
             "blocks": [
-              {
-                "k": "p",
-                "t": "Pancreas; Lumen of duodenum; Inactive form; Membrane-bound enteropeptidase; Trypsinogen; Trypsin; Procarboxypeptidase; Carboxypeptidase; Chymotrypsinogen; Chymotrypsin.",
-                "zh": "胰臟；十二指腸腔；無活性形式；膜結合腸肽酶；胰蛋白酶原；胰蛋白酶；羧肽酶原；羧肽酶；糜蛋白酶原；糜蛋白酶。"
-              }
-            ]
+                {
+                  "k": "p",
+                  "t": "Pancreas",
+                  "zh": "胰臟"
+                },
+                {
+                  "k": "p",
+                  "t": "Lumen of duodenum",
+                  "zh": "十二指腸腔"
+                },
+                {
+                  "k": "p",
+                  "t": "Inactive form: Trypsinogen; Procarboxypeptidase; Chymotrypsinogen.",
+                  "zh": "無活性形式：胰蛋白酶原；羧肽酶原；糜蛋白酶原。"
+                },
+                {
+                  "k": "p",
+                  "t": "Membrane-bound enteropeptidase activates Trypsinogen → Trypsin.",
+                  "zh": "膜結合腸肽酶活化胰蛋白酶原 → 胰蛋白酶。"
+                },
+                {
+                  "k": "p",
+                  "t": "Trypsin then activates: more Trypsin; Carboxypeptidase; Chymotrypsin.",
+                  "zh": "胰蛋白酶再活化：更多胰蛋白酶；羧肽酶；糜蛋白酶。"
+                }
+              ]
           },
           {
             "src": "assets/figures/L2/p020-02.webp",
             "w": 600,
             "h": 206,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+                {
+                  "k": "p",
+                  "t": "Active",
+                  "zh": "活性"
+                },
+                {
+                  "k": "p",
+                  "t": "Inactive",
+                  "zh": "無活性"
+                }
+              ]
           }
         ]
       },
@@ -13207,12 +13343,27 @@ window.HAZEL_LECTURES = [
             "h": 282,
             "kind": "embed",
             "blocks": [
-              {
-                "k": "p",
-                "t": "Reaction rate; Substrate concentration; Maximum rate; Saturation.",
-                "zh": "反應速率；底物濃度；最大速率；飽和。"
-              }
-            ]
+                {
+                  "k": "p",
+                  "t": "Reaction rate",
+                  "zh": "反應速率"
+                },
+                {
+                  "k": "p",
+                  "t": "Substrate concentration",
+                  "zh": "底物濃度"
+                },
+                {
+                  "k": "p",
+                  "t": "Maximum rate",
+                  "zh": "最大速率"
+                },
+                {
+                  "k": "p",
+                  "t": "Saturation",
+                  "zh": "飽和"
+                }
+              ]
           }
         ]
       },
@@ -13312,12 +13463,32 @@ window.HAZEL_LECTURES = [
             "h": 285,
             "kind": "embed",
             "blocks": [
-              {
-                "k": "p",
-                "t": "Apoenzyme (protein portion), inactive; Coenzyme; Cofactor (nonprotein portion), activator; Holoenzyme (whole enzyme), active; Substrate.",
-                "zh": "脫輔基酶（蛋白質部分），無活性；輔酶；輔因子（非蛋白質部分），激活劑；全酶（完整酶），有活性；底物。"
-              }
-            ]
+                {
+                  "k": "p",
+                  "t": "Apoenzyme (protein portion), inactive",
+                  "zh": "脫輔基酶（蛋白質部分），無活性"
+                },
+                {
+                  "k": "p",
+                  "t": "Coenzyme",
+                  "zh": "輔酶"
+                },
+                {
+                  "k": "p",
+                  "t": "Cofactor (nonprotein portion), activator",
+                  "zh": "輔因子（非蛋白質部分），活化劑"
+                },
+                {
+                  "k": "p",
+                  "t": "Holoenzyme (whole enzyme), active",
+                  "zh": "全酶（完整酶），有活性"
+                },
+                {
+                  "k": "p",
+                  "t": "Substrate",
+                  "zh": "底物"
+                }
+              ]
           }
         ]
       },
@@ -13403,17 +13574,12 @@ window.HAZEL_LECTURES = [
             "h": 410,
             "kind": "embed",
             "blocks": [
-              {
-                "k": "p",
-                "t": "altered active site",
-                "zh": "改變咗嘅活性部位"
-              },
-              {
-                "k": "p",
-                "t": "A non-competitive inhibitor binds away from the active site and changes the active site’s shape so the substrate cannot bind.",
-                "zh": "非競爭性抑制劑結合喺活性部位以外，改變活性部位形狀，令底物無法結合。"
-              }
-            ]
+                {
+                  "k": "p",
+                  "t": "altered active site",
+                  "zh": "改變咗嘅活性部位"
+                }
+              ]
           }
         ]
       },
