@@ -1,4 +1,4 @@
-# HazelQuiz（溫書關卡）
+# HazelQuiz（溫書課本）
 
 獨立於 Open Readle 的護理 Life Sciences 溫書網。
 

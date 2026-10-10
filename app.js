@@ -1265,7 +1265,7 @@
     var pct = total ? Math.round((done / total) * 100) : 0;
     var html =
       '<p class="kicker">Life Sciences</p>' +
-      "<h2>關卡列表</h2>" +
+      "<h2>課本列表</h2>" +
       '<p class="lede">每課流程：<strong>讀全文</strong> → <strong>溫重點</strong>。點英文可存生字；複習頁間隔溫習。</p>' +
       '<div class="card feature"><div class="cardtop"><span class="pill">總進度</span><strong>' +
       done +
@@ -1544,7 +1544,7 @@
     persistReadPage(L.id, pageNum);
 
     var html =
-      '<a class="backlink" href="#/">← 關卡列表</a>' +
+      '<a class="backlink" href="#/">← 課本列表</a>' +
       '<p class="kicker">' +
       escapeHtml(L.id) +
       " · 全文 · PDF 分頁</p>" +
@@ -1718,7 +1718,7 @@
             next.id +
             '">② 溫重點 →</a>'
           : "") +
-        '<a class="ghost" href="#/">返回關卡</a></div></div>';
+        '<a class="ghost" href="#/">返回課本</a></div></div>';
     }
 
     html += "</article>";
@@ -1773,7 +1773,7 @@
     }
     if (!g) {
       main.innerHTML =
-        '<div class="card"><p>找不到此關卡。</p><a class="primary" href="#/">返回</a></div>';
+        '<div class="card"><p>找不到此課本。</p><a class="primary" href="#/">返回</a></div>';
       return;
     }
     setNav("levels");
@@ -1781,7 +1781,7 @@
     var cleared = isCleared(g.id);
     var gi = gateIndex(g.id);
     var html =
-      '<a class="backlink" href="#/">← 關卡列表</a>' +
+      '<a class="backlink" href="#/">← 課本列表</a>' +
       '<p class="kicker">關 ' +
       (gi + 1) +
       " · " +
@@ -1856,7 +1856,7 @@
       '<div class="gate-actions"><a class="primary" href="#/lecture/' +
       encodeURIComponent(g.lecture) +
       '">① 讀全文</a>' +
-      '<a class="ghost" href="#/">返回關卡</a></div></div>';
+      '<a class="ghost" href="#/">返回課本</a></div></div>';
 
     html += '<div id="pane-vocab" hidden>';
     (g.vocab || []).forEach(function (v) {
@@ -1944,7 +1944,7 @@
       html +=
         '<div class="card empty"><p>未有生字。</p>' +
         '<p class="hint">喺全文或重點筆記點任何英文詞／片語，再加進生字卡。</p>' +
-        '<a class="primary" href="#/">去關卡</a></div>';
+        '<a class="primary" href="#/">去課本</a></div>';
     } else {
       html += '<p class="hint">共 ' + keys.length + " 個</p>";
       keys.forEach(function (k) {
@@ -1999,7 +1999,7 @@
     var urlLocked = !!(DEFAULT_SYNC_URL && cfg.url === DEFAULT_SYNC_URL);
     main.innerHTML =
       '<p class="kicker">雲端</p><h2>共用生字庫</h2>' +
-      '<p class="lede">生字／關卡／複習進度寫入 Will 嘅 Google Drive（檔案 <code>hazelquiz-shared-bank.json</code>）。朋友<strong>唔使登入 Google</strong>；開網站就會自動同步。本機仍有快取。</p>' +
+      '<p class="lede">生字／課本／複習進度寫入 Will 嘅 Google Drive（檔案 <code>hazelquiz-shared-bank.json</code>）。朋友<strong>唔使登入 Google</strong>；開網站就會自動同步。本機仍有快取。</p>' +
       '<div class="card">' +
       (urlLocked
         ? '<p class="hint">已內建同步網址 · 庫名 <strong>' +
