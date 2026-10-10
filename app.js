@@ -1348,7 +1348,7 @@
           (cleared ? " done" : "") +
           '" href="#/gate/' +
           g.id +
-          '"><span class="gm-n">關 ' +
+          '"><span class="gm-n">' +
           (gi + 1) +
           '</span><span class="gm-t">' +
           escapeHtml(g.titleZh) +
@@ -1782,7 +1782,7 @@
     var gi = gateIndex(g.id);
     var html =
       '<a class="backlink" href="#/">← 課本列表</a>' +
-      '<p class="kicker">關 ' +
+      '<p class="kicker">' +
       (gi + 1) +
       " · " +
       escapeHtml(g.lecture) +
