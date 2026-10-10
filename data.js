@@ -18904,7 +18904,18 @@ window.HAZEL_LECTURES = [
             "w": 725,
             "h": 442,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Deoxygenated Blood",
+                "zh": "缺氧血"
+              },
+              {
+                "k": "p",
+                "t": "Oxygenated Blood",
+                "zh": "含氧血"
+              }
+            ]
           }
         ]
       },
@@ -18968,7 +18979,38 @@ window.HAZEL_LECTURES = [
             "w": 783,
             "h": 529,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "superior vena cava; inferior vena cava",
+                "zh": "上腔靜脈；下腔靜脈"
+              },
+              {
+                "k": "p",
+                "t": "pulmonary artery; pulmonary vein",
+                "zh": "肺動脈；肺靜脈"
+              },
+              {
+                "k": "p",
+                "t": "aorta",
+                "zh": "主動脈"
+              },
+              {
+                "k": "p",
+                "t": "right atrium; left atrium",
+                "zh": "右心房；左心房"
+              },
+              {
+                "k": "p",
+                "t": "pulmonary valve; tricuspid valve; mitral valve; aortic valve",
+                "zh": "肺動脈瓣；三尖瓣；二尖瓣；主動脈瓣"
+              },
+              {
+                "k": "p",
+                "t": "right ventricle; left ventricle",
+                "zh": "右心室；左心室"
+              }
+            ]
           }
         ]
       },
@@ -18987,7 +19029,38 @@ window.HAZEL_LECTURES = [
             "w": 584,
             "h": 583,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Right Atrium; Right ventricle; Tricuspid valve",
+                "zh": "右心房；右心室；三尖瓣"
+              },
+              {
+                "k": "p",
+                "t": "Left atrium; Left ventricle; Bicuspid valve; Aortic semilunar valve",
+                "zh": "左心房；左心室；二尖瓣；主動脈半月瓣"
+              },
+              {
+                "k": "p",
+                "t": "Superior vena cava; Inferior vena cava",
+                "zh": "上腔靜脈；下腔靜脈"
+              },
+              {
+                "k": "p",
+                "t": "Pulmonary artery; Pulmonary vein; Aorta",
+                "zh": "肺動脈；肺靜脈；主動脈"
+              },
+              {
+                "k": "p",
+                "t": "Lung; Capillaries; Tissue cells",
+                "zh": "肺；微血管；組織細胞"
+              },
+              {
+                "k": "p",
+                "t": "O₂; CO₂",
+                "zh": "O₂；CO₂"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p029-02.webp",
@@ -18997,8 +19070,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Pulmonary Artery: Carries deoxygenated blood from heart to lungs. Vena cava: Carries deoxygenated blood from body to heart. Aorta: Carries oxygenated blood from heart to all body parts. Pulmonary Vein: Carries oxygenated blood from lungs to heart.",
-                "zh": "肺動脈：將缺氧血由心臟送去肺。腔靜脈：將缺氧血由身體送返心臟。主動脈：將含氧血由心臟送去全身。肺靜脈：將含氧血由肺送返心臟。"
+                "t": "Pulmonary Artery: Carries deoxygenated blood from heart to lungs.",
+                "zh": "肺動脈：把缺氧血由心臟運去肺。"
+              },
+              {
+                "k": "p",
+                "t": "Vena cava: Carries deoxygenated blood from body to heart.",
+                "zh": "腔靜脈：把缺氧血由身體運返心臟。"
+              },
+              {
+                "k": "p",
+                "t": "Aorta: Carries oxygenated blood from heart to all body parts.",
+                "zh": "主動脈：把含氧血由心臟運去全身。"
+              },
+              {
+                "k": "p",
+                "t": "Pulmonary Vein: Carries oxygenated blood from lungs to heart.",
+                "zh": "肺靜脈：把含氧血由肺運返心臟。"
               }
             ]
           }
@@ -19059,14 +19147,76 @@ window.HAZEL_LECTURES = [
             "w": 520,
             "h": 393,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Superior vena cava",
+                "zh": "上腔靜脈"
+              },
+              {
+                "k": "p",
+                "t": "Great cardiac vein",
+                "zh": "心大靜脈"
+              },
+              {
+                "k": "p",
+                "t": "Anterior cardiac veins",
+                "zh": "心前靜脈"
+              },
+              {
+                "k": "p",
+                "t": "Coronary sinus",
+                "zh": "冠狀竇"
+              },
+              {
+                "k": "p",
+                "t": "Small cardiac vein",
+                "zh": "心小靜脈"
+              },
+              {
+                "k": "p",
+                "t": "Middle cardiac vein",
+                "zh": "心中靜脈"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p030-01.webp",
             "w": 447,
             "h": 412,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "(a)",
+                "zh": "(a)"
+              },
+              {
+                "k": "p",
+                "t": "Aorta; Pulmonary trunk; Superior vena cava",
+                "zh": "主動脈；肺動脈幹；上腔靜脈"
+              },
+              {
+                "k": "p",
+                "t": "Left coronary artery; Circumflex artery; Anterior interventricular artery",
+                "zh": "左冠狀動脈；迴旋支；前室間支"
+              },
+              {
+                "k": "p",
+                "t": "Right coronary artery; Marginal artery; Posterior interventricular artery",
+                "zh": "右冠狀動脈；緣支；後室間支"
+              },
+              {
+                "k": "p",
+                "t": "Anastomosis (junction of vessels)",
+                "zh": "吻合（血管交接）"
+              },
+              {
+                "k": "p",
+                "t": "Right atrium; Left atrium; Right ventricle; Left ventricle",
+                "zh": "右心房；左心房；右心室；左心室"
+              }
+            ]
           }
         ]
       },
@@ -19145,7 +19295,43 @@ window.HAZEL_LECTURES = [
             "w": 800,
             "h": 621,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Sinoatrial node (SA node)",
+                "zh": "竇房結（SA 結）"
+              },
+              {
+                "k": "p",
+                "t": "Atrioventricular node (AV node)",
+                "zh": "房室結（AV 結）"
+              },
+              {
+                "k": "p",
+                "t": "Atrioventricular bundle (bundle of His)",
+                "zh": "房室束（希氏束）"
+              },
+              {
+                "k": "p",
+                "t": "Right and left bundle branches",
+                "zh": "左右束支"
+              },
+              {
+                "k": "p",
+                "t": "Purkinje fibers",
+                "zh": "浦肯野纖維"
+              },
+              {
+                "k": "p",
+                "t": "Interatrial septum; Interventricular septum",
+                "zh": "房間隔；室間隔"
+              },
+              {
+                "k": "p",
+                "t": "Apex of heart",
+                "zh": "心尖"
+              }
+            ]
           }
         ]
       },
@@ -19209,7 +19395,43 @@ window.HAZEL_LECTURES = [
             "w": 522,
             "h": 439,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Sinoatrial (SA) node",
+                "zh": "竇房結（SA 結）"
+              },
+              {
+                "k": "p",
+                "t": "Atrioventricular (AV) node",
+                "zh": "房室結（AV 結）"
+              },
+              {
+                "k": "p",
+                "t": "Atrioventricular (AV) bundle",
+                "zh": "房室束"
+              },
+              {
+                "k": "p",
+                "t": "Right and left bundle branches",
+                "zh": "左右束支"
+              },
+              {
+                "k": "p",
+                "t": "Purkinje fibers",
+                "zh": "浦肯野纖維"
+              },
+              {
+                "k": "p",
+                "t": "Left atrium; Left ventricle; Apex",
+                "zh": "左心房；左心室；心尖"
+              },
+              {
+                "k": "p",
+                "t": "1 → 2 → 3 → 4 (impulse sequence)",
+                "zh": "1 → 2 → 3 → 4（衝動傳導順序）"
+              }
+            ]
           }
         ]
       },
@@ -19245,9 +19467,34 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Atrial excitation",
+                "zh": "心房興奮"
+              },
+              {
                 "k": "p",
-                "t": "Atrial excitation; Ventricular excitation; Begins; Complete; Begins; Complete; SA node; AV node.",
-                "zh": "心房興奮；心室興奮；開始；完成；開始；完成；竇房結（SA node）；房室結（AV node）。"
+                "t": "Begins — SA node",
+                "zh": "開始 — SA 結"
+              },
+              {
+                "k": "p",
+                "t": "Complete — AV node",
+                "zh": "完成 — AV 結"
+              },
+              {
+                "k": "h",
+                "t": "Ventricular excitation",
+                "zh": "心室興奮"
+              },
+              {
+                "k": "p",
+                "t": "Begins",
+                "zh": "開始"
+              },
+              {
+                "k": "p",
+                "t": "Complete",
+                "zh": "完成"
               }
             ]
           }
@@ -19298,7 +19545,48 @@ window.HAZEL_LECTURES = [
             "w": 790,
             "h": 572,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "0.8s — 0.1s; 0.3s; 0.4s",
+                "zh": "0.8 秒 — 0.1 秒；0.3 秒；0.4 秒"
+              },
+              {
+                "k": "h",
+                "t": "A — Atrial systole",
+                "zh": "A — 心房收縮"
+              },
+              {
+                "k": "p",
+                "t": "Atria contract; AV valves open; Ventricles relaxed; Aortic/pulmonary valves closed.",
+                "zh": "心房收縮；房室瓣開；心室放鬆；主動脈／肺動脈瓣關。"
+              },
+              {
+                "k": "h",
+                "t": "B — Ventricular systole",
+                "zh": "B — 心室收縮"
+              },
+              {
+                "k": "p",
+                "t": "Atria relaxed; AV valves closed; Ventricles contract; Aortic/pulmonary valves open.",
+                "zh": "心房放鬆；房室瓣關；心室收縮；主動脈／肺動脈瓣開。"
+              },
+              {
+                "k": "h",
+                "t": "C — Complete cardiac diastole",
+                "zh": "C — 全心舒張"
+              },
+              {
+                "k": "p",
+                "t": "Atria and ventricles relaxed; AV valves open; Aortic/pulmonary valves closed.",
+                "zh": "心房同心室放鬆；房室瓣開；主動脈／肺動脈瓣關。"
+              },
+              {
+                "k": "p",
+                "t": "Key: Direction of blood flow",
+                "zh": "圖例：血流方向"
+              }
+            ]
           }
         ]
       },
@@ -19317,7 +19605,53 @@ window.HAZEL_LECTURES = [
             "w": 871,
             "h": 749,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Phase of cardiac cycle; Time (seconds)",
+                "zh": "心動週期階段；時間（秒）"
+              },
+              {
+                "k": "p",
+                "t": "Diastole; Systole; Diastole",
+                "zh": "舒張期；收縮期；舒張期"
+              },
+              {
+                "k": "p",
+                "t": "Aortic pressure; Left ventricular pressure; Left atrial pressure",
+                "zh": "主動脈壓；左心室壓；左心房壓"
+              },
+              {
+                "k": "p",
+                "t": "Aortic valve opens; Aortic valve closes (dicrotic notch); AV valve closes; AV valve opens",
+                "zh": "主動脈瓣開；主動脈瓣關（重搏切跡）；房室瓣關；房室瓣開"
+              },
+              {
+                "k": "p",
+                "t": "1a Rapid filling; 1b Diastasis; 1c Atrial systole",
+                "zh": "1a 快速充盈；1b 舒張中期；1c 心房收縮"
+              },
+              {
+                "k": "p",
+                "t": "2 Isovolumetric contraction",
+                "zh": "2 等容收縮"
+              },
+              {
+                "k": "p",
+                "t": "3 Ventricular ejection",
+                "zh": "3 心室射血"
+              },
+              {
+                "k": "p",
+                "t": "4 Isovolumetric relaxation",
+                "zh": "4 等容舒張"
+              },
+              {
+                "k": "p",
+                "t": "Ventricular filling",
+                "zh": "心室充盈"
+              }
+            ]
           }
         ]
       },
@@ -19391,7 +19725,43 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 1089,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Cardiac Cycle",
+                "zh": "心動週期"
+              },
+              {
+                "k": "p",
+                "t": "Atrial systole; Atrial diastole; Ventricular systole; Ventricular diastole",
+                "zh": "心房收縮；心房舒張；心室收縮；心室舒張"
+              },
+              {
+                "k": "p",
+                "t": "Atrial contraction (atrial systole begins) — P wave.",
+                "zh": "心房收縮（心房收縮開始）— P 波。"
+              },
+              {
+                "k": "p",
+                "t": "Isovolumic/isovolumetric contraction (ventricular systole—first phase) — QRS complex.",
+                "zh": "等容收縮（心室收縮第一期）— QRS 複合波。"
+              },
+              {
+                "k": "p",
+                "t": "Ventricular ejection (ventricular systole—second phase).",
+                "zh": "心室射血（心室收縮第二期）。"
+              },
+              {
+                "k": "p",
+                "t": "Isovolumic/isovolumetric relaxation (ventricular diastole—early) — T wave.",
+                "zh": "等容舒張（心室舒張早期）— T 波。"
+              },
+              {
+                "k": "p",
+                "t": "Ventricular filling (ventricular diastole—late).",
+                "zh": "心室充盈（心室舒張晚期）。"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p036-03.webp",
