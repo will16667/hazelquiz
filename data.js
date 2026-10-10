@@ -13660,5 +13660,544 @@ window.HAZEL_GLOSSARY = {
     "gloss": "湯普森衝鋒槍——護理／生理學筆記常見用詞。",
     "say": "",
     "ipa": ""
+  },
+  "net": {
+    "term": "net",
+    "zh": "淨值",
+    "gloss": "淨值——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "point": {
+    "term": "point",
+    "zh": "學分",
+    "gloss": "學分——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "changes": {
+    "term": "changes",
+    "zh": "變更",
+    "gloss": "變更——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "away": {
+    "term": "away",
+    "zh": "離開",
+    "gloss": "離開——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "closed": {
+    "term": "closed",
+    "zh": "已關閉",
+    "gloss": "已關閉——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "contract": {
+    "term": "contract",
+    "zh": "合約",
+    "gloss": "合約——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "part": {
+    "term": "part",
+    "zh": "組件",
+    "gloss": "組件——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "release": {
+    "term": "release",
+    "zh": "釋出",
+    "gloss": "釋出——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "muscles": {
+    "term": "muscles",
+    "zh": "- 肌肉",
+    "gloss": "- 肌肉——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "act": {
+    "term": "act",
+    "zh": "精算",
+    "gloss": "精算——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "receptors": {
+    "term": "receptors",
+    "zh": "各種受體",
+    "gloss": "各種受體——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "loss": {
+    "term": "loss",
+    "zh": "失利",
+    "gloss": "失利——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "leads": {
+    "term": "leads",
+    "zh": "Leads ",
+    "gloss": "Leads ——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "white": {
+    "term": "white",
+    "zh": "白",
+    "gloss": "白——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "living": {
+    "term": "living",
+    "zh": "活",
+    "gloss": "活——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "needed": {
+    "term": "needed",
+    "zh": "需要",
+    "gloss": "需要——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "organisms": {
+    "term": "organisms",
+    "zh": "生物",
+    "gloss": "生物——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "required": {
+    "term": "required",
+    "zh": "必填",
+    "gloss": "必填——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "nucleic": {
+    "term": "nucleic",
+    "zh": "核",
+    "gloss": "核——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "forms": {
+    "term": "forms",
+    "zh": "表單",
+    "gloss": "表單——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "involved": {
+    "term": "involved",
+    "zh": "complicated/ complex(sentence)",
+    "gloss": "complicated/ complex(sentence)——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "inside": {
+    "term": "inside",
+    "zh": "內側",
+    "gloss": "內側——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "around": {
+    "term": "around",
+    "zh": "周圍",
+    "gloss": "周圍——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "area": {
+    "term": "area",
+    "zh": "權狀",
+    "gloss": "權狀——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "produce": {
+    "term": "produce",
+    "zh": "產品",
+    "gloss": "產品——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "electrical": {
+    "term": "electrical",
+    "zh": "電子",
+    "gloss": "電子——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "walls": {
+    "term": "walls",
+    "zh": "包圍，",
+    "gloss": "包圍，——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "thick": {
+    "term": "thick",
+    "zh": "秀髮豐盈",
+    "gloss": "秀髮豐盈——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "inactive": {
+    "term": "inactive",
+    "zh": "非使用中",
+    "gloss": "非使用中——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "use": {
+    "term": "use",
+    "zh": "使用",
+    "gloss": "使用——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "further": {
+    "term": "further",
+    "zh": "臨床技能。",
+    "gloss": "臨床技能。——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "change": {
+    "term": "change",
+    "zh": "變更",
+    "gloss": "變更——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "inhibit": {
+    "term": "inhibit",
+    "zh": "阻止 // 拘束 ~ sb from sth",
+    "gloss": "阻止 // 拘束 ~ sb from sth——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "uses": {
+    "term": "uses",
+    "zh": "使用次數",
+    "gloss": "使用次數——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "low": {
+    "term": "low",
+    "zh": "低",
+    "gloss": "低——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "solution": {
+    "term": "solution",
+    "zh": "解決方案",
+    "gloss": "解決方案——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "pumping": {
+    "term": "pumping",
+    "zh": "抽取 +顯示",
+    "gloss": "抽取 +顯示——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "stimulates": {
+    "term": "stimulates",
+    "zh": "刺激",
+    "gloss": "刺激——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "sound": {
+    "term": "sound",
+    "zh": "合理",
+    "gloss": "合理——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "stimulate": {
+    "term": "stimulate",
+    "zh": "刺激",
+    "gloss": "刺激——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "parasympathetic": {
+    "term": "parasympathetic",
+    "zh": "副交感神經",
+    "gloss": "副交感神經——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "lecture": {
+    "term": "lecture",
+    "zh": "课程",
+    "gloss": "课程——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "structures": {
+    "term": "structures",
+    "zh": "結構體",
+    "gloss": "結構體——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "make": {
+    "term": "make",
+    "zh": "製作",
+    "gloss": "製作——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "pumps": {
+    "term": "pumps",
+    "zh": "泵",
+    "gloss": "泵——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "sugar": {
+    "term": "sugar",
+    "zh": "砂糖",
+    "gloss": "砂糖——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "known": {
+    "term": "known",
+    "zh": "已知",
+    "gloss": "已知——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "ribonucleic": {
+    "term": "ribonucleic",
+    "zh": "核糖核酸",
+    "gloss": "核糖核酸——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "usually": {
+    "term": "usually",
+    "zh": "通常",
+    "gloss": "通常——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "nature": {
+    "term": "nature",
+    "zh": "我們能否根據其“性質”或質量構建傳記間鏈接的類型學（參見 Hagestad 2003）？",
+    "gloss": "我們能否根據其“性質”或質量構建傳記間鏈接的類型學（參見 Hagestad 2003）？——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "important": {
+    "term": "important",
+    "zh": "重要的",
+    "gloss": "重要的——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "kidney": {
+    "term": "kidney",
+    "zh": "腎臟",
+    "gloss": "腎臟——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "breaking": {
+    "term": "breaking",
+    "zh": "頭條新聞",
+    "gloss": "頭條新聞——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "provide": {
+    "term": "provide",
+    "zh": "提交項目",
+    "gloss": "提交項目——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "hair": {
+    "term": "hair",
+    "zh": "右",
+    "gloss": "右——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "bones": {
+    "term": "bones",
+    "zh": "骨架",
+    "gloss": "骨架——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "activities": {
+    "term": "activities",
+    "zh": "活動",
+    "gloss": "活動——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "image": {
+    "term": "image",
+    "zh": "圖片",
+    "gloss": "圖片——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "heat": {
+    "term": "heat",
+    "zh": "相對存取頻率",
+    "gloss": "相對存取頻率——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "nonpolar": {
+    "term": "nonpolar",
+    "zh": "非極性",
+    "gloss": "非極性——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "prevent": {
+    "term": "prevent",
+    "zh": "防止",
+    "gloss": "防止——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "provides": {
+    "term": "provides",
+    "zh": "提供",
+    "gloss": "提供——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "released": {
+    "term": "released",
+    "zh": "重新設計的Inspiration phase功能 1.3 版本已經發佈。需要瞭解更多改變內容與其他的詳細資訊，請",
+    "gloss": "重新設計的Inspiration phase功能 1.3 版本已經發佈。需要瞭解更多改變內容與其他的詳細資訊，請——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "result": {
+    "term": "result",
+    "zh": "個結果",
+    "gloss": "個結果——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "breakdown": {
+    "term": "breakdown",
+    "zh": "明細",
+    "gloss": "明細——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "acts": {
+    "term": "acts",
+    "zh": "行爲",
+    "gloss": "行爲——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "number": {
+    "term": "number",
+    "zh": "編號",
+    "gloss": "編號——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "unit": {
+    "term": "unit",
+    "zh": "單元",
+    "gloss": "單元——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "specialized": {
+    "term": "specialized",
+    "zh": "專",
+    "gloss": "專——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "material": {
+    "term": "material",
+    "zh": "材質",
+    "gloss": "材質——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "layers": {
+    "term": "layers",
+    "zh": "層",
+    "gloss": "層——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "maintains": {
+    "term": "maintains",
+    "zh": "維持",
+    "gloss": "維持——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "network": {
+    "term": "network",
+    "zh": "醫療網",
+    "gloss": "醫療網——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "neurons": {
+    "term": "neurons",
+    "zh": "神經元",
+    "gloss": "神經元——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "epithelium": {
+    "term": "epithelium",
+    "zh": "上皮細胞",
+    "gloss": "上皮細胞——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "muscular": {
+    "term": "muscular",
+    "zh": "肌肉",
+    "gloss": "肌肉——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "color": {
+    "term": "color",
+    "zh": "色彩",
+    "gloss": "色彩——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
   }
 };
