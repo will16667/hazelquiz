@@ -983,7 +983,10 @@
     var note = document.getElementById("sheet-note");
     if (saved && state.bank[key].due) {
       note.hidden = false;
-      note.textContent = "已儲存 · 下次複習 " + state.bank[key].due;
+      note.textContent =
+        "已儲存 · 下次複習 " +
+        state.bank[key].due +
+        (syncConfigured() ? " · 會同步到雲端" : " · 而家只存本機（可去同步設定開線上）");
     } else {
       note.hidden = true;
     }
