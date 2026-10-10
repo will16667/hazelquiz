@@ -5508,13 +5508,43 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "1 tael = meat in the size of a table tennis ball Atleast servings Atleast servings every day every day",
-                "zh": "1tael=乒乓球大小的肉每天至少吃一份"
+                "t": "Healthy Eating Food Pyramid",
+                "zh": "健康飲食金字塔"
               },
               {
                 "k": "p",
-                "t": "SABI 6-8 WHE Drin!",
-                "zh": ""
+                "t": "Fat/Oil, Salt and Sugar — Eat the least.",
+                "zh": "油、鹽、糖類 — 吃最少。"
+              },
+              {
+                "k": "p",
+                "t": "Milk and Alternatives — 1–2 glasses every day (1 cup = 240 ml).",
+                "zh": "奶類及代替品 — 每天 1–2 杯（1 杯 = 240 毫升）。"
+              },
+              {
+                "k": "p",
+                "t": "Meat, Fish, Egg and Alternatives — 5–8 taels every day (1 tael = meat about the size of a table tennis ball).",
+                "zh": "肉、魚、蛋及代替品 — 每天 5–8 兩（1 兩 ≈ 一個乒乓球大小的肉類）。"
+              },
+              {
+                "k": "p",
+                "t": "Vegetables — At least 3 servings every day (1 serving = ½ bowl of cooked vegetables).",
+                "zh": "蔬菜類 — 每天最少 3 份（1 份 = ½ 碗熟菜）。"
+              },
+              {
+                "k": "p",
+                "t": "Fruits — At least 2 servings every day (1 serving = 1 medium fruit, e.g. orange or apple).",
+                "zh": "水果類 — 每天最少 2 份（1 份 = 1 個中型水果，如橙或蘋果）。"
+              },
+              {
+                "k": "p",
+                "t": "Grains — 3–8 bowls every day (1 bowl = 250–300 ml).",
+                "zh": "穀物類 — 每天 3–8 碗（1 碗 = 250–300 毫升）。"
+              },
+              {
+                "k": "p",
+                "t": "Drink 6–8 glasses of fluid every day, including water, plain tea, milk, and clear soup.",
+                "zh": "每天應喝 6–8 杯流質，包括清水、清茶、奶、清湯。"
               }
             ]
           },
@@ -5596,8 +5626,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Simple Complex carbohydrates carbohydrates Monosa- Disaccharides Oligo-/ ) ccharides polysaccharides it Mil -> age causes blood sugar to rise quickly + slower breakdown quickly available energy - lasts longer does not last long - keeps you full longer.",
-                "zh": "簡單複雜碳水化合物碳水化合物單糖-二糖寡糖-/)多糖Mil->年齡。導致血糖快速上升+分解速度較慢快速獲得能量-持續時間較長但不會持續太久-讓您更長時間地飽足"
+                "t": "Simple carbohydrates vs Complex carbohydrates",
+                "zh": "簡單碳水化合物 對 複雜碳水化合物"
+              },
+              {
+                "k": "p",
+                "t": "Simple carbohydrates: Monosaccharides and Disaccharides.",
+                "zh": "簡單碳水化合物：單糖與雙糖。"
+              },
+              {
+                "k": "p",
+                "t": "Simple carbohydrates cause blood sugar to rise quickly, give quickly available energy, and do not last long.",
+                "zh": "簡單碳水化合物令血糖快速上升，快速提供能量，但維持時間短。"
+              },
+              {
+                "k": "p",
+                "t": "Complex carbohydrates: Oligo-/polysaccharides.",
+                "zh": "複雜碳水化合物：寡糖／多糖。"
+              },
+              {
+                "k": "p",
+                "t": "Complex carbohydrates break down more slowly, last longer, and keep you full longer.",
+                "zh": "複雜碳水化合物分解較慢、維持較久，亦較耐餓。"
               }
             ]
           },
@@ -5719,8 +5769,43 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Class Example Made up of Characteristics Major end-product of carbohydrate Glucose (7iij ZH) digestion Broken down during respiration to Monosaccharide release energy Sweetest simple sugar Fructose (32%) Glycogen (‘iii i) Glucose Major carbohydrate stored in animal Polysaccharide Makes up the cell wall of plants Cellulose (iE 22) Glucose Indigestible by human.",
-                "zh": "類別範例由特徵組成碳水化合物葡萄糖（7iijZH）消化的主要終產物在呼吸過程中分解為單醣釋放能量最甜的單糖果糖（32％）糖原(‘iiii)葡萄糖儲存在動物體內的主要碳水化合物多醣構成植物細胞壁纖維素(iE22)葡萄糖人類無法消化"
+                "t": "Carbohydrates — Class / Example / Made up of / Characteristics",
+                "zh": "碳水化合物 — 類別／例子／組成／特性"
+              },
+              {
+                "k": "p",
+                "t": "Monosaccharide — Glucose (葡萄糖): Made up of —. Major end-product of carbohydrate digestion; broken down during respiration to release energy.",
+                "zh": "單糖 — 葡萄糖：組成 —。碳水化合物消化嘅主要終產物；呼吸作用中分解釋放能量。"
+              },
+              {
+                "k": "p",
+                "t": "Monosaccharide — Fructose (果糖): Made up of —. Sweetest simple sugar; commonly found in fruit and honey.",
+                "zh": "單糖 — 果糖：組成 —。最甜嘅單糖；常見於水果同蜜糖。"
+              },
+              {
+                "k": "p",
+                "t": "Disaccharide — Maltose (麥芽糖): Made up of Glucose + Glucose. Intermediate in the digestion of starch.",
+                "zh": "雙糖 — 麥芽糖：葡萄糖 + 葡萄糖。澱粉消化過程中嘅中間產物。"
+              },
+              {
+                "k": "p",
+                "t": "Disaccharide — Sucrose (蔗糖): Made up of Glucose + Fructose. Commonly known as table sugar.",
+                "zh": "雙糖 — 蔗糖：葡萄糖 + 果糖。即日常食糖。"
+              },
+              {
+                "k": "p",
+                "t": "Polysaccharide — Starch (澱粉): Made up of Glucose. Major food reserve in plants.",
+                "zh": "多糖 — 澱粉：葡萄糖。植物主要食物儲備。"
+              },
+              {
+                "k": "p",
+                "t": "Polysaccharide — Glycogen (糖原): Made up of Glucose. Major carbohydrate stored in animals.",
+                "zh": "多糖 — 糖原：葡萄糖。動物體內主要儲存嘅碳水化合物。"
+              },
+              {
+                "k": "p",
+                "t": "Polysaccharide — Cellulose (纖維素): Made up of Glucose. Makes up the cell wall of plants; indigestible by humans.",
+                "zh": "多糖 — 纖維素：葡萄糖。構成植物細胞壁；人體不能消化。"
               }
             ]
           }
@@ -5825,8 +5910,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Lipids: Structure and Function TRIGLYCERIDE PHOSPHOLIPID STEROID hosphate group Ester ster bonds bonds Membrane structure RAF RRAPR 6» acid 4 fused rings Structure Structure: Structure Glycerol + 3 fatty acids Glycerol + 2 fatty acids 4 fused rings + phosphate Function Function: Function Long-term energy Membrane structure Hormones, signaling storage",
-                "zh": "脂質：結構和功能甘油三酯磷脂類固醇磷酸基酯酯鍵膜結構RAFRRAPR6»酸4稠環結構：結構甘油+3脂肪酸甘油+2種脂肪酸4個稠合環+磷酸鹽功能功能：功能長期能量膜結構激素，信號儲存"
+                "t": "Lipids: Structure and Function",
+                "zh": "脂質：結構與功能"
+              },
+              {
+                "k": "p",
+                "t": "Triglyceride — Structure: Glycerol + 3 fatty acids (ester bonds). Function: Long-term energy storage.",
+                "zh": "甘油三酯 — 結構：甘油 + 3 條脂肪酸（酯鍵）。功能：長期能量儲存。"
+              },
+              {
+                "k": "p",
+                "t": "Phospholipid — Structure: Glycerol + 2 fatty acids + phosphate. Function: Membrane structure.",
+                "zh": "磷脂 — 結構：甘油 + 2 條脂肪酸 + 磷酸基。功能：構成膜結構。"
+              },
+              {
+                "k": "p",
+                "t": "Steroid — Structure: 4 fused rings. Function: Hormones, signaling.",
+                "zh": "類固醇 — 結構：4 個稠合環。功能：激素、訊息傳遞。"
               }
             ]
           },
@@ -6932,13 +7032,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Ribosome Nuclear Pore Rough Endoplasmic Reticulum Nucleus eo) Mie.",
-                "zh": ""
-              },
-              {
-                "k": "h",
-                "t": "OF, ‘Smooth Endoplasmic Reticulum ox:",
-                "zh": "（見英文）"
+                "t": "Nuclear Pore; Nucleus; Ribosome; Rough Endoplasmic Reticulum; Smooth Endoplasmic Reticulum.",
+                "zh": "核孔；細胞核；核糖體；粗糙內質網；光滑內質網。"
               }
             ]
           },
@@ -6950,8 +7045,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Endoplasmic reticulum Smooth Nucleolus endoplasmic reticulum Nucleus Nuclear pore Ribosomes Rough endoplasmic reticulum",
-                "zh": "內質網光滑核仁內質網核孔核糖體粗糙內質網"
+                "t": "Endoplasmic reticulum; Nucleolus; Nucleus; Nuclear pore; Rough endoplasmic reticulum; Smooth endoplasmic reticulum; Ribosomes.",
+                "zh": "內質網；核仁；細胞核；核孔；粗糙內質網；光滑內質網；核糖體。"
               }
             ]
           }
@@ -7035,8 +7130,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Smooth ER: Metabolize nonpolar compound Ribosome Protein synthesis Golgi Complex Synthesize carbohydrate and pack molecules for secretion Mitochondrion Transform energy from food to ATP",
-                "zh": "SmoothER：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物並包裝分子以進行分泌線粒體將能量從食物轉化為ATP"
+                "t": "Organelle / component — Function. Plasma (cell) membrane: Controls materials in and out of cell. Cytoplasm: Serves as matrix substance for chemical reactions to occur. Endoplasmic reticulum (ER): Rough ER assists protein synthesis; Smooth ER metabolizes nonpolar compounds. Ribosome: Protein synthesis. Golgi Complex: Synthesize carbohydrate and pack molecules for secretion. Mitochondrion: Transform energy from food to ATP. Lysosome: Digest foreign molecules, and worn and damaged organelles. Nucleus: Contains genetic information and directs cellular activity. Nuclear membrane: Control material in and out of the nucleus. Nucleolus: Produce ribosomal RNA for ribosomes.",
+                "zh": "胞器／成分 — 功能。質膜：控制物質進出細胞。細胞質：作為化學反應進行嘅基質。內質網：粗糙內質網協助蛋白質合成；光滑內質網代謝非極性化合物。核糖體：蛋白質合成。高爾基體：合成碳水化合物並包裝分子以便分泌。線粒體：將食物能量轉成 ATP。溶酶體：消化外來分子同損耗胞器。細胞核：含遺傳訊息並指揮細胞活動。核膜：控制物質進出細胞核。核仁：製造核糖體 RNA。"
               }
             ]
           }
@@ -7131,8 +7226,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Chemical Level Atoms Atoms enoH oH,08 Molecules Protein DNA Sucrose Cell Level jee Cells Epithlial cell Neuron (cell) Smooth muscle cell Tissue Level ‘ts?",
-                "zh": "化學水平原子enoHoH,08分子蛋白質DNA蔗糖細胞水平jee細胞上皮細胞神經元(細胞)平滑肌細胞組織水平‘ts?"
+                "t": "Chemical Level: Atoms, Molecules, Protein, DNA, Sucrose; Cell Level: Cells, Epithelial cell, Neuron (cell), Smooth muscle cell; Tissue Level: Tissues, Epithelial tissue, Nervous tissue, Smooth muscle tissue; Organ Level: Organs, Bladder, Brain, Stomach; Organ System Level: Organ Systems, Urinary system, Nervous system, Digestive system; Organism Level: Organism.",
+                "zh": "化學層次：原子、分子、蛋白質、DNA、蔗糖；細胞層次：細胞、上皮細胞、神經元、平滑肌細胞；組織層次：組織、上皮組織、神經組織、平滑肌組織；器官層次：器官、膀胱、腦、胃；器官系統層次：器官系統、泌尿系統、神經系統、消化系統；個體層次：生物體。"
+              },
+              {
+                "k": "p",
+                "t": "Body organization rises from atoms and molecules to cells, tissues, organs, organ systems, and the whole organism.",
+                "zh": "身體組織層次由原子分子升到細胞、組織、器官、器官系統，再到成個生物體。"
               }
             ]
           }
@@ -7176,8 +7276,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "WE, wed Connective tissue Epithet tissue ‘Muscle tissue NeWous Cisse",
-                "zh": "我們，WED結締組織上肢組織肌肉組織NeWousCisse"
+                "t": "Connective tissue; Epithelial tissue; Muscle tissue; Nervous tissue.",
+                "zh": "結締組織；上皮組織；肌肉組織；神經組織。"
               }
             ]
           }
@@ -7410,8 +7510,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "connective tissue | bone_| areolar regular hyaline compact adipose irregular fibrocartilage spongy reticular elastic elastic CEES",
-                "zh": "結締組織|bone_|areolar規則透明致密脂肪不規則纖維軟骨海綿狀網狀彈性彈性CEES"
+                "t": "connective tissue; types of connective tissue; connective tissue proper; loose connective tissue: areolar, adipose, reticular; dense connective tissue: regular, irregular, elastic; supporting connective tissue; cartilage: hyaline, fibrocartilage, elastic; bone: compact, spongy; fluid connective tissue; blood; lymph.",
+                "zh": "結締組織；結締組織類型；固有結締組織；疏鬆結締組織：疏鬆、脂肪、網狀；緻密結締組織：規則、不規則、彈性；支持性結締組織；軟骨：透明、纖維、彈性；骨：密質、鬆質；液體結締組織；血液；淋巴。"
               }
             ]
           }
@@ -7715,8 +7815,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Base pair DNA double helix NH, Cytosine Guanine NH, Thymine Adenine",
-                "zh": "鹼基對DNA雙螺旋NH、胞嘧啶鳥嘌呤NH、胸腺嘧啶腺嘌呤"
+                "t": "DNA double helix; Base pair; Cytosine; Thymine; Guanine; Adenine; Pyrimidines; Purines; C; G; A; T.",
+                "zh": "DNA 雙螺旋；鹼基對；胞嘧啶；胸腺嘧啶；鳥嘌呤；腺嘌呤；嘧啶；嘌呤；C；G；A；T。"
               }
             ]
           },
@@ -7849,8 +7949,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "See S _k So = Reverse =* PROTEIN DNA RNA",
-                "zh": "見S_kSo=Reverse=*蛋白DNARNA"
+                "t": "DNA; RNA; PROTEIN; Replication; Transcription; Reverse transcription; Translation.",
+                "zh": "DNA；RNA；蛋白質；複製；轉錄；逆轉錄；翻譯。"
+              },
+              {
+                "k": "p",
+                "t": "Genetic information flows from DNA to RNA by transcription and from RNA to protein by translation; DNA can also replicate, and reverse transcription can make DNA from RNA.",
+                "zh": "遺傳訊息由 DNA 經轉錄到 RNA，再經翻譯到蛋白質；DNA 亦可複製，逆轉錄則可由 RNA 造 DNA。"
               }
             ]
           }
@@ -7984,8 +8089,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Receptor protein Plasma membrane Hormone-receptor complex New protein DOOOM™ DNA mRNA",
-                "zh": "受體蛋白質膜激素受體複合物新蛋白質DOOOM™DNAmRNA"
+                "t": "Extracellular fluid; Plasma membrane; Hormone; Receptor protein; Hormone-receptor complex; Nucleus; DNA; mRNA; Cytoplasm; New protein.",
+                "zh": "細胞外液；質膜；激素；受體蛋白；激素－受體複合物；細胞核；DNA；mRNA；細胞質；新蛋白質。"
+              },
+              {
+                "k": "p",
+                "t": "A lipid-soluble hormone crosses the plasma membrane, binds a cytoplasmic receptor to form a hormone-receptor complex, enters the nucleus, binds DNA to make mRNA, and the mRNA is translated in the cytoplasm into a new protein.",
+                "zh": "脂溶性激素穿過質膜，喺細胞質同受體結合形成激素－受體複合物，進入細胞核結合 DNA 轉錄出 mRNA，再喺細胞質翻譯成新蛋白質。"
               }
             ]
           }
@@ -8059,8 +8169,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Cytosine mam ~Guanine Thynine Adenine Origin DNA Cee 41} DNA stra| strand plate Nucle New strands on ecaaee, et, mwo new identical DNA molecules form.",
-                "zh": "胞嘧啶mam~GuanineThynine腺嘌呤起源DNACee41}DNA鏈|鏈板核ecaaee上的新鏈，等，mwo新的相同DNA分子形成。"
+                "t": "Cytosine; Guanine; Thymine; Adenine; Original DNA molecule; Old strands (template); New strands; Nucleotides; 5′; 3′.",
+                "zh": "胞嘧啶；鳥嘌呤；胸腺嘧啶；腺嘌呤；原有 DNA 分子；舊鏈（模板）；新鏈；核苷酸；5′；3′。"
+              },
+              {
+                "k": "p",
+                "t": "1. DNA strands separate. 2. Old strands serve as templates for complementary new strands. 3. Two new identical DNA molecules form.",
+                "zh": "1. DNA 雙鏈分開。2. 舊鏈作為模板合成互補新鏈。3. 形成兩條相同嘅新 DNA 分子。"
               }
             ]
           }
@@ -8183,8 +8298,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "ANAPHASE TELOPHASE cis Sie Formation of the 2 Nucleus Sister Chromatides separation Duplication process ends",
-                "zh": "2NucleusSisterChromatides分離的後期末期cisSie形成複製過程結束"
+                "t": "ANAPHASE; TELOPHASE.",
+                "zh": "後期；末期。"
+              },
+              {
+                "k": "p",
+                "t": "Anaphase: sister chromatids separation. Telophase: formation of the 2 nuclei; duplication process ends.",
+                "zh": "後期：姊妹染色單體分開。末期：形成兩個細胞核；複製過程結束。"
               }
             ]
           },
