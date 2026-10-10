@@ -5555,9 +5555,39 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "6 Essential Nutrients for Good Health",
+                "zh": "健康所需嘅六大營養素"
+              },
+              {
                 "k": "p",
-                "t": "Carbohydrates Water 6 Essential VITAMIN, Nutrients for fats Good Health Vitamins Protein Minerals",
-                "zh": "碳水化合物水6必需維生素、脂肪營養素維生素蛋白質礦物質"
+                "t": "Carbohydrates",
+                "zh": "碳水化合物"
+              },
+              {
+                "k": "p",
+                "t": "Water",
+                "zh": "水"
+              },
+              {
+                "k": "p",
+                "t": "Fats",
+                "zh": "脂肪"
+              },
+              {
+                "k": "p",
+                "t": "Vitamins",
+                "zh": "維生素"
+              },
+              {
+                "k": "p",
+                "t": "Protein",
+                "zh": "蛋白質"
+              },
+              {
+                "k": "p",
+                "t": "Minerals",
+                "zh": "礦物質"
               }
             ]
           }
@@ -5658,9 +5688,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Carbohydrates",
+                "zh": "碳水化合物"
+              },
+              {
                 "k": "p",
-                "t": "Carbohydrates Simple Complex Monosaccharides Disaccharides Polysaccharides Glucose Maltose Starches Fructose Lactose Fibers Galactose Sucrose Glycogen",
-                "zh": "碳水化合物單複合單醣二醣多醣葡萄糖麥芽糖澱粉果糖乳糖纖維半乳糖蔗糖糖原"
+                "t": "Simple — Monosaccharides: Glucose, Fructose, Galactose.",
+                "zh": "簡單 — 單糖：葡萄糖、果糖、半乳糖。"
+              },
+              {
+                "k": "p",
+                "t": "Simple — Disaccharides: Maltose, Lactose, Sucrose.",
+                "zh": "簡單 — 雙糖：麥芽糖、乳糖、蔗糖。"
+              },
+              {
+                "k": "p",
+                "t": "Complex — Polysaccharides: Starches, Fibers, Glycogen.",
+                "zh": "複雜 — 多糖：澱粉、纖維、糖原。"
               }
             ]
           }
@@ -5937,9 +5982,34 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Lipids",
+                "zh": "脂質"
+              },
+              {
                 "k": "p",
-                "t": "Lipids Phospholipid Triglycerid Cholesterol GO Danane Cell Phospholipid bilayer (Cell membrane) RAS Cleveland linie",
-                "zh": "脂質磷脂甘油三酯膽固醇GODanane細胞磷脂雙層（細胞膜）RASClevelandlinie"
+                "t": "Phospholipid: one head and two fatty-acid tails.",
+                "zh": "磷脂：一個頭同兩條脂肪酸尾。"
+              },
+              {
+                "k": "p",
+                "t": "Triglyceride: one head and three fatty-acid tails.",
+                "zh": "甘油三酯：一個頭同三條脂肪酸尾。"
+              },
+              {
+                "k": "p",
+                "t": "Cholesterol: four fused rings with a short tail.",
+                "zh": "膽固醇：四個稠合環加短尾。"
+              },
+              {
+                "k": "p",
+                "t": "Cell — Phospholipid bilayer (Cell membrane), with cholesterol among the tails.",
+                "zh": "細胞 — 磷脂雙層（細胞膜），膽固醇嵌喺尾端之間。"
+              },
+              {
+                "k": "p",
+                "t": "Cleveland Clinic ©2022",
+                "zh": "Cleveland Clinic ©2022"
               }
             ]
           },
@@ -6004,9 +6074,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Lipids",
+                "zh": "脂質"
+              },
+              {
                 "k": "p",
-                "t": "Lipids Phospholipid Triglycet Cholesterol Daa aOaaae SECA IS PIS ES 38 HBL 8 12 | Ala Cell hospholipid bilayer (Cell membrane) RAA.",
-                "zh": "脂質磷脂甘油三酯膽固醇DaaaOaaaeSECAISPISES38HBL812|ALA細胞磷脂雙層（細胞膜）RAA"
+                "t": "Phospholipid: one head and two fatty-acid tails.",
+                "zh": "磷脂：一個頭同兩條脂肪酸尾。"
+              },
+              {
+                "k": "p",
+                "t": "Triglyceride: one head and three fatty-acid tails.",
+                "zh": "甘油三酯：一個頭同三條脂肪酸尾。"
+              },
+              {
+                "k": "p",
+                "t": "Cholesterol: four fused rings with a short tail.",
+                "zh": "膽固醇：四個稠合環加短尾。"
+              },
+              {
+                "k": "p",
+                "t": "Cell — Phospholipid bilayer (Cell membrane), with cholesterol among the tails.",
+                "zh": "細胞 — 磷脂雙層（細胞膜），膽固醇嵌喺尾端之間。"
               }
             ]
           }
@@ -6119,9 +6209,44 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "FUNCTIONS OF PROTEINS",
+                "zh": "蛋白質嘅功能"
+              },
+              {
                 "k": "p",
-                "t": "FUNCTIONS OF PROTEINS Digestive enzymes Antibodies support ion contraction and Support muscle Support the rae chemical reactions help facilitate movement and express: hacen Mes Bion? Provide support tothe body Hormones help coordinate bodily function Move essential molecules around the body",
-                "zh": "蛋白質的功能消化酶抗體支持離子收縮和支持肌肉支持RAE化學反應有助於促進運動和表達：hacenMesBion？為身體提供支持激素有助於協調身體功能在身體周圍移動必需分子"
+                "t": "Digestive enzymes help facilitate chemical reactions.",
+                "zh": "消化酶幫助促進化學反應。"
+              },
+              {
+                "k": "p",
+                "t": "Antibodies support immune function.",
+                "zh": "抗體支援免疫功能。"
+              },
+              {
+                "k": "p",
+                "t": "Support muscle contraction and movement.",
+                "zh": "支援肌肉收縮同運動。"
+              },
+              {
+                "k": "p",
+                "t": "Support the regulation and expression of DNA and RNA.",
+                "zh": "支援 DNA 同 RNA 嘅調控同表達。"
+              },
+              {
+                "k": "p",
+                "t": "Provide support to the body.",
+                "zh": "為身體提供結構支撐。"
+              },
+              {
+                "k": "p",
+                "t": "Hormones help coordinate bodily function.",
+                "zh": "激素幫助協調身體功能。"
+              },
+              {
+                "k": "p",
+                "t": "Move essential molecules around the body.",
+                "zh": "喺身體運送必要分子。"
               }
             ]
           }
@@ -6266,9 +6391,59 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Water content of body organs and tissues",
+                "zh": "身體器官同組織嘅含水量"
+              },
+              {
                 "k": "p",
-                "t": "Brain: 80-85% Teeth: 8-10% Lungs: 75-80% Heart: 75-80% Liver:_70-75% Bones: 20-25% Skin: 70-75% Kidneys: 80-85% Blood: 80% Muscles: 70-75%",
-                "zh": "大腦：80-85%牙齒：8-10%肺部：75-80%心臟：75-80%肝臟：_70-75%骨骼：20-25%皮膚：70-75%腎臟：80-85%血液：80%肌肉：70-75%"
+                "t": "Brain: 80–85%",
+                "zh": "腦：80–85%"
+              },
+              {
+                "k": "p",
+                "t": "Teeth: 8–10%",
+                "zh": "牙齒：8–10%"
+              },
+              {
+                "k": "p",
+                "t": "Lungs: 75–80%",
+                "zh": "肺：75–80%"
+              },
+              {
+                "k": "p",
+                "t": "Heart: 75–80%",
+                "zh": "心：75–80%"
+              },
+              {
+                "k": "p",
+                "t": "Liver: 70–75%",
+                "zh": "肝：70–75%"
+              },
+              {
+                "k": "p",
+                "t": "Bones: 20–25%",
+                "zh": "骨：20–25%"
+              },
+              {
+                "k": "p",
+                "t": "Skin: 70–75%",
+                "zh": "皮膚：70–75%"
+              },
+              {
+                "k": "p",
+                "t": "Kidneys: 80–85%",
+                "zh": "腎：80–85%"
+              },
+              {
+                "k": "p",
+                "t": "Blood: 80%",
+                "zh": "血液：80%"
+              },
+              {
+                "k": "p",
+                "t": "Muscles: 70–75%",
+                "zh": "肌肉：70–75%"
               }
             ]
           }
@@ -6361,9 +6536,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Capillary Action Illustrated",
+                "zh": "毛細作用示意"
+              },
+              {
                 "k": "p",
-                "t": "Capillary Action Illustrated Water capillarity increases in smaller spaces Water level is lower in wider spaces where surface tension is reduced Water is attracted to the sides of the container, the smaller the space, the greater the attraction.",
-                "zh": "毛細管作用示意圖較小空間的水毛細管增加表面張力降低的較寬空間的水位較低容器側面吸水，空間越小，吸引力越大"
+                "t": "Water",
+                "zh": "水"
+              },
+              {
+                "k": "p",
+                "t": "Water capillarity increases in smaller spaces.",
+                "zh": "空間愈細，水嘅毛細作用愈強。"
+              },
+              {
+                "k": "p",
+                "t": "Water level is lower in wider spaces where surface tension is reduced.",
+                "zh": "較闊空間表面張力較低，水位較低。"
+              },
+              {
+                "k": "p",
+                "t": "Water is attracted to the sides of the container; the smaller the space, the greater the attraction.",
+                "zh": "水被容器側壁吸引；空間愈細，吸引力愈大。"
               }
             ]
           }
@@ -6432,8 +6627,18 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "ATP ‘a Reacts with H,0 ADP phosphate",
-                "zh": "ATP ‘a與H ,0 ADP磷酸反應"
+                "t": "ATP hydrolysis",
+                "zh": "ATP 水解"
+              },
+              {
+                "k": "p",
+                "t": "ATP reacts with H₂O to form ADP + Pi (inorganic phosphate) + Energy.",
+                "zh": "ATP 與 H₂O 反應，生成 ADP + Pi（無機磷酸）+ 能量。"
+              },
+              {
+                "k": "p",
+                "t": "ATP → ADP + Pi + Energy",
+                "zh": "ATP → ADP + Pi + 能量"
               }
             ]
           },
@@ -6444,9 +6649,19 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "(a) ATP synthesis (b) ATP hydrolysis",
+                "zh": "（a）ATP 合成（b）ATP 水解"
+              },
+              {
                 "k": "p",
-                "t": "REACTANTS PRODUCT +P, + Energy ———> Less potential More potential energy energy REACTANT PRODUCTS More potential Less potential energy energy",
-                "zh": "反應物產品+P,+能源———>潛力較小潛力較大的潛力能源反應物產品潛力較大潛力較小潛力能源"
+                "t": "(a) ADP + Pi + Energy → ATP. Reactants have less potential energy; the product ATP has more potential energy.",
+                "zh": "（a）ADP + Pi + 能量 → ATP。反應物勢能較低；產物 ATP 勢能較高。"
+              },
+              {
+                "k": "p",
+                "t": "(b) ATP → ADP + Pi + Energy. The reactant ATP has more potential energy; the products have less potential energy.",
+                "zh": "（b）ATP → ADP + Pi + 能量。反應物 ATP 勢能較高；產物勢能較低。"
               }
             ]
           },
@@ -6457,9 +6672,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "ATP cycle",
+                "zh": "ATP 循環"
+              },
+              {
                 "k": "p",
-                "t": "ATP cycle Energy Energy for from food working cells tee",
-                "zh": "ATP循環能量來自食物工作細胞的能量T恤"
+                "t": "ATP",
+                "zh": "ATP"
+              },
+              {
+                "k": "p",
+                "t": "ADP + P",
+                "zh": "ADP + P"
+              },
+              {
+                "k": "p",
+                "t": "Energy from food drives ADP + P → ATP.",
+                "zh": "來自食物嘅能量推動 ADP + P → ATP。"
+              },
+              {
+                "k": "p",
+                "t": "Energy for working cells is released when ATP → ADP + P.",
+                "zh": "ATP → ADP + P 時釋放能量供細胞工作。"
               }
             ]
           }
@@ -6512,9 +6747,49 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "DNA vs RNA: Key Differences",
+                "zh": "DNA 與 RNA：主要分別"
+              },
+              {
                 "k": "p",
-                "t": "DNA vs RNA: Key Differences Shiver Regput ott DNA RNA Deoxyribonucleic Acid Ribonucleic Acid Sugar Type Sugar Type Deoxyribose sugar OH OH Ribose sugar “eK 66. Nitrogen Bases & oS. Nucleus & cytoplasm Function Function Stores genetic Protein synthesis information & regulation Stability Stability Highly stable Less stable DNA = Blueprint | RNA = Mes Messenger Molecular Biology | DNA | RNA iothink.",
-                "zh": "DNA與RNA：關鍵差異ShiverRegputottDNARNADeoxyribonucleicAcidRibonucleicAcidSugarTypeSugarTypeDeoxyriboseSugarOHOHRiboseSugar“eK66.細胞核和細胞質功能功能儲存基因蛋白質合成資訊和調節穩定性穩定性高穩定性低穩定性DNA=藍圖|RNA=MES信使分子生物學|DNA|RNAiothink"
+                "t": "DNA — Deoxyribonucleic Acid. RNA — Ribonucleic Acid.",
+                "zh": "DNA — 脫氧核糖核酸。RNA — 核糖核酸。"
+              },
+              {
+                "k": "p",
+                "t": "Sugar type: DNA has deoxyribose sugar; RNA has ribose sugar.",
+                "zh": "糖：DNA 係脫氧核糖；RNA 係核糖。"
+              },
+              {
+                "k": "p",
+                "t": "Nitrogen bases: DNA — A, T, G, C; RNA — A, U, G, C.",
+                "zh": "鹼基：DNA — A、T、G、C；RNA — A、U、G、C。"
+              },
+              {
+                "k": "p",
+                "t": "Structure: DNA is double-stranded (double helix); RNA is single-stranded.",
+                "zh": "結構：DNA 雙股（雙螺旋）；RNA 單股。"
+              },
+              {
+                "k": "p",
+                "t": "Location: DNA mostly in the nucleus; RNA in nucleus and cytoplasm.",
+                "zh": "位置：DNA 多數喺細胞核；RNA 喺細胞核同細胞質。"
+              },
+              {
+                "k": "p",
+                "t": "Function: DNA stores genetic information; RNA does protein synthesis and regulation.",
+                "zh": "功能：DNA 儲存遺傳訊息；RNA 負責蛋白質合成同調控。"
+              },
+              {
+                "k": "p",
+                "t": "Stability: DNA is highly stable; RNA is less stable.",
+                "zh": "穩定性：DNA 好穩定；RNA 較唔穩定。"
+              },
+              {
+                "k": "p",
+                "t": "DNA = Blueprint | RNA = Messenger",
+                "zh": "DNA = 藍圖｜RNA = 信使"
               }
             ]
           },
@@ -6622,9 +6897,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Generalized animal cell",
+                "zh": "一般動物細胞"
+              },
+              {
                 "k": "p",
-                "t": "Plasma Membrane Outer boundary of the cell. Structure described in Sections 3.3-3.5 and function described in Section 3.6. Cytoplasm and Organelles Organelles perform specific functions in the cell. The structure and functions of organelles are described in Sections 3.7 and 3.8. Endoplasmic reticulum Cilia Ribosome Golgi lysosome Microvill apparatus Machondidan 77 ots aS, ED, eee Fe oe?",
-                "zh": "細胞質膜細胞外邊界。第3.3-3.5節中描述的結構和第3.6節中描述的功能。細胞質和細胞器在細胞中執行特定功能。第3.7節和第3.8節描述了細胞器的結構和功能。內質網纖毛核糖體高爾基體溶酶體微絨毛器Machondidan77otsaS,ED,eeeFeoe?"
+                "t": "Plasma Membrane: Outer boundary of the cell. Structure described in Sections 3.3–3.5 and function described in Section 3.6.",
+                "zh": "質膜：細胞外邊界。結構見第 3.3–3.5 節，功能見第 3.6 節。"
+              },
+              {
+                "k": "p",
+                "t": "Cytoplasm and Organelles: Organelles perform specific functions in the cell. The structure and functions of organelles are described in Sections 3.7 and 3.8.",
+                "zh": "細胞質與胞器：胞器喺細胞內執行特定功能。結構與功能見第 3.7 同 3.8 節。"
+              },
+              {
+                "k": "p",
+                "t": "Nucleus: Organelle that contains the cell’s genetic information, thereby determining the cell’s structure and function. Sections 3.9 and 3.10 describe how the nucleus directs the cell’s activity.",
+                "zh": "細胞核：含細胞遺傳訊息，從而決定細胞結構同功能。第 3.9 同 3.10 節說明細胞核點樣指揮細胞活動。"
+              },
+              {
+                "k": "p",
+                "t": "Labeled parts: Nucleus, Nucleolus, Endoplasmic reticulum (ER), Ribosome, Golgi apparatus, Lysosome, Mitochondrion, Microvilli, Cilia, Centrioles, Cytoskeleton, Vesicles.",
+                "zh": "標籤：細胞核、核仁、內質網、核糖體、高爾基體、溶酶體、線粒體、微絨毛、纖毛、中心粒、細胞骨架、囊泡。"
               }
             ]
           }
@@ -6662,9 +6957,69 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "CELL STRUCTURE",
+                "zh": "細胞結構"
+              },
+              {
                 "k": "p",
-                "t": "CELL STRUCTURE Nucleus DNA Ribosome Cell Membrane Mitochondria Lysosome Endoplasmic reticulum Centriole Vacuole Golgi complex Peroxisome Cytoplasm",
-                "zh": "細胞結構核DNA核糖體細胞膜線粒體溶酶體內質網中心粒空泡高爾基體複合物過氧化物酶體細胞質"
+                "t": "Cell Membrane",
+                "zh": "細胞膜"
+              },
+              {
+                "k": "p",
+                "t": "Nucleus",
+                "zh": "細胞核"
+              },
+              {
+                "k": "p",
+                "t": "DNA",
+                "zh": "DNA"
+              },
+              {
+                "k": "p",
+                "t": "Ribosome",
+                "zh": "核糖體"
+              },
+              {
+                "k": "p",
+                "t": "Lysosome",
+                "zh": "溶酶體"
+              },
+              {
+                "k": "p",
+                "t": "Vacuole",
+                "zh": "液泡"
+              },
+              {
+                "k": "p",
+                "t": "Golgi complex",
+                "zh": "高爾基體"
+              },
+              {
+                "k": "p",
+                "t": "Cytoplasm",
+                "zh": "細胞質"
+              },
+              {
+                "k": "p",
+                "t": "Peroxisome",
+                "zh": "過氧化物酶體"
+              },
+              {
+                "k": "p",
+                "t": "Centriole",
+                "zh": "中心粒"
+              },
+              {
+                "k": "p",
+                "t": "Endoplasmic reticulum",
+                "zh": "內質網"
+              },
+              {
+                "k": "p",
+                "t": "Mitochondria",
+                "zh": "線粒體"
               }
             ]
           }
@@ -6755,9 +7110,54 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "CELL MEMBRANE",
+                "zh": "細胞膜"
+              },
+              {
                 "k": "p",
-                "t": "CELL MEMBRANE Glycoprotein Carbohydrate Glycolipid Globular Cholesterol protein protein Integral Alpha-helix Peripheral protein Channel protein protein",
-                "zh": "細胞膜糖蛋白碳水化合物糖脂球狀膽固醇蛋白質整體α-螺旋外周蛋白質通道蛋白質"
+                "t": "Glycoprotein",
+                "zh": "糖蛋白"
+              },
+              {
+                "k": "p",
+                "t": "Carbohydrate",
+                "zh": "碳水化合物"
+              },
+              {
+                "k": "p",
+                "t": "Glycolipid",
+                "zh": "糖脂"
+              },
+              {
+                "k": "p",
+                "t": "Cholesterol",
+                "zh": "膽固醇"
+              },
+              {
+                "k": "p",
+                "t": "Globular protein",
+                "zh": "球狀蛋白"
+              },
+              {
+                "k": "p",
+                "t": "Alpha-helix protein",
+                "zh": "α-螺旋蛋白"
+              },
+              {
+                "k": "p",
+                "t": "Channel protein",
+                "zh": "通道蛋白"
+              },
+              {
+                "k": "p",
+                "t": "Peripheral protein",
+                "zh": "外周蛋白"
+              },
+              {
+                "k": "p",
+                "t": "Integral protein",
+                "zh": "整合蛋白"
               }
             ]
           },
@@ -6768,9 +7168,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Phospholipid bilayer",
+                "zh": "磷脂雙層"
+              },
+              {
                 "k": "p",
-                "t": "Extracellular vay Phospholipid bilayer Intracellular Hydrophobic tail Hydrophilic head",
-                "zh": "胞外vay磷脂雙層胞內疏水尾巴親水頭"
+                "t": "Extracellular",
+                "zh": "細胞外"
+              },
+              {
+                "k": "p",
+                "t": "Intracellular",
+                "zh": "細胞內"
+              },
+              {
+                "k": "p",
+                "t": "Hydrophilic head",
+                "zh": "親水頭"
+              },
+              {
+                "k": "p",
+                "t": "Hydrophobic tail",
+                "zh": "疏水尾"
               }
             ]
           }
@@ -6828,9 +7248,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "CYTOSOL VS. CYTOPLASM",
+                "zh": "細胞溶膠 對 細胞質"
+              },
+              {
                 "k": "p",
-                "t": "BYJU'S he Lenning ABE Cell Membrane Endoplasmic Reticulum Nucleus Nucleolus Cytoplasm Cytosol Cytosol is a fluid present in the cell * Cytoplasm is a cell component present membrane inside the cell membrane.",
-                "zh": "BYJU'SHELenningABECellMembraneEndoplasmicReticulumNucleusNucleolusCytoplasmCytosol細胞質細胞質是細胞中存在的液體*細胞質是細胞膜內的細胞成分存在膜"
+                "t": "Cell Membrane; Endoplasmic Reticulum; Nucleus; Nucleolus; Cytoplasm; Cytosol; Protoplasm.",
+                "zh": "細胞膜；內質網；細胞核；核仁；細胞質；細胞溶膠；原生質。"
+              },
+              {
+                "k": "p",
+                "t": "Cytosol is a fluid present in the cell membrane.",
+                "zh": "細胞溶膠係喺細胞膜內嘅液體。"
+              },
+              {
+                "k": "p",
+                "t": "Cytoplasm is a cell component present inside the cell membrane.",
+                "zh": "細胞質係細胞膜內嘅細胞成分。"
               }
             ]
           }
@@ -6888,9 +7323,44 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Cell Nucleus",
+                "zh": "細胞核"
+              },
+              {
                 "k": "p",
-                "t": "Cell Nucleus Ribosome —_@ —+—— Nuclear envelope Nuclear lamina N Nucleoplasm an \\ Chromatin orn + Nucleolus Nuclear pore",
-                "zh": "細胞核核糖體—_@—+——核膜核片N核質an\\染色質orn+核仁核孔"
+                "t": "Nuclear envelope",
+                "zh": "核膜"
+              },
+              {
+                "k": "p",
+                "t": "Nuclear pore",
+                "zh": "核孔"
+              },
+              {
+                "k": "p",
+                "t": "Ribosome",
+                "zh": "核糖體"
+              },
+              {
+                "k": "p",
+                "t": "Nuclear lamina",
+                "zh": "核纖層"
+              },
+              {
+                "k": "p",
+                "t": "Nucleoplasm",
+                "zh": "核質"
+              },
+              {
+                "k": "p",
+                "t": "Chromatin",
+                "zh": "染色質"
+              },
+              {
+                "k": "p",
+                "t": "Nucleolus",
+                "zh": "核仁"
               }
             ]
           }
@@ -6961,9 +7431,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Mitochondrion",
+                "zh": "線粒體"
+              },
+              {
                 "k": "p",
-                "t": "CO» ATP OXPHOS complexes Carbohydrate Mitochondrial DNA Act Fatty acids OXPHOS complexes Mitochondrion ATP.",
-                "zh": "CO»ATPOXPHOS複合物碳水化合物線粒體DNAACT脂肪酸OXPHOS複合物線粒體ATP。"
+                "t": "Inputs: Carbohydrate; Fatty acids.",
+                "zh": "輸入：碳水化合物；脂肪酸。"
+              },
+              {
+                "k": "p",
+                "t": "β-oxidation → Acetyl-CoA → TCA cycle → CO₂.",
+                "zh": "β-氧化 → 乙醯輔酶 A → TCA 循環 → CO₂。"
+              },
+              {
+                "k": "p",
+                "t": "OXPHOS complexes → ATP.",
+                "zh": "OXPHOS 複合體 → ATP。"
+              },
+              {
+                "k": "p",
+                "t": "Mitochondrial DNA",
+                "zh": "線粒體 DNA"
               }
             ]
           }
