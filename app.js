@@ -12,7 +12,26 @@
   var GLOSSARY = window.HAZEL_GLOSSARY || {};
   var STORAGE_KEY = META.storageKey || "hazelquiz-v1";
   var ZH_PREF_KEY = "hazelquiz-show-zh";
+  var GLOSS_CACHE_KEY = "hazelquiz-gloss-cache-v1";
   var SRS = META.srsIntervals || [1, 3, 7, 14, 30];
+  var glossCache = null;
+  var enrichInflight = {};
+
+  function loadGlossCache() {
+    if (glossCache) return glossCache;
+    try {
+      glossCache = JSON.parse(localStorage.getItem(GLOSS_CACHE_KEY) || "{}") || {};
+    } catch (e) {
+      glossCache = {};
+    }
+    return glossCache;
+  }
+
+  function saveGlossCache() {
+    try {
+      localStorage.setItem(GLOSS_CACHE_KEY, JSON.stringify(loadGlossCache()));
+    } catch (e) {}
+  }
 
   var main = document.getElementById("main");
   var backdrop = document.getElementById("backdrop");
@@ -368,33 +387,10 @@
     return out;
   }
 
-  function findVocab(term, gate) {
-    var t = String(term || "").toLowerCase();
-    var i, g, list, hit;
-    if (gate && gate.vocab) {
-      for (i = 0; i < gate.vocab.length; i++) {
-        if (gate.vocab[i].term.toLowerCase() === t) return gate.vocab[i];
-      }
-    }
-    for (g = 0; g < GATES.length; g++) {
-      list = GATES[g].vocab || [];
-      for (i = 0; i < list.length; i++) {
-        if (list[i].term.toLowerCase() === t) return list[i];
-      }
-    }
-    hit = GLOSSARY[t];
-    if (hit) {
-      return {
-        term: hit.term || term,
-        zh: hit.zh || "",
-        ipa: hit.ipa || "",
-        say: hit.say || "",
-        gloss: hit.gloss || hit.zh || "",
-      };
-    }
-    // light stemming: plurals / -ing / -ed for common academic words
+  function stemAlts(t) {
     var alts = [];
     if (t.length > 4 && t.slice(-1) === "s") alts.push(t.slice(0, -1));
+    if (t.length > 5 && t.slice(-2) === "es") alts.push(t.slice(0, -2));
     if (t.length > 5 && t.slice(-3) === "ies") alts.push(t.slice(0, -3) + "y");
     if (t.length > 5 && t.slice(-3) === "ing") {
       alts.push(t.slice(0, -3));
@@ -404,30 +400,221 @@
       alts.push(t.slice(0, -2));
       alts.push(t.slice(0, -1));
     }
-    for (i = 0; i < alts.length; i++) {
-      hit = GLOSSARY[alts[i]];
-      if (hit) {
-        return {
-          term: String(term || "").trim() || term,
-          zh: hit.zh || "",
-          ipa: hit.ipa || "",
-          say: hit.say || "",
-          gloss: hit.gloss || hit.zh || "",
-        };
+    if (t.length > 4 && t.slice(-2) === "ly") alts.push(t.slice(0, -2));
+    if (t.length > 5 && t.slice(-4) === "tion") alts.push(t.slice(0, -4) + "te");
+    if (t.length > 5 && t.slice(-4) === "sion") alts.push(t.slice(0, -4) + "de");
+    return alts;
+  }
+
+  function packHit(term, hit) {
+    return {
+      term: (hit && hit.term) || String(term || "").trim() || term,
+      zh: (hit && hit.zh) || "",
+      ipa: (hit && hit.ipa) || "",
+      say: (hit && hit.say) || "",
+      gloss: (hit && (hit.gloss || hit.zh)) || "",
+      _needsEnrich: false,
+    };
+  }
+
+  function findVocab(term, gate) {
+    var t = String(term || "").toLowerCase();
+    var i, g, list, hit;
+    if (gate && gate.vocab) {
+      for (i = 0; i < gate.vocab.length; i++) {
+        if (gate.vocab[i].term.toLowerCase() === t) return packHit(term, gate.vocab[i]);
       }
     }
+    for (g = 0; g < GATES.length; g++) {
+      list = GATES[g].vocab || [];
+      for (i = 0; i < list.length; i++) {
+        if (list[i].term.toLowerCase() === t) return packHit(term, list[i]);
+      }
+    }
+    hit = GLOSSARY[t];
+    if (hit) return packHit(term, hit);
+
+    var alts = stemAlts(t);
+    for (i = 0; i < alts.length; i++) {
+      hit = GLOSSARY[alts[i]];
+      if (hit) return packHit(term, hit);
+    }
+
+    // Runtime cache from previous lookups
+    var cached = loadGlossCache()[t];
+    if (cached && (cached.zh || cached.gloss)) {
+      return {
+        term: cached.term || String(term || "").trim() || term,
+        zh: cached.zh || "",
+        ipa: cached.ipa || "",
+        say: cached.say || "",
+        gloss: cached.gloss || cached.zh || "",
+        _needsEnrich: false,
+      };
+    }
+
     var display = String(term || "").trim() || term;
     return {
       term: display,
       zh: "",
       ipa: "",
       say: "",
-      gloss: "未有詳細解釋。可仍加進生字卡；之後更新詞庫會補上。",
+      gloss: "查緊解釋…",
+      _needsEnrich: true,
     };
   }
 
-  function openSheet(vocab, gateId) {
+  function applySheetVocab(vocab) {
+    if (!sheetTerm || !vocab) return;
+    if (
+      String(sheetTerm.vocab.term || "").toLowerCase() !==
+      String(vocab.term || "").toLowerCase()
+    ) {
+      return;
+    }
+    sheetTerm.vocab = vocab;
+    document.getElementById("sheet-term").textContent = vocab.term;
+    document.getElementById("sheet-zh").textContent = vocab.zh || "";
+    var ipa = document.getElementById("sheet-ipa");
+    var hint = phonHint(vocab);
+    if (hint) {
+      ipa.hidden = false;
+      ipa.textContent = hint;
+    } else {
+      ipa.hidden = true;
+      ipa.textContent = "";
+    }
+    document.getElementById("sheet-gloss").textContent = vocab.gloss || vocab.zh || "";
+  }
+
+  function enrichVocab(term, gateId) {
+    var key = String(term || "").toLowerCase().trim();
+    if (!key || enrichInflight[key]) return;
+    enrichInflight[key] = true;
+    var display = String(term || "").trim() || term;
+
+    function finish(zh, gloss, say) {
+      var packed = {
+        term: display,
+        zh: zh || "",
+        ipa: "",
+        say: say || "",
+        gloss: gloss || zh || "可聽發音並加進生字卡複習。",
+        _needsEnrich: false,
+      };
+      if (packed.zh || (packed.gloss && packed.gloss.indexOf("查緊") !== 0)) {
+        loadGlossCache()[key] = {
+          term: packed.term,
+          zh: packed.zh,
+          gloss: packed.gloss,
+          say: packed.say,
+        };
+        saveGlossCache();
+        // also seed in-memory glossary for this session
+        if (!GLOSSARY[key]) {
+          GLOSSARY[key] = {
+            term: packed.term,
+            zh: packed.zh,
+            gloss: packed.gloss,
+            say: packed.say,
+            ipa: "",
+          };
+        }
+      }
+      applySheetVocab(packed);
+      delete enrichInflight[key];
+    }
+
+    function failSoft() {
+      finish(
+        display,
+        "「" + display + "」——課文英文詞。點喇叭聽發音；可加進生字卡。",
+        ""
+      );
+    }
+
+    var q = encodeURIComponent(display);
+    var zhP = fetch(
+      "https://api.mymemory.translated.net/get?q=" + q + "&langpair=en|zh-TW"
+    )
+      .then(function (r) {
+        return r.json();
+      })
+      .then(function (data) {
+        var zh = ((data && data.responseData) || {}).translatedText || "";
+        if (!zh || /MYMEMORY WARNING/i.test(zh) || zh.trim().toLowerCase() === display.toLowerCase()) {
+          return "";
+        }
+        return zh.trim();
+      })
+      .catch(function () {
+        return "";
+      });
+
+    var defP = fetch(
+      "https://api.datamuse.com/words?sp=" + encodeURIComponent(key) + "&md=d&max=1"
+    )
+      .then(function (r) {
+        return r.json();
+      })
+      .then(function (arr) {
+        if (!arr || !arr[0] || !arr[0].defs || !arr[0].defs.length) return "";
+        var raw = String(arr[0].defs[0] || "");
+        // strip leading part-of-speech tag like "n\t"
+        return raw.replace(/^[a-z]+\t/, "").replace(/^[a-z]\t/, "").trim();
+      })
+      .catch(function () {
+        return "";
+      });
+
+    Promise.all([zhP, defP]).then(function (pair) {
+      var zh = pair[0] || "";
+      var enDef = pair[1] || "";
+      if (!zh && !enDef) {
+        failSoft();
+        return;
+      }
+      if (enDef && zh) {
+        // translate definition for gloss
+        fetch(
+          "https://api.mymemory.translated.net/get?q=" +
+            encodeURIComponent(enDef.slice(0, 280)) +
+            "&langpair=en|zh-TW"
+        )
+          .then(function (r) {
+            return r.json();
+          })
+          .then(function (data) {
+            var g =
+              ((data && data.responseData) || {}).translatedText || "";
+            if (!g || /MYMEMORY WARNING/i.test(g)) g = zh + "。" + enDef;
+            finish(zh, g, "");
+          })
+          .catch(function () {
+            finish(zh, zh + "。" + enDef, "");
+          });
+        return;
+      }
+      if (zh) {
+        finish(zh, "「" + display + "」意思：" + zh + "。", "");
+        return;
+      }
+      // only English def
+      finish(display, enDef, "");
+    });
+  }
+
+  function clearTermActive() {
+    var nodes = main.querySelectorAll("button.term.active");
+    for (var i = 0; i < nodes.length; i++) nodes[i].classList.remove("active");
+  }
+
+  function openSheet(vocab, gateId, termEl) {
     sheetTerm = { vocab: vocab, gateId: gateId || "" };
+    if (termEl && termEl.classList) {
+      clearTermActive();
+      termEl.classList.add("active");
+    }
     document.getElementById("sheet-term").textContent = vocab.term;
     document.getElementById("sheet-zh").textContent = vocab.zh || "";
     var ipa = document.getElementById("sheet-ipa");
@@ -454,12 +641,16 @@
     backdrop.hidden = false;
     sheet.hidden = false;
     sheet.focus();
+    if (vocab && vocab._needsEnrich) {
+      enrichVocab(vocab.term, gateId);
+    }
   }
 
   function closeSheet() {
     backdrop.hidden = true;
     sheet.hidden = true;
     sheetTerm = null;
+    clearTermActive();
   }
 
   function saveVocab() {
@@ -546,7 +737,7 @@
         break;
       }
     }
-    openSheet(findVocab(t.getAttribute("data-term"), gate), gateId);
+    openSheet(findVocab(t.getAttribute("data-term"), gate), gateId, t);
   });
 
   function clearedCount() {

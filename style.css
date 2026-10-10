@@ -164,14 +164,14 @@ h2 { font-size: 1.28rem; }
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
 }
 
+/* Tappable English: look like normal text until tapped (Readle-style). */
 button.term {
   display: inline;
   margin: 0;
   padding: 0 1px;
   min-height: 0;
-  border-radius: 0;
+  border-radius: 4px;
   border: none;
-  border-bottom: 1px dashed color-mix(in srgb, var(--accent) 40%, transparent);
   background: transparent;
   color: inherit;
   font: inherit;
@@ -180,18 +180,28 @@ button.term {
   vertical-align: baseline;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
-button.term.known {
-  color: var(--accent-2);
-  font-weight: 700;
-  border-bottom-width: 1.5px;
-  border-bottom-color: color-mix(in srgb, var(--accent) 55%, transparent);
-}
+button.term.known,
 button.term.word {
   color: inherit;
   font-weight: inherit;
+  border: none;
+  background: transparent;
 }
-button.term:hover, button.term:focus-visible { background: var(--soft); }
+button.term:hover, button.term:focus-visible {
+  background: transparent;
+  outline: none;
+}
+button.term.active {
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 0 3px;
+  box-shadow: none;
+}
 
 .study-card ul { margin: 8px 0 0; padding-left: 1.15em; }
 .study-card li { margin: 4px 0; }
@@ -310,32 +320,37 @@ button.term:hover, button.term:focus-visible { background: var(--soft); }
   margin: 0; font-size: 1.08rem; font-weight: 800; line-height: 1.35;
 }
 .bi-zh-title {
-  margin: 0; color: var(--accent-2); font-weight: 700; font-size: 1.02rem;
+  margin: 2px 0 0; color: #4f46e5; font-weight: 650; font-size: 1.0rem;
+  padding: 0; background: transparent; border: none;
+}
+@media (prefers-color-scheme: dark) {
+  .bi-zh-title { color: #a5b4fc; }
 }
 .bi-pair {
-  margin: 10px 0 0; padding: 10px 12px;
-  border-radius: 14px;
-  background: color-mix(in srgb, var(--soft) 70%, var(--card));
-  border: 1px solid var(--line);
+  margin: 12px 0 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
 }
-.bi-pair + .bi-pair { margin-top: 8px; }
+.bi-pair + .bi-pair { margin-top: 14px; }
 .bi-en {
-  margin: 0; font-weight: 650; line-height: 1.45;
+  margin: 0; font-weight: 650; line-height: 1.5;
 }
 .bi-zh {
-  margin: 4px 0 0; color: var(--muted); font-size: 0.95rem; line-height: 1.5;
+  margin: 4px 0 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #4f46e5;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+@media (prefers-color-scheme: dark) {
+  .bi-zh { color: #a5b4fc; }
 }
 .lang-pill {
-  display: inline-block;
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  padding: 1px 6px;
-  border-radius: 999px;
-  background: var(--soft);
-  color: var(--accent-2);
-  margin-right: 6px;
-  vertical-align: middle;
+  display: none; /* plain parallel lines — no EN/中 chips */
 }
 .vocab-row {
   display: flex; gap: 8px; align-items: flex-start; width: 100%;
@@ -437,15 +452,20 @@ a.gate-mini.locked { opacity: 0.72; }
 }
 .reader-pos-hint { margin: 0; flex: 1 1 120px; font-size: 0.88rem; }
 .reader-seg { margin: 0 0 0.35em; }
+/* Plain parallel zh under English — no quote/card boxes (like Open Readle). */
 .reader-zh {
-  margin: 0.15em 0 0.85em;
-  padding: 8px 12px;
-  border-radius: 12px;
-  background: color-mix(in srgb, var(--soft) 75%, var(--card));
-  border-left: 3px solid color-mix(in srgb, var(--accent) 45%, transparent);
-  color: var(--muted);
+  margin: 4px 0 0.85em;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  color: #4f46e5;
   font-size: 0.98rem;
-  line-height: 1.55;
+  line-height: 1.65;
+  font-family: system-ui, -apple-system, "PingFang HK", "PingFang TC", "Noto Sans TC", "Helvetica Neue", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  .reader-zh { color: #a5b4fc; }
 }
 .reader.hide-zh .reader-zh { display: none; }
 .reader-seg .reader-h { margin-bottom: 0.15em; }
