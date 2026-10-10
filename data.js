@@ -8465,8 +8465,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "eereee Ss...",
-                "zh": ""
+                "t": "Apoptosis: A normal cell; The cell shrinks, Chromatin condenses; Membrane starts blebbing, Organelles disintegrate; Nucleus and organelles collapse, Membrane continues to bleb; Apoptotic bodies form; Macrophages phagocytose; No inflammation.",
+                "zh": "細胞凋亡：正常細胞；細胞縮小、染色質凝集；細胞膜開始出泡、胞器解體；細胞核同胞器塌陷、出泡持續；形成凋亡小體；巨噬細胞吞噬；無炎症。"
               }
             ]
           }
@@ -11105,8 +11105,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "uw we’ No?",
-                "zh": "uwwe’no?"
+                "t": "The left path shows an enzyme joining two small substrates into one larger product; the right path shows the same enzyme breaking one larger substrate into two smaller products.",
+                "zh": "左邊顯示酶把兩件細底物合成一件大產物；右邊顯示同一酶把一件大底物分解成兩件細產物。"
               }
             ]
           }
@@ -11363,9 +11363,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Temperature (°C)",
-                "zh": "溫度（°C）"
+                "k": "p",
+                "t": "Temperature (°C); Enzyme activity.",
+                "zh": "溫度（°C）；酶活性。"
+              },
+              {
+                "k": "p",
+                "t": "Enzyme activity rises with temperature toward an optimum near body temperature (about 37–40°C), then falls sharply at higher temperatures as the enzyme denatures.",
+                "zh": "酶活性隨溫度上升，約喺體溫（約 37–40°C）附近達最高，之後因變性而急跌。"
               }
             ]
           }
@@ -11408,9 +11413,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "ACIDIC",
-                "zh": "酸性的"
+                "k": "p",
+                "t": "BASIC; NEUTRAL; ACIDIC; pH 0–14 (7 = neutral).",
+                "zh": "鹼性；中性；酸性；pH 0–14（7 為中性）。"
               }
             ]
           }
@@ -11985,13 +11990,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "<tillia,.",
-                "zh": "<tillia,."
+                "t": "Receptor; Control Center; Effector; Response; Negative feedback.",
+                "zh": "受體；控制中心；效應器；反應；負回饋。"
               },
               {
                 "k": "p",
-                "t": "iy JS",
-                "zh": ""
+                "t": "A deviation is detected by the receptor, processed by the control center, and corrected by the effector’s response; negative feedback then acts on the control center to restore balance.",
+                "zh": "偏差由受體偵測、經控制中心處理，再由效應器產生反應矯正；負回饋作用於控制中心，令系統回復平衡。"
               }
             ]
           }
@@ -12896,9 +12901,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "GAG g 789",
-                "zh": "（見英文）"
+                "k": "p",
+                "t": "Na+; Glucose; Concentration.",
+                "zh": "鈉離子（Na+）；葡萄糖；濃度。"
+              },
+              {
+                "k": "p",
+                "t": "Sodium moves down its concentration gradient into the cell and drives glucose into the cell against its concentration gradient through the same cotransporter.",
+                "zh": "鈉離子順濃度梯度進入細胞，驅動葡萄糖經同一協同運輸蛋白逆濃度梯度進入細胞。"
               }
             ]
           },
@@ -13092,8 +13102,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "(A) Endocytosis Outside of cell Cell membrane tiny QUT n ry Te SOI Ze, cul CT» The cell membrane surrounds Endocytotic vesicle Inside of cell a part of the exterior environment and buds off as an internal vesicle. (B) Exocytosis annua na UM ANU UUN UHHH aE TIM 2a) Ut gy Mini Secretory A vesicle fuses with the cell membrane. The vesicle contents of the vesicle are released, and its membrane becomes part of the cell membrane.",
-                "zh": "(A)內吞細胞作用細胞膜外微小的QUTnryTeSOIZe,CULCT»細胞膜圍繞內吞細胞囊泡細胞內部外部環境的一部分，並作為內部囊泡發芽。(B)ExocytosisannuanaUMANUUUNuhhhaETim2a)UtgyMini分泌A囊泡與細胞膜融合。囊泡的囊泡內容物被釋放，其膜成為細胞膜的一部分。"
+                "t": "(A) Endocytosis: Outside of cell; Cell membrane; Endocytotic vesicle; Inside of cell. (B) Exocytosis: Secretory vesicle; Outside of cell; Inside of cell.",
+                "zh": "(A) 胞吞：細胞外；細胞膜；胞吞囊泡；細胞內。(B) 胞吐：分泌囊泡；細胞外；細胞內。"
+              },
+              {
+                "k": "p",
+                "t": "In endocytosis, the cell membrane surrounds a part of the exterior environment and buds off as an internal vesicle. In exocytosis, a vesicle fuses with the cell membrane; the contents of the vesicle are released, and its membrane becomes part of the cell membrane.",
+                "zh": "胞吞時，細胞膜包裹細胞外一部分環境，內凹並夾斷成內部囊泡。胞吐時，分泌囊泡同細胞膜融合，內容物釋放到細胞外，囊泡膜併入細胞膜。"
               }
             ]
           }
@@ -14744,8 +14759,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "ww F YAN wees AL j Sito é NOSE IGG Sass",
-                "zh": ""
+                "t": "This diagram shows pulmonary and systemic circulation: deoxygenated blood (blue) is pumped from the right heart to the lungs, becomes oxygenated (red), returns to the left heart, and is then sent through capillary beds to the upper and lower body before returning to the right heart.",
+                "zh": "呢幅圖顯示肺循環同體循環：缺氧血（藍）由右心泵去肺交換氧氣後變為含氧血（紅），返左心，再經上下身嘅微血管床供應全身，最後回流右心。"
               }
             ]
           }
@@ -15110,8 +15125,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": ", | 1 Vorron FP Ch oon substances ey: —— iar ae White blood cells what: “Papp oe . Neutrophils Cty: e Lymphocytes =ormed eo és red blooe cells Eosinophils ..2=6.2 million 2%—-4% i 5 Basophils",
-                "zh": ",|1VorronFPChoonsubstancesey:——iarae白血球what:“Pappoe.嗜中性白血球Cty:e淋巴細胞=ormedeoésredblooecells嗜酸性白血球..2=620萬2%--4%i5嗜鹼性白血球"
+                "t": "Plasma 55%: Proteins 7% (Albumins 58%, Globulins 38%, Fibrinogen 4%); Water 91%; Other solutes 2% (Ions, Nutrients, Waste products, Gases, Regulatory substances). Buffy coat. Formed elements 45%: Platelets 250–400 thousand; White blood cells 5–10 thousand (Neutrophils 60%–70%, Lymphocytes 20%–25%, Monocytes 3%–8%, Eosinophils 2%–4%, Basophils 0.5%–1%); Red blood cells 4.2–6.2 million.",
+                "zh": "血漿 55%：蛋白質 7%（白蛋白 58%、球蛋白 38%、纖維蛋白原 4%）；水 91%；其他溶質 2%（離子、營養素、廢物、氣體、調節物質）。血沉棕黃層。有形成分 45%：血小板 25–40 萬；白血球 5–10 千（中性粒細胞 60%–70%、淋巴細胞 20%–25%、單核細胞 3%–8%、嗜酸性粒細胞 2%–4%、嗜鹼性粒細胞 0.5%–1%）；紅血球 420–620 萬。"
               }
             ]
           }
@@ -17520,9 +17535,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Diastole",
-                "zh": "舒張壓"
+                "k": "p",
+                "t": "Systole; Diastole; Entry from heart; Arteries; Exit via arterioles; Aortic or pulmonary valve.",
+                "zh": "收縮期；舒張期；由心臟進入；動脈；經小動脈離開；主動脈瓣或肺動脈瓣。"
               }
             ]
           },
@@ -17817,9 +17832,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "“Ngee ey ‘Vie",
-                "zh": "「Ngee ey ‘Vie"
+                "k": "p",
+                "t": "When blood pressure rises: BLOOD VESSELS — ↓ sympathetic activity → VASODILATION; HEART — ↑ parasympathetic activity, ↓ HR, ↓ force of cardiac contraction → ↓ CO; Blood pressure falls. When blood pressure falls: HEART — ↓ parasympathetic activity, ↑ HR, ↑ force of cardiac contraction → ↑ CO; BLOOD VESSELS — ↑ sympathetic activity → VASOCONSTRICTION; Blood pressure rises.",
+                "zh": "血壓上升時：血管 — 交感活性↓ → 血管舒張；心臟 — 副交感活性↑、心率↓、收縮力↓ → 心輸出量↓；血壓下降。血壓下降時：心臟 — 副交感活性↓、心率↑、收縮力↑ → 心輸出量↑；血管 — 交感活性↑ → 血管收縮；血壓上升。"
+              },
+              {
+                "k": "p",
+                "t": "These opposing pathways form a feedback loop that returns blood pressure toward a balanced set point.",
+                "zh": "呢兩條相反路徑形成回饋，令血壓返向平衡設定點。"
               }
             ]
           }
