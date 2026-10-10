@@ -6,13 +6,16 @@
 1. **讀全文** — Lecture 1 / 2 / 3，點英文睇解釋／發音／存生字
 2. **溫重點** — 21 關雙語筆記卡
 3. **測驗通關**
-4. **生字／複習** — SRS；可開 **雲端同步**
+4. **生字／複習** — SRS；**共用雲端庫**（Will 的 Drive）
 
-## 雲端同步
+## 雲端同步（共用庫）
 - 本機：`localStorage`（`hazelquiz-v1`）永遠保留作快取／離線
-- 線上：Google Apps Script → Drive 資料夾內 JSON（見 `sync/DEPLOY.md`）
-- 設定頁：`#/sync`（生字頁亦有入口）
+- 線上：Apps Script → Drive 檔 `hazelquiz-shared-bank.json`
+- 朋友**唔使登 Google**；Will 部署一次後把 `/exec` 寫入 `config.js`
+- 設定頁：`#/sync`（通常只須 Will 貼一次網址）
 - 另備 JSON 匯出／匯入
+
+見 `sync/DEPLOY.md`。
 
 ## 上架
 GitHub Pages：`gh-pages/` → https://will16667.github.io/hazelquiz/

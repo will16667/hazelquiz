@@ -1,5 +1,6 @@
-/* HazelQuiz cloud sync config (optional).
- * After deploying sync/Code.gs as an Apps Script web app, paste the /exec URL here
- * OR enter it in-app under 生字 → 同步設定 (saved in localStorage).
+/* HazelQuiz cloud sync — shared bank on Will's Drive.
+ * After Apps Script deploy, paste the Web App /exec URL below.
+ * Friends need NO Google login; data lands in hazelquiz-shared-bank.json.
  */
 window.HAZEL_SYNC_URL = window.HAZEL_SYNC_URL || "";
+window.HAZEL_SYNC_BANK = window.HAZEL_SYNC_BANK || "hazel";

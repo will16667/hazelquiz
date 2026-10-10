@@ -1,20 +1,27 @@
 /**
- * HazelQuiz Cloud Sync API
- * Store bank / progress / SRS JSON in the HazelQuiz Drive folder.
+ * HazelQuiz — shared cloud bank on Will's Drive
+ * One JSON file for Hazel (+ anyone with the Web App URL). No Google login for friends.
  *
- * Deploy: script.new → paste this file → Deploy → New deployment → Web app
- *   Execute as: Me
- *   Who has access: Anyone
- * Copy the /exec URL into HazelQuiz → 生字 → 雲端同步.
+ * Deploy once (Will's Google that owns the HazelQuiz Drive folder):
+ *   script.new → paste this → Deploy → Web app → Execute as Me → Anyone
+ * Copy the /exec URL into config.js as HAZEL_SYNC_URL (or #/sync once).
  *
- * Client sends text/plain JSON (avoids CORS preflight):
- *   { action: "pull"|"push"|"ping", user: "...", pin: "...", data?: object }
+ * File written: hazelquiz-shared-bank.json in FOLDER_ID
+ * Client POSTs text/plain JSON: { action: "pull"|"push"|"ping", bank?: "hazel", data? }
  */
 var FOLDER_ID = '11NyWbJ-unM4wU1HNoFp_Mj4HMWHBqG1F';
-var FILE_PREFIX = 'hazelquiz-sync-';
+var BANK_FILE = 'hazelquiz-shared-bank.json';
+var DEFAULT_BANK = 'hazel';
 
 function doGet(e) {
-  return json_({ ok: true, app: 'HazelQuiz', version: 1, hint: 'POST JSON {action,user,pin,data}' });
+  return json_({
+    ok: true,
+    app: 'HazelQuiz',
+    version: 2,
+    mode: 'shared-bank',
+    file: BANK_FILE,
+    hint: 'POST text/plain JSON {action:"pull"|"push"|"ping", bank:"hazel", data?}',
+  });
 }
 
 function doPost(e) {
@@ -24,18 +31,27 @@ function doPost(e) {
       body = JSON.parse(e.postData.contents);
     }
     var action = String(body.action || '').toLowerCase();
-    var user = normalizeUser_(body.user);
-    var pin = String(body.pin || '');
-    if (!user) return json_({ ok: false, error: 'missing_user' });
-    if (pin.length < 4) return json_({ ok: false, error: 'pin_too_short' });
+    var bank = normalizeBank_(body.bank || body.user || DEFAULT_BANK);
 
-    var key = storageKey_(user, pin);
     if (action === 'ping') {
-      return json_({ ok: true, user: user, key: key.slice(0, 8) });
+      return json_({ ok: true, bank: bank, file: BANK_FILE });
     }
     if (action === 'pull') {
-      var raw = readSyncFile_(key);
-      return json_({ ok: true, user: user, data: raw ? JSON.parse(raw) : null, updatedAt: raw ? null : null });
+      var raw = readBank_();
+      var data = null;
+      if (raw) {
+        try {
+          data = JSON.parse(raw);
+        } catch (parseErr) {
+          return json_({ ok: false, error: 'corrupt_bank' });
+        }
+      }
+      return json_({
+        ok: true,
+        bank: bank,
+        data: data,
+        updatedAt: data && data.updatedAt ? data.updatedAt : null,
+      });
     }
     if (action === 'push') {
       if (!body.data || typeof body.data !== 'object') {
@@ -43,9 +59,10 @@ function doPost(e) {
       }
       var payload = body.data;
       payload.updatedAt = Date.now();
-      payload.user = user;
-      writeSyncFile_(key, JSON.stringify(payload));
-      return json_({ ok: true, user: user, updatedAt: payload.updatedAt });
+      payload.bank = bank;
+      payload.v = payload.v || 1;
+      writeBank_(JSON.stringify(payload));
+      return json_({ ok: true, bank: bank, updatedAt: payload.updatedAt, file: BANK_FILE });
     }
     return json_({ ok: false, error: 'unknown_action' });
   } catch (err) {
@@ -53,54 +70,36 @@ function doPost(e) {
   }
 }
 
-function normalizeUser_(u) {
-  return String(u || '')
+function normalizeBank_(u) {
+  var s = String(u || DEFAULT_BANK)
     .trim()
     .toLowerCase()
-    .replace(/\s+/g, '')
-    .slice(0, 64);
-}
-
-function storageKey_(user, pin) {
-  var raw = user + '|' + pin + '|hazelquiz-v1';
-  var digest = Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, raw);
-  return FILE_PREFIX + toHex_(digest);
-}
-
-function toHex_(bytes) {
-  var out = [];
-  for (var i = 0; i < bytes.length; i++) {
-    var b = bytes[i];
-    if (b < 0) b += 256;
-    var h = b.toString(16);
-    out.push(h.length === 1 ? '0' + h : h);
-  }
-  return out.join('');
+    .replace(/[^a-z0-9_-]/g, '')
+    .slice(0, 32);
+  return s || DEFAULT_BANK;
 }
 
 function folder_() {
   return DriveApp.getFolderById(FOLDER_ID);
 }
 
-function findFile_(name) {
-  var it = folder_().getFilesByName(name);
+function findBankFile_() {
+  var it = folder_().getFilesByName(BANK_FILE);
   return it.hasNext() ? it.next() : null;
 }
 
-function readSyncFile_(key) {
-  var name = key + '.json';
-  var f = findFile_(name);
+function readBank_() {
+  var f = findBankFile_();
   if (!f) return null;
   return f.getBlob().getDataAsString('UTF-8');
 }
 
-function writeSyncFile_(key, text) {
-  var name = key + '.json';
-  var f = findFile_(name);
-  var blob = Utilities.newBlob(text, 'application/json', name);
+function writeBank_(text) {
+  var f = findBankFile_();
   if (f) {
     f.setContent(text);
   } else {
+    var blob = Utilities.newBlob(text, 'application/json', BANK_FILE);
     folder_().createFile(blob);
   }
 }

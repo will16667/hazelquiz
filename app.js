@@ -111,9 +111,10 @@
 
   var state = loadState();
 
-  /* ---- Cloud sync (Apps Script) ---- */
+  /* ---- Cloud sync: shared bank on Will's Drive (Apps Script) ---- */
   var SYNC_CFG_KEY = "hazelquiz-sync-cfg";
   var DEFAULT_SYNC_URL = (window.HAZEL_SYNC_URL || "").trim();
+  var DEFAULT_BANK = (window.HAZEL_SYNC_BANK || "hazel").trim() || "hazel";
   var cloudReady = false;
   var cloudPending = false;
   var cloudTimer = null;
@@ -127,11 +128,10 @@
       var cfg = raw ? JSON.parse(raw) : {};
       return {
         url: String(cfg.url || DEFAULT_SYNC_URL || "").trim(),
-        user: String(cfg.user || "").trim(),
-        pin: String(cfg.pin || "").trim(),
+        bank: String(cfg.bank || DEFAULT_BANK || "hazel").trim() || "hazel",
       };
     } catch (e) {
-      return { url: DEFAULT_SYNC_URL || "", user: "", pin: "" };
+      return { url: DEFAULT_SYNC_URL || "", bank: DEFAULT_BANK };
     }
   }
 
@@ -140,15 +140,14 @@
       SYNC_CFG_KEY,
       JSON.stringify({
         url: String(cfg.url || "").trim(),
-        user: String(cfg.user || "").trim(),
-        pin: String(cfg.pin || "").trim(),
+        bank: String(cfg.bank || DEFAULT_BANK || "hazel").trim() || "hazel",
       })
     );
   }
 
   function syncConfigured() {
     var c = loadSyncCfg();
-    return !!(c.url && c.user && c.pin && c.pin.length >= 4);
+    return !!(c.url && /^https?:\/\//i.test(c.url));
   }
 
   function updateSyncStatus() {
@@ -176,7 +175,7 @@
     el.className = cls;
     el.textContent = label;
     el.href = "#/sync";
-    el.title = syncError || "雲端同步設定";
+    el.title = syncError || "雲端同步（共用生字庫）";
   }
 
   function touchBankItem(item) {
@@ -238,13 +237,12 @@
 
   function cloudFetch(action, data) {
     var cfg = loadSyncCfg();
-    if (!cfg.url || !cfg.user || !cfg.pin) {
+    if (!cfg.url) {
       return Promise.reject(new Error("not_configured"));
     }
     var payload = {
       action: action,
-      user: cfg.user,
-      pin: cfg.pin,
+      bank: cfg.bank || DEFAULT_BANK,
     };
     if (data) payload.data = data;
     return fetch(cfg.url, {
@@ -986,7 +984,7 @@
       note.textContent =
         "已儲存 · 下次複習 " +
         state.bank[key].due +
-        (syncConfigured() ? " · 會同步到雲端" : " · 而家只存本機（可去同步設定開線上）");
+        (syncConfigured() ? " · 會同步到 Drive 共用庫" : " · 而家只存本機（可去同步開線上）");
     } else {
       note.hidden = true;
     }
@@ -1667,15 +1665,15 @@
       '<div class="card sync-card">' +
       '<div class="sync-row"><strong>雲端同步</strong> ' +
       (syncConfigured()
-        ? '<span class="sync-inline synced">線上儲存已開 · ' + escapeHtml(cfg.user) + "</span>"
-        : '<span class="sync-inline setup">未設定（而家只存呢部機）</span>') +
+        ? '<span class="sync-inline synced">共用庫已開 · ' + escapeHtml(cfg.bank || "hazel") + "</span>"
+        : '<span class="sync-inline setup">未開（而家只存呢部機）</span>') +
       '</div>' +
       '<div class="gate-actions sync-actions">' +
-      '<a class="primary" href="#/sync">同步設定</a>' +
+      '<a class="primary" href="#/sync">同步</a>' +
       '<button type="button" class="ghost" id="btn-export">匯出備份</button>' +
       '<label class="ghost file-btn">匯入<input type="file" id="btn-import" accept="application/json,.json" hidden /></label>' +
       "</div>" +
-      '<p class="hint">開咗雲端之後，生字／關卡進度／複習進度會自動上線；無網都可繼續用本機。</p>' +
+      '<p class="hint">生字庫存喺 Will 嘅 Google Drive；朋友唔使登 Google。無網都可用本機快取。</p>' +
       "</div>";
     if (!keys.length) {
       html +=
@@ -1731,32 +1729,33 @@
   function renderSync() {
     setNav("bank");
     var cfg = loadSyncCfg();
+    var urlLocked = !!(DEFAULT_SYNC_URL && cfg.url === DEFAULT_SYNC_URL);
     main.innerHTML =
-      '<p class="kicker">雲端</p><h2>線上同步設定</h2>' +
-      '<p class="lede">生字、關卡通關、閱讀進度、SRS 複習會存上 Google Drive（HazelQuiz 專用），換機一樣攞得返。本機仍然有快取，無網都用得。</p>' +
+      '<p class="kicker">雲端</p><h2>共用生字庫</h2>' +
+      '<p class="lede">生字／關卡／複習進度寫入 Will 嘅 Google Drive（檔案 <code>hazelquiz-shared-bank.json</code>）。朋友<strong>唔使登入 Google</strong>；開網站就會自動同步。本機仍有快取。</p>' +
       '<div class="card">' +
-      '<label class="field"><span>同步代號</span>' +
-      '<input id="sync-user" type="text" autocomplete="username" placeholder="例如 hazel 或電郵" value="' +
-      escapeHtml(cfg.user) +
-      '" /></label>' +
-      '<label class="field"><span>PIN（至少 4 位）</span>' +
-      '<input id="sync-pin" type="password" autocomplete="current-password" inputmode="numeric" placeholder="兩部機要用同一個" value="' +
-      escapeHtml(cfg.pin) +
-      '" /></label>' +
-      '<label class="field"><span>Apps Script 網址（/exec）</span>' +
-      '<input id="sync-url" type="url" placeholder="https://script.google.com/macros/s/…/exec" value="' +
-      escapeHtml(cfg.url) +
-      '" /></label>' +
-      '<p class="hint">首次要 Will 喺 Google 部署一次 sync/Code.gs（見 Drive 資料夾說明）。之後貼 /exec 連結到呢度。兩部裝置用<strong>同一個代號＋PIN</strong>就會合併。</p>' +
+      (urlLocked
+        ? '<p class="hint">已內建同步網址 · 庫名 <strong>' +
+          escapeHtml(cfg.bank || "hazel") +
+          "</strong>。撳下面即可同步。</p>"
+        : '<label class="field"><span>Apps Script 網址（/exec）— 只需 Will 貼一次</span>' +
+          '<input id="sync-url" type="url" placeholder="https://script.google.com/macros/s/…/exec" value="' +
+          escapeHtml(cfg.url) +
+          '" /></label>' +
+          '<p class="hint">部署見 Drive 資料夾 <code>HazelQuiz-Sync-DEPLOY.md</code>。貼完之後朋友開網站就得，唔使填 PIN／登入。</p>') +
       '<div class="gate-actions">' +
-      '<button type="button" class="primary" id="sync-save">儲存並同步</button>' +
-      '<button type="button" class="ghost" id="sync-now">立即同步</button>' +
+      (urlLocked
+        ? ""
+        : '<button type="button" class="primary" id="sync-save">儲存並同步</button>') +
+      '<button type="button" class="primary" id="sync-now">' +
+      (urlLocked ? "立即同步" : "立即同步") +
+      "</button>" +
       '<a class="ghost" href="#/bank">返回生字</a>' +
       "</div>" +
       '<p class="hint" id="sync-msg"></p>' +
       "</div>" +
       '<div class="card">' +
-      '<h3 class="sync-h3">備份</h3>' +
+      '<h3 class="sync-h3">本機備份</h3>' +
       '<div class="gate-actions">' +
       '<button type="button" class="ghost" id="sync-export">匯出 JSON</button>' +
       '<label class="ghost file-btn">匯入 JSON<input type="file" id="sync-import" accept="application/json,.json" hidden /></label>' +
@@ -1769,33 +1768,47 @@
       el.style.color = ok ? "var(--ok)" : "var(--bad)";
     }
 
-    document.getElementById("sync-save").addEventListener("click", function () {
+    function startSync(url) {
       var next = {
-        user: document.getElementById("sync-user").value.trim(),
-        pin: document.getElementById("sync-pin").value.trim(),
-        url: document.getElementById("sync-url").value.trim(),
+        url: (url || cfg.url || "").trim(),
+        bank: DEFAULT_BANK,
       };
-      if (!next.user) return msg("請填同步代號", false);
-      if (next.pin.length < 4) return msg("PIN 至少 4 位", false);
       if (!next.url || next.url.indexOf("http") !== 0) return msg("請貼 Apps Script /exec 網址", false);
       saveSyncCfg(next);
       syncGen += 1;
       cloudReady = false;
       cloudPending = true;
-      msg("已儲存，正在同步…", true);
+      msg("正在同步到 Drive…", true);
       updateSyncStatus();
       pullCloud();
       setTimeout(function () {
         updateSyncStatus();
-        if (syncStatus === "synced") msg("已同步到雲端 ✓", true);
+        if (syncStatus === "synced") msg("已同步到雲端 ✓（hazelquiz-shared-bank.json）", true);
         else if (syncStatus === "error") msg("同步失敗：" + (syncError || "請檢查網址／授權"), false);
-      }, 1200);
-    });
+      }, 1500);
+    }
+
+    var saveBtn = document.getElementById("sync-save");
+    if (saveBtn) {
+      saveBtn.addEventListener("click", function () {
+        var input = document.getElementById("sync-url");
+        startSync(input ? input.value.trim() : "");
+      });
+    }
     document.getElementById("sync-now").addEventListener("click", function () {
-      if (!syncConfigured()) return msg("請先儲存設定", false);
+      if (!syncConfigured() && !urlLocked) {
+        var input = document.getElementById("sync-url");
+        return startSync(input ? input.value.trim() : "");
+      }
+      if (!syncConfigured()) return msg("尚未設定同步網址", false);
       cloudPending = true;
       pullCloud();
       msg("同步中…", true);
+      setTimeout(function () {
+        updateSyncStatus();
+        if (syncStatus === "synced") msg("已同步 ✓", true);
+        else if (syncStatus === "error") msg("同步失敗：" + (syncError || ""), false);
+      }, 1500);
     });
     document.getElementById("sync-export").addEventListener("click", exportStateFile);
     document.getElementById("sync-import").addEventListener("change", function (e) {
