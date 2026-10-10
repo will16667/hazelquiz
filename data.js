@@ -5450,9 +5450,79 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "BODY ORGAN SYSTEM",
+                "zh": "身體器官系統"
+              },
+              {
                 "k": "p",
-                "t": "This figure shows the body organ system. The brain is the control centre of the body and includes the frontal, parietal, occipital, and temporal lobes plus the cerebellum. The lungs help us breathe; air passes through the trachea and carina into the bronchi of the right and left lobes. The heart pumps blood around the body through vessels such as the aorta and the superior and inferior vena cava. The liver cleans the blood and includes right and left lobes with the gallbladder beneath it. The stomach helps break down food, receiving material from the esophagus and passing it to the duodenum. The intestine helps digest food and includes structures such as the cecum, appendix, and anus. The kidneys help filter waste from the body; urine travels through the ureters to the urinary bladder.",
-                "zh": "呢幅圖展示身體器官系統。腦係身體嘅控制中心，包括額葉、頂葉、枕葉、顳葉同小腦。肺幫助呼吸，空氣經氣管同氣管隆突進入左右肺葉嘅支氣管。心臟透過主動脈同上下腔靜脈等血管，將血液泵送全身。肝臟清潔血液，分左右葉，下方有膽囊。胃負責初步分解食物，接收來自食管嘅內容物，再送入十二指腸。腸道幫助消化食物，包括盲腸、闌尾同肛門等結構。腎臟幫助過濾體內廢物，尿液經輸尿管流入膀胱。"
+                "t": "BRAIN — Frontal Lobe, Parietal Lobe, Occipital Lobe, Temporal Lobe, Cerebellum.",
+                "zh": "腦 — 額葉、頂葉、枕葉、顳葉、小腦。"
+              },
+              {
+                "k": "p",
+                "t": "Control centre of the body.",
+                "zh": "身體嘅控制中心。"
+              },
+              {
+                "k": "p",
+                "t": "LUNGS — Trachea, Carina, Bronchus, Right Lobe, Left Lobe.",
+                "zh": "肺 — 氣管、氣管隆突、支氣管、右肺葉、左肺葉。"
+              },
+              {
+                "k": "p",
+                "t": "Helps to breathe.",
+                "zh": "幫助呼吸。"
+              },
+              {
+                "k": "p",
+                "t": "HEART — Superior Vena Cava, Aorta, Inferior Vena Cava.",
+                "zh": "心 — 上腔靜脈、主動脈、下腔靜脈。"
+              },
+              {
+                "k": "p",
+                "t": "Pumps blood around the body.",
+                "zh": "將血液泵送到全身。"
+              },
+              {
+                "k": "p",
+                "t": "LIVER — Right Lobe, Left Lobe, Gallbladder.",
+                "zh": "肝 — 右葉、左葉、膽囊。"
+              },
+              {
+                "k": "p",
+                "t": "Cleans the blood.",
+                "zh": "清理血液。"
+              },
+              {
+                "k": "p",
+                "t": "STOMACH — Esophagus, Duodenum.",
+                "zh": "胃 — 食道、十二指腸。"
+              },
+              {
+                "k": "p",
+                "t": "Helps in the breakage of food.",
+                "zh": "幫助分解食物。"
+              },
+              {
+                "k": "p",
+                "t": "KIDNEYS — Aorta, Right Kidney, Left Kidney, Ureter, Urinary Bladder.",
+                "zh": "腎 — 主動脈、右腎、左腎、輸尿管、膀胱。"
+              },
+              {
+                "k": "p",
+                "t": "Helps filter the waste material out from the body.",
+                "zh": "幫助過濾體內廢物。"
+              },
+              {
+                "k": "p",
+                "t": "INTESTINE — Cecum, Appendix, Anus.",
+                "zh": "腸 — 盲腸、闌尾、肛門。"
+              },
+              {
+                "k": "p",
+                "t": "Helps in the digestion of food.",
+                "zh": "幫助消化食物。"
               }
             ]
           },
@@ -6155,9 +6225,49 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "From amino acids to protein",
+                "zh": "由氨基酸到蛋白質"
+              },
+              {
                 "k": "p",
-                "t": "This figure shows how proteins are built, from amino acids to a folded protein. Amino acids are the building blocks: each is an individual molecule with an amino group, a carboxyl group, and a variable side chain. A peptide is a short chain of amino acids linked by peptide bonds. A polypeptide is a longer chain of amino acids also connected by peptide bonds. A protein is one or more polypeptide chains folded into a specific three-dimensional structure that carries out a function.",
-                "zh": "呢幅圖說明蛋白質點樣由氨基酸組成，再摺疊成有功能嘅結構。氨基酸係基本組件：每粒分子都有氨基、羧基同可變側鏈。肽係由肽鍵連接嘅短氨基酸鏈。多肽係同樣由肽鍵連接、但更長嘅氨基酸鏈。蛋白質則係一條或多條多肽鏈摺疊成特定三維結構，從而發揮功能。"
+                "t": "Amino acids — The building blocks",
+                "zh": "氨基酸 — 基本組件"
+              },
+              {
+                "k": "p",
+                "t": "Amino acids are individual molecules with an amino group, a carboxyl group, and a variable side chain.",
+                "zh": "氨基酸係獨立分子，有氨基、羧基同可變側鏈。"
+              },
+              {
+                "k": "p",
+                "t": "Peptide — A short chain of amino acids; Peptide bonds",
+                "zh": "肽 — 短氨基酸鏈；肽鍵"
+              },
+              {
+                "k": "p",
+                "t": "A peptide is a short chain of amino acids linked by peptide bonds.",
+                "zh": "肽係由肽鍵連接嘅短氨基酸鏈。"
+              },
+              {
+                "k": "p",
+                "t": "Polypeptide — A longer chain of amino acids",
+                "zh": "多肽 — 較長氨基酸鏈"
+              },
+              {
+                "k": "p",
+                "t": "A polypeptide is a longer chain of amino acids connected by peptide bonds.",
+                "zh": "多肽係由肽鍵連接、較長嘅氨基酸鏈。"
+              },
+              {
+                "k": "p",
+                "t": "Protein — A folded, functional 3D structure",
+                "zh": "蛋白質 — 摺疊後有功能嘅立體結構"
+              },
+              {
+                "k": "p",
+                "t": "A protein is one or more polypeptide chains folded into a specific 3D structure that carries out a function.",
+                "zh": "蛋白質係一條或多條多肽鏈摺疊成特定立體結構，發揮功能。"
               }
             ]
           },
@@ -6166,7 +6276,28 @@ window.HAZEL_LECTURES = [
             "w": 506,
             "h": 316,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Amino acid structure",
+                "zh": "氨基酸結構"
+              },
+              {
+                "k": "p",
+                "t": "Amino group (—NH₂)",
+                "zh": "氨基（—NH₂）"
+              },
+              {
+                "k": "p",
+                "t": "Central carbon with H and Side chain (R)",
+                "zh": "中心碳，連 H 同側鏈（R）"
+              },
+              {
+                "k": "p",
+                "t": "Carboxyl group (—COOH)",
+                "zh": "羧基（—COOH）"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p012-03.webp",
@@ -8783,7 +8914,7 @@ window.HAZEL_LECTURES = [
             "w": 715,
             "h": 411,
             "kind": "embed",
-                        "blocks": [
+            "blocks": [
               {
                 "k": "p",
                 "t": "PROPHASE; METAPHASE.",
@@ -8889,7 +9020,7 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 331,
             "kind": "embed",
-                        "blocks": [
+            "blocks": [
               {
                 "k": "p",
                 "t": "MITOSIS; MEIOSIS; DNA replication; Mitosis; Two diploid cells; Interphase; Homologous Chromosomes; Meiosis I; Daughter Nuclei; Meiosis II; Daughter Nuclei II.",
@@ -8902,7 +9033,7 @@ window.HAZEL_LECTURES = [
             "w": 600,
             "h": 420,
             "kind": "embed",
-                        "blocks": [
+            "blocks": [
               {
                 "k": "p",
                 "t": "Mitosis; Meiosis; Parent cell; DNA replicates; 2 daughter cells; 4 daughter cells; U.S. National Library of Medicine.",
@@ -8957,7 +9088,7 @@ window.HAZEL_LECTURES = [
             "w": 855,
             "h": 855,
             "kind": "embed",
-                        "blocks": [
+            "blocks": [
               {
                 "k": "p",
                 "t": "Normal cell; Necrosis: Cell death after injury; Apoptosis: Programmed death of cells; Cell swelling; Cell disruption; Inflammatory response; Antibodies; Nuclear fragment; Cell debris; Apoptotic bodies; Phagocyte.",
@@ -11561,7 +11692,7 @@ window.HAZEL_LECTURES = [
             "w": 624,
             "h": 843,
             "kind": "embed",
-                        "blocks": [
+            "blocks": [
               {
                 "k": "p",
                 "t": "anabolic reaction; energy; smaller molecules; larger molecule.",
@@ -11579,7 +11710,7 @@ window.HAZEL_LECTURES = [
             "w": 963,
             "h": 514,
             "kind": "embed",
-                        "blocks": [
+            "blocks": [
               {
                 "k": "p",
                 "t": "Stages of Anabolism:; Production of the precursor; Energy (ATP) consumption; Complex molecule formation; nucleotides; DNA.",
@@ -11665,7 +11796,7 @@ window.HAZEL_LECTURES = [
             "w": 967,
             "h": 668,
             "kind": "embed",
-                        "blocks": [
+            "blocks": [
               {
                 "k": "p",
                 "t": "Enzyme as Catalyst; Substrate (reactant); Enzyme; Enzyme-substrate Complex; Products; Enzyme + product.",
@@ -11683,7 +11814,7 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 606,
             "kind": "embed",
-                        "blocks": [
+            "blocks": [
               {
                 "k": "p",
                 "t": "Enzymes Function: How They Work; Sucrose; Enzyme; Glucose; Fructose.",
