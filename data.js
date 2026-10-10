@@ -6451,9 +6451,19 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Denaturation",
+                "zh": "變性"
+              },
+              {
+                "k": "h",
+                "t": "Renaturation",
+                "zh": "復性"
+              },
+              {
                 "k": "p",
-                "t": "This figure shows denaturation and renaturation. On the left, the molecule is in its folded native form; on the right, the strands are unfolded and separated. Denaturation is the change from the folded state to the unfolded state, and renaturation is the reverse process that restores the original folded structure.",
-                "zh": "呢幅圖說明變性（denaturation）同復性（renaturation）。左邊係摺疊嘅天然構形，右邊係鬆開、分開嘅鏈。變性係由摺疊變為展開；復性則係逆向過程，令分子回復原來嘅摺疊結構。"
+                "t": "Denaturation unfolds the native structure; renaturation restores the folded form when conditions allow.",
+                "zh": "變性令天然摺疊結構打開；條件回復時，復性可令分子重新摺疊。"
               }
             ]
           },
