@@ -5443,7 +5443,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p005-01.webp",
-            "w": 768, "h": 1080,
+            "w": 768,
+            "h": 1080,
             "kind": "embed",
             "blocks": [
               {
@@ -5875,7 +5876,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p008-01.webp",
-            "w": 1000, "h": 414,
+            "w": 1000,
+            "h": 414,
             "kind": "embed",
             "blocks": [
               {
@@ -6269,7 +6271,8 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L1/p012-02.webp",
-            "w": 374, "h": 237,
+            "w": 374,
+            "h": 237,
             "kind": "embed",
             "blocks": [
               {
@@ -6441,7 +6444,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p014-01.webp",
-            "w": 1000, "h": 338,
+            "w": 1000,
+            "h": 338,
             "kind": "embed",
             "blocks": [
               {
@@ -6772,7 +6776,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p018-03.webp",
-            "w": 387, "h": 387,
+            "w": 387,
+            "h": 387,
             "kind": "embed",
             "blocks": [
               {
@@ -6892,7 +6897,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p019-01.webp",
-            "w": 736, "h": 819,
+            "w": 736,
+            "h": 819,
             "kind": "embed",
             "blocks": [
               {
@@ -7347,7 +7353,8 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L1/p024-03.webp",
-            "w": 401, "h": 273,
+            "w": 401,
+            "h": 273,
             "kind": "embed",
             "blocks": [
               {
@@ -7862,7 +7869,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p029-01.webp",
-            "w": 1000, "h": 492,
+            "w": 1000,
+            "h": 492,
             "kind": "embed",
             "blocks": [
               {
@@ -8152,7 +8160,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p033-01.webp",
-            "w": 895, "h": 469,
+            "w": 895,
+            "h": 469,
             "kind": "embed",
             "blocks": []
           }
@@ -8185,7 +8194,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p034-01.webp",
-            "w": 1000, "h": 494,
+            "w": 1000,
+            "h": 494,
             "kind": "embed",
             "blocks": []
           }
@@ -8243,7 +8253,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p035-01.webp",
-            "w": 712, "h": 292,
+            "w": 712,
+            "h": 292,
             "kind": "embed",
             "blocks": [
               {
@@ -8914,7 +8925,8 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L1/p042-02.webp",
-            "w": 529, "h": 331,
+            "w": 529,
+            "h": 331,
             "kind": "embed",
             "blocks": []
           }
@@ -9448,7 +9460,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L1/p048-02.webp",
-            "w": 524, "h": 304,
+            "w": 524,
+            "h": 304,
             "kind": "embed",
             "blocks": [
               {
@@ -12219,7 +12232,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p006-01.webp",
-            "w": 1000, "h": 477,
+            "w": 1000,
+            "h": 477,
             "kind": "embed",
             "blocks": [
               {
@@ -12921,7 +12935,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p016-01.webp",
-            "w": 1000, "h": 569,
+            "w": 1000,
+            "h": 569,
             "kind": "embed",
             "blocks": [
               {
@@ -12990,7 +13005,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p017-02.webp",
-            "w": 1000, "h": 339,
+            "w": 1000,
+            "h": 339,
             "kind": "embed",
             "blocks": [
               {
@@ -13057,7 +13073,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p018-01.webp",
-            "w": 838, "h": 1038,
+            "w": 838,
+            "h": 1038,
             "kind": "embed",
             "blocks": [
               {
@@ -13833,7 +13850,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p029-01.webp",
-            "w": 795, "h": 1036,
+            "w": 795,
+            "h": 1036,
             "kind": "embed",
             "blocks": [
               {
@@ -13993,60 +14011,61 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p033-01.webp",
-            "w": 1000, "h": 883,
+            "w": 1000,
+            "h": 883,
             "kind": "embed",
             "blocks": [
-                        {
-                          "k": "h",
-                          "t": "FIGURE 1.6 Negative feedback control of blood pressure",
-                          "zh": "圖 1.6 血壓嘅負回饋控制"
-                        },
-                        {
-                          "k": "p",
-                          "t": "Legend: Sensor; Integrating center; Effector",
-                          "zh": "圖例：感應器；整合中心；效應器"
-                        },
-                        {
-                          "k": "p",
-                          "t": "Lying down → Standing up",
-                          "zh": "躺低 → 企起"
-                        },
-                        {
-                          "k": "p",
-                          "t": "1. Blood pressure falls (Stimulus)",
-                          "zh": "1. 血壓下降（刺激）"
-                        },
-                        {
-                          "k": "p",
-                          "t": "2. Blood pressure receptors respond (Sensor)",
-                          "zh": "2. 血壓受體反應（感應器）"
-                        },
-                        {
-                          "k": "p",
-                          "t": "Sensory nerve fibers → Medulla oblongata of brain (Integrating center)",
-                          "zh": "感覺神經纖維 → 延髓（整合中心）"
-                        },
-                        {
-                          "k": "p",
-                          "t": "Motor nerve fibers → Heart (Effector)",
-                          "zh": "運動神經纖維 → 心臟（效應器）"
-                        },
-                        {
-                          "k": "p",
-                          "t": "3. Heart rate increases",
-                          "zh": "3. 心率加快"
-                        },
-                        {
-                          "k": "p",
-                          "t": "4. Rise in blood pressure (Negative feedback response)",
-                          "zh": "4. 血壓回升（負回饋反應）"
-                        },
-                        {
-                          "k": "p",
-                          "t": "FIGURE 1.6 Negative feedback control of blood pressure. Blood pressure influences the activity of sensory neurons from the blood pressure receptors (sensors); a rise in pressure increases the firing rate, and a fall in pressure decreases the firing rate of nerve impulses. When a person stands up from a lying-down position, the blood pressure momentarily falls. The resulting decreased firing rate of nerve impulses in sensory neurons affects the medulla oblongata of the brain (the integrating center). This causes the motor nerves to the heart (effector) to increase the heart rate, helping to raise the blood pressure.",
-                          "zh": "圖 1.6 血壓嘅負回饋控制。血壓會影響血壓感受器（感應器）感覺神經元嘅活動；壓力上升會加快發放頻率，壓力下降會減慢神經衝動發放頻率。當人由躺低轉企起，血壓會短暫下降。感覺神經元發放頻率因而減少，影響腦嘅延髓（整合中心）。呢個令通往心臟（效應器）嘅運動神經加快心率，幫助血壓回升。"
-                        }
-                      ]
+              {
+                "k": "h",
+                "t": "FIGURE 1.6 Negative feedback control of blood pressure",
+                "zh": "圖 1.6 血壓嘅負回饋控制"
+              },
+              {
+                "k": "p",
+                "t": "Legend: Sensor; Integrating center; Effector",
+                "zh": "圖例：感應器；整合中心；效應器"
+              },
+              {
+                "k": "p",
+                "t": "Lying down → Standing up",
+                "zh": "躺低 → 企起"
+              },
+              {
+                "k": "p",
+                "t": "1. Blood pressure falls (Stimulus)",
+                "zh": "1. 血壓下降（刺激）"
+              },
+              {
+                "k": "p",
+                "t": "2. Blood pressure receptors respond (Sensor)",
+                "zh": "2. 血壓受體反應（感應器）"
+              },
+              {
+                "k": "p",
+                "t": "Sensory nerve fibers → Medulla oblongata of brain (Integrating center)",
+                "zh": "感覺神經纖維 → 延髓（整合中心）"
+              },
+              {
+                "k": "p",
+                "t": "Motor nerve fibers → Heart (Effector)",
+                "zh": "運動神經纖維 → 心臟（效應器）"
+              },
+              {
+                "k": "p",
+                "t": "3. Heart rate increases",
+                "zh": "3. 心率加快"
+              },
+              {
+                "k": "p",
+                "t": "4. Rise in blood pressure (Negative feedback response)",
+                "zh": "4. 血壓回升（負回饋反應）"
+              },
+              {
+                "k": "p",
+                "t": "FIGURE 1.6 Negative feedback control of blood pressure. Blood pressure influences the activity of sensory neurons from the blood pressure receptors (sensors); a rise in pressure increases the firing rate, and a fall in pressure decreases the firing rate of nerve impulses. When a person stands up from a lying-down position, the blood pressure momentarily falls. The resulting decreased firing rate of nerve impulses in sensory neurons affects the medulla oblongata of the brain (the integrating center). This causes the motor nerves to the heart (effector) to increase the heart rate, helping to raise the blood pressure.",
+                "zh": "圖 1.6 血壓嘅負回饋控制。血壓會影響血壓感受器（感應器）感覺神經元嘅活動；壓力上升會加快發放頻率，壓力下降會減慢神經衝動發放頻率。當人由躺低轉企起，血壓會短暫下降。感覺神經元發放頻率因而減少，影響腦嘅延髓（整合中心）。呢個令通往心臟（效應器）嘅運動神經加快心率，幫助血壓回升。"
+              }
+            ]
           }
         ]
       },
@@ -14113,7 +14132,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p035-04.webp",
-            "w": 575, "h": 363,
+            "w": 575,
+            "h": 363,
             "kind": "embed",
             "blocks": []
           },
@@ -14137,7 +14157,8 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L2/p035-01.webp",
-            "w": 1000, "h": 561,
+            "w": 1000,
+            "h": 561,
             "kind": "embed",
             "blocks": [
               {
@@ -14337,7 +14358,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p037-01.webp",
-            "w": 1000, "h": 422,
+            "w": 1000,
+            "h": 422,
             "kind": "embed",
             "blocks": [
               {
@@ -14495,7 +14517,8 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L2/p038-01.webp",
-            "w": 841, "h": 472,
+            "w": 841,
+            "h": 472,
             "kind": "embed",
             "blocks": [
               {
@@ -14657,13 +14680,15 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p040-01.webp",
-            "w": 883, "h": 468,
+            "w": 883,
+            "h": 468,
             "kind": "embed",
             "blocks": []
           },
           {
             "src": "assets/figures/L2/p040-02.webp",
-            "w": 665, "h": 274,
+            "w": 665,
+            "h": 274,
             "kind": "embed",
             "blocks": [
               {
@@ -15008,7 +15033,8 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L2/p046-02.webp",
-            "w": 637, "h": 463,
+            "w": 637,
+            "h": 463,
             "kind": "embed",
             "blocks": [
               {
@@ -15100,7 +15126,8 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L2/p047-01.webp",
-            "w": 1000, "h": 656,
+            "w": 1000,
+            "h": 656,
             "kind": "embed",
             "blocks": [
               {
@@ -15169,7 +15196,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p048-02.webp",
-            "w": 940, "h": 538,
+            "w": 940,
+            "h": 538,
             "kind": "embed",
             "blocks": [
               {
@@ -15191,7 +15219,8 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L2/p048-01.webp",
-            "w": 999, "h": 660,
+            "w": 999,
+            "h": 660,
             "kind": "embed",
             "blocks": [
               {
@@ -15323,7 +15352,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L2/p049-01.webp",
-            "w": 1000, "h": 587,
+            "w": 1000,
+            "h": 587,
             "kind": "embed",
             "blocks": [
               {
@@ -16964,7 +16994,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "Cardiovascular System 心血管系統",
             "k": "h",
-            "zh": "心血管系統•感官系統"
+            "zh": "心血管系統"
           }
         ],
         "figures": []
@@ -17058,12 +17088,12 @@ window.HAZEL_LECTURES = [
           {
             "t": "Cardiovascular system 心血管系統",
             "k": "h",
-            "zh": "心血管系統•感官系統"
+            "zh": "心血管系統"
           },
           {
             "t": "• The heart心臟 (muscular pumping device)",
             "k": "li",
-            "zh": "1.心臟心臟（肌肉抽吸裝置）"
+            "zh": "• 心臟（肌肉泵裝置）"
           },
           {
             "t": "• Pump the blood throughout the body",
@@ -17073,27 +17103,27 @@ window.HAZEL_LECTURES = [
           {
             "t": "• A network of blood vessels血管 with blood血液",
             "k": "li",
-            "zh": "2.有血液的血管血管網絡血液"
+            "zh": "• 有血液的血管網絡"
           },
           {
-            "t": "• Closed system 肺循環",
+            "t": "• Closed system",
             "k": "li",
-            "zh": "肺循環 體循環"
+            "zh": "• 封閉系統"
           },
           {
-            "t": "體循環",
+            "t": "Systemic circulation 體循環",
             "k": "h",
-            "zh": ""
+            "zh": "體循環"
           },
           {
             "t": "• With circulation循環",
             "k": "li",
-            "zh": "有循環循環"
+            "zh": "• 有循環"
           },
           {
             "t": "• Blood can pass to different parts of body continuously (non-stop) via arteries動脈, veins靜脈 and capillaries微血管",
             "k": "li",
-            "zh": "血液可以通過動脈動脈、靜脈靜脈和毛細血管連續（不間斷）傳遞到身體的不同部位微血管"
+            "zh": "• 血液可經動脈、靜脈和微血管不停地運送到身體不同部位"
           },
           {
             "t": "Systemic and Pulmonary Circulation",
@@ -17103,15 +17133,62 @@ window.HAZEL_LECTURES = [
           {
             "t": "The circulatory system consists of the pulmonary and systemic circulations. The right side of the heart pumps blood through vessels to the lungs and back to the left side of the heart through the pulmonary circulation. The left side of the heart pumps blood through vessels to the tissues of the body and back to the right side of the heart through the systemic circulation. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 20 p.714]",
             "k": "p",
-            "zh": "循環系統由肺循環和全身循環組成。心臟右側跳動"
+            "zh": "循環系統由肺循環和體循環組成。心臟右側經血管將血液泵到肺部，再經肺循環返回心臟左側。心臟左側經血管將血液泵到全身組織，再經體循環返回心臟右側。［改編自 Seeley's Anatomy and Physiology（第13版），第20章 p.714］"
           }
         ],
         "figures": [
           {
             "src": "assets/figures/L3/p005-01.webp",
-            "w": 1000, "h": 802,
+            "w": 1000,
+            "h": 816,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Circulatory system / 循環系統",
+                "zh": "循環系統"
+              },
+              {
+                "k": "p",
+                "t": "Pulmonary circulation (to the lungs) / 肺循環",
+                "zh": "肺循環（到肺部）"
+              },
+              {
+                "k": "p",
+                "t": "Systemic circulation (to the tissues) / 體循環",
+                "zh": "體循環（到組織）"
+              },
+              {
+                "k": "p",
+                "t": "Lung",
+                "zh": "肺"
+              },
+              {
+                "k": "p",
+                "t": "Right side of heart",
+                "zh": "心臟右側"
+              },
+              {
+                "k": "p",
+                "t": "Left side of heart",
+                "zh": "心臟左側"
+              },
+              {
+                "k": "p",
+                "t": "Circulation to tissues of head, neck, and upper limbs",
+                "zh": "頭、頸和上肢組織的循環"
+              },
+              {
+                "k": "p",
+                "t": "Circulation to tissues of thorax, abdomen, and lower limbs",
+                "zh": "胸、腹和下肢組織的循環"
+              },
+              {
+                "k": "p",
+                "t": "Gas exchange: CO₂ / O₂ at tissues and lungs",
+                "zh": "氣體交換：組織和肺部的 CO₂／O₂"
+              }
+            ]
           }
         ]
       },
@@ -17121,12 +17198,12 @@ window.HAZEL_LECTURES = [
           {
             "t": "Functions of",
             "k": "h",
-            "zh": "碳水化合物的功能"
+            "zh": "功能"
           },
           {
             "t": "Cardiovascular system",
             "k": "h",
-            "zh": "心血管系統•感官系統"
+            "zh": "心血管系統"
           },
           {
             "t": "• Transportation of metabolic substances (by red blood cells)",
@@ -17151,7 +17228,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "The circulatory system is composed of blood vessels that carry the blood to the tissues of the body, allowing for the exchange of substances, such as O2, nutrients, CO2, and waste products, necessary to maintain homeostasis. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 21 p.756]",
             "k": "p",
-            "zh": "循環系統由將血液運送到身體組織的血管組成，允許交換物質，如氧氣、營養物質、二氧化碳和"
+            "zh": "循環系統由將血液運送到身體組織的血管組成，容許交換物質，例如氧氣、營養物質、二氧化碳和廢物，以維持體內平衡。［改編自 Seeley's Anatomy and Physiology（第13版），第21章 p.756］"
           }
         ],
         "figures": [
@@ -17201,7 +17278,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Regulation",
             "k": "li",
-            "zh": "（參考／來源）"
+            "zh": "• 調節"
           },
           {
             "t": "• Hormones and heat (to regulate blood pressure) e.g. Adrenaline",
@@ -17211,17 +17288,17 @@ window.HAZEL_LECTURES = [
           {
             "t": "• In thermoregulation: (1) Vasoconstriction",
             "k": "li",
-            "zh": ""
+            "zh": "• 體溫調節：(1) 血管收縮"
           },
           {
             "t": "→ Blood pressure OR ? (2) Vasodilation",
             "k": "h",
-            "zh": "血壓血壓"
+            "zh": "→ 血壓？(2) 血管舒張"
           },
           {
             "t": "→ Blood pressure OR ?",
             "k": "h",
-            "zh": ""
+            "zh": "→ 血壓？"
           },
           {
             "t": "Thermoregulation in Humans:",
@@ -17229,9 +17306,9 @@ window.HAZEL_LECTURES = [
             "zh": "人體體溫調節："
           },
           {
-            "t": "Vasodilation widens blood vessels near the skin’s surface to release heat, while vasoconstriction Thermoregulation narrows them to retain warmth. These processes are controlled through feedback loops involving the hypothalamus, which acts as the body’s thermostat. 7 / 69",
+            "t": "Vasodilation widens blood vessels near the skin's surface to release heat, while vasoconstriction narrows them to retain warmth. These processes are controlled through feedback loops involving the hypothalamus, which acts as the body's thermostat.",
             "k": "p",
-            "zh": "血管舒張會擴大皮膚表面附近的血管以釋放熱量，而血管收縮溫度調節會縮小血管以保持溫暖。這些過程通過涉及下丘腦的反饋迴路來控制，下丘腦充當身體的恆溫器。"
+            "zh": "血管舒張會擴闊皮膚表面附近的血管以釋放熱量，而血管收縮會收窄血管以保持溫暖。這些過程由涉及下丘腦的回饋迴路控制，下丘腦充當身體的恆溫器。"
           }
         ],
         "figures": [
@@ -17281,7 +17358,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Protection",
             "k": "li",
-            "zh": "磷脂（磷脂 ）是細胞膜中重要的防水化合物•保護"
+            "zh": "• 保護"
           },
           {
             "t": "• Clotting → protects against blood loss during tissue damage (by platelet)",
@@ -17296,25 +17373,62 @@ window.HAZEL_LECTURES = [
           {
             "t": "Blood Clot",
             "k": "h",
-            "zh": "2 ）它參與血液凝固和肌肉收縮氯維持陰離子負離子和陽離子之間的平衡正離子"
+            "zh": "血凝塊"
           },
           {
-            "t": "A blood clot consists of fibrin, which",
-            "k": "h",
-            "zh": "血凝塊血凝塊由纖維蛋白組成，白細胞類型會捕獲紅細胞、血小板和液體。"
-          },
-          {
-            "t": "Types of White Blood Cells traps red blood cells, platelets, and fluid. (a) Neutrophil, (b) eosinophil, (c) basophil, (d) lymphocyte, (e) monocyte/macrophage.",
+            "t": "A blood clot consists of fibrin, which traps red blood cells, platelets, and fluid.",
             "k": "p",
-            "zh": "Types"
+            "zh": "血凝塊由纖維蛋白組成，纖維蛋白會困住紅血球、血小板和液體。"
+          },
+          {
+            "t": "Types of White Blood Cells: (a) Neutrophil, (b) eosinophil, (c) basophil, (d) lymphocyte, (e) monocyte/macrophage.",
+            "k": "p",
+            "zh": "白血球類型：(a) 中性粒細胞 (neutrophil)、(b) 嗜酸粒細胞 (eosinophil)、(c) 嗜鹼粒細胞 (basophil)、(d) 淋巴細胞 (lymphocyte)、(e) 單核細胞／巨噬細胞 (monocyte/macrophage)。"
           }
         ],
         "figures": [
           {
             "src": "assets/figures/L3/p008-01.webp",
-            "w": 471, "h": 698,
+            "w": 471,
+            "h": 698,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Blood clotting (before → after)",
+                "zh": "血液凝固（前 → 後）"
+              },
+              {
+                "k": "p",
+                "t": "Before: Red blood cell",
+                "zh": "之前：紅血球"
+              },
+              {
+                "k": "p",
+                "t": "Before: Platelet",
+                "zh": "之前：血小板"
+              },
+              {
+                "k": "p",
+                "t": "Before: Broken blood vessel wall",
+                "zh": "之前：破損的血管壁"
+              },
+              {
+                "k": "p",
+                "t": "After: Activated platelet",
+                "zh": "之後：活化血小板"
+              },
+              {
+                "k": "p",
+                "t": "After: Clot",
+                "zh": "之後：血凝塊"
+              },
+              {
+                "k": "p",
+                "t": "After: Fibrin",
+                "zh": "之後：纖維蛋白"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p008-02.webp",
@@ -17377,7 +17491,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Plasma血漿 – 55%",
             "k": "li",
-            "zh": ""
+            "zh": "• 血漿 – 55%"
           },
           {
             "t": "• Blood cells血細胞 – 45%",
@@ -17397,7 +17511,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Platelets血小板 血塊黃層",
             "k": "li",
-            "zh": "血凝塊血凝塊由纖維蛋白組成，白細胞類型會捕獲紅細胞、血小板和液體。"
+            "zh": "• 血小板（血塊黃層）"
           }
         ],
         "figures": [
@@ -17537,12 +17651,12 @@ window.HAZEL_LECTURES = [
           {
             "t": "Composition of Blood",
             "k": "h",
-            "zh": ""
+            "zh": "血液的組成"
           },
           {
             "t": "Approximate values for the components of blood in a normal adult.",
             "k": "p",
-            "zh": ""
+            "zh": "正常成人血液各成分的大約數值。"
           },
           {
             "t": "Chapter 19 p.684]",
@@ -17553,7 +17667,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p011-01.webp",
-            "w": 1000, "h": 999,
+            "w": 1000,
+            "h": 999,
             "kind": "embed",
             "blocks": [
               {
@@ -17616,7 +17731,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "Shape and dimensions of a red blood cell",
             "k": "h",
-            "zh": ""
+            "zh": "紅血球的形狀和尺寸"
           },
           {
             "t": "• Cells that contain haemoglobin (Hb) 血紅素",
@@ -17639,14 +17754,14 @@ window.HAZEL_LECTURES = [
             "zh": "雙凹盤形狀"
           },
           {
-            "t": "→ surface area for gas exchange",
+            "t": "→ ↑ surface area for gas exchange",
             "k": "h",
-            "zh": ""
+            "zh": "→ 增加氣體交換的表面面積"
           },
           {
-            "t": "Hemoglobin (a) Hemoglobin consists of four subunits, each with a globin and a heme血基質. There are two alpha (α) globins 血球蛋白and two beta (β) globins. A heme is associated with each globin. (b) Each heme contains one iron atom (Fe) located at the center of the heme group. Oxygen binds to the heme on hemoglobin molecule. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 19 p.690]",
+            "t": "Hemoglobin (a) Hemoglobin consists of four subunits, each with a globin and a heme. There are two alpha (α) globins and two beta (β) globins. A heme is associated with each globin. (b) Each heme contains one iron atom (Fe) located at the center of the heme group. Oxygen binds to the heme on hemoglobin molecule. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 19 p.690]",
             "k": "p",
-            "zh": "血紅蛋白(a)血紅蛋白由四個亞單位組成，每個亞單位都有一個血紅蛋白和一個血紅素血基質。"
+            "zh": "血紅蛋白 (a) 血紅蛋白由四個亞單位組成，每個亞單位都有一個球蛋白（globin）和一個血基質（heme）。當中有兩個 α 球蛋白和兩個 β 球蛋白；每個球蛋白各配一個血基質。(b) 每個血基質中央有一個鐵原子（Fe）。氧氣會結合到血紅蛋白分子上的血基質。［改編自 Seeley's Anatomy and Physiology（第13版），第19章 p.690］"
           }
         ],
         "figures": [
@@ -17771,20 +17886,62 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Function in clotting",
             "k": "li",
-            "zh": ""
+            "zh": "• 參與凝血"
           },
           {
             "t": "→ cluster together to stop bleeding（hemostasis）止血",
             "k": "h",
-            "zh": "止血"
+            "zh": "→ 聚集在一起以止血（hemostasis）"
           }
         ],
         "figures": [
           {
             "src": "assets/figures/L3/p014-01.webp",
-            "w": 782, "h": 537,
+            "w": 782,
+            "h": 537,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Blood clot formation",
+                "zh": "血凝塊形成"
+              },
+              {
+                "k": "p",
+                "t": "Before: Erythrocyte",
+                "zh": "之前：紅血球（Erythrocyte）"
+              },
+              {
+                "k": "p",
+                "t": "Before: Platelet",
+                "zh": "之前：血小板"
+              },
+              {
+                "k": "p",
+                "t": "Before: Fibrinogen",
+                "zh": "之前：纖維蛋白原"
+              },
+              {
+                "k": "p",
+                "t": "After: Activated Platelet",
+                "zh": "之後：活化血小板"
+              },
+              {
+                "k": "p",
+                "t": "After: Fibrin",
+                "zh": "之後：纖維蛋白"
+              },
+              {
+                "k": "p",
+                "t": "After: Erythrocyte",
+                "zh": "之後：紅血球"
+              },
+              {
+                "k": "p",
+                "t": "Blood Clot (Activated Platelet + Fibrin + Erythrocyte)",
+                "zh": "血凝塊（活化血小板 + 纖維蛋白 + 紅血球）"
+              }
+            ]
           }
         ]
       },
@@ -17985,12 +18142,12 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Apex: inferior and pointed tip of the heart; oriented toward the left hip, and rests at about the",
             "k": "li",
-            "zh": ""
+            "zh": "• 心尖：心臟下方尖端，指向左髖，大約位於"
           },
           {
             "t": "5th intercostal space",
             "k": "h",
-            "zh": ""
+            "zh": "第5肋間隙"
           }
         ],
         "figures": [
@@ -18120,7 +18277,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "• The pericardium, also known as the pericardial sac, is a double-layered, closed sac that surrounds and protects the heart. It consists of:",
             "k": "li",
-            "zh": "心包，也稱為心包囊，是一個雙層、封閉的囊，圍繞並保護心臟。它包括："
+            "zh": "• 心包（亦稱心包囊）是雙層封閉囊，圍繞並保護心臟。它包括："
           },
           {
             "t": "• Fibrous Pericardium纖維性心包膜",
@@ -18171,7 +18328,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p020-01.webp",
-            "w": 815, "h": 703,
+            "w": 815,
+            "h": 703,
             "kind": "embed",
             "blocks": [
               {
@@ -18242,12 +18400,12 @@ window.HAZEL_LECTURES = [
           {
             "t": "Heart Layers",
             "k": "h",
-            "zh": ""
+            "zh": "心壁層"
           },
           {
             "t": "Also known as the heart wall, the heart consists of three layers:",
             "k": "h",
-            "zh": ""
+            "zh": "亦即心壁，心臟由三層組成："
           },
           {
             "t": "• Epicardium心外膜",
@@ -18350,14 +18508,14 @@ window.HAZEL_LECTURES = [
         "n": 22,
         "blocks": [
           {
-            "t": "Vena cava = Vein Anatomy of the Heart",
+            "t": "Vena cava = Vein; Anatomy of the Heart",
             "k": "h",
-            "zh": ""
+            "zh": "腔靜脈 = 靜脈；心臟解剖"
           },
           {
             "t": "Pulmonary = Lung (Upper body to right heart) (To whole body)",
             "k": "h",
-            "zh": ""
+            "zh": "肺 = 肺（上半身到右心）（到全身）"
           },
           {
             "t": "Heart Chambers",
@@ -18621,7 +18779,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p024-01.webp",
-            "w": 1000, "h": 805,
+            "w": 1000,
+            "h": 805,
             "kind": "embed",
             "blocks": [
               {
@@ -18739,32 +18898,32 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Right atrium (Receiving chamber)",
             "k": "li",
-            "zh": ""
+            "zh": "• 右心房（接收腔）"
           },
           {
             "t": "→ tricuspid valve",
             "k": "h",
-            "zh": ""
+            "zh": "→ 三尖瓣"
           },
           {
             "t": "→ right ventricle (Discharging chamber)",
             "k": "h",
-            "zh": ""
+            "zh": "→ 右心室（輸出腔）"
           },
           {
             "t": "• → pulmonary semilunar valve",
             "k": "li",
-            "zh": ""
+            "zh": "• → 肺動脈半月瓣"
           },
           {
             "t": "→ pulmonary trunk",
             "k": "h",
-            "zh": ""
+            "zh": "→ 肺動脈幹"
           },
           {
             "t": "→ pulmonary arteries (left and right)",
             "k": "h",
-            "zh": ""
+            "zh": "→ 肺動脈（左、右）"
           },
           {
             "t": "• → lungs (gas exchange)",
@@ -18774,22 +18933,22 @@ window.HAZEL_LECTURES = [
           {
             "t": "• → pulmonary veins",
             "k": "li",
-            "zh": ""
+            "zh": "• → 肺靜脈"
           },
           {
             "t": "→ left atrium (Receiving chamber)",
             "k": "h",
-            "zh": ""
+            "zh": "→ 左心房（接收腔）"
           },
           {
             "t": "→ mitral/bicuspid valve",
             "k": "h",
-            "zh": ""
+            "zh": "→ 二尖瓣／僧帽瓣"
           },
           {
             "t": "→ left ventricle (Discharging chamber)",
             "k": "h",
-            "zh": ""
+            "zh": "→ 左心室（輸出腔）"
           },
           {
             "t": "*artery carries deoxygenated blood 26 / 69",
@@ -19092,12 +19251,12 @@ window.HAZEL_LECTURES = [
           {
             "t": "• From the base of the aorta and encircle the heart in the coronary sulcus (groove between the atria and ventricles)",
             "k": "li",
-            "zh": ""
+            "zh": "• 由主動脈根部發出，在冠狀溝（心房與心室之間的溝）環繞心臟"
           },
           {
             "t": "Venous Supply",
             "k": "h",
-            "zh": ""
+            "zh": "靜脈供應"
           },
           {
             "t": "• Several cardiac veins drain into the coronary sinus, then empty into the right atrium",
@@ -19156,7 +19315,8 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L3/p030-01.webp",
-            "w": 657, "h": 607,
+            "w": 657,
+            "h": 607,
             "kind": "embed",
             "blocks": [
               {
@@ -19199,7 +19359,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "Cardiac Excitation (Cardiac Conduction System)",
             "k": "h",
-            "zh": ""
+            "zh": "心臟興奮（心臟傳導系統）"
           },
           {
             "t": "心臟傳導系統",
@@ -19209,7 +19369,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "A network of specialized cells (autorhythmic myocardium)",
             "k": "h",
-            "zh": ""
+            "zh": "一組特化細胞網絡（自律心肌）"
           },
           {
             "t": "• Self-excitable; repeatedly generate action potential that trigger heart contraction",
@@ -19342,14 +19502,14 @@ window.HAZEL_LECTURES = [
             "zh": "3.訊號傳播至心室："
           },
           {
-            "t": "• The action potential travels from the AV node through the AV bundle (Bundle of (Bundle of His)",
+            "t": "• The action potential travels from the AV node through the AV bundle (Bundle of His)",
             "k": "li",
-            "zh": ""
+            "zh": "• 動作電位由房室結經房室束（His 束）傳導"
           },
           {
-            "t": "His), bundle branches, and Purkinje fibers, stimulating the ventricular walls.",
+            "t": "bundle branches, and Purkinje fibers, stimulating the ventricular walls.",
             "k": "p",
-            "zh": ""
+            "zh": "再經束支和浦肯野纖維，刺激心室壁。"
           },
           {
             "t": "• Ventricular Contraction:",
@@ -19422,9 +19582,9 @@ window.HAZEL_LECTURES = [
             "zh": "雙心房雙心室"
           },
           {
-            "t": "SA AV Bundle Purkinje →",
+            "t": "SA → AV → Bundle → Purkinje",
             "k": "h",
-            "zh": ""
+            "zh": "竇房結 → 房室結 → 房室束 → 浦肯野纖維"
           },
           {
             "t": "→ depolarize & → → → depolarize & node node of His fibers contract contract",
@@ -19575,7 +19735,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p035-01.webp",
-            "w": 1000, "h": 856,
+            "w": 1000,
+            "h": 856,
             "kind": "embed",
             "blocks": [
               {
@@ -19648,12 +19809,12 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Ventricle pressure > atrium pressure",
             "k": "li",
-            "zh": ""
+            "zh": "• 心室壓 > 心房壓"
           },
           {
             "t": "→ AV valves closed. S1",
             "k": "h",
-            "zh": ""
+            "zh": "→ 房室瓣關閉。S1"
           },
           {
             "t": "→ First heart sound S1 “Lup”",
@@ -19663,12 +19824,12 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Ventricle pressure < aorta and pulmonary artery pressure",
             "k": "li",
-            "zh": ""
+            "zh": "• 心室壓 < 主動脈和肺動脈壓"
           },
           {
             "t": "→ Pulmonary and aortic valves closed.",
             "k": "p",
-            "zh": ""
+            "zh": "→ 肺動脈瓣和主動脈瓣關閉。"
           },
           {
             "t": "Ventricular ejection",
@@ -19678,12 +19839,12 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Ventricular pressure > aorta and pulmonary artery pressure",
             "k": "li",
-            "zh": ""
+            "zh": "• 心室壓 > 主動脈和肺動脈壓"
           },
           {
             "t": "→ Aortic and pulmonary valves open.",
             "k": "p",
-            "zh": ""
+            "zh": "→ 主動脈瓣和肺動脈瓣打開。"
           },
           {
             "t": "→ Blood is ejected from ventricles (stroke volume)",
@@ -19694,7 +19855,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p036-01.webp",
-            "w": 914, "h": 995,
+            "w": 914,
+            "h": 995,
             "kind": "embed",
             "blocks": [
               {
@@ -19761,7 +19923,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p037-01.webp",
-            "w": 1000, "h": 864,
+            "w": 1000,
+            "h": 864,
             "kind": "embed",
             "blocks": [
               {
@@ -19854,12 +20017,12 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Atrium pressure > ventricle pressure",
             "k": "li",
-            "zh": ""
+            "zh": "• 心房壓 > 心室壓"
           },
           {
             "t": "→ AV valves open.",
             "k": "p",
-            "zh": ""
+            "zh": "→ 房室瓣打開。"
           },
           {
             "t": "→ Blood is filled into ventricle",
@@ -19880,7 +20043,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p038-01.webp",
-            "w": 814, "h": 890,
+            "w": 814,
+            "h": 890,
             "kind": "embed",
             "blocks": [
               {
@@ -19970,7 +20134,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p039-01.webp",
-            "w": 1000, "h": 864,
+            "w": 1000,
+            "h": 864,
             "kind": "embed",
             "blocks": [
               {
@@ -20023,7 +20188,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "• The heart produces two main sounds, heard using a stethoscope:",
             "k": "li",
-            "zh": "心臟發出兩個主要聲音，使用聽診器聽到"
+            "zh": "• 心臟產生兩個主要心音，可用聽診器聽到："
           },
           {
             "t": "First heart sound S1 “Lub”",
@@ -20179,7 +20344,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p042-01.webp",
-            "w": 802, "h": 740,
+            "w": 802,
+            "h": 740,
             "kind": "embed",
             "blocks": [
               {
@@ -20272,12 +20438,12 @@ window.HAZEL_LECTURES = [
           {
             "t": "血管系統",
             "k": "h",
-            "zh": ""
+            "zh": "血管系統"
           },
           {
             "t": "The circulatory system is composed of blood vessels that carry the blood to the tissues of the body, allowing for the exchange of substances, such as O2, nutrients, CO2, and waste products, necessary to maintain homeostasis.",
             "k": "p",
-            "zh": "循環系統由將血液運送到身體組織的血管組成，允許交換物質，如氧氣、營養物質、二氧化碳和"
+            "zh": "循環系統由將血液運送到身體組織的血管組成，容許交換物質，例如氧氣、營養物質、二氧化碳和廢物，以維持體內平衡。"
           }
         ],
         "figures": [
@@ -20422,7 +20588,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "Direction of blood flow ➢ Away from heart to the body's tissues and organs. Presence of valves ➢ Absent (except at the base of pulmonary artery and aorta)",
             "k": "p",
-            "zh": ""
+            "zh": "血流方向 ➢ 離開心臟到身體組織和器官。有否瓣膜 ➢ 無（肺動脈和主動脈根部除外）"
           },
           {
             "t": "Wall & thick layer of fibrous",
@@ -20680,7 +20846,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "Vein",
             "k": "h",
-            "zh": "血液可以通過動脈動脈、靜脈靜脈和毛細血管連續（不間斷）傳遞到身體的不同部位微血管"
+            "zh": "靜脈"
           },
           {
             "t": "Force for blood flow",
@@ -20688,24 +20854,24 @@ window.HAZEL_LECTURES = [
             "zh": "迫使血液流動"
           },
           {
-            "t": " Blood is forced  Valves are opened towards by blood pressure heart",
+            "t": "Blood is forced towards the heart. Valves are opened by blood pressure.",
             "k": "p",
-            "zh": "血液被迫瓣膜被血壓心臟打開"
+            "zh": "血液被推向心臟。瓣膜被血壓推開。"
           },
           {
-            "t": " Vein is squeezed by muscles",
+            "t": "Vein is squeezed by muscles",
             "k": "h",
             "zh": "靜脈被肌肉擠壓"
           },
           {
-            "t": " Valves  Body muscles, are closed particularly those in to prevent the limbs, contract backflow of and press against the blood veins",
+            "t": "1. Body muscles, particularly those in the limbs, contract and press against the veins. 4. Valves are closed to prevent backflow of blood.",
             "k": "p",
-            "zh": "瓣膜身體肌肉，特別是閉合的肌肉，以防止四肢收縮回流並壓迫血靜脈"
+            "zh": "1. 身體肌肉（尤其四肢）收縮並壓住靜脈。4. 瓣膜關閉，防止血液倒流。"
           },
           {
-            "t": "Location ➢ Close to the body surface (http://cnx.org/content/m46635/latest/2114_Skeletal_Muscle_Vein_Pump.jpg)",
+            "t": "Location ➢ Close to the body surface",
             "k": "p",
-            "zh": "位置➢ 靠近身體表面"
+            "zh": "位置 ➢ 靠近身體表面"
           }
         ],
         "figures": [
@@ -20718,8 +20884,8 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L3/p050-03.webp",
-            "w": 595,
-            "h": 516,
+            "w": 1000,
+            "h": 722,
             "kind": "embed",
             "blocks": [
               {
@@ -20767,12 +20933,12 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Hemo = blood; Dynamics = power",
             "k": "li",
-            "zh": ""
+            "zh": "• Hemo = 血；Dynamics = 動力"
           },
           {
             "t": "Key concepts:",
             "k": "h",
-            "zh": ""
+            "zh": "主要概念："
           },
           {
             "t": "• Cardiac Output心輸出量",
@@ -20808,7 +20974,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p051-01.webp",
-            "w": 1000, "h": 383,
+            "w": 1000,
+            "h": 383,
             "kind": "embed",
             "blocks": [
               {
@@ -20896,7 +21063,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "CO = 5250 ml/min (5.25 L/min)",
             "k": "h",
-            "zh": ""
+            "zh": "CO = 5250 ml/min（5.25 L/min）"
           }
         ],
         "figures": []
@@ -20913,7 +21080,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p053-01.webp",
-            "w": 964, "h": 728,
+            "w": 964,
+            "h": 728,
             "kind": "embed",
             "blocks": [
               {
@@ -20945,7 +21113,8 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L3/p053-02.webp",
-            "w": 936, "h": 632,
+            "w": 936,
+            "h": 632,
             "kind": "embed",
             "blocks": [
               {
@@ -20998,7 +21167,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "SV = EDV – ESV",
             "k": "h",
-            "zh": ""
+            "zh": "SV = EDV – ESV"
           }
         ],
         "figures": [
@@ -21131,34 +21300,19 @@ window.HAZEL_LECTURES = [
             "zh": "對心臟的因子影響"
           },
           {
-            "t": "End-Diastolic More blood fills the ventricles",
+            "t": "End-Diastolic Ventricular Volume (EDV) / Pre-load: More blood fills the ventricles before contraction → increases stroke volume",
             "k": "h",
-            "zh": ""
-          },
-          {
-            "t": "Ventricular before contraction → increases",
-            "k": "h",
-            "zh": ""
-          },
-          {
-            "t": "Volume(EDV) / stroke volume",
-            "k": "h",
-            "zh": ""
+            "zh": "舒張末期心室容積（EDV）／前負荷：收縮前心室充盈越多 → 每搏輸出量增加"
           },
           {
             "t": "Pre-load",
             "k": "h",
-            "zh": ""
+            "zh": "前負荷"
           },
           {
-            "t": "Sympathetic Stimulates the heart → increases",
+            "t": "Sympathetic Nerve Activity: Stimulates the heart → increases heart rate and force of contraction",
             "k": "h",
-            "zh": ""
-          },
-          {
-            "t": "Nerve Activity heart rate and force of contraction",
-            "k": "h",
-            "zh": ""
+            "zh": "交感神經活動：刺激心臟 → 增加心率和收縮力"
           },
           {
             "t": "Plasma Hormone (adrenaline) that",
@@ -21308,7 +21462,7 @@ window.HAZEL_LECTURES = [
           {
             "src": "assets/figures/L3/p057-01.webp",
             "w": 1000,
-            "h": 595,
+            "h": 505,
             "kind": "embed",
             "blocks": [
               {
@@ -21491,7 +21645,7 @@ window.HAZEL_LECTURES = [
           {
             "t": "• Total peripheral resistance (TPR) (the sum of resistance to blood flow offered by all the systemic blood vessels)",
             "k": "li",
-            "zh": "總外周阻力（ TPR ） （所有全身血管對血流的阻力總和）"
+            "zh": "• 總外周阻力（TPR）（所有體循環血管對血流的阻力總和）"
           },
           {
             "t": "MAP (BP) = CO x TPR",
@@ -21510,24 +21664,24 @@ window.HAZEL_LECTURES = [
             "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
           },
           {
-            "t": "Regulation of arterial pressure MAP = CO x TPR",
+            "t": "Regulation of arterial pressure: MAP = CO × TPR",
             "k": "h",
-            "zh": ""
+            "zh": "動脈壓調節：MAP = CO × TPR"
           },
           {
-            "t": "Vasoconstriction or",
+            "t": "Vasoconstriction or vasodilation of arterioles",
             "k": "h",
-            "zh": ""
+            "zh": "小動脈收縮或舒張"
           },
           {
-            "t": "End-diastolic vasodilation of volume arterioles to large organ",
+            "t": "End-diastolic volume; arterioles to large organs",
             "k": "h",
-            "zh": ""
+            "zh": "舒張末期容積；通往大器官的小動脈"
           },
           {
-            "t": "Sympathetic Parasympathetic activity activity Blood viscosity",
+            "t": "Sympathetic activity; Parasympathetic activity; Blood viscosity",
             "k": "h",
-            "zh": ""
+            "zh": "交感活動；副交感活動；血液黏稠度"
           },
           {
             "t": "Stroke X Heart rate volume",
@@ -21696,14 +21850,14 @@ window.HAZEL_LECTURES = [
             "zh": "持續活躍，在感覺神經元中產生動作電位的基線頻率"
           },
           {
-            "t": "• Sudden blood pressure,  stretching of arterial wall,",
+            "t": "• Sudden ↑ blood pressure, ↑ stretching of arterial wall,",
             "k": "li",
-            "zh": "突然的血壓，動脈壁的伸展，"
+            "zh": "• 血壓突然↑，動脈壁伸展↑，"
           },
           {
-            "t": " stimulation on baroreceptors,  impulses (action potential frequency) sending to medullary cardiovascular/ cardioregulatory center in the medulla oblongata of brainstem (Parasympathetic activity )",
+            "t": "↑ stimulation on baroreceptors, ↑ impulses (action potential frequency) sending to medullary cardiovascular / cardioregulatory center in the medulla oblongata of brainstem (Parasympathetic activity ↑)",
             "k": "p",
-            "zh": "壓力感受器"
+            "zh": "↑ 刺激壓力感受器，↑ 衝動（動作電位頻率）傳送到腦幹延髓的心血管／心調節中樞（副交感活動↑）"
           }
         ],
         "figures": [
