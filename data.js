@@ -5449,84 +5449,39 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Body Organ System"
-              },
-              {
-                "k": "li",
-                "t": "Brain"
-              },
-              {
-                "k": "li",
-                "t": "Lungs"
-              },
-              {
-                "k": "li",
-                "t": "Frontal Lobe"
-              },
-              {
-                "k": "li",
-                "t": "Parietal Lobe"
-              },
-              {
-                "k": "li",
-                "t": "Trachea"
-              },
-              {
-                "k": "li",
-                "t": "Carina"
-              },
-              {
-                "k": "li",
-                "t": "Bronchus"
-              },
-              {
-                "k": "li",
-                "t": "Occipital Lobe"
-              },
-              {
-                "k": "li",
-                "t": "Cerebellum"
-              },
-              {
-                "k": "li",
-                "t": "Temporal Lobe"
-              },
-              {
-                "k": "li",
-                "t": "Control centre"
-              },
-              {
-                "k": "li",
-                "t": "Right Lobe"
+                "k": "p",
+                "t": "BODY ORGAN SYSTEM BRAIN LUNGS Frontal Lobe Parietal Lobe Trachea Carina LY, Bronchus Occipital Lobe Cerebellum Temporal Lobe Control centre Right Lobe Left Lobe of the body.",
+                "zh": "身體器官系統腦肺額葉頂葉氣管隆突LY ，支氣管枕葉小腦顳葉控制中心身體的右葉左葉。"
               },
               {
                 "k": "p",
-                "t": "Left Lobe of the body."
+                "t": "Helps to breathe.",
+                "zh": "有助於呼吸。"
               },
               {
                 "k": "p",
-                "t": "Helps to breathe."
+                "t": "HEART LIVER Vena Cava Superior Right Lobe Left Lobe Aorta Gallbladder Cleans the blood.",
+                "zh": "心肝腔靜脈上右葉左葉膽囊主動脈清潔血液。"
               },
               {
-                "k": "li",
-                "t": "Heart"
+                "k": "p",
+                "t": "Inferior Vena Cava Pumps blood KIDNEYS . — Aorta around the body.",
+                "zh": "下腔靜脈泵血腎臟。—主動脈圍繞著身體。"
               },
               {
-                "k": "li",
-                "t": "Liver"
+                "k": "p",
+                "t": "STOMACH Esophagus Helps in the Duodenum breakage Right wy, of food.",
+                "zh": "胃食管有助於十二指腸破裂右側食物。"
               },
               {
-                "k": "li",
-                "t": "Vena Cava"
+                "k": "p",
+                "t": "Kidney Left Kidney - INTESTINE 5 ae Helps in the Ureter ‘Sle Urinary '} digestion Bladder oa, of food.",
+                "zh": "腎臟左腎臟-腸5 ae有助於輸尿管‘Sle Urinary'}消化膀胱oa ，食物。"
               },
               {
-                "k": "li",
-                "t": "Superior"
-              },
-              {
-                "k": "li",
-                "t": "Left Lobe"
+                "k": "p",
+                "t": "Helps filter the waste material Appendix Anus out from the body.",
+                "zh": "有助於過濾體內的廢物附錄肛門。"
               }
             ]
           },
@@ -5581,84 +5536,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Eat the least"
-              },
-              {
-                "k": "li",
-                "t": "Salt"
-              },
-              {
-                "k": "li",
-                "t": "Milk and Alternatives"
-              },
-              {
-                "k": "li",
-                "t": "Egg and Alternatives"
-              },
-              {
-                "k": "li",
-                "t": "19K = 240 Ft"
-              },
-              {
-                "k": "li",
-                "t": "1M=1 Berra"
-              },
-              {
-                "k": "li",
-                "t": "4 glass = 240 ml"
+                "k": "p",
+                "t": "Eat the least DRERNSi AR: BRASH Salt Milk and Alternatives Me: Egg and Alternatives glasses every day taels every day 19K = 240 Ft 1M=1 BERRA 4 glass = 240 ml",
+                "zh": "吃最少的DRERNSi AR ： BRASH鹽牛奶和替代品我：雞蛋和替代品眼鏡每天19K = 240英尺1M = 1 BERRA 4杯= 240毫升"
               },
               {
                 "k": "p",
-                "t": "1 tael = meat in the size of a table tennis ball"
+                "t": "1 tael = meat in the size of a table tennis ball Atleast servings Atleast servings every day every day",
+                "zh": "1 tael =乒乓球大小的肉每天至少吃一份"
               },
               {
-                "k": "li",
-                "t": "Atleast servings"
+                "k": "p",
+                "t": "1B=1 BPRKR WER) 1B= 2 RR 1 serving = 1 medium-sized fruit cooked vegetables 1 serving = Ye bow! of (e.g. orange or apple) one bowls every day WExz 1 bowl = 250 -300m!",
+                "zh": "1B = 1 BPRKR wer) 1B = 2 RR 1份= 1份中等大小的水果煮熟的蔬菜1份= Ye bow! of (e.g. orange or apple)每天一碗WExz 1碗= 250 -300米！"
               },
               {
-                "k": "li",
-                "t": "Atleast servings every day every day"
+                "k": "p",
+                "t": "SABI 6-8 WHE Drin!",
+                "zh": "（見英文）"
               },
               {
-                "k": "li",
-                "t": "1B=1 Bprkr Wer)"
-              },
-              {
-                "k": "li",
-                "t": "1B= 2 Rr"
-              },
-              {
-                "k": "li",
-                "t": "1 serving = 1 medium-sized fruit"
-              },
-              {
-                "k": "li",
-                "t": "cooked vegetables"
-              },
-              {
-                "k": "li",
-                "t": "1 serving = Ye bow! of"
-              },
-              {
-                "k": "li",
-                "t": "(e. g. orange or apple)"
-              },
-              {
-                "k": "li",
-                "t": "one"
-              },
-              {
-                "k": "li",
-                "t": "bowls"
-              },
-              {
-                "k": "li",
-                "t": "every day"
-              },
-              {
-                "k": "li",
-                "t": "WExz"
+                "k": "p",
+                "t": "(OUSSES fill every day including water, ee , milk, cl lear soup",
+                "zh": "（ OUSSES每天補充，包括水， ee ，牛奶， cl lear湯"
               }
             ]
           },
@@ -5669,40 +5569,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Carbohydrates"
-              },
-              {
-                "k": "li",
-                "t": "Water"
-              },
-              {
-                "k": "li",
-                "t": "6 Essential"
-              },
-              {
-                "k": "li",
-                "t": "Vitamin,"
-              },
-              {
-                "k": "li",
-                "t": "Nutrients for fats"
-              },
-              {
-                "k": "li",
-                "t": "Good Health"
-              },
-              {
-                "k": "li",
-                "t": "Vitamins"
-              },
-              {
-                "k": "li",
-                "t": "Protein"
-              },
-              {
-                "k": "li",
-                "t": "Minerals"
+                "k": "p",
+                "t": "Carbohydrates Water 6 Essential VITAMIN, Nutrients for fats Good Health Vitamins Protein Minerals",
+                "zh": "碳水化合物水6必需維生素、脂肪營養素維生素蛋白質礦物質"
               }
             ]
           }
@@ -5770,52 +5639,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Simple"
-              },
-              {
-                "k": "li",
-                "t": "Complex carbohydrates carbohydrates"
-              },
-              {
-                "k": "li",
-                "t": "Monosa-"
-              },
-              {
-                "k": "li",
-                "t": "Disaccharides"
-              },
-              {
-                "k": "li",
-                "t": "Oligo-/ ) ccharides polysaccharides it Mil"
+                "k": "p",
+                "t": "Simple Complex carbohydrates carbohydrates Monosa- Disaccharides Oligo-/ ) ccharides polysaccharides it Mil -> age .",
+                "zh": "簡單複雜碳水化合物碳水化合物單糖-二糖寡糖-/)多糖Mil - >年齡。"
               },
               {
                 "k": "p",
-                "t": "-> age."
-              },
-              {
-                "k": "li",
-                "t": "causes blood sugar to rise quickly"
-              },
-              {
-                "k": "li",
-                "t": "+ slower breakdown"
-              },
-              {
-                "k": "li",
-                "t": "quickly available energy"
-              },
-              {
-                "k": "li",
-                "t": "- lasts longer"
-              },
-              {
-                "k": "li",
-                "t": "does not last long"
-              },
-              {
-                "k": "li",
-                "t": "- keeps you full longer"
+                "t": "causes blood sugar to rise quickly + slower breakdown quickly available energy - lasts longer does not last long - keeps you full longer",
+                "zh": "導致血糖快速上升+分解速度較慢快速獲得能量-持續時間較長但不會持續太久-讓您更長時間地飽足"
               }
             ]
           },
@@ -5826,64 +5657,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Carbohydrates"
-              },
-              {
-                "k": "li",
-                "t": "Simple"
-              },
-              {
-                "k": "li",
-                "t": "Complex"
-              },
-              {
-                "k": "li",
-                "t": "Monosaccharides"
-              },
-              {
-                "k": "li",
-                "t": "Disaccharides"
-              },
-              {
-                "k": "li",
-                "t": "Polysaccharides"
-              },
-              {
-                "k": "li",
-                "t": "Glucose"
-              },
-              {
-                "k": "li",
-                "t": "Maltose"
-              },
-              {
-                "k": "li",
-                "t": "Starches"
-              },
-              {
-                "k": "li",
-                "t": "Fructose"
-              },
-              {
-                "k": "li",
-                "t": "Lactose"
-              },
-              {
-                "k": "li",
-                "t": "Fibers"
-              },
-              {
-                "k": "li",
-                "t": "Galactose"
-              },
-              {
-                "k": "li",
-                "t": "Sucrose"
-              },
-              {
-                "k": "li",
-                "t": "Glycogen"
+                "k": "p",
+                "t": "Carbohydrates Simple Complex Monosaccharides Disaccharides Polysaccharides Glucose Maltose Starches Fructose Lactose Fibers Galactose Sucrose Glycogen",
+                "zh": "碳水化合物單複合單醣二醣多醣葡萄糖麥芽糖澱粉果糖乳糖纖維半乳糖蔗糖糖原"
               }
             ]
           }
@@ -5991,84 +5767,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Class"
+                "k": "p",
+                "t": "Class Example Made up of Characteristics Major end-product of carbohydrate Glucose (7iij ZH) digestion Broken down during respiration to Monosaccharide release energy Sweetest simple sugar Fructose (32%)",
+                "zh": "類別範例由特徵組成碳水化合物葡萄糖（ 7iij ZH ）消化的主要終產物在呼吸過程中分解為單醣釋放能量最甜的單糖果糖（ 32 ％ ）"
               },
               {
-                "k": "li",
-                "t": "Example"
-              },
-              {
-                "k": "li",
-                "t": "Made up of"
-              },
-              {
-                "k": "li",
-                "t": "Characteristics"
-              },
-              {
-                "k": "li",
-                "t": "Major end-product of carbohydrate"
-              },
-              {
-                "k": "li",
-                "t": "Glucose (7iij ZH) digestion"
-              },
-              {
-                "k": "li",
-                "t": "Broken down during respiration to"
-              },
-              {
-                "k": "li",
-                "t": "Monosaccharide release energy"
-              },
-              {
-                "k": "li",
-                "t": "Sweetest simple sugar"
-              },
-              {
-                "k": "li",
-                "t": "Fructose (32%)"
-              },
-              {
-                "k": "li",
-                "t": "Commonly found in fruit and honey"
-              },
-              {
-                "k": "li",
-                "t": "Maltose (2824 #8)"
-              },
-              {
-                "k": "li",
-                "t": "Glucose + Glucose"
-              },
-              {
-                "k": "li",
-                "t": "Intermediate in the digestion of starch"
-              },
-              {
-                "k": "li",
-                "t": "Disaccharide"
-              },
-              {
-                "k": "li",
-                "t": "Sucrose (jt #f)"
-              },
-              {
-                "k": "li",
-                "t": "Glucose + Fructose"
-              },
-              {
-                "k": "li",
-                "t": "Commonly known as table sugar"
-              },
-              {
-                "k": "li",
-                "t": "Starch (32%})"
-              },
-              {
-                "k": "li",
-                "t": "Glucose"
+                "k": "p",
+                "t": "Glycogen (‘iii i) Glucose Major carbohydrate stored in animal Polysaccharide Makes up the cell wall of plants Cellulose (iE 22) Glucose Indigestible by human",
+                "zh": "糖原(‘iii i)葡萄糖儲存在動物體內的主要碳水化合物多醣構成植物細胞壁纖維素(iE 22)葡萄糖人類無法消化"
               }
             ]
           }
@@ -6172,80 +5878,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Lipids: Structure and Function"
+                "k": "p",
+                "t": "Lipids: Structure and Function TRIGLYCERIDE PHOSPHOLIPID STEROID hosphate group Ester ster bonds bonds Membrane structure RAF RRAPR 6» acid 4 fused rings Structure Structure: Structure Glycerol + 3 fatty acids",
+                "zh": "脂質：結構和功能甘油三酯磷脂類固醇磷酸基酯酯鍵膜結構RAF RRAPR 6 »酸4稠環結構：結構甘油+ 3脂肪酸"
               },
               {
-                "k": "li",
-                "t": "Triglyceride"
-              },
-              {
-                "k": "li",
-                "t": "Phospholipid"
-              },
-              {
-                "k": "li",
-                "t": "Steroid hosphate group"
-              },
-              {
-                "k": "li",
-                "t": "Ester ster bonds bonds"
-              },
-              {
-                "k": "li",
-                "t": "Membrane structure"
-              },
-              {
-                "k": "li",
-                "t": "Raf"
-              },
-              {
-                "k": "li",
-                "t": "Rrapr"
-              },
-              {
-                "k": "li",
-                "t": "6» acid"
-              },
-              {
-                "k": "li",
-                "t": "4 fused rings"
-              },
-              {
-                "k": "li",
-                "t": "Structure"
-              },
-              {
-                "k": "li",
-                "t": "Structure:"
-              },
-              {
-                "k": "li",
-                "t": "Glycerol + 3 fatty acids"
-              },
-              {
-                "k": "li",
-                "t": "Glycerol + 2 fatty acids"
-              },
-              {
-                "k": "li",
-                "t": "+ phosphate"
-              },
-              {
-                "k": "li",
-                "t": "Function"
-              },
-              {
-                "k": "li",
-                "t": "Function:"
-              },
-              {
-                "k": "li",
-                "t": "Long-term energy"
-              },
-              {
-                "k": "li",
-                "t": "Hormones, signaling storage"
+                "k": "p",
+                "t": "Glycerol + 2 fatty acids 4 fused rings + phosphate Function Function: Function Long-term energy Membrane structure Hormones, signaling storage",
+                "zh": "甘油+ 2種脂肪酸4個稠合環+磷酸鹽功能功能：功能長期能量膜結構激素，信號儲存"
               }
             ]
           },
@@ -6256,44 +5896,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Lipids"
-              },
-              {
-                "k": "li",
-                "t": "Phospholipid"
-              },
-              {
-                "k": "li",
-                "t": "Triglycerid"
-              },
-              {
-                "k": "li",
-                "t": "Cholesterol"
-              },
-              {
-                "k": "li",
-                "t": "GO Danane"
-              },
-              {
-                "k": "li",
-                "t": "Cell"
-              },
-              {
-                "k": "li",
-                "t": "Phospholipid bilayer"
-              },
-              {
-                "k": "li",
-                "t": "(Cell membrane)"
-              },
-              {
-                "k": "li",
-                "t": "Ras"
-              },
-              {
-                "k": "li",
-                "t": "Cleveland linie"
+                "k": "p",
+                "t": "Lipids Phospholipid Triglycerid Cholesterol GO Danane Cell Phospholipid bilayer (Cell membrane) RAS Cleveland linie",
+                "zh": "脂質磷脂甘油三酯膽固醇GO Danane細胞磷脂雙層（細胞膜） RAS Cleveland linie"
               }
             ]
           },
@@ -6305,11 +5910,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Lipids"
-              },
-              {
-                "k": "li",
-                "t": "Triglyceride"
+                "t": "Lipids AX /) Y Triglyceride",
+                "zh": "Lipids AX/) Y甘油三酯"
               }
             ]
           }
@@ -6367,40 +5969,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Lipids"
-              },
-              {
-                "k": "li",
-                "t": "Phospholipid Triglycet"
-              },
-              {
-                "k": "li",
-                "t": "Cholesterol"
-              },
-              {
-                "k": "li",
-                "t": "Daa aOaaae"
-              },
-              {
                 "k": "p",
-                "t": "Seca Is Pis Es 38 Hbl 8 12 |"
-              },
-              {
-                "k": "li",
-                "t": "Ala"
-              },
-              {
-                "k": "li",
-                "t": "Cell hospholipid bilayer"
-              },
-              {
-                "k": "li",
-                "t": "(Cell membrane)"
-              },
-              {
-                "k": "li",
-                "t": "Raa"
+                "t": "Lipids Phospholipid Triglycet Cholesterol Daa aOaaae SECA IS PIS ES 38 HBL 8 12 | Ala Cell hospholipid bilayer (Cell membrane) RAA",
+                "zh": "脂質磷脂甘油三酯膽固醇Daa aOaaae SECA IS PIS ES 38 HBL 8 12 | ALA細胞磷脂雙層（細胞膜） RAA"
               }
             ]
           }
@@ -6443,84 +6014,34 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Amino acids"
-              },
-              {
-                "k": "li",
-                "t": "Protein"
-              },
-              {
-                "k": "li",
-                "t": "Peptide"
-              },
-              {
-                "k": "li",
-                "t": "Polypeptide"
-              },
-              {
-                "k": "li",
-                "t": "The building blocks"
-              },
-              {
-                "k": "li",
-                "t": "Asshort chain of amino acids"
-              },
-              {
-                "k": "li",
-                "t": "A longer chain of amino acids"
-              },
-              {
-                "k": "li",
-                "t": "A folded, functional 3D structure"
-              },
-              {
-                "k": "li",
-                "t": "Peptide bonds"
-              },
-              {
-                "k": "li",
-                "t": "‘Amino acids are individual"
-              },
-              {
-                "k": "li",
-                "t": "‘A peptide is a short chain of"
-              },
-              {
-                "k": "li",
-                "t": "Apolypeptide isa longer chain"
-              },
-              {
-                "k": "li",
-                "t": "A proteins one or more polypeptide"
-              },
-              {
-                "k": "li",
-                "t": "molecules with an amino group,"
-              },
-              {
-                "k": "li",
-                "t": "amino acids linked by"
-              },
-              {
-                "k": "li",
-                "t": "Cf amino acids connected by"
-              },
-              {
-                "k": "li",
-                "t": "chains folded into a specific 3D structure"
-              },
-              {
-                "k": "li",
-                "t": "a carboxyl group, and a variable"
+                "k": "p",
+                "t": "Amino acids Protein Peptide Polypeptide The building blocks Asshort chain of amino acids A longer chain of amino acids A folded, functional 3D structure Peptide bonds ae 4 ‘Amino acids are individual",
+                "zh": "氨基酸蛋白質肽多肽構建基塊氨基酸類別鏈氨基酸長鏈折疊的功能性3D結構肽鍵ae 4 ‘氨基酸是單獨的"
               },
               {
                 "k": "p",
-                "t": "peptide bonds."
+                "t": "‘A peptide is a short chain of Apolypeptide isa longer chain A proteins one or more polypeptide molecules with an amino group, amino acids linked by",
+                "zh": "‘肽是Apolypeptide的短鏈是一個較長的鏈A蛋白質一個或多個具有氨基的多肽分子，氨基酸通過"
               },
               {
                 "k": "p",
-                "t": "that carries out a function."
+                "t": "Cf amino acids connected by chains folded into a specific 3D structure a carboxyl group, and a variable peptide bonds.",
+                "zh": "Cf由折疊成特定3D結構的羧基和可變肽鍵的鏈連接的氨基酸。"
+              },
+              {
+                "k": "p",
+                "t": "peptide bonds.",
+                "zh": "<g>胜肽鍵</g>"
+              },
+              {
+                "k": "p",
+                "t": "that carries out a function.",
+                "zh": "來執行一個功能"
+              },
+              {
+                "k": "p",
+                "t": "side chain.",
+                "zh": "側鏈。"
               }
             ]
           },
@@ -6529,31 +6050,20 @@ window.HAZEL_LECTURES = [
             "w": 506,
             "h": 316,
             "kind": "embed",
-            "blocks": [
-              {
-                "k": "h",
-                "t": "Amino"
-              },
-              {
-                "k": "li",
-                "t": "Carboxyl"
-              },
-              {
-                "k": "li",
-                "t": "Group"
-              },
-              {
-                "k": "li",
-                "t": "Chain"
-              }
-            ]
+            "blocks": []
           },
           {
             "src": "assets/figures/L1/p012-03.webp",
             "w": 232,
             "h": 222,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Proteins Amino Acid OS)",
+                "zh": "蛋白氨基酸OS ）"
+              }
+            ]
           }
         ]
       },
@@ -6599,60 +6109,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Functions Of"
+                "k": "p",
+                "t": "FUNCTIONS OF PROTEINS Digestive enzymes Antibodies support ion contraction and Support muscle Support the rae chemical reactions help facilitate movement and express: hacen Mes Bion?",
+                "zh": "蛋白質的功能消化酶抗體支持離子收縮和支持肌肉支持RAE化學反應有助於促進運動和表達： hacen Mes Bion ？"
               },
               {
-                "k": "li",
-                "t": "Proteins"
-              },
-              {
-                "k": "li",
-                "t": "Digestive enzymes"
-              },
-              {
-                "k": "li",
-                "t": "Antibodies support ion contraction and"
-              },
-              {
-                "k": "li",
-                "t": "Support muscle"
-              },
-              {
-                "k": "li",
-                "t": "Support the rae chemical reactions help facilitate"
-              },
-              {
-                "k": "li",
-                "t": "movement"
-              },
-              {
-                "k": "li",
-                "t": "and express:"
-              },
-              {
-                "k": "li",
-                "t": "hacen"
-              },
-              {
-                "k": "li",
-                "t": "Mes"
-              },
-              {
-                "k": "li",
-                "t": "Bion?"
-              },
-              {
-                "k": "li",
-                "t": "Provide support tothe body"
-              },
-              {
-                "k": "li",
-                "t": "Hormones help coordinate bodily function"
-              },
-              {
-                "k": "li",
-                "t": "Move essential molecules around the body"
+                "k": "p",
+                "t": "Provide support tothe body Hormones help coordinate bodily function Move essential molecules around the body",
+                "zh": "為身體提供支持激素有助於協調身體功能在身體周圍移動必需分子"
               }
             ]
           }
@@ -6708,14 +6172,26 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 332,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "- i a a a a a a a Joga * ag. AEE are +] _* yey Se \"4 Renaturation ; ns i _ o ae cosy .",
+                "zh": "- i a a a a a a Joga * ag。AEE are +]_* yey Se \"4 Renaturation; ns i_o ae cosy."
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p014-02.webp",
             "w": 250,
             "h": 251,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "COX)",
+                "zh": "（見英文）"
+              }
+            ]
           }
         ]
       },
@@ -6757,11 +6233,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "denatures and"
-              },
-              {
-                "k": "li",
-                "t": "Bolling egg coagulates the egg proteins"
+                "t": "Boiling egg denatures and coagulates the egg proteins",
+                "zh": "煮沸的蛋變性並凝固蛋蛋白"
               }
             ]
           }
@@ -6794,44 +6267,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Brain: 80-85%"
-              },
-              {
-                "k": "li",
-                "t": "Teeth: 8-10%"
-              },
-              {
-                "k": "li",
-                "t": "Lungs: 75-80%"
-              },
-              {
-                "k": "li",
-                "t": "Heart: 75-80%"
-              },
-              {
-                "k": "li",
-                "t": "Liver: _70-75%"
-              },
-              {
-                "k": "li",
-                "t": "Bones: 20-25%"
-              },
-              {
-                "k": "li",
-                "t": "Skin: 70-75%"
-              },
-              {
-                "k": "li",
-                "t": "Kidneys: 80-85%"
-              },
-              {
-                "k": "li",
-                "t": "Blood: 80%"
-              },
-              {
-                "k": "li",
-                "t": "Muscles: 70-75%"
+                "k": "p",
+                "t": "Brain: 80-85% Teeth: 8-10% Lungs: 75-80% Heart: 75-80% Liver:_70-75% Bones: 20-25% Skin: 70-75% Kidneys: 80-85% Blood: 80% Muscles: 70-75%",
+                "zh": "大腦： 80-85%牙齒： 8-10%肺部： 75-80%心臟： 75-80%肝臟：_70-75%骨骼： 20-25%皮膚： 70-75%腎臟： 80-85%血液： 80%肌肉： 70-75%"
               }
             ]
           }
@@ -6924,28 +6362,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Capillary Action Illustrated"
-              },
-              {
-                "k": "li",
-                "t": "Water capillarity increases in smaller spaces"
+                "k": "p",
+                "t": "Capillary Action Illustrated Water capillarity increases in smaller spaces Water level is lower in wider spaces where surface tension is reduced",
+                "zh": "毛細管作用示意圖較小空間的水毛細管增加表面張力降低的較寬空間的水位較低"
               },
               {
                 "k": "p",
-                "t": "Water level is lower in wider spaces where surface tension is"
-              },
-              {
-                "k": "li",
-                "t": "reduced"
-              },
-              {
-                "k": "p",
-                "t": "Water is attracted to the sides of the container, the smaller the space,"
-              },
-              {
-                "k": "li",
-                "t": "the greater the attraction"
+                "t": "Water is attracted to the sides of the container, the smaller the space, the greater the attraction",
+                "zh": "容器側面吸水，空間越小，吸引力越大"
               }
             ]
           }
@@ -7014,19 +6438,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Atp"
-              },
-              {
-                "k": "li",
-                "t": "Reacts with H, 0 phosphate"
-              },
-              {
-                "k": "li",
-                "t": "Inorganic"
-              },
-              {
-                "k": "li",
-                "t": "Adp"
+                "t": "ATP ‘a Reacts with H,0 ADP phosphate",
+                "zh": "ATP ‘a與H ,0 ADP磷酸反應"
               }
             ]
           },
@@ -7037,36 +6450,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Reactants"
-              },
-              {
-                "k": "li",
-                "t": "Product"
-              },
-              {
-                "k": "li",
-                "t": "+P, + Energy ———>"
-              },
-              {
-                "k": "li",
-                "t": "Less potential"
-              },
-              {
-                "k": "li",
-                "t": "More potential energy energy"
-              },
-              {
-                "k": "li",
-                "t": "Products"
-              },
-              {
-                "k": "li",
-                "t": "More potential"
-              },
-              {
-                "k": "li",
-                "t": "Less potential energy energy"
+                "k": "p",
+                "t": "REACTANTS PRODUCT +P,+ Energy ———> Less potential More potential energy energy REACTANT PRODUCTS More potential Less potential energy energy",
+                "zh": "反應物產品+ P, +能源——— >潛力較小潛力較大的潛力能源反應物產品潛力較大潛力較小潛力能源"
               }
             ]
           },
@@ -7077,12 +6463,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "ate"
-              },
-              {
-                "k": "li",
-                "t": "Energy for wom ea working calls"
+                "k": "p",
+                "t": "ATP cycle Energy Energy for from food working cells tee",
+                "zh": "ATP循環能量來自食物工作細胞的能量T恤"
               }
             ]
           }
@@ -7135,84 +6518,19 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "DNA vs RNA: Key Differences"
+                "k": "p",
+                "t": "DNA vs RNA: Key Differences Shiver Regput ott DNA RNA Deoxyribonucleic Acid Ribonucleic Acid Sugar Type Sugar Type Deoxyribose sugar OH OH Ribose sugar “eK 66.",
+                "zh": "DNA與RNA ：關鍵差異Shiver Regput ott DNA RNA Deoxyribonucleic Acid Ribonucleic Acid Sugar Type Sugar Type Deoxyribose Sugar OH OH Ribose Sugar “eK 66."
               },
               {
-                "k": "li",
-                "t": "Shiver Regput ott"
+                "k": "p",
+                "t": "Nitrogen Bases & oS.",
+                "zh": "（見英文）"
               },
               {
-                "k": "li",
-                "t": "Dna"
-              },
-              {
-                "k": "li",
-                "t": "Rna"
-              },
-              {
-                "k": "li",
-                "t": "Deoxyribonucleic Acid"
-              },
-              {
-                "k": "li",
-                "t": "Sugar Type"
-              },
-              {
-                "k": "li",
-                "t": "Deoxyribose sugar"
-              },
-              {
-                "k": "li",
-                "t": "Oh Oh"
-              },
-              {
-                "k": "li",
-                "t": "Nitrogen Bases"
-              },
-              {
-                "k": "li",
-                "t": "Bases: A, T, G, C"
-              },
-              {
-                "k": "li",
-                "t": "Bases: A, U, G, C"
-              },
-              {
-                "k": "li",
-                "t": "(Adenine, Thymine, Guanine, Cytosine)"
-              },
-              {
-                "k": "li",
-                "t": "(Adenine, Uracil, Guanine, Cytosine)"
-              },
-              {
-                "k": "li",
-                "t": "Structure"
-              },
-              {
-                "k": "li",
-                "t": "Double-stranded"
-              },
-              {
-                "k": "li",
-                "t": "(double helix)"
-              },
-              {
-                "k": "li",
-                "t": "Single-stranded"
-              },
-              {
-                "k": "li",
-                "t": "Location"
-              },
-              {
-                "k": "li",
-                "t": "Mostly in nucleus"
-              },
-              {
-                "k": "li",
-                "t": "Nucleus & cytoplasm"
+                "k": "p",
+                "t": "Nucleus & cytoplasm Function Function Stores genetic Protein synthesis information & regulation Stability Stability Highly stable Less stable DNA = Blueprint | RNA = Mes Messenger Molecular Biology | DNA | RNA iothink",
+                "zh": "細胞核和細胞質功能功能儲存基因蛋白質合成資訊和調節穩定性穩定性高穩定性低穩定性DNA =藍圖| RNA = MES信使分子生物學| DNA | RNA iothink"
               }
             ]
           },
@@ -7224,15 +6542,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Nucleic"
-              },
-              {
-                "k": "li",
-                "t": "Acids"
-              },
-              {
-                "k": "li",
-                "t": "Dna"
+                "t": "Nucleic Acids DNA",
+                "zh": "核酸DNA"
               }
             ]
           }
@@ -7327,80 +6638,19 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Plasma Membrane"
-              },
-              {
-                "k": "li",
-                "t": "Outer boundary of the cell. Structure described in"
+                "k": "p",
+                "t": "Plasma Membrane Outer boundary of the cell. Structure described in Sections 3.3-3.5 and function described in Section 3.6.",
+                "zh": "細胞質膜細胞外邊界。第3.3-3.5節中描述的結構和第3.6節中描述的功能。"
               },
               {
                 "k": "p",
-                "t": "Sections 3. 3-3. 5 and function described in Section 3. 6."
-              },
-              {
-                "k": "li",
-                "t": "Cytoplasm and Organelles"
+                "t": "Cytoplasm and Organelles Organelles perform specific functions in the cell. The structure and functions of organelles are described in Sections 3.7 and 3.8.",
+                "zh": "細胞質和細胞器在細胞中執行特定功能。第3.7節和第3.8節描述了細胞器的結構和功能。"
               },
               {
                 "k": "p",
-                "t": "Organelles perform specific functions in the cell. The structure"
-              },
-              {
-                "k": "p",
-                "t": "and functions of organelles are described in Sections 3. 7 and 3. 8."
-              },
-              {
-                "k": "li",
-                "t": "Endoplasmic reticulum"
-              },
-              {
-                "k": "li",
-                "t": "Cilia"
-              },
-              {
-                "k": "li",
-                "t": "Ribosome"
-              },
-              {
-                "k": "li",
-                "t": "Golgi lysosome"
-              },
-              {
-                "k": "li",
-                "t": "Microvill apparatus"
-              },
-              {
-                "k": "li",
-                "t": "Machondidan 77 ots eee Fe ee a"
-              },
-              {
-                "k": "li",
-                "t": "Nucleolus"
-              },
-              {
-                "k": "li",
-                "t": "Nucleus"
-              },
-              {
-                "k": "li",
-                "t": "Organelle that contains the cell's genetic"
-              },
-              {
-                "k": "li",
-                "t": "information, thereby determining the cell's"
-              },
-              {
-                "k": "p",
-                "t": "structure and function. Sections 3. 9 and 3. 10"
-              },
-              {
-                "k": "li",
-                "t": "provide a detailed description of how the"
-              },
-              {
-                "k": "p",
-                "t": "nucleus directs the cell's activity."
+                "t": "Endoplasmic reticulum Cilia Ribosome Golgi lysosome Microvill apparatus Machondidan 77 ots aS, ED, eee Fe oe?",
+                "zh": "內質網纖毛核糖體高爾基體溶酶體微絨毛器Machondidan 77 ots aS, ED, eee Fe oe?"
               }
             ]
           }
@@ -7438,56 +6688,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Cell Structure"
-              },
-              {
-                "k": "li",
-                "t": "Nucleus"
-              },
-              {
-                "k": "li",
-                "t": "Dna"
-              },
-              {
-                "k": "li",
-                "t": "Ribosome"
-              },
-              {
-                "k": "li",
-                "t": "Cell Membrane"
-              },
-              {
-                "k": "li",
-                "t": "Mitochondria"
-              },
-              {
-                "k": "li",
-                "t": "Lysosome"
-              },
-              {
-                "k": "li",
-                "t": "Endoplasmic reticulum"
-              },
-              {
-                "k": "li",
-                "t": "Centriole"
-              },
-              {
-                "k": "li",
-                "t": "Vacuole"
-              },
-              {
-                "k": "li",
-                "t": "Golgi complex"
-              },
-              {
-                "k": "li",
-                "t": "Peroxisome"
-              },
-              {
-                "k": "li",
-                "t": "Cytoplasm"
+                "k": "p",
+                "t": "CELL STRUCTURE Nucleus DNA Ribosome Cell Membrane Mitochondria Lysosome Endoplasmic reticulum Centriole Vacuole Golgi complex Peroxisome Cytoplasm",
+                "zh": "細胞結構核DNA核糖體細胞膜線粒體溶酶體內質網中心粒空泡高爾基體複合物過氧化物酶體細胞質"
               }
             ]
           }
@@ -7565,84 +6768,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "abi"
-              },
-              {
-                "k": "li",
-                "t": "Membrane channel"
-              },
-              {
-                "k": "li",
-                "t": "Extracellular Fluid"
-              },
-              {
-                "k": "li",
-                "t": "Integral protein"
-              },
-              {
-                "k": "li",
-                "t": "Glycoprotein ]"
-              },
-              {
-                "k": "li",
-                "t": "Peripheral"
-              },
-              {
-                "k": "li",
-                "t": "Carbohydrate chains membrane protein"
-              },
-              {
-                "k": "li",
-                "t": "| Glycocalyx"
-              },
-              {
-                "k": "li",
-                "t": "Integral membrane protein"
-              },
-              {
-                "k": "li",
-                "t": "Glycolipid |"
-              },
-              {
-                "k": "li",
-                "t": "Sete"
-              },
-              {
-                "k": "li",
-                "t": "Nonpolar"
-              },
-              {
-                "k": "li",
-                "t": "(hydrophobic)"
-              },
-              {
-                "k": "li",
-                "t": "External membrane regions of phospholipid surface molecules"
-              },
-              {
-                "k": "li",
-                "t": "(hydrophilic)"
-              },
-              {
-                "k": "li",
-                "t": "regions"
-              },
-              {
-                "k": "li",
-                "t": "Phospholipid of phospholipid bilayer molecules"
-              },
-              {
-                "k": "li",
-                "t": "Internal membrane surface"
-              },
-              {
-                "k": "li",
-                "t": "Cytoskeleton ——"
-              },
-              {
-                "k": "li",
-                "t": "CYTOPLASM (intracellular fluid)"
+                "k": "p",
+                "t": "membrane regions of phospholipid surface molecules Polar (hydrophilic) regions Phospholipid of phospholipid bilayer molecules Internal membrane surface Cytoskeleton —— CYTOPLASM (intracellular fluid)",
+                "zh": "磷脂表面分子的膜區域極性（親水性）區域磷脂雙層分子的磷脂內膜表面細胞骨架——細胞質（細胞內液）"
               }
             ]
           },
@@ -7653,44 +6781,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Cell Membrane"
-              },
-              {
-                "k": "li",
-                "t": "Glycoprotein"
-              },
-              {
-                "k": "li",
-                "t": "Carbohydrate"
-              },
-              {
-                "k": "li",
-                "t": "Glycolipid"
-              },
-              {
-                "k": "li",
-                "t": "Globular"
-              },
-              {
-                "k": "li",
-                "t": "Cholesterol protein protein"
-              },
-              {
-                "k": "li",
-                "t": "Integral"
-              },
-              {
-                "k": "li",
-                "t": "Alpha-helix"
-              },
-              {
-                "k": "li",
-                "t": "Peripheral protein"
-              },
-              {
-                "k": "li",
-                "t": "Channel protein protein"
+                "k": "p",
+                "t": "CELL MEMBRANE Glycoprotein Carbohydrate Glycolipid Globular Cholesterol protein protein Integral Alpha-helix Peripheral protein Channel protein protein",
+                "zh": "細胞膜糖蛋白碳水化合物糖脂球狀膽固醇蛋白質整體α-螺旋外周蛋白質通道蛋白質"
               }
             ]
           },
@@ -7701,24 +6794,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Extracellular"
-              },
-              {
-                "k": "li",
-                "t": "Phospholipid bilayer"
-              },
-              {
-                "k": "li",
-                "t": "Intracellular"
-              },
-              {
-                "k": "li",
-                "t": "Hydrophobic tail"
-              },
-              {
-                "k": "li",
-                "t": "Hydrophilic head"
+                "k": "p",
+                "t": "Extracellular vay Phospholipid bilayer Intracellular Hydrophobic tail Hydrophilic head",
+                "zh": "胞外vay磷脂雙層胞內疏水尾巴親水頭"
               }
             ]
           }
@@ -7776,44 +6854,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Byju'S he Lenning ABE"
-              },
-              {
-                "k": "li",
-                "t": "Cell Membrane"
-              },
-              {
-                "k": "li",
-                "t": "Endoplasmic Reticulum"
-              },
-              {
-                "k": "li",
-                "t": "Nucleus"
-              },
-              {
-                "k": "li",
-                "t": "Nucleolus"
-              },
-              {
-                "k": "li",
-                "t": "Cytoplasm"
-              },
-              {
-                "k": "li",
-                "t": "Cytosol"
-              },
-              {
                 "k": "p",
-                "t": "® Cytosol is a fluid present in the cell"
-              },
-              {
-                "k": "li",
-                "t": "* Cytoplasm is a cell component present"
-              },
-              {
-                "k": "li",
-                "t": "inside the cell membrane"
+                "t": "BYJU'S he Lenning ABE Cell Membrane Endoplasmic Reticulum Nucleus Nucleolus Cytoplasm Cytosol Cytosol is a fluid present in the cell * Cytoplasm is a cell component present membrane inside the cell membrane",
+                "zh": "BYJU 'S HE Lenning ABE Cell Membrane Endoplasmic Reticulum Nucleus Nucleolus Cytoplasm Cytosol細胞質細胞質是細胞中存在的液體*細胞質是細胞膜內的細胞成分存在膜"
               }
             ]
           }
@@ -7871,36 +6914,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Cell Nucleus"
-              },
-              {
-                "k": "li",
-                "t": "Ribosome —_@"
-              },
-              {
-                "k": "li",
-                "t": "—+—— Nuclear envelope"
-              },
-              {
-                "k": "li",
-                "t": "Nuclear lamina"
-              },
-              {
-                "k": "li",
-                "t": "N Nucleoplasm"
-              },
-              {
-                "k": "li",
-                "t": "Chromatin orn +"
-              },
-              {
-                "k": "li",
-                "t": "Nucleolus"
-              },
-              {
-                "k": "li",
-                "t": "Nuclear pore"
+                "k": "p",
+                "t": "Cell Nucleus Ribosome —_@ —+—— Nuclear envelope Nuclear lamina N Nucleoplasm an \\ Chromatin orn + Nucleolus Nuclear pore",
+                "zh": "細胞核核糖體—_@ — + ——核膜核片N核質an\\染色質orn +核仁核孔"
               }
             ]
           }
@@ -7959,19 +6975,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Mitochondria"
-              },
-              {
-                "k": "li",
-                "t": "Cristae"
-              },
-              {
-                "k": "li",
-                "t": "Outer membrane"
-              },
-              {
-                "k": "li",
-                "t": "Inner membrane"
+                "t": "Mitochondria Cristae Outer membrane Inner membrane",
+                "zh": "Mitochondria Cristae外膜內膜"
               }
             ]
           },
@@ -7982,40 +6987,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Atp"
-              },
-              {
-                "k": "li",
-                "t": "Oxphos complexes"
-              },
-              {
-                "k": "li",
-                "t": "Carbohydrate"
-              },
-              {
-                "k": "li",
-                "t": "Mitochondrial"
-              },
-              {
-                "k": "li",
-                "t": "Dna"
-              },
-              {
-                "k": "li",
-                "t": "Act"
-              },
-              {
-                "k": "li",
-                "t": "Fatty acids"
-              },
-              {
-                "k": "li",
-                "t": "Mitochondrion"
-              },
-              {
                 "k": "p",
-                "t": "Atp."
+                "t": "CO» ATP OXPHOS complexes Carbohydrate Mitochondrial DNA Act Fatty acids OXPHOS complexes Mitochondrion ATP.",
+                "zh": "CO »ATP OXPHOS複合物碳水化合物線粒體DNA ACT脂肪酸OXPHOS複合物線粒體ATP。"
               }
             ]
           }
@@ -8083,36 +7057,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Ribosome"
-              },
-              {
-                "k": "li",
-                "t": "Nuclear Pore"
-              },
-              {
-                "k": "li",
-                "t": "Rough"
-              },
-              {
-                "k": "li",
-                "t": "Endoplasmic"
-              },
-              {
-                "k": "li",
-                "t": "Reticulum"
-              },
-              {
-                "k": "li",
-                "t": "Nucleus"
+                "k": "p",
+                "t": "Ribosome Nuclear Pore Rough Endoplasmic Reticulum Nucleus eo) Mie.",
+                "zh": "（見英文）"
               },
               {
                 "k": "p",
-                "t": "Mie."
-              },
-              {
-                "k": "li",
-                "t": "‘Smooth"
+                "t": "OF, ‘Smooth Endoplasmic Reticulum ox:",
+                "zh": "（見英文）"
               }
             ]
           },
@@ -8123,32 +7075,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Endoplasmic reticulum"
-              },
-              {
-                "k": "li",
-                "t": "Smooth"
-              },
-              {
-                "k": "li",
-                "t": "Nucleolus endoplasmic reticulum"
-              },
-              {
-                "k": "li",
-                "t": "Nucleus"
-              },
-              {
-                "k": "li",
-                "t": "Nuclear pore"
-              },
-              {
-                "k": "li",
-                "t": "Ribosomes"
-              },
-              {
-                "k": "li",
-                "t": "Rough endoplasmic reticulum"
+                "k": "p",
+                "t": "Endoplasmic reticulum Smooth Nucleolus endoplasmic reticulum Nucleus Nuclear pore Ribosomes Rough endoplasmic reticulum",
+                "zh": "內質網光滑核仁內質網核孔核糖體粗糙內質網"
               }
             ]
           }
@@ -8231,84 +7160,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Organelle / component"
-              },
-              {
-                "k": "li",
-                "t": "Function"
-              },
-              {
-                "k": "li",
-                "t": "Controls materials in and out of cell"
-              },
-              {
-                "k": "li",
-                "t": "Plasma (cell) membrane"
-              },
-              {
                 "k": "p",
-                "t": "Serves as matrix substance for chemical reactions to occur"
-              },
-              {
-                "k": "li",
-                "t": "Cytoplasm"
-              },
-              {
-                "k": "li",
-                "t": "Endoplasmic reticulum (ER)"
-              },
-              {
-                "k": "li",
-                "t": "Rough ER: Assist protein synthesis"
-              },
-              {
-                "k": "li",
-                "t": "Smooth ER: Metabolize nonpolar compound"
-              },
-              {
-                "k": "li",
-                "t": "Ribosome"
-              },
-              {
-                "k": "li",
-                "t": "Protein synthesis"
-              },
-              {
-                "k": "li",
-                "t": "Golgi Complex"
-              },
-              {
-                "k": "li",
-                "t": "Synthesize carbohydrate and pack molecules for secretion"
-              },
-              {
-                "k": "li",
-                "t": "Mitochondrion"
-              },
-              {
-                "k": "li",
-                "t": "Transform energy from food to ATP"
-              },
-              {
-                "k": "li",
-                "t": "Lysosome"
-              },
-              {
-                "k": "li",
-                "t": "Digest foreign molecules, and worn and damaged organelles"
-              },
-              {
-                "k": "li",
-                "t": "Nucleus"
-              },
-              {
-                "k": "li",
-                "t": "Contains genetic information and directs cellullar activity"
-              },
-              {
-                "k": "li",
-                "t": "Nuclear membrane"
+                "t": "Smooth ER: Metabolize nonpolar compound Ribosome Protein synthesis Golgi Complex Synthesize carbohydrate and pack molecules for secretion Mitochondrion Transform energy from food to ATP",
+                "zh": "Smooth ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物並包裝分子以進行分泌線粒體將能量從食物轉化為ATP"
               }
             ]
           }
@@ -8402,84 +7256,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Chemical"
-              },
-              {
-                "k": "li",
-                "t": "Level"
-              },
-              {
-                "k": "li",
-                "t": "Atoms"
-              },
-              {
-                "k": "li",
-                "t": "Atoms enoH"
-              },
-              {
-                "k": "li",
-                "t": "Molecules"
-              },
-              {
-                "k": "li",
-                "t": "Protein"
-              },
-              {
-                "k": "li",
-                "t": "Dna"
-              },
-              {
-                "k": "li",
-                "t": "Sucrose"
-              },
-              {
-                "k": "li",
-                "t": "Cell"
-              },
-              {
-                "k": "li",
-                "t": "Level jee"
-              },
-              {
-                "k": "li",
-                "t": "Cells"
-              },
-              {
-                "k": "li",
-                "t": "Epithlial cell"
-              },
-              {
-                "k": "li",
-                "t": "Neuron (cell)"
-              },
-              {
-                "k": "li",
-                "t": "Smooth muscle cell"
-              },
-              {
-                "k": "li",
-                "t": "Tissue"
-              },
-              {
-                "k": "li",
-                "t": "Level gy os"
-              },
-              {
-                "k": "li",
-                "t": "Tissues"
-              },
-              {
-                "k": "li",
-                "t": "Nervous tissue"
-              },
-              {
-                "k": "li",
-                "t": "Smooth muscle tissue"
-              },
-              {
-                "k": "li",
-                "t": "Epithelial tissue"
+                "k": "p",
+                "t": "Chemical Level Atoms Atoms enoH oH,08 Molecules Protein DNA Sucrose Cell Level jee Cells Epithlial cell Neuron (cell) Smooth muscle cell Tissue Level ‘ts?",
+                "zh": "化學水平原子enoH oH ,08分子蛋白質DNA蔗糖細胞水平jee細胞上皮細胞神經元(細胞)平滑肌細胞組織水平‘ts?"
               }
             ]
           }
@@ -8522,24 +7301,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "wed"
-              },
-              {
-                "k": "li",
-                "t": "Connective tissue"
-              },
-              {
-                "k": "li",
-                "t": "Epithet tissue"
-              },
-              {
-                "k": "li",
-                "t": "‘Muscle tissue"
-              },
-              {
-                "k": "li",
-                "t": "NeWous Cisse"
+                "k": "p",
+                "t": "WE, wed Connective tissue Epithet tissue ‘Muscle tissue NeWous Cisse",
+                "zh": "我們， WED結締組織上肢組織肌肉組織NeWous Cisse"
               }
             ]
           }
@@ -8590,16 +7354,7 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 519,
             "kind": "embed",
-            "blocks": [
-              {
-                "k": "h",
-                "t": "[OO wr oe LEO"
-              },
-              {
-                "k": "li",
-                "t": "LM 800x"
-              }
-            ]
+            "blocks": []
           }
         ]
       },
@@ -8633,7 +7388,13 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 491,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "my i al —— * . “ “_- Fat =v a oo, PF ‘ 2s g . ac ¢ A ea acl ay, ne 2 : Py eine t i, : 4 7 t Live. ~~ = f y. os bat hehe + eae . et iF y, a A “2, a HO ene eal / rae a) “ : ee ae we eer a eS .",
+                "zh": "my i al —— *. “_- Fat = v a oo, PF ‘2s g. ac ¢ A ea acl ay, ne 2: Py eine t i,: 4 7 t Live. ~ ~ = f y. os bat hehe + eae. et iF y, a“ 2, a HO ene eal/rae a) “: ee ae we eer a eS."
+              }
+            ]
           }
         ]
       },
@@ -8692,7 +7453,13 @@ window.HAZEL_LECTURES = [
             "w": 977,
             "h": 394,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "aa I wary ore, * coy ae ae ae a | a\" re 2 | _ . | ws i ft 8% its 4 oi",
+                "zh": "aa我謹慎的礦石， * coy ae ae ae a | a \"re 2 |_。| ws i ft 8% its 4 oi"
+              }
+            ]
           }
         ]
       },
@@ -8768,56 +7535,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "connective tissue |"
-              },
-              {
-                "k": "li",
-                "t": "| bone_|"
-              },
-              {
-                "k": "li",
-                "t": "areolar"
-              },
-              {
-                "k": "li",
-                "t": "regular"
-              },
-              {
-                "k": "li",
-                "t": "hyaline"
-              },
-              {
-                "k": "li",
-                "t": "compact"
-              },
-              {
-                "k": "li",
-                "t": "adipose"
-              },
-              {
-                "k": "li",
-                "t": "irregular"
-              },
-              {
-                "k": "li",
-                "t": "fibrocartilage"
-              },
-              {
-                "k": "li",
-                "t": "spongy"
-              },
-              {
-                "k": "li",
-                "t": "reticular"
-              },
-              {
-                "k": "li",
-                "t": "elastic"
-              },
-              {
-                "k": "li",
-                "t": "Cees"
+                "k": "p",
+                "t": "connective tissue | bone_| areolar regular hyaline compact adipose irregular fibrocartilage spongy reticular elastic elastic CEES",
+                "zh": "結締組織| bone_| areolar規則透明致密脂肪不規則纖維軟骨海綿狀網狀彈性彈性CEES"
               }
             ]
           }
@@ -8840,52 +7560,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "scorer eae i"
+                "k": "p",
+                "t": "scorer eae i ~1 OG Onee ancape are ia?",
+                "zh": "得分者eae i ~ 1 OG Onee ancape是ia ？"
               },
               {
-                "k": "li",
-                "t": "~1 OG Onee"
-              },
-              {
-                "k": "li",
-                "t": "ancape are"
-              },
-              {
-                "k": "li",
-                "t": "‘Sethe nemo"
-              },
-              {
-                "k": "li",
-                "t": "gee"
-              },
-              {
-                "k": "li",
-                "t": "tne cre |"
-              },
-              {
-                "k": "li",
-                "t": "att"
-              },
-              {
-                "k": "li",
-                "t": "occas iene)"
-              },
-              {
-                "k": "li",
-                "t": "eit"
-              },
-              {
-                "k": "li",
-                "t": "say"
-              },
-              {
-                "k": "li",
-                "t": "sete"
-              },
-              {
-                "k": "li",
-                "t": "2 tea"
+                "k": "p",
+                "t": "‘Sethe nemo gee tne cre | att occas iene) eit say sete 2 tea",
+                "zh": "（見英文）"
               }
             ]
           }
@@ -8963,40 +7645,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Nervous system"
-              },
-              {
-                "k": "li",
-                "t": "Endocrine system"
-              },
-              {
-                "k": "li",
-                "t": "Respiratory system"
-              },
-              {
-                "k": "li",
-                "t": "Ta we"
-              },
-              {
-                "k": "li",
-                "t": "Cardiovascular and lymphatic systems x — Urinary system"
-              },
-              {
-                "k": "li",
-                "t": "ON et ail |"
-              },
-              {
-                "k": "li",
-                "t": "Reproductive system"
-              },
-              {
-                "k": "li",
-                "t": "/ } j i"
-              },
-              {
-                "k": "li",
-                "t": "Integumentary system"
+                "k": "p",
+                "t": "Nervous system Endocrine system Respiratory system Ta we Cardiovascular and lymphatic systems x — Urinary system ON et ail | Reproductive system / } j i Integumentary system",
+                "zh": "神經系統內分泌系統呼吸系統Ta we心血管和淋巴系統x —泌尿系統ON et ail |生殖系統/} j i整體系統"
               }
             ]
           }
@@ -9105,84 +7756,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Ley rsa)"
+                "k": "p",
+                "t": "TP.",
+                "zh": "TP"
               },
               {
-                "k": "li",
-                "t": "Genes:"
+                "k": "p",
+                "t": "mn, yy) Ley rsa) pi!",
+                "zh": "（見英文）"
               },
               {
-                "k": "li",
-                "t": "mil"
+                "k": "p",
+                "t": "Genes: mil Nye PZ, By Qeue)) ne) oat Cuan Chromosome Reh UNG, aay so) Histones Ny} (proteins), Nee Linker DNA MC) Chromatin Nucleotides Components of DNA DNA double helix + Guanine + Cytosine + Adenine + Thymine",
+                "zh": "基因： mil Nye PZ, By Qeue)) ne) oat Cuan Chromosome Reh UNG, aay so) Histones Ny} （蛋白質） ， Nee Linker DNA MC)染色質核苷酸DNA的組分雙螺旋+鳥嘌呤+胞嘧啶+腺嘌呤+胸腺嘧啶"
               },
               {
-                "k": "li",
-                "t": "Nye"
-              },
-              {
-                "k": "li",
-                "t": "By Qeue)) oat"
-              },
-              {
-                "k": "li",
-                "t": "Cuan"
-              },
-              {
-                "k": "li",
-                "t": "| Chromosome"
-              },
-              {
-                "k": "li",
-                "t": "Reh"
-              },
-              {
-                "k": "li",
-                "t": "Ung, aay"
-              },
-              {
-                "k": "li",
-                "t": "Histones"
-              },
-              {
-                "k": "li",
-                "t": "(proteins),"
-              },
-              {
-                "k": "li",
-                "t": "Nee"
-              },
-              {
-                "k": "li",
-                "t": "Linker DNA"
-              },
-              {
-                "k": "li",
-                "t": "Crt"
-              },
-              {
-                "k": "li",
-                "t": "Chromatin"
-              },
-              {
-                "k": "li",
-                "t": "Nucleotides"
-              },
-              {
-                "k": "li",
-                "t": "Components of DNA"
-              },
-              {
-                "k": "li",
-                "t": "DNA double helix"
-              },
-              {
-                "k": "li",
-                "t": "+ Guanine"
-              },
-              {
-                "k": "li",
-                "t": "+ Cytosine"
+                "k": "p",
+                "t": "+ Deoxyribose sugar + Phosphate group ‘Adapted from Tortora and Grabowski, Principals of Anatomy and Physiology, 10th ed. 2003.",
+                "zh": "+ Deoxyribose sugar + Phosphate group ‘改編自Tortora and Grabowski, Principals of Anatomy and Physiology, 10th ed. 2003."
               }
             ]
           }
@@ -9265,28 +7856,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Base pair"
-              },
-              {
-                "k": "li",
-                "t": "DNA double helix"
-              },
-              {
-                "k": "li",
-                "t": "Cytosine"
-              },
-              {
-                "k": "li",
-                "t": "Guanine"
-              },
-              {
-                "k": "li",
-                "t": "Thymine"
-              },
-              {
-                "k": "li",
-                "t": "Adenine"
+                "k": "p",
+                "t": "Base pair DNA double helix NH, Cytosine Guanine NH, Thymine Adenine",
+                "zh": "鹼基對DNA雙螺旋NH、胞嘧啶鳥嘌呤NH、胸腺嘧啶腺嘌呤"
               }
             ]
           },
@@ -9298,11 +7870,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "pox."
+                "t": "pox.",
+                "zh": "痘痘。"
               },
               {
-                "k": "li",
-                "t": "RNA nitrogenous bases"
+                "k": "p",
+                "t": "RNA nitrogenous bases",
+                "zh": "RNA含氮鹼基"
               }
             ]
           }
@@ -9421,24 +7995,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "— See S _k"
-              },
-              {
-                "k": "li",
-                "t": "Reverse =*"
-              },
-              {
-                "k": "li",
-                "t": "Protein"
-              },
-              {
-                "k": "li",
-                "t": "Dna"
-              },
-              {
-                "k": "li",
-                "t": "Rna"
+                "k": "p",
+                "t": "— See S _k So = Reverse =* PROTEIN DNA RNA",
+                "zh": "—見S_k So = Reverse = *蛋白DNA RNA"
               }
             ]
           }
@@ -9481,40 +8040,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Cytoplasm"
-              },
-              {
-                "k": "li",
-                "t": "— poe"
-              },
-              {
-                "k": "li",
-                "t": "Arginine tRNA “S>"
-              },
-              {
-                "k": "li",
-                "t": "Arginine"
-              },
-              {
-                "k": "li",
-                "t": "(2) Translation"
-              },
-              {
-                "k": "li",
-                "t": "Amino acid pool"
-              },
-              {
-                "k": "li",
-                "t": "Aspartic acid mRNA strand"
-              },
-              {
-                "k": "li",
-                "t": "Polypeptide chai"
-              },
-              {
-                "k": "li",
-                "t": "Ribosome"
+                "k": "p",
+                "t": "Cytoplasm — poe Arginine tRNA “S> Arginine (2) Translation Amino acid pool Aspartic acid mRNA strand ae) Polypeptide chai Ribosome",
+                "zh": "細胞質— poe精氨酸tRNA “S >精氨酸(2)翻譯氨基酸庫天冬氨酸mRNA鏈ae)多肽CHAI核糖體"
               }
             ]
           }
@@ -9602,28 +8130,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Receptor protein"
-              },
-              {
-                "k": "li",
-                "t": "Plasma membrane"
-              },
-              {
-                "k": "li",
-                "t": "Hormone-receptor complex"
-              },
-              {
-                "k": "li",
-                "t": "New protein"
-              },
-              {
-                "k": "li",
-                "t": "Dooom™"
-              },
-              {
-                "k": "li",
-                "t": "Dna mRNA"
+                "k": "p",
+                "t": "Receptor protein Plasma membrane Hormone-receptor complex New protein DOOOM™ DNA mRNA",
+                "zh": "受體蛋白質膜激素受體複合物新蛋白質DOOOM™ DNA mRNA"
               }
             ]
           }
@@ -9696,60 +8205,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Cytosine mam ~Guanine"
-              },
-              {
-                "k": "li",
-                "t": "Thynine"
-              },
-              {
-                "k": "li",
-                "t": "Adenine"
-              },
-              {
-                "k": "li",
-                "t": "Origin"
-              },
-              {
-                "k": "li",
-                "t": "Dna"
-              },
-              {
-                "k": "li",
-                "t": "Cee"
-              },
-              {
-                "k": "li",
-                "t": "41} DNA stra|"
-              },
-              {
-                "k": "li",
-                "t": "strand"
-              },
-              {
-                "k": "li",
-                "t": "plate"
-              },
-              {
-                "k": "li",
-                "t": "Nucle"
-              },
-              {
-                "k": "li",
-                "t": "New strands on ecaaee,"
-              },
-              {
-                "k": "li",
-                "t": "@mwo new"
-              },
-              {
-                "k": "li",
-                "t": "identical DNA"
-              },
-              {
                 "k": "p",
-                "t": "molecules form."
+                "t": "Cytosine mam ~Guanine Thynine Adenine Origin DNA Cee 41} DNA stra| strand plate Nucle New strands on ecaaee, et, mwo new identical DNA molecules form.",
+                "zh": "胞嘧啶mam ~ Guanine Thynine腺嘌呤起源DNA Cee 41} DNA鏈|鏈板核ecaaee上的新鏈，等， mwo新的相同DNA分子形成。"
               }
             ]
           }
@@ -9853,40 +8311,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Prophase"
-              },
-              {
-                "k": "li",
-                "t": "Metaphase"
-              },
-              {
-                "k": "li",
-                "t": "Pee"
-              },
-              {
-                "k": "li",
-                "t": "Ses"
-              },
-              {
-                "k": "li",
-                "t": "Centrosomes in the poles"
-              },
-              {
-                "k": "li",
-                "t": "Chromosomes alligned"
-              },
-              {
-                "k": "li",
-                "t": "Condensed Chromatin in the equatorial plane forms Chromosomes"
-              },
-              {
-                "k": "li",
-                "t": "Centrosomes microtubules"
-              },
-              {
-                "k": "li",
-                "t": "Nucleus membrane breaks attached to the Centromeres"
+                "k": "p",
+                "t": "PROPHASE METAPHASE Pee SES SS 1 Centrosomes in the poles Chromosomes alligned Condensed Chromatin in the equatorial plane forms Chromosomes Centrosomes microtubules Nucleus membrane breaks attached to the Centromeres",
+                "zh": "前期中期PEE SES SS 1兩極中心染色體赤道平面中的染色體同源濃縮染色質形成染色體中心染色體微管附著在中心細胞上的細胞核膜破裂"
               }
             ]
           },
@@ -9897,28 +8324,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Anaphase"
-              },
-              {
-                "k": "li",
-                "t": "Telophase cis"
-              },
-              {
-                "k": "li",
-                "t": "Sie"
-              },
-              {
-                "k": "li",
-                "t": "Formation of the 2 Nucleus"
-              },
-              {
-                "k": "li",
-                "t": "Sister Chromatides separation"
-              },
-              {
-                "k": "li",
-                "t": "Duplication process ends"
+                "k": "p",
+                "t": "ANAPHASE TELOPHASE cis Sie Formation of the 2 Nucleus Sister Chromatides separation Duplication process ends",
+                "zh": "2 Nucleus Sister Chromatides分離的後期末期cis Sie形成複製過程結束"
               }
             ]
           },
@@ -9930,11 +8338,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Chromosome"
-              },
-              {
-                "k": "li",
-                "t": "Centromere"
+                "t": "Chromosome Centromere",
+                "zh": "染色體着絲粒"
               }
             ]
           }
@@ -10002,40 +8407,19 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Mit"
+                "k": "p",
+                "t": "MIT MEIOSIS Daughter Nuclei i!",
+                "zh": "麻省理工學院減數分裂子核i!"
               },
               {
-                "k": "li",
-                "t": "Meiosis"
+                "k": "p",
+                "t": "Daughter Nuclei replication’ Interpt GW) Homologous Meiosis I!",
+                "zh": "子核復制’Interpt GW ）同源減數分裂I ！"
               },
               {
-                "k": "li",
-                "t": "Daughter"
-              },
-              {
-                "k": "li",
-                "t": "Nuclei i!"
-              },
-              {
-                "k": "li",
-                "t": "Nuclei replication’"
-              },
-              {
-                "k": "li",
-                "t": "Interpt"
-              },
-              {
-                "k": "li",
-                "t": "Homologous"
-              },
-              {
-                "k": "li",
-                "t": "Meiosis I!"
-              },
-              {
-                "k": "li",
-                "t": "Chromosomes,"
+                "k": "p",
+                "t": "Chromosomes,",
+                "zh": "染色体"
               }
             ]
           },
@@ -10046,32 +8430,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "| owarepicates"
-              },
-              {
-                "k": "li",
-                "t": "| DNA replicates"
-              },
-              {
-                "k": "li",
-                "t": "2 daughter"
-              },
-              {
-                "k": "li",
-                "t": "cells"
-              },
-              {
-                "k": "li",
-                "t": "LN, 2eaughter cells"
-              },
-              {
-                "k": "li",
-                "t": "4 daughter"
-              },
-              {
-                "k": "li",
-                "t": "U. S. National Library of Medicine"
+                "k": "p",
+                "t": "owarepicates DNA replicates “NS 2 daughter cells LN, 2eaughter cells 4 daughter U.S. National Library of Medicine",
+                "zh": "owarepicates DNA複製“NS 2子細胞LN ， 2子細胞4子美國國家醫學圖書館"
               }
             ]
           }
@@ -10124,64 +8485,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Normal cell"
+                "k": "p",
+                "t": "Normal cell Necrosis Apoptosis Programmed death of cells Cell death after in Nuclear fragment awe _., debris ) Apoptotic bodies Inflammatory response oO.",
+                "zh": "正常細胞壞死細胞凋亡計劃性細胞死亡後在核碎片畏懼，碎片）凋亡體炎症反應oO。"
               },
               {
-                "k": "li",
-                "t": "Necrosis"
-              },
-              {
-                "k": "li",
-                "t": "Apoptosis"
-              },
-              {
-                "k": "li",
-                "t": "Programmed death of cells"
-              },
-              {
-                "k": "li",
-                "t": "Cell death after in"
-              },
-              {
-                "k": "li",
-                "t": "Nuclear fragment"
-              },
-              {
-                "k": "li",
-                "t": "Cell swelling ————' W awe"
-              },
-              {
-                "k": "li",
-                "t": "@_. , debris"
-              },
-              {
-                "k": "li",
-                "t": "Cell disruption ————e"
-              },
-              {
-                "k": "li",
-                "t": "@) Apoptotic bodies"
-              },
-              {
-                "k": "li",
-                "t": "Inflammatory response"
-              },
-              {
-                "k": "li",
-                "t": "Debris is swallowed"
-              },
-              {
-                "k": "li",
-                "t": "No inflammatory reaction"
-              },
-              {
-                "k": "li",
-                "t": "Antibodies"
-              },
-              {
-                "k": "li",
-                "t": "Phagocyte"
+                "k": "p",
+                "t": "Debris is swallowed No inflammatory reaction Antibodies Phagocyte",
+                "zh": "吞食碎屑無炎症反應抗體吞噬細胞"
               }
             ]
           }
@@ -10300,52 +8611,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "eereee"
-              },
-              {
-                "k": "li",
-                "t": "‘Membrane starts blebbing™s,"
-              },
-              {
-                "k": "li",
-                "t": "‘The cell shrinks"
-              },
-              {
-                "k": "li",
-                "t": "Organelle disintegrate"
-              },
-              {
-                "k": "li",
-                "t": "Chromatin condenses"
-              },
-              {
-                "k": "li",
-                "t": "Arnormal cel"
-              },
-              {
-                "k": "li",
-                "t": "Apoptosis"
-              },
-              {
-                "k": "li",
-                "t": "Nucleus and organelles collapse"
-              },
-              {
-                "k": "li",
-                "t": "‘Membrane continues to bleb"
-              },
-              {
-                "k": "li",
-                "t": "serenity"
-              },
-              {
-                "k": "li",
-                "t": "‘Apoptotic bodies form"
-              },
-              {
-                "k": "li",
-                "t": "‘Macrophages phagociease"
+                "k": "p",
+                "t": "eereee Ss...",
+                "zh": "（見英文）"
               }
             ]
           }
@@ -12681,47 +10949,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "@ eo 0o"
-              },
-              {
-                "k": "li",
-                "t": "@ Catabolism"
-              },
-              {
-                "k": "li",
-                "t": "© Anabolism"
-              },
-              {
-                "k": "li",
-                "t": "Ener¢ leas:"
-              },
-              {
-                "k": "li",
-                "t": "d from"
-              },
-              {
-                "k": "li",
-                "t": "Energy rele:"
-              },
-              {
-                "k": "li",
-                "t": "food po"
+                "t": "ATP Production and Breakdown",
+                "zh": "ATP 產生與分解"
               },
               {
                 "k": "p",
-                "t": "s ATP."
+                "t": "1 Catabolism: Energy released from food powers ATP production.",
+                "zh": "1 分解代謝：食物釋出的能量推動 ATP 產生。"
               },
               {
                 "k": "p",
-                "t": "ATP breakdo\\ iN Pow production."
+                "t": "2 Anabolism: Energy released from ATP breakdown powers cellular processes.",
+                "zh": "2 合成代謝：ATP 分解釋出的能量推動細胞過程。"
               },
               {
-                "k": "li",
-                "t": "cellular pro"
-              },
-              {
-                "k": "li",
-                "t": "@oeoe°0e"
+                "k": "p",
+                "t": "The cycle shows ATP at the top and ADP + Pi after ATP breakdown at the bottom.",
+                "zh": "圖中循環上方為 ATP，下方為 ATP 分解後的 ADP + Pi。"
               }
             ]
           },
@@ -12733,23 +10977,18 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Catabolism"
+                "t": "Catabolism and Anabolism",
+                "zh": "分解代謝與合成代謝"
               },
               {
-                "k": "li",
-                "t": "| Anabolism"
+                "k": "p",
+                "t": "Catabolism breaks food down and releases energy.",
+                "zh": "分解代謝將食物分解並釋放能量。"
               },
               {
-                "k": "li",
-                "t": "Food"
-              },
-              {
-                "k": "li",
-                "t": "Releases"
-              },
-              {
-                "k": "li",
-                "t": "Requires energy energy"
+                "k": "p",
+                "t": "Anabolism builds larger molecules and requires energy.",
+                "zh": "合成代謝建造較大分子，需要能量。"
               }
             ]
           }
@@ -12793,19 +11032,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "tabo"
+                "t": "Catabolism of a larger molecule",
+                "zh": "較大分子的分解代謝"
               },
               {
-                "k": "li",
-                "t": "larger molecule"
-              },
-              {
-                "k": "li",
-                "t": "energy"
-              },
-              {
-                "k": "li",
-                "t": "smaller molecules"
+                "k": "p",
+                "t": "A larger molecule is broken into smaller molecules and energy is released.",
+                "zh": "較大分子被拆成較小分子，並釋放能量。"
               }
             ]
           },
@@ -12817,83 +11050,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "tom Wer"
-              },
-              {
-                "k": "li",
-                "t": "ucose"
-              },
-              {
-                "k": "li",
-                "t": "‘cpitary"
-              },
-              {
-                "k": "li",
-                "t": "yyy"
-              },
-              {
-                "k": "li",
-                "t": "neeees"
-              },
-              {
-                "k": "li",
-                "t": "eyytyy ey"
-              },
-              {
-                "k": "li",
-                "t": "ety"
-              },
-              {
-                "k": "li",
-                "t": "Inert hid anes odeee:"
-              },
-              {
-                "k": "li",
-                "t": "aay"
+                "t": "Glucose metabolism pathway",
+                "zh": "葡萄糖代謝途徑"
               },
               {
                 "k": "p",
-                "t": "OSOO ob bee dood pob06."
+                "t": "Glucose from the digestive tract and from liver glycogen enters capillary blood plasma, then crosses interstitial fluid and the plasma membrane into the cell cytoplasm.",
+                "zh": "來自消化道及肝糖原的葡萄糖進入微血管血漿，再經組織間液與細胞膜進入細胞質。"
               },
               {
-                "k": "li",
-                "t": "Plasma membrane incolejopism"
+                "k": "p",
+                "t": "In the cytoplasm, glycolysis converts glucose to pyruvic acid. Anaerobic metabolism in skeletal muscle can form lactic acid.",
+                "zh": "在細胞質中，糖酵解把葡萄糖轉成丙酮酸；骨骼肌的無氧代謝可形成乳酸。"
               },
               {
-                "k": "li",
-                "t": "Giyeaysis"
-              },
-              {
-                "k": "li",
-                "t": "Anaorobic"
-              },
-              {
-                "k": "li",
-                "t": "Pyrue ai"
-              },
-              {
-                "k": "li",
-                "t": "Lactic"
-              },
-              {
-                "k": "li",
-                "t": "Cytopiaem etal"
-              },
-              {
-                "k": "li",
-                "t": "Instoltal asco"
-              },
-              {
-                "k": "li",
-                "t": "Into miocbondion +"
-              },
-              {
-                "k": "li",
-                "t": "Krebs"
-              },
-              {
-                "k": "li",
-                "t": "Elo"
+                "k": "p",
+                "t": "Pyruvic acid enters the mitochondrion for aerobic respiration: the Krebs cycle and electron transport produce CO2 + H2O.",
+                "zh": "丙酮酸進入線粒體進行有氧呼吸：克氏循環與電子傳遞產生 CO2 + H2O。"
               }
             ]
           }
@@ -12941,20 +11114,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "anabolic reaction"
+                "k": "p",
+                "t": "anabolic reaction oe 2 fe) fo} vey oD?",
+                "zh": "合成代謝反應oe 2 fe) fo} vey oD ？"
               },
               {
-                "k": "li",
-                "t": "vey"
-              },
-              {
-                "k": "li",
-                "t": "smaller molecules"
-              },
-              {
-                "k": "li",
-                "t": "larger molecule"
+                "k": "p",
+                "t": "smaller molecules larger molecule",
+                "zh": "小分子大分子"
               }
             ]
           },
@@ -12965,24 +11132,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Stages of Anabolism:"
-              },
-              {
-                "k": "li",
-                "t": "Production of the precursor"
-              },
-              {
-                "k": "li",
-                "t": "Energy (ATP) consumption"
-              },
-              {
-                "k": "li",
-                "t": "‘q¥a:"
-              },
-              {
-                "k": "li",
-                "t": "Complex molecule formation"
+                "k": "p",
+                "t": "Stages of Anabolism: Production of the precursor Energy (ATP) consumption ‘q¥a: (Fl Complex molecule formation",
+                "zh": "合成代謝階段：產生前體能量（ ATP ）消耗‘q ¥ a ： （ Fl複合物分子形成"
               }
             ]
           }
@@ -13066,48 +11218,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Enzyme as Catalyst"
-              },
-              {
-                "k": "li",
-                "t": "Products"
-              },
-              {
-                "k": "li",
-                "t": "Substrate (reactant)"
-              },
-              {
-                "k": "li",
-                "t": "Enzyme"
-              },
-              {
-                "k": "li",
-                "t": "Enzyme-substrate"
-              },
-              {
-                "k": "li",
-                "t": "Enzyme + product"
-              },
-              {
-                "k": "li",
-                "t": "Complex"
-              },
-              {
-                "k": "li",
-                "t": "Substrate enters"
-              },
-              {
-                "k": "li",
-                "t": "Chemical reaction is"
-              },
-              {
                 "k": "p",
-                "t": "Enzyme releases active site of triggered by the products"
-              },
-              {
-                "k": "li",
-                "t": "the enzyme"
+                "t": "Enzyme as Catalyst Products Substrate (reactant) Enzyme Enzyme-substrate Enzyme + product Complex Substrate enters Chemical reaction is Enzyme releases active site of triggered by the products the enzyme the enzyme",
+                "zh": "酶作為催化劑產物底物（反應物）酶酶底物酶+產物複合物底物進入化學反應是酶釋放活性位點由產物觸發酶酶"
               }
             ]
           },
@@ -13119,71 +11232,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Enzymes Function: How They Work"
-              },
-              {
-                "k": "li",
-                "t": "1. Sucrose and Enzyme before"
-              },
-              {
-                "k": "li",
-                "t": "binding together to form"
-              },
-              {
-                "k": "li",
-                "t": "enzyme-substrate complex"
-              },
-              {
-                "k": "li",
-                "t": "Glucose Fructose"
-              },
-              {
-                "k": "li",
-                "t": "2. The substrate and enzyme"
-              },
-              {
-                "k": "li",
-                "t": "bonding to form the"
-              },
-              {
-                "k": "li",
-                "t": "4. The products"
+                "t": "Enzymes: how they work",
+                "zh": "酵素：作用方式"
               },
               {
                 "k": "p",
-                "t": "Enzyme-substrate complex."
-              },
-              {
-                "k": "li",
-                "t": "glucose and fructose"
-              },
-              {
-                "k": "li",
-                "t": "are released from"
+                "t": "1. Sucrose and the enzyme approach each other before binding at the active site.",
+                "zh": "1. 蔗糖與酵素靠近，之後在活性部位結合。"
               },
               {
                 "k": "p",
-                "t": "the enzyme."
-              },
-              {
-                "k": "li",
-                "t": "woe -"
-              },
-              {
-                "k": "li",
-                "t": "3. Breaking the bond"
-              },
-              {
-                "k": "li",
-                "t": "net"
-              },
-              {
-                "k": "li",
-                "t": "between glucose"
+                "t": "2. The enzyme–substrate complex forms; the enzyme lowers the activation energy of the reaction.",
+                "zh": "2. 形成酵素–底物複合體；酵素降低反應的活化能。"
               },
               {
                 "k": "p",
-                "t": "and fructose."
+                "t": "3. The reaction produces glucose and fructose, which are released; the enzyme is unchanged and can catalyse again.",
+                "zh": "3. 反應產生葡萄糖與果糖並釋出；酵素本身不變，可再催化。"
               }
             ]
           }
@@ -13221,8 +11286,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "uw we’"
+                "k": "p",
+                "t": "uw we’ No?",
+                "zh": "uw we ’no?"
               }
             ]
           }
@@ -13311,28 +11377,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Enzyme"
-              },
-              {
-                "k": "li",
-                "t": "Nowat energy aetation"
-              },
-              {
-                "k": "li",
-                "t": "‘energy"
-              },
-              {
-                "k": "li",
-                "t": "‘enzyme"
-              },
-              {
-                "k": "li",
-                "t": "lowered by"
-              },
-              {
-                "k": "li",
-                "t": "Uceatonlnectenntros epuecsteclaanstaiaitiiey"
+                "k": "p",
+                "t": "Enzyme Nowat energy aetation ‘energy ‘enzyme lowered by Uceatonlnectenntros epuecsteclaanstaiaitiiey",
+                "zh": "由Uceatonlnectenntros epuecsteclaanstaiaitiiey降低的酶Nowat能量aetation “能量”酶"
               }
             ]
           }
@@ -13375,20 +11422,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Product"
-              },
-              {
-                "k": "li",
-                "t": "Active site"
-              },
-              {
-                "k": "li",
-                "t": "Enzyme-Substrate complex"
-              },
-              {
-                "k": "li",
-                "t": "Enzyme lock and key model"
+                "k": "p",
+                "t": "Product Active site Enzyme-Substrate complex Enzyme lock and key model",
+                "zh": "產品活性部位酵素-底物複合物酵素鎖和鑰匙模型"
               }
             ]
           }
@@ -13411,60 +11447,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "AzB G+"
-              },
-              {
-                "k": "li",
-                "t": "(Reactants)"
-              },
-              {
-                "k": "li",
-                "t": "(Products)"
-              },
-              {
-                "k": "li",
-                "t": "sul"
-              },
-              {
-                "k": "li",
-                "t": "te A"
-              },
-              {
-                "k": "li",
-                "t": "Prodi"
-              },
-              {
-                "k": "li",
-                "t": "Active sites ‘“@"
-              },
-              {
-                "k": "li",
-                "t": "Sons"
-              },
-              {
-                "k": "li",
-                "t": "Substrate B"
-              },
-              {
-                "k": "li",
-                "t": "Enzyme"
-              },
-              {
-                "k": "li",
-                "t": "Product D"
-              },
-              {
-                "k": "li",
-                "t": "(a) Enzyme and substrates"
-              },
-              {
-                "k": "li",
-                "t": "(b) Enzyme-substrate complex"
-              },
-              {
-                "k": "li",
-                "t": "(0) Reaction products and enzyme (unchanged)"
+                "k": "p",
+                "t": "AzB G+ (Reactants) (Products) sul te A Prodi Active sites ‘“@ SONS > ae Substrate B Enzyme Product D (a) Enzyme and substrates (b) Enzyme-substrate complex (0) Reaction products and enzyme (unchanged)",
+                "zh": "AzB G + （反應物） （產品） sul te A Prodi活性部位的「@ SONS > ae底物B酵素產品D (a)酵素和基質(b)酵素-底物複合物(0)反應產物和酵素（不變）"
               }
             ]
           }
@@ -13512,76 +11497,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "_ Temperature"
-              },
-              {
-                "k": "li",
-                "t": "BIG influence"
-              },
-              {
-                "k": "li",
-                "t": "More heat = More kinetic energy"
-              },
-              {
-                "k": "li",
-                "t": "Enzymes have optimum pH optimum pH"
-              },
-              {
-                "k": "li",
-                "t": "‘optimum temp:"
-              },
-              {
-                "k": "li",
-                "t": "If higher/lower"
-              },
-              {
-                "k": "li",
-                "t": "But if too high"
+                "k": "p",
+                "t": "Enzyme concentration Substrate concentration steady increase if substrate avaiable All enzyme lesubstrate is limited ‘are used Increase substrate concentration Increase enzyme concentration = increase rate of reaction",
+                "zh": "酶濃度底物濃度穩定增加（如果底物可用）所有酶底物都受到限制‘使用增加底物濃度增加酶濃度=增加反應速率"
               },
               {
                 "k": "p",
-                "t": "H+ in acid / OH- in alkaline enzyme is denatured can interfere enzyme structure"
-              },
-              {
-                "k": "li",
-                "t": "Enzyme concentration"
-              },
-              {
-                "k": "li",
-                "t": "Substrate concentration"
-              },
-              {
-                "k": "li",
-                "t": "steady increase if substrate avaiable"
-              },
-              {
-                "k": "li",
-                "t": "All enzyme lesubstrate is limited"
-              },
-              {
-                "k": "li",
-                "t": "‘are used"
-              },
-              {
-                "k": "li",
-                "t": "Increase substrate concentration"
-              },
-              {
-                "k": "li",
-                "t": "Increase enzyme concentration"
-              },
-              {
-                "k": "li",
-                "t": "= increase rate of reaction"
-              },
-              {
-                "k": "li",
-                "t": "“Until substrates amount are limited**"
-              },
-              {
-                "k": "li",
-                "t": "**Until active site of enzyme are used**"
+                "t": "= increase rate of reaction Enzyme concentration Substrate concentration “Until substrates amount are limited** **Until active site of enzyme are used**",
+                "zh": "=增加反應速率酶濃度底物濃度「直到底物量受到限制* * * *直到使用酶的活性部位* *"
               }
             ]
           }
@@ -13612,7 +11535,13 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 332,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "- i a a a a a a a Joga * ag. AEE are +] _* yey Se \"4 Renaturation ; ns i _ o ae cosy .",
+                "zh": "- i a a a a a a Joga * ag。AEE are +]_* yey Se \"4 Renaturation; ns i_o ae cosy."
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p017-01.webp",
@@ -13622,7 +11551,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Temperature (°C)"
+                "t": "Temperature (°C)",
+                "zh": "溫度（°C）"
               }
             ]
           }
@@ -13663,7 +11593,18 @@ window.HAZEL_LECTURES = [
             "w": 403,
             "h": 500,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "i ah © MEUTRAL a 5 ire.",
+                "zh": "i ah © MEUTRAL a 5憤怒。"
+              },
+              {
+                "k": "p",
+                "t": "ACIDIC",
+                "zh": "酸性的"
+              }
+            ]
           }
         ]
       },
@@ -13705,67 +11646,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Table 4. 3 | pH Optima of Selected Enzymes"
-              },
-              {
-                "k": "li",
-                "t": "Pepsin (stomach)"
-              },
-              {
-                "k": "li",
-                "t": "Digestion of protein"
-              },
-              {
-                "k": "li",
-                "t": "Acid phosphatase (prostate)"
-              },
-              {
-                "k": "li",
-                "t": "Removal of phosphate group"
-              },
-              {
-                "k": "li",
-                "t": "Salivary amylase (saliva)"
-              },
-              {
-                "k": "li",
-                "t": "Digestion of starch"
-              },
-              {
-                "k": "li",
-                "t": "Lipase (pancreatic juice)"
-              },
-              {
-                "k": "li",
-                "t": "Digestion of fat"
-              },
-              {
-                "k": "li",
-                "t": "Alkaline phosphatase (bone)"
-              },
-              {
-                "k": "li",
-                "t": "Trypsin (pancreatic juice)"
-              },
-              {
-                "k": "li",
-                "t": "Monoamine oxidase"
-              },
-              {
-                "k": "li",
-                "t": "Removal of amine"
-              },
-              {
-                "k": "li",
-                "t": "{nerve endings)"
-              },
-              {
-                "k": "li",
-                "t": "group from"
-              },
-              {
-                "k": "li",
-                "t": "norepinephrine"
+                "t": "Alkaline phosphatase (bone) Removal of phosphate group Trypsin (pancreatic juice) Digestion of protein Monoamine oxidase Removal of amine {nerve endings) group from norepinephrine",
+                "zh": "鹼性磷酸酶（骨骼）去除磷酸基團胰蛋白酶（胰液）消化蛋白質單胺氧化酶從去甲腎上腺素去除胺{神經末梢)基團"
               }
             ]
           },
@@ -13777,15 +11659,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Pepsin"
-              },
-              {
-                "k": "li",
-                "t": "Salivary"
-              },
-              {
-                "k": "li",
-                "t": "Trypsin amylase"
+                "t": "Pepsin Salivary Trypsin amylase",
+                "zh": "胃蛋白酶唾液胰蛋白酶澱粉酶"
               }
             ]
           }
@@ -13838,36 +11713,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Pancreas"
-              },
-              {
-                "k": "li",
-                "t": "Membrane-bound"
-              },
-              {
-                "k": "li",
-                "t": "Inactive form nteropeptidase"
-              },
-              {
-                "k": "li",
-                "t": "Trypsinogen ———-~> Tr"
-              },
-              {
-                "k": "li",
-                "t": "Procarboxypeptidase ase"
-              },
-              {
-                "k": "li",
-                "t": "Chymotrypsinogen"
-              },
-              {
-                "k": "li",
-                "t": "Chymotry psin"
-              },
-              {
-                "k": "li",
-                "t": "Lumen of duodenum"
+                "k": "p",
+                "t": "Pancreas Membrane-bound Inactive form nteropeptidase Trypsinogen ———-~> Tr Procarboxypeptidase ase Chymotrypsinogen Chymotry psin Lumen of duodenum",
+                "zh": "胰腺膜結合失活形式黃嘌呤肽酶胰蛋白酶原———- ~ > Tr前羧肽酶ase胰凝乳酶原糜蛋白酶糜蛋白酶psin十二指腸管腔"
               }
             ]
           },
@@ -13918,11 +11766,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Saturation"
-              },
-              {
-                "k": "li",
-                "t": "Maximum rate cor"
+                "t": "Saturation Maximum rate cor",
+                "zh": "飽和度最大速率cor"
               }
             ]
           }
@@ -13965,32 +11810,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Substrates"
-              },
-              {
-                "k": "li",
-                "t": "Cofactor"
-              },
-              {
                 "k": "p",
-                "t": "Figure 4. 5 The roles of cofactors in enzyme function. In"
-              },
-              {
-                "k": "p",
-                "t": "{@) the cofactor changes the conformation of the active site, allowing"
-              },
-              {
-                "k": "p",
-                "t": "for a better fit between the enzyme and its substrates. In (b) the"
-              },
-              {
-                "k": "p",
-                "t": "cofactor participates in the temporary bonding between the active"
-              },
-              {
-                "k": "p",
-                "t": "site and the substrates."
+                "t": "Substrates fa) Cofactor Ge» Figure 4.5 The roles of cofactors in enzyme function. In",
+                "zh": "底物fa)輔因子Ge »圖4.5輔因子在酶功能中的作用。在"
               }
             ]
           }
@@ -14043,28 +11865,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "sae OP"
-              },
-              {
-                "k": "li",
-                "t": "Coenzyme"
-              },
-              {
-                "k": "li",
-                "t": "Cofactor"
-              },
-              {
-                "k": "li",
-                "t": "(protein portion),"
-              },
-              {
-                "k": "li",
-                "t": "(nonprotein portion),"
-              },
-              {
-                "k": "li",
-                "t": "(whole enzyme),"
+                "k": "p",
+                "t": "sae OP Coenzyme Cofactor (protein portion), (nonprotein portion), (whole enzyme),",
+                "zh": "oP輔酶輔因子（蛋白質部分）、（非蛋白質部分）、（全酵素）、"
               }
             ]
           }
@@ -14154,11 +11957,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "sred active site"
-              },
-              {
-                "k": "li",
-                "t": "yor"
+                "t": "sred active site yor",
+                "zh": "（見英文）"
               }
             ]
           }
@@ -14299,79 +12099,18 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "The three basic components of a feedback system are"
+                "t": "The three basic components of a feedback system are the receptor, control center, and effector.",
+                "zh": "反饋系統的三個基本組成部分是受體、控制中心和效應器。"
               },
               {
                 "k": "p",
-                "t": "the receptor, control center, and effector."
-              },
-              {
-                "k": "li",
-                "t": "‘Stimulus"
-              },
-              {
-                "k": "li",
-                "t": "disrupts homeostasis by"
-              },
-              {
-                "k": "li",
-                "t": "increasing or decreasing a"
-              },
-              {
-                "k": "li",
-                "t": "‘Controlled Condition"
-              },
-              {
-                "k": "li",
-                "t": "itored by"
-              },
-              {
-                "k": "li",
-                "t": "Receptors"
-              },
-              {
-                "k": "li",
-                "t": "Input"
-              },
-              {
-                "k": "li",
-                "t": "that send nerve impulses or"
-              },
-              {
-                "k": "li",
-                "t": "chemical signals to a"
-              },
-              {
-                "k": "li",
-                "t": "cen eter"
-              },
-              {
-                "k": "li",
-                "t": "Control Center, the response brings the controlled"
-              },
-              {
-                "k": "li",
-                "t": "‘condition back to"
-              },
-              {
-                "k": "li",
-                "t": "that receives the input"
-              },
-              {
-                "k": "li",
-                "t": "normal"
+                "t": "‘STIMULUS disrupts homeostasis by increasing or decreasing a ‘CONTROLLED CONDITION itored by RECEPTORS Input that send nerve impulses or chemical signals to a cen eter CONTROL CENTER, the response brings the controlled",
+                "zh": "“刺激通過增加或減少受體控制的條件來破壞體內穩定輸入將神經脈衝或化學信號發送到中心控制中心，反應將帶來受控的"
               },
               {
                 "k": "p",
-                "t": "Output and provides nerve impulses or chemical signals to"
-              },
-              {
-                "k": "li",
-                "t": "Effectors that bring about a change or"
-              },
-              {
-                "k": "li",
-                "t": "RESPONSE that alters the controlled condition"
+                "t": "‘condition back to that receives the input normal Output and provides nerve impulses or chemical signals to EFFECTORS that bring about a change or RESPONSE that alters the controlled condition",
+                "zh": "‘條件回到接收輸入正常輸出，並向執行器提供神經脈衝或化學信號，從而導致變化或反應，從而改變受控條件"
               }
             ]
           },
@@ -14382,28 +12121,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "[Ree"
-              },
-              {
-                "k": "li",
-                "t": "Set point"
-              },
-              {
-                "k": "li",
-                "t": "} Normal"
-              },
-              {
-                "k": "li",
-                "t": "(average|"
-              },
-              {
-                "k": "li",
-                "t": "Ace"
-              },
-              {
-                "k": "li",
-                "t": "OJ ‘ange"
+                "k": "p",
+                "t": "[Ree Set point } Normal (average| Ace OJ ‘ange",
+                "zh": "[Ree Set point}正常（平均| Ace OJ ‘ange"
               }
             ]
           }
@@ -14456,16 +12176,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "sees eeeeseneses"
+                "k": "p",
+                "t": "<tillia,.",
+                "zh": "< tillia,."
               },
               {
-                "k": "li",
-                "t": "con cone"
-              },
-              {
-                "k": "li",
-                "t": "wend"
+                "k": "p",
+                "t": "iy JS",
+                "zh": "（見英文）"
               }
             ]
           }
@@ -14493,72 +12211,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Body cells take up glucose,"
-              },
-              {
-                "k": "li",
-                "t": "@eeee0"
-              },
-              {
-                "k": "li",
-                "t": "Beta cells in pancreas"
-              },
-              {
-                "k": "li",
-                "t": "Liver takes up"
+                "k": "p",
+                "t": "Body cells take up glucose, Beta cells in pancreas Liver takes up release insulin into the blood.",
+                "zh": "身體細胞吸收葡萄糖，胰腺中的β細胞肝臟吸收釋放的胰島素進入血液。"
               },
               {
                 "k": "p",
-                "t": "release insulin into the blood."
-              },
-              {
-                "k": "li",
-                "t": "glucose and"
-              },
-              {
-                "k": "li",
-                "t": "stores it as"
-              },
-              {
-                "k": "li",
-                "t": "Ver, glycogen"
+                "t": "glucose and stores it as VER, glycogen STIMULUS: blood glucose level rises.",
+                "zh": "葡萄糖並將其儲存為VER ，糖原刺激：血糖水平升高。"
               },
               {
                 "k": "p",
-                "t": "STIMULUS: blood glucose level rises."
-              },
-              {
-                "k": "li",
-                "t": "Homeostasis"
-              },
-              {
-                "k": "li",
-                "t": "(glucose levels 90mg/100mL)"
-              },
-              {
-                "k": "li",
-                "t": "Set Point"
+                "t": "Homeostasis (glucose levels 90mg/100mL) Set Point STIMULUS: blood glucose level falls.",
+                "zh": "體內平衡（葡萄糖水平90毫克/100毫升）設定點刺激：血糖水平下降。"
               },
               {
                 "k": "p",
-                "t": "STIMULUS: blood glucose level falls."
+                "t": "Blood glucose level rises.",
+                "zh": "血糖水平升高。"
               },
               {
                 "k": "p",
-                "t": "Blood glucose level rises."
-              },
-              {
-                "k": "li",
-                "t": "Liver breaks"
-              },
-              {
-                "k": "li",
-                "t": "Aipha cells in pancreas down glycogen release glucagon"
-              },
-              {
-                "k": "li",
-                "t": "and releases"
+                "t": "Liver breaks Aipha cells in pancreas down glycogen release glucagon and releases glucose",
+                "zh": "肝臟破壞胰腺中的Aipha細胞，下調糖原釋放胰高血糖素並釋放葡萄糖"
               }
             ]
           }
@@ -14591,72 +12266,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "@ Break or tear in"
-              },
-              {
-                "k": "li",
-                "t": "blood vessel"
-              },
-              {
-                "k": "li",
-                "t": "wal"
-              },
-              {
-                "k": "li",
-                "t": "Feedback cycle initiated"
-              },
-              {
-                "k": "li",
-                "t": "@ Released"
-              },
-              {
-                "k": "li",
-                "t": "@ Clotting occurs"
-              },
-              {
-                "k": "li",
-                "t": "chemicals"
-              },
-              {
-                "k": "li",
-                "t": "as platelets"
-              },
-              {
-                "k": "li",
-                "t": "attract more"
-              },
-              {
-                "k": "li",
-                "t": "adhere to site"
-              },
-              {
-                "k": "li",
-                "t": "and release"
-              },
-              {
-                "k": "li",
-                "t": "Feedback cycle ends"
-              },
-              {
-                "k": "li",
-                "t": "@ Clotting proceeds"
-              },
-              {
-                "k": "li",
-                "t": "until break is"
-              },
-              {
-                "k": "li",
-                "t": "sealed by newly,"
-              },
-              {
-                "k": "li",
-                "t": "formed clot"
+                "k": "p",
+                "t": "Break or tear in blood vessel wal Feedback cycle initiated Released Clotting occurs chemicals as platelets attract more adhere to site platelets and release chemicals ee)",
+                "zh": "血管破裂或撕裂wal反饋循環啟動釋放凝血發生化學物質，因為血小板吸引更多粘附到部位血小板並釋放化學物質ee)"
               },
               {
                 "k": "p",
-                "t": "Copyright© 2004 Pearson Education, no. publishing as Benjamin Cummings"
+                "t": "Feedback cycle ends Clotting proceeds until break is sealed by newly, formed clot Copyright© 2004 Pearson Education, no. publishing as Benjamin Cummings",
+                "zh": "反饋週期結束凝血收益，直到新形成的凝血塊密封為止版權所有© 2004 Pearson Education ，編號Benjamin Cummings出版"
               }
             ]
           }
@@ -14773,7 +12390,18 @@ window.HAZEL_LECTURES = [
             "w": 960,
             "h": 600,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "; - i r =\" cr .",
+                "zh": "; - i r = \"cr."
+              },
+              {
+                "k": "p",
+                "t": "tl 7 a . L ai. oe : “a . f q Lal * > be : =. rm —_ ro 4 = wr. Ip -",
+                "zh": "tl 7 a. L ai. oe ： “a. f q Lal * > be ： =. rm —_ro 4 = wr. Ip -"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p035-02.webp",
@@ -14783,39 +12411,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Extracellular"
-              },
-              {
-                "k": "li",
-                "t": "Phospholipid bilayer"
-              },
-              {
-                "k": "li",
-                "t": "Intracellular"
-              },
-              {
-                "k": "li",
-                "t": "Hydrophobic tail"
-              },
-              {
-                "k": "li",
-                "t": "Hydrophilic head"
+                "t": "Extracellular Phospholipid bilayer Intracellular Hydrophobic tail Hydrophilic head",
+                "zh": "胞外磷脂雙層胞內疏水尾巴親水頭"
               },
               {
                 "k": "p",
-                "t": "Figure 2. Phospholipid Bilayer. The phospholipid bilayer consists of two adjacent"
-              },
-              {
-                "k": "p",
-                "t": "sheets of phospholipids, arranged tail to tail. The hydrophobic (water fearing) tails"
-              },
-              {
-                "k": "p",
-                "t": "associate with one another, forming the interior of the membrane. The hydrophilic"
-              },
-              {
-                "k": "p",
-                "t": "(water loving) polar heads contact the fluid inside and outside of the cell."
+                "t": "(water loving) polar heads contact the fluid inside and outside of the cell.",
+                "zh": "（愛水）極頭接觸細胞內外的液體。"
               }
             ]
           },
@@ -14826,84 +12428,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Glycoprotein: protein with"
+                "k": "p",
+                "t": "Glycoprotein: protein with Glycolipid: lipid with carbohydrate attached carbohydrate attached CESS SISK CAA ee: COCR COREE ole: SSS ASASASAS woe: CAAA eS: SASS ene rae aGa Oa oes SAAR KeSc$ aes SRE PORES PPE",
+                "zh": "糖蛋白：含糖脂質的蛋白質：含碳水化合物附著的脂質CESS SISK CAA ee ： COCR COREE ole ： SSS ASASASAS WOE ： CAAA eS ： SASS ene rae aGa Oa oes SAAR KeSc $ aes SRE PORES PPE"
               },
               {
-                "k": "li",
-                "t": "Glycolipid: lipid with carbohydrate attached carbohydrate"
+                "k": "p",
+                "t": "SASS ore ce: CEES ORES ove (KAA (KAO ASS arate owe aes PASS fe Oe yA 4 AAS COO KAAS ewan aon ROHS PAHO DOH ARRAY CO® Any BAA 5s yyy eee JERI BAR, (HA ANU INU} Nias.",
+                "zh": "SASS ore ce: CEES ore ove (KAA (KAO ASS arate owe aes PASS fe Oe yA 4 AAS COO KAAS ewan aon ROHS PAHO DOH ARRAY CO ®任何BAA 5s yyyy eee JERI BAR, (HA ANU INU} Nias."
               },
               {
-                "k": "li",
-                "t": "attached"
+                "k": "p",
+                "t": "Wael iy) fr) Sie 'Bys) \\zi\\e LEVEE LX) IOS DX) Peripheral membrane Phospholipid protein bilayer Cholesterol Integral membrane Channel protein protein",
+                "zh": "Wael iy) fr) Sie 'Bys)\\ zi\\ e levee LX) IOS DX)外周膜磷脂蛋白雙層膽固醇整體膜通道蛋白"
               },
               {
-                "k": "li",
-                "t": "Prs"
-              },
-              {
-                "k": "li",
-                "t": "Cess"
-              },
-              {
-                "k": "li",
-                "t": "Sisk"
-              },
-              {
-                "k": "li",
-                "t": "Caa"
-              },
-              {
-                "k": "li",
-                "t": "Cocr"
-              },
-              {
-                "k": "li",
-                "t": "Coree ole:"
-              },
-              {
-                "k": "li",
-                "t": "Sss Asasasas woe:"
-              },
-              {
-                "k": "li",
-                "t": "Caaa"
-              },
-              {
-                "k": "li",
-                "t": "Sass ene rae aGa Oa oes"
-              },
-              {
-                "k": "li",
-                "t": "Saar"
-              },
-              {
-                "k": "li",
-                "t": "KeSc$ aes"
-              },
-              {
-                "k": "li",
-                "t": "Sre"
-              },
-              {
-                "k": "li",
-                "t": "Pores"
-              },
-              {
-                "k": "li",
-                "t": "Ppe"
-              },
-              {
-                "k": "li",
-                "t": "Sass ore ce:"
-              },
-              {
-                "k": "li",
-                "t": "Cees"
-              },
-              {
-                "k": "li",
-                "t": "Ccs"
+                "k": "p",
+                "t": "Figure 3. Cell Membrane. The cell membrane of the cell is a phospholipid bilayer containing many different molecular components, including proteins and cholesterol, some with carbohydrate groups attached.",
+                "zh": "圖3.細胞膜。細胞的細胞膜是含有許多不同分子成分的磷脂雙層，包括蛋白質和膽固醇，其中一些具有碳水化合物基團。"
               }
             ]
           },
@@ -14948,40 +12490,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Passive transport eee 6866 eee"
-              },
-              {
-                "k": "li",
-                "t": "High concentration"
-              },
-              {
-                "k": "li",
-                "t": "Extracellular fluid"
-              },
-              {
-                "k": "li",
-                "t": "Intracellular fluid"
-              },
-              {
-                "k": "li",
-                "t": "Carrier"
-              },
-              {
-                "k": "li",
-                "t": "Channel protein protein"
-              },
-              {
-                "k": "li",
-                "t": "Low concentration"
-              },
-              {
-                "k": "li",
-                "t": "Simple diffusion"
-              },
-              {
-                "k": "li",
-                "t": "Facilitated diffusion"
+                "k": "p",
+                "t": "Passive transport eee 6866 eee High concentration Extracellular fluid Intracellular fluid Carrier Channel protein protein Low concentration Simple diffusion Facilitated diffusion",
+                "zh": "被動運輸eee 6866 eee高濃度細胞外液細胞內液載體通道蛋白質低濃度簡單擴散促進擴散"
               }
             ]
           },
@@ -14992,24 +12503,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "ier ss"
-              },
-              {
-                "k": "li",
-                "t": "eof"
+                "k": "p",
+                "t": "ier ss eof \"ee Beeelic.«s eve ee, i.",
+                "zh": "ier ss eof \"ee Beeelic.« s eve ee, i."
               },
               {
                 "k": "p",
-                "t": "Beeelic. «s eve ee, i."
-              },
-              {
-                "k": "li",
-                "t": "roe"
-              },
-              {
-                "k": "li",
-                "t": "Osmosis |"
+                "t": "roe OSMOSIS",
+                "zh": "（見英文）"
               }
             ]
           }
@@ -15052,40 +12553,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Extracellular fluid ropes Re"
-              },
-              {
-                "k": "li",
-                "t": "LOoSo lope)"
-              },
-              {
-                "k": "li",
-                "t": "Lonel"
-              },
-              {
-                "k": "li",
-                "t": "WhO ©"
-              },
-              {
-                "k": "li",
-                "t": "(exe)"
-              },
-              {
-                "k": "li",
-                "t": "eoI°q o"
-              },
-              {
-                "k": "li",
-                "t": "Lipid bilayer thembrane) oO 5 Oo loRe)"
-              },
-              {
-                "k": "li",
-                "t": "Timi"
-              },
-              {
-                "k": "li",
-                "t": "Cytoplasm"
+                "k": "p",
+                "t": "Extracellular fluid ropes Re LOoSo oP &@ 5 @ SQ 0 lope) Lonel WhO © (exe) eoI°q o Lipid bilayer thembrane) oO 5 Oo loRe) Timi Cytoplasm",
+                "zh": "細胞外液繩Re LOoSo oP & @ 5 @ SQ 0 lope) Lonel WHO © (exe) eoI ° q o脂質雙層膜) oO 5 Oo loRe) Timi細胞質"
               }
             ]
           },
@@ -15150,52 +12620,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Simple Diffusion"
+                "k": "p",
+                "t": "Simple Diffusion Movement of particles from high to low concentration without a protein High concentration r of particles eae cell ee ~. 2 a Sa",
+                "zh": "簡單擴散顆粒從高濃度到低濃度而沒有蛋白質的移動高濃度r顆粒eae細胞ee ~. 2 a Sa"
               },
               {
                 "k": "p",
-                "t": "Movement of particles from high to low concentration without a protein"
-              },
-              {
-                "k": "li",
-                "t": "High concentration r of particles"
-              },
-              {
-                "k": "li",
-                "t": "eae cell ee ~. 2"
-              },
-              {
-                "k": "li",
-                "t": "a Sa"
-              },
-              {
-                "k": "li",
-                "t": "Gell membrancy bight rnin til"
-              },
-              {
-                "k": "li",
-                "t": "Hell"
-              },
-              {
-                "k": "li",
-                "t": "HL Att til"
-              },
-              {
-                "k": "li",
-                "t": "Hie"
-              },
-              {
-                "k": "li",
-                "t": "Inside cell"
-              },
-              {
-                "k": "li",
-                "t": "Same concentration concentration"
-              },
-              {
-                "k": "li",
-                "t": "(equilibrium)"
+                "t": "Gell membrancy bight rnin til Hell HL Att til Hie Inside cell oe @ Same concentration concentration (equilibrium) Simple diffusion",
+                "zh": "凝膠膜bight rnin til Hell HL Att til Hie細胞內oe @相同濃度濃度（平衡）簡單擴散"
               }
             ]
           },
@@ -15206,24 +12638,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Airis inhaled and exhaled"
-              },
-              {
-                "k": "li",
-                "t": "Alveoli"
-              },
-              {
-                "k": "li",
-                "t": "Thin, moist walls"
+                "k": "p",
+                "t": "Airis inhaled and exhaled Alveoli Thin, moist walls Diffusion of CO.",
+                "zh": "Airis吸入和呼出肺泡薄，濕潤的牆壁擴散CO"
               },
               {
                 "k": "p",
-                "t": "Diffusion of CO."
-              },
-              {
-                "k": "li",
-                "t": "Capillary"
+                "t": "Capillary",
+                "zh": "毛細管 (Capillary)"
               }
             ]
           },
@@ -15234,60 +12656,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Extracellular Fluid igh Concer"
-              },
-              {
-                "k": "li",
-                "t": "° re les (eg, ons)"
-              },
-              {
-                "k": "li",
-                "t": "BrP OOOOC aaa"
-              },
-              {
-                "k": "li",
-                "t": "Aian"
-              },
-              {
-                "k": "li",
-                "t": "Nnn"
-              },
-              {
-                "k": "li",
-                "t": "Nem"
-              },
-              {
-                "k": "li",
-                "t": "Yx Yo"
-              },
-              {
-                "k": "li",
-                "t": "(Mno"
-              },
-              {
-                "k": "li",
-                "t": "COCORO OBE Ga"
-              },
-              {
-                "k": "li",
-                "t": "Phospholipid he i"
-              },
-              {
-                "k": "li",
-                "t": "Pore"
-              },
-              {
-                "k": "li",
-                "t": "Low C¢ trati"
-              },
-              {
-                "k": "li",
-                "t": "Cytoplasm"
-              },
-              {
-                "k": "li",
-                "t": "Facilitated Diff"
+                "k": "p",
+                "t": "Extracellular Fluid igh Concer ° re les (eg, ons) aaa AIAN NEM YX YO (MNO COCORO OBE Ga Phospholipid he i Pore Low C¢ trati Cytoplasm Facilitated Diff",
+                "zh": "細胞外液igh有關（例如， ONS ） aaa AIAN NEM YX YO （ MNO COCORO OBE Ga磷脂he i孔低C ¢ trati細胞質促進差異"
               }
             ]
           }
@@ -15335,36 +12706,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "membrane"
-              },
-              {
-                "k": "li",
-                "t": "solute"
-              },
-              {
-                "k": "li",
-                "t": "protein"
-              },
-              {
-                "k": "li",
-                "t": "outside"
-              },
-              {
-                "k": "li",
-                "t": "inside"
-              },
-              {
                 "k": "p",
-                "t": "Figure 5. 9 Facilitated transport."
-              },
-              {
-                "k": "p",
-                "t": "oncentration. Note that the carrier protein undergoes a change in shape (called a conformational change) as it moves a solute across the"
-              },
-              {
-                "k": "p",
-                "t": "membrane."
+                "t": "membrane solute protein outside inside Figure 5.9 Facilitated transport.",
+                "zh": "膜溶質蛋白在圖5.9促進運輸。"
               }
             ]
           },
@@ -15375,36 +12719,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Carrier Protein"
-              },
-              {
-                "k": "li",
-                "t": "Hydrophilic"
-              },
-              {
-                "k": "li",
-                "t": "O Pocket"
-              },
-              {
-                "k": "li",
-                "t": "Conformational"
-              },
-              {
-                "k": "li",
-                "t": "Change"
-              },
-              {
-                "k": "li",
-                "t": "Enn"
-              },
-              {
-                "k": "li",
-                "t": "Gee"
-              },
-              {
-                "k": "li",
-                "t": "Hea"
+                "k": "p",
+                "t": "Carrier Protein Hydrophilic O Pocket Conformational Change ENN Gee HEA",
+                "zh": "Carrier Protein親水性O Pocket Conformational Change ENN Gee HEA"
               }
             ]
           }
@@ -15460,7 +12777,13 @@ window.HAZEL_LECTURES = [
             "w": 829,
             "h": 435,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "‘Gerl a® a a ban oy ie cn Haat cae: *wa3 ° si ‘ee re e: sak a, ae",
+                "zh": "‘Gerl a ® a a ban oy ie cn Haat cae: * wa3° si‘ ee re e: sak a, ae"
+              }
+            ]
           },
           {
             "src": "assets/figures/L2/p040-02.webp",
@@ -15469,12 +12792,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "xt } toes”"
-              },
-              {
-                "k": "li",
-                "t": "eee ee"
+                "k": "p",
+                "t": "& iB ee me Se Meee) eS a SE: RP ecg SR tig os",
+                "zh": "（見英文）"
               }
             ]
           }
@@ -15560,7 +12880,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Functioning cell of normal size."
+                "t": "Functioning cell of normal size.",
+                "zh": "正常大小的功能性細胞。"
               }
             ]
           },
@@ -15572,19 +12893,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "G's"
-              },
-              {
-                "k": "li",
-                "t": "Normal"
-              },
-              {
-                "k": "li",
-                "t": "Shriveled"
-              },
-              {
-                "k": "li",
-                "t": "Lysed"
+                "t": "G's Normal Shriveled Lysed",
+                "zh": "G的普通萎縮裂解"
               }
             ]
           }
@@ -15608,83 +12918,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Tonicity abilit of the con centr tion o olv ition to"
-              },
-              {
-                "k": "li",
-                "t": "ffect the"
-              },
-              {
-                "k": "li",
-                "t": "me and press"
-              },
-              {
-                "k": "li",
-                "t": "fithin ¢"
-              },
-              {
-                "k": "li",
-                "t": "Yew"
-              },
-              {
-                "k": "li",
-                "t": "Hypertonic"
-              },
-              {
-                "k": "li",
-                "t": "When both the cell and the"
-              },
-              {
-                "k": "li",
-                "t": "Ifa cell is placed in a hypotonic"
+                "t": "Tonicity abilit of the con centr tion o olv ition to ffect the me and press fithin ¢ Yew Hypertonic When both the cell and the Ifa cell is placed in a hypotonic",
+                "zh": "當細胞和Ifa細胞都置於低張狀態時，中心的張力能力可以完善me並按下fithin ¢ Yew Hypertonic"
               },
               {
                 "k": "p",
-                "t": "Ifa cell is in a hypertonic solution, the surrounding solution have"
-              },
-              {
-                "k": "li",
-                "t": "solution will take in water across their"
-              },
-              {
-                "k": "li",
-                "t": "solution has a lower water concentration"
-              },
-              {
-                "k": "li",
-                "t": "equal solute concentrations"
-              },
-              {
-                "k": "li",
-                "t": "membranes, leading to hemolysis"
-              },
-              {
-                "k": "li",
-                "t": "than the cell cytosol, and water moves"
-              },
-              {
-                "k": "li",
-                "t": "e. g. , normal saline (0. 9% NaCl),"
-              },
-              {
-                "k": "li",
-                "t": ". g-, half saline (0. 45% NaCl),"
-              },
-              {
-                "k": "li",
-                "t": "‘out of the cell leading to crenation"
-              },
-              {
-                "k": "li",
-                "t": ", mannitol, reduce brain swelling"
-              },
-              {
-                "k": "li",
-                "t": "D5 (5% dextrose in water)"
-              },
-              {
-                "k": "li",
-                "t": "D2. 5 (2. 5% dextrose in water)"
+                "t": ", mannitol, reduce brain swelling D5 (5% dextrose in water) D2.5 (2.5% dextrose in water) (ein d Kerlietslin tile chalt frenlitetwens iemrmeteel-cliemrean,",
+                "zh": "，甘露醇，減輕腦腫脹D5 （水中5%葡萄糖） D2.5 （水中2.5%葡萄糖） （ ein d Kerlietslin tile chalt frenlitetwens iemrmeteel-cliemrean ，"
               }
             ]
           }
@@ -15712,68 +12952,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Semipermeable membrane"
+                "k": "p",
+                "t": "Semipermeable membrane Solvent.",
+                "zh": "半透膜溶劑。"
               },
               {
                 "k": "p",
-                "t": "Solvent."
-              },
-              {
-                "k": "li",
-                "t": "Net movement"
-              },
-              {
-                "k": "li",
-                "t": "No net molecule of solvent"
-              },
-              {
-                "k": "li",
-                "t": "Osmotic movement"
-              },
-              {
-                "k": "li",
-                "t": "Pressure!"
-              },
-              {
-                "k": "li",
-                "t": "of solvent"
-              },
-              {
-                "k": "li",
-                "t": "‘Solute"
-              },
-              {
-                "k": "li",
-                "t": "molecule"
-              },
-              {
-                "k": "li",
-                "t": "Initial state"
-              },
-              {
-                "k": "li",
-                "t": "Final state"
-              },
-              {
-                "k": "li",
-                "t": "Solute molecules partly shield"
-              },
-              {
-                "k": "li",
-                "t": "The compensating pressure membrane pores the passage of"
-              },
-              {
-                "k": "li",
-                "t": "impedes the passage of solvent"
-              },
-              {
-                "k": "li",
-                "t": "solvent molecules from right to Teft"
-              },
-              {
-                "k": "li",
-                "t": "molecules from left to right"
+                "t": "Net movement No net molecule of solvent Osmotic movement Pressure!",
+                "zh": "NET MOVEMENT無溶劑淨分子滲透運動壓力！"
               }
             ]
           }
@@ -15831,28 +13017,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "fe) olecules, ions"
-              },
-              {
-                "k": "li",
-                "t": "Low concentratio utside cell"
-              },
-              {
-                "k": "li",
-                "t": "«Cell membrane"
-              },
-              {
-                "k": "li",
-                "t": "Inside cell"
-              },
-              {
-                "k": "li",
-                "t": "Gop) +) eee of molecules, ions"
-              },
-              {
-                "k": "li",
-                "t": "High concentratio"
+                "k": "p",
+                "t": "fe) olecules, ions Low concentratio utside cell Tr) «Cell membrane Inside cell Gop) +) eee of molecules, ions High concentratio",
+                "zh": "fe) olecules, ions低濃度在細胞外Tr) «細胞膜細胞內Gop) +) eee of molecules, ions高濃度"
               }
             ]
           },
@@ -15863,40 +13030,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Transported molecule"
-              },
-              {
-                "k": "li",
-                "t": "Carrier protein"
-              },
-              {
-                "k": "li",
-                "t": "Channel protein i\\J"
-              },
-              {
-                "k": "li",
-                "t": "Lipid bilayer rAYAY"
-              },
-              {
-                "k": "li",
-                "t": "Energy"
-              },
-              {
-                "k": "li",
-                "t": "Simple diffusion"
-              },
-              {
-                "k": "li",
-                "t": "Facilitated diffusion"
-              },
-              {
-                "k": "li",
-                "t": "Passive transport"
-              },
-              {
-                "k": "li",
-                "t": "Active transport"
+                "k": "p",
+                "t": "Transported molecule Carrier protein Channel protein i\\J Lipid bilayer rAYAY Energy Simple diffusion Facilitated diffusion Passive transport Active transport",
+                "zh": "運輸分子載體蛋白通道蛋白i\\ J脂質雙層rAYAY能量簡單擴散促進擴散被動運輸主動運輸"
               }
             ]
           },
@@ -15907,48 +13043,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Uniport transports"
-              },
-              {
-                "k": "li",
-                "t": "Symport transports two"
-              },
-              {
-                "k": "li",
-                "t": "Antiport transports two"
-              },
-              {
-                "k": "li",
-                "t": "‘one substance in"
-              },
-              {
-                "k": "li",
-                "t": "different substances in"
+                "k": "p",
+                "t": "Uniport transports Symport transports two Antiport transports two ‘one substance in different substances in different substances in ‘one direction.",
+                "zh": "Uniport transports Symport運輸兩種反港運輸兩種「不同物質中的一種物質在不同物質中的一種物質」。"
               },
               {
                 "k": "p",
-                "t": "‘one direction."
+                "t": "the same direction.",
+                "zh": "相同的方向。"
               },
               {
                 "k": "p",
-                "t": "the same direction."
+                "t": "opposite directions.",
+                "zh": "相反的方向。"
               },
               {
                 "k": "p",
-                "t": "opposite directions."
-              },
-              {
-                "k": "li",
-                "t": "Outside of cell"
-              },
-              {
-                "k": "li",
-                "t": "Transported ions"
-              },
-              {
-                "k": "li",
-                "t": "Inside of cell"
+                "t": "Outside of cell Transported ions Inside of cell",
+                "zh": "在細胞外傳輸離子在細胞內"
               }
             ]
           }
@@ -15996,28 +13108,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Plasma membrane"
-              },
-              {
-                "k": "li",
-                "t": "Inside cell"
-              },
-              {
-                "k": "li",
-                "t": "Outside cell"
-              },
-              {
-                "k": "li",
-                "t": "Peet"
-              },
-              {
-                "k": "li",
-                "t": "Adp + P,"
-              },
-              {
-                "k": "li",
-                "t": "Nat"
+                "k": "p",
+                "t": "Plasma membrane Inside cell Outside cell Peet ADP + P, Nat Nat",
+                "zh": "質膜細胞內細胞外細胞Peet ADP + P, Nat Nat"
               }
             ]
           },
@@ -16028,84 +13121,39 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Outside of cell"
-              },
-              {
-                "k": "li",
-                "t": "The shape change"
+                "k": "p",
+                "t": "Outside of cell The shape change Release of P, returns the pump to its releases Na* outside the original shape, releasing K* to the cell and enables K* to cell's interior and once again exposing bind to the pump.",
+                "zh": "細胞外部形狀變化P的釋放，將幫浦恢復到原始形狀之外的釋放Na * ，將K *釋放到細胞中，使K *能夠到達細胞內部，並再次暴露出與幫浦的結合。"
               },
               {
                 "k": "p",
-                "t": "Release of P, returns the pump to its releases Na* outside the"
-              },
-              {
-                "k": "li",
-                "t": "original shape, releasing K* to the"
-              },
-              {
-                "k": "li",
-                "t": "cell and enables K* to"
-              },
-              {
-                "k": "li",
-                "t": "cell's interior and once again exposing"
+                "t": "Nat binding sites. The cycle repeats.",
+                "zh": "NAT結合位點。循環重複。"
               },
               {
                 "k": "p",
-                "t": "bind to the pump."
+                "t": "net @ e@ Pe Sodium: potassium pump ee ee os) Fee tt} fin!",
+                "zh": "net @ e @ Pe Sodium ：鉀泵ee ee os ）費用tt} fin ！"
               },
               {
                 "k": "p",
-                "t": "Nat binding sites. The cycle repeats."
-              },
-              {
-                "k": "li",
-                "t": "net @"
-              },
-              {
-                "k": "li",
-                "t": "e@ Pe"
-              },
-              {
-                "k": "li",
-                "t": "Sodium:"
-              },
-              {
-                "k": "li",
-                "t": "potassium pump"
-              },
-              {
-                "k": "li",
-                "t": "ee ee"
-              },
-              {
-                "k": "li",
-                "t": "Fee"
-              },
-              {
-                "k": "li",
-                "t": "Wht fin!"
-              },
-              {
-                "k": "li",
-                "t": "ten"
-              },
-              {
-                "k": "li",
-                "t": "Lore ae °e (*)"
+                "t": "ten {iG Lore ae °e (*) Hydrolysis of ATP.",
+                "zh": "十{iG Lore ae ° e (*) Hydrolysis of ATP."
               },
               {
                 "k": "p",
-                "t": "Hydrolysis of ATP."
+                "t": "BBS Na‘ and 1 ATP phosphorylates the bind to the protein pump protein and ‘pump.",
+                "zh": "BBS Na ‘和1 ATP磷酸化與蛋白質泵蛋白質和‘泵的結合。"
               },
               {
                 "k": "p",
-                "t": "BBS Na‘ and 1 ATP phosphorylates the bind to the protein"
+                "t": "changes its shape.",
+                "zh": "改變其形狀。"
               },
               {
-                "k": "li",
-                "t": "pump protein and"
+                "k": "p",
+                "t": "mr) Inside of cell",
+                "zh": "mr)細胞內部"
               }
             ]
           }
@@ -16154,23 +13202,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "ail"
-              },
-              {
-                "k": "li",
-                "t": "asantan 4"
-              },
-              {
-                "k": "li",
-                "t": "nant"
-              },
-              {
-                "k": "li",
-                "t": "Uqquou wet Hh"
-              },
-              {
-                "k": "li",
-                "t": "Glucose"
+                "t": "GAG g 789",
+                "zh": "（見英文）"
               }
             ]
           },
@@ -16181,68 +13214,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Primary active transport"
-              },
-              {
-                "k": "li",
-                "t": "‘The sodium-potassium pump moves Nat,"
-              },
-              {
-                "k": "li",
-                "t": "Secondary active transport"
-              },
-              {
-                "k": "li",
-                "t": "using the energy of ATP hydrolysis to"
-              },
-              {
-                "k": "li",
-                "t": "Nat, moving with the concentration gradient established"
+                "k": "p",
+                "t": "by the sodium-potassium pump, drives the transport of glucose against its concentration gradient.",
+                "zh": "通過鈉鉀泵，驅動葡萄糖的運輸抵禦其濃度梯度。"
               },
               {
                 "k": "p",
-                "t": "establish a concentration gradient of Na*."
-              },
-              {
-                "k": "li",
-                "t": "by the sodium-potassium pump, drives the transport of"
-              },
-              {
-                "k": "p",
-                "t": "glucose against its concentration gradient."
-              },
-              {
-                "k": "li",
-                "t": "Outside of cell"
-              },
-              {
-                "k": "li",
-                "t": "Sochu. petaaslan. pump"
-              },
-              {
-                "k": "li",
-                "t": "Clerc"
-              },
-              {
-                "k": "li",
-                "t": "YAn))i"
-              },
-              {
-                "k": "li",
-                "t": "Pooce"
-              },
-              {
-                "k": "li",
-                "t": "Inside of cell"
-              },
-              {
-                "k": "li",
-                "t": "— COx"
-              },
-              {
-                "k": "li",
-                "t": "“?e Seo o Po"
+                "t": "Na* Outside of cell Sochu.petaaslan. pump (Ad CLERC YAn))i POOCE Inside of cell — COx “?e Seo o Po",
+                "zh": "Na *單元格外Sochu.petaaslan. pump (Ad CLERC YAn)) i POOCE單元格內— COx “? e Seo o Po"
               }
             ]
           },
@@ -16254,11 +13233,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Symporter"
-              },
-              {
-                "k": "li",
-                "t": "Antiporter"
+                "t": "Symporter Antiporter",
+                "zh": "共生運輸兵反運輸兵"
               }
             ]
           }
@@ -16420,84 +13396,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "(A) Endocytosis"
-              },
-              {
-                "k": "li",
-                "t": "Outside of cell"
-              },
-              {
-                "k": "li",
-                "t": "Cell membrane tiny"
-              },
-              {
-                "k": "li",
-                "t": "Qut n ry Te"
-              },
-              {
-                "k": "li",
-                "t": "Mmn))"
-              },
-              {
-                "k": "li",
-                "t": "Soi"
-              },
-              {
-                "k": "li",
-                "t": "Kzn cul"
-              },
-              {
-                "k": "li",
-                "t": "Ctt"
-              },
-              {
-                "k": "li",
-                "t": "The cell membrane surrounds"
-              },
-              {
-                "k": "li",
-                "t": "Endocytotic vesicle"
-              },
-              {
-                "k": "li",
-                "t": "Inside of cell"
-              },
-              {
-                "k": "li",
-                "t": "a part of the exterior environment"
+                "k": "p",
+                "t": "(A) Endocytosis Outside of cell Cell membrane tiny QUT n ry Te SOI Ze, cul CT» The cell membrane surrounds Endocytotic vesicle Inside of cell a part of the exterior environment and buds off as an internal vesicle.",
+                "zh": "(A)內吞細胞作用細胞膜外微小的QUT n ry Te SOI Ze, CUL CT »細胞膜圍繞內吞細胞囊泡細胞內部外部環境的一部分，並作為內部囊泡發芽。"
               },
               {
                 "k": "p",
-                "t": "and buds off as an internal vesicle."
-              },
-              {
-                "k": "li",
-                "t": "(B) Exocytosis"
-              },
-              {
-                "k": "li",
-                "t": "annua na UM ANU UUN UHHH aE"
-              },
-              {
-                "k": "li",
-                "t": "TIM 2a)"
-              },
-              {
-                "k": "li",
-                "t": "Se mmm"
-              },
-              {
-                "k": "li",
-                "t": "Ut gy"
-              },
-              {
-                "k": "li",
-                "t": "Mini"
-              },
-              {
-                "k": "li",
-                "t": "Crm"
+                "t": "(B) Exocytosis annua na UM ANU UUN UHHH aE TIM 2a) Ut gy Mini Secretory A vesicle fuses with the cell membrane. The vesicle contents of the vesicle are released, and its membrane becomes part of the cell membrane.",
+                "zh": "(B) Exocytosis annua na UM ANU UUN uhhh aE Tim 2a) Ut gy Mini分泌A囊泡與細胞膜融合。囊泡的囊泡內容物被釋放，其膜成為細胞膜的一部分。"
               }
             ]
           }
@@ -18147,20 +15053,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "isan"
+                "k": "p",
+                "t": "rn ‘ I pa--2N \\ on tin, BAcorce i BE yt see.",
+                "zh": "rn ‘I pa---2N\\ on tin, BAcorce i be yt see."
               },
               {
-                "k": "li",
-                "t": "iss"
-              },
-              {
-                "k": "li",
-                "t": "Lee"
-              },
-              {
-                "k": "li",
-                "t": "Nss"
+                "k": "p",
+                "t": "ww F YAN wees AL j Sito é NOSE IGG Sass",
+                "zh": "（見英文）"
               }
             ]
           }
@@ -18213,32 +15113,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Il artery eee"
-              },
-              {
-                "k": "li",
-                "t": "Capillary blood"
-              },
-              {
-                "k": "li",
-                "t": "Oxygi ts, et tissues delivered"
-              },
-              {
-                "k": "li",
-                "t": "Taa"
-              },
-              {
-                "k": "li",
-                "t": "\\d metab"
-              },
-              {
-                "k": "li",
-                "t": "Sal] issues"
-              },
-              {
-                "k": "li",
-                "t": "Venule, small vein"
+                "k": "p",
+                "t": "Il artery eee Capillary blood Oxygi ts, et tissues delivered [ir TAA \\d metab Sal] issues Venule, small vein",
+                "zh": "Il動脈eee毛細血管血Oxygi ts ，等組織輸送[ir TAA\\ d metab Sal]問題靜脈，小靜脈"
               }
             ]
           }
@@ -18296,40 +15173,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "leat Kept In and retained"
-              },
-              {
-                "k": "li",
-                "t": "eal loss Dy convection"
-              },
-              {
-                "k": "li",
-                "t": "by the body"
-              },
-              {
-                "k": "li",
-                "t": "and radiation"
+                "k": "p",
+                "t": "leat Kept In and retained eal loss Dy convection by the body and radiation pillary loop j .",
+                "zh": "leat保持在和保留eal損失Dy對流由身體和輻射柱狀迴路j."
               },
               {
                 "k": "p",
-                "t": "pillary loop j."
-              },
-              {
-                "k": "li",
-                "t": "Vein"
-              },
-              {
-                "k": "li",
-                "t": "Artery:"
-              },
-              {
-                "k": "li",
-                "t": "Vasoconstriction"
-              },
-              {
-                "k": "li",
-                "t": "Vasodilation"
+                "t": "Vein Artery: Vasoconstriction Vasodilation",
+                "zh": "靜脈動脈：血管收縮血管舒張"
               }
             ]
           }
@@ -18382,16 +15233,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "wer"
+                "k": "p",
+                "t": ". ges we ed A.",
+                "zh": "（見英文）"
               },
               {
-                "k": "li",
-                "t": "Clo’"
-              },
-              {
-                "k": "li",
-                "t": "Fibrin"
+                "k": "p",
+                "t": ": za > y aan Ss (a",
+                "zh": "（見英文）"
               }
             ]
           },
@@ -18461,44 +15310,19 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Centr"
-              },
-              {
-                "k": "li",
-                "t": "Blood Sample"
-              },
-              {
-                "k": "li",
-                "t": "Blood Smear"
-              },
-              {
-                "k": "li",
-                "t": "Blood plasma"
-              },
-              {
-                "k": "li",
-                "t": "Platelets"
-              },
-              {
-                "k": "li",
-                "t": "“Buty coat’ < white bood —"
-              },
-              {
-                "k": "li",
-                "t": "cells"
+                "k": "p",
+                "t": "Centr Blood Sample Blood Smear Blood plasma Platelets “Buty coat’ < white bood — cells Formed.",
+                "zh": "Centr血液樣本血塗片血漿血小板“Buty coat” < white bood — cells Formed."
               },
               {
                 "k": "p",
-                "t": "Formed."
+                "t": "Red blood.",
+                "zh": "紅色血液。"
               },
               {
                 "k": "p",
-                "t": "Red blood."
-              },
-              {
-                "k": "li",
-                "t": "‘elements"
+                "t": "‘elements cells",
+                "zh": "‘元素單元格"
               }
             ]
           }
@@ -18581,36 +15405,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Anti-coagulant"
-              },
-              {
-                "k": "li",
-                "t": "Cics"
-              },
-              {
-                "k": "li",
-                "t": "Serum"
-              },
-              {
-                "k": "li",
-                "t": "Plasma"
-              },
-              {
-                "k": "li",
-                "t": "Buffy coat"
-              },
-              {
-                "k": "li",
-                "t": "~ (white blood cells"
-              },
-              {
-                "k": "li",
-                "t": "and platelets)"
-              },
-              {
-                "k": "li",
-                "t": "Blood clot wo \\ J Red blood cells"
+                "k": "p",
+                "t": "Anti-coagulant CICS Serum Plasma Buffy coat ~ (white blood cells and platelets) Blood clot wo \\ J Red blood cells",
+                "zh": "抗凝血CICS血清血漿Buffy外套~ （白血球和血小板）血凝塊wo\\ J紅血球"
               }
             ]
           }
@@ -18641,7 +15438,18 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 1003,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "_: ted | 39%, NK & P eS ho 4 ce HY % Water =< A, pel Wim § Fi ye 91% . 8 . al J se /, Other solutes 2% Fmena so. —antd Waste products» a Ji : Y, Regulatory",
+                "zh": "_: ted | 39%, NK & P eS ho 4 ce HY % Water = < A, pel Wim § Fi ye 91%. 8. al J se/, Other solutes 2% Fmena so. -antd Waste products »a Ji: Y, Regulatory"
+              },
+              {
+                "k": "p",
+                "t": ", | 1 Vorron FP Ch oon substances ey: —— iar ae White blood cells what: “Papp oe . Neutrophils Cty : e Lymphocytes =ormed eo és red blooe cells Eosinophils ..2=6.2 million 2%—-4% i 5 Basophils",
+                "zh": ", | 1 Vorron FP Ch oon substances ey: —— iar ae白血球what: “Papp oe.嗜中性白血球Cty: e淋巴細胞= ormed eo és red blooe cells嗜酸性白血球.. 2 = 620萬2% --4% i 5嗜鹼性白血球"
+              }
+            ]
           }
         ]
       },
@@ -18758,7 +15566,23 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 683,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "tim eC.",
+                "zh": "（見英文）"
+              },
+              {
+                "k": "p",
+                "t": "Fe® eM joo, S22 2.",
+                "zh": "Fe ® eM joo, S22 2."
+              },
+              {
+                "k": "p",
+                "t": "2 oO | y O aD Q",
+                "zh": "（見英文）"
+              }
+            ]
           }
         ]
       },
@@ -18988,24 +15812,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Visceral pericardium"
-              },
-              {
-                "k": "li",
-                "t": "Pericardial cavity"
-              },
-              {
-                "k": "li",
-                "t": "Parietal pericardium"
-              },
-              {
-                "k": "li",
-                "t": "Air space"
-              },
-              {
-                "k": "li",
-                "t": "Balloon"
+                "k": "p",
+                "t": "Visceral pericardium Pericardial cavity Parietal pericardium Air space Balloon",
+                "zh": "內臟心包膜心包腔壁心包空氣空間氣球"
               }
             ]
           }
@@ -19134,20 +15943,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "atrium"
-              },
-              {
-                "k": "li",
-                "t": "Left atfurn ventricle"
+                "k": "p",
+                "t": "atrium Left atfurn ventricle Right.",
+                "zh": "心房左心房右心室。"
               },
               {
                 "k": "p",
-                "t": "Right."
-              },
-              {
-                "k": "li",
-                "t": "Septur"
+                "t": "Septur",
+                "zh": "（見英文）"
               }
             ]
           }
@@ -19382,48 +16185,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "aorta"
-              },
-              {
-                "k": "li",
-                "t": "right"
-              },
-              {
-                "k": "li",
-                "t": "left"
-              },
-              {
-                "k": "li",
-                "t": "atrium"
-              },
-              {
-                "k": "li",
-                "t": "pulmonary"
-              },
-              {
-                "k": "li",
-                "t": "valve"
-              },
-              {
-                "k": "li",
-                "t": "mitral"
-              },
-              {
-                "k": "li",
-                "t": "tricuspid"
-              },
-              {
-                "k": "li",
-                "t": "aortic"
-              },
-              {
-                "k": "li",
-                "t": "right ventricle"
-              },
-              {
-                "k": "li",
-                "t": "left ventricle"
+                "k": "p",
+                "t": "aorta right left atrium atrium pulmonary valve mitral valve tricuspid valve aortic valve right ventricle left ventricle",
+                "zh": "主動脈右心房左心房肺動脈二尖瓣三尖瓣主動脈瓣右心室左心室"
               }
             ]
           }
@@ -19566,40 +16330,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Pulmonary Artery:"
-              },
-              {
-                "k": "li",
-                "t": "Carries deoxygenated Aorta:"
-              },
-              {
-                "k": "li",
-                "t": "blood from heart to Carries oxygenated"
-              },
-              {
-                "k": "li",
-                "t": "lungs. blood from heart"
+                "k": "p",
+                "t": "Pulmonary Artery: Carries deoxygenated Aorta: blood from heart to Carries oxygenated lungs. blood from heart \\ to all body parts.",
+                "zh": "肺動脈：攜帶缺氧主動脈：從心臟到攜帶含氧肺的血液。從心臟到身體各部位的血液。"
               },
               {
                 "k": "p",
-                "t": "\\ to all body parts."
-              },
-              {
-                "k": "li",
-                "t": "Vena cava: —"
-              },
-              {
-                "k": "li",
-                "t": "Carries deoxygenated IN blood from,"
-              },
-              {
-                "k": "li",
-                "t": "body to heart. Pulmonary Vein:"
-              },
-              {
-                "k": "p",
-                "t": "Nn Carries oxygenated blood from lungs to heart."
+                "t": "Vena cava: — Carries deoxygenated IN blood from , body to heart. Pulmonary Vein: Nn Carries oxygenated blood from lungs to heart.",
+                "zh": "腔靜脈： —將血液中的缺氧物從身體帶到心臟。肺靜脈： Nn將含氧血液從肺部運送到心臟。"
               }
             ]
           }
@@ -19846,28 +16584,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Atrial excitation"
-              },
-              {
-                "k": "li",
-                "t": "Ventricular excitation"
-              },
-              {
-                "k": "li",
-                "t": "Begins"
-              },
-              {
-                "k": "li",
-                "t": "Complete"
-              },
-              {
-                "k": "li",
-                "t": "SA node"
-              },
-              {
-                "k": "li",
-                "t": "AV node"
+                "k": "p",
+                "t": "Atrial excitation Ventricular excitation Begins Complete Begins Complete SA node AV node",
+                "zh": "心房興奮心室興奮開始完全開始完全SA結節房室結節"
               }
             ]
           }
@@ -20130,20 +16849,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Ventricular filling"
-              },
-              {
-                "k": "li",
-                "t": "1a Rapid filing"
-              },
-              {
-                "k": "li",
-                "t": "1c Atrial systole"
-              },
-              {
-                "k": "li",
-                "t": "1b Diastasis"
+                "k": "p",
+                "t": "Ventricular filling 1a Rapid filing 1c Atrial systole 1b Diastasis",
+                "zh": "心室充盈1a快速充盈1c心房收縮1b舒張"
               }
             ]
           },
@@ -20217,44 +16925,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Semilunar valves close"
-              },
-              {
-                "k": "li",
-                "t": "Semilunar valves open"
-              },
-              {
-                "k": "li",
-                "t": "Aortic pressure"
-              },
-              {
-                "k": "li",
-                "t": "Ventricular pressure"
-              },
-              {
-                "k": "li",
-                "t": "AV valves"
-              },
-              {
-                "k": "li",
-                "t": "AV valves open close"
-              },
-              {
-                "k": "li",
-                "t": "Atrial pressure ist"
-              },
-              {
-                "k": "li",
-                "t": "Heart sounds"
-              },
-              {
-                "k": "li",
-                "t": "“Lub”"
-              },
-              {
-                "k": "li",
-                "t": "“Dub”"
+                "k": "p",
+                "t": "Semilunar valves close Semilunar valves open Aortic pressure Ventricular pressure AV valves AV valves open close Atrial pressure ist 2nd 3rd Heart sounds “Lub” “Dub”",
+                "zh": "半月瓣關閉半月瓣開啟主動脈壓室壓房瓣開啟房瓣關閉心房壓是第二個第三個心音“Lub” “Dub”"
               }
             ]
           }
@@ -20307,20 +16980,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Right arm"
-              },
-              {
-                "k": "li",
-                "t": "Left. arm ame"
-              },
-              {
-                "k": "li",
-                "t": "/ Left leg"
-              },
-              {
-                "k": "li",
-                "t": "wae"
+                "k": "p",
+                "t": "Right arm Left.arm ame re, / Left leg wae",
+                "zh": "右臂Left.arm ame re,/左腿wae"
               }
             ]
           }
@@ -20475,32 +17137,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Vein"
-              },
-              {
-                "k": "li",
-                "t": "Artery"
-              },
-              {
-                "k": "li",
-                "t": "Capillaries"
-              },
-              {
-                "k": "li",
-                "t": "Arteriole"
-              },
-              {
-                "k": "li",
-                "t": "Venule"
-              },
-              {
-                "k": "li",
-                "t": "To Cell"
-              },
-              {
-                "k": "li",
-                "t": "From Cell arbor"
+                "k": "p",
+                "t": "Vein Artery Capillaries Arteriole Venule To Cell From Cell arbor",
+                "zh": "靜脈動脈毛細血管小動脈到細胞從細胞心軸"
               }
             ]
           }
@@ -20637,32 +17276,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Capillaries"
-              },
-              {
-                "k": "li",
-                "t": "Tissi"
-              },
-              {
-                "k": "li",
-                "t": "Venul"
-              },
-              {
-                "k": "li",
-                "t": "—o ~S"
-              },
-              {
-                "k": "li",
-                "t": "p Aa"
-              },
-              {
-                "k": "li",
-                "t": "Artery rey,"
-              },
-              {
-                "k": "li",
-                "t": "Veit"
+                "k": "p",
+                "t": "Capillaries Tissi Venul —o ~S p Aa oe, Artery rey, Veit Capillaries",
+                "zh": "毛細血管Tissi Venul —o ~ S p Aa oe、Artery rey、Veit毛細血管"
               }
             ]
           },
@@ -20717,32 +17333,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "thin layer of"
-              },
-              {
-                "k": "li",
-                "t": "fibrous tissue"
-              },
-              {
-                "k": "li",
-                "t": "thinner muscular"
-              },
-              {
-                "k": "li",
-                "t": "wall; less elastic"
-              },
-              {
-                "k": "li",
-                "t": "large lumen to"
-              },
-              {
-                "k": "li",
-                "t": "reduce resistance"
-              },
-              {
-                "k": "li",
-                "t": "of blood flow"
+                "k": "p",
+                "t": "thin layer of fibrous tissue thinner muscular wall; less elastic large lumen to reduce resistance of blood flow",
+                "zh": "薄層的纖維組織使肌肉壁變薄；較少彈性的大管腔，以減少血流阻力"
               }
             ]
           }
@@ -20797,64 +17390,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "a a"
-              },
-              {
-                "k": "li",
-                "t": "‘orced oe"
-              },
-              {
-                "k": "li",
-                "t": "@ valve"
-              },
-              {
-                "k": "li",
-                "t": "wards"
-              },
-              {
-                "k": "li",
-                "t": "art"
-              },
-              {
-                "k": "li",
-                "t": "by blood"
-              },
-              {
-                "k": "li",
-                "t": "by mu"
-              },
-              {
-                "k": "li",
-                "t": ") Valves"
-              },
-              {
-                "k": "li",
-                "t": "® Bod:"
-              },
-              {
-                "k": "li",
-                "t": "e closed"
-              },
-              {
-                "k": "li",
-                "t": "particul"
-              },
-              {
-                "k": "li",
-                "t": "prevent"
-              },
-              {
-                "k": "li",
-                "t": "the limk"
-              },
-              {
-                "k": "li",
-                "t": "wclkeflaias Af"
-              },
-              {
-                "k": "li",
-                "t": "and pre"
+                "k": "p",
+                "t": "a a ‘orced oe valve wards art by blood by mu ) Valves Bod: e closed particul prevent the limk wclkeflaias Af and pre",
+                "zh": "a ‘orced oe valve wards art by blood by mu) Valves Bod: e closed particul prevent the limk wclkeflaias Af and pre"
               }
             ]
           }
@@ -20920,7 +17458,18 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 379,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "q ie: -— - _ —_ a Ce SC‘ rm b+ pen on = ’ =-_ =: = ay J PIL. a 23 i hy .",
+                "zh": "q ie: -— -_—_a Ce SC ‘rm b + pen on =’ = -_=: = ay J PIL. a 23 i hy."
+              },
+              {
+                "k": "p",
+                "t": "\\ — a i Peet UE A i ! - | a Por a 150 © ae. \\\\ \" : ee CEE ALLARY ee, , if Bl jransducer , Ti sip tcatsis: _lUlUL",
+                "zh": "\\ — a i Peet UE A i! - | a Por a 150 © ae.\\\\ \": ee CEE ALLARY ee,, if Bl jransducer, Ti sip tcatsis:_lUlUL"
+              }
+            ]
           }
         ]
       },
@@ -21053,16 +17602,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Frank-Starling law"
-              },
-              {
-                "k": "li",
-                "t": "Increased contractility caused by sympathetic nerve stimulation"
-              },
-              {
-                "k": "li",
-                "t": "Ventricular end-diastolic volume (ml)"
+                "k": "p",
+                "t": "Frank-Starling law Increased contractility caused by sympathetic nerve stimulation Ventricular end-diastolic volume (ml)",
+                "zh": "Frank-Starling定律交感神經刺激引起的收縮性增加心室舒張末期容積（ ml ）"
               }
             ]
           }
@@ -21140,44 +17682,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Adrenaline"
-              },
-              {
-                "k": "li",
-                "t": "& Activity of"
-              },
-              {
-                "k": "li",
-                "t": "| Activity of"
-              },
-              {
-                "k": "li",
-                "t": "nerves to heart"
-              },
-              {
-                "k": "li",
-                "t": "sympathetic"
-              },
-              {
-                "k": "li",
-                "t": "parasympathetic"
-              },
-              {
-                "k": "li",
-                "t": "e. g. stress and"
-              },
-              {
-                "k": "li",
-                "t": "e. g. rest and sleep"
-              },
-              {
-                "k": "li",
-                "t": "excitement"
-              },
-              {
-                "k": "li",
-                "t": "SA node tHeart rate"
+                "k": "p",
+                "t": "Adrenaline & Activity of Activity of nerves to heart sympathetic parasympathetic nerves to heart e.g. stress and e.g. rest and sleep excitement SA node tHeart rate",
+                "zh": "腎上腺素和心臟神經活動的活動心臟交感神經副交感神經例如壓力，例如休息和睡眠興奮SA節點心率"
               }
             ]
           }
@@ -21371,7 +17878,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Diastole"
+                "t": "Diastole",
+                "zh": "舒張壓"
               }
             ]
           },
@@ -21667,11 +18175,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "“Ngee"
-              },
-              {
-                "k": "li",
-                "t": "ey ‘Vie"
+                "t": "“Ngee ey ‘Vie",
+                "zh": "「Ngee ey ‘Vie"
               }
             ]
           }
@@ -21774,68 +18279,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Drop in blood pressure"
-              },
-              {
-                "k": "li",
-                "t": "Drop in fluid volume Wer — —"
-              },
-              {
-                "k": "li",
-                "t": "yp. ); angiotensinogen d A Vasoconstriction"
-              },
-              {
-                "k": "li",
-                "t": "(gp Angiotensin Il also acts BP?"
-              },
-              {
-                "k": "li",
-                "t": "/ directly on blood vessels,"
-              },
-              {
-                "k": "li",
-                "t": "stimulating vasoconstriction"
+                "k": "p",
+                "t": "Drop in blood pressure Drop in fluid volume Wer — — yp.) ; angiotensinogen d A Vasoconstriction (gp Angiotensin Il also acts BP?",
+                "zh": "血壓下降液體體積下降Wer — — yp.) ；血管收縮原d A血管收縮（ gp血管收縮素Il也作用於血壓？"
               },
               {
                 "k": "p",
-                "t": "Renin acts on angiotensinogen to form angiotensin I. (narrowing)."
-              },
-              {
-                "k": "li",
-                "t": "fi ACE (angiotensin-converting «"
-              },
-              {
-                "k": "li",
-                "t": "x, enzyme) release from lungs i,"
-              },
-              {
-                "k": "li",
-                "t": ": >! > Reabsorption 7°"
-              },
-              {
-                "k": "li",
-                "t": "Ke y Urine production |"
+                "t": "/ directly on blood vessels, stimulating vasoconstriction Renin acts on angiotensinogen to form angiotensin I. (narrowing).",
+                "zh": "/直接在血管上，刺激血管收縮腎素作用於血管緊張素原以形成血管緊張素I。（變窄）。"
               },
               {
                 "k": "p",
-                "t": "lm ACE acts on angiotensin | to for Blood volume 7"
-              },
-              {
-                "k": "li",
-                "t": "‘Angiotensin Il acts on the"
+                "t": "fi ACE (angiotensin-converting « x, enzyme) release from lungs i, : >! > Reabsorption 7° Ke y Urine production | lm ACE acts on angiotensin | to for Blood volume 7",
+                "zh": "fi ACE （血管緊張素轉換«x ，酶）從肺部釋放i,: > ！ >重吸收7° Ke y尿產生| lm ACE作用於血管緊張素|至血液體積7"
               },
               {
                 "k": "p",
-                "t": "adrenal gland to stimulate release of Aldosterone acts on the kidneys"
-              },
-              {
-                "k": "li",
-                "t": "[sidostorno] > to stmuat reabsorption o"
-              },
-              {
-                "k": "p",
-                "t": "salt (NaCl) and water (HO)."
+                "t": "BP + ‘Angiotensin Il acts on the adrenal gland to stimulate release of Aldosterone acts on the kidneys [sidostorno] > to stmuat reabsorption o salt (NaCl) and water (HO).",
+                "zh": "BP + ‘血管緊張素Il作用於腎上腺，刺激釋放醛固酮作用於腎臟[sidostorno] >再吸收鹽（ NaCl ）和水（ HO ）。"
               }
             ]
           }
@@ -21869,28 +18330,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "ER sae ke 4 Not all of us"
+                "k": "p",
+                "t": "ER sae ke 4 Not all of us = ie Vea \\ | \\ y= aS can do great things. But N : rm SG we can do small things ee S with great love?",
+                "zh": "ER sae ke 4並非所有人都=即Vea\\ |\\ y = aS可以做出色的事情。但是N ： rm SG我們可以用極大的愛做小事嗎？"
               },
               {
-                "k": "li",
-                "t": "= ie Vea \\ |"
-              },
-              {
-                "k": "li",
-                "t": "\\ y= aS can do great things. But"
-              },
-              {
-                "k": "li",
-                "t": "N: rm SG we can do small things"
-              },
-              {
-                "k": "li",
-                "t": "ee S with great love?"
-              },
-              {
-                "k": "li",
-                "t": "> Fe 4 Mother Teresa"
+                "k": "p",
+                "t": "> Fe 4 Mother Teresa",
+                "zh": "> Fe 4特蕾莎修女"
               }
             ]
           }
