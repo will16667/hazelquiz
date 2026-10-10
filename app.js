@@ -8,6 +8,7 @@
     srsIntervals: [1, 3, 7, 14, 30],
   };
   var GATES = window.HAZEL_GATES || [];
+  var LECTURES = window.HAZEL_LECTURES || [];
   var STORAGE_KEY = META.storageKey || "hazelquiz-v1";
   var SRS = META.srsIntervals || [1, 3, 7, 14, 30];
 
@@ -44,15 +45,16 @@
   function loadState() {
     try {
       var raw = localStorage.getItem(STORAGE_KEY);
-      if (!raw) return { cleared: {}, bank: {}, progress: {} };
+      if (!raw) return { cleared: {}, bank: {}, progress: {}, readPos: {} };
       var data = JSON.parse(raw);
       return {
         cleared: data.cleared || {},
         bank: data.bank || {},
         progress: data.progress || {},
+        readPos: data.readPos || {},
       };
     } catch (e) {
-      return { cleared: {}, bank: {}, progress: {} };
+      return { cleared: {}, bank: {}, progress: {}, readPos: {} };
     }
   }
 
@@ -63,6 +65,7 @@
         cleared: state.cleared,
         bank: state.bank,
         progress: state.progress,
+        readPos: state.readPos || {},
         v: 1,
       })
     );
@@ -467,7 +470,6 @@
     });
   }
   bindSpeakControl(document.getElementById("sheet-speak"));
-  bindSpeakControl(document.getElementById("sheet-speak-primary"));
 
   main.addEventListener("click", function (e) {
     var t = e.target.closest(".term");
@@ -490,6 +492,46 @@
     }).length;
   }
 
+
+  function lectureById(id) {
+    for (var i = 0; i < LECTURES.length; i++) {
+      if (LECTURES[i].id === id) return LECTURES[i];
+    }
+    return null;
+  }
+
+  function gatesForLecture(lectureId) {
+    return GATES.filter(function (g) {
+      return g.lecture === lectureId;
+    });
+  }
+
+  function lectureProgress(lectureId) {
+    var gs = gatesForLecture(lectureId);
+    var done = 0;
+    gs.forEach(function (g) {
+      if (state.cleared[g.id]) done += 1;
+    });
+    return { done: done, total: gs.length };
+  }
+
+  function firstGateForLecture(lectureId) {
+    var gs = gatesForLecture(lectureId);
+    return gs.length ? gs[0] : null;
+  }
+
+  function nextOpenGate(lectureId) {
+    var gs = gatesForLecture(lectureId);
+    var i;
+    for (i = 0; i < gs.length; i++) {
+      if (!state.cleared[gs[i].id] && isUnlocked(gs[i].id)) return gs[i];
+    }
+    for (i = 0; i < gs.length; i++) {
+      if (!state.cleared[gs[i].id]) return gs[i];
+    }
+    return gs.length ? gs[gs.length - 1] : null;
+  }
+
   function renderLevels() {
     setNav("levels");
     var total = GATES.length;
@@ -498,57 +540,180 @@
     var html =
       '<p class="kicker">Life Sciences</p>' +
       "<h2>關卡列表</h2>" +
-      '<p class="lede">Higher Diploma · AS114218 · 依序闖關溫習筆記重點</p>' +
-      '<div class="card feature"><div class="cardtop"><span class="pill">進度</span><strong>' +
+      '<p class="lede">每課流程：<strong>讀全文</strong> → <strong>溫重點</strong> → <strong>測驗通關</strong>。點英文可存生字。</p>' +
+      '<div class="card feature"><div class="cardtop"><span class="pill">總進度</span><strong>' +
       done +
       " / " +
       total +
       '</strong></div><div class="progress" aria-hidden="true"><span style="width:' +
       pct +
       '%"></span></div>' +
-      '<p class="hint" style="margin:6px 0 0">通關測驗後解鎖下一關；未解鎖亦可預覽（軟鎖）。</p></div>';
+      '<p class="hint" style="margin:6px 0 0">建議先讀該課全文，再逐關溫重點同測驗。</p></div>';
 
-    var lecture = "";
-    GATES.forEach(function (g, i) {
-      if (g.lecture !== lecture) {
-        lecture = g.lecture;
-        html +=
-          '<p class="kicker" style="margin-top:18px">' +
-          escapeHtml(lecture) +
-          " · " +
-          escapeHtml(g.lectureTitle || "") +
-          "</p>";
-      }
-      var unlocked = isUnlocked(g.id);
-      var cleared = isCleared(g.id);
-      var cls =
-        "card" + (cleared ? " cleared" : "") + (!unlocked ? " locked" : "");
-      var status = cleared
-        ? '<span class="pill ok">已通關 ✓</span>'
-        : unlocked
-          ? '<span class="pill">可挑戰</span>'
-          : '<span class="pill lock">🔒 未解鎖</span>';
-      html +=
-        '<a class="cardlink" href="#/gate/' +
-        g.id +
-        '"><article class="' +
-        cls +
-        '"><div class="cardtop">' +
-        '<span class="pill lecture">關 ' +
-        (i + 1) +
-        "</span>" +
-        status +
-        "</div><h3>" +
-        escapeHtml(g.titleZh) +
-        '</h3><p class="entitle">' +
-        escapeHtml(g.titleEn) +
-        '</p><p class="hint" style="margin:8px 0 0">' +
-        (g.cards ? g.cards.length : 0) +
-        " 張筆記卡 · " +
-        (g.quiz ? g.quiz.length : 0) +
-        " 題測驗</p></article></a>";
+    var lectureIds = [];
+    GATES.forEach(function (g) {
+      if (lectureIds.indexOf(g.lecture) === -1) lectureIds.push(g.lecture);
     });
+    // Ensure L1/L2/L3 order even if lecture-only entries exist
+    LECTURES.forEach(function (L) {
+      if (lectureIds.indexOf(L.id) === -1) lectureIds.push(L.id);
+    });
+
+    lectureIds.forEach(function (lid) {
+      var L = lectureById(lid);
+      var titleZh = L ? L.titleZh : lid;
+      var titleEn = L ? L.titleEn : "";
+      var prog = lectureProgress(lid);
+      var lpct = prog.total ? Math.round((prog.done / prog.total) * 100) : 0;
+      var gs = gatesForLecture(lid);
+      html +=
+        '<section class="lecture-block card feature" id="lec-' +
+        escapeHtml(lid) +
+        '">' +
+        '<div class="cardtop"><span class="pill lecture">' +
+        escapeHtml(lid) +
+        '</span><span class="pill">' +
+        prog.done +
+        "/" +
+        prog.total +
+        " 關</span></div>" +
+        "<h3>" +
+        escapeHtml(titleZh) +
+        '</h3><p class="entitle">' +
+        escapeHtml(titleEn) +
+        '</p><div class="progress" aria-hidden="true"><span style="width:' +
+        lpct +
+        '%"></span></div>' +
+        '<div class="flow-steps" aria-label="本課學習步驟">' +
+        '<span class="flow-step">① 讀全文</span>' +
+        '<span class="flow-arrow">→</span>' +
+        '<span class="flow-step">② 溫重點</span>' +
+        '<span class="flow-arrow">→</span>' +
+        '<span class="flow-step">③ 測驗</span></div>' +
+        '<div class="gate-actions">' +
+        '<a class="primary" href="#/lecture/' +
+        encodeURIComponent(lid) +
+        '">讀全文</a>';
+      var next = nextOpenGate(lid);
+      if (next) {
+        html +=
+          '<a class="ghost" href="#/gate/' +
+          next.id +
+          '">溫重點／測驗</a>';
+      }
+      html += "</div>";
+
+      html += '<div class="gate-mini-list">';
+      gs.forEach(function (g, i) {
+        var unlocked = isUnlocked(g.id);
+        var cleared = isCleared(g.id);
+        var status = cleared ? "✓" : unlocked ? "·" : "🔒";
+        var gi = gateIndex(g.id);
+        html +=
+          '<a class="gate-mini' +
+          (cleared ? " done" : "") +
+          (!unlocked ? " locked" : "") +
+          '" href="#/gate/' +
+          g.id +
+          '"><span class="gm-n">關 ' +
+          (gi + 1) +
+          '</span><span class="gm-t">' +
+          escapeHtml(g.titleZh) +
+          '</span><span class="gm-s">' +
+          status +
+          '</span></a>';
+      });
+      html += "</div></section>";
+    });
+
     main.innerHTML = html;
+  }
+
+  function renderLecture(id) {
+    var L = lectureById(id);
+    setNav("levels");
+    if (!L) {
+      main.innerHTML =
+        '<div class="card"><p>找不到此課全文。</p><a class="primary" href="#/">返回</a></div>';
+      return;
+    }
+    var prog = lectureProgress(L.id);
+    var next = nextOpenGate(L.id);
+    var html =
+      '<a class="backlink" href="#/">← 關卡列表</a>' +
+      '<p class="kicker">' +
+      escapeHtml(L.id) +
+      " · 全文</p>" +
+      "<h2>" +
+      escapeHtml(L.titleZh) +
+      '</h2><p class="entitle">' +
+      escapeHtml(L.titleEn) +
+      "</p>" +
+      '<div class="flow-steps compact"><span class="flow-step on">① 讀全文</span><span class="flow-arrow">→</span><span class="flow-step">② 溫重點</span><span class="flow-arrow">→</span><span class="flow-step">③ 測驗</span></div>' +
+      '<p class="lede reader-hint">像 Open Readle：掃全文，點唔識嘅英文就可睇解釋／發音／存生字。進度 ' +
+      prog.done +
+      "/" +
+      prog.total +
+      " 關已通。</p>" +
+      '<article class="card reader" id="lecture-reader">';
+
+    var preferGate = firstGateForLecture(L.id);
+    (L.blocks || []).forEach(function (b) {
+      var t = b.t || "";
+      var k = b.k || "p";
+      var linked = linkAllEnglish(t, preferGate, preferGate ? preferGate.id : "");
+      if (k === "h") {
+        html += '<h3 class="reader-h">' + linked + "</h3>";
+      } else if (k === "li") {
+        html += '<p class="reader-li">' + linked + "</p>";
+      } else {
+        html += '<p class="reader-p">' + linked + "</p>";
+      }
+    });
+    html += "</article>";
+
+    html +=
+      '<div class="card feature sticky-next">' +
+      "<p><strong>讀完？下一步溫重點同測驗。</strong></p>" +
+      '<div class="gate-actions">' +
+      (next
+        ? '<a class="primary" href="#/gate/' +
+          next.id +
+          '">② 溫重點／測驗 →</a>'
+        : "") +
+      '<a class="ghost" href="#/">返回關卡</a></div></div>';
+
+    main.innerHTML = html;
+
+    var reader = document.getElementById("lecture-reader");
+    var saved = (state.readPos && state.readPos[L.id]) || 0;
+    if (saved > 0) {
+      requestAnimationFrame(function () {
+        window.scrollTo(0, saved);
+      });
+    }
+    var saveTimer = null;
+    function persistPos() {
+      if (!state.readPos) state.readPos = {};
+      state.readPos[L.id] = window.scrollY || 0;
+      saveState(state);
+    }
+    function onScroll() {
+      if (saveTimer) clearTimeout(saveTimer);
+      saveTimer = setTimeout(persistPos, 400);
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    // stash cleanup on next route via hashchange — remove previous if any
+    if (window.__hqScrollCleanup) {
+      try {
+        window.__hqScrollCleanup();
+      } catch (e) {}
+    }
+    window.__hqScrollCleanup = function () {
+      window.removeEventListener("scroll", onScroll);
+      persistPos();
+      window.__hqScrollCleanup = null;
+    };
   }
 
   function renderGate(id) {
@@ -580,18 +745,27 @@
       escapeHtml(g.titleZh) +
       '</h2><p class="entitle">' +
       escapeHtml(g.titleEn) +
-      "</p>";
+      "</p>" +
+      '<div class="flow-steps" aria-label="學習步驟">' +
+      '<a class="flow-step link" href="#/lecture/' +
+      encodeURIComponent(g.lecture) +
+      '">① 讀全文</a>' +
+      '<span class="flow-arrow">→</span>' +
+      '<button type="button" class="flow-step on" data-pane="study">② 溫重點</button>' +
+      '<span class="flow-arrow">→</span>' +
+      '<button type="button" class="flow-step" data-pane="quiz">③ 測驗</button>' +
+      "</div>";
 
     if (!unlocked) {
       html +=
         '<div class="card locked"><p><strong class="lock-icon">🔒 尚未解鎖</strong></p><p class="hint">請先通過上一關測驗。你仍可預覽以下筆記內容。</p></div>';
     } else if (cleared) {
       html +=
-        '<div class="card feature"><p class="pill ok">已通關</p><p class="hint" style="margin:8px 0 0">可重溫筆記或重做測驗。</p></div>';
+        '<div class="card feature"><p class="pill ok">已通關</p><p class="hint" style="margin:8px 0 0">可重溫重點或重做測驗。</p></div>';
     }
 
     html +=
-      '<div class="seg"><button type="button" class="chipbtn on" data-pane="study">筆記</button>' +
+      '<div class="seg"><button type="button" class="chipbtn on" data-pane="study">重點</button>' +
       '<button type="button" class="chipbtn" data-pane="quiz">測驗</button>' +
       '<button type="button" class="chipbtn" data-pane="vocab">生字</button></div>';
 
@@ -639,7 +813,10 @@
       html += "</article>";
     });
     html +=
-      '<div class="gate-actions"><button type="button" class="primary" id="go-quiz">開始測驗</button></div></div>';
+      '<div class="gate-actions"><button type="button" class="primary" id="go-quiz">③ 開始測驗</button>' +
+      '<a class="ghost" href="#/lecture/' +
+      encodeURIComponent(g.lecture) +
+      '">① 讀全文</a></div></div>';
 
     html +=
       '<div id="pane-quiz" hidden><div class="card" id="quiz-root"></div></div>';
@@ -679,15 +856,19 @@
       main.querySelectorAll(".chipbtn").forEach(function (b) {
         b.classList.toggle("on", b.getAttribute("data-pane") === name);
       });
+      main.querySelectorAll(".flow-step[data-pane]").forEach(function (b) {
+        b.classList.toggle("on", b.getAttribute("data-pane") === name);
+      });
       Object.keys(panes).forEach(function (k) {
         panes[k].hidden = k !== name;
       });
       if (name === "quiz") startQuiz(g);
     }
 
-    main.querySelectorAll(".chipbtn").forEach(function (btn) {
+    main.querySelectorAll(".chipbtn, .flow-step[data-pane]").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        showPane(btn.getAttribute("data-pane"));
+        var pane = btn.getAttribute("data-pane");
+        if (pane) showPane(pane);
       });
     });
     document.getElementById("go-quiz").addEventListener("click", function () {
@@ -822,7 +1003,7 @@
     if (!keys.length) {
       html +=
         '<div class="card empty"><p>未有生字。</p>' +
-        '<p class="hint">喺關卡筆記點任何英文詞／片語，再加進生字卡。</p>' +
+        '<p class="hint">喺全文或重點筆記點任何英文詞／片語，再加進生字卡。</p>' +
         '<a class="primary" href="#/">去關卡</a></div>';
     } else {
       html += '<p class="hint">共 ' + keys.length + " 個</p>";
@@ -967,10 +1148,20 @@
 
   function route() {
     closeSheet();
+    if (window.__hqScrollCleanup) {
+      try {
+        window.__hqScrollCleanup();
+      } catch (e) {}
+    }
     var hash = location.hash || "#/";
     var m = hash.match(/^#\/gate\/([\w-]+)/);
     if (m) {
       renderGate(m[1]);
+      return;
+    }
+    var lm = hash.match(/^#\/lecture\/([\w-]+)/);
+    if (lm) {
+      renderLecture(lm[1]);
       return;
     }
     if (hash.indexOf("#/bank") === 0) {
