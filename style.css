@@ -141,7 +141,7 @@ h2 { font-size: 1.28rem; }
 }
 .cardtop { justify-content: space-between; }
 
-.primary, .ghost, .option, .chipbtn {
+.primary, .ghost, .chipbtn {
   border-radius: 999px;
   border: 1px solid var(--line);
   background: var(--card);
@@ -205,20 +205,6 @@ button.term.active {
 
 .study-card ul { margin: 8px 0 0; padding-left: 1.15em; }
 .study-card li { margin: 4px 0; }
-
-.quiz-q { font-weight: 700; margin: 0 0 12px; }
-.options { display: grid; gap: 8px; }
-.option { text-align: left; width: 100%; border-radius: 14px; }
-.option.correct { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 14%, var(--card)); }
-.option.wrong { border-color: var(--bad); background: color-mix(in srgb, var(--bad) 12%, var(--card)); }
-.option:disabled { cursor: default; }
-.explain { margin: 10px 0 0; color: var(--muted); font-size: 0.95rem; }
-
-.score {
-  font-size: 1.6rem; font-weight: 800;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  -webkit-background-clip: text; background-clip: text; color: transparent;
-}
 
 .backdrop {
   position: fixed; inset: 0; background: rgba(15, 18, 32, 0.45); z-index: 30;
@@ -866,6 +852,16 @@ a.gate-mini.locked { opacity: 0.72; }
   line-height: 1.35;
   color: var(--ink);
 }
+
+.fig-seg { margin: 0 0 0.75rem; }
+.fig-seg:last-child { margin-bottom: 0; }
+.fig-zh {
+  margin: 0.25rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--muted, #5b657a);
+}
+.lecture-reader.hide-zh .fig-zh { display: none; }
 .fig-p, .fig-li {
   margin: 0 0 0.4rem;
   font-size: 1rem;
