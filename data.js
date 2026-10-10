@@ -14354,8 +14354,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Small uncharged molecules; Lipid bilayer (plasma membrane); Extracellular fluid; Cytoplasm; Time.",
-                "zh": "細而無電荷分子；脂質雙層（質膜）；細胞外液；細胞質；時間。"
+                "t": "Small uncharged molecules",
+                "zh": "細嘅不帶電分子"
+              },
+              {
+                "k": "p",
+                "t": "Lipid bilayer (plasma membrane)",
+                "zh": "脂質雙層（質膜）"
+              },
+              {
+                "k": "p",
+                "t": "Extracellular fluid",
+                "zh": "細胞外液"
+              },
+              {
+                "k": "p",
+                "t": "Cytoplasm",
+                "zh": "細胞質"
+              },
+              {
+                "k": "p",
+                "t": "Time",
+                "zh": "時間"
               }
             ]
           },
@@ -14364,7 +14384,13 @@ window.HAZEL_LECTURES = [
             "w": 344,
             "h": 479,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Concentration Gradient",
+                "zh": "濃度梯度"
+              }
+            ]
           }
         ]
       },
@@ -14420,14 +14446,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "Simple Diffusion; Outside cell; Cell membrane; Inside cell; High concentration of particles; Low concentration; Same concentration (equilibrium).",
-                "zh": "簡單擴散；細胞外；細胞膜；細胞內；粒子高濃度；低濃度；相同濃度（平衡）。"
+                "k": "h",
+                "t": "Simple Diffusion",
+                "zh": "簡單擴散"
               },
               {
                 "k": "p",
-                "t": "Simple diffusion is the movement of particles from high to low concentration without a protein.",
-                "zh": "簡單擴散係粒子由高濃度去低濃度、唔經蛋白質嘅移動。"
+                "t": "Movement of particles from high to low concentration without a protein.",
+                "zh": "粒子由高濃度去低濃度、唔經蛋白質嘅移動。"
+              },
+              {
+                "k": "p",
+                "t": "Outside cell; Inside cell; Cell membrane",
+                "zh": "細胞外；細胞內；細胞膜"
+              },
+              {
+                "k": "p",
+                "t": "High concentration of particles → Low concentration → Same concentration (equilibrium)",
+                "zh": "高濃度粒子 → 低濃度 → 相同濃度（平衡）"
               }
             ]
           },
@@ -14439,8 +14475,33 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Alveoli; Thin, moist walls; Capillary; Air is inhaled and exhaled; Diffusion of CO₂; Diffusion of O₂.",
-                "zh": "肺泡；薄而濕潤嘅壁；微血管；空氣吸入同呼出；CO₂ 擴散；O₂ 擴散。"
+                "t": "Alveoli",
+                "zh": "肺泡"
+              },
+              {
+                "k": "p",
+                "t": "Thin, moist walls",
+                "zh": "薄而濕潤嘅壁"
+              },
+              {
+                "k": "p",
+                "t": "Capillary",
+                "zh": "微血管"
+              },
+              {
+                "k": "p",
+                "t": "Air is inhaled and exhaled",
+                "zh": "空氣吸入同呼出"
+              },
+              {
+                "k": "p",
+                "t": "Diffusion of CO₂",
+                "zh": "CO₂ 擴散"
+              },
+              {
+                "k": "p",
+                "t": "Diffusion of O₂",
+                "zh": "O₂ 擴散"
               }
             ]
           },
@@ -14451,9 +14512,34 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Facilitated Diffusion",
+                "zh": "協助擴散"
+              },
+              {
                 "k": "p",
-                "t": "Extracellular Fluid; Molecules (e.g., Ions); High Concentration; Channel Protein; Phospholipid Bilayer; Pore; Cytoplasm; Facilitated Diffusion; Low Concentration.",
-                "zh": "細胞外液；分子（例如離子）；高濃度；通道蛋白；磷脂雙層；孔道；細胞質；協助擴散；低濃度。"
+                "t": "Extracellular Fluid — High Concentration",
+                "zh": "細胞外液 — 高濃度"
+              },
+              {
+                "k": "p",
+                "t": "Molecules (e.g., Ions)",
+                "zh": "分子（例如離子）"
+              },
+              {
+                "k": "p",
+                "t": "Channel Protein; Pore",
+                "zh": "通道蛋白；孔道"
+              },
+              {
+                "k": "p",
+                "t": "Phospholipid Bilayer",
+                "zh": "磷脂雙層"
+              },
+              {
+                "k": "p",
+                "t": "Cytoplasm — Low Concentration",
+                "zh": "細胞質 — 低濃度"
               }
             ]
           }
@@ -14519,9 +14605,19 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Carrier Protein",
+                "zh": "載體蛋白"
+              },
+              {
                 "k": "p",
-                "t": "Carrier Protein; Hydrophilic Pocket; Conformational Change.",
-                "zh": "載體蛋白；親水口袋；構象改變。"
+                "t": "Hydrophilic Pocket",
+                "zh": "親水袋"
+              },
+              {
+                "k": "p",
+                "t": "Conformational Change",
+                "zh": "構象改變"
               }
             ]
           }
@@ -14584,7 +14680,18 @@ window.HAZEL_LECTURES = [
             "w": 683,
             "h": 276,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "A",
+                "zh": "A"
+              },
+              {
+                "k": "p",
+                "t": "B",
+                "zh": "B"
+              }
+            ]
           }
         ]
       },
@@ -14685,9 +14792,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Tonicity",
+                "zh": "張力"
+              },
+              {
                 "k": "p",
-                "t": "Tonicity; Hypotonic; Isotonic; Hypertonic; H₂O; Lysed; Normal; Shriveled.",
-                "zh": "張力；低張；等張；高張；H₂O；溶血／脹破；正常；皺縮。"
+                "t": "Hypotonic — H₂O in → Lysed",
+                "zh": "低張 — 水入 → 溶破"
+              },
+              {
+                "k": "p",
+                "t": "Isotonic — H₂O in/out → Normal",
+                "zh": "等張 — 水進出平衡 → 正常"
+              },
+              {
+                "k": "p",
+                "t": "Hypertonic — H₂O out → Shriveled",
+                "zh": "高張 — 水出 → 皺縮"
               }
             ]
           }
@@ -14710,14 +14832,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "Tonicity; Isotonic; Hypotonic; Hypertonic.",
-                "zh": "張力（Tonicity）；等張；低張；高張。"
+                "k": "h",
+                "t": "Tonicity",
+                "zh": "張力"
               },
               {
                 "k": "p",
-                "t": "Tonicity is the ability of the concentration of a solution to affect the volume and pressure within a cell. Isotonic: when both the cell and the surrounding solution have equal solute concentrations, e.g. normal saline (0.9% NaCl), D5 (5% dextrose in water). Hypotonic: if a cell is placed in a hypotonic solution it will take in water across the membrane, leading to hemolysis, e.g. half saline (0.45% NaCl), D2.5 (2.5% dextrose in water). Hypertonic: if a cell is in a hypertonic solution, water moves out of the cell leading to crenation, e.g. mannitol (used to reduce brain swelling).",
-                "zh": "張力係溶液濃度影響細胞內體積同壓力嘅能力。等張：細胞同外液溶質濃度相等，例如生理鹽水（0.9% NaCl）、D5（5% 葡萄糖水）。低張：細胞放入低張液會吸水，可致溶血（hemolysis），例如半滲鹽水（0.45% NaCl）、D2.5（2.5% 葡萄糖水）。高張：細胞喺高張液中水外流，可致皺縮（crenation），例如甘露醇（用以減輕腦腫脹）。"
+                "t": "The ability of the concentration of a solution to affect the volume and pressure within a cell.",
+                "zh": "溶液濃度影響細胞內體積同壓力嘅能力。"
+              },
+              {
+                "k": "p",
+                "t": "Isotonic: When both the cell and the surrounding solution have equal solute concentrations. e.g., normal saline (0.9% NaCl), D5 (5% dextrose in water).",
+                "zh": "等張：細胞同周圍溶液溶質濃度相等。例如生理鹽水（0.9% NaCl）、D5（5% 葡萄糖水）。"
+              },
+              {
+                "k": "p",
+                "t": "Hypotonic: If a cell is placed in a hypotonic solution it will take in water across its membrane, leading to hemolysis. e.g., half saline (0.45% NaCl), D2.5.",
+                "zh": "低張：細胞放入低張溶液會吸水，導致溶血。例如半生理鹽水（0.45% NaCl）、D2.5。"
+              },
+              {
+                "k": "p",
+                "t": "Hypertonic: If a cell is in a hypertonic solution, water moves out of the cell leading to crenation. e.g., mannitol (reduce brain swelling).",
+                "zh": "高張：細胞喺高張溶液中，水離開細胞導致皺縮。例如甘露醇（減輕腦水腫）。"
               }
             ]
           }
