@@ -21246,7 +21246,53 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 551,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Factors Influencing Stroke Volume",
+                "zh": "影響每搏輸出量嘅因素"
+              },
+              {
+                "k": "p",
+                "t": "CO = HR × SV",
+                "zh": "CO = HR × SV"
+              },
+              {
+                "k": "p",
+                "t": "End-Diastolic Ventricular Volume (EDV) / Pre-load: More blood fills the ventricles before contraction → increases stroke volume.",
+                "zh": "舒張末期心室容積（EDV）／前負荷：收縮前心室充盈越多 → 每搏輸出量增加。"
+              },
+              {
+                "k": "p",
+                "t": "Sympathetic Nerve Activity: Stimulates the heart → increases heart rate and force of contraction.",
+                "zh": "交感神經活動：刺激心臟 → 心率同收縮力增加。"
+              },
+              {
+                "k": "p",
+                "t": "Plasma Epinephrine: Hormone (adrenaline) that enhances heart rate and contractility.",
+                "zh": "血漿腎上腺素：增強心率同心肌收縮力嘅激素。"
+              },
+              {
+                "k": "p",
+                "t": "↑ End-diastolic ventricular volume → ↑ Stroke volume (Same ejection fraction)",
+                "zh": "↑ 舒張末期心室容積 → ↑ 每搏輸出量（射血分數不變）"
+              },
+              {
+                "k": "p",
+                "t": "↑ Activity of sympathetic nerves to heart — From brain → ↑ Stroke volume (Increased ejection fraction)",
+                "zh": "↑ 心臟交感神經 — 來自腦 → ↑ 每搏輸出量（射血分數增加）"
+              },
+              {
+                "k": "p",
+                "t": "↑ Plasma epinephrine (Adrenaline) — From adrenal gland → ↑ Stroke volume (Increased ejection fraction)",
+                "zh": "↑ 血漿腎上腺素 — 來自腎上腺 → ↑ 每搏輸出量（射血分數增加）"
+              },
+              {
+                "k": "p",
+                "t": "Ejection Fraction = amount of blood pumped out / amount of blood in the chamber.",
+                "zh": "射血分數 = 泵出嘅血量／心腔內血量。"
+              }
+            ]
           }
         ]
       },
@@ -21300,7 +21346,38 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 595,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Regulation of HR, SV and CO",
+                "zh": "心率、每搏輸出量同心輸出量嘅調節"
+              },
+              {
+                "k": "p",
+                "t": "CO = HR × SV",
+                "zh": "CO = HR × SV"
+              },
+              {
+                "k": "p",
+                "t": "EDV = End Diastolic Volume (Preload)",
+                "zh": "EDV = 舒張末期容積（前負荷）"
+              },
+              {
+                "k": "p",
+                "t": "Heart rate (SA node): Sympathetic activity — stimulate; Parasympathetic activity — inhibit.",
+                "zh": "心率（SA 結）：交感 — 刺激；副交感 — 抑制。"
+              },
+              {
+                "k": "p",
+                "t": "Stroke volume (ventricles): Sympathetic activity — stimulate; End-diastolic volume — stimulate (Starling law).",
+                "zh": "每搏輸出量（心室）：交感 — 刺激；舒張末期容積 — 刺激（Starling 定律）。"
+              },
+              {
+                "k": "p",
+                "t": "Heart rate × Stroke volume → Cardiac output",
+                "zh": "心率 × 每搏輸出量 → 心輸出量"
+              }
+            ]
           }
         ]
       },
@@ -21367,8 +21444,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Systole; Diastole; Entry from heart; Arteries; Exit via arterioles; Aortic or pulmonary valve.",
-                "zh": "收縮期；舒張期；由心臟進入；動脈；經小動脈離開；主動脈瓣或肺動脈瓣。"
+                "t": "Entry from heart; Arteries; Exit via arterioles",
+                "zh": "由心臟進入；動脈；經小動脈離開"
+              },
+              {
+                "k": "h",
+                "t": "Systole",
+                "zh": "收縮期"
+              },
+              {
+                "k": "p",
+                "t": "Arteries expand (pressure reservoir); blood exits via arterioles",
+                "zh": "動脈擴張（壓力庫）；血液經小動脈離開"
+              },
+              {
+                "k": "h",
+                "t": "Diastole",
+                "zh": "舒張期"
+              },
+              {
+                "k": "p",
+                "t": "Aortic or pulmonary valve closed; elastic recoil continues forward flow",
+                "zh": "主動脈或肺動脈瓣關閉；彈性回縮繼續推動血流"
               }
             ]
           },
@@ -21384,7 +21481,23 @@ window.HAZEL_LECTURES = [
             "w": 328,
             "h": 201,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Artery — thick, elastic wall; small lumen",
+                "zh": "動脈 — 厚而有彈性嘅壁；小管腔"
+              },
+              {
+                "k": "p",
+                "t": "Vein — thin wall; large lumen; valve",
+                "zh": "靜脈 — 薄壁；大管腔；瓣膜"
+              },
+              {
+                "k": "p",
+                "t": "Capillary — single cell wall",
+                "zh": "微血管 — 單細胞壁"
+              }
+            ]
           }
         ]
       },
@@ -21474,7 +21587,43 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 648,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Regulation of arterial pressure",
+                "zh": "動脈壓調節"
+              },
+              {
+                "k": "p",
+                "t": "CO = HR × SV",
+                "zh": "CO = HR × SV"
+              },
+              {
+                "k": "p",
+                "t": "MAP = CO × TPR",
+                "zh": "MAP = CO × TPR"
+              },
+              {
+                "k": "p",
+                "t": "Stroke Volume — End-diastolic volume; Sympathetic activity",
+                "zh": "每搏輸出量 — 舒張末期容積；交感活動"
+              },
+              {
+                "k": "p",
+                "t": "Heart rate — Sympathetic activity; Parasympathetic activity",
+                "zh": "心率 — 交感活動；副交感活動"
+              },
+              {
+                "k": "p",
+                "t": "TPR — Vasoconstriction or vasodilation of arterioles to large organ; Blood viscosity",
+                "zh": "總外周阻力 — 大器官小動脈收縮或舒張；血液黏稠度"
+              },
+              {
+                "k": "p",
+                "t": "CO × TPR → MAP",
+                "zh": "CO × TPR → MAP"
+              }
+            ]
           }
         ]
       },
@@ -21599,14 +21748,51 @@ window.HAZEL_LECTURES = [
             "w": 861,
             "h": 685,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Aorta; Heart",
+                "zh": "主動脈；心臟"
+              },
+              {
+                "k": "p",
+                "t": "Carotid arteries delivering blood to brain",
+                "zh": "頸動脈把血送去腦"
+              },
+              {
+                "k": "p",
+                "t": "Aortic baroreceptor; Carotid artery baroreceptors",
+                "zh": "主動脈壓力感受器；頸動脈壓力感受器"
+              },
+              {
+                "k": "p",
+                "t": "Nerves to brain; Direction of action potentials",
+                "zh": "通往腦嘅神經；動作電位方向"
+              },
+              {
+                "k": "p",
+                "t": "Medulla oblongata",
+                "zh": "延髓"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p062-02.webp",
             "w": 961,
             "h": 404,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Increased blood pressure stimulates the cardioinhibitory center to: Decrease heart rate → Decrease CO; Increase vessel diameter → Decrease PR; Decrease BP.",
+                "zh": "血壓升高刺激心抑制中樞：減慢心率 → 減低 CO；血管直徑增大 → 減低 PR；血壓下降。"
+              },
+              {
+                "k": "p",
+                "t": "Declining blood pressure stimulates the cardioacceleratory center to: Increase heart rate & force → Increase CO; Decrease vessel diameter → Increase PR; Increase BP.",
+                "zh": "血壓下降刺激心加速中樞：加快心率同收縮力 → 提高 CO；血管直徑減小 → 提高 PR；血壓上升。"
+              }
+            ]
           }
         ]
       },
@@ -21630,14 +21816,86 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 760,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "MAP ↑",
+                "zh": "MAP ↑"
+              },
+              {
+                "k": "p",
+                "t": "↑ Stimulation on arterial baroreceptors.",
+                "zh": "動脈壓力感受器刺激↑。"
+              },
+              {
+                "k": "p",
+                "t": "Baroreceptor reflex, ↑ impulses sending to medullary cardiovascular center.",
+                "zh": "壓力感受器反射，衝動↑ 送去延髓心血管中樞。"
+              },
+              {
+                "k": "p",
+                "t": "Sympathetic activity ↓; Parasympathetic activity ↑",
+                "zh": "交感活動↓；副交感活動↑"
+              },
+              {
+                "k": "p",
+                "t": "CO ↓, TPR ↓",
+                "zh": "CO ↓，TPR ↓"
+              },
+              {
+                "k": "p",
+                "t": "MAP ↓",
+                "zh": "MAP ↓"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p063-01.webp",
             "w": 450,
             "h": 338,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "input",
+                "zh": "輸入"
+              },
+              {
+                "k": "p",
+                "t": "Imposed decrease in arterial blood pressure → Sensed by arterial baroreceptors as decreased stretch → Decreased baroreceptor afferent nerve activity.",
+                "zh": "動脈血壓下降 → 動脈壓力感受器感知為牽張減少 → 壓力感受器傳入神經活動減少。"
+              },
+              {
+                "k": "h",
+                "t": "processing",
+                "zh": "處理"
+              },
+              {
+                "k": "p",
+                "t": "Signal processed by medullary cardiovascular control pathways.",
+                "zh": "訊號由延髓心血管控制通路處理。"
+              },
+              {
+                "k": "h",
+                "t": "output",
+                "zh": "輸出"
+              },
+              {
+                "k": "p",
+                "t": "Increased sympathetic activity: Increased heart rate; Increased force of heart contraction; Arteriolar vasoconstriction.",
+                "zh": "交感活動增加：心率↑；心肌收縮力↑；小動脈收縮。"
+              },
+              {
+                "k": "p",
+                "t": "Decreased parasympathetic activity: Increased heart rate.",
+                "zh": "副交感活動減少：心率↑。"
+              },
+              {
+                "k": "p",
+                "t": "Increased arterial blood pressure.",
+                "zh": "動脈血壓上升。"
+              }
+            ]
           }
         ]
       },
@@ -21664,13 +21922,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "When blood pressure rises: BLOOD VESSELS — ↓ sympathetic activity → VASODILATION; HEART — ↑ parasympathetic activity, ↓ HR, ↓ force of cardiac contraction → ↓ CO; Blood pressure falls. When blood pressure falls: HEART — ↓ parasympathetic activity, ↑ HR, ↑ force of cardiac contraction → ↑ CO; BLOOD VESSELS — ↑ sympathetic activity → VASOCONSTRICTION; Blood pressure rises.",
-                "zh": "血壓上升時：血管 — 交感活性↓ → 血管舒張；心臟 — 副交感活性↑、心率↓、收縮力↓ → 心輸出量↓；血壓下降。血壓下降時：心臟 — 副交感活性↓、心率↑、收縮力↑ → 心輸出量↑；血管 — 交感活性↑ → 血管收縮；血壓上升。"
+                "t": "When blood pressure rises: BLOOD VESSELS — ↓ sympathetic activity → VASODILATION; HEART — ↑ parasympathetic activity, ↓ HR, ↓ force of cardiac contraction → ↓ CO; Blood pressure falls.",
+                "zh": "血壓上升時：血管 — 交感活性↓ → 血管舒張；心臟 — 副交感活性↑、心率↓、收縮力↓ → 心輸出量↓；血壓下降。"
               },
               {
                 "k": "p",
-                "t": "These opposing pathways form a feedback loop that returns blood pressure toward a balanced set point.",
-                "zh": "呢兩條相反路徑形成回饋，令血壓返向平衡設定點。"
+                "t": "When blood pressure falls: HEART — ↓ parasympathetic activity, ↑ HR, ↑ force of cardiac contraction → ↑ CO; BLOOD VESSELS — ↑ sympathetic activity → VASOCONSTRICTION; Blood pressure rises.",
+                "zh": "血壓下降時：心臟 — 副交感活性↓、心率↑、收縮力↑ → 心輸出量↑；血管 — 交感活性↑ → 血管收縮；血壓上升。"
               }
             ]
           }
@@ -21716,7 +21974,18 @@ window.HAZEL_LECTURES = [
             "w": 688,
             "h": 217,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "↑ [H⁺], ↑ PCO₂, ↓ PO₂ → Chemoreceptors → CVC → ↑ Stroke volume, ↑ Heart rate, ↑ Vasoconstriction → ↑ BP.",
+                "zh": "↑ [H⁺]、↑ PCO₂、↓ PO₂ → 化學感受器 → CVC → ↑ 每搏輸出量、↑ 心率、↑ 血管收縮 → ↑ BP。"
+              },
+              {
+                "k": "p",
+                "t": "↓ [H⁺], ↓ PCO₂, ↑ PO₂ → Chemoreceptors → CVC → ↓ Stroke volume, ↓ Heart rate, ↓ Vasoconstriction → ↓ BP.",
+                "zh": "↓ [H⁺]、↓ PCO₂、↑ PO₂ → 化學感受器 → CVC → ↓ 每搏輸出量、↓ 心率、↓ 血管收縮 → ↓ BP。"
+              }
+            ]
           }
         ]
       },
@@ -21774,13 +22043,33 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Drop in blood pressure / Drop in fluid volume; liver; angiotensinogen; angiotensin I; angiotensin II; aldosterone; NaCl / H₂O; Vasoconstriction / BP ↑; Reabsorption ↑ / Urine production ↓ / Blood volume ↑ / BP ↑.",
-                "zh": "血壓下降／體液量下降；肝；血管張力素原；血管張力素 I；血管張力素 II；醛固酮；NaCl／H₂O；血管收縮／血壓↑；重吸收↑／尿量↓／血容量↑／血壓↑。"
+                "t": "Drop in blood pressure; Drop in fluid volume",
+                "zh": "血壓下降；體液量下降"
               },
               {
                 "k": "p",
-                "t": "Renin release from the kidney acts on angiotensinogen to form angiotensin I. ACE (angiotensin-converting enzyme) released from the lungs acts on angiotensin I to form angiotensin II. Angiotensin II also acts directly on blood vessels, stimulating vasoconstriction (narrowing). Angiotensin II acts on the adrenal gland to stimulate release of aldosterone. Aldosterone acts on the kidneys to stimulate reabsorption of salt (NaCl) and water (H₂O).",
-                "zh": "腎臟釋放腎素，作用於血管張力素原變成血管張力素 I。肺釋出 ACE（血管張力素轉換酶），把血管張力素 I 轉成血管張力素 II。血管張力素 II 亦可直接作用於血管，引起血管收縮（管徑變窄）。血管張力素 II 作用於腎上腺，刺激醛固酮釋放。醛固酮再作用於腎，促進鹽（NaCl）同水（H₂O）重吸收。"
+                "t": "Renin release from kidney acts on angiotensinogen (from liver) to form angiotensin I.",
+                "zh": "腎臟釋放腎素，作用於肝產生嘅血管張力素原，形成血管張力素 I。"
+              },
+              {
+                "k": "p",
+                "t": "ACE (angiotensin-converting enzyme) release from lungs acts on angiotensin I to form angiotensin II.",
+                "zh": "肺釋出 ACE（血管張力素轉換酶），把血管張力素 I 轉成血管張力素 II。"
+              },
+              {
+                "k": "p",
+                "t": "Angiotensin II also acts directly on blood vessels, stimulating vasoconstriction (narrowing). → Vasoconstriction; BP ↑.",
+                "zh": "血管張力素 II 直接令血管收縮（管徑變窄）→ 血管收縮；血壓↑。"
+              },
+              {
+                "k": "p",
+                "t": "Angiotensin II acts on the adrenal gland to stimulate release of aldosterone.",
+                "zh": "血管張力素 II 作用於腎上腺，刺激醛固酮釋放。"
+              },
+              {
+                "k": "p",
+                "t": "Aldosterone acts on the kidneys to stimulate reabsorption of salt (NaCl) and water (H₂O). → Reabsorption ↑; Urine production ↓; Blood volume ↑; BP ↑.",
+                "zh": "醛固酮作用於腎，促進鹽（NaCl）同水（H₂O）重吸收 → 重吸收↑；尿量↓；血容量↑；血壓↑。"
               }
             ]
           }
