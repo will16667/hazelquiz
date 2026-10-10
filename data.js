@@ -7254,9 +7254,44 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "(a) Plasma membrane (fluid mosaic)",
+                "zh": "（a）質膜（流動鑲嵌）"
+              },
+              {
                 "k": "p",
-                "t": "EXTRACELLULAR FLUID; CYTOPLASM (intracellular fluid); Peripheral membrane protein; Integral membrane protein; Membrane channel; Carbohydrate chains; Glycoprotein; Glycocalyx; Glycolipid; External membrane surface; Phospholipid bilayer; Internal membrane surface; Nonpolar (hydrophobic) regions of phospholipid molecules; Polar (hydrophilic) regions of phospholipid molecules; Cholesterol; Cytoskeleton.",
-                "zh": "細胞外液；細胞質（細胞內液）；外周膜蛋白；整合膜蛋白；膜通道；碳水化合物鏈；糖蛋白；糖萼；糖脂；外膜面；磷脂雙層；內膜面；磷脂非極性（疏水）區；磷脂極性（親水）區；膽固醇；細胞骨架。"
+                "t": "EXTRACELLULAR FLUID",
+                "zh": "細胞外液"
+              },
+              {
+                "k": "p",
+                "t": "CYTOPLASM (intracellular fluid)",
+                "zh": "細胞質（細胞內液）"
+              },
+              {
+                "k": "p",
+                "t": "Phospholipid bilayer — Polar (hydrophilic) regions; Nonpolar (hydrophobic) regions.",
+                "zh": "磷脂雙層 — 極性（親水）區；非極性（疏水）區。"
+              },
+              {
+                "k": "p",
+                "t": "External membrane surface; Internal membrane surface.",
+                "zh": "外膜面；內膜面。"
+              },
+              {
+                "k": "p",
+                "t": "Integral membrane protein; Peripheral membrane protein; Membrane channel.",
+                "zh": "整合膜蛋白；外周膜蛋白；膜通道。"
+              },
+              {
+                "k": "p",
+                "t": "Carbohydrate chains; Glycoprotein; Glycolipid; Glycocalyx.",
+                "zh": "糖鏈；糖蛋白；糖脂；糖萼。"
+              },
+              {
+                "k": "p",
+                "t": "Cholesterol; Cytoskeleton.",
+                "zh": "膽固醇；細胞骨架。"
               }
             ]
           },
@@ -7576,8 +7611,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Mitochondria Cristae Outer membrane Inner membrane",
-                "zh": "Mitochondria Cristae外膜內膜"
+                "t": "Mitochondria",
+                "zh": "線粒體"
+              },
+              {
+                "k": "p",
+                "t": "Cristae",
+                "zh": "嵴"
+              },
+              {
+                "k": "p",
+                "t": "Outer membrane",
+                "zh": "外膜"
+              },
+              {
+                "k": "p",
+                "t": "Inner membrane",
+                "zh": "內膜"
               }
             ]
           },
@@ -7679,8 +7729,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Nuclear Pore; Nucleus; Ribosome; Rough Endoplasmic Reticulum; Smooth Endoplasmic Reticulum.",
-                "zh": "核孔；細胞核；核糖體；粗糙內質網；光滑內質網。"
+                "t": "Nuclear Pore",
+                "zh": "核孔"
+              },
+              {
+                "k": "p",
+                "t": "Nucleus",
+                "zh": "細胞核"
+              },
+              {
+                "k": "p",
+                "t": "Ribosome",
+                "zh": "核糖體"
+              },
+              {
+                "k": "p",
+                "t": "Rough Endoplasmic Reticulum",
+                "zh": "粗糙內質網"
+              },
+              {
+                "k": "p",
+                "t": "Smooth Endoplasmic Reticulum",
+                "zh": "光滑內質網"
               }
             ]
           },
@@ -7691,9 +7761,39 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Endoplasmic reticulum",
+                "zh": "內質網"
+              },
+              {
                 "k": "p",
-                "t": "Endoplasmic reticulum; Nucleolus; Nucleus; Nuclear pore; Rough endoplasmic reticulum; Smooth endoplasmic reticulum; Ribosomes.",
-                "zh": "內質網；核仁；細胞核；核孔；粗糙內質網；光滑內質網；核糖體。"
+                "t": "Nucleolus",
+                "zh": "核仁"
+              },
+              {
+                "k": "p",
+                "t": "Nucleus",
+                "zh": "細胞核"
+              },
+              {
+                "k": "p",
+                "t": "Nuclear pore",
+                "zh": "核孔"
+              },
+              {
+                "k": "p",
+                "t": "Rough endoplasmic reticulum",
+                "zh": "粗糙內質網"
+              },
+              {
+                "k": "p",
+                "t": "Smooth endoplasmic reticulum",
+                "zh": "光滑內質網"
+              },
+              {
+                "k": "p",
+                "t": "Ribosomes",
+                "zh": "核糖體"
               }
             ]
           }
@@ -7776,9 +7876,59 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Organelle / component — Function",
+                "zh": "胞器／成分 — 功能"
+              },
+              {
                 "k": "p",
-                "t": "Organelle / component — Function. Plasma (cell) membrane: Controls materials in and out of cell. Cytoplasm: Serves as matrix substance for chemical reactions to occur. Endoplasmic reticulum (ER): Rough ER assists protein synthesis; Smooth ER metabolizes nonpolar compounds. Ribosome: Protein synthesis. Golgi Complex: Synthesize carbohydrate and pack molecules for secretion. Mitochondrion: Transform energy from food to ATP. Lysosome: Digest foreign molecules, and worn and damaged organelles. Nucleus: Contains genetic information and directs cellular activity. Nuclear membrane: Control material in and out of the nucleus. Nucleolus: Produce ribosomal RNA for ribosomes.",
-                "zh": "胞器／成分 — 功能。質膜：控制物質進出細胞。細胞質：作為化學反應進行嘅基質。內質網：粗糙內質網協助蛋白質合成；光滑內質網代謝非極性化合物。核糖體：蛋白質合成。高爾基體：合成碳水化合物並包裝分子以便分泌。線粒體：將食物能量轉成 ATP。溶酶體：消化外來分子同損耗胞器。細胞核：含遺傳訊息並指揮細胞活動。核膜：控制物質進出細胞核。核仁：製造核糖體 RNA。"
+                "t": "Plasma (cell) membrane: Controls materials in and out of cell.",
+                "zh": "質膜：控制物質進出細胞。"
+              },
+              {
+                "k": "p",
+                "t": "Cytoplasm: Serves as matrix substance for chemical reactions to occur.",
+                "zh": "細胞質：作為化學反應進行嘅基質。"
+              },
+              {
+                "k": "p",
+                "t": "Endoplasmic reticulum (ER): Rough ER assists protein synthesis; Smooth ER metabolizes nonpolar compounds.",
+                "zh": "內質網：粗糙內質網協助蛋白質合成；光滑內質網代謝非極性化合物。"
+              },
+              {
+                "k": "p",
+                "t": "Ribosome: Protein synthesis.",
+                "zh": "核糖體：蛋白質合成。"
+              },
+              {
+                "k": "p",
+                "t": "Golgi Complex: Synthesize carbohydrate and pack molecules for secretion.",
+                "zh": "高爾基體：合成碳水化合物並包裝分子以便分泌。"
+              },
+              {
+                "k": "p",
+                "t": "Mitochondrion: Transform energy from food to ATP.",
+                "zh": "線粒體：將食物能量轉成 ATP。"
+              },
+              {
+                "k": "p",
+                "t": "Lysosome: Digest foreign molecules, and worn and damaged organelles.",
+                "zh": "溶酶體：消化外來分子同損耗胞器。"
+              },
+              {
+                "k": "p",
+                "t": "Nucleus: Contains genetic information and directs cellular activity.",
+                "zh": "細胞核：含遺傳訊息並指揮細胞活動。"
+              },
+              {
+                "k": "p",
+                "t": "Nuclear membrane: Control material in and out of the nucleus.",
+                "zh": "核膜：控制物質進出細胞核。"
+              },
+              {
+                "k": "p",
+                "t": "Nucleolus: Produce ribosomal RNA for ribosomes.",
+                "zh": "核仁：製造核糖體 RNA。"
               }
             ]
           }
