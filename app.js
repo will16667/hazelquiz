@@ -245,25 +245,51 @@
       bank: cfg.bank || DEFAULT_BANK,
     };
     if (data) payload.data = data;
+    // Apps Script returns 302 → googleusercontent; follow with redirect:"follow".
+    // Some browsers strip POST body; fallback: POST with redirect:manual then GET Location.
     return fetch(cfg.url, {
       method: "POST",
-      // text/plain avoids CORS preflight on Apps Script
       headers: { "Content-Type": "text/plain;charset=utf-8" },
       body: JSON.stringify(payload),
-    }).then(function (res) {
-      return res.text().then(function (text) {
-        var json = null;
-        try {
-          json = JSON.parse(text);
-        } catch (e) {
-          throw new Error("bad_response");
+      redirect: "follow",
+    })
+      .then(function (res) {
+        return res.text().then(function (text) {
+          return { res: res, text: text };
+        });
+      })
+      .then(function (pack) {
+        var text = pack.text || "";
+        if (text && text.charAt(0) === "{") {
+          return parseCloudJson_(text);
         }
-        if (!json || !json.ok) {
-          throw new Error((json && json.error) || "cloud_error");
-        }
-        return json;
+        // Fallback: manual redirect dance
+        return fetch(cfg.url, {
+          method: "POST",
+          headers: { "Content-Type": "text/plain;charset=utf-8" },
+          body: JSON.stringify(payload),
+          redirect: "manual",
+        }).then(function (res2) {
+          var loc = res2.headers.get("Location");
+          if (!loc) throw new Error("bad_response");
+          return fetch(loc, { method: "GET", redirect: "follow" }).then(function (r3) {
+            return r3.text();
+          });
+        }).then(parseCloudJson_);
       });
-    });
+  }
+
+  function parseCloudJson_(text) {
+    var json = null;
+    try {
+      json = JSON.parse(text);
+    } catch (e) {
+      throw new Error("bad_response");
+    }
+    if (!json || !json.ok) {
+      throw new Error((json && json.error) || "cloud_error");
+    }
+    return json;
   }
 
   function statePayload() {
