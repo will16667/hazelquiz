@@ -136,43 +136,50 @@ window.HAZEL_GATES = [
       {
         "term": "Anatomy",
         "zh": "解剖學",
-        "ipa": "/əˈnætəmi/",
+        "ipa": "",
+        "say": "uh-NAT-uh-mee",
         "gloss": "研究身體結構及其相互關係。"
       },
       {
         "term": "Physiology",
         "zh": "生理學",
-        "ipa": "/ˌfɪziˈɒlədʒi/",
+        "ipa": "",
+        "say": "fiz-ee-OL-uh-jee",
         "gloss": "研究身體及其部分如何運作／功能。"
       },
       {
         "term": "Macroscopic anatomy",
         "zh": "巨視解剖學",
         "ipa": "",
+        "say": "",
         "gloss": "肉眼可見的結構。"
       },
       {
         "term": "Microscopic anatomy",
         "zh": "微視解剖學",
         "ipa": "",
+        "say": "",
         "gloss": "需顯微鏡觀察的結構。"
       },
       {
         "term": "ATP",
         "zh": "三磷酸腺苷",
         "ipa": "",
+        "say": "",
         "gloss": "細胞能量載體分子；Adenosine triphosphate。"
       },
       {
         "term": "DNA",
         "zh": "去氧核糖核酸",
         "ipa": "",
+        "say": "",
         "gloss": "Deoxyribonucleic acid；遺傳物質。"
       },
       {
         "term": "RNA",
         "zh": "核糖核酸",
         "ipa": "",
+        "say": "",
         "gloss": "Ribonucleic acid；參與蛋白質合成。"
       }
     ],
@@ -378,43 +385,50 @@ window.HAZEL_GATES = [
       {
         "term": "Carbohydrate",
         "zh": "碳水化合物／醣類",
-        "ipa": "/ˌkɑːbəʊˈhaɪdreɪt/",
+        "ipa": "",
+        "say": "kar-boh-HY-drayt",
         "gloss": "由 C、H、O 組成；H:O = 2:1。"
       },
       {
         "term": "Monosaccharide",
         "zh": "單糖",
         "ipa": "",
+        "say": "",
         "gloss": "簡單糖，如 glucose、fructose。"
       },
       {
         "term": "Disaccharide",
         "zh": "雙糖",
         "ipa": "",
+        "say": "",
         "gloss": "如 maltose、sucrose。"
       },
       {
         "term": "Polysaccharide",
         "zh": "多糖",
         "ipa": "",
+        "say": "",
         "gloss": "如 starch、glycogen、cellulose。"
       },
       {
         "term": "Glucose",
         "zh": "葡萄糖",
-        "ipa": "/ˈɡluːkəʊs/",
+        "ipa": "",
+        "say": "GLOO-kohs",
         "gloss": "碳水消化主要終產物；呼吸供能。"
       },
       {
         "term": "Glycogen",
         "zh": "糖原",
-        "ipa": "/ˈɡlaɪkədʒən/",
+        "ipa": "",
+        "say": "GLY-kuh-jen",
         "gloss": "動物主要碳水儲存（肝、骨骼肌）。"
       },
       {
         "term": "Cellulose",
         "zh": "纖維素",
-        "ipa": "/ˈseljələʊs/",
+        "ipa": "",
+        "say": "SEL-yuh-lohs",
         "gloss": "植物細胞壁；人體不能消化。"
       }
     ],
@@ -682,43 +696,50 @@ window.HAZEL_GATES = [
       {
         "term": "Lipid",
         "zh": "脂質",
-        "ipa": "/ˈlɪpɪd/",
+        "ipa": "",
+        "say": "LIP-id",
         "gloss": "不溶於水；含 fats、oils。"
       },
       {
         "term": "Triglyceride",
         "zh": "三酸甘油酯",
         "ipa": "",
+        "say": "",
         "gloss": "3 fatty acids + 1 glycerol。"
       },
       {
         "term": "Phospholipid",
         "zh": "磷脂",
         "ipa": "",
+        "say": "",
         "gloss": "細胞膜重要成分。"
       },
       {
         "term": "Amino acid",
         "zh": "胺基酸",
         "ipa": "",
+        "say": "",
         "gloss": "蛋白質基本單位。"
       },
       {
         "term": "Polypeptide",
         "zh": "多肽",
         "ipa": "",
+        "say": "",
         "gloss": "胺基酸鏈；可形成蛋白質。"
       },
       {
         "term": "Denaturation",
         "zh": "蛋白質變性",
         "ipa": "",
+        "say": "",
         "gloss": "失去三維構形與生物活性；序列不變。"
       },
       {
         "term": "Haemoglobin",
         "zh": "血紅素",
-        "ipa": "/ˌhiːməˈɡləʊbɪn/",
+        "ipa": "",
+        "say": "hee-muh-GLOH-bin",
         "gloss": "運氧蛋白質（筆記亦寫 hemoglobin）。"
       }
     ],
@@ -974,43 +995,50 @@ window.HAZEL_GATES = [
       {
         "term": "Tissue",
         "zh": "組織",
-        "ipa": "/ˈtɪʃuː/",
+        "ipa": "",
+        "say": "TISH-oo",
         "gloss": "相似類型細胞組成。"
       },
       {
         "term": "Organ",
         "zh": "器官",
-        "ipa": "/ˈɔːɡən/",
+        "ipa": "",
+        "say": "OR-gun",
         "gloss": "不同組織組成。"
       },
       {
         "term": "Neuron",
         "zh": "神經元",
-        "ipa": "/ˈnjʊərɒn/",
+        "ipa": "",
+        "say": "NYOO-ron",
         "gloss": "產生與傳導神經訊號。"
       },
       {
         "term": "Epithelial tissue",
         "zh": "上皮組織",
         "ipa": "",
+        "say": "",
         "gloss": "保護邊界；擴散／分泌／吸收。"
       },
       {
         "term": "Connective tissue",
         "zh": "結締組織",
         "ipa": "",
+        "say": "",
         "gloss": "支持其他組織；含細胞外基質。"
       },
       {
         "term": "Skeletal muscle",
         "zh": "骨骼肌",
         "ipa": "",
+        "say": "",
         "gloss": "肌腱連骨骼；隨意收縮。"
       },
       {
         "term": "Homeostasis",
         "zh": "體內平衡",
-        "ipa": "/ˌhəʊmiəˈsteɪsɪs/",
+        "ipa": "",
+        "say": "hoh-mee-oh-STAY-sis",
         "gloss": "維持體內穩定環境。"
       }
     ],
@@ -1240,42 +1268,49 @@ window.HAZEL_GATES = [
         "term": "Plasma membrane",
         "zh": "細胞膜／質膜",
         "ipa": "",
+        "say": "",
         "gloss": "磷脂雙層；控制物質進出。"
       },
       {
         "term": "Cytoplasm",
         "zh": "細胞質",
-        "ipa": "/ˈsaɪtəplæzəm/",
+        "ipa": "",
+        "say": "SY-tuh-plaz-um",
         "gloss": "膜與核之間；細胞器懸浮。"
       },
       {
         "term": "Cytosol",
         "zh": "胞質液",
         "ipa": "",
+        "say": "",
         "gloss": "細胞質的液體部分。"
       },
       {
         "term": "Mitochondrion",
         "zh": "粒線體",
-        "ipa": "/ˌmaɪtəˈkɒndriən/",
+        "ipa": "",
+        "say": "my-tuh-KON-dree-un",
         "gloss": "轉食物能量為 ATP。"
       },
       {
         "term": "Ribosome",
         "zh": "核糖體",
-        "ipa": "/ˈraɪbəˌsəʊm/",
+        "ipa": "",
+        "say": "RY-buh-sohm",
         "gloss": "蛋白質合成場所。"
       },
       {
         "term": "Lysosome",
         "zh": "溶酶體",
-        "ipa": "/ˈlaɪsəsəʊm/",
+        "ipa": "",
+        "say": "LY-suh-sohm",
         "gloss": "消化外來分子及損耗細胞器。"
       },
       {
         "term": "Golgi complex",
         "zh": "高爾基體",
         "ipa": "",
+        "say": "",
         "gloss": "包裝分子以便分泌。"
       }
     ],
@@ -1481,43 +1516,50 @@ window.HAZEL_GATES = [
       {
         "term": "Gene",
         "zh": "基因",
-        "ipa": "/dʒiːn/",
+        "ipa": "",
+        "say": "jeen",
         "gloss": "DNA 片段；遺傳功能單位。"
       },
       {
         "term": "Chromosome",
         "zh": "染色體",
-        "ipa": "/ˈkrəʊməsəʊm/",
+        "ipa": "",
+        "say": "KROH-muh-sohm",
         "gloss": "DNA＋histones；人類 46 條。"
       },
       {
         "term": "Transcription",
         "zh": "轉錄",
         "ipa": "",
+        "say": "",
         "gloss": "DNA → RNA（核內）。"
       },
       {
         "term": "Translation",
         "zh": "轉譯",
         "ipa": "",
+        "say": "",
         "gloss": "RNA → Protein（核糖體）。"
       },
       {
         "term": "mRNA",
         "zh": "信使 RNA",
         "ipa": "",
+        "say": "",
         "gloss": "攜帶密碼至核糖體。"
       },
       {
         "term": "Gene expression",
         "zh": "基因表達",
         "ipa": "",
+        "say": "",
         "gloss": "由基因產生 RNA／蛋白質。"
       },
       {
         "term": "Histone",
         "zh": "組蛋白",
         "ipa": "",
+        "say": "",
         "gloss": "DNA 纏繞的特殊蛋白質。"
       }
     ],
@@ -1707,37 +1749,43 @@ window.HAZEL_GATES = [
       {
         "term": "Mitosis",
         "zh": "有絲分裂",
-        "ipa": "/maɪˈtəʊsɪs/",
+        "ipa": "",
+        "say": "my-TOH-sis",
         "gloss": "產生遺傳相同細胞；生長修復。"
       },
       {
         "term": "Meiosis",
         "zh": "減數分裂",
-        "ipa": "/maɪˈəʊsɪs/",
+        "ipa": "",
+        "say": "my-OH-sis",
         "gloss": "產生半套 DNA、遺傳獨特細胞；繁殖。"
       },
       {
         "term": "Interphase",
         "zh": "間期",
         "ipa": "",
+        "say": "",
         "gloss": "分裂前生長、內容倍增；含 DNA 複製。"
       },
       {
         "term": "Apoptosis",
         "zh": "細胞凋亡",
-        "ipa": "/ˌæpəpˈtəʊsɪs/",
+        "ipa": "",
+        "say": "ap-uhp-TOH-sis",
         "gloss": "程序性自然細胞死亡。"
       },
       {
         "term": "Necrosis",
         "zh": "細胞壞死",
-        "ipa": "/neˈkrəʊsɪs/",
+        "ipa": "",
+        "say": "neh-KROH-sis",
         "gloss": "非自然死亡（疾病／損傷）。"
       },
       {
         "term": "Macrophage",
         "zh": "巨噬細胞",
         "ipa": "",
+        "say": "",
         "gloss": "吞噬並消化細胞碎片。"
       }
     ],
@@ -1924,37 +1972,43 @@ window.HAZEL_GATES = [
       {
         "term": "Metabolism",
         "zh": "新陳代謝",
-        "ipa": "/məˈtæbəlɪzəm/",
+        "ipa": "",
+        "say": "muh-TAB-uh-liz-um",
         "gloss": "維持生命的化學反應總稱。"
       },
       {
         "term": "Catabolism",
         "zh": "分解代謝",
-        "ipa": "/kəˈtæbəlɪzəm/",
+        "ipa": "",
+        "say": "kuh-TAB-uh-liz-um",
         "gloss": "分解大分子；釋放能量。"
       },
       {
         "term": "Anabolism",
         "zh": "合成代謝",
-        "ipa": "/əˈnæbəlɪzəm/",
+        "ipa": "",
+        "say": "uh-NAB-uh-liz-um",
         "gloss": "建造／修復；需能量。"
       },
       {
         "term": "Glycolysis",
         "zh": "糖解作用",
-        "ipa": "/ɡlaɪˈkɒlɪsɪs/",
+        "ipa": "",
+        "say": "gly-KOL-uh-sis",
         "gloss": "細胞質分解葡萄糖；不需氧；淨約 2 ATP。"
       },
       {
         "term": "Pyruvate",
         "zh": "丙酮酸／丙酮酸鹽",
         "ipa": "",
+        "say": "",
         "gloss": "糖解產生的 3 碳分子。"
       },
       {
         "term": "ADP",
         "zh": "二磷酸腺苷",
         "ipa": "",
+        "say": "",
         "gloss": "Adenosine diphosphate；可再磷酸化成 ATP。"
       }
     ],
@@ -2187,43 +2241,50 @@ window.HAZEL_GATES = [
       {
         "term": "Enzyme",
         "zh": "酵素／酶",
-        "ipa": "/ˈenzaɪm/",
+        "ipa": "",
+        "say": "EN-zyme",
         "gloss": "生物催化劑；蛋白質。"
       },
       {
         "term": "Active site",
         "zh": "活性部位",
         "ipa": "",
+        "say": "",
         "gloss": "受質結合處；專一。"
       },
       {
         "term": "Substrate",
         "zh": "受質／底物",
-        "ipa": "/ˈsʌbstreɪt/",
+        "ipa": "",
+        "say": "SUB-strayt",
         "gloss": "酵素催化的反應物。"
       },
       {
         "term": "Activation energy",
         "zh": "活化能",
         "ipa": "",
+        "say": "",
         "gloss": "啟動反應所需能量；酵素可降低。"
       },
       {
         "term": "Zymogen",
         "zh": "酶原",
         "ipa": "",
+        "say": "",
         "gloss": "無活性酵素前體。"
       },
       {
         "term": "Competitive inhibitor",
         "zh": "競爭性抑制劑",
         "ipa": "",
+        "say": "",
         "gloss": "佔用 active site。"
       },
       {
         "term": "Cofactor",
         "zh": "輔因子",
         "ipa": "",
+        "say": "",
         "gloss": "非蛋白協助分子（如金屬離子）。"
       }
     ],
@@ -2410,37 +2471,43 @@ window.HAZEL_GATES = [
       {
         "term": "Homeostasis",
         "zh": "體內平衡",
-        "ipa": "/ˌhəʊmiəˈsteɪsɪs/",
+        "ipa": "",
+        "say": "hoh-mee-oh-STAY-sis",
         "gloss": "維持穩定內環境。"
       },
       {
         "term": "Set point",
         "zh": "設定點",
         "ipa": "",
+        "say": "",
         "gloss": "理想目標值（如體溫）。"
       },
       {
         "term": "Receptor",
         "zh": "感受器",
         "ipa": "",
+        "say": "",
         "gloss": "偵測變數變化。"
       },
       {
         "term": "Effector",
         "zh": "效應器",
-        "ipa": "/ɪˈfektə/",
+        "ipa": "",
+        "say": "ih-FEK-ter",
         "gloss": "產生反應以回復平衡。"
       },
       {
         "term": "Negative feedback",
         "zh": "負回饋",
         "ipa": "",
+        "say": "",
         "gloss": "反應與變化相反；穩定變數。"
       },
       {
         "term": "Positive feedback",
         "zh": "正回饋",
         "ipa": "",
+        "say": "",
         "gloss": "加強反應直至終點。"
       }
     ],
@@ -2635,43 +2702,50 @@ window.HAZEL_GATES = [
       {
         "term": "Diffusion",
         "zh": "擴散",
-        "ipa": "/dɪˈfjuːʒən/",
+        "ipa": "",
+        "say": "dih-FYOO-zhun",
         "gloss": "高濃度→低濃度淨移動。"
       },
       {
         "term": "Facilitated diffusion",
         "zh": "促進性擴散",
         "ipa": "",
+        "say": "",
         "gloss": "經蛋白協助；仍為被動。"
       },
       {
         "term": "Osmosis",
         "zh": "滲透作用",
-        "ipa": "/ɒzˈməʊsɪs/",
+        "ipa": "",
+        "say": "oz-MOH-sis",
         "gloss": "水經半透膜由高水勢→低水勢。"
       },
       {
         "term": "Selectively permeable",
         "zh": "選擇通透／半透",
         "ipa": "",
+        "say": "",
         "gloss": "選擇性允許物質通過。"
       },
       {
         "term": "Hypotonic",
         "zh": "低張",
         "ipa": "",
+        "say": "",
         "gloss": "外液溶質較低；水傾向入細胞。"
       },
       {
         "term": "Hypertonic",
         "zh": "高張",
         "ipa": "",
+        "say": "",
         "gloss": "外液溶質較高；水傾向出細胞。"
       },
       {
         "term": "Isotonic",
         "zh": "等張",
         "ipa": "",
+        "say": "",
         "gloss": "溶質濃度相當；細胞體積較穩定。"
       }
     ],
@@ -2885,42 +2959,49 @@ window.HAZEL_GATES = [
         "term": "Active transport",
         "zh": "主動運輸",
         "ipa": "",
+        "say": "",
         "gloss": "逆濃度梯度；需能量。"
       },
       {
         "term": "Sodium-potassium pump",
         "zh": "鈉鉀泵",
         "ipa": "",
+        "say": "",
         "gloss": "初級主動運輸例子。"
       },
       {
         "term": "Endocytosis",
         "zh": "胞吞作用",
         "ipa": "",
+        "say": "",
         "gloss": "膜吞入物質。"
       },
       {
         "term": "Exocytosis",
         "zh": "胞吐作用",
         "ipa": "",
+        "say": "",
         "gloss": "囊泡釋出物質。"
       },
       {
         "term": "Phagocytosis",
         "zh": "吞噬作用",
         "ipa": "",
+        "say": "",
         "gloss": "吞入固體；如 WBC 食細菌。"
       },
       {
         "term": "Symport",
         "zh": "同向運輸",
         "ipa": "",
+        "say": "",
         "gloss": "次級主動；同向運送。"
       },
       {
         "term": "Antiport",
         "zh": "反向運輸",
         "ipa": "",
+        "say": "",
         "gloss": "次級主動；反向運送。"
       }
     ],
@@ -3119,42 +3200,49 @@ window.HAZEL_GATES = [
         "term": "Cardiovascular system",
         "zh": "心血管系統",
         "ipa": "",
+        "say": "",
         "gloss": "心＋血管＋血液循環。"
       },
       {
         "term": "Pulmonary circulation",
         "zh": "肺循環",
         "ipa": "",
+        "say": "",
         "gloss": "右心↔肺↔左心。"
       },
       {
         "term": "Systemic circulation",
         "zh": "體循環",
         "ipa": "",
+        "say": "",
         "gloss": "左心↔全身↔右心。"
       },
       {
         "term": "Plasma",
         "zh": "血漿",
-        "ipa": "/ˈplæzmə/",
+        "ipa": "",
+        "say": "PLAZ-muh",
         "gloss": "約 55%；含水與蛋白等。"
       },
       {
         "term": "Serum",
         "zh": "血清",
-        "ipa": "/ˈsɪərəm/",
+        "ipa": "",
+        "say": "SEER-um",
         "gloss": "去掉纖維蛋白原等凝血蛋白的血漿。"
       },
       {
         "term": "Vasoconstriction",
         "zh": "血管收縮",
         "ipa": "",
+        "say": "",
         "gloss": "血管收窄。"
       },
       {
         "term": "Vasodilation",
         "zh": "血管舒張",
         "ipa": "",
+        "say": "",
         "gloss": "血管擴張。"
       }
     ],
@@ -3329,43 +3417,50 @@ window.HAZEL_GATES = [
       {
         "term": "Erythrocyte",
         "zh": "紅血球",
-        "ipa": "/ɪˈrɪθrəsaɪt/",
+        "ipa": "",
+        "say": "ih-RITH-ruh-site",
         "gloss": "含 Hb；運氧。"
       },
       {
         "term": "Leukocyte",
         "zh": "白血球",
-        "ipa": "/ˈluːkəsaɪt/",
+        "ipa": "",
+        "say": "LOO-kuh-site",
         "gloss": "對抗感染。"
       },
       {
         "term": "Platelet",
         "zh": "血小板",
-        "ipa": "/ˈpleɪtlət/",
+        "ipa": "",
+        "say": "PLAYT-lit",
         "gloss": "凝血／止血；thrombocyte。"
       },
       {
         "term": "Haemoglobin",
         "zh": "血紅素",
         "ipa": "",
+        "say": "hee-muh-GLOH-bin",
         "gloss": "運氧蛋白；含 heme＋iron。"
       },
       {
         "term": "Heme",
         "zh": "血基質",
         "ipa": "",
+        "say": "",
         "gloss": "含鐵；氧結合位置。"
       },
       {
         "term": "Hemostasis",
         "zh": "止血",
-        "ipa": "/ˌhiːməʊˈsteɪsɪs/",
+        "ipa": "",
+        "say": "hee-muh-STAY-sis",
         "gloss": "停止出血過程。"
       },
       {
         "term": "Fibrin",
         "zh": "纖維蛋白",
         "ipa": "",
+        "say": "",
         "gloss": "血塊支架成分。"
       }
     ],
@@ -3579,43 +3674,50 @@ window.HAZEL_GATES = [
       {
         "term": "Pericardium",
         "zh": "心包膜",
-        "ipa": "/ˌperɪˈkɑːdiəm/",
+        "ipa": "",
+        "say": "peh-rih-KAR-dee-um",
         "gloss": "包圍保護心臟的雙層囊。"
       },
       {
         "term": "Myocardium",
         "zh": "心肌層",
         "ipa": "",
+        "say": "",
         "gloss": "中層心肌；負責泵血。"
       },
       {
         "term": "Endocardium",
         "zh": "心內膜",
         "ipa": "",
+        "say": "",
         "gloss": "襯裡心腔的內皮層。"
       },
       {
         "term": "Epicardium",
         "zh": "心外膜",
         "ipa": "",
+        "say": "",
         "gloss": "心壁外層。"
       },
       {
         "term": "Atrium",
         "zh": "心房",
-        "ipa": "/ˈeɪtriəm/",
+        "ipa": "",
+        "say": "AY-tree-um",
         "gloss": "接收血液的上腔。"
       },
       {
         "term": "Ventricle",
         "zh": "心室",
-        "ipa": "/ˈventrɪkl/",
+        "ipa": "",
+        "say": "VEN-trih-kul",
         "gloss": "泵出血液的下腔。"
       },
       {
         "term": "Apex",
         "zh": "心尖",
         "ipa": "",
+        "say": "",
         "gloss": "心臟下尖端，約朝左髖。"
       }
     ],
@@ -3822,42 +3924,49 @@ window.HAZEL_GATES = [
         "term": "Tricuspid valve",
         "zh": "三尖瓣",
         "ipa": "",
+        "say": "",
         "gloss": "右房室瓣。"
       },
       {
         "term": "Mitral valve",
         "zh": "二尖瓣／僧帽瓣",
         "ipa": "",
+        "say": "",
         "gloss": "左房室瓣；亦稱 bicuspid。"
       },
       {
         "term": "Aorta",
         "zh": "主動脈",
-        "ipa": "/eɪˈɔːtə/",
+        "ipa": "",
+        "say": "ay-OR-tuh",
         "gloss": "體循環大動脈。"
       },
       {
         "term": "Coronary sinus",
         "zh": "冠狀竇",
         "ipa": "",
+        "say": "",
         "gloss": "心靜脈血匯入後入右房。"
       },
       {
         "term": "Pulmonary artery",
         "zh": "肺動脈",
         "ipa": "",
+        "say": "",
         "gloss": "離右心往肺；攜缺氧血。"
       },
       {
         "term": "Pulmonary vein",
         "zh": "肺靜脈",
         "ipa": "",
+        "say": "",
         "gloss": "由肺回左心；攜含氧血。"
       },
       {
         "term": "Coronary circulation",
         "zh": "冠狀循環",
         "ipa": "",
+        "say": "",
         "gloss": "供應心肌本身。"
       }
     ],
@@ -4071,42 +4180,49 @@ window.HAZEL_GATES = [
         "term": "SA node",
         "zh": "竇房結",
         "ipa": "",
+        "say": "",
         "gloss": "心跳起搏點。"
       },
       {
         "term": "AV node",
         "zh": "房室結",
         "ipa": "",
+        "say": "",
         "gloss": "延遲衝動傳至心室。"
       },
       {
         "term": "Purkinje fibers",
         "zh": "浦肯雅纖維",
         "ipa": "",
+        "say": "",
         "gloss": "迅速傳導至心室肌。"
       },
       {
         "term": "Systole",
         "zh": "收縮期",
-        "ipa": "/ˈsɪstəli/",
+        "ipa": "",
+        "say": "SIS-tuh-lee",
         "gloss": "心腔收縮；血液射出。"
       },
       {
         "term": "Diastole",
         "zh": "舒張期",
-        "ipa": "/daɪˈæstəli/",
+        "ipa": "",
+        "say": "dy-AS-tuh-lee",
         "gloss": "心腔舒張；血液充盈。"
       },
       {
         "term": "Stroke volume",
         "zh": "心搏量",
         "ipa": "",
+        "say": "",
         "gloss": "每次心跳由心室射出的血量。"
       },
       {
         "term": "Bundle of His",
         "zh": "希氏束",
         "ipa": "",
+        "say": "",
         "gloss": "房室束；傳導至束支。"
       }
     ],
@@ -4274,36 +4390,42 @@ window.HAZEL_GATES = [
         "term": "S1",
         "zh": "第一心音",
         "ipa": "",
+        "say": "",
         "gloss": "AV 瓣關閉；「Lub」。"
       },
       {
         "term": "S2",
         "zh": "第二心音",
         "ipa": "",
+        "say": "",
         "gloss": "半月瓣關閉；「Dub」。"
       },
       {
         "term": "ECG",
         "zh": "心電圖",
         "ipa": "",
+        "say": "",
         "gloss": "記錄心臟電活動。"
       },
       {
         "term": "P wave",
         "zh": "P 波",
         "ipa": "",
+        "say": "",
         "gloss": "心房去極化。"
       },
       {
         "term": "QRS complex",
         "zh": "QRS 波群",
         "ipa": "",
+        "say": "",
         "gloss": "心室去極化。"
       },
       {
         "term": "T wave",
         "zh": "T 波",
         "ipa": "",
+        "say": "",
         "gloss": "心室再極化。"
       }
     ],
@@ -4517,43 +4639,50 @@ window.HAZEL_GATES = [
       {
         "term": "Artery",
         "zh": "動脈",
-        "ipa": "/ˈɑːtəri/",
+        "ipa": "",
+        "say": "AR-tuh-ree",
         "gloss": "運血離開心臟。"
       },
       {
         "term": "Vein",
         "zh": "靜脈",
-        "ipa": "/veɪn/",
+        "ipa": "",
+        "say": "vayn",
         "gloss": "運血回心；多有瓣。"
       },
       {
         "term": "Capillary",
         "zh": "微血管",
-        "ipa": "/kəˈpɪləri/",
+        "ipa": "",
+        "say": "kuh-PIL-uh-ree",
         "gloss": "單層內皮；物質交換。"
       },
       {
         "term": "Arteriole",
         "zh": "小動脈",
         "ipa": "",
+        "say": "",
         "gloss": "動脈分支，接微血管床。"
       },
       {
         "term": "Venule",
         "zh": "小靜脈",
         "ipa": "",
+        "say": "",
         "gloss": "微血管後匯成靜脈。"
       },
       {
         "term": "Pulse",
         "zh": "脈搏",
         "ipa": "",
+        "say": "",
         "gloss": "動脈壁週期伸展。"
       },
       {
         "term": "Valve",
         "zh": "瓣膜",
         "ipa": "",
+        "say": "",
         "gloss": "靜脈內防回流。"
       }
     ],
@@ -4748,42 +4877,49 @@ window.HAZEL_GATES = [
         "term": "Cardiac output",
         "zh": "心輸出量",
         "ipa": "",
+        "say": "",
         "gloss": "CO＝HR×SV；L／min。"
       },
       {
         "term": "Stroke volume",
         "zh": "心搏量",
         "ipa": "",
+        "say": "",
         "gloss": "SV＝EDV−ESV。"
       },
       {
         "term": "EDV",
         "zh": "舒張末期容積",
         "ipa": "",
+        "say": "",
         "gloss": "Preload；充盈量。"
       },
       {
         "term": "ESV",
         "zh": "收縮末期容積",
         "ipa": "",
+        "say": "",
         "gloss": "射血後剩餘量。"
       },
       {
         "term": "Frank-Starling law",
         "zh": "法蘭克－史達林定律",
         "ipa": "",
+        "say": "",
         "gloss": "EDV↑ → 收縮力↑ → SV↑。"
       },
       {
         "term": "Venous return",
         "zh": "靜脈回流",
         "ipa": "",
+        "say": "",
         "gloss": "回心血量。"
       },
       {
         "term": "Vascular resistance",
         "zh": "血管阻力",
         "ipa": "",
+        "say": "",
         "gloss": "血管對血流的阻力。"
       }
     ],
@@ -4997,42 +5133,49 @@ window.HAZEL_GATES = [
         "term": "Systolic pressure",
         "zh": "收縮壓",
         "ipa": "",
+        "say": "",
         "gloss": "射血時最高動脈壓。"
       },
       {
         "term": "Diastolic pressure",
         "zh": "舒張壓",
         "ipa": "",
+        "say": "",
         "gloss": "較低的動脈壓。"
       },
       {
         "term": "MAP",
         "zh": "平均動脈壓",
         "ipa": "",
+        "say": "",
         "gloss": "MAP＝CO×TPR。"
       },
       {
         "term": "TPR",
         "zh": "總外周阻力",
         "ipa": "",
+        "say": "",
         "gloss": "全身血管阻力總和。"
       },
       {
         "term": "Baroreceptor",
         "zh": "壓力感受器",
         "ipa": "",
+        "say": "",
         "gloss": "偵測動脈壁伸展；如頸動脈竇、主動脈弓。"
       },
       {
         "term": "RAAS",
         "zh": "腎素－血管張力素－醛固酮系統",
         "ipa": "",
+        "say": "",
         "gloss": "長期血壓／血容量調節。"
       },
       {
         "term": "Sphygmomanometer",
         "zh": "血壓計",
         "ipa": "",
+        "say": "",
         "gloss": "量動脈血壓儀器。"
       }
     ],

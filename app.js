@@ -124,7 +124,8 @@
 
 
   var speakVoice = null;
-  var speakVoiceReady = false;
+  var speakUnlocked = false;
+  var speakTimer = null;
 
   function englishVoice() {
     if (!window.speechSynthesis || !window.speechSynthesis.getVoices) return null;
@@ -136,8 +137,10 @@
       var name = String(v.name || "").toLowerCase();
       var s = 0;
       if (lang.indexOf("en") === 0 || name.indexOf("english") !== -1) s += 2;
-      if (lang === "en-us") s += 6;
+      if (lang === "en-us" || lang === "en_us") s += 6;
+      if (lang === "en-gb") s += 3;
       if (name.indexOf("english") !== -1) s += 1;
+      if (name.indexOf("samantha") !== -1 || name.indexOf("google us") !== -1) s += 2;
       if (s > score) {
         score = s;
         best = v;
@@ -148,7 +151,6 @@
 
   function refreshVoice() {
     speakVoice = englishVoice();
-    speakVoiceReady = true;
   }
 
   if (window.speechSynthesis) {
@@ -160,6 +162,20 @@
     }
   }
 
+  /** Unlock TTS inside a user gesture (needed on iOS / some Android WebViews). */
+  function unlockSpeak() {
+    if (speakUnlocked || !window.speechSynthesis) return;
+    speakUnlocked = true;
+    try {
+      var warm = new SpeechSynthesisUtterance("");
+      warm.volume = 0;
+      warm.rate = 1;
+      warm.lang = "en-US";
+      window.speechSynthesis.speak(warm);
+      window.speechSynthesis.cancel();
+    } catch (e) {}
+  }
+
   function speak(text, rate) {
     var t = String(text || "").trim();
     if (!t) return;
@@ -168,19 +184,64 @@
       alert("此瀏覽器不支援英文語音（speechSynthesis）。");
       return;
     }
+    unlockSpeak();
+    refreshVoice();
+    if (speakTimer) {
+      clearTimeout(speakTimer);
+      speakTimer = null;
+    }
     try {
       window.speechSynthesis.cancel();
     } catch (e) {}
-    var u = new SpeechSynthesisUtterance(t);
-    u.lang = "en-US";
-    u.rate = r;
-    var v = speakVoice || englishVoice();
-    if (v) u.voice = v;
-    window.speechSynthesis.speak(u);
+
+    function fire() {
+      refreshVoice();
+      var u = new SpeechSynthesisUtterance(t);
+      u.lang = "en-US";
+      u.rate = r;
+      u.pitch = 1;
+      u.volume = 1;
+      var v = speakVoice || englishVoice();
+      if (v) {
+        u.voice = v;
+        if (v.lang) u.lang = v.lang;
+      }
+      try {
+        window.speechSynthesis.speak(u);
+      } catch (err) {
+        alert("無法播放發音，請稍後再試。");
+      }
+    }
+
+    // cancel()+speak() race on Chrome/Android: brief defer helps
+    speakTimer = setTimeout(fire, 40);
   }
 
+  /** Filled speaker icon — stroke-only SVG showed as empty tofu on some Android phones. */
   function speakIconSvg() {
-    return '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 10h3.2L12 6v12l-4.8-4H4v-4z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M16 9.2a3.6 3.6 0 0 1 0 5.6M18.4 7a6.2 6.2 0 0 1 0 10"/></svg>';
+    return (
+      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">' +
+      '<path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>' +
+      "</svg>"
+    );
+  }
+
+  function phonHint(vocab) {
+    if (!vocab) return "";
+    if (vocab.say) return vocab.say;
+    // Recover say from course data for older bank entries that only stored IPA
+    var t = String(vocab.term || "").toLowerCase();
+    if (t) {
+      var g, i, list;
+      for (g = 0; g < GATES.length; g++) {
+        list = GATES[g].vocab || [];
+        for (i = 0; i < list.length; i++) {
+          if (list[i].term.toLowerCase() === t && list[i].say) return list[i].say;
+        }
+      }
+    }
+    // Never show raw IPA on mobile — missing glyphs become □
+    return "";
   }
 
 
@@ -233,7 +294,7 @@
         if (list[i].term.toLowerCase() === t) return list[i];
       }
     }
-    return { term: term, zh: "", ipa: "", gloss: "筆記生字" };
+    return { term: term, zh: "", ipa: "", say: "", gloss: "筆記生字" };
   }
 
   function openSheet(vocab, gateId) {
@@ -241,11 +302,13 @@
     document.getElementById("sheet-term").textContent = vocab.term;
     document.getElementById("sheet-zh").textContent = vocab.zh || "";
     var ipa = document.getElementById("sheet-ipa");
-    if (vocab.ipa) {
+    var hint = phonHint(vocab);
+    if (hint) {
       ipa.hidden = false;
-      ipa.textContent = vocab.ipa;
+      ipa.textContent = hint;
     } else {
       ipa.hidden = true;
+      ipa.textContent = "";
     }
     document.getElementById("sheet-gloss").textContent = vocab.gloss || "";
     var key = vocab.term.toLowerCase();
@@ -278,6 +341,7 @@
       term: v.term,
       zh: v.zh || "",
       ipa: v.ipa || "",
+      say: v.say || phonHint(v) || "",
       gloss: v.gloss || "",
       gateId: sheetTerm.gateId || "",
       stage: 0,
@@ -302,13 +366,21 @@
   backdrop.addEventListener("click", closeSheet);
   document.getElementById("sheet-save").addEventListener("click", saveVocab);
   document.getElementById("sheet-remove").addEventListener("click", removeVocab);
+  function sheetSpeak(rate) {
+    if (!sheetTerm || !sheetTerm.vocab) return;
+    speak(sheetTerm.vocab.term, rate);
+  }
   document.getElementById("sheet-speak").addEventListener("click", function () {
-    if (!sheetTerm || !sheetTerm.vocab) return;
-    speak(sheetTerm.vocab.term, 0.9);
+    sheetSpeak(0.9);
   });
+  var sheetSpeakPrimary = document.getElementById("sheet-speak-primary");
+  if (sheetSpeakPrimary) {
+    sheetSpeakPrimary.addEventListener("click", function () {
+      sheetSpeak(0.9);
+    });
+  }
   document.getElementById("sheet-slow").addEventListener("click", function () {
-    if (!sheetTerm || !sheetTerm.vocab) return;
-    speak(sheetTerm.vocab.term, 0.6);
+    sheetSpeak(0.6);
   });
 
   main.addEventListener("click", function (e) {
@@ -769,7 +841,7 @@
         escapeHtml(v.zh || "") +
         '</p><p class="ex" id="rev-gloss" hidden>' +
         escapeHtml(v.gloss || "") +
-        '</p><p class="ipa" id="rev-ipa" hidden></p>' +
+        '</p><p class="phon" id="rev-ipa" hidden></p>' +
         '<div class="gate-actions">' +
         '<button type="button" class="ghost" id="rev-reveal">顯示答案</button>' +
         '<button type="button" class="ghost" id="rev-slow">慢速發音</button>' +
@@ -777,8 +849,9 @@
         '<button type="button" class="ghost" id="rev-forget" hidden>唔記得</button>' +
         "</div></div>";
       var ipaEl = document.getElementById("rev-ipa");
-      if (v.ipa) {
-        ipaEl.textContent = v.ipa;
+      var revHint = phonHint(v);
+      if (revHint) {
+        ipaEl.textContent = revHint;
       }
       document.getElementById("rev-speak").addEventListener("click", function () {
         speak(v.term, 0.9);
@@ -789,7 +862,7 @@
       document.getElementById("rev-reveal").addEventListener("click", function () {
         document.getElementById("rev-zh").hidden = false;
         document.getElementById("rev-gloss").hidden = false;
-        if (v.ipa) ipaEl.hidden = false;
+        if (revHint) ipaEl.hidden = false;
         document.getElementById("rev-know").hidden = false;
         document.getElementById("rev-forget").hidden = false;
         this.hidden = true;

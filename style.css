@@ -201,7 +201,20 @@ h2 { font-size: 1.28rem; }
 }
 .sheet-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
 .gloss { margin: 4px 0 0; font-weight: 700; color: var(--accent-2); }
-.ipa { margin: 8px 0; color: var(--muted); font-family: ui-monospace, Menlo, monospace; }
+.ipa, .phon {
+  margin: 8px 0;
+  color: var(--muted);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-size: 0.98rem;
+  letter-spacing: 0.02em;
+  font-weight: 650;
+}
+.phon::before {
+  content: "讀音 ";
+  font-weight: 700;
+  color: var(--accent-2);
+  margin-right: 4px;
+}
 .ex { margin: 8px 0 14px; }
 .sheet-actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .iconx {
@@ -230,25 +243,40 @@ h2 { font-size: 1.28rem; }
   .sheet { border-radius: 20px; bottom: 24px; left: 50%; transform: translateX(-50%); width: min(520px, calc(100% - 40px)); }
 }
 
-/* Pronunciation */
+/* Pronunciation — filled SVG + solid colors (no color-mix) for older Android WebViews */
 .speakbtn {
   width: 44px;
   height: 44px;
   min-height: 44px;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--line));
-  background: color-mix(in srgb, var(--accent) 12%, var(--card));
-  color: var(--accent-2);
-  display: grid;
-  place-items: center;
+  border: 1px solid #c4b5fd;
+  background: #ede9fe;
+  color: #7c3aed;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 0;
   flex: none;
+  line-height: 0;
 }
-.speakbtn svg { width: 22px; height: 22px; }
+.speakbtn svg {
+  width: 22px;
+  height: 22px;
+  display: block;
+  flex: none;
+  pointer-events: none;
+}
 .speakbtn.tiny {
   width: 36px; height: 36px; min-height: 36px;
 }
 .speakbtn.tiny svg { width: 18px; height: 18px; }
+@media (prefers-color-scheme: dark) {
+  .speakbtn {
+    border-color: #5b4a8a;
+    background: #2a2448;
+    color: #c4b5fd;
+  }
+}
 .sheet-titleblock { flex: 1 1 auto; min-width: 0; }
 .sheet-head { align-items: flex-start; }
 
@@ -296,4 +324,10 @@ h2 { font-size: 1.28rem; }
 }
 .vocab-card {
   display: flex; gap: 8px; align-items: flex-start;
+}
+
+
+.sheet-actions .primary,
+.sheet-actions .ghost {
+  flex: 1 1 140px;
 }
