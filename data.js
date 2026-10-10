@@ -19768,7 +19768,13 @@ window.HAZEL_LECTURES = [
             "w": 149,
             "h": 254,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Isovolumetric contraction",
+                "zh": "等容收縮"
+              }
+            ]
           }
         ]
       },
@@ -19787,7 +19793,43 @@ window.HAZEL_LECTURES = [
             "w": 883,
             "h": 763,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Diastole; Systole; Diastole",
+                "zh": "舒張期；收縮期；舒張期"
+              },
+              {
+                "k": "p",
+                "t": "Aortic pressure; Left ventricular pressure; Left atrial pressure",
+                "zh": "主動脈壓；左心室壓；左心房壓"
+              },
+              {
+                "k": "p",
+                "t": "Aortic valve opens; Aortic valve closes (dicrotic notch); AV valve closes; AV valve opens",
+                "zh": "主動脈瓣開；主動脈瓣關（重搏切跡）；房室瓣關；房室瓣開"
+              },
+              {
+                "k": "p",
+                "t": "1a Rapid filling; 1b Diastasis; 1c Atrial systole — Ventricular filling",
+                "zh": "1a 快速充盈；1b 舒張中期；1c 心房收縮 — 心室充盈"
+              },
+              {
+                "k": "p",
+                "t": "2 Isovolumetric contraction",
+                "zh": "2 等容收縮"
+              },
+              {
+                "k": "p",
+                "t": "3 Ventricular ejection",
+                "zh": "3 心室射血"
+              },
+              {
+                "k": "p",
+                "t": "4 Isovolumetric relaxation",
+                "zh": "4 等容舒張"
+              }
+            ]
           }
         ]
       },
@@ -19871,7 +19913,43 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 1089,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Cardiac Cycle",
+                "zh": "心動週期"
+              },
+              {
+                "k": "p",
+                "t": "Atrial systole; Atrial diastole; Ventricular systole; Ventricular diastole",
+                "zh": "心房收縮；心房舒張；心室收縮；心室舒張"
+              },
+              {
+                "k": "p",
+                "t": "Atrial contraction (atrial systole begins) — P wave.",
+                "zh": "心房收縮（心房收縮開始）— P 波。"
+              },
+              {
+                "k": "p",
+                "t": "Isovolumic/isovolumetric contraction (ventricular systole—first phase) — QRS complex.",
+                "zh": "等容收縮（心室收縮第一期）— QRS 複合波。"
+              },
+              {
+                "k": "p",
+                "t": "Ventricular ejection (ventricular systole—second phase).",
+                "zh": "心室射血（心室收縮第二期）。"
+              },
+              {
+                "k": "p",
+                "t": "Isovolumic/isovolumetric relaxation (ventricular diastole—early) — T wave.",
+                "zh": "等容舒張（心室舒張早期）— T 波。"
+              },
+              {
+                "k": "p",
+                "t": "Ventricular filling (ventricular diastole—late).",
+                "zh": "心室充盈（心室舒張晚期）。"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p038-02.webp",
@@ -19880,9 +19958,19 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Ventricular filling",
+                "zh": "心室充盈"
+              },
+              {
                 "k": "p",
-                "t": "Ventricular filling; 1a Rapid filling; 1b Diastasis; 1c Atrial systole.",
-                "zh": "心室充盈；1a 快速充盈；1b 緩慢充盈（Diastasis）；1c 心房收縮。"
+                "t": "1a Rapid filling; 1b Diastasis",
+                "zh": "1a 快速充盈；1b 舒張中期"
+              },
+              {
+                "k": "p",
+                "t": "1c Atrial systole",
+                "zh": "1c 心房收縮"
               }
             ]
           },
@@ -19891,7 +19979,13 @@ window.HAZEL_LECTURES = [
             "w": 157,
             "h": 265,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "4 Isovolumetric relaxation",
+                "zh": "4 等容舒張"
+              }
+            ]
           }
         ]
       },
@@ -19910,7 +20004,43 @@ window.HAZEL_LECTURES = [
             "w": 883,
             "h": 763,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Diastole; Systole; Diastole",
+                "zh": "舒張期；收縮期；舒張期"
+              },
+              {
+                "k": "p",
+                "t": "Aortic pressure; Left ventricular pressure; Left atrial pressure",
+                "zh": "主動脈壓；左心室壓；左心房壓"
+              },
+              {
+                "k": "p",
+                "t": "Aortic valve opens; Aortic valve closes (dicrotic notch); AV valve closes; AV valve opens",
+                "zh": "主動脈瓣開；主動脈瓣關（重搏切跡）；房室瓣關；房室瓣開"
+              },
+              {
+                "k": "p",
+                "t": "1a Rapid filling; 1b Diastasis; 1c Atrial systole",
+                "zh": "1a 快速充盈；1b 舒張中期；1c 心房收縮"
+              },
+              {
+                "k": "p",
+                "t": "2 Isovolumetric contraction",
+                "zh": "2 等容收縮"
+              },
+              {
+                "k": "p",
+                "t": "3 Ventricular ejection",
+                "zh": "3 心室射血"
+              },
+              {
+                "k": "p",
+                "t": "4 Isovolumetric relaxation",
+                "zh": "4 等容舒張"
+              }
+            ]
           }
         ]
       },
@@ -19957,8 +20087,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Pressure (mm Hg); Aortic pressure; Ventricular pressure; Atrial pressure; AV valves close; Semilunar valves open; Semilunar valves close; AV valves open; Heart sounds; 1st “Lub”; 2nd “Dub”; 3rd.",
-                "zh": "壓力（mm Hg）；主動脈壓；心室壓；心房壓；房室瓣關閉；半月瓣開啟；半月瓣關閉；房室瓣開啟；心音；第一心音「Lub」；第二心音「Dub」；第三心音。"
+                "t": "Pressure (mm Hg)",
+                "zh": "壓力（mm Hg）"
+              },
+              {
+                "k": "p",
+                "t": "Aortic pressure; Ventricular pressure; Atrial pressure",
+                "zh": "主動脈壓；心室壓；心房壓"
+              },
+              {
+                "k": "p",
+                "t": "AV valves close; Semilunar valves open; Semilunar valves close; AV valves open",
+                "zh": "房室瓣關；半月瓣開；半月瓣關；房室瓣開"
+              },
+              {
+                "k": "p",
+                "t": "1st Heart Sound (“Lub”); 2nd Heart Sound (“Dub”); 3rd Heart Sound",
+                "zh": "第一心音（Lub）；第二心音（Dub）；第三心音"
               }
             ]
           }
@@ -20012,8 +20157,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Right arm; Left arm; Left leg; RA; LA; LL; Lead I; Lead II; Lead III; Precordial leads 1–6.",
-                "zh": "右手臂；左手臂；左腳；RA；LA；LL；導程 I；導程 II；導程 III；胸前導程 1–6。"
+                "t": "Right arm; Left arm; Left leg",
+                "zh": "右臂；左臂；左腿"
+              },
+              {
+                "k": "p",
+                "t": "RA; LA; LL",
+                "zh": "RA；LA；LL"
+              },
+              {
+                "k": "p",
+                "t": "Lead I; Lead II; Lead III",
+                "zh": "導聯 I；導聯 II；導聯 III"
+              },
+              {
+                "k": "p",
+                "t": "Precordial leads 1–6 (V1–V6)",
+                "zh": "胸導聯 1–6（V1–V6）"
               }
             ]
           }
@@ -20054,7 +20214,33 @@ window.HAZEL_LECTURES = [
             "w": 862,
             "h": 795,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Time (s)",
+                "zh": "時間（秒）"
+              },
+              {
+                "k": "p",
+                "t": "P wave — Atrial depolarization",
+                "zh": "P 波 — 心房去極化"
+              },
+              {
+                "k": "p",
+                "t": "QRS complex — Ventricular depolarization (Q, R, S)",
+                "zh": "QRS 複合波 — 心室去極化（Q、R、S）"
+              },
+              {
+                "k": "p",
+                "t": "T wave — Ventricular repolarization",
+                "zh": "T 波 — 心室復極化"
+              },
+              {
+                "k": "p",
+                "t": "P-R Interval; S-T Segment; Q-T Interval",
+                "zh": "P-R 間期；S-T 段；Q-T 間期"
+              }
+            ]
           }
         ]
       },
@@ -20073,7 +20259,38 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 650,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "1. Atrial depolarization, initiated by the SA node, causes the P wave.",
+                "zh": "1. 心房去極化由 SA 結開始，產生 P 波。"
+              },
+              {
+                "k": "p",
+                "t": "2. With atrial depolarization complete, the impulse is delayed at the AV node.",
+                "zh": "2. 心房去極化完成後，衝動喺 AV 結短暫延遲。"
+              },
+              {
+                "k": "p",
+                "t": "3. Ventricular depolarization begins at apex, causing the QRS complex. Atrial repolarization occurs.",
+                "zh": "3. 心室去極化由心尖開始，產生 QRS 複合波；同時心房復極化。"
+              },
+              {
+                "k": "p",
+                "t": "4. Ventricular depolarization is complete.",
+                "zh": "4. 心室去極化完成。"
+              },
+              {
+                "k": "p",
+                "t": "5. Ventricular repolarization begins at apex, causing the T wave.",
+                "zh": "5. 心室復極化由心尖開始，產生 T 波。"
+              },
+              {
+                "k": "p",
+                "t": "6. Ventricular repolarization is complete.",
+                "zh": "6. 心室復極化完成。"
+              }
+            ]
           }
         ]
       },
@@ -20102,7 +20319,33 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 873,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Arteriole, small artery",
+                "zh": "小動脈"
+              },
+              {
+                "k": "p",
+                "t": "Capillary network, site of exchange between blood and other tissue",
+                "zh": "微血管網（血液同組織交換位置）"
+              },
+              {
+                "k": "p",
+                "t": "Venule, small vein",
+                "zh": "小靜脈"
+              },
+              {
+                "k": "p",
+                "t": "Oxygen, nutrients, etc. delivered to tissues.",
+                "zh": "氧同營養等送去組織。"
+              },
+              {
+                "k": "p",
+                "t": "Carbon dioxide and metabolic waste products removed from tissues.",
+                "zh": "二氧化碳同代謝廢物由組織帶走。"
+              }
+            ]
           }
         ]
       },
@@ -20168,9 +20411,34 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Blood Vessels — Arteries Capillaries Veins",
+                "zh": "血管 — 動脈 微血管 靜脈"
+              },
+              {
                 "k": "p",
-                "t": "Blood Vessels; Arteries Capillaries Veins; Artery; Arteriole; Capillaries; Venule; Vein; To Cell: Oxygen, Nutrients; From Cell: Waste, Carbon dioxide.",
-                "zh": "血管；動脈／微血管／靜脈；動脈；小動脈；微血管；小靜脈；靜脈；至細胞：氧、營養素；由細胞：廢物、二氧化碳。"
+                "t": "Artery; Arteriole",
+                "zh": "動脈；小動脈"
+              },
+              {
+                "k": "p",
+                "t": "Capillaries",
+                "zh": "微血管"
+              },
+              {
+                "k": "p",
+                "t": "Venule; Vein",
+                "zh": "小靜脈；靜脈"
+              },
+              {
+                "k": "p",
+                "t": "To Cell — Oxigen [sic], Nutrients",
+                "zh": "去細胞 — 氧、營養"
+              },
+              {
+                "k": "p",
+                "t": "From Cell — Waste, Carbon dioxide",
+                "zh": "由細胞 — 廢物、二氧化碳"
               }
             ]
           }
@@ -20298,7 +20566,33 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 508,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "from artery; to vein",
+                "zh": "由動脈；去靜脈"
+              },
+              {
+                "k": "p",
+                "t": "red blood cell carrying oxygen",
+                "zh": "攜氧紅血球"
+              },
+              {
+                "k": "p",
+                "t": "red blood cell with no oxygen",
+                "zh": "無氧紅血球"
+              },
+              {
+                "k": "p",
+                "t": "to body's cells — oxygen; nutrients",
+                "zh": "去身體細胞 — 氧；營養"
+              },
+              {
+                "k": "p",
+                "t": "from body's cells — carbon dioxide; wastes",
+                "zh": "由身體細胞 — 二氧化碳；廢物"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p048-02.webp",
@@ -20307,9 +20601,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Capillaries",
+                "zh": "微血管"
+              },
+              {
                 "k": "p",
-                "t": "Capillaries; Tissue cells; Arteriole; Artery; Capillaries; Venule; Vein.",
-                "zh": "微血管；組織細胞；小動脈；動脈；微血管；小靜脈；靜脈。"
+                "t": "Artery; Arteriole",
+                "zh": "動脈；小動脈"
+              },
+              {
+                "k": "p",
+                "t": "Capillaries; Tissue cells",
+                "zh": "微血管；組織細胞"
+              },
+              {
+                "k": "p",
+                "t": "Venule; Vein",
+                "zh": "小靜脈；靜脈"
               }
             ]
           },
@@ -20318,7 +20627,23 @@ window.HAZEL_LECTURES = [
             "w": 350,
             "h": 307,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "CONTINUOUS CAPILLARY",
+                "zh": "連續微血管"
+              },
+              {
+                "k": "p",
+                "t": "FENESTRATED CAPILLARY",
+                "zh": "有孔微血管"
+              },
+              {
+                "k": "p",
+                "t": "SINUSOIDAL CAPILLARY",
+                "zh": "竇狀微血管"
+              }
+            ]
           }
         ]
       },
@@ -20365,8 +20690,18 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "thin layer of fibrous tissue; thinner muscular wall; less elastic; large lumen to reduce resistance of blood flow.",
-                "zh": "薄層纖維組織；較薄肌層；彈性較少；大管腔以減少血流阻力。"
+                "t": "thin layer of fibrous tissue",
+                "zh": "薄嘅纖維組織層"
+              },
+              {
+                "k": "p",
+                "t": "thinner muscular wall; less elastic",
+                "zh": "較薄肌肉壁；彈性較低"
+              },
+              {
+                "k": "p",
+                "t": "large lumen to reduce resistance of blood flow",
+                "zh": "大管腔以減低血流阻力"
               }
             ]
           }
@@ -20422,13 +20757,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Blood is forced upwards to the heart. Valves are closed to prevent backflow of blood.",
-                "zh": "血液被向上擠向心臟。瓣膜關閉，防止血液倒流。"
+                "t": "Blood is forced towards heart.",
+                "zh": "血液被推向心臟。"
               },
               {
                 "k": "p",
-                "t": "1 Body muscles, particularly in the limbs, contract and press on the vein. 2 Vein compressed by muscles. 3 Valves opened by blood.",
-                "zh": "1 身體肌肉（尤其肢體）收縮並壓向靜脈。2 靜脈被肌肉壓迫。3 血液沖開瓣膜。"
+                "t": "1. Body muscles, particularly in the limbs, contract and press on the vein.",
+                "zh": "1. 身體肌肉（尤其四肢）收縮並壓住靜脈。"
+              },
+              {
+                "k": "p",
+                "t": "2. Vein compressed by muscle contraction.",
+                "zh": "2. 靜脈被肌肉收縮壓扁。"
+              },
+              {
+                "k": "p",
+                "t": "3. Valves opened by blood pressure.",
+                "zh": "3. 瓣膜被血壓推開。"
+              },
+              {
+                "k": "p",
+                "t": "4. Valves are closed to prevent backflow of blood.",
+                "zh": "4. 瓣膜關閉，防止血液倒流。"
               }
             ]
           }
@@ -20494,7 +20844,23 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 379,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Transducer leveled at the phlebostatic axis.",
+                "zh": "傳感器調校到靜脈基準軸水平。"
+              },
+              {
+                "k": "p",
+                "t": "PHLEBOSTATIC AXIS: FOURTH INTERCOSTAL SPACE, MID-AXILLARY LINE.",
+                "zh": "靜脈基準軸：第四肋間、腋中線。"
+              },
+              {
+                "k": "p",
+                "t": "Monitor: ART 88/52 (64); MAP 64; CVP 10; SpO₂ 97; RR 16; Lactate 1.8",
+                "zh": "監護：ART 88/52（64）；MAP 64；CVP 10；SpO₂ 97；RR 16；Lactate 1.8"
+              }
+            ]
           }
         ]
       },
@@ -20584,14 +20950,66 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 747,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Ejection Fraction (EF) — A measure of the heart's pumping efficiency",
+                "zh": "射血分數（EF）— 衡量心臟泵血效率"
+              },
+              {
+                "k": "p",
+                "t": "DIASTOLE (Relaxation) — FILL Blood enters; EDV (End-Diastolic Volume) 120 mL; Full Ventricle before pumping",
+                "zh": "舒張（放鬆）— 充盈；EDV（舒張末期容積）120 mL；泵血前心室滿"
+              },
+              {
+                "k": "p",
+                "t": "SYSTOLE (Contraction) — Blood leaving the heart; SV (Stroke Volume) ejected 70 mL; ESV remaining; Blood remaining after pumping",
+                "zh": "收縮 — 血液離開心臟；SV（每搏輸出量）射出 70 mL；ESV 剩餘；泵血後剩餘"
+              },
+              {
+                "k": "p",
+                "t": "EF = (Stroke Volume / End-Diastolic Volume) × 100 = (SV / EDV) × 100.",
+                "zh": "EF =（每搏輸出量／舒張末期容積）× 100 =（SV／EDV）× 100。"
+              },
+              {
+                "k": "p",
+                "t": "Example: EDV = 120 mL, SV = 70 mL → EF = (70 / 120) × 100 ≈ 58%. This indicates that 58% of the blood in the ventricle is ejected with each beat.",
+                "zh": "例子：EDV = 120 mL，SV = 70 mL → EF ≈ 58%。表示每次心跳射出心室內約 58% 血液。"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p053-02.webp",
             "w": 973,
             "h": 654,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "STROKE VOLUME (SV) = EDV – ESV (example: 70 mL)",
+                "zh": "每搏輸出量（SV）= EDV − ESV（例子：70 mL）"
+              },
+              {
+                "k": "p",
+                "t": "EDV — Relaxed state, pre-contraction; ~120 mL (example)",
+                "zh": "EDV — 放鬆、收縮前；約 120 mL（例子）"
+              },
+              {
+                "k": "p",
+                "t": "ESV — Contracted state, post-contraction; ~50 mL (example)",
+                "zh": "ESV — 收縮後；約 50 mL（例子）"
+              },
+              {
+                "k": "p",
+                "t": "Blood pumped per beat",
+                "zh": "每跳泵出嘅血量"
+              },
+              {
+                "k": "p",
+                "t": "Red = Oxygenated Blood (Left Ventricle); Blue = Deoxygenated Blood (Right Ventricle, not focus)",
+                "zh": "紅 = 含氧血（左心室）；藍 = 缺氧血（右心室，非重點）"
+              }
+            ]
           }
         ]
       },
@@ -20713,8 +21131,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "↑ Plasma epinephrine (Adrenaline); From adrenal gland; ↑ Activity of sympathetic nerves to heart; From brain; e.g. stress and excitement; ↓ Activity of parasympathetic nerves to heart; From brain; e.g. rest and sleep; SA node; ↑ Heart rate.",
-                "zh": "血漿腎上腺素↑（Adrenaline）；來自腎上腺；交感神經至心活性↑；來自腦；例如壓力同興奮；副交感神經至心活性↓；來自腦；例如休息同睡眠；竇房結；心率↑。"
+                "t": "SA node — ↑ Heart rate",
+                "zh": "SA 結 — ↑ 心率"
+              },
+              {
+                "k": "p",
+                "t": "↑ Plasma epinephrine (Adrenaline) — From adrenal gland.",
+                "zh": "↑ 血漿腎上腺素 — 來自腎上腺。"
+              },
+              {
+                "k": "p",
+                "t": "↑ Activity of sympathetic nerves to heart — From brain (e.g. stress and excitement).",
+                "zh": "↑ 心臟交感神經活動 — 來自腦（例如壓力、興奮）。"
+              },
+              {
+                "k": "p",
+                "t": "↓ Activity of parasympathetic nerves to heart — From brain (e.g. rest and sleep).",
+                "zh": "↓ 心臟副交感神經活動 — 來自腦（例如休息、睡眠）。"
               }
             ]
           }
@@ -20780,7 +21213,33 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 610,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "Cardiac muscle — ↑ Stroke volume",
+                "zh": "心肌 — ↑ 每搏輸出量"
+              },
+              {
+                "k": "p",
+                "t": "↑ Activity of sympathetic nerves to heart — From brain (Increased ejection fraction).",
+                "zh": "↑ 心臟交感神經活動 — 來自腦（射血分數增加）。"
+              },
+              {
+                "k": "p",
+                "t": "↑ End-diastolic ventricular volume (Same ejection fraction).",
+                "zh": "↑ 舒張末期心室容積（射血分數不變）。"
+              },
+              {
+                "k": "p",
+                "t": "↑ Plasma epinephrine (Adrenaline) — From adrenal gland (Increased ejection fraction).",
+                "zh": "↑ 血漿腎上腺素 — 來自腎上腺（射血分數增加）。"
+              },
+              {
+                "k": "p",
+                "t": "EJECTION FRACTION = amount of blood pumped out / amount of blood in the chamber.",
+                "zh": "射血分數 = 泵出嘅血量／心腔內血量。"
+              }
+            ]
           },
           {
             "src": "assets/figures/L3/p056-02.webp",
