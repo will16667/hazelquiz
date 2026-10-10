@@ -767,3 +767,35 @@ a.gate-mini.locked { opacity: 0.72; }
   .fc-tag-muted { background: #2a314d; color: #9ca3af; }
 }
 .rev-done { text-align: center; padding: 28px 16px; }
+
+
+/* PDF page reader */
+.page-toolbar { gap: 10px; }
+.page-nav {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 8px; flex: 1 1 180px;
+}
+.page-nav.bottom {
+  margin-top: 18px; padding: 12px 14px;
+}
+.page-btn { min-width: 5.5rem; }
+.page-btn:disabled { opacity: 0.4; pointer-events: none; }
+.page-indicator {
+  font-weight: 800; font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em; color: var(--ink);
+  white-space: nowrap;
+}
+.slide-fig {
+  margin: 0 0 1rem; padding: 0;
+  border-radius: 12px; overflow: hidden;
+  border: 1px solid var(--line);
+  background: #0f172a;
+}
+.slide-img {
+  display: block; width: 100%; height: auto;
+  cursor: zoom-in; background: #0f172a;
+}
+.slide-fig figcaption {
+  margin: 0; padding: 6px 10px 8px;
+  background: color-mix(in srgb, var(--card) 92%, transparent);
+}

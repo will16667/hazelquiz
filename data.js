@@ -5267,7 +5267,2449 @@ window.HAZEL_LECTURES = [
     "id": "L1",
     "titleZh": "人體生理學導論 I",
     "titleEn": "Introduction to Human Physiology I",
+    "pageCount": 54,
+    "pages": [
+      {
+        "n": 1,
+        "blocks": [
+          {
+            "t": "Health and Life Sciences",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Higher Diploma in General Nursing for",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Enrolled Nurse (AS114218)",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Life Sciences (HHS4218)",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Lecture 1",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Introduction to Human Physiology I",
+            "k": "h",
+            "zh": "人體生理學概論I"
+          }
+        ],
+        "img": "assets/slides/L1/001.webp"
+      },
+      {
+        "n": 2,
+        "blocks": [
+          {
+            "t": "Module Intended Learning Outcomes (MILOs):",
+            "k": "h",
+            "zh": "模組預期學習成果（ MILO ） ："
+          },
+          {
+            "t": "On completion of this lesson, students are expected to be able to:",
+            "k": "h",
+            "zh": "完成本課程後，學生應能夠："
+          },
+          {
+            "t": "• Explain the structure and function of cells, tissues and organs of major body systems and physiological processes.",
+            "k": "li",
+            "zh": "•解釋主要身體系統的細胞、組織和器官的結構和功能以及生理過程。"
+          }
+        ],
+        "img": "assets/slides/L1/002.webp"
+      },
+      {
+        "n": 3,
+        "blocks": [
+          {
+            "t": "Contents",
+            "k": "h",
+            "zh": "內容"
+          },
+          {
+            "t": "• Overview of Human Physiology",
+            "k": "li",
+            "zh": "•人體生理學概述"
+          },
+          {
+            "t": "• Levels of structural organization",
+            "k": "li",
+            "zh": "•結構組織層級"
+          },
+          {
+            "t": "• Cell structure and Function",
+            "k": "li",
+            "zh": "•細胞結構和功能"
+          },
+          {
+            "t": "• Levels of organization in body",
+            "k": "li",
+            "zh": "•身體的組織程度"
+          },
+          {
+            "t": "• Gene",
+            "k": "li",
+            "zh": "Gene （基因基因）"
+          },
+          {
+            "t": "• Cell division and Apoptosis",
+            "k": "li",
+            "zh": "•細胞分裂和凋亡"
+          }
+        ],
+        "img": "assets/slides/L1/003.webp"
+      },
+      {
+        "n": 4,
+        "blocks": [
+          {
+            "t": "Learning outcomes:",
+            "k": "h",
+            "zh": "模組預期學習成果（ MILO ） ："
+          },
+          {
+            "t": "By the end of this lecture, students will be able to:",
+            "k": "h",
+            "zh": "學習成果：在本課程結束時，學生將能夠："
+          },
+          {
+            "t": "• Describe the levels of structural organization in the human body, from chemical level to organism level.",
+            "k": "li",
+            "zh": "•描述人體的結構組織水平，從化學水平到生物水平。"
+          },
+          {
+            "t": "• Identify and explain the basic structure and function of a human cell, including major organelles and their roles.",
+            "k": "li",
+            "zh": "•識別和解釋人體細胞的基本結構和功能，包括主要細胞器及其作用。"
+          },
+          {
+            "t": "• Outline the levels of biological organization, showing how cells form tissues, organs, and systems.",
+            "k": "li",
+            "zh": "•概述生物組織的水平，顯示細胞如何形成組織、器官和系統。"
+          },
+          {
+            "t": "• Explain the concept of a gene, its role in heredity, and how it contributes to protein synthesis.",
+            "k": "li",
+            "zh": "•解釋基因的概念、其在遺傳中的作用，以及它如何促進蛋白質合成。"
+          },
+          {
+            "t": "• Describe the process of cell division and apoptosis.",
+            "k": "li",
+            "zh": "•描述細胞分裂和凋亡的過程。"
+          }
+        ],
+        "img": "assets/slides/L1/004.webp"
+      },
+      {
+        "n": 5,
+        "blocks": [
+          {
+            "t": "Anatomy and Physiology",
+            "k": "h",
+            "zh": "解剖學與生理學"
+          },
+          {
+            "t": "解剖學與生理學",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "• Anatomy - the structures結構 that make up the body and how those structures relate with each other e.g. Structure of the Heart",
+            "k": "li",
+            "zh": "•解剖學-構結構成身體的結構以及這些結構如何相互關聯，例如心臟結構"
+          },
+          {
+            "t": "• Macroscopic vs Microscopic anatomy",
+            "k": "li",
+            "zh": "•肉眼解剖學與顯微鏡解剖學"
+          },
+          {
+            "t": "• Can be seen vs cannot be seen by the naked eye",
+            "k": "li",
+            "zh": "•肉眼可見vs肉眼看不見"
+          },
+          {
+            "t": "• Physiology - how the body and its part work or function功能 e.g. How the heart pumps blood?",
+            "k": "li",
+            "zh": "•生理學-身體及其部位的工作或功能，功能例如心臟如何泵送血液？"
+          }
+        ],
+        "img": "assets/slides/L1/005.webp"
+      },
+      {
+        "n": 6,
+        "blocks": [
+          {
+            "t": "Introduction",
+            "k": "h",
+            "zh": "人體生理學概論I"
+          },
+          {
+            "t": "4 primary food substances are essential to maintain daily life of human",
+            "k": "p",
+            "zh": "簡介4種主要食物物質對維持人類的日常生活至關重要"
+          },
+          {
+            "t": "• Carbohydrates碳水化合物",
+            "k": "li",
+            "zh": "碳水化合物/醣類/糖類"
+          },
+          {
+            "t": "• Lipids脂質",
+            "k": "li",
+            "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
+          },
+          {
+            "t": "• Proteins蛋白質",
+            "k": "li",
+            "zh": "•蛋白質​"
+          },
+          {
+            "t": "• Water水",
+            "k": "li",
+            "zh": "•水"
+          }
+        ],
+        "img": "assets/slides/L1/006.webp"
+      },
+      {
+        "n": 7,
+        "blocks": [
+          {
+            "t": "• Carbohydrates",
+            "k": "li",
+            "zh": "碳水化合物/醣類/糖類"
+          },
+          {
+            "t": "碳水化合物/醣類/糖類",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "• Organic food substances made up of carbon (C), hydrogen (H)",
+            "k": "li",
+            "zh": "•由碳（ C ）、氫（ H ）和氧（ O ）原子組成的有機食品物質。"
+          },
+          {
+            "t": "& oxygen (O) atoms.",
+            "k": "p",
+            "zh": "•由碳（ C ）、氫（ H ）和氧（ O ）原子組成的有機食品物質。"
+          },
+          {
+            "t": "• H:O ratio = 2:1",
+            "k": "li",
+            "zh": "• H: O比= 2: 1"
+          },
+          {
+            "t": "• Found in rice, bread, fruit, etc.",
+            "k": "li",
+            "zh": "•存在於大米、面包、水果等中。"
+          },
+          {
+            "t": "• Three classes:",
+            "k": "li",
+            "zh": "•三門課程："
+          },
+          {
+            "t": "• Monosaccharides (simple sugars)",
+            "k": "li",
+            "zh": "•單醣（單糖）"
+          },
+          {
+            "t": "• Disaccharides (double sugars)",
+            "k": "li",
+            "zh": "•二糖（雙糖）"
+          },
+          {
+            "t": "• Polysaccharides",
+            "k": "li",
+            "zh": "•多糖"
+          }
+        ],
+        "img": "assets/slides/L1/007.webp"
+      },
+      {
+        "n": 8,
+        "blocks": [
+          {
+            "t": "Three classes of Carbohydrates",
+            "k": "h",
+            "zh": "三類碳水化合物"
+          },
+          {
+            "t": "Class Example Made up of Characteristics",
+            "k": "h",
+            "zh": "由特性組成的類別範例"
+          },
+          {
+            "t": "• Major end-product of carbohydrate digestion",
+            "k": "li",
+            "zh": "•碳水化合物消化的主要終產物葡萄糖（葡萄糖葡萄糖） -"
+          },
+          {
+            "t": "Glucose (葡萄糖) -",
+            "k": "h",
+            "zh": "•碳水化合物消化的主要終產物葡萄糖（葡萄糖葡萄糖） -"
+          },
+          {
+            "t": "• Broken down during respiration to",
+            "k": "li",
+            "zh": "•在呼吸過程中分解為單醣釋放能量"
+          },
+          {
+            "t": "Monosaccharide release energy",
+            "k": "h",
+            "zh": "•在呼吸過程中分解為單醣釋放能量"
+          },
+          {
+            "t": "• Sweetest simple sugar",
+            "k": "li",
+            "zh": "•最甜的單糖果糖（果糖 ） -"
+          },
+          {
+            "t": "Fructose (果糖) -",
+            "k": "h",
+            "zh": "•最甜的單糖果糖（果糖 ） -"
+          },
+          {
+            "t": "• Commonly found in fruit and honey",
+            "k": "li",
+            "zh": "•常見於水果和蜂蜜麥芽糖（麥芽糖麥芽糖）葡萄糖+葡萄糖•澱粉二糖（蔗糖蔗糖）葡萄糖+果糖消化的中間體•俗稱食糖澱粉（澱粉澱粉）葡萄糖•植物中的主要食物儲備糖原（葡萄糖糖原） •動物多醣中儲存的主要碳水化合物"
+          },
+          {
+            "t": "Maltose (麥芽糖) Glucose + Glucose • Intermediate in the digestion of starch",
+            "k": "p",
+            "zh": "•常見於水果和蜂蜜麥芽糖（麥芽糖麥芽糖）葡萄糖+葡萄糖•澱粉二糖（蔗糖蔗糖）葡萄糖+果糖消化的中間體•俗稱食糖澱粉（澱粉澱粉）葡萄糖•植物中的主要食物儲備糖原（葡萄糖糖原） •動物多醣中儲存的主要碳水化合物"
+          },
+          {
+            "t": "Disaccharide",
+            "k": "h",
+            "zh": "•二糖（雙糖）"
+          },
+          {
+            "t": "Sucrose (蔗糖) Glucose + Fructose • Commonly known as table sugar",
+            "k": "h",
+            "zh": "•常見於水果和蜂蜜麥芽糖（麥芽糖麥芽糖）葡萄糖+葡萄糖•澱粉二糖（蔗糖蔗糖）葡萄糖+果糖消化的中間體•俗稱食糖澱粉（澱粉澱粉）葡萄糖•植物中的主要食物儲備糖原（葡萄糖糖原） •動物多醣中儲存的主要碳水化合物"
+          },
+          {
+            "t": "Starch (澱粉) Glucose • Major food reserve in plants",
+            "k": "h",
+            "zh": "•常見於水果和蜂蜜麥芽糖（麥芽糖麥芽糖）葡萄糖+葡萄糖•澱粉二糖（蔗糖蔗糖）葡萄糖+果糖消化的中間體•俗稱食糖澱粉（澱粉澱粉）葡萄糖•植物中的主要食物儲備糖原（葡萄糖糖原） •動物多醣中儲存的主要碳水化合物"
+          },
+          {
+            "t": "Glycogen (糖原) Glucose • Major carbohydrate stored in animal",
+            "k": "h",
+            "zh": "•常見於水果和蜂蜜麥芽糖（麥芽糖麥芽糖）葡萄糖+葡萄糖•澱粉二糖（蔗糖蔗糖）葡萄糖+果糖消化的中間體•俗稱食糖澱粉（澱粉澱粉）葡萄糖•植物中的主要食物儲備糖原（葡萄糖糖原） •動物多醣中儲存的主要碳水化合物"
+          },
+          {
+            "t": "Polysaccharide",
+            "k": "h",
+            "zh": "•多糖"
+          },
+          {
+            "t": "• Makes up the cell wall of plants",
+            "k": "li",
+            "zh": "•構成植物細胞壁纖維纖維素素葡萄糖"
+          },
+          {
+            "t": "Cellulose (纖維素) Glucose",
+            "k": "h",
+            "zh": "•構成植物細胞壁纖維纖維素素葡萄糖"
+          },
+          {
+            "t": "• Indigestible by human",
+            "k": "li",
+            "zh": "•人類無法消化"
+          }
+        ],
+        "img": "assets/slides/L1/008.webp"
+      },
+      {
+        "n": 9,
+        "blocks": [
+          {
+            "t": "Functions of Carbohydrates",
+            "k": "h",
+            "zh": "碳水化合物的功能"
+          },
+          {
+            "t": " Energy source  Structural support",
+            "k": "h",
+            "zh": "•能源•結構支撐"
+          },
+          {
+            "t": "• Principal/Primary source of body • contribute to cell structure and energy synthesis of cell products",
+            "k": "li",
+            "zh": "•身體的主要/主要來源•有助於細胞結構和細胞產物的能量合成"
+          },
+          {
+            "t": " Energy storage  Component of DNA and RNA",
+            "k": "h",
+            "zh": "•能量儲存• DNA和RNA的成分"
+          },
+          {
+            "t": "• Excessive glucose stored in body as • form part of the structure of DNA glycogen, which primarily stored in and RNA liver and skeletal muscles DNA (Deoxyribonucleic acid)去氧核糖核酸",
+            "k": "li",
+            "zh": "•體內儲存過多的葡萄糖•形成DNA糖原結構的一部分，主要儲存在和RNA肝臟和骨骼肌DNA （脫氧核糖核酸）去氧核糖核酸"
+          },
+          {
+            "t": "• When energy demands increases, RNA (Ribonucleic acid)核糖核酸 glycogen is broken down into glucose and used for energy",
+            "k": "li",
+            "zh": "•當能量需求增加時， RNA （核糖核酸）核糖核酸糖原被分解成葡萄糖並用作能量"
+          }
+        ],
+        "img": "assets/slides/L1/009.webp"
+      },
+      {
+        "n": 10,
+        "blocks": [
+          {
+            "t": "• Lipids 脂質",
+            "k": "li",
+            "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
+          },
+          {
+            "t": "• Made up of carbon, hydrogen and oxygen",
+            "k": "li",
+            "zh": "•由碳、氫和氧組成"
+          },
+          {
+            "t": "• Insoluble in water but dissolve readily in organic solvents (有機溶",
+            "k": "li",
+            "zh": "•不溶於水，但易溶於有機溶劑（有機溶 劑） ，例如酒精、丙酮（丙酮 ）和乙醚（乙醚 ）"
+          },
+          {
+            "t": "劑) e.g. alcohol, acetone (丙酮) and ethers (乙醚)",
+            "k": "h",
+            "zh": "•不溶於水，但易溶於有機溶劑（有機溶 劑） ，例如酒精、丙酮（丙酮 ）和乙醚（乙醚 ）"
+          },
+          {
+            "t": "• Two types of lipids:",
+            "k": "li",
+            "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
+          },
+          {
+            "t": "• Fats (semi-solid at room temperature)",
+            "k": "li",
+            "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
+          },
+          {
+            "t": "• Oils (liquid at room temperature)",
+            "k": "li",
+            "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
+          },
+          {
+            "t": "• Triglyceride (三酸甘油酯) (3+1)",
+            "k": "li",
+            "zh": "•甘油三三酸甘油酯酯（ 3 +1 ）由3個脂肪酸分子和1個甘油分子組成的脂質亞❑類"
+          },
+          {
+            "t": "• Subcategory of lipid made up of",
+            "k": "li",
+            "zh": "•甘油三三酸甘油酯酯（ 3 +1 ）由3個脂肪酸分子和1個甘油分子組成的脂質亞❑類"
+          },
+          {
+            "t": "3 fatty acid molecules and 1 glycerol molecule",
+            "k": "h",
+            "zh": "•甘油三三酸甘油酯酯（ 3 +1 ）由3個脂肪酸分子和1個甘油分子組成的脂質亞❑類"
+          }
+        ],
+        "img": "assets/slides/L1/010.webp"
+      },
+      {
+        "n": 11,
+        "blocks": [
+          {
+            "t": "Functions of Lipids",
+            "k": "h",
+            "zh": "脂質的功能"
+          },
+          {
+            "t": "• Food reserve and energy source • Metabolic regulators (代謝調節劑)",
+            "k": "li",
+            "zh": "•食物儲備和能量來源•代謝調節劑（代謝調節劑 ）"
+          },
+          {
+            "t": "• The fats (usually triglycerides) are • Some hormones are lipids in nature, important food reserve materials e.g. sex hormones",
+            "k": "li",
+            "zh": "•脂肪（通常是甘油三酯） •一些激素是天然的脂質，重要的食物儲備物質，如性激素"
+          },
+          {
+            "t": "• When carbohydrate storage is used • Water-proof layer (防水層) up, fats are often used",
+            "k": "li",
+            "zh": "•使用碳水化合物儲存時•防水層（防水層 ）向上，通常使用脂肪"
+          },
+          {
+            "t": "• In mammals’ skin, sebaceous glands",
+            "k": "li",
+            "zh": "•在哺乳動物的皮膚中，皮脂腺"
+          },
+          {
+            "t": "• Structural materials secrete oil to keep skin for",
+            "k": "li",
+            "zh": "•結構性材料分泌油脂以保持皮膚"
+          },
+          {
+            "t": "• Phospholipids (磷脂) are important waterproof compounds in the cell membranes • Protection",
+            "k": "li",
+            "zh": "•磷脂（磷脂 ）是細胞膜中重要的防水化合物•保護"
+          },
+          {
+            "t": "• Fat surrounding the internal organs e.g. kidney, act as shock absorbance (減震作用)",
+            "k": "li",
+            "zh": "•內臟周圍的脂肪，如腎臟，起到減震作用（減震作用 ）"
+          }
+        ],
+        "img": "assets/slides/L1/011.webp"
+      },
+      {
+        "n": 12,
+        "blocks": [
+          {
+            "t": "• Proteins蛋白質",
+            "k": "li",
+            "zh": "•蛋白質​"
+          },
+          {
+            "t": "• Large, complex molecules, Made up of • The basic units of protein are called carbon, hydrogen, oxygen and nitrogen amino acids 胺基酸",
+            "k": "li",
+            "zh": "•由大而複雜的分子組成•蛋白質的基本單位稱為碳、氫、氧和氮氨基酸 胺基酸"
+          },
+          {
+            "t": "• Other elements, such as sulphur and • Amino acids join together to form a polypeptide 多肽 phosphorus, are sometimes present",
+            "k": "li",
+            "zh": "•其他元素，如硫和•氨基酸結合在一起形成多肽多肽磷，有時會存在"
+          },
+          {
+            "t": "• Polypeptides link together to form a protein",
+            "k": "li",
+            "zh": "•多肽連接在一起形成蛋白質"
+          },
+          {
+            "t": "amino acids 胺基酸",
+            "k": "h",
+            "zh": "胺基酸 "
+          }
+        ],
+        "img": "assets/slides/L1/012.webp"
+      },
+      {
+        "n": 13,
+        "blocks": [
+          {
+            "t": "Functions of Proteins",
+            "k": "h",
+            "zh": "蛋白質的功能"
+          },
+          {
+            "t": "• Antibody - Immune response. Defensive proteins, known as antibodies, bind to foreign invaders like bacteria and viruses to clear them from the body.",
+            "k": "li",
+            "zh": "1.抗體-免疫應答。被稱為抗體的防禦性蛋白質與細菌和病毒等外來入侵者結合，從而將其從體內清除。"
+          },
+          {
+            "t": "• Enzyme - Proteins like enzymes speed up chemical reactions in the body, such as breaking down food during digestion and building new molecules.",
+            "k": "li",
+            "zh": "酵素"
+          },
+          {
+            "t": "• Messenger - Hormones and receptors (such as insulin) act as chemical messengers that transmit signals to coordinate processes between different cells and organs.",
+            "k": "li",
+            "zh": "3.信使-激素和受體（如胰島素）充當化學信使，傳遞信號以協調不同細胞和器官之間的過程。"
+          },
+          {
+            "t": "• Structural components - Structural proteins like keratin and collagen provide strength, shape, and support to cells, tissues, hair, skin, and bones.",
+            "k": "li",
+            "zh": "4.結構成分-角蛋白和膠原蛋白等結構蛋白質為細胞、組織、毛髮、皮膚和骨骼提供強度、形狀和支持。"
+          },
+          {
+            "t": "• Transport/Storage - Proteins move vital molecules where they need to go; for example, hemoglobin carries oxygen through the blood, while other proteins store nutrients like iron.",
+            "k": "li",
+            "zh": "5.運輸/儲存-蛋白質將重要分子移動到需要去的地方；例如，血紅蛋白通過血液攜帶氧氣，而其他蛋白質則儲存鐵等營養物質。"
+          }
+        ],
+        "img": "assets/slides/L1/013.webp"
+      },
+      {
+        "n": 14,
+        "blocks": [
+          {
+            "t": "Denaturation & Renaturation",
+            "k": "h",
+            "zh": "變性與變性變性蛋白質變性"
+          },
+          {
+            "t": "Denaturation蛋白質變性",
+            "k": "h",
+            "zh": "變性與變性變性蛋白質變性"
+          },
+          {
+            "t": "• The loss of the specific three-dimensional conformation of a protein molecule",
+            "k": "li",
+            "zh": "•蛋白質分子的特定三維構象喪失"
+          },
+          {
+            "t": "• Amino acid sequence of the protein remains unaffected",
+            "k": "li",
+            "zh": "•蛋白質的氨基酸序列不受影響"
+          },
+          {
+            "t": "• Effects: This leads to the loss of solubility and biological activities of the protein (e.g., cooking an egg white causes the albumin protein to coagulate irreversibly). (Top image) When cooking an egg, the protein ovalbumin in the egg white undergoes denaturation and loss of solubility.",
+            "k": "li",
+            "zh": "•影響：這會導致蛋白質的溶解度和生物活性的喪失（例如，烹飪蛋清會導致白蛋白蛋白不可逆地凝固）。（上圖）煮蛋時，蛋清中的蛋白質卵清蛋白會變性並失去溶解性。"
+          },
+          {
+            "t": "• Denatured proteins have a looser, more random (Bottom image) Paperclips provide a visual analogy to help structure; most are insoluble. conceptualize the denaturation process.",
+            "k": "li",
+            "zh": "•變性蛋白質具有更鬆散、更隨機（底部圖像）的迴紋針提供視覺類比以幫助結構；大多數是不溶的。將變性過程概念化。"
+          },
+          {
+            "t": "Renaturation蛋白質復性",
+            "k": "h",
+            "zh": "蛋白質復性"
+          },
+          {
+            "t": "• The regain of the biological activities of the protein",
+            "k": "li",
+            "zh": "•恢復蛋白質的生物活性"
+          }
+        ],
+        "img": "assets/slides/L1/014.webp"
+      },
+      {
+        "n": 15,
+        "blocks": [
+          {
+            "t": "Factors causing protein denaturation",
+            "k": "h",
+            "zh": "導致蛋白質變性的因素"
+          },
+          {
+            "t": "• Heat or radiation",
+            "k": "li",
+            "zh": "•高溫或輻射"
+          },
+          {
+            "t": "• Extreme pH",
+            "k": "li",
+            "zh": "•極端pH值"
+          },
+          {
+            "t": "• Mechanical force",
+            "k": "li",
+            "zh": "•機械力"
+          },
+          {
+            "t": "• Chemicals e.g. nonpolar solvents and detergents",
+            "k": "li",
+            "zh": "•化學物質，例如非極性溶劑和洗滌劑"
+          }
+        ],
+        "img": "assets/slides/L1/015.webp"
+      },
+      {
+        "n": 16,
+        "blocks": [
+          {
+            "t": "• Water",
+            "k": "li",
+            "zh": "•水"
+          },
+          {
+            "t": "• 75% of human body is made up of water",
+            "k": "li",
+            "zh": "• 75%的人體由水組成"
+          },
+          {
+            "t": "• Water is a vital substance",
+            "k": "li",
+            "zh": "•水是一種重要的物質"
+          }
+        ],
+        "img": "assets/slides/L1/016.webp"
+      },
+      {
+        "n": 17,
+        "blocks": [
+          {
+            "t": "Functions of Water",
+            "k": "h",
+            "zh": "Water Good溶劑的功能"
+          },
+          {
+            "t": "Good solvent",
+            "k": "h",
+            "zh": "Water Good溶劑的功能"
+          },
+          {
+            "t": " Medium for metabolic reactions",
+            "k": "h",
+            "zh": "•代謝反應介質"
+          },
+          {
+            "t": " Dilute waste substances and prevent them from harming the body",
+            "k": "h",
+            "zh": "•稀釋廢棄物質，防止它們傷害身體"
+          },
+          {
+            "t": "Temperature regulator",
+            "k": "h",
+            "zh": "溫度調節器"
+          },
+          {
+            "t": " Water has a high heat capacity熱容",
+            "k": "h",
+            "zh": "•水的熱容量很高熱容"
+          },
+          {
+            "t": " Helps to maintain the body temperature",
+            "k": "h",
+            "zh": "•有助於維持體溫"
+          },
+          {
+            "t": "Strong surface tension",
+            "k": "h",
+            "zh": "強大的表面張力"
+          },
+          {
+            "t": " Strong attraction between water molecules",
+            "k": "h",
+            "zh": "•水分子之間有很強的吸引力"
+          },
+          {
+            "t": " Water rises readily by capillary action (毛細作用)",
+            "k": "h",
+            "zh": "•通過毛細管作用，水很容易上升（毛細作用 ）"
+          },
+          {
+            "t": "Transporter",
+            "k": "h",
+            "zh": "運輸車"
+          },
+          {
+            "t": " Water in the blood carries nutrients from the foods we eat to tissues throughout the body",
+            "k": "p",
+            "zh": "•血液中的水分將我們吃的食物中的營養攜帶到整個身體的組織中"
+          },
+          {
+            "t": "Lubricant",
+            "k": "h",
+            "zh": "潤滑劑"
+          },
+          {
+            "t": " The synovial fluid (滑液) helps joints move easily",
+            "k": "h",
+            "zh": "•滑液（滑液 ）有助於關節輕鬆移動"
+          },
+          {
+            "t": " Water moistens food as it passes along the digestive tract, starting from saliva in the mouth and throat that makes swallowing easy, and ending with the passage of water-softened feces through the anus",
+            "k": "p",
+            "zh": "•水在食物通過消化道時會滋潤食物，從口腔和喉嚨的唾液開始，使吞咽變得容易，最後是水軟化的糞便通過肛門三磷酸腺苷（ ATP ） 三磷酸腺苷"
+          }
+        ],
+        "img": "assets/slides/L1/017.webp"
+      },
+      {
+        "n": 18,
+        "blocks": [
+          {
+            "t": "Adenosine triphosphate (ATP)",
+            "k": "h",
+            "zh": "•水在食物通過消化道時會滋潤食物，從口腔和喉嚨的唾液開始，使吞咽變得容易，最後是水軟化的糞便通過肛門三磷酸腺苷（ ATP ） 三磷酸腺苷"
+          },
+          {
+            "t": "三磷酸腺苷",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "• Energy-carrying molecule found in the cells of all living things",
+            "k": "li",
+            "zh": "•在所有生物細胞中發現的攜帶能量的分子"
+          },
+          {
+            "t": "• Source of energy for biological activities of the cell",
+            "k": "li",
+            "zh": "•細胞ATP ↔ ADP + Pi +能量生物活性的能量來源"
+          },
+          {
+            "t": "ATP → ADP + Pi + energy",
+            "k": "h",
+            "zh": "•細胞ATP ↔ ADP + Pi +能量生物活性的能量來源"
+          },
+          {
+            "t": "• ADP (adenosine diphosphate), Pi (inorganic phosphate)",
+            "k": "li",
+            "zh": "• ADP （腺苷二磷酸）、Pi （無機磷酸）"
+          },
+          {
+            "t": "• Converting ADP to ATP is a method for energy storage until it is needed",
+            "k": "li",
+            "zh": "•將ADP轉化為ATP是一種儲能方法，直到需要為止"
+          },
+          {
+            "t": "• ATP hydrolysis provides the energy needed for many essential processes in organisms and cells. These include intracellular signaling, DNA and RNA synthesis, Purinergic signaling, synaptic signaling, active transport, and muscle contraction",
+            "k": "li",
+            "zh": "• ATP水解為生物體和細胞中的許多重要過程提供所需的能量。這些包括細胞內信號傳遞、DNA和RNA合成、嘌呤能信號傳遞、突觸信號傳遞、主動運輸和肌肉收縮"
+          },
+          {
+            "t": "Energy and Chemical Reactions",
+            "k": "h",
+            "zh": "能量和化學反應在這裡顯示的兩種反應中，較大的「太陽爆發」代表較大的潛在能量，較小的「太陽爆發」代表較少的潛在能量。"
+          },
+          {
+            "t": "In the two reactions shown here, the larger “sunburst” represents greater potential energy and the smaller “sunburst” represents less potential energy. (a) The input of energy is required for the synthesis of ATP. (b) Energy is released as a result of the breakdown of ATP. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 2 p.50]",
+            "k": "p",
+            "zh": "解剖學與生理學"
+          }
+        ],
+        "img": "assets/slides/L1/018.webp"
+      },
+      {
+        "n": 19,
+        "blocks": [
+          {
+            "t": "Nucleic Acids 核酸",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "• Two types of nucleic acids. Storage and expression of genomic information",
+            "k": "li",
+            "zh": "•兩種類型的核酸。基因組資訊的儲存與表達"
+          },
+          {
+            "t": "• Deoxyribonucleic acid (DNA) - encodes編碼 the information cells need to make proteins, acts as the genetic materials of all organisms",
+            "k": "li",
+            "zh": "•脫氧核糖核酸（ DNA ）編碼 -編碼細胞製造蛋白質所需的信息，作為所有生物的遺傳材料"
+          },
+          {
+            "t": "• Ribonucleic acid (RNA) - comes in different molecular forms that play multiple cellular roles, including protein synthesis蛋白質合成.",
+            "k": "li",
+            "zh": "•核糖核酸（ RNA ） -具有不同的分子形式，起著多種細胞作用，包括蛋白質合成蛋白質合成。"
+          },
+          {
+            "t": "• DNA acts as the genetic materials of all organisms",
+            "k": "li",
+            "zh": "• DNA是所有生物的遺傳物質"
+          },
+          {
+            "t": "Transcription Translation",
+            "k": "h",
+            "zh": "轉錄翻譯DNA RNA蛋白質礦物質鹽和離子礦物質鹽和離子功能"
+          },
+          {
+            "t": "DNA RNA Protein",
+            "k": "h",
+            "zh": "轉錄翻譯DNA RNA蛋白質礦物質鹽和離子礦物質鹽和離子功能"
+          }
+        ],
+        "img": "assets/slides/L1/019.webp"
+      },
+      {
+        "n": 20,
+        "blocks": [
+          {
+            "t": "Mineral Salts and Ions",
+            "k": "h",
+            "zh": "轉錄翻譯DNA RNA蛋白質礦物質鹽和離子礦物質鹽和離子功能"
+          },
+          {
+            "t": "Mineral salts and ions Functions",
+            "k": "h",
+            "zh": "轉錄翻譯DNA RNA蛋白質礦物質鹽和離子礦物質鹽和離子功能"
+          },
+          {
+            "t": "• Constituent of bones and teeth",
+            "k": "li",
+            "zh": "1)骨骼和牙齒成分鈣"
+          },
+          {
+            "t": "Calcium",
+            "k": "h",
+            "zh": "1)骨骼和牙齒成分鈣"
+          },
+          {
+            "t": "• It is involved in blood clotting and muscle contraction",
+            "k": "li",
+            "zh": "2 ）它參與血液凝固和肌肉收縮氯維持陰離子負離子和陽離子之間的平衡正離子"
+          },
+          {
+            "t": "Chlorine Maintain the balance between anion負離子 and cation正離子",
+            "k": "h",
+            "zh": "2 ）它參與血液凝固和肌肉收縮氯維持陰離子負離子和陽離子之間的平衡正離子"
+          },
+          {
+            "t": "Phosphate Constituent of nucleic acids, ATP, bones and teeth",
+            "k": "h",
+            "zh": "核酸、ATP、骨骼和牙齒的磷酸酯成分"
+          },
+          {
+            "t": "Fluorine It is important in improving resistance to tooth decay",
+            "k": "h",
+            "zh": "氟在提高對蛀牙的抵抗力方面很重要"
+          },
+          {
+            "t": "Iodine It is the component of growth hormone and thyroxine",
+            "k": "h",
+            "zh": "碘它是生長激素和甲狀腺素的成分"
+          },
+          {
+            "t": "Iron It is the constituent of many enzymes, haemoglobin and myoglobin肌紅蛋白",
+            "k": "p",
+            "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
+          }
+        ],
+        "img": "assets/slides/L1/020.webp"
+      },
+      {
+        "n": 21,
+        "blocks": [
+          {
+            "t": "Cells & Tissues",
+            "k": "h",
+            "zh": "•解釋主要身體系統的細胞、組織和器官的結構和功能以及生理過程。"
+          }
+        ],
+        "img": "assets/slides/L1/021.webp"
+      },
+      {
+        "n": 22,
+        "blocks": [
+          {
+            "t": "A Human Cell",
+            "k": "h",
+            "zh": "•識別和解釋人體細胞的基本結構和功能，包括主要細胞器及其作用。"
+          },
+          {
+            "t": "A generalized human cell showing the plasma membrane, nucleus, and cytoplasm with its organelles. Although no single cell contains all these organelles, many cells contain a large number of them.",
+            "k": "p",
+            "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
+          }
+        ],
+        "img": "assets/slides/L1/022.webp"
+      },
+      {
+        "n": 23,
+        "blocks": [
+          {
+            "t": "Cell 細胞",
+            "k": "h",
+            "zh": "細胞"
+          },
+          {
+            "t": "• The basic structural and functional unit of living organisms",
+            "k": "li",
+            "zh": "•生物的基本結構和功能單位"
+          },
+          {
+            "t": "• Can be very small (microscopic) or very large (macroscopic)",
+            "k": "li",
+            "zh": "•可以是非常小（微觀）或非常大（宏觀）"
+          },
+          {
+            "t": "• Differentiated cells are important in a multicellular organism because they are able to perform a specialized function in the body",
+            "k": "li",
+            "zh": "•分化細胞在多細胞生物體中很重要，因為它們能夠在體內發揮特殊功能"
+          }
+        ],
+        "img": "assets/slides/L1/023.webp"
+      },
+      {
+        "n": 24,
+        "blocks": [
+          {
+            "t": "• Cell Membrane / Plasma Membrane細胞膜",
+            "k": "li",
+            "zh": "細胞"
+          },
+          {
+            "t": "• Covers the surface of every living cells, enclose the cytoplasm",
+            "k": "li",
+            "zh": "•覆蓋每個活細胞的表面，封閉細胞質"
+          },
+          {
+            "t": "• Separates the material outside the cell (extracellular) from the material inside the cell (intracellular)",
+            "k": "li",
+            "zh": "•將細胞外的物質（細胞外）與細胞內的物質（細胞內）分離"
+          },
+          {
+            "t": "• Composed of 2 layers of phospholipid molecules → phospholipid bilayer",
+            "k": "li",
+            "zh": "•由2層磷脂分子→磷脂雙層組成"
+          },
+          {
+            "t": "• Proteins scatter amongst phospholipids, functioning as receptors and transport proteins",
+            "k": "li",
+            "zh": "•蛋白質散佈在磷脂中，充當受體和運輸蛋白質"
+          },
+          {
+            "t": "• Function:",
+            "k": "li",
+            "zh": "功能"
+          },
+          {
+            "t": "• Maintains the integrity of a cell",
+            "k": "li",
+            "zh": "•保持細胞的完整性"
+          },
+          {
+            "t": "• Controls the movement of materials into and out of the cells",
+            "k": "li",
+            "zh": "•控制物料進出細胞"
+          },
+          {
+            "t": "Plasma Membrane",
+            "k": "h",
+            "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
+          },
+          {
+            "t": "Fluid-mosaic model of the plasma membrane. The membrane is composed of a bilayer of phospholipids and cholesterol with proteins “floating” in the membrane. The nonpolar, hydrophobic region of each phospholipid molecule is directed toward the center of the membrane, and the polar, hydrophilic region is directed toward either the extracellular fluid or the cytoplasm.",
+            "k": "p",
+            "zh": "質膜的質膜流體馬賽克模型。膜由磷脂和膽固醇的雙層組成，蛋白質「漂浮」在膜中。每個磷脂分子的非極性疏水區域朝向膜的中心，而極性親水區域朝向細胞外液或細胞質。"
+          },
+          {
+            "t": "A phospholipid consists of a hydrophilic (water- 24 / 54",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 3 p.78] loving) head and hydrophobic (water-fearing) tail",
+            "k": "p",
+            "zh": "（參考／來源）"
+          }
+        ],
+        "img": "assets/slides/L1/024.webp"
+      },
+      {
+        "n": 25,
+        "blocks": [
+          {
+            "t": "• Cytoplasm細胞質",
+            "k": "li",
+            "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
+          },
+          {
+            "t": "• Fluid, jellylike substance between the cell membrane and the nucleus in which organelles",
+            "k": "li",
+            "zh": "•細胞膜與懸浮細胞器的細胞核之間的液體、果凍細胞器狀物質"
+          },
+          {
+            "t": "細胞器 are suspended",
+            "k": "h",
+            "zh": "•細胞膜與懸浮細胞器的細胞核之間的液體、果凍細胞器狀物質"
+          },
+          {
+            "t": "• Within the cytoplasm, materials move by diffusion",
+            "k": "li",
+            "zh": "•在細胞質內，材料通過擴散移動"
+          },
+          {
+            "t": "• Cytosol胞質液 is the fluid part of cytoplasm",
+            "k": "li",
+            "zh": "•細胞溶胞質液膠是細胞質的流體部分"
+          },
+          {
+            "t": "• Function:",
+            "k": "li",
+            "zh": "功能"
+          },
+          {
+            "t": "• Serves as matrix substance 基質物質 for chemical reactions to occur",
+            "k": "li",
+            "zh": "•作為發生化學反應基質物質的基質物質"
+          },
+          {
+            "t": "• Provides a platform upon which other organelles can operate within the cell. All of the functions for cell expansion, growth and replication are carried out in the cytoplasm of a cell",
+            "k": "li",
+            "zh": "•提供其他細胞器可以在細胞內運作的平臺。細胞擴增、生長和複製的所有功能都在細胞的細胞質中進行"
+          }
+        ],
+        "img": "assets/slides/L1/025.webp"
+      },
+      {
+        "n": 26,
+        "blocks": [
+          {
+            "t": "• Nucleus細胞核",
+            "k": "li",
+            "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
+          },
+          {
+            "t": "• The largest organelle, it contains the deoxyribonucleic acid (DNA) / chromosomes of the cell for protein synthesis",
+            "k": "li",
+            "zh": "•最大的細胞器，它含有細胞的脫氧核糖核酸（ DNA ）/染色體，用於蛋白質合成"
+          },
+          {
+            "t": "A thread-like structure",
+            "k": "h",
+            "zh": "•最大的細胞器，它含有細胞的脫氧核糖核酸（ DNA ）/染色體，用於蛋白質合成"
+          },
+          {
+            "t": "• Surrounded by nuclear membranes composed of DNA and histone proteins, which",
+            "k": "li",
+            "zh": "•周圍環繞著由DNA和組蛋白組成的核膜，"
+          },
+          {
+            "t": "around a fluid nucleoplasm, is the control condenses into visible chromosomes during cell division. center of the cell. synthesizing ribosomal RNA",
+            "k": "p",
+            "zh": "在流體核質周圍，是對照在細胞分裂期間凝結成可見的染色體。"
+          },
+          {
+            "t": "• Functions: (rRNA)",
+            "k": "li",
+            "zh": "•功能： （ rRNA ）"
+          },
+          {
+            "t": "• Direct the cell’s activities",
+            "k": "li",
+            "zh": "•指揮細胞的活動"
+          },
+          {
+            "t": "• Contains genetic information for protein synthesis",
+            "k": "li",
+            "zh": "•包含蛋白質合成的遺傳資訊"
+          }
+        ],
+        "img": "assets/slides/L1/026.webp"
+      },
+      {
+        "n": 27,
+        "blocks": [
+          {
+            "t": "• Mitochondrion 粒線體",
+            "k": "li",
+            "zh": "4.線粒體 粒線體"
+          },
+          {
+            "t": "• Mitochondria (plural)",
+            "k": "li",
+            "zh": "•線粒體（複數）"
+          },
+          {
+            "t": "• No. of mitochondria in the cell depends on the cell’s energy needs",
+            "k": "li",
+            "zh": "•細胞中的線粒體數量取決於細胞的能量需求"
+          },
+          {
+            "t": "• Typically round to oval in shape and range in size from 0.5 to 10 μm",
+            "k": "li",
+            "zh": "•形狀通常為圓形至橢圓形，尺寸範圍為0.5至10 μm"
+          },
+          {
+            "t": "• Bound (包圍) by two membranes",
+            "k": "li",
+            "zh": "包圍) by two membranes"
+          },
+          {
+            "t": "• Outer membrane → smooth",
+            "k": "li",
+            "zh": "•外膜→光滑"
+          },
+          {
+            "t": "• Inner membrane → deeply folded",
+            "k": "li",
+            "zh": "•內膜→深層折疊"
+          },
+          {
+            "t": "• Function: Release energy from food molecules and transform energy into ATP",
+            "k": "li",
+            "zh": "•功能：從食物分子中釋放能量，並將能量轉化為ATP"
+          }
+        ],
+        "img": "assets/slides/L1/027.webp"
+      },
+      {
+        "n": 28,
+        "blocks": [
+          {
+            "t": "• Endoplasmic Reticulum (ER)",
+            "k": "li",
+            "zh": "5.內質網（ ER ） 內質網"
+          },
+          {
+            "t": "內質網",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "• A network of interconnected membrane throughout the cytoplasm",
+            "k": "li",
+            "zh": "•整個細胞質的互連膜網絡"
+          },
+          {
+            "t": "• 2 types of ER:",
+            "k": "li",
+            "zh": "• 2種急診室類型："
+          },
+          {
+            "t": "• Rough ER (RER)",
+            "k": "li",
+            "zh": "•粗略ER （ RER ）"
+          },
+          {
+            "t": "• Area of ER where ribosomes attached",
+            "k": "li",
+            "zh": "•核糖體附著的急診室區域"
+          },
+          {
+            "t": "• Helps to synthesize proteins made by ribosomes",
+            "k": "li",
+            "zh": "•有助於合成由核糖體製成的蛋白質"
+          },
+          {
+            "t": "• Smooth ER (SER)",
+            "k": "li",
+            "zh": "• Smooth ER （ SER ）"
+          },
+          {
+            "t": "• Area of ER where NO ribosomes attached",
+            "k": "li",
+            "zh": "•沒有核糖體附著的急診室區域"
+          },
+          {
+            "t": "• Helps to synthesize and metabolize carbohydrates, lipids & other nonprotein materials",
+            "k": "li",
+            "zh": "•有助於合成和代謝碳水化合物、脂質和其他非蛋白質物質"
+          }
+        ],
+        "img": "assets/slides/L1/028.webp"
+      },
+      {
+        "n": 29,
+        "blocks": [
+          {
+            "t": "FUNCTIONS OF CELL ORGANELLES",
+            "k": "h",
+            "zh": "細胞器的功能"
+          },
+          {
+            "t": "Organelle / component Function",
+            "k": "h",
+            "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+          },
+          {
+            "t": "Plasma (cell) membrane Controls materials in and out of cell",
+            "k": "h",
+            "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+          },
+          {
+            "t": "Cytoplasm Serves as matrix substance for chemical reactions to occur",
+            "k": "h",
+            "zh": "•作為發生化學反應基質物質的基質物質"
+          },
+          {
+            "t": "Endoplasmic reticulum (ER) Rough ER: Assist protein synthesis",
+            "k": "h",
+            "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+          },
+          {
+            "t": "Smooth ER: Metabolize nonpolar compound",
+            "k": "h",
+            "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+          },
+          {
+            "t": "Ribosome Protein synthesis",
+            "k": "h",
+            "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+          },
+          {
+            "t": "Golgi Complex Synthesize carbohydrate and pack molecules for secretion",
+            "k": "h",
+            "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+          },
+          {
+            "t": "Mitochondrion Transform energy from food to ATP",
+            "k": "h",
+            "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+          },
+          {
+            "t": "Lysosome Digest foreign molecules, and worn and damaged organelles",
+            "k": "h",
+            "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+          },
+          {
+            "t": "Nucleus Contains genetic information and directs cellullar activity",
+            "k": "h",
+            "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+          },
+          {
+            "t": "Nuclear membrane Control material in and out of the nucleus",
+            "k": "h",
+            "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+          },
+          {
+            "t": "Nucleolus Produce ribosomal RNA for ribosomes",
+            "k": "h",
+            "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+          }
+        ],
+        "img": "assets/slides/L1/029.webp"
+      },
+      {
+        "n": 30,
+        "blocks": [
+          {
+            "t": "Levels of Organization in the Body",
+            "k": "h",
+            "zh": "身體中的組織層級"
+          }
+        ],
+        "img": "assets/slides/L1/030.webp"
+      },
+      {
+        "n": 31,
+        "blocks": [
+          {
+            "t": "Levels of Organization in the Body",
+            "k": "h",
+            "zh": "身體中的組織層級"
+          },
+          {
+            "t": "• Chemical",
+            "k": "li",
+            "zh": "化学物质"
+          },
+          {
+            "t": "• Atoms combined to form molecules",
+            "k": "li",
+            "zh": "•結合形成分子的原子"
+          },
+          {
+            "t": "• Cell",
+            "k": "li",
+            "zh": "細胞"
+          },
+          {
+            "t": "• Cells are made of molecules",
+            "k": "li",
+            "zh": "•細胞由分子組成"
+          },
+          {
+            "t": "• Tissue",
+            "k": "li",
+            "zh": "組織"
+          },
+          {
+            "t": "• Consists of similar types of cells",
+            "k": "li",
+            "zh": "•由類似類型的細胞組成"
+          },
+          {
+            "t": "• Organ",
+            "k": "li",
+            "zh": "器官"
+          },
+          {
+            "t": "• Made up of different types of tissues",
+            "k": "li",
+            "zh": "•由不同類型的組織組成"
+          },
+          {
+            "t": "• (Organ) System",
+            "k": "li",
+            "zh": "器官系統"
+          },
+          {
+            "t": "• Consists of different organs that work closely together",
+            "k": "li",
+            "zh": "•由密切合作的不同器官組成"
+          },
+          {
+            "t": "• Organism",
+            "k": "li",
+            "zh": "生物"
+          },
+          {
+            "t": "• Made up of the organ systems",
+            "k": "li",
+            "zh": "•由器官系統組成"
+          }
+        ],
+        "img": "assets/slides/L1/031.webp"
+      },
+      {
+        "n": 32,
+        "blocks": [
+          {
+            "t": "The Types of Tissue",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "• Muscle tissue - contracts to initiate movement in the body",
+            "k": "li",
+            "zh": "1.肌肉組織-收縮以啟動身體運動"
+          },
+          {
+            "t": "• Nervous tissue - transmits and integrates information through the central and peripheral nervous systems",
+            "k": "li",
+            "zh": "2.神經組織-通過中樞和周圍神經系統傳輸和整合信息"
+          },
+          {
+            "t": "• Epithelial tissue - creates protective boundaries and is involved in the diffusion of ions and molecules",
+            "k": "li",
+            "zh": "3.上皮組織-產生保護邊界，並參與離子和分子的擴散"
+          },
+          {
+            "t": "• Connective tissue - underlies and supports other tissue types",
+            "k": "li",
+            "zh": "4.結締組織-基礎和支撐其他組織類型"
+          }
+        ],
+        "img": "assets/slides/L1/032.webp"
+      },
+      {
+        "n": 33,
+        "blocks": [
+          {
+            "t": "• Muscle Tissue肌肉組織 Skeletal muscle",
+            "k": "li",
+            "zh": "肌肉組織 Skeletal muscle"
+          },
+          {
+            "t": "• For contraction",
+            "k": "li",
+            "zh": "•收縮時"
+          },
+          {
+            "t": "• Types",
+            "k": "li",
+            "zh": "Types"
+          },
+          {
+            "t": "• Skeletal– attached to bones at both end by tendons",
+            "k": "li",
+            "zh": "•骨骼-通過肌腱附著在兩端的骨骼上"
+          },
+          {
+            "t": "• Cardiac- heart",
+            "k": "li",
+            "zh": "•心臟-心臟"
+          },
+          {
+            "t": "• Smooth– digestive tract, blood vessels, urinary and reproductive systems Cardiac muscle",
+            "k": "li",
+            "zh": "•平滑消化道、血管、泌尿和生殖系統心肌"
+          },
+          {
+            "t": "Smooth muscle",
+            "k": "h",
+            "zh": "平滑肌"
+          }
+        ],
+        "img": "assets/slides/L1/033.webp"
+      },
+      {
+        "n": 34,
+        "blocks": [
+          {
+            "t": "• Nervous Tissue 神經組織",
+            "k": "li",
+            "zh": "2.神經組織-通過中樞和周圍神經系統傳輸和整合信息"
+          },
+          {
+            "t": "• Composed of neurons 神經元 (nerve cells) and supporting cells",
+            "k": "li",
+            "zh": "•由神經元神經元（神經細胞）和支援細胞組成"
+          },
+          {
+            "t": "• Neuron: for generation and conduction of electrical events and neural signals",
+            "k": "li",
+            "zh": "•神經元：用於產生和傳導電子事件和神經信號"
+          },
+          {
+            "t": "• Supporting cells: support neurons",
+            "k": "li",
+            "zh": "•支持細胞：支持神經元"
+          }
+        ],
+        "img": "assets/slides/L1/034.webp"
+      },
+      {
+        "n": 35,
+        "blocks": [
+          {
+            "t": "• Epithelial tissue 上皮組織",
+            "k": "li",
+            "zh": "3.上皮組織-產生保護邊界，並參與離子和分子的擴散"
+          },
+          {
+            "t": "• Two categories: epithelial membrane and glands",
+            "k": "li",
+            "zh": "•兩類：上皮膜和腺體"
+          },
+          {
+            "t": "• Epithelial membrane",
+            "k": "li",
+            "zh": "•上皮膜"
+          },
+          {
+            "t": "• One cell layer (simple membrane) or multiple layers (stratified membrane) which cover the body surfaces and line the cavity (lumen) of hollow organs",
+            "k": "li",
+            "zh": "•一層細胞層（單層膜）或多層（分層膜）覆蓋身體表面，並排列空心器官的腔（管腔）"
+          },
+          {
+            "t": "• Three types based on their cell shape:",
+            "k": "li",
+            "zh": "•基於細胞形狀的三種類型："
+          },
+          {
+            "t": "• Squamous epithelium: a single layer of flat cells used for easy diffusion and filtration e.g. capillary walls, pulmonary alveoli, epidermis of skin",
+            "k": "li",
+            "zh": "•鱗狀上皮：單層扁平細胞，用於容易擴散和過濾，例如毛細血管壁、肺泡、皮膚表皮"
+          },
+          {
+            "t": "• Cuboidal epithelium: a single layer of cube-shaped cells used for secretion and absorption e.g. lining of kidney tubules, ducts of exocrine glands",
+            "k": "li",
+            "zh": "•立方上皮：單層立方形細胞，用於分泌和吸收，例如腎小管內膜、外分泌腺管"
+          },
+          {
+            "t": "• Columnar epithelium: a single layer of tall, thick cells often with microvilli used for absorption and secretion e.g. lining of digestive tract",
+            "k": "li",
+            "zh": "•柱狀上皮：單層高而厚的細胞，通常有微絨毛用於吸收和分泌，例如消化道內膜"
+          },
+          {
+            "t": "• Allow constant loss and renewal of cells",
+            "k": "li",
+            "zh": "•允許細胞不斷丟失和更新"
+          }
+        ],
+        "img": "assets/slides/L1/035.webp"
+      },
+      {
+        "n": 36,
+        "blocks": [
+          {
+            "t": "• Connective tissue 結締組織",
+            "k": "li",
+            "zh": "4.結締組織-基礎和支撐其他組織類型"
+          },
+          {
+            "t": "• Consists of connective tissue cells and large amount of extracellular material in the spaces between cells",
+            "k": "li",
+            "zh": "•由結締組織細胞和細胞間隙中的大量細胞外物質組成"
+          },
+          {
+            "t": "• Different types of connective tissue:",
+            "k": "li",
+            "zh": "•不同類型的結締組織："
+          },
+          {
+            "t": "• Connective tissue proper, contain matrix of collagen and tissue fluid",
+            "k": "li",
+            "zh": "•結締組織本身，含有膠原蛋白和組織液基質"
+          },
+          {
+            "t": "• Loose connective tissue (or areolar tissue) e.g. dermis of skin",
+            "k": "li",
+            "zh": "•鬆散的結締組織（或乳暈組織） ，例如皮膚真皮"
+          },
+          {
+            "t": "• Dense connective tissue e.g. tendon, ligament",
+            "k": "li",
+            "zh": "•致密的結締組織，例如肌腱、韌帶"
+          },
+          {
+            "t": "• Supporting connective tissue:",
+            "k": "li",
+            "zh": "支持結締組織"
+          },
+          {
+            "t": "• Cartilage, contain matrix of collagen",
+            "k": "li",
+            "zh": "•軟骨，含有膠原蛋白基質"
+          },
+          {
+            "t": "• Bone, contain matrix of collagen and calcium phosphate",
+            "k": "li",
+            "zh": "•骨骼，含有膠原蛋白和磷酸鈣基質"
+          },
+          {
+            "t": "• Fluid Connective Tissue:",
+            "k": "li",
+            "zh": "•液體結締組織："
+          },
+          {
+            "t": "• Blood, contain matrix of plasma",
+            "k": "li",
+            "zh": "•血液，含有血漿基質"
+          },
+          {
+            "t": "• Adipose tissue, specialized connective tissue contains numerous fat globules",
+            "k": "li",
+            "zh": "（參考／來源）"
+          }
+        ],
+        "img": "assets/slides/L1/036.webp"
+      },
+      {
+        "n": 37,
+        "blocks": [
+          {
+            "t": "Connective Tissue",
+            "k": "h",
+            "zh": "4.結締組織-基礎和支撐其他組織類型"
+          }
+        ],
+        "img": "assets/slides/L1/037.webp"
+      },
+      {
+        "n": 38,
+        "blocks": [
+          {
+            "t": "• Circulatory system • Immune system",
+            "k": "li",
+            "zh": "•循環系統•免疫系統"
+          },
+          {
+            "t": "• Cardiovascular system • Sensory system",
+            "k": "li",
+            "zh": "•心血管系統•感官系統"
+          },
+          {
+            "t": "• Lymphatic system",
+            "k": "li",
+            "zh": "淋巴系統"
+          },
+          {
+            "t": "• Nervous system",
+            "k": "li",
+            "zh": "神經系統"
+          },
+          {
+            "t": "• Respiratory system • Endocrine system",
+            "k": "li",
+            "zh": "•呼吸系統•內分泌系統"
+          },
+          {
+            "t": "• Digestive system • Reproductive system",
+            "k": "li",
+            "zh": "•消化系統•生殖系統"
+          },
+          {
+            "t": "• Urinary system",
+            "k": "li",
+            "zh": "- 泌尿系統"
+          },
+          {
+            "t": "• Integumentary system",
+            "k": "li",
+            "zh": "•整合系統"
+          },
+          {
+            "t": "• Musculoskeletal system",
+            "k": "li",
+            "zh": "•肌肉骨骼系統"
+          },
+          {
+            "t": "• Muscular system",
+            "k": "li",
+            "zh": "•肌肉系統"
+          },
+          {
+            "t": "• Skeletal system",
+            "k": "li",
+            "zh": "•骨骼系統"
+          },
+          {
+            "t": "The human body is a complex system. The structures in the body work in concert to maintain homeostasis, a balance in the body’s internal environment. 38 / 54",
+            "k": "p",
+            "zh": "人體是一個複雜的系統。身體的結構協同工作，以維持體內平衡，即身體內部環境的平衡。"
+          }
+        ],
+        "img": "assets/slides/L1/038.webp"
+      },
+      {
+        "n": 39,
+        "blocks": [
+          {
+            "t": "Gene（基因）",
+            "k": "h",
+            "zh": "Gene （基因基因）"
+          }
+        ],
+        "img": "assets/slides/L1/039.webp"
+      },
+      {
+        "n": 40,
+        "blocks": [
+          {
+            "t": "Genes Chromosomes",
+            "k": "h",
+            "zh": "基因染色體"
+          },
+          {
+            "t": "Gene • segments of DNA , estimated",
+            "k": "h",
+            "zh": "Gene （基因基因）"
+          },
+          {
+            "t": "20,000 genes in human.",
+            "k": "p",
+            "zh": "基因• DNA片段，人類中估計有20,000個基因。"
+          },
+          {
+            "t": "• long strings of DNA",
+            "k": "li",
+            "zh": "•長串DNA"
+          },
+          {
+            "t": "• wrapped around special proteins (histones)",
+            "k": "li",
+            "zh": "•包裹在特殊蛋白質（組織蛋白）周圍"
+          },
+          {
+            "t": "• instructions for genetic trait (e.g. • appear in pairs: 23 pairs of chromosomes, your hair color, eye color and body for a total of 46 chromosomes.",
+            "k": "li",
+            "zh": "•遺傳特徵說明（例如•成對出現： 23對染色體、您的頭髮顏色、眼睛顏色和身體，共46條染色體。"
+          },
+          {
+            "t": "• Genes are the functional units of heredity. height) and making proteins.",
+            "k": "li",
+            "zh": "•基因是遺傳（身高）和製造蛋白質的功能單位。"
+          },
+          {
+            "t": "• Heredity is the transmission of genetic traits from parent to offspring (such as height, eye color, and hair color).",
+            "k": "li",
+            "zh": "•遺傳是從父母到後代的遺傳特徵（如身高、眼睛顏色和頭髮顏色）的傳播。"
+          },
+          {
+            "t": "• Each gene is a segment of DNA (Deoxyribonucleic acid) that specifies the structure of an RNA (Ribonucleic acid) molecule.",
+            "k": "li",
+            "zh": "•每個基因是指定RNA （核糖核酸）分子結構的DNA （脫氧核糖核酸）片段。"
+          },
+          {
+            "t": "• The RNA produced can be:",
+            "k": "li",
+            "zh": "•產生的RNA可以是："
+          },
+          {
+            "t": "• Functional on its own (e.g., tRNA, rRNA), or",
+            "k": "li",
+            "zh": "•本身具有功能（例如， tRNA、rRNA ） ，或"
+          },
+          {
+            "t": "• Used to produce a protein (via mRNA).",
+            "k": "li",
+            "zh": "•用於產生蛋白質（通過mRNA ）。"
+          },
+          {
+            "t": "• The process of producing RNA and/or proteins from DNA is called gene expression.",
+            "k": "li",
+            "zh": "•從DNA產生RNA和/或蛋白質的過程稱為基因表達。"
+          },
+          {
+            "t": "• Gene expression that leads to protein production involves two main steps:",
+            "k": "li",
+            "zh": "•導致蛋白質產生的基因表達涉及兩個主要步驟："
+          },
+          {
+            "t": "• Transcription: DNA → RNA (occurs in the nucleus)",
+            "k": "li",
+            "zh": "•轉錄： DNA → RNA （發生在細胞核中）"
+          },
+          {
+            "t": "• Translation: RNA → Protein (occurs in the cytoplasm at ribosomes)",
+            "k": "li",
+            "zh": "•翻譯： RNA→蛋白（發生在核糖體的細胞質中） DNA （脫氧核糖核酸）和RNA （核糖核酸）的大體結構"
+          }
+        ],
+        "img": "assets/slides/L1/040.webp"
+      },
+      {
+        "n": 41,
+        "blocks": [
+          {
+            "t": "Gross structure of DNA (Deoxyribonucleic Acid) &",
+            "k": "h",
+            "zh": "•翻譯： RNA→蛋白（發生在核糖體的細胞質中） DNA （脫氧核糖核酸）和RNA （核糖核酸）的大體結構"
+          },
+          {
+            "t": "RNA (Ribonucleic Acid)",
+            "k": "h",
+            "zh": "•當能量需求增加時， RNA （核糖核酸）核糖核酸糖原被分解成葡萄糖並用作能量"
+          },
+          {
+            "t": "• For eukaryotic cells, DNA usually found in nucleus while RNA found in BOTH in and out of the nucleus",
+            "k": "li",
+            "zh": "•對於真核細胞，通常在細胞核中發現DNA ，而在細胞核RNA內外發現RNA"
+          },
+          {
+            "t": "RNA",
+            "k": "h",
+            "zh": "•能量儲存• DNA和RNA的成分"
+          },
+          {
+            "t": "• single stranded • For prokaryotic cells (no TRUE nucleus), both DNA and RNA are nucleic acids as biomolecule",
+            "k": "li",
+            "zh": "•單鏈•對於原核細胞（無真核） ， DNA和RNA都是作為生物分子的核酸"
+          },
+          {
+            "t": "• facilitate protein synthesis from DNA.",
+            "k": "li",
+            "zh": "•促進從DNA合成蛋白質。"
+          },
+          {
+            "t": "• with Uracil, without Thymine.",
+            "k": "li",
+            "zh": "•使用尿嘧啶，不含胸腺嘧啶。"
+          },
+          {
+            "t": "DNA",
+            "k": "h",
+            "zh": "Dna"
+          },
+          {
+            "t": "• double helix form.",
+            "k": "li",
+            "zh": "•雙螺旋形式。"
+          },
+          {
+            "t": "• 2 strands (backbone) connected by hydrogen bonds.",
+            "k": "li",
+            "zh": "•由氫鍵連接的2股（骨架）。"
+          },
+          {
+            "t": "• long sequence of 4 nucleotides. (in pair of T - A and C – G)",
+            "k": "li",
+            "zh": "• 4個核苷酸的長序列。（在T - A和C – G對中）"
+          },
+          {
+            "t": "• contains genetic code to determine the function and development of an organism.",
+            "k": "li",
+            "zh": "•包含遺傳密碼，以確定生物體的功能和發育。"
+          },
+          {
+            "t": "DNA 41 / 54",
+            "k": "h",
+            "zh": ""
+          }
+        ],
+        "img": "assets/slides/L1/041.webp"
+      },
+      {
+        "n": 42,
+        "blocks": [
+          {
+            "t": "Protein Synthesis蛋白質合成",
+            "k": "h",
+            "zh": "蛋白質合成"
+          },
+          {
+            "t": "• The process of cells to generate proteins using the information encoded in DNA (Deoxyribonucleic acid)",
+            "k": "li",
+            "zh": "•細胞使用DNA （脫氧核糖核酸）中編碼的信息生成蛋白質的過程"
+          },
+          {
+            "t": "• Both DNA and RNA are involved",
+            "k": "li",
+            "zh": "• DNA和RNA都涉及"
+          },
+          {
+            "t": "• Two main steps:",
+            "k": "li",
+            "zh": "•兩個主要步驟："
+          },
+          {
+            "t": "• Transcription occurs in the nucleus.",
+            "k": "li",
+            "zh": "轉譯"
+          },
+          {
+            "t": "• Translation carried out in ribosomes",
+            "k": "li",
+            "zh": "（見英文原文）"
+          }
+        ],
+        "img": "assets/slides/L1/042.webp"
+      },
+      {
+        "n": 43,
+        "blocks": [
+          {
+            "t": "Protein synthesis (continue) https://www.youtube.com/watch?v=gG7uCskUOrA",
+            "k": "p",
+            "zh": "蛋白質合成"
+          },
+          {
+            "t": "Transcription",
+            "k": "h",
+            "zh": "轉譯"
+          },
+          {
+            "t": "• DNA is used as a template to make a messenger",
+            "k": "li",
+            "zh": "Dna"
+          },
+          {
+            "t": "RNA molecule (mRNA).",
+            "k": "p",
+            "zh": "• DNA用作制造信使RNA分子（ mRNA ）的模板。"
+          },
+          {
+            "t": "• The mRNA thus formed",
+            "k": "li",
+            "zh": "•由此形成的mRNA"
+          },
+          {
+            "t": "• exits the nucleus through a nuclear pore",
+            "k": "li",
+            "zh": "•通過核孔離開核"
+          },
+          {
+            "t": "• travels to the ribosome for the next step, translation.",
+            "k": "li",
+            "zh": "•前往核糖體進行下一步，翻譯。"
+          },
+          {
+            "t": "Translation",
+            "k": "h",
+            "zh": "（見英文原文）"
+          },
+          {
+            "t": "• genetic code in mRNA is read to make the amino acids,",
+            "k": "li",
+            "zh": "•讀取mRNA中的遺傳密碼以製造氨基酸，"
+          },
+          {
+            "t": "• which are linked together in a particular order based on the genetic code, forming protein.",
+            "k": "li",
+            "zh": "•根據遺傳密碼以特定順序連接在一起，形成蛋白質。"
+          }
+        ],
+        "img": "assets/slides/L1/043.webp"
+      },
+      {
+        "n": 44,
+        "blocks": [
+          {
+            "t": "Protein Synthesis蛋白質合成",
+            "k": "h",
+            "zh": "蛋白質合成"
+          },
+          {
+            "t": "• Transcription occurs in the nucleus. During this process, information stored in a segment of DNA is used to produce a complementary RNA molecule, called messenger RNA (mRNA).",
+            "k": "li",
+            "zh": "•轉錄發生在細胞核中。在此過程中，儲存在DNA片段中的信息被用於產生互補的RNA分子，稱為信使RNA （ mRNA ）。"
+          },
+          {
+            "t": "• The mRNA molecule moves to the ribosomes in the cytoplasm, where translation occurs. During this process, the nucleotide sequence of the mRNA is used to determine the composition of a polypeptide chain, a precursor to a protein.",
+            "k": "li",
+            "zh": "• mRNA分子移動到細胞質中的核糖體，在那裡發生翻譯。在此過程中， mRNA的核苷酸序列用於確定多肽鏈的組成，多肽鏈是蛋白質的前體。"
+          },
+          {
+            "t": "Overview of Gene Expression",
+            "k": "h",
+            "zh": "基因表達概述"
+          },
+          {
+            "t": "Gene expression occurs in two steps: transcription, which occurs in the nucleus, and translation, which occurs in the cytoplasm at ribosomes.",
+            "k": "p",
+            "zh": "基因表達發生在兩個步驟：轉錄（發生在核中）和翻譯（發生在核糖體的細胞質中）。"
+          }
+        ],
+        "img": "assets/slides/L1/044.webp"
+      },
+      {
+        "n": 45,
+        "blocks": [
+          {
+            "t": "Regulation of Gene Expression 基因表達調控",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "Regulation of gene expression by a hormone receptor",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "• All body cells have the same DNA, but not all genes are active in every cell.",
+            "k": "li",
+            "zh": "•所有身體細胞都具有相同的DNA ，但並非所有基因在每個細胞中都具有活性。"
+          },
+          {
+            "t": "• Transcription is regulated so that only necessary genes are expressed in each cell type.",
+            "k": "li",
+            "zh": "•轉錄受到調節，以便在每種細胞類型中僅表達必要的基因。"
+          },
+          {
+            "t": "• Nuclear proteins associated with DNA help control which genes are transcribed.",
+            "k": "li",
+            "zh": "•與DNA相關的核蛋白有助於控制哪些基因被轉錄。"
+          },
+          {
+            "t": "• During cell differentiation, some DNA segments become inactive, while others become more active.",
+            "k": "li",
+            "zh": "•在細胞分化過程中，一些DNA片段變得不活躍，而另一些則變得更加活躍。"
+          },
+          {
+            "t": "• e.g. Hemoglobin genes are active in developing red blood cells but inactive in most other cells.",
+            "k": "li",
+            "zh": "•例如，血紅蛋白基因在發育紅細胞中具有活性，但在大多數其他細胞中無活性。"
+          },
+          {
+            "t": "• Gene expression fluctuates in response to internal and external signals.",
+            "k": "li",
+            "zh": "•基因表達會因應內部和外部信號而波動。"
+          },
+          {
+            "t": "• Regulatory molecules can increase or decrease transcription rates by interacting with nuclear proteins.",
+            "k": "li",
+            "zh": "•調節分子可以通過與核蛋白相互作用來增加或降低轉錄率。"
+          },
+          {
+            "t": "• Example: Triiodothyronine (T3) hormone:",
+            "k": "li",
+            "zh": "•示例：三碘甲狀腺原氨酸（ T3 ）激素："
+          },
+          {
+            "t": "• Enters cells (e.g., skeletal muscle cells).",
+            "k": "li",
+            "zh": "•進入細胞（例如骨骼肌細胞）。"
+          },
+          {
+            "t": "• Binds to nuclear proteins.",
+            "k": "li",
+            "zh": "•與核蛋白結合。"
+          },
+          {
+            "t": "• Increases transcription of specific genes.",
+            "k": "li",
+            "zh": "•增加特定基因的轉錄。"
+          },
+          {
+            "t": "• Leads to more protein production, more mitochondria, and increased metabolism.",
+            "k": "li",
+            "zh": "•導致更多的蛋白質產生、更多的線粒體和增加的新陳代謝。"
+          }
+        ],
+        "img": "assets/slides/L1/045.webp"
+      },
+      {
+        "n": 46,
+        "blocks": [
+          {
+            "t": "DNA Replication Replication of DNA",
+            "k": "h",
+            "zh": "Dna"
+          },
+          {
+            "t": "Replication during the S phase of interphase produces two identical",
+            "k": "h",
+            "zh": "DNA複製間期S期DNA複製的複製產生兩個相同的"
+          },
+          {
+            "t": "(DNA複製) molecules of DNA.",
+            "k": "p",
+            "zh": "複製) molecules of DNA"
+          },
+          {
+            "t": "• During interphase, DNA appears as dispersed chromatin in the nucleus.",
+            "k": "li",
+            "zh": "•在間期， DNA以分散染色質的形式出現在細胞核中。"
+          },
+          {
+            "t": "• Replication begins when the two strands of each DNA molecule separate.",
+            "k": "li",
+            "zh": "•當每個DNA分子的兩條鏈分開時開始複製。"
+          },
+          {
+            "t": "• Each original strand serves as a template for a new complementary strand.",
+            "k": "li",
+            "zh": "•每條原始股線作為新的互補股線的模板。"
+          },
+          {
+            "t": "• Complementary nucleotides pair with the nucleotides on each template strand.",
+            "k": "li",
+            "zh": "•互補核苷酸與每條模板鏈上的核苷酸配對。"
+          },
+          {
+            "t": "• The result is two identical DNA molecules.",
+            "k": "li",
+            "zh": "•結果是兩個相同的DNA分子。"
+          },
+          {
+            "t": "• Each new DNA molecule contains:",
+            "k": "li",
+            "zh": "•每種新的DNA分子都含有："
+          },
+          {
+            "t": "• One original strand (from the parent DNA).",
+            "k": "li",
+            "zh": "•一條原始鏈（來自親代DNA ）。"
+          },
+          {
+            "t": "• One newly synthesized strand.",
+            "k": "li",
+            "zh": "•一條新合成的鏈。"
+          }
+        ],
+        "img": "assets/slides/L1/046.webp"
+      },
+      {
+        "n": 47,
+        "blocks": [
+          {
+            "t": "Cell Division 細胞分裂",
+            "k": "h",
+            "zh": "細胞分裂"
+          }
+        ],
+        "img": "assets/slides/L1/047.webp"
+      },
+      {
+        "n": 48,
+        "blocks": [
+          {
+            "t": "Cell Division",
+            "k": "h",
+            "zh": "細胞分裂"
+          },
+          {
+            "t": "◼ All organisms require a continuous supply of new cells due to tear and wear:",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "➢ For growth",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "➢ For development",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "➢ For repair or replace",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "➢ For reproduce繁殖",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "◼ Cell must double its mass and content in growth phase, called “interphase” before cell division (means cell reproduction)",
+            "k": "p",
+            "zh": "細胞"
+          },
+          {
+            "t": "◼ Mitosis有絲分裂",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "◼ Meiosis減數分裂",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "◼ Chromosomes染色體 contain genetic materials in a cell",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "◼ DNA replicate複製(過程) and duplicate 複製(結果) during 4 stages:",
+            "k": "h",
+            "zh": "Dna"
+          },
+          {
+            "t": "➢ Prophase",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "➢ Metaphase",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "➢ Anaphase",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "➢ Telophase",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          }
+        ],
+        "img": "assets/slides/L1/048.webp"
+      },
+      {
+        "n": 49,
+        "blocks": [
+          {
+            "t": "Cell Division",
+            "k": "h",
+            "zh": "細胞分裂"
+          },
+          {
+            "t": "Mitosis",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "• replication and duplication forms genetically identical cells",
+            "k": "li",
+            "zh": "•複製和複製形式基因相同的細胞"
+          },
+          {
+            "t": "• almost all the body’s cells, including eyes, skin, hair, and muscle cell.",
+            "k": "li",
+            "zh": "•幾乎所有身體細胞，包括眼睛、皮膚、毛髮和肌肉細胞。"
+          },
+          {
+            "t": "• growth & repair",
+            "k": "li",
+            "zh": "•生長和修復減數分裂"
+          },
+          {
+            "t": "Meiosis",
+            "k": "h",
+            "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+          },
+          {
+            "t": "• replication and duplication forms genetically different cells",
+            "k": "li",
+            "zh": "•複製和複製形成遺傳上不同的細胞"
+          },
+          {
+            "t": "• division of cell nucleus to form two daughter cells",
+            "k": "li",
+            "zh": "•細胞核分裂形成兩個子細胞"
+          },
+          {
+            "t": "• produces cells that are genetically unique from the parent and contain only half DNA",
+            "k": "li",
+            "zh": "•產生從親本基因上獨特且僅含有一半DNA的細胞"
+          },
+          {
+            "t": "• reproduction https://medlineplus.gov/genetics/understanding/howgeneswork/cellsdivide/",
+            "k": "li",
+            "zh": "繁殖"
+          }
+        ],
+        "img": "assets/slides/L1/049.webp"
+      },
+      {
+        "n": 50,
+        "blocks": [
+          {
+            "t": "Cell Death",
+            "k": "h",
+            "zh": "細胞死亡凋亡細胞凋亡–細胞的自然死亡過程"
+          },
+          {
+            "t": "Apoptosis細胞凋亡 – natural death process of cells",
+            "k": "h",
+            "zh": "細胞死亡凋亡細胞凋亡–細胞的自然死亡過程"
+          },
+          {
+            "t": "• e.g. a few days of cell life in our digestive tract.",
+            "k": "li",
+            "zh": "•例如，在我們的消化道中進行幾天的細胞生活。"
+          },
+          {
+            "t": "• e.g. over 2 million RBCs are replaced every second.",
+            "k": "li",
+            "zh": "•例如，每秒更換超過200萬個紅細胞。"
+          },
+          {
+            "t": "• e.g. nerve cells in the brain and spinal cord, that do not reproduce at all.",
+            "k": "li",
+            "zh": "•例如大腦和脊髓中的神經細胞，完全無法繁殖。"
+          },
+          {
+            "t": "Necrosis細胞壞死 – unnatural death of cells.",
+            "k": "p",
+            "zh": "壞死細胞壞死–細胞的非自然死亡。"
+          },
+          {
+            "t": "• e.g. due to disease or injury",
+            "k": "li",
+            "zh": "•例如，由於疾病或傷害導致的細胞凋亡"
+          }
+        ],
+        "img": "assets/slides/L1/050.webp"
+      },
+      {
+        "n": 51,
+        "blocks": [
+          {
+            "t": "Apoptosis",
+            "k": "h",
+            "zh": "•細胞分裂和凋亡"
+          },
+          {
+            "t": "• Apoptosis is a normal, regulated process of programmed cell death.",
+            "k": "li",
+            "zh": "•細胞凋亡是一個正常的、受調節的程序性細胞死亡過程。"
+          },
+          {
+            "t": "• It helps control cell numbers in tissues during development and adulthood.",
+            "k": "li",
+            "zh": "•它有助於控制發育和成年期組織中的細胞數量。"
+          },
+          {
+            "t": "• In fetal development胚胎發育, it removes extra tissue (e.g., cells between fingers and toes).",
+            "k": "li",
+            "zh": "•在胎兒發育中胚胎發育，它會去除多餘的組織（例如，手指和腳趾之間的細胞）。"
+          },
+          {
+            "t": "• In adult tissues, it maintains a stable number of cells.",
+            "k": "li",
+            "zh": "•在成人組織中，它保持穩定的細胞數量。"
+          },
+          {
+            "t": "• It also eliminates:",
+            "k": "li",
+            "zh": "•它還消除了："
+          },
+          {
+            "t": "• Damaged cells",
+            "k": "li",
+            "zh": "•細胞受損"
+          },
+          {
+            "t": "• Virus-infected cells",
+            "k": "li",
+            "zh": "•受病毒感染的細胞"
+          },
+          {
+            "t": "• Potential cancer cells",
+            "k": "li",
+            "zh": "•潛在的癌細胞"
+          },
+          {
+            "t": "• Immune cells can trigger apoptosis in harmful cells.",
+            "k": "li",
+            "zh": "•免疫細胞可觸發有害細胞的凋亡。"
+          }
+        ],
+        "img": "assets/slides/L1/051.webp"
+      },
+      {
+        "n": 52,
+        "blocks": [
+          {
+            "t": "Mechanism of Apoptosis",
+            "k": "h",
+            "zh": "凋亡的機制"
+          },
+          {
+            "t": "• Regulated by specific genes that code for apoptosis-related proteins.",
+            "k": "li",
+            "zh": "•由編碼凋亡相關蛋白的特定基因調節。"
+          },
+          {
+            "t": "• Some proteins are released from mitochondria into the cytosol.",
+            "k": "li",
+            "zh": "•一些蛋白質從線粒體釋放到細胞溶膠中。"
+          },
+          {
+            "t": "• These proteins activate other proteins that execute apoptosis.",
+            "k": "li",
+            "zh": "•這些蛋白激活其他執行細胞凋亡的蛋白質。"
+          },
+          {
+            "t": "• Key steps:",
+            "k": "li",
+            "zh": "•關鍵步驟："
+          },
+          {
+            "t": "• Chromatin condenses and fragments.",
+            "k": "li",
+            "zh": "•染色質濃縮物和碎片。"
+          },
+          {
+            "t": "• Nucleus fragments.",
+            "k": "li",
+            "zh": "•核碎片。"
+          },
+          {
+            "t": "• Cell dies and fragments.",
+            "k": "li",
+            "zh": "•細胞死亡和碎片。"
+          },
+          {
+            "t": "• Macrophages phagocytize (engulf and digest) the cell fragments.",
+            "k": "li",
+            "zh": "•巨噬細胞吞噬（吞噬和消化）細胞碎片。"
+          }
+        ],
+        "img": "assets/slides/L1/052.webp"
+      },
+      {
+        "n": 53,
+        "blocks": [
+          {
+            "t": "Martini, F., Nath, J. L., Bartholomew, E. F., Ober, W. C., & Ober, C. E. (2024). Fundamentals of anatomy and physiology (12th ed.). Pearson Education, Inc.",
+            "k": "p",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "VanPutte, C. L., Regan, J., & Russo, A. (2022). Seeley’s anatomy & physiology (13th edition.). New York, New York: McGraw-Hill Education.",
+            "k": "p",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "Welsh, C. J., Prentice-Craver, C., & Shier, D. (2021). Hole's essentials of human anatomy & physiology (14th ed.). McGraw-Hill Education. 53 / 54",
+            "k": "p",
+            "zh": "（參考／來源）"
+          }
+        ],
+        "img": "assets/slides/L1/053.webp"
+      },
+      {
+        "n": 54,
+        "blocks": [
+          {
+            "t": "Thank You!",
+            "k": "h",
+            "zh": "多謝！"
+          }
+        ],
+        "img": "assets/slides/L1/054.webp"
+      }
+    ],
     "blocks": [
+      {
+        "t": "Health and Life Sciences",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Higher Diploma in General Nursing for",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Enrolled Nurse (AS114218)",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Life Sciences (HHS4218)",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Lecture 1",
+        "k": "h",
+        "zh": ""
+      },
       {
         "t": "Introduction to Human Physiology I",
         "k": "h",
@@ -5316,7 +7758,7 @@ window.HAZEL_LECTURES = [
       {
         "t": "• Gene",
         "k": "li",
-        "zh": "基因"
+        "zh": "Gene （基因基因）"
       },
       {
         "t": "• Cell division and Apoptosis",
@@ -5324,7 +7766,12 @@ window.HAZEL_LECTURES = [
         "zh": "•細胞分裂和凋亡"
       },
       {
-        "t": "Learning outcomes: By the end of this lecture, students will be able to:",
+        "t": "Learning outcomes:",
+        "k": "h",
+        "zh": "模組預期學習成果（ MILO ） ："
+      },
+      {
+        "t": "By the end of this lecture, students will be able to:",
         "k": "h",
         "zh": "學習成果：在本課程結束時，學生將能夠："
       },
@@ -5354,9 +7801,14 @@ window.HAZEL_LECTURES = [
         "zh": "•描述細胞分裂和凋亡的過程。"
       },
       {
-        "t": "Anatomy and Physiology 解剖學與生理學",
+        "t": "Anatomy and Physiology",
         "k": "h",
         "zh": "解剖學與生理學"
+      },
+      {
+        "t": "解剖學與生理學",
+        "k": "h",
+        "zh": ""
       },
       {
         "t": "• Anatomy - the structures結構 that make up the body and how those structures relate with each other e.g. Structure of the Heart",
@@ -5379,38 +7831,53 @@ window.HAZEL_LECTURES = [
         "zh": "•生理學-身體及其部位的工作或功能，功能例如心臟如何泵送血液？"
       },
       {
-        "t": "Introduction 4 primary food substances are essential to maintain daily life of human",
+        "t": "Introduction",
+        "k": "h",
+        "zh": "人體生理學概論I"
+      },
+      {
+        "t": "4 primary food substances are essential to maintain daily life of human",
         "k": "p",
         "zh": "簡介4種主要食物物質對維持人類的日常生活至關重要"
       },
       {
-        "t": "1. Carbohydrates碳水化合物",
-        "k": "li",
-        "zh": "碳水化合物"
-      },
-      {
-        "t": "2. Lipids脂質",
-        "k": "li",
-        "zh": "2.脂質脂質"
-      },
-      {
-        "t": "3. Proteins蛋白質",
-        "k": "li",
-        "zh": "3.蛋白質蛋白質"
-      },
-      {
-        "t": "4. Water水",
-        "k": "li",
-        "zh": "4.水水"
-      },
-      {
-        "t": "1. Carbohydrates 碳水化合物/醣類/糖類",
+        "t": "• Carbohydrates碳水化合物",
         "k": "li",
         "zh": "碳水化合物/醣類/糖類"
       },
       {
-        "t": "• Organic food substances made up of carbon (C), hydrogen (H) & oxygen (O) atoms.",
+        "t": "• Lipids脂質",
         "k": "li",
+        "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
+      },
+      {
+        "t": "• Proteins蛋白質",
+        "k": "li",
+        "zh": "•蛋白質​"
+      },
+      {
+        "t": "• Water水",
+        "k": "li",
+        "zh": "•水"
+      },
+      {
+        "t": "• Carbohydrates",
+        "k": "li",
+        "zh": "碳水化合物/醣類/糖類"
+      },
+      {
+        "t": "碳水化合物/醣類/糖類",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "• Organic food substances made up of carbon (C), hydrogen (H)",
+        "k": "li",
+        "zh": "•由碳（ C ）、氫（ H ）和氧（ O ）原子組成的有機食品物質。"
+      },
+      {
+        "t": "& oxygen (O) atoms.",
+        "k": "p",
         "zh": "•由碳（ C ）、氫（ H ）和氧（ O ）原子組成的有機食品物質。"
       },
       {
@@ -5454,28 +7921,78 @@ window.HAZEL_LECTURES = [
         "zh": "由特性組成的類別範例"
       },
       {
-        "t": "• Major end-product of carbohydrate digestion Glucose (葡萄糖) -",
+        "t": "• Major end-product of carbohydrate digestion",
         "k": "li",
         "zh": "•碳水化合物消化的主要終產物葡萄糖（葡萄糖葡萄糖） -"
       },
       {
-        "t": "• Broken down during respiration to Monosaccharide release energy",
+        "t": "Glucose (葡萄糖) -",
+        "k": "h",
+        "zh": "•碳水化合物消化的主要終產物葡萄糖（葡萄糖葡萄糖） -"
+      },
+      {
+        "t": "• Broken down during respiration to",
         "k": "li",
         "zh": "•在呼吸過程中分解為單醣釋放能量"
       },
       {
-        "t": "• Sweetest simple sugar Fructose (果糖) -",
+        "t": "Monosaccharide release energy",
+        "k": "h",
+        "zh": "•在呼吸過程中分解為單醣釋放能量"
+      },
+      {
+        "t": "• Sweetest simple sugar",
         "k": "li",
         "zh": "•最甜的單糖果糖（果糖 ） -"
       },
       {
-        "t": "• Commonly found in fruit and honey Maltose (麥芽糖) Glucose + Glucose • Intermediate in the digestion of starch Disaccharide Sucrose (蔗糖) Glucose + Fructose • Commonly known as table sugar Starch (澱粉) Glucose • Major food reserve in plants Glycogen (糖原) Glucose • Major carbohydrate stored in animal Polysaccharide",
+        "t": "Fructose (果糖) -",
+        "k": "h",
+        "zh": "•最甜的單糖果糖（果糖 ） -"
+      },
+      {
+        "t": "• Commonly found in fruit and honey",
         "k": "li",
         "zh": "•常見於水果和蜂蜜麥芽糖（麥芽糖麥芽糖）葡萄糖+葡萄糖•澱粉二糖（蔗糖蔗糖）葡萄糖+果糖消化的中間體•俗稱食糖澱粉（澱粉澱粉）葡萄糖•植物中的主要食物儲備糖原（葡萄糖糖原） •動物多醣中儲存的主要碳水化合物"
       },
       {
-        "t": "• Makes up the cell wall of plants Cellulose (纖維素) Glucose",
+        "t": "Maltose (麥芽糖) Glucose + Glucose • Intermediate in the digestion of starch",
+        "k": "p",
+        "zh": "•常見於水果和蜂蜜麥芽糖（麥芽糖麥芽糖）葡萄糖+葡萄糖•澱粉二糖（蔗糖蔗糖）葡萄糖+果糖消化的中間體•俗稱食糖澱粉（澱粉澱粉）葡萄糖•植物中的主要食物儲備糖原（葡萄糖糖原） •動物多醣中儲存的主要碳水化合物"
+      },
+      {
+        "t": "Disaccharide",
+        "k": "h",
+        "zh": "•二糖（雙糖）"
+      },
+      {
+        "t": "Sucrose (蔗糖) Glucose + Fructose • Commonly known as table sugar",
+        "k": "h",
+        "zh": "•常見於水果和蜂蜜麥芽糖（麥芽糖麥芽糖）葡萄糖+葡萄糖•澱粉二糖（蔗糖蔗糖）葡萄糖+果糖消化的中間體•俗稱食糖澱粉（澱粉澱粉）葡萄糖•植物中的主要食物儲備糖原（葡萄糖糖原） •動物多醣中儲存的主要碳水化合物"
+      },
+      {
+        "t": "Starch (澱粉) Glucose • Major food reserve in plants",
+        "k": "h",
+        "zh": "•常見於水果和蜂蜜麥芽糖（麥芽糖麥芽糖）葡萄糖+葡萄糖•澱粉二糖（蔗糖蔗糖）葡萄糖+果糖消化的中間體•俗稱食糖澱粉（澱粉澱粉）葡萄糖•植物中的主要食物儲備糖原（葡萄糖糖原） •動物多醣中儲存的主要碳水化合物"
+      },
+      {
+        "t": "Glycogen (糖原) Glucose • Major carbohydrate stored in animal",
+        "k": "h",
+        "zh": "•常見於水果和蜂蜜麥芽糖（麥芽糖麥芽糖）葡萄糖+葡萄糖•澱粉二糖（蔗糖蔗糖）葡萄糖+果糖消化的中間體•俗稱食糖澱粉（澱粉澱粉）葡萄糖•植物中的主要食物儲備糖原（葡萄糖糖原） •動物多醣中儲存的主要碳水化合物"
+      },
+      {
+        "t": "Polysaccharide",
+        "k": "h",
+        "zh": "•多糖"
+      },
+      {
+        "t": "• Makes up the cell wall of plants",
         "k": "li",
+        "zh": "•構成植物細胞壁纖維纖維素素葡萄糖"
+      },
+      {
+        "t": "Cellulose (纖維素) Glucose",
+        "k": "h",
         "zh": "•構成植物細胞壁纖維纖維素素葡萄糖"
       },
       {
@@ -5489,8 +8006,8 @@ window.HAZEL_LECTURES = [
         "zh": "碳水化合物的功能"
       },
       {
-        "t": "• Energy source • Structural support",
-        "k": "li",
+        "t": " Energy source  Structural support",
+        "k": "h",
         "zh": "•能源•結構支撐"
       },
       {
@@ -5499,8 +8016,8 @@ window.HAZEL_LECTURES = [
         "zh": "•身體的主要/主要來源•有助於細胞結構和細胞產物的能量合成"
       },
       {
-        "t": "• Energy storage • Component of DNA and RNA",
-        "k": "li",
+        "t": " Energy storage  Component of DNA and RNA",
+        "k": "h",
         "zh": "•能量儲存• DNA和RNA的成分"
       },
       {
@@ -5514,9 +8031,9 @@ window.HAZEL_LECTURES = [
         "zh": "•當能量需求增加時， RNA （核糖核酸）核糖核酸糖原被分解成葡萄糖並用作能量"
       },
       {
-        "t": "2. Lipids 脂質",
+        "t": "• Lipids 脂質",
         "k": "li",
-        "zh": "2.脂質 脂質"
+        "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
       },
       {
         "t": "• Made up of carbon, hydrogen and oxygen",
@@ -5524,18 +8041,43 @@ window.HAZEL_LECTURES = [
         "zh": "•由碳、氫和氧組成"
       },
       {
-        "t": "• Insoluble in water but dissolve readily in organic solvents (有機溶 劑) e.g. alcohol, acetone (丙酮) and ethers (乙醚)",
+        "t": "• Insoluble in water but dissolve readily in organic solvents (有機溶",
         "k": "li",
         "zh": "•不溶於水，但易溶於有機溶劑（有機溶 劑） ，例如酒精、丙酮（丙酮 ）和乙醚（乙醚 ）"
       },
       {
-        "t": "• Two types of lipids: ❑ Fats (semi-solid at room temperature) ❑ Oils (liquid at room temperature)",
+        "t": "劑) e.g. alcohol, acetone (丙酮) and ethers (乙醚)",
+        "k": "h",
+        "zh": "•不溶於水，但易溶於有機溶劑（有機溶 劑） ，例如酒精、丙酮（丙酮 ）和乙醚（乙醚 ）"
+      },
+      {
+        "t": "• Two types of lipids:",
         "k": "li",
         "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
       },
       {
-        "t": "• Triglyceride (三酸甘油酯) (3+1) ❑ Subcategory of lipid made up of 3 fatty acid molecules and 1 glycerol molecule",
+        "t": "• Fats (semi-solid at room temperature)",
         "k": "li",
+        "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
+      },
+      {
+        "t": "• Oils (liquid at room temperature)",
+        "k": "li",
+        "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
+      },
+      {
+        "t": "• Triglyceride (三酸甘油酯) (3+1)",
+        "k": "li",
+        "zh": "•甘油三三酸甘油酯酯（ 3 +1 ）由3個脂肪酸分子和1個甘油分子組成的脂質亞❑類"
+      },
+      {
+        "t": "• Subcategory of lipid made up of",
+        "k": "li",
+        "zh": "•甘油三三酸甘油酯酯（ 3 +1 ）由3個脂肪酸分子和1個甘油分子組成的脂質亞❑類"
+      },
+      {
+        "t": "3 fatty acid molecules and 1 glycerol molecule",
+        "k": "h",
         "zh": "•甘油三三酸甘油酯酯（ 3 +1 ）由3個脂肪酸分子和1個甘油分子組成的脂質亞❑類"
       },
       {
@@ -5579,9 +8121,9 @@ window.HAZEL_LECTURES = [
         "zh": "•內臟周圍的脂肪，如腎臟，起到減震作用（減震作用 ）"
       },
       {
-        "t": "3. Proteins蛋白質",
+        "t": "• Proteins蛋白質",
         "k": "li",
-        "zh": "3.蛋白質蛋白質"
+        "zh": "•蛋白質​"
       },
       {
         "t": "• Large, complex molecules, Made up of • The basic units of protein are called carbon, hydrogen, oxygen and nitrogen amino acids 胺基酸",
@@ -5609,33 +8151,38 @@ window.HAZEL_LECTURES = [
         "zh": "蛋白質的功能"
       },
       {
-        "t": "1. Antibody - Immune response. Defensive proteins, known as antibodies, bind to foreign invaders like bacteria and viruses to clear them from the body.",
+        "t": "• Antibody - Immune response. Defensive proteins, known as antibodies, bind to foreign invaders like bacteria and viruses to clear them from the body.",
         "k": "li",
         "zh": "1.抗體-免疫應答。被稱為抗體的防禦性蛋白質與細菌和病毒等外來入侵者結合，從而將其從體內清除。"
       },
       {
-        "t": "2. Enzyme - Proteins like enzymes speed up chemical reactions in the body, such as breaking down food during digestion and building new molecules.",
+        "t": "• Enzyme - Proteins like enzymes speed up chemical reactions in the body, such as breaking down food during digestion and building new molecules.",
         "k": "li",
-        "zh": "2.酵素-像酵素這樣的蛋白質會加速體內的化學反應，例如在消化過程中分解食物和構建新分子。"
+        "zh": "酵素"
       },
       {
-        "t": "3. Messenger - Hormones and receptors (such as insulin) act as chemical messengers that transmit signals to coordinate processes between different cells and organs.",
+        "t": "• Messenger - Hormones and receptors (such as insulin) act as chemical messengers that transmit signals to coordinate processes between different cells and organs.",
         "k": "li",
         "zh": "3.信使-激素和受體（如胰島素）充當化學信使，傳遞信號以協調不同細胞和器官之間的過程。"
       },
       {
-        "t": "4. Structural components - Structural proteins like keratin and collagen provide strength, shape, and support to cells, tissues, hair, skin, and bones.",
+        "t": "• Structural components - Structural proteins like keratin and collagen provide strength, shape, and support to cells, tissues, hair, skin, and bones.",
         "k": "li",
         "zh": "4.結構成分-角蛋白和膠原蛋白等結構蛋白質為細胞、組織、毛髮、皮膚和骨骼提供強度、形狀和支持。"
       },
       {
-        "t": "5. Transport/Storage - Proteins move vital molecules where they need to go; for example, hemoglobin carries oxygen through the blood, while other proteins store nutrients like iron.",
+        "t": "• Transport/Storage - Proteins move vital molecules where they need to go; for example, hemoglobin carries oxygen through the blood, while other proteins store nutrients like iron.",
         "k": "li",
         "zh": "5.運輸/儲存-蛋白質將重要分子移動到需要去的地方；例如，血紅蛋白通過血液攜帶氧氣，而其他蛋白質則儲存鐵等營養物質。"
       },
       {
-        "t": "Denaturation & Renaturation Denaturation蛋白質變性",
-        "k": "p",
+        "t": "Denaturation & Renaturation",
+        "k": "h",
+        "zh": "變性與變性變性蛋白質變性"
+      },
+      {
+        "t": "Denaturation蛋白質變性",
+        "k": "h",
         "zh": "變性與變性變性蛋白質變性"
       },
       {
@@ -5694,9 +8241,9 @@ window.HAZEL_LECTURES = [
         "zh": "•化學物質，例如非極性溶劑和洗滌劑"
       },
       {
-        "t": "4. Water",
+        "t": "• Water",
         "k": "li",
-        "zh": "4.水"
+        "zh": "•水"
       },
       {
         "t": "• 75% of human body is made up of water",
@@ -5709,18 +8256,23 @@ window.HAZEL_LECTURES = [
         "zh": "•水是一種重要的物質"
       },
       {
-        "t": "Functions of Water Good solvent",
+        "t": "Functions of Water",
         "k": "h",
         "zh": "Water Good溶劑的功能"
       },
       {
-        "t": "• Medium for metabolic reactions",
-        "k": "li",
+        "t": "Good solvent",
+        "k": "h",
+        "zh": "Water Good溶劑的功能"
+      },
+      {
+        "t": " Medium for metabolic reactions",
+        "k": "h",
         "zh": "•代謝反應介質"
       },
       {
-        "t": "• Dilute waste substances and prevent them from harming the body",
-        "k": "li",
+        "t": " Dilute waste substances and prevent them from harming the body",
+        "k": "h",
         "zh": "•稀釋廢棄物質，防止它們傷害身體"
       },
       {
@@ -5729,13 +8281,13 @@ window.HAZEL_LECTURES = [
         "zh": "溫度調節器"
       },
       {
-        "t": "• Water has a high heat capacity熱容",
-        "k": "li",
+        "t": " Water has a high heat capacity熱容",
+        "k": "h",
         "zh": "•水的熱容量很高熱容"
       },
       {
-        "t": "• Helps to maintain the body temperature",
-        "k": "li",
+        "t": " Helps to maintain the body temperature",
+        "k": "h",
         "zh": "•有助於維持體溫"
       },
       {
@@ -5744,13 +8296,13 @@ window.HAZEL_LECTURES = [
         "zh": "強大的表面張力"
       },
       {
-        "t": "• Strong attraction between water molecules",
-        "k": "li",
+        "t": " Strong attraction between water molecules",
+        "k": "h",
         "zh": "•水分子之間有很強的吸引力"
       },
       {
-        "t": "• Water rises readily by capillary action (毛細作用)",
-        "k": "li",
+        "t": " Water rises readily by capillary action (毛細作用)",
+        "k": "h",
         "zh": "•通過毛細管作用，水很容易上升（毛細作用 ）"
       },
       {
@@ -5759,8 +8311,8 @@ window.HAZEL_LECTURES = [
         "zh": "運輸車"
       },
       {
-        "t": "• Water in the blood carries nutrients from the foods we eat to tissues throughout the body",
-        "k": "li",
+        "t": " Water in the blood carries nutrients from the foods we eat to tissues throughout the body",
+        "k": "p",
         "zh": "•血液中的水分將我們吃的食物中的營養攜帶到整個身體的組織中"
       },
       {
@@ -5769,14 +8321,24 @@ window.HAZEL_LECTURES = [
         "zh": "潤滑劑"
       },
       {
-        "t": "• The synovial fluid (滑液) helps joints move easily",
-        "k": "li",
+        "t": " The synovial fluid (滑液) helps joints move easily",
+        "k": "h",
         "zh": "•滑液（滑液 ）有助於關節輕鬆移動"
       },
       {
-        "t": "• Water moistens food as it passes along the digestive tract, starting from saliva in the mouth and throat that makes swallowing easy, and ending with the passage of water-softened feces through the anus Adenosine triphosphate (ATP) 三磷酸腺苷",
-        "k": "li",
+        "t": " Water moistens food as it passes along the digestive tract, starting from saliva in the mouth and throat that makes swallowing easy, and ending with the passage of water-softened feces through the anus",
+        "k": "p",
         "zh": "•水在食物通過消化道時會滋潤食物，從口腔和喉嚨的唾液開始，使吞咽變得容易，最後是水軟化的糞便通過肛門三磷酸腺苷（ ATP ） 三磷酸腺苷"
+      },
+      {
+        "t": "Adenosine triphosphate (ATP)",
+        "k": "h",
+        "zh": "•水在食物通過消化道時會滋潤食物，從口腔和喉嚨的唾液開始，使吞咽變得容易，最後是水軟化的糞便通過肛門三磷酸腺苷（ ATP ） 三磷酸腺苷"
+      },
+      {
+        "t": "三磷酸腺苷",
+        "k": "h",
+        "zh": ""
       },
       {
         "t": "• Energy-carrying molecule found in the cells of all living things",
@@ -5784,8 +8346,13 @@ window.HAZEL_LECTURES = [
         "zh": "•在所有生物細胞中發現的攜帶能量的分子"
       },
       {
-        "t": "• Source of energy for biological activities of the cell ATP ↔ ADP + Pi + energy",
+        "t": "• Source of energy for biological activities of the cell",
         "k": "li",
+        "zh": "•細胞ATP ↔ ADP + Pi +能量生物活性的能量來源"
+      },
+      {
+        "t": "ATP → ADP + Pi + energy",
+        "k": "h",
         "zh": "•細胞ATP ↔ ADP + Pi +能量生物活性的能量來源"
       },
       {
@@ -5804,18 +8371,18 @@ window.HAZEL_LECTURES = [
         "zh": "• ATP水解為生物體和細胞中的許多重要過程提供所需的能量。這些包括細胞內信號傳遞、DNA和RNA合成、嘌呤能信號傳遞、突觸信號傳遞、主動運輸和肌肉收縮"
       },
       {
-        "t": "Energy and Chemical Reactions In the two reactions shown here, the larger “sunburst” represents greater potential energy and the smaller “sunburst” represents less potential energy.",
-        "k": "p",
+        "t": "Energy and Chemical Reactions",
+        "k": "h",
         "zh": "能量和化學反應在這裡顯示的兩種反應中，較大的「太陽爆發」代表較大的潛在能量，較小的「太陽爆發」代表較少的潛在能量。"
       },
       {
-        "t": "(a) The input of energy is required for the synthesis of ATP. (b) Energy is released as a result of the breakdown of ATP.",
+        "t": "In the two reactions shown here, the larger “sunburst” represents greater potential energy and the smaller “sunburst” represents less potential energy. (a) The input of energy is required for the synthesis of ATP. (b) Energy is released as a result of the breakdown of ATP. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 2 p.50]",
         "k": "p",
-        "zh": "(a)合成ATP需要能量輸入。(b)由於ATP分解而釋放能量。"
+        "zh": "解剖學與生理學"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 2 p.50] Nucleic Acids 核酸",
-        "k": "p",
+        "t": "Nucleic Acids 核酸",
+        "k": "h",
         "zh": "（參考／來源）"
       },
       {
@@ -5839,18 +8406,43 @@ window.HAZEL_LECTURES = [
         "zh": "• DNA是所有生物的遺傳物質"
       },
       {
-        "t": "Transcription Translation DNA RNA Protein Mineral Salts and Ions Mineral salts and ions Functions",
-        "k": "p",
+        "t": "Transcription Translation",
+        "k": "h",
         "zh": "轉錄翻譯DNA RNA蛋白質礦物質鹽和離子礦物質鹽和離子功能"
       },
       {
-        "t": "1) Constituent of bones and teeth Calcium",
+        "t": "DNA RNA Protein",
+        "k": "h",
+        "zh": "轉錄翻譯DNA RNA蛋白質礦物質鹽和離子礦物質鹽和離子功能"
+      },
+      {
+        "t": "Mineral Salts and Ions",
+        "k": "h",
+        "zh": "轉錄翻譯DNA RNA蛋白質礦物質鹽和離子礦物質鹽和離子功能"
+      },
+      {
+        "t": "Mineral salts and ions Functions",
+        "k": "h",
+        "zh": "轉錄翻譯DNA RNA蛋白質礦物質鹽和離子礦物質鹽和離子功能"
+      },
+      {
+        "t": "• Constituent of bones and teeth",
         "k": "li",
         "zh": "1)骨骼和牙齒成分鈣"
       },
       {
-        "t": "2) It is involved in blood clotting and muscle contraction Chlorine Maintain the balance between anion負離子 and cation正離子",
+        "t": "Calcium",
+        "k": "h",
+        "zh": "1)骨骼和牙齒成分鈣"
+      },
+      {
+        "t": "• It is involved in blood clotting and muscle contraction",
         "k": "li",
+        "zh": "2 ）它參與血液凝固和肌肉收縮氯維持陰離子負離子和陽離子之間的平衡正離子"
+      },
+      {
+        "t": "Chlorine Maintain the balance between anion負離子 and cation正離子",
+        "k": "h",
         "zh": "2 ）它參與血液凝固和肌肉收縮氯維持陰離子負離子和陽離子之間的平衡正離子"
       },
       {
@@ -5869,19 +8461,29 @@ window.HAZEL_LECTURES = [
         "zh": "碘它是生長激素和甲狀腺素的成分"
       },
       {
-        "t": "Iron It is the constituent of many enzymes, haemoglobin and myoglobin肌紅蛋白 Cells & Tissues A Human Cell A generalized human cell showing the plasma membrane, nucleus, and cytoplasm with its organelles. Although no single cell contains all these organelles, many cells contain a large number of them.",
+        "t": "Iron It is the constituent of many enzymes, haemoglobin and myoglobin肌紅蛋白",
         "k": "p",
         "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 3 p.73]",
+        "t": "Cells & Tissues",
+        "k": "h",
+        "zh": "•解釋主要身體系統的細胞、組織和器官的結構和功能以及生理過程。"
+      },
+      {
+        "t": "A Human Cell",
+        "k": "h",
+        "zh": "•識別和解釋人體細胞的基本結構和功能，包括主要細胞器及其作用。"
+      },
+      {
+        "t": "A generalized human cell showing the plasma membrane, nucleus, and cytoplasm with its organelles. Although no single cell contains all these organelles, many cells contain a large number of them.",
         "k": "p",
-        "zh": "（參考／來源）"
+        "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
       },
       {
         "t": "Cell 細胞",
         "k": "h",
-        "zh": "單元格 細胞"
+        "zh": "細胞"
       },
       {
         "t": "• The basic structural and functional unit of living organisms",
@@ -5899,9 +8501,9 @@ window.HAZEL_LECTURES = [
         "zh": "•分化細胞在多細胞生物體中很重要，因為它們能夠在體內發揮特殊功能"
       },
       {
-        "t": "1. Cell Membrane / Plasma Membrane細胞膜",
+        "t": "• Cell Membrane / Plasma Membrane細胞膜",
         "k": "li",
-        "zh": "1.細胞膜/質膜細胞膜"
+        "zh": "細胞"
       },
       {
         "t": "• Covers the surface of every living cells, enclose the cytoplasm",
@@ -5939,23 +8541,38 @@ window.HAZEL_LECTURES = [
         "zh": "•控制物料進出細胞"
       },
       {
-        "t": "Plasma Membrane Fluid-mosaic model of the plasma membrane. The membrane is composed of a bilayer of phospholipids and cholesterol with proteins “floating” in the membrane. The nonpolar, hydrophobic region of each phospholipid molecule is directed toward the center of the membrane, and the polar, hydrophilic region is directed toward either the extracellular fluid or the cytoplasm.",
+        "t": "Plasma Membrane",
+        "k": "h",
+        "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
+      },
+      {
+        "t": "Fluid-mosaic model of the plasma membrane. The membrane is composed of a bilayer of phospholipids and cholesterol with proteins “floating” in the membrane. The nonpolar, hydrophobic region of each phospholipid molecule is directed toward the center of the membrane, and the polar, hydrophilic region is directed toward either the extracellular fluid or the cytoplasm.",
         "k": "p",
         "zh": "質膜的質膜流體馬賽克模型。膜由磷脂和膽固醇的雙層組成，蛋白質「漂浮」在膜中。每個磷脂分子的非極性疏水區域朝向膜的中心，而極性親水區域朝向細胞外液或細胞質。"
       },
       {
-        "t": "A phospholipid consists of a hydrophilic (water[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 3 p.78] loving) head and hydrophobic (water-fearing) tail",
+        "t": "A phospholipid consists of a hydrophilic (water- 24 / 54",
+        "k": "h",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 3 p.78] loving) head and hydrophobic (water-fearing) tail",
         "k": "p",
         "zh": "（參考／來源）"
       },
       {
-        "t": "2. Cytoplasm細胞質",
+        "t": "• Cytoplasm細胞質",
         "k": "li",
-        "zh": "2.細胞質細胞質"
+        "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
       },
       {
-        "t": "• Fluid, jellylike substance between the cell membrane and the nucleus in which organelles 細胞器 are suspended",
+        "t": "• Fluid, jellylike substance between the cell membrane and the nucleus in which organelles",
         "k": "li",
+        "zh": "•細胞膜與懸浮細胞器的細胞核之間的液體、果凍細胞器狀物質"
+      },
+      {
+        "t": "細胞器 are suspended",
+        "k": "h",
         "zh": "•細胞膜與懸浮細胞器的細胞核之間的液體、果凍細胞器狀物質"
       },
       {
@@ -5984,13 +8601,18 @@ window.HAZEL_LECTURES = [
         "zh": "•提供其他細胞器可以在細胞內運作的平臺。細胞擴增、生長和複製的所有功能都在細胞的細胞質中進行"
       },
       {
-        "t": "3. Nucleus細胞核",
+        "t": "• Nucleus細胞核",
         "k": "li",
-        "zh": "3.核細胞核"
+        "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
       },
       {
-        "t": "• The largest organelle, it contains the deoxyribonucleic acid (DNA) / chromosomes of the cell for protein synthesis A thread-like structure",
+        "t": "• The largest organelle, it contains the deoxyribonucleic acid (DNA) / chromosomes of the cell for protein synthesis",
         "k": "li",
+        "zh": "•最大的細胞器，它含有細胞的脫氧核糖核酸（ DNA ）/染色體，用於蛋白質合成"
+      },
+      {
+        "t": "A thread-like structure",
+        "k": "h",
         "zh": "•最大的細胞器，它含有細胞的脫氧核糖核酸（ DNA ）/染色體，用於蛋白質合成"
       },
       {
@@ -5999,19 +8621,9 @@ window.HAZEL_LECTURES = [
         "zh": "•周圍環繞著由DNA和組蛋白組成的核膜，"
       },
       {
-        "t": "around a fluid nucleoplasm, is the control condenses into visible chromosomes during cell division.",
+        "t": "around a fluid nucleoplasm, is the control condenses into visible chromosomes during cell division. center of the cell. synthesizing ribosomal RNA",
         "k": "p",
         "zh": "在流體核質周圍，是對照在細胞分裂期間凝結成可見的染色體。"
-      },
-      {
-        "t": "center of the cell.",
-        "k": "p",
-        "zh": "單元格的中心。"
-      },
-      {
-        "t": "synthesizing ribosomal RNA",
-        "k": "p",
-        "zh": "合成核糖體RNA"
       },
       {
         "t": "• Functions: (rRNA)",
@@ -6029,7 +8641,7 @@ window.HAZEL_LECTURES = [
         "zh": "•包含蛋白質合成的遺傳資訊"
       },
       {
-        "t": "4. Mitochondrion 粒線體",
+        "t": "• Mitochondrion 粒線體",
         "k": "li",
         "zh": "4.線粒體 粒線體"
       },
@@ -6069,9 +8681,14 @@ window.HAZEL_LECTURES = [
         "zh": "•功能：從食物分子中釋放能量，並將能量轉化為ATP"
       },
       {
-        "t": "5. Endoplasmic Reticulum (ER) 內質網",
+        "t": "• Endoplasmic Reticulum (ER)",
         "k": "li",
         "zh": "5.內質網（ ER ） 內質網"
+      },
+      {
+        "t": "內質網",
+        "k": "h",
+        "zh": ""
       },
       {
         "t": "• A network of interconnected membrane throughout the cytoplasm",
@@ -6119,9 +8736,69 @@ window.HAZEL_LECTURES = [
         "zh": "細胞器的功能"
       },
       {
-        "t": "Organelle / component Function Plasma (cell) membrane Controls materials in and out of cell Cytoplasm Serves as matrix substance for chemical reactions to occur Endoplasmic reticulum (ER) Rough ER: Assist protein synthesis Smooth ER: Metabolize nonpolar compound Ribosome Protein synthesis Golgi Complex Synthesize carbohydrate and pack molecules for secretion Mitochondrion Transform energy from food to ATP Lysosome Digest foreign molecules, and worn and damaged organelles Nucleus Contains genetic information and directs cellullar activity Nuclear membrane Control material in and out of the nucleus Nucleolus Produce ribosomal RNA for ribosomes",
-        "k": "p",
+        "t": "Organelle / component Function",
+        "k": "h",
         "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+      },
+      {
+        "t": "Plasma (cell) membrane Controls materials in and out of cell",
+        "k": "h",
+        "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+      },
+      {
+        "t": "Cytoplasm Serves as matrix substance for chemical reactions to occur",
+        "k": "h",
+        "zh": "•作為發生化學反應基質物質的基質物質"
+      },
+      {
+        "t": "Endoplasmic reticulum (ER) Rough ER: Assist protein synthesis",
+        "k": "h",
+        "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+      },
+      {
+        "t": "Smooth ER: Metabolize nonpolar compound",
+        "k": "h",
+        "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+      },
+      {
+        "t": "Ribosome Protein synthesis",
+        "k": "h",
+        "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+      },
+      {
+        "t": "Golgi Complex Synthesize carbohydrate and pack molecules for secretion",
+        "k": "h",
+        "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+      },
+      {
+        "t": "Mitochondrion Transform energy from food to ATP",
+        "k": "h",
+        "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+      },
+      {
+        "t": "Lysosome Digest foreign molecules, and worn and damaged organelles",
+        "k": "h",
+        "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+      },
+      {
+        "t": "Nucleus Contains genetic information and directs cellullar activity",
+        "k": "h",
+        "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+      },
+      {
+        "t": "Nuclear membrane Control material in and out of the nucleus",
+        "k": "h",
+        "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+      },
+      {
+        "t": "Nucleolus Produce ribosomal RNA for ribosomes",
+        "k": "h",
+        "zh": "細胞器/成分功能血漿（細胞）膜控制進出細胞的材料細胞質作為基質物質，用於發生化學反應內質網（ ER ）粗糙ER ：輔助蛋白質合成平滑ER ：代謝非極性化合物核糖體蛋白質合成高爾基複合物合成碳水化合物和包裝分泌分子線粒體將能量從食物轉化為ATP溶酶體Di"
+      },
+      {
+        "t": "Levels of Organization in the Body",
+        "k": "h",
+        "zh": "身體中的組織層級"
       },
       {
         "t": "Levels of Organization in the Body",
@@ -6189,32 +8866,32 @@ window.HAZEL_LECTURES = [
         "zh": "•由器官系統組成"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 1 p.13] The Types of Tissue",
-        "k": "p",
+        "t": "The Types of Tissue",
+        "k": "h",
         "zh": "（參考／來源）"
       },
       {
-        "t": "1. Muscle tissue - contracts to initiate movement in the body",
+        "t": "• Muscle tissue - contracts to initiate movement in the body",
         "k": "li",
         "zh": "1.肌肉組織-收縮以啟動身體運動"
       },
       {
-        "t": "2. Nervous tissue - transmits and integrates information through the central and peripheral nervous systems",
+        "t": "• Nervous tissue - transmits and integrates information through the central and peripheral nervous systems",
         "k": "li",
         "zh": "2.神經組織-通過中樞和周圍神經系統傳輸和整合信息"
       },
       {
-        "t": "3. Epithelial tissue - creates protective boundaries and is involved in the diffusion of ions and molecules",
+        "t": "• Epithelial tissue - creates protective boundaries and is involved in the diffusion of ions and molecules",
         "k": "li",
         "zh": "3.上皮組織-產生保護邊界，並參與離子和分子的擴散"
       },
       {
-        "t": "4. Connective tissue - underlies and supports other tissue types",
+        "t": "• Connective tissue - underlies and supports other tissue types",
         "k": "li",
         "zh": "4.結締組織-基礎和支撐其他組織類型"
       },
       {
-        "t": "1. Muscle Tissue肌肉組織 Skeletal muscle",
+        "t": "• Muscle Tissue肌肉組織 Skeletal muscle",
         "k": "li",
         "zh": "肌肉組織 Skeletal muscle"
       },
@@ -6249,14 +8926,9 @@ window.HAZEL_LECTURES = [
         "zh": "平滑肌"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 4 p.146]",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "2. Nervous Tissue 神經組織",
+        "t": "• Nervous Tissue 神經組織",
         "k": "li",
-        "zh": "神經組織"
+        "zh": "2.神經組織-通過中樞和周圍神經系統傳輸和整合信息"
       },
       {
         "t": "• Composed of neurons 神經元 (nerve cells) and supporting cells",
@@ -6274,9 +8946,9 @@ window.HAZEL_LECTURES = [
         "zh": "•支持細胞：支持神經元"
       },
       {
-        "t": "3. Epithelial tissue 上皮組織",
+        "t": "• Epithelial tissue 上皮組織",
         "k": "li",
-        "zh": "上皮組織"
+        "zh": "3.上皮組織-產生保護邊界，並參與離子和分子的擴散"
       },
       {
         "t": "• Two categories: epithelial membrane and glands",
@@ -6319,14 +8991,9 @@ window.HAZEL_LECTURES = [
         "zh": "•允許細胞不斷丟失和更新"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 4 p.123]",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "4. Connective tissue 結締組織",
+        "t": "• Connective tissue 結締組織",
         "k": "li",
-        "zh": "結締組織"
+        "zh": "4.結締組織-基礎和支撐其他組織類型"
       },
       {
         "t": "• Consists of connective tissue cells and large amount of extracellular material in the spaces between cells",
@@ -6379,14 +9046,14 @@ window.HAZEL_LECTURES = [
         "zh": "•血液，含有血漿基質"
       },
       {
-        "t": "• Adipose tissue, specialized connective tissue contains numerous fat globules [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 1 p.138]",
+        "t": "• Adipose tissue, specialized connective tissue contains numerous fat globules",
         "k": "li",
         "zh": "（參考／來源）"
       },
       {
-        "t": "Connective Tissue Organ Systems of the Body [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 1 p.9]",
-        "k": "p",
-        "zh": "（參考／來源）"
+        "t": "Connective Tissue",
+        "k": "h",
+        "zh": "4.結締組織-基礎和支撐其他組織類型"
       },
       {
         "t": "• Circulatory system • Immune system",
@@ -6444,7 +9111,7 @@ window.HAZEL_LECTURES = [
         "zh": "•骨骼系統"
       },
       {
-        "t": "The human body is a complex system. The structures in the body work in concert to maintain homeostasis, a balance in the body’s internal environment.",
+        "t": "The human body is a complex system. The structures in the body work in concert to maintain homeostasis, a balance in the body’s internal environment. 38 / 54",
         "k": "p",
         "zh": "人體是一個複雜的系統。身體的結構協同工作，以維持體內平衡，即身體內部環境的平衡。"
       },
@@ -6459,7 +9126,12 @@ window.HAZEL_LECTURES = [
         "zh": "基因染色體"
       },
       {
-        "t": "Gene • segments of DNA , estimated 20,000 genes in human.",
+        "t": "Gene • segments of DNA , estimated",
+        "k": "h",
+        "zh": "Gene （基因基因）"
+      },
+      {
+        "t": "20,000 genes in human.",
         "k": "p",
         "zh": "基因• DNA片段，人類中估計有20,000個基因。"
       },
@@ -6524,14 +9196,29 @@ window.HAZEL_LECTURES = [
         "zh": "•轉錄： DNA → RNA （發生在細胞核中）"
       },
       {
-        "t": "• Translation: RNA → Protein (occurs in the cytoplasm at ribosomes) Gross structure of DNA (Deoxyribonucleic Acid) & RNA (Ribonucleic Acid)",
+        "t": "• Translation: RNA → Protein (occurs in the cytoplasm at ribosomes)",
         "k": "li",
         "zh": "•翻譯： RNA→蛋白（發生在核糖體的細胞質中） DNA （脫氧核糖核酸）和RNA （核糖核酸）的大體結構"
       },
       {
-        "t": "• For eukaryotic cells, DNA usually found in nucleus while RNA found in BOTH in and out of the nucleus RNA",
+        "t": "Gross structure of DNA (Deoxyribonucleic Acid) &",
+        "k": "h",
+        "zh": "•翻譯： RNA→蛋白（發生在核糖體的細胞質中） DNA （脫氧核糖核酸）和RNA （核糖核酸）的大體結構"
+      },
+      {
+        "t": "RNA (Ribonucleic Acid)",
+        "k": "h",
+        "zh": "•當能量需求增加時， RNA （核糖核酸）核糖核酸糖原被分解成葡萄糖並用作能量"
+      },
+      {
+        "t": "• For eukaryotic cells, DNA usually found in nucleus while RNA found in BOTH in and out of the nucleus",
         "k": "li",
         "zh": "•對於真核細胞，通常在細胞核中發現DNA ，而在細胞核RNA內外發現RNA"
+      },
+      {
+        "t": "RNA",
+        "k": "h",
+        "zh": "•能量儲存• DNA和RNA的成分"
       },
       {
         "t": "• single stranded • For prokaryotic cells (no TRUE nucleus), both DNA and RNA are nucleic acids as biomolecule",
@@ -6574,7 +9261,12 @@ window.HAZEL_LECTURES = [
         "zh": "•包含遺傳密碼，以確定生物體的功能和發育。"
       },
       {
-        "t": "DNA Protein Synthesis蛋白質合成",
+        "t": "DNA 41 / 54",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Protein Synthesis蛋白質合成",
         "k": "h",
         "zh": "蛋白質合成"
       },
@@ -6594,14 +9286,19 @@ window.HAZEL_LECTURES = [
         "zh": "•兩個主要步驟："
       },
       {
-        "t": "1. Transcription occurs in the nucleus.",
+        "t": "• Transcription occurs in the nucleus.",
         "k": "li",
-        "zh": "1.轉錄發生在細胞核。"
+        "zh": "轉譯"
       },
       {
-        "t": "2. Translation carried out in ribosomes Protein synthesis (continue) https://www.youtube.com/watch?v=gG7uCskUOrA",
+        "t": "• Translation carried out in ribosomes",
         "k": "li",
-        "zh": "2.在核糖體中進行的翻譯蛋白質合成（繼續） https://www.youtube.com/watch?v=gG7uCskUOrA"
+        "zh": "（見英文原文）"
+      },
+      {
+        "t": "Protein synthesis (continue) https://www.youtube.com/watch?v=gG7uCskUOrA",
+        "k": "p",
+        "zh": "蛋白質合成"
       },
       {
         "t": "Transcription",
@@ -6609,8 +9306,13 @@ window.HAZEL_LECTURES = [
         "zh": "轉譯"
       },
       {
-        "t": "• DNA is used as a template to make a messenger RNA molecule (mRNA).",
+        "t": "• DNA is used as a template to make a messenger",
         "k": "li",
+        "zh": "Dna"
+      },
+      {
+        "t": "RNA molecule (mRNA).",
+        "k": "p",
         "zh": "• DNA用作制造信使RNA分子（ mRNA ）的模板。"
       },
       {
@@ -6669,8 +9371,13 @@ window.HAZEL_LECTURES = [
         "zh": "基因表達發生在兩個步驟：轉錄（發生在核中）和翻譯（發生在核糖體的細胞質中）。"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 1 p.108] Regulation of Gene Expression 基因表達調控 Regulation of gene expression by a hormone receptor",
-        "k": "p",
+        "t": "Regulation of Gene Expression 基因表達調控",
+        "k": "h",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "Regulation of gene expression by a hormone receptor",
+        "k": "h",
         "zh": "（參考／來源）"
       },
       {
@@ -6734,13 +9441,18 @@ window.HAZEL_LECTURES = [
         "zh": "•導致更多的蛋白質產生、更多的線粒體和增加的新陳代謝。"
       },
       {
-        "t": "DNA Replication Replication of DNA Replication during the S phase of interphase produces two identical",
-        "k": "p",
+        "t": "DNA Replication Replication of DNA",
+        "k": "h",
+        "zh": "Dna"
+      },
+      {
+        "t": "Replication during the S phase of interphase produces two identical",
+        "k": "h",
         "zh": "DNA複製間期S期DNA複製的複製產生兩個相同的"
       },
       {
         "t": "(DNA複製) molecules of DNA.",
-        "k": "h",
+        "k": "p",
         "zh": "複製) molecules of DNA"
       },
       {
@@ -6784,24 +9496,94 @@ window.HAZEL_LECTURES = [
         "zh": "•一條新合成的鏈。"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 1 p.112]",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
         "t": "Cell Division 細胞分裂",
         "k": "h",
         "zh": "細胞分裂"
       },
       {
-        "t": "Cell Division ◼ All organisms require a continuous supply of new cells due to tear and wear: ➢ For growth ➢ For development ➢ For repair or replace ➢ For reproduce繁殖 ◼ Cell must double its mass and content in growth phase, called “interphase” before cell division (means cell reproduction) ◼ Mitosis有絲分裂 ◼ Meiosis減數分裂 ◼ Chromosomes染色體 contain genetic materials in a cell ◼ DNA replicate複製(過程) and duplicate 複製(結果) during 4 stages: ➢ Prophase ➢ Metaphase ➢ Anaphase ➢ Telophase",
-        "k": "p",
+        "t": "Cell Division",
+        "k": "h",
+        "zh": "細胞分裂"
+      },
+      {
+        "t": "◼ All organisms require a continuous supply of new cells due to tear and wear:",
+        "k": "h",
         "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
       },
       {
-        "t": "Cell Division Mitosis",
+        "t": "➢ For growth",
         "k": "h",
-        "zh": "細胞分裂有絲分裂"
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+      },
+      {
+        "t": "➢ For development",
+        "k": "h",
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+      },
+      {
+        "t": "➢ For repair or replace",
+        "k": "h",
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+      },
+      {
+        "t": "➢ For reproduce繁殖",
+        "k": "h",
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+      },
+      {
+        "t": "◼ Cell must double its mass and content in growth phase, called “interphase” before cell division (means cell reproduction)",
+        "k": "p",
+        "zh": "細胞"
+      },
+      {
+        "t": "◼ Mitosis有絲分裂",
+        "k": "h",
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+      },
+      {
+        "t": "◼ Meiosis減數分裂",
+        "k": "h",
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+      },
+      {
+        "t": "◼ Chromosomes染色體 contain genetic materials in a cell",
+        "k": "h",
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+      },
+      {
+        "t": "◼ DNA replicate複製(過程) and duplicate 複製(結果) during 4 stages:",
+        "k": "h",
+        "zh": "Dna"
+      },
+      {
+        "t": "➢ Prophase",
+        "k": "h",
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+      },
+      {
+        "t": "➢ Metaphase",
+        "k": "h",
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+      },
+      {
+        "t": "➢ Anaphase",
+        "k": "h",
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+      },
+      {
+        "t": "➢ Telophase",
+        "k": "h",
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
+      },
+      {
+        "t": "Cell Division",
+        "k": "h",
+        "zh": "細胞分裂"
+      },
+      {
+        "t": "Mitosis",
+        "k": "h",
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
       },
       {
         "t": "• replication and duplication forms genetically identical cells",
@@ -6814,9 +9596,14 @@ window.HAZEL_LECTURES = [
         "zh": "•幾乎所有身體細胞，包括眼睛、皮膚、毛髮和肌肉細胞。"
       },
       {
-        "t": "• growth & repair Meiosis",
+        "t": "• growth & repair",
         "k": "li",
         "zh": "•生長和修復減數分裂"
+      },
+      {
+        "t": "Meiosis",
+        "k": "h",
+        "zh": "細胞分裂由於撕裂和磨損，◼所有生物體都需要連續供應新細胞：用➢於生長用於➢發育用➢於修復或替換用➢於再生細繁殖 ◼胞必須在生長階段將其質量和含量加倍，在細胞分裂之前稱為“間期” （指細胞再生）◼有絲分有絲分裂 ◼裂減數分裂減數分裂 ◼染色體在細胞◼DNA複製複製（過程 ）和複製（ ）期間染色體 複製包含遺結果傳物質"
       },
       {
         "t": "• replication and duplication forms genetically different cells",
@@ -6834,18 +9621,18 @@ window.HAZEL_LECTURES = [
         "zh": "•產生從親本基因上獨特且僅含有一半DNA的細胞"
       },
       {
-        "t": "• reproduction",
+        "t": "• reproduction https://medlineplus.gov/genetics/understanding/howgeneswork/cellsdivide/",
         "k": "li",
         "zh": "繁殖"
       },
       {
-        "t": "https://medlineplus.gov/genetics/understanding/howgeneswork/cellsdivide/",
-        "k": "p",
-        "zh": "（參考／來源）"
+        "t": "Cell Death",
+        "k": "h",
+        "zh": "細胞死亡凋亡細胞凋亡–細胞的自然死亡過程"
       },
       {
-        "t": "Cell Death Apoptosis細胞凋亡 – natural death process of cells",
-        "k": "p",
+        "t": "Apoptosis細胞凋亡 – natural death process of cells",
+        "k": "h",
         "zh": "細胞死亡凋亡細胞凋亡–細胞的自然死亡過程"
       },
       {
@@ -6869,9 +9656,14 @@ window.HAZEL_LECTURES = [
         "zh": "壞死細胞壞死–細胞的非自然死亡。"
       },
       {
-        "t": "• e.g. due to disease or injury Apoptosis",
+        "t": "• e.g. due to disease or injury",
         "k": "li",
         "zh": "•例如，由於疾病或傷害導致的細胞凋亡"
+      },
+      {
+        "t": "Apoptosis",
+        "k": "h",
+        "zh": "•細胞分裂和凋亡"
       },
       {
         "t": "• Apoptosis is a normal, regulated process of programmed cell death.",
@@ -6964,37 +9756,7 @@ window.HAZEL_LECTURES = [
         "zh": "•巨噬細胞吞噬（吞噬和消化）細胞碎片。"
       },
       {
-        "t": "Reference",
-        "k": "h",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Goodenough, J., & McGuire, B. (2017). Biology of humans: Concepts, applications and issues (6th ed.).",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Pearson.",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
         "t": "Martini, F., Nath, J. L., Bartholomew, E. F., Ober, W. C., & Ober, C. E. (2024). Fundamentals of anatomy and physiology (12th ed.). Pearson Education, Inc.",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Patton, K. T., Bell, F., Thompson, T., & Williamson, P. (2024). The human body in health & disease (8th ed.). Elsevier.",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Patton, K. T., Bell, F. B., & Thompson, T. (2022). Anatomy and physiology (11th ed.). Elsevier.",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Saladin, K. S., & Gan, C. A. (2020). Human anatomy (6th ed.). McGraw-Hill Education.",
         "k": "p",
         "zh": "（參考／來源）"
       },
@@ -7004,13 +9766,13 @@ window.HAZEL_LECTURES = [
         "zh": "（參考／來源）"
       },
       {
-        "t": "Welsh, C. J., Prentice-Craver, C., & Shier, D. (2021). Hole's essentials of human anatomy & physiology (14th ed.). McGraw-Hill Education.",
+        "t": "Welsh, C. J., Prentice-Craver, C., & Shier, D. (2021). Hole's essentials of human anatomy & physiology (14th ed.). McGraw-Hill Education. 53 / 54",
         "k": "p",
         "zh": "（參考／來源）"
       },
       {
         "t": "Thank You!",
-        "k": "p",
+        "k": "h",
         "zh": "多謝！"
       }
     ]
@@ -7019,16 +9781,1767 @@ window.HAZEL_LECTURES = [
     "id": "L2",
     "titleZh": "人體生理學導論 II",
     "titleEn": "Introduction to Human Physiology II",
+    "pageCount": 53,
+    "pages": [
+      {
+        "n": 1,
+        "blocks": [
+          {
+            "t": "Health and Life Sciences",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Higher Diploma in General Nursing for",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Enrolled Nurse (AS114218)",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Life Sciences (HHS4218)",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Lecture 2",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Introduction to Human Physiology II",
+            "k": "h",
+            "zh": "人體生理學介紹II"
+          }
+        ],
+        "img": "assets/slides/L2/001.webp"
+      },
+      {
+        "n": 2,
+        "blocks": [
+          {
+            "t": "Module Intended Learning Outcomes (MILOs):",
+            "k": "h",
+            "zh": "模組預期學習成果（ MILO ） ："
+          },
+          {
+            "t": "On completion of this lesson, students are expected to be able to:",
+            "k": "h",
+            "zh": "完成本課程後，學生應能夠："
+          },
+          {
+            "t": "• Explain the structure and function of cells, tissues and organs of major body systems and physiological processes.",
+            "k": "li",
+            "zh": "•解釋主要身體系統的細胞、組織和器官的結構和功能以及生理過程。"
+          }
+        ],
+        "img": "assets/slides/L2/002.webp"
+      },
+      {
+        "n": 3,
+        "blocks": [
+          {
+            "t": "Contents",
+            "k": "h",
+            "zh": "內容"
+          },
+          {
+            "t": "• Metabolism",
+            "k": "li",
+            "zh": "- 新陳代谢"
+          },
+          {
+            "t": "• Enzyme",
+            "k": "li",
+            "zh": "酵素"
+          },
+          {
+            "t": "• Homeostasis",
+            "k": "li",
+            "zh": "稳态"
+          },
+          {
+            "t": "• Membrane transport",
+            "k": "li",
+            "zh": "•膜運輸"
+          }
+        ],
+        "img": "assets/slides/L2/003.webp"
+      },
+      {
+        "n": 4,
+        "blocks": [
+          {
+            "t": "Learning outcomes:",
+            "k": "h",
+            "zh": "模組預期學習成果（ MILO ） ："
+          },
+          {
+            "t": "By the end of this lecture, students will be able to:",
+            "k": "h",
+            "zh": "學習成果：在本課程結束時，學生將能夠："
+          },
+          {
+            "t": "• Describe the basic concept of metabolism and its role in energy production and use in the body.",
+            "k": "li",
+            "zh": "•描述新陳代謝的基本概念及其在體內能量產生和使用中的作用。"
+          },
+          {
+            "t": "• Explain the function of enzymes in speeding up chemical reactions and their importance in metabolism.",
+            "k": "li",
+            "zh": "•解釋酶在加速化學反應中的功能及其在新陳代謝中的重要性。"
+          },
+          {
+            "t": "• Define homeostasis and describe how the body maintains a stable internal environment.",
+            "k": "li",
+            "zh": "•定義體內平衡，並描述身體如何維持穩定的內部環境。"
+          },
+          {
+            "t": "• Identify and explain different types of membrane transport (e.g., diffusion, osmosis, active transport) and their role in cell function.",
+            "k": "li",
+            "zh": "•識別和解釋不同類型的膜運輸（例如擴散、滲透、主動運輸）及其在細胞功能中的作用。"
+          }
+        ],
+        "img": "assets/slides/L2/004.webp"
+      },
+      {
+        "n": 5,
+        "blocks": [
+          {
+            "t": "Metabolism 新陳代謝",
+            "k": "h",
+            "zh": "- 新陳代谢"
+          }
+        ],
+        "img": "assets/slides/L2/005.webp"
+      },
+      {
+        "n": 6,
+        "blocks": [
+          {
+            "t": "Metabolism",
+            "k": "h",
+            "zh": "- 新陳代谢"
+          },
+          {
+            "t": "• A set of chemical reactions that happen in the cells of a living organism to sustain life​",
+            "k": "li",
+            "zh": "•一組發生在生物體細胞中的化學反應，以維持生命​"
+          },
+          {
+            "t": "• Allows an organism to:​",
+            "k": "li",
+            "zh": "•允許生物體：​"
+          },
+          {
+            "t": "• Grow and reproduce​",
+            "k": "li",
+            "zh": "•生長和繁殖​"
+          },
+          {
+            "t": "• Maintain their structures​",
+            "k": "li",
+            "zh": "•維護其結構​"
+          },
+          {
+            "t": "• Respond to their environments",
+            "k": "li",
+            "zh": "•回應他們的環境"
+          },
+          {
+            "t": "• Two Categories​ ATP Derived from Catabolic Reactions Drives Anabolic Reactions",
+            "k": "li",
+            "zh": "•兩個類別來自分解代謝反應的ATP驅動合成代謝反應分解代謝釋放的能量需要從ADP和"
+          },
+          {
+            "t": "Energy released by catabolism is required to form ATP from ADP and",
+            "k": "h",
+            "zh": "•兩個類別來自分解代謝反應的ATP驅動合成代謝反應分解代謝釋放的能量需要從ADP和"
+          },
+          {
+            "t": "• Catabolism分解代謝 phosphate (Pi). Energy and a phosphate are given off when ATP is converted back to ADP during anabolism.",
+            "k": "li",
+            "zh": "•分解代謝分解代謝磷酸鹽（ Pi ）。當ATP在合成代謝過程中轉化回ADP時，會釋放能量和磷酸鹽。"
+          },
+          {
+            "t": "• Anabolism合成代謝",
+            "k": "li",
+            "zh": "合成代謝"
+          }
+        ],
+        "img": "assets/slides/L2/006.webp"
+      },
+      {
+        "n": 7,
+        "blocks": [
+          {
+            "t": "Catabolism分解代謝",
+            "k": "h",
+            "zh": "•兩個類別來自分解代謝反應的ATP驅動合成代謝反應分解代謝釋放的能量需要從ADP和"
+          },
+          {
+            "t": "• The breakdown of food components (such as carbohydrates, proteins and dietary fats) into their simpler forms, which can then be used to provide energy and the basic building blocks needed for growth and repair",
+            "k": "li",
+            "zh": "•將食物成分（如碳水化合物、蛋白質和膳食脂肪）分解成更簡單的形式，然後可用於提供能量以及生長和修復所需的基本組成部分"
+          },
+          {
+            "t": "• Glycolysis糖解作用 - metabolic pathway of the breakdown of glucose for energy",
+            "k": "li",
+            "zh": "•糖酵解糖解作用-葡萄糖分解為能量的代謝途徑（糖為糖，裂解為分解）"
+          },
+          {
+            "t": "​(glyco for sugar, lysis for breaking down)",
+            "k": "h",
+            "zh": "•糖酵解糖解作用-葡萄糖分解為能量的代謝途徑（糖為糖，裂解為分解）"
+          },
+          {
+            "t": "Glycolysis is a series of chemical reactions which involves the breaking down of glucose to a 3-carbon molecule called pyruvic acid (Pyruvate) and Glycolysis takes place in the cytoplasm of the cells with no oxygen being necessary for this process. Very little energy is produced or generated during glycolysis. A net formation of 2ATPs are produced from complete oxidation of one glucose molecule during glycolysis but when further oxidized in the mitochondria, more energy molecules are produced. 7 / 53",
+            "k": "p",
+            "zh": "糖酵解是一系列化學反應，涉及將葡萄糖分解為稱為丙酮酸（丙酮酸）的3碳分子，糖酵解發生在細胞的細胞質中，而此過程不需要氧氣。"
+          }
+        ],
+        "img": "assets/slides/L2/007.webp"
+      },
+      {
+        "n": 8,
+        "blocks": [
+          {
+            "t": "Anabolism合成代謝",
+            "k": "h",
+            "zh": "合成代謝"
+          },
+          {
+            "t": "• The part of metabolism in which our body is built or repaired. Anabolism requires energy that ultimately comes from our food. When we eat more than we need for daily anabolism, the excess nutrients are typically stored in our body as fat. Stage of Anabolism",
+            "k": "li",
+            "zh": "•我們身體構建或修復的新陳代謝部分。合成代謝需要最終來自我們食物的能量。當我們吃得超過日常合成代謝所需時，多餘的營養素通常以脂肪的形式存儲在我們的身體中。合成代謝階段"
+          },
+          {
+            "t": "• Examples of anabolism",
+            "k": "li",
+            "zh": "•合成代謝的例子"
+          },
+          {
+            "t": "• bone growth mineralization and muscle mass build- Stage 1 Production of precursors such as up. amino acids, monosaccharides and nucleotides.",
+            "k": "li",
+            "zh": "•骨骼生長礦化和肌肉質量構建-第1階段生產前驅物，如氨基酸、單醣和核苷酸。"
+          },
+          {
+            "t": "Stage 2 Energy (ATP) consumption to turn the precursors into reactive form.",
+            "k": "p",
+            "zh": "第2階段能量（ ATP ）消耗，將前體轉化為反應性形式。"
+          },
+          {
+            "t": "Stage 3 Assembly of these activated precursors into complex molecules such as proteins, polysaccharides, lipids and nucleic acids. Stages of anabolism – DNA synthesis as an example.",
+            "k": "p",
+            "zh": "第3階段將這些活化的前體組裝成複雜的分子，如蛋白質、多醣、脂質和核酸。"
+          }
+        ],
+        "img": "assets/slides/L2/008.webp"
+      },
+      {
+        "n": 9,
+        "blocks": [
+          {
+            "t": "Enzymes酵素",
+            "k": "h",
+            "zh": "酶"
+          }
+        ],
+        "img": "assets/slides/L2/009.webp"
+      },
+      {
+        "n": 10,
+        "blocks": [
+          {
+            "t": "Enzymes酵素",
+            "k": "h",
+            "zh": "酶"
+          },
+          {
+            "t": "• Biological catalysts that ​",
+            "k": "li",
+            "zh": "•生物催化劑 ​"
+          },
+          {
+            "t": "• Increase the rate of chemical reactions​",
+            "k": "li",
+            "zh": "•提高化學反應速率​"
+          },
+          {
+            "t": "• Speed up metabolism",
+            "k": "li",
+            "zh": "•加速新陳代謝"
+          },
+          {
+            "t": "• Remain unchanged at the end of the reaction​",
+            "k": "li",
+            "zh": "•反應結束時保持不變​"
+          },
+          {
+            "t": "• NO change the nature of the reaction or its final result​",
+            "k": "li",
+            "zh": "•不改變反應的性質或最終結果​"
+          },
+          {
+            "t": "• Proteins​",
+            "k": "li",
+            "zh": "•蛋白質​"
+          },
+          {
+            "t": "• Their catalytic actions results from their complex structure​",
+            "k": "li",
+            "zh": "•它們的催化作用源於其複雜的結構​"
+          },
+          {
+            "t": "• Aid digestion: break down large food molecules like fats, proteins, and starches into smaller parts your body can use.",
+            "k": "li",
+            "zh": "•輔助消化：將脂肪、蛋白質和澱粉等大型食物分子分解成身體可以使用的較小部分。"
+          },
+          {
+            "t": "• e.g. maltase, lactase, carbohydrase….",
+            "k": "li",
+            "zh": "•例如麥芽糖酶、乳糖酶、碳水化合物酶……。"
+          },
+          {
+            "t": "• lower the activation energy of a reaction by increasing the energy level of the substrate",
+            "k": "li",
+            "zh": "•通過增加底物的能量水平來降低反應的活化能酶是如何工作的？"
+          }
+        ],
+        "img": "assets/slides/L2/010.webp"
+      },
+      {
+        "n": 11,
+        "blocks": [
+          {
+            "t": "How does enzymes work?",
+            "k": "h",
+            "zh": "•通過增加底物的能量水平來降低反應的活化能酶是如何工作的？"
+          },
+          {
+            "t": "Synthesis Digestion",
+            "k": "h",
+            "zh": "合成消化"
+          },
+          {
+            "t": "• Active site orients substrates in • Active site binds substrate and correct position for reaction puts stress on bonds that must be",
+            "k": "li",
+            "zh": "•活性部位取向基板•活性部位與基板結合，正確的反應位置會對必須"
+          },
+          {
+            "t": "• Enzyme brings substrate closer broken, making it easier to together separate molecules",
+            "k": "li",
+            "zh": "酵素"
+          }
+        ],
+        "img": "assets/slides/L2/011.webp"
+      },
+      {
+        "n": 12,
+        "blocks": [
+          {
+            "t": "How does enzymes work?",
+            "k": "h",
+            "zh": "•通過增加底物的能量水平來降低反應的活化能酶是如何工作的？"
+          },
+          {
+            "t": "• Active Site:",
+            "k": "li",
+            "zh": "啟動網站"
+          },
+          {
+            "t": "• Location on an enzyme where the substrate attaches",
+            "k": "li",
+            "zh": "•底物附着在酶上的位置"
+          },
+          {
+            "t": "• Very specific for the substrate",
+            "k": "li",
+            "zh": "•對基材非常具體"
+          },
+          {
+            "t": "• Substrate:",
+            "k": "li",
+            "zh": "<g>受質 (Substrate)</g>"
+          },
+          {
+            "t": "• The reactants反應物 in an enzyme-catalyzed reaction",
+            "k": "li",
+            "zh": "•酶催化反應反應物中的反應物"
+          },
+          {
+            "t": "• Products:",
+            "k": "li",
+            "zh": " 產品"
+          },
+          {
+            "t": "• The end result of the reaction",
+            "k": "li",
+            "zh": "•反應的最終結果"
+          },
+          {
+            "t": "Enzyme",
+            "k": "h",
+            "zh": "酵素"
+          }
+        ],
+        "img": "assets/slides/L2/012.webp"
+      },
+      {
+        "n": 13,
+        "blocks": [
+          {
+            "t": "Activation Energy and Enzymes",
+            "k": "h",
+            "zh": "酵素活化能和酵素"
+          },
+          {
+            "t": "• Activation energy is required to initiate chemical reactions.",
+            "k": "li",
+            "zh": "•啟動化學反應需要活化能。"
+          },
+          {
+            "t": "• Without an enzyme, a chemical reaction can proceed, but it needs more energy input.",
+            "k": "li",
+            "zh": "•沒有酶，可以進行化學反應，但需要更多的能量輸入。"
+          },
+          {
+            "t": "• Enzymes lower the activation energy, making it easier for the reaction to proceed.",
+            "k": "li",
+            "zh": "•酶降低活化能，使反應更容易進行。"
+          }
+        ],
+        "img": "assets/slides/L2/013.webp"
+      },
+      {
+        "n": 14,
+        "blocks": [
+          {
+            "t": "The lock and key model",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "• Enzyme action that explains how enzymes fit their substrate.",
+            "k": "li",
+            "zh": "•解釋酵素如何配合其底物的酵素作用。"
+          },
+          {
+            "t": "• The active site of an enzyme is structured to fit a specifically shaped substrate.",
+            "k": "li",
+            "zh": "•酵素的活性位點經過結構化以適合特定形狀的底物。"
+          },
+          {
+            "t": "• Once the substrate binds to the active site, the enzyme will facilitate the reaction and release products of the reaction.",
+            "k": "li",
+            "zh": "•一旦底物與活性位點結合，酶將促進反應並釋放反應產物。"
+          },
+          {
+            "t": "https://www.medicalnewstoday.com/articles/319704#how-they-work",
+            "k": "h",
+            "zh": "（參考／來源）"
+          }
+        ],
+        "img": "assets/slides/L2/014.webp"
+      },
+      {
+        "n": 15,
+        "blocks": [
+          {
+            "t": "It is where the reaction occurs!",
+            "k": "h",
+            "zh": "（參考／來源）"
+          }
+        ],
+        "img": "assets/slides/L2/015.webp"
+      },
+      {
+        "n": 16,
+        "blocks": [
+          {
+            "t": "Factors affecting the rate of enzymatic reaction",
+            "k": "h",
+            "zh": "影響酶反應速率的因素"
+          },
+          {
+            "t": "• Temperature",
+            "k": "li",
+            "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
+          },
+          {
+            "t": "• pH",
+            "k": "li",
+            "zh": "人體生理學概論I"
+          },
+          {
+            "t": "• Enzyme concentration",
+            "k": "li",
+            "zh": "3.酶濃度"
+          },
+          {
+            "t": "• Substrate concentration",
+            "k": "li",
+            "zh": "4.底物濃度"
+          },
+          {
+            "t": "• Presence of any inhibitors or activators",
+            "k": "li",
+            "zh": "5.存在任何抑制劑或活化劑"
+          }
+        ],
+        "img": "assets/slides/L2/016.webp"
+      },
+      {
+        "n": 17,
+        "blocks": [
+          {
+            "t": "• Temperature",
+            "k": "li",
+            "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
+          },
+          {
+            "t": "• Increase in temperature will increase the rate of enzyme-catalyzed reactions",
+            "k": "li",
+            "zh": "•溫度升高會增加酶催化反應的速率"
+          },
+          {
+            "t": "• When maximum rate is reached, further temperature increase will decrease the rate of reaction since enzyme loses its active conformation and is denatured",
+            "k": "li",
+            "zh": "•當達到最大速率時，由於酶失去其活性構象並變性，進一步的溫度升高將降低反應速率"
+          }
+        ],
+        "img": "assets/slides/L2/017.webp"
+      },
+      {
+        "n": 18,
+        "blocks": [
+          {
+            "t": "• pH",
+            "k": "li",
+            "zh": "人體生理學概論I"
+          },
+          {
+            "t": "• pH = the power of hydrogen",
+            "k": "li",
+            "zh": "• pH =氫的功率"
+          },
+          {
+            "t": "• Hydrogen ions with positive charges",
+            "k": "li",
+            "zh": "•帶正電荷的氫離子"
+          },
+          {
+            "t": "• Higher the amount of hydrogen ions, the more acidic of the area",
+            "k": "li",
+            "zh": "•氫離子含量越高，該區域的酸性越高pH值越➢低或越高？ ？ ？"
+          },
+          {
+            "t": "➢Lower or higher pH ???",
+            "k": "h",
+            "zh": "•氫離子含量越高，該區域的酸性越高pH值越➢低或越高？ ？ ？"
+          }
+        ],
+        "img": "assets/slides/L2/018.webp"
+      },
+      {
+        "n": 19,
+        "blocks": [
+          {
+            "t": "• pH",
+            "k": "li",
+            "zh": "人體生理學概論I"
+          },
+          {
+            "t": "• Most enzymes are active only within a very narrow range of pH",
+            "k": "li",
+            "zh": "•大多數酶僅在非常狹窄的pH範圍內具有活性"
+          },
+          {
+            "t": "• pH optimum: the pH at which an enzyme functions optimally",
+            "k": "li",
+            "zh": "•最佳pH值：酵素發揮最佳作用的pH值"
+          },
+          {
+            "t": "• At extremes of pH the enzyme loses its active conformation and is denatured",
+            "k": "li",
+            "zh": "•在極端pH下，酶失去其活性構象並變性"
+          },
+          {
+            "t": "• The pH optimum of an enzyme usually reflects the pH of body fluid in which the enzyme is found",
+            "k": "li",
+            "zh": "•酶的pH最佳值通常反映其中存在酶的體液的pH"
+          }
+        ],
+        "img": "assets/slides/L2/019.webp"
+      },
+      {
+        "n": 20,
+        "blocks": [
+          {
+            "t": "• Enzyme Activation",
+            "k": "li",
+            "zh": "酵素活化能和酵素"
+          },
+          {
+            "t": "酵素激活",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "• Enzyme activation is the process that turns an inactive enzyme into an active one capable of speeding up metabolic reactions.",
+            "k": "li",
+            "zh": "•酶活化是將非活性酶轉化為能夠加速代謝反應的活性酶的過程。"
+          },
+          {
+            "t": "• Some enzymes are produced as inactive form that are later activated within the cell",
+            "k": "li",
+            "zh": "•一些酶以非活性形式產生，後來在細胞內激活"
+          },
+          {
+            "t": "• Example:",
+            "k": "li",
+            "zh": "<g>例如:</g>"
+          },
+          {
+            "t": "• In the cells of the pancreas, many digestive enzymes are produced as zymogens (enzyme in an inactive form), which are activated after they are secreted into the intestine",
+            "k": "li",
+            "zh": "•在胰腺細胞中，許多消化酶以酶原（非活性形式的酶）的形式產生，在分泌到腸道後被激活"
+          },
+          {
+            "t": "• Activation of zymogens in the intestinal lumen protects the pancreatic cells from self-digestion",
+            "k": "li",
+            "zh": "•腸腔內酶原的活化保護胰臟細胞免受自我消化"
+          }
+        ],
+        "img": "assets/slides/L2/020.webp"
+      },
+      {
+        "n": 21,
+        "blocks": [
+          {
+            "t": "• Substrate Concentration and Reversible",
+            "k": "li",
+            "zh": "<g>受質 (Substrate)</g>"
+          },
+          {
+            "t": "Reactions",
+            "k": "h",
+            "zh": "2.酵素-像酵素這樣的蛋白質會加速體內的化學反應，例如在消化過程中分解食物和構建新分子。"
+          },
+          {
+            "t": "• The rate of enzymatic reactions increases when either the substrate concentration or the enzyme concentration is increased",
+            "k": "li",
+            "zh": "•當底物濃度或酶濃度增加時，酶反應速率增加"
+          },
+          {
+            "t": "• If the enzyme concentration remains constant, the rate of the reaction increases as the substrate concentration is raised, up to a maximum rate",
+            "k": "li",
+            "zh": "•如果酶濃度保持不變，反應速率會隨著底物濃度的增加而增加，直到最大速率"
+          },
+          {
+            "t": "• When the rate of the reaction does not increase upon further addition of substrate, the enzyme is said to be saturated",
+            "k": "li",
+            "zh": "•當進一步添加底物後反應速率沒有增加時，該酶被稱為飽和輔因子輔因子"
+          }
+        ],
+        "img": "assets/slides/L2/021.webp"
+      },
+      {
+        "n": 22,
+        "blocks": [
+          {
+            "t": "Cofactor輔因子",
+            "k": "h",
+            "zh": "•當進一步添加底物後反應速率沒有增加時，該酶被稱為飽和輔因子輔因子"
+          },
+          {
+            "t": "• A non-protein molecule that supports a biochemical reaction",
+            "k": "li",
+            "zh": "•支持生化反應的非蛋白分子"
+          },
+          {
+            "t": "• Take the form of metal ions (inorganic), organic substances or other molecules with beneficial characteristics not typically present in amino acids.",
+            "k": "li",
+            "zh": "•採取金屬離子（無機）、有機物質或其他具有氨基酸中通常不存在的有益特性的分子的形式。"
+          },
+          {
+            "t": "• e.g. iron, Zinc",
+            "k": "li",
+            "zh": "•例如鐵、鋅"
+          },
+          {
+            "t": "• Increase the speed of reaction",
+            "k": "li",
+            "zh": "•增加反應輔酶的速度輔酶"
+          }
+        ],
+        "img": "assets/slides/L2/022.webp"
+      },
+      {
+        "n": 23,
+        "blocks": [
+          {
+            "t": "Coenzymes輔酶",
+            "k": "h",
+            "zh": "•增加反應輔酶的速度輔酶"
+          },
+          {
+            "t": "• Organic molecules that bind to enzymes and help them function",
+            "k": "li",
+            "zh": "•與酶結合並幫助它們發揮功能的有機分子"
+          },
+          {
+            "t": "• A type of cofactor, always organic",
+            "k": "li",
+            "zh": "•一種輔因子，始終是有機的"
+          },
+          {
+            "t": "• Can be easily removed",
+            "k": "li",
+            "zh": "•可輕鬆拆卸"
+          },
+          {
+            "t": "• Act as carriers",
+            "k": "li",
+            "zh": "•充當承運人"
+          },
+          {
+            "t": "• e.g. Vitamins",
+            "k": "li",
+            "zh": "•例如：維生素"
+          },
+          {
+            "t": "https://www.pharmaguideline.com/2022/01/coenzymes-structure-and-biochemical-functions.html",
+            "k": "p",
+            "zh": "（參考／來源）"
+          }
+        ],
+        "img": "assets/slides/L2/023.webp"
+      },
+      {
+        "n": 24,
+        "blocks": [
+          {
+            "t": "Enzyme Inhibitor酶抑制劑",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "• Competitive inhibitor競爭性抑制劑",
+            "k": "li",
+            "zh": "競爭性抑制劑"
+          },
+          {
+            "t": "• Molecules that are shaped (and charged) just like substrate",
+            "k": "li",
+            "zh": "•形狀（和帶電）與底物相似的分子"
+          },
+          {
+            "t": "• Attach to the active site",
+            "k": "li",
+            "zh": "•附加到活躍網站"
+          },
+          {
+            "t": "• BLOCK the substrate",
+            "k": "li",
+            "zh": "•阻擋基板"
+          },
+          {
+            "t": "• Therefore inhibit the reaction",
+            "k": "li",
+            "zh": "•因此抑制反應酶抑制劑"
+          }
+        ],
+        "img": "assets/slides/L2/024.webp"
+      },
+      {
+        "n": 25,
+        "blocks": [
+          {
+            "t": "Enzyme Inhibitor",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "• Non-competitive inhibitor/ Allosteric Site 非競爭性抑制劑",
+            "k": "li",
+            "zh": "2.非競爭性抑制劑/變構部位 非競爭性抑制劑"
+          },
+          {
+            "t": "• Molecules that DO NOT attach to active site",
+            "k": "li",
+            "zh": "•不附着在活性部位的分子"
+          },
+          {
+            "t": "• But attach to enzyme",
+            "k": "li",
+            "zh": "•但附在酵素上➢會改變活性部位的形狀"
+          },
+          {
+            "t": "➢CHANGE the shape of active site",
+            "k": "h",
+            "zh": "•但附在酵素上➢會改變活性部位的形狀"
+          },
+          {
+            "t": "• Substrate cannot bind to altered active site",
+            "k": "li",
+            "zh": "•基質無法與改變的活性部位結合"
+          },
+          {
+            "t": "• Therefore inhibit the reaction",
+            "k": "li",
+            "zh": "•因此抑制反應酶抑制劑"
+          }
+        ],
+        "img": "assets/slides/L2/025.webp"
+      },
+      {
+        "n": 26,
+        "blocks": [
+          {
+            "t": "Examples of enzymatic reactions",
+            "k": "h",
+            "zh": "<g>例如:</g>"
+          },
+          {
+            "t": "Enzyme Primary Location Reaction (Substrate → Product) Biological Function",
+            "k": "p",
+            "zh": "酵素"
+          },
+          {
+            "t": "Triglycerides (Fats) → Fatty acids Breaks down dietary lipids in the",
+            "k": "h",
+            "zh": "•因此抑制反應酶主要定位反應（底物→產品）生物學功能甘油三酯（脂肪）→脂肪酸分解脂肪酶中的膳食脂質小腸、胃和甘油消化道。"
+          },
+          {
+            "t": "Lipases Small intestine, stomach",
+            "k": "h",
+            "zh": "•因此抑制反應酶主要定位反應（底物→產品）生物學功能甘油三酯（脂肪）→脂肪酸分解脂肪酶中的膳食脂質小腸、胃和甘油消化道。"
+          },
+          {
+            "t": "& glycerol digestive tract.",
+            "k": "p",
+            "zh": "•因此抑制反應酶主要定位反應（底物→產品）生物學功能甘油三酯（脂肪）→脂肪酸分解脂肪酶中的膳食脂質小腸、胃和甘油消化道。"
+          },
+          {
+            "t": "Saliva, pancreatic secretions Starches (polysaccharides) → Initiates carbohydrate breakdown in the Amylase in small intestine Maltose & short chain sugars mouth and small intestine.",
+            "k": "p",
+            "zh": "唾液、胰腺分泌物澱粉（多醣）→引發小腸麥芽糖和短鏈糖口腔和小腸中澱粉酶的碳水化合物分解。"
+          },
+          {
+            "t": "Small intestine (brush Hydrolyzes disaccharide maltose into",
+            "k": "h",
+            "zh": "小腸（刷水解二糖麥芽糖成麥芽糖麥芽→糖葡萄糖+葡萄糖邊界）可吸收的葡萄糖。"
+          },
+          {
+            "t": "Maltase Maltose → Glucose + Glucose border) absorbable glucose. Small intestine (secreted by Proteins & polypeptides → Cleaves proteins into smaller peptide Trypsin pancreas) Peptides & amino acids chains and amino acids.",
+            "k": "p",
+            "zh": "小腸（由蛋白質和多肽分泌）→將蛋白質切割成較小的肽胰蛋白酶胰腺）肽和氨基酸鏈和氨基酸。"
+          },
+          {
+            "t": "Small intestine (brush Digest milk sugar (lactose) into simple",
+            "k": "h",
+            "zh": "小腸（將消化乳糖（乳糖）刷成簡單的乳糖酶乳→糖+半乳糖邊緣）單糖。"
+          },
+          {
+            "t": "Lactase Lactose → Glucose + Galactose border) monosaccharides.",
+            "k": "p",
+            "zh": "小腸（將消化乳糖（乳糖）刷成簡單的乳糖酶乳→糖+半乳糖邊緣）單糖。"
+          },
+          {
+            "t": "Neuromuscular junctions, Acetylcholine → Acetate + Deactivates neurotransmitters to Acetylcholinesterase nerve synapses Choline terminate nerve signal transmission.",
+            "k": "p",
+            "zh": "神經肌肉接頭，乙酰膽鹼乙→酸酯+去活化神經遞質到乙酰膽鹼酯酶神經突觸膽鹼終止神經信號傳遞。"
+          },
+          {
+            "t": "Nucleus / cytoplasm (during Deoxyribonucleotides → DNA Catalyzes the synthesis of new DNA DNA Polymerase cell division) strand strands during replication and repair.",
+            "k": "p",
+            "zh": "核/細胞質（在→脫氧核糖核苷酸DNA催化新DNA聚合酶細胞分裂合成期間）在複製和修復期間的鏈。"
+          }
+        ],
+        "img": "assets/slides/L2/026.webp"
+      },
+      {
+        "n": 27,
+        "blocks": [
+          {
+            "t": "Homeostasis 體內平衡",
+            "k": "h",
+            "zh": "稳态"
+          }
+        ],
+        "img": "assets/slides/L2/027.webp"
+      },
+      {
+        "n": 28,
+        "blocks": [
+          {
+            "t": "Fluctuation Around a Set Point",
+            "k": "h",
+            "zh": "穩態 體內平衡圍繞設定值波動"
+          },
+          {
+            "t": "Homeostasis e.g. body temperature is a variable maintained near an ideal value, or set point.",
+            "k": "p",
+            "zh": "體內穩定，例如體溫是維持在理想值或設定點附近的變量。"
+          },
+          {
+            "t": "• Automatic process that a living thing uses to keep its body steady on the inside while continuing to adjust to changing conditions outside of the body, or in its environment.",
+            "k": "li",
+            "zh": "•生物使用的自動過程，以保持其身體內部穩定，同時繼續適應身體外部或環境中的變化條件。"
+          },
+          {
+            "t": "• The body makes these changes in order to work the right way and survive",
+            "k": "li",
+            "zh": "•身體進行這些改變，以便以正確的方式工作並生存"
+          },
+          {
+            "t": "• Involve three systems:",
+            "k": "li",
+            "zh": "•涉及三個系統："
+          },
+          {
+            "t": "• Receptor/Sensor",
+            "k": "li",
+            "zh": "1.受體/感測器"
+          },
+          {
+            "t": "• Control Center",
+            "k": "li",
+            "zh": "2. 控制中心"
+          },
+          {
+            "t": "• Effector效應器",
+            "k": "li",
+            "zh": "反饋迴路反饋迴路維持體內平衡。受體向控制中心發出信號，表明變量偏離了正常範圍。控制中心調節效應器的動作，產生將變量返回到設定點的回應。在負面回饋中，返回設定點會停止回應。"
+          },
+          {
+            "t": "Dynamic Equilibrium: Conditions are not strictly constant; instead, they fluctuate within a tight, healthy physiological range around a target set point.",
+            "k": "p",
+            "zh": "動態平衡：條件並非嚴格恆定；相反，它們在目標設定點附近緊湊、健康的生理範圍內波動。"
+          }
+        ],
+        "img": "assets/slides/L2/028.webp"
+      },
+      {
+        "n": 29,
+        "blocks": [
+          {
+            "t": "• Negative Feedback",
+            "k": "li",
+            "zh": "负反馈"
+          },
+          {
+            "t": "• The response of the system is opposite to the change that set it in motion",
+            "k": "li",
+            "zh": "•系統的反應與啟動系統的變化相反"
+          },
+          {
+            "t": "• More common",
+            "k": "li",
+            "zh": "• 更常見"
+          },
+          {
+            "t": "• Serves to reduce an excessive response and keep a variable within the normal range.",
+            "k": "li",
+            "zh": "•有助於減少過度反應，並將變量保持在正常範圍內。"
+          },
+          {
+            "t": "• Negative feedback is the primary mechanism involved in maintaining homeostasis. It works to counteract changes away from a set point, helping to stabilize physiological processes.",
+            "k": "li",
+            "zh": "•負反饋是維持體內平衡的主要機制。它可以抵消遠離設定點的變化，有助於穩定生理過程。"
+          },
+          {
+            "t": "Feedback Loop",
+            "k": "h",
+            "zh": "反饋迴路反饋迴路維持體內平衡。受體向控制中心發出信號，表明變量偏離了正常範圍。控制中心調節效應器的動作，產生將變量返回到設定點的回應。在負面回饋中，返回設定點會停止回應。"
+          },
+          {
+            "t": "Feedback loops maintain homeostasis. Receptors signal the control center that a variable has deviated outside its normal range. The control center regulates the action of the effectors, which produce a response that returns the variable to the set point. In negative feedback, the return to set point stops the response. 29 / 53 [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 1 p.20]",
+            "k": "p",
+            "zh": "解剖學與生理學"
+          }
+        ],
+        "img": "assets/slides/L2/029.webp"
+      },
+      {
+        "n": 30,
+        "blocks": [
+          {
+            "t": "• Negative Feedback",
+            "k": "li",
+            "zh": "负反馈"
+          },
+          {
+            "t": "Negative Feedback Mechanism: Body Temperature (a) Negative feedback is one of the mechanisms by which homeostasis is maintained. Receptors Blood glucose homeostasis signal the control center, which regulates the action of the effectors. In the example, body temperature is too high, so sweating occurs. Negative feedback stops the sweating when the body temperature returns to normal.",
+            "k": "p",
+            "zh": "負反饋機制：體溫（ a ）負反饋是維持體內平衡的機制之一。受體"
+          }
+        ],
+        "img": "assets/slides/L2/030.webp"
+      },
+      {
+        "n": 31,
+        "blocks": [
+          {
+            "t": "• Positive Feedback",
+            "k": "li",
+            "zh": "2.正面回饋"
+          },
+          {
+            "t": "• Serves to intensify a response until an endpoint is reached",
+            "k": "li",
+            "zh": "•用於加強反應，直到達到終點"
+          },
+          {
+            "t": "• Fast forward mechanisms cause changes in a physiological variable before they are actually needed",
+            "k": "li",
+            "zh": "•快進機制導致生理變量在實際需要之前發生變化問題？"
+          }
+        ],
+        "img": "assets/slides/L2/031.webp"
+      },
+      {
+        "n": 32,
+        "blocks": [
+          {
+            "t": "Question?",
+            "k": "h",
+            "zh": "•快進機制導致生理變量在實際需要之前發生變化問題？"
+          },
+          {
+            "t": "• Blood pressure",
+            "k": "li",
+            "zh": "•血壓血壓"
+          },
+          {
+            "t": "When your blood pressure rises, your blood vessels can tell there's more resistance to blood flow. They tell the brain this is happening, and the brain communicates with the heart and blood vessels in response. This causes the heart rate to slow as the blood vessels open up more, allowing your blood pressure to return to normal. The opposite happens when you have low blood pressure.",
+            "k": "p",
+            "zh": "•血壓當您的血壓升高時，您的血管可以分辨出對血流的阻力更大。它們告訴大腦這正在發生，大腦與心臟和血管進行溝通。這會導致心率隨著血管的開放而減慢，讓您的血壓恢復正常。當您患有低血壓時，情況正好相反。"
+          },
+          {
+            "t": "Positive Feedback vs Negative Feedback?",
+            "k": "h",
+            "zh": "正面回饋與負面回饋？"
+          }
+        ],
+        "img": "assets/slides/L2/032.webp"
+      },
+      {
+        "n": 33,
+        "blocks": [
+          {
+            "t": "(Page 33)",
+            "k": "p",
+            "zh": "（此頁主要為標題／圖表）"
+          }
+        ],
+        "img": "assets/slides/L2/033.webp"
+      },
+      {
+        "n": 34,
+        "blocks": [
+          {
+            "t": "Membrane transport",
+            "k": "h",
+            "zh": "•膜運輸"
+          },
+          {
+            "t": "跨膜運輸",
+            "k": "h",
+            "zh": ""
+          }
+        ],
+        "img": "assets/slides/L2/034.webp"
+      },
+      {
+        "n": 35,
+        "blocks": [
+          {
+            "t": "Membrane transport",
+            "k": "h",
+            "zh": "•膜運輸"
+          },
+          {
+            "t": "• Movement of substances into and out of the cell across the cell membrane / plasma membrane",
+            "k": "li",
+            "zh": "•物質穿過細胞膜/質膜進出細胞"
+          },
+          {
+            "t": "• Semi-permeable / selectively permeable",
+            "k": "li",
+            "zh": "•半滲透/選擇性滲透"
+          },
+          {
+            "t": "• Forming a barrier between the intracellular fluid (inside the cell), and extracellular fluid (outside the cell).",
+            "k": "li",
+            "zh": "•在細胞內液（細胞內）和細胞外液（細胞外）之間形成屏障。"
+          },
+          {
+            "t": "• The framework consists of the lipid bilayer, made up of phospholipid molecules.",
+            "k": "li",
+            "zh": "•骨架由脂質雙層組成，由磷脂分子組成。"
+          },
+          {
+            "t": "• Two basic methods of transport​",
+            "k": "li",
+            "zh": "•兩種基本的交通方式​"
+          },
+          {
+            "t": "• Passive transport​ - No energy is required​",
+            "k": "li",
+            "zh": "•被動運輸-無需能源​"
+          },
+          {
+            "t": "• Active transport​ - Cell must provide metabolic energy (ATP)​",
+            "k": "li",
+            "zh": "•主動運輸-細胞必須提供代謝能（ ATP ）被動膜運輸"
+          }
+        ],
+        "img": "assets/slides/L2/035.webp"
+      },
+      {
+        "n": 36,
+        "blocks": [
+          {
+            "t": "Passive Membrane Transport",
+            "k": "h",
+            "zh": "•膜運輸"
+          },
+          {
+            "t": "• Diffusion",
+            "k": "li",
+            "zh": "•在細胞質內，材料通過擴散移動"
+          },
+          {
+            "t": "• Facilitated Diffusion",
+            "k": "li",
+            "zh": "促進性擴散"
+          },
+          {
+            "t": "• Osmosis",
+            "k": "li",
+            "zh": "•識別和解釋不同類型的膜運輸（例如擴散、滲透、主動運輸）及其在細胞功能中的作用。"
+          }
+        ],
+        "img": "assets/slides/L2/036.webp"
+      },
+      {
+        "n": 37,
+        "blocks": [
+          {
+            "t": "• Diffusion",
+            "k": "li",
+            "zh": "•在細胞質內，材料通過擴散移動"
+          },
+          {
+            "t": "• Net movement is from high concentration to low concentration, or down a concentration gradient",
+            "k": "li",
+            "zh": "•淨移動是從高濃度到低濃度，或向下濃度梯度"
+          },
+          {
+            "t": "• Particles tend to distribute themselves evenly within a solution",
+            "k": "li",
+            "zh": "•粒子往往在溶液中均勻分布"
+          },
+          {
+            "t": "• Equilibrium is reached when no further net diffusion occurs.",
+            "k": "li",
+            "zh": "•當不再發生淨擴散時達到平衡。"
+          },
+          {
+            "t": "Diffusion across the plasma membrane https://teachmephysiology.com/biochemistry/molecules-and-signalling/diffusion/",
+            "k": "p",
+            "zh": "跨質膜擴散https://teachmephysiology.com/biochemistry/molecules-and-signalling/diffusion/"
+          }
+        ],
+        "img": "assets/slides/L2/037.webp"
+      },
+      {
+        "n": 38,
+        "blocks": [
+          {
+            "t": "• Diffusion",
+            "k": "li",
+            "zh": "•在細胞質內，材料通過擴散移動"
+          },
+          {
+            "t": "Simple Diffusion簡單擴散",
+            "k": "h",
+            "zh": "簡單擴散"
+          },
+          {
+            "t": "• Nonpolar and lipid-soluble substances",
+            "k": "li",
+            "zh": "•非極性和脂溶性物質"
+          },
+          {
+            "t": "• Diffuse directly through the lipid bilayer https://www.sciencefacts.net/wp-content/uploads/2020/02/Simple-Diffusion.jpg",
+            "k": "li",
+            "zh": "•直接透過脂質雙分子層擴散https://www.sciencefacts.net/wp-content/uploads/2020/02/Simple-Diffusion.jpg"
+          },
+          {
+            "t": "• e.g. Diffusion in the alveoli (O2, CO2)",
+            "k": "li",
+            "zh": "•例如肺泡中的擴散（ O2、CO2 ）"
+          },
+          {
+            "t": "Facilitated Diffusion促進性擴散",
+            "k": "h",
+            "zh": "促進性擴散"
+          },
+          {
+            "t": "• Water soluble diffuse through channel proteins (for ions)",
+            "k": "li",
+            "zh": "•水溶性擴散通過通道蛋白質（適用於離子）"
+          },
+          {
+            "t": "• e.g. Glucose, ions (Na⁺, K⁺, Ca²⁺), glucose, ethanol, amino acids",
+            "k": "li",
+            "zh": "•例如：葡萄糖、離子（ Na、K、Ca2 ）、葡萄糖、乙醇、氨基酸"
+          }
+        ],
+        "img": "assets/slides/L2/038.webp"
+      },
+      {
+        "n": 39,
+        "blocks": [
+          {
+            "t": "• Facilitated diffusion",
+            "k": "li",
+            "zh": "促進性擴散"
+          },
+          {
+            "t": "• Molecules move from the region of higher concentration to the region of lower concentration assisted by protein carriers within the membrane",
+            "k": "li",
+            "zh": "•在膜內蛋白質載體的輔助下，分子從濃度較高的區域移動到濃度較低的區域"
+          },
+          {
+            "t": "• Passive movement of molecules",
+            "k": "li",
+            "zh": "•分子的被動運動"
+          },
+          {
+            "t": "• Allow ions and polar molecules to diffuse into the cell",
+            "k": "li",
+            "zh": "•讓離子和極性分子擴散到細胞內"
+          },
+          {
+            "t": "• e.g. uptake of glucose in intestinal cells",
+            "k": "li",
+            "zh": "•例如，攝取腸細胞中的葡萄糖"
+          },
+          {
+            "t": "Facilitated diffusion",
+            "k": "h",
+            "zh": "促進性擴散"
+          }
+        ],
+        "img": "assets/slides/L2/039.webp"
+      },
+      {
+        "n": 40,
+        "blocks": [
+          {
+            "t": "• Osmosis 滲透作用",
+            "k": "li",
+            "zh": "•識別和解釋不同類型的膜運輸（例如擴散、滲透、主動運輸）及其在細胞功能中的作用。"
+          },
+          {
+            "t": "• The net movement of water molecules from a less concentrated solution (the region of high water potential高水勢) to a more concentrated solution (the region of lower water potential 低水勢) through a selectively permeable membrane 半透膜",
+            "k": "li",
+            "zh": "•水分子通過選擇性滲透膜從濃度較低的溶液（高水勢區域高水勢）到濃度較高的溶液（低水勢區域低水勢）的淨移動 半透膜"
+          },
+          {
+            "t": "• e.g. Cell membrane of animal cell is selectively permeable",
+            "k": "li",
+            "zh": "•例如，動物細胞的細胞膜具有選擇性滲透性"
+          },
+          {
+            "t": "• The water potential of the fluid surrounding the cells needs to be controlled carefully",
+            "k": "li",
+            "zh": "•需要仔細控制細胞周圍液體的水勢"
+          },
+          {
+            "t": "Differentially permeable membrane",
+            "k": "h",
+            "zh": "差異滲透膜"
+          },
+          {
+            "t": "LOW water potential HIGH water potential (high concentration of (low concentration of solute) solute)",
+            "k": "p",
+            "zh": "低水位高水位（高濃度（低濃度溶質）溶質）"
+          },
+          {
+            "t": "• Osmosis usually results in a volume change​ 40 / 53",
+            "k": "li",
+            "zh": "•滲透通常會導致體積變化水分子的淨運動"
+          },
+          {
+            "t": "Net movement of water molecules",
+            "k": "h",
+            "zh": "•水分子通過選擇性滲透膜從濃度較低的溶液（高水勢區域高水勢）到濃度較高的溶液（低水勢區域低水勢）的淨移動 半透膜"
+          }
+        ],
+        "img": "assets/slides/L2/040.webp"
+      },
+      {
+        "n": 41,
+        "blocks": [
+          {
+            "t": "• Example of Osmosis",
+            "k": "li",
+            "zh": "3.滲透的例子"
+          },
+          {
+            "t": "• Re-absorption of water by the proximal and distal convoluted tubules of the nephron (Urinary system)",
+            "k": "li",
+            "zh": "•由近端和遠端腎小管（泌尿系統）重新吸收水分"
+          },
+          {
+            "t": "• Removal of wastes in the kidneys: In the kidneys, osmosis helps remove waste from the blood. Urea and other wastes are eliminated from the blood in the glomerulus, and then more water is removed by osmosis in the tubules to produce dilute urine. Fresh water moves into the tubules by osmosis.",
+            "k": "li",
+            "zh": "•清除腎臟中的廢物：在腎臟中，滲透有助於清除血液中的廢物。尿素和其他廢物從腎小球中的血液中去除，然後通過小管中的滲透作用去除更多的水以產生稀釋的尿液。淡水通過滲透進入小管。"
+          },
+          {
+            "t": "• Production of urine: Osmosis plays a role in urine concentration in the kidneys. As glomerular filtrate passes through the loop of Henle, osmosis draws water out in the highly concentrated medulla, forming more concentrated urine.",
+            "k": "li",
+            "zh": "•產生尿液：滲透作用影響腎臟中的尿液濃度。當腎小球濾液通過Henle迴圈時，滲透將水分吸出高度濃縮的髓質，形成更濃縮的尿液。"
+          }
+        ],
+        "img": "assets/slides/L2/041.webp"
+      },
+      {
+        "n": 42,
+        "blocks": [
+          {
+            "t": "• Example of Osmosis",
+            "k": "li",
+            "zh": "3.滲透的例子"
+          },
+          {
+            "t": "• Absorption of water by the alimentary canal 消化道 — stomach, small intestine and the colon (Digestive system)",
+            "k": "li",
+            "zh": "•消化道吸收水分消化道—胃、小腸和結腸（消化系統）"
+          },
+          {
+            "t": "• Absorption of water in the small intestine: When food containing water passes from the small intestine into the bloodstream, osmosis occurs - water molecules move from the higher concentration in the intestinal contents through the intestinal walls and into the bloodstream, which has a lower water concentration.",
+            "k": "li",
+            "zh": "•小腸吸收水分：當含有水分的食物從小腸進入血液時，會發生滲透-水分子從腸道內容物的較高濃度通過腸壁移動到水分濃度較低的血液中。"
+          }
+        ],
+        "img": "assets/slides/L2/042.webp"
+      },
+      {
+        "n": 43,
+        "blocks": [
+          {
+            "t": "This image shows how a cell responds in solutions with different concentrations of Types of Osmosis solutes compared to the cell.",
+            "k": "p",
+            "zh": "這張圖片顯示了與細胞相比，細胞在具有不同濃度滲透溶質類型的溶液中的反應。"
+          },
+          {
+            "t": "• Endosmosis - when a substance is placed in a hypotonic solution (lower solute concentration outside the cell), the solvent molecules move inside the cell and the cell becomes rigid.",
+            "k": "li",
+            "zh": "•內滲-當物質置於低張溶液中（細胞外溶質濃度較低）時，溶劑分子在細胞內移動，細胞變得僵硬。"
+          },
+          {
+            "t": "• Exosmosis - when a substance is placed in a hypertonic solution (higher solute concentration outside the cell), the solvent molecules move out of the cell and the cell becomes flaccid.",
+            "k": "li",
+            "zh": "•滲出-當物質放入高滲溶液（細胞外較高的溶質濃度）中時，溶劑分子移出細胞，細胞變得鬆弛。"
+          },
+          {
+            "t": "https://www.labxchange.org/library/pathway/lx-pathway:91dfe1df-cf5f4e3a-aa61-25686e04f6ff/items/lb:LabXchange:1c15140a:lx_image:1/55104 Osmotic pressure changes the shape of red blood cells in hypertonic, isotonic, and hypotonic solutions. 43 / 53",
+            "k": "p",
+            "zh": "（參考／來源）"
+          }
+        ],
+        "img": "assets/slides/L2/043.webp"
+      },
+      {
+        "n": 44,
+        "blocks": [
+          {
+            "t": "(Page 44)",
+            "k": "p",
+            "zh": "（此頁主要為標題／圖表）"
+          }
+        ],
+        "img": "assets/slides/L2/044.webp"
+      },
+      {
+        "n": 45,
+        "blocks": [
+          {
+            "t": "Osmotic Pressure",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "Osmotic pressure is the pressure required to stop water from diffusing through a membrane by osmosis.",
+            "k": "p",
+            "zh": "滲透壓滲透壓是阻止水透過滲透膜擴散所需的壓力。"
+          }
+        ],
+        "img": "assets/slides/L2/045.webp"
+      },
+      {
+        "n": 46,
+        "blocks": [
+          {
+            "t": "• Active Transport 主動運輸",
+            "k": "li",
+            "zh": "• ATP水解為生物體和細胞中的許多重要過程提供所需的能量。這些包括細胞內信號傳遞、DNA和RNA合成、嘌呤能信號傳遞、突觸信號傳遞、主動運輸和肌肉收縮"
+          },
+          {
+            "t": "• A process that involves the movement of molecules from a region of lower concentration to a region of higher concentration against a gradient or an obstacle with the use of external energy",
+            "k": "li",
+            "zh": "•涉及分子從濃度較低的區域移動到濃度較高的區域，對抗梯度或使用外部能量的障礙的過程"
+          },
+          {
+            "t": "Main Types",
+            "k": "h",
+            "zh": "主要類型"
+          },
+          {
+            "t": "• Primary Active Transport: Uses ATP directly to pump molecules across the membrane.",
+            "k": "li",
+            "zh": "•主要活性運輸：直接使用ATP將分子泵送到膜上。"
+          },
+          {
+            "t": "• Secondary Active Transport: Uses an electrochemical gradient stored from other pumped ions to move substances.",
+            "k": "li",
+            "zh": "•二次主動運輸：使用從其他泵浦離子儲存的電化學梯度來移動物質。"
+          },
+          {
+            "t": "• Vesicular Transport囊泡運輸",
+            "k": "li",
+            "zh": "囊泡運輸"
+          },
+          {
+            "t": "• Endocytosis 胞吞作用",
+            "k": "li",
+            "zh": "胞吞作用"
+          },
+          {
+            "t": "• Exocytosis 胞吐作用",
+            "k": "li",
+            "zh": "胞吐作用"
+          }
+        ],
+        "img": "assets/slides/L2/046.webp"
+      },
+      {
+        "n": 47,
+        "blocks": [
+          {
+            "t": "Primary Active Transport 主要主動運輸",
+            "k": "h",
+            "zh": "•主要活性運輸：直接使用ATP將分子泵送到膜上。"
+          },
+          {
+            "t": "• Molecules are transported across the membrane by breaking down adenosine triphosphate (ATP), include ions such as Na+, K+, Mg2+, and Ca2+.",
+            "k": "li",
+            "zh": "•分子通過分解三磷酸腺苷（ ATP ）運輸穿過膜，包括離子如Na +、K +、Mg2 +和Ca2 +。"
+          },
+          {
+            "t": "• Ion pumps or ion channels facilitate the transport of these charged molecules throughout the body",
+            "k": "li",
+            "zh": "•離子泵或離子通道有助於這些帶電分子在整個身體中的運輸"
+          },
+          {
+            "t": "• Energy source: hydrolysis of ATP",
+            "k": "li",
+            "zh": "•能量來源： ATP、ATP + H ₂ O、→ADP +無機磷酸鹽(P) +能量的水解"
+          },
+          {
+            "t": "ATP + H₂O → ADP + Inorganic Phosphate (Pᵢ) + Energy",
+            "k": "h",
+            "zh": "•能量來源： ATP、ATP + H ₂ O、→ADP +無機磷酸鹽(P) +能量的水解"
+          },
+          {
+            "t": "Sodium-potassium pump",
+            "k": "h",
+            "zh": "鈉鉀泵次要有源運輸 次級主動運輸"
+          }
+        ],
+        "img": "assets/slides/L2/047.webp"
+      },
+      {
+        "n": 48,
+        "blocks": [
+          {
+            "t": "Secondary Active Transport 次級主動運輸",
+            "k": "h",
+            "zh": "•二次主動運輸：使用從其他泵浦離子儲存的電化學梯度來移動物質。"
+          },
+          {
+            "t": "• Energy source: use of ion concentration (often Na) difference across membrane ​(energy created from Primary Active Transport)",
+            "k": "li",
+            "zh": "•能量來源：使用膜上的離子濃度（通常為Na ）差異（從初級主動運輸產生的能量）"
+          },
+          {
+            "t": "• Example: symport; antiport e.g., Sodium-Glucose",
+            "k": "li",
+            "zh": "•示例： symport ； anti-port ，例如小腸和腎臟中的鈉葡萄糖轉運蛋白"
+          },
+          {
+            "t": "Transporters in small intestine and kidneys",
+            "k": "h",
+            "zh": "運輸車"
+          },
+          {
+            "t": "• Transport glucose by utilizing the energy stored in Na+ gradients.",
+            "k": "li",
+            "zh": "-利用儲存在Na +梯度中的能量輸送葡萄糖。"
+          },
+          {
+            "t": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/facilitated-diffusion/a/active-transport",
+            "k": "p",
+            "zh": "（參考／來源）"
+          }
+        ],
+        "img": "assets/slides/L2/048.webp"
+      },
+      {
+        "n": 49,
+        "blocks": [
+          {
+            "t": "Basis of",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "Primary Active Transport Secondary Active Transport differentiation",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "The transport of molecules against a",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "The transport of two distinct molecules across a",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "Definition concentration gradient through the use of energy membrane using energy in other forms than ATP generated by ATP",
+            "k": "p",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "Number of",
+            "k": "h",
+            "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
+          },
+          {
+            "t": "Two types of molecules are transported molecules A single molecule is transported simultaneously transported",
+            "k": "p",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "The concentration gradient of driving ion supplies",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "Energy source Uses energy generated from ATP energy for the transport of the driving ion/molecule against its concentration gradient Number of substances May transport one or more substances Must transport more than one substance transported",
+            "k": "p",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "Types of",
+            "k": "h",
+            "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
+          },
+          {
+            "t": "Transmembrane proteins are specific to the ion Both antiporters and symporters are used in transmembrane transported through them secondary active transport proteins used",
+            "k": "p",
+            "zh": "•膜運輸"
+          },
+          {
+            "t": "Types of molecules Ions like sodium, potassium, and calcium are",
+            "k": "h",
+            "zh": "Types"
+          },
+          {
+            "t": "Ions like sodium act as the driving molecules transported transported across cell membrane",
+            "k": "p",
+            "zh": "血塊黃層"
+          },
+          {
+            "t": "Sodium potassium pump, calcium pump in",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "Examples Glucose-sodium pump, sodium-potassium pump49 / 53 muscles",
+            "k": "h",
+            "zh": "<g>例如:</g>"
+          }
+        ],
+        "img": "assets/slides/L2/049.webp"
+      },
+      {
+        "n": 50,
+        "blocks": [
+          {
+            "t": "Vesicular Transport",
+            "k": "h",
+            "zh": "囊泡運輸"
+          },
+          {
+            "t": "囊泡運輸",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Endocytosis胞吞作用",
+            "k": "h",
+            "zh": "胞吞作用"
+          },
+          {
+            "t": "• cellular process where the cell membrane engulfs large particles or fluids, allowing them to enter the cell",
+            "k": "li",
+            "zh": "•細胞膜吞噬大粒子或液體，讓它們進入細胞的細胞過程"
+          },
+          {
+            "t": "• Phagocytosis - engulf solid substance",
+            "k": "li",
+            "zh": "•吞噬-吞噬固體物質"
+          },
+          {
+            "t": "• e.g., White blood cell eat bacteria",
+            "k": "li",
+            "zh": "•例如，白血球吃細菌"
+          },
+          {
+            "t": "Exocytosis胞吐作用",
+            "k": "h",
+            "zh": "胞吐作用"
+          },
+          {
+            "t": "• the process by which substances are expelled from the cell. It involves the fusion of vesicles with the plasma membrane to release their contents outside the cell",
+            "k": "li",
+            "zh": "•物質從細胞中排出的過程。它涉及囊泡與質膜的融合，將其內容物釋放到細胞外"
+          },
+          {
+            "t": "• Substances are too large to diffuse",
+            "k": "li",
+            "zh": "•物質太大而無法擴散"
+          },
+          {
+            "t": "• e.g., neurons secrete neurotransmitters",
+            "k": "li",
+            "zh": "•例如，神經元分泌神經遞質"
+          },
+          {
+            "t": "• Both endocytosis and exocytosis are active transport processes 50 / 53 https://digfir-published.macmillanusa.com/life11e/life11e_ch06_25.html",
+            "k": "li",
+            "zh": "•胞吞作用和胞吐作用都是主動運輸過程https://digfir-published.macmillanusa.com/life11e/life11e_ch06_25.html影響主動運輸速率的因素"
+          }
+        ],
+        "img": "assets/slides/L2/050.webp"
+      },
+      {
+        "n": 51,
+        "blocks": [
+          {
+            "t": "Factors Affecting Rate of Active Transport",
+            "k": "h",
+            "zh": "•胞吞作用和胞吐作用都是主動運輸過程https://digfir-published.macmillanusa.com/life11e/life11e_ch06_25.html影響主動運輸速率的因素"
+          },
+          {
+            "t": "• Concentration",
+            "k": "li",
+            "zh": "3.酶濃度"
+          },
+          {
+            "t": "◼ The greater the concentration difference, the more the energy needed (as greater concentration gradient should be overcome)",
+            "k": "p",
+            "zh": "1◼ .濃度濃度差異越大，需要的能量就越多（因為需要克服更大的濃度梯度）"
+          },
+          {
+            "t": "• Energy (ATP) availability",
+            "k": "li",
+            "zh": "2◼ .能量（ ATP ）可用性缺乏能量會降低主動運輸率參考Goodenough, J., & McGuire, B. (2017). Biology of humans: Concepts, Applications and Issues (6th ed.). Pearson."
+          },
+          {
+            "t": "◼ The lack of energy decreases the rate of active transport",
+            "k": "h",
+            "zh": "2◼ .能量（ ATP ）可用性缺乏能量會降低主動運輸率參考Goodenough, J., & McGuire, B. (2017). Biology of humans: Concepts, Applications and Issues (6th ed.). Pearson."
+          }
+        ],
+        "img": "assets/slides/L2/051.webp"
+      },
+      {
+        "n": 52,
+        "blocks": [
+          {
+            "t": "Goodenough, J., & McGuire, B. (2017). Biology of humans: Concepts, applications and issues (6th ed.). Pearson. Mader, S. S. (2024). Biology . New York, New York : McGraw-Hill. Martini, F., Nath, J. L., Bartholomew, E. F., Ober, W. C., & Ober, C. E. (2024). Fundamentals of anatomy and physiology (12th ed.). Pearson Education, Inc.. Patton, K. T., Bell, F., Thompson, T., & Williamson, P. (2024). The human body in health & disease (8th ed.). Elsevier. Patton, K. T., Bell, F. B., & Thompson, T. (2022). Anatomy and physiology (11th ed.). Elsevier. Saladin, K. S., & Gan, C. A. (2020). Human anatomy (6th ed.). McGraw-Hill Education. VanPutte, C. L., Regan, J., & Russo, A. (2022). Seeley’s anatomy & physiology (13th edition.). New York, New York: McGraw-Hill Education. Welsh, C. J., Prentice-Craver, C., & Shier, D. (2021). Hole's essentials of human anatomy & physiology (14th ed.). McGraw-Hill Education.",
+            "k": "p",
+            "zh": "（參考／來源）"
+          }
+        ],
+        "img": "assets/slides/L2/052.webp"
+      },
+      {
+        "n": 53,
+        "blocks": [
+          {
+            "t": "Thank You!",
+            "k": "h",
+            "zh": "多謝！"
+          }
+        ],
+        "img": "assets/slides/L2/053.webp"
+      }
+    ],
     "blocks": [
+      {
+        "t": "Health and Life Sciences",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Higher Diploma in General Nursing for",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Enrolled Nurse (AS114218)",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Life Sciences (HHS4218)",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Lecture 2",
+        "k": "h",
+        "zh": ""
+      },
       {
         "t": "Introduction to Human Physiology II",
         "k": "h",
         "zh": "人體生理學介紹II"
       },
       {
-        "t": "Module Intended Learning Outcomes (MILOs): On completion of this lesson, students are expected to be able to:",
-        "k": "p",
-        "zh": "單元預期學習成果（ MILO ） ：完成本課程後，學生應具備以下能力："
+        "t": "Module Intended Learning Outcomes (MILOs):",
+        "k": "h",
+        "zh": "模組預期學習成果（ MILO ） ："
+      },
+      {
+        "t": "On completion of this lesson, students are expected to be able to:",
+        "k": "h",
+        "zh": "完成本課程後，學生應能夠："
       },
       {
         "t": "• Explain the structure and function of cells, tissues and organs of major body systems and physiological processes.",
@@ -7061,7 +11574,12 @@ window.HAZEL_LECTURES = [
         "zh": "•膜運輸"
       },
       {
-        "t": "Learning outcomes: By the end of this lecture, students will be able to:",
+        "t": "Learning outcomes:",
+        "k": "h",
+        "zh": "模組預期學習成果（ MILO ） ："
+      },
+      {
+        "t": "By the end of this lecture, students will be able to:",
         "k": "h",
         "zh": "學習成果：在本課程結束時，學生將能夠："
       },
@@ -7086,9 +11604,14 @@ window.HAZEL_LECTURES = [
         "zh": "•識別和解釋不同類型的膜運輸（例如擴散、滲透、主動運輸）及其在細胞功能中的作用。"
       },
       {
-        "t": "Metabolism 新陳代謝 Metabolism",
+        "t": "Metabolism 新陳代謝",
         "k": "h",
-        "zh": "新陳代謝 Metabolism"
+        "zh": "- 新陳代谢"
+      },
+      {
+        "t": "Metabolism",
+        "k": "h",
+        "zh": "- 新陳代谢"
       },
       {
         "t": "• A set of chemical reactions that happen in the cells of a living organism to sustain life​",
@@ -7116,8 +11639,13 @@ window.HAZEL_LECTURES = [
         "zh": "•回應他們的環境"
       },
       {
-        "t": "• Two Categories​ ATP Derived from Catabolic Reactions Drives Anabolic Reactions Energy released by catabolism is required to form ATP from ADP and",
+        "t": "• Two Categories​ ATP Derived from Catabolic Reactions Drives Anabolic Reactions",
         "k": "li",
+        "zh": "•兩個類別來自分解代謝反應的ATP驅動合成代謝反應分解代謝釋放的能量需要從ADP和"
+      },
+      {
+        "t": "Energy released by catabolism is required to form ATP from ADP and",
+        "k": "h",
         "zh": "•兩個類別來自分解代謝反應的ATP驅動合成代謝反應分解代謝釋放的能量需要從ADP和"
       },
       {
@@ -7131,9 +11659,9 @@ window.HAZEL_LECTURES = [
         "zh": "合成代謝"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 4 p.983] Catabolism分解代謝",
-        "k": "p",
-        "zh": "（參考／來源）"
+        "t": "Catabolism分解代謝",
+        "k": "h",
+        "zh": "•兩個類別來自分解代謝反應的ATP驅動合成代謝反應分解代謝釋放的能量需要從ADP和"
       },
       {
         "t": "• The breakdown of food components (such as carbohydrates, proteins and dietary fats) into their simpler forms, which can then be used to provide energy and the basic building blocks needed for growth and repair",
@@ -7141,19 +11669,19 @@ window.HAZEL_LECTURES = [
         "zh": "•將食物成分（如碳水化合物、蛋白質和膳食脂肪）分解成更簡單的形式，然後可用於提供能量以及生長和修復所需的基本組成部分"
       },
       {
-        "t": "• Glycolysis糖解作用 - metabolic pathway of the breakdown of glucose for energy ​(glyco for sugar, lysis for breaking down)",
+        "t": "• Glycolysis糖解作用 - metabolic pathway of the breakdown of glucose for energy",
         "k": "li",
         "zh": "•糖酵解糖解作用-葡萄糖分解為能量的代謝途徑（糖為糖，裂解為分解）"
       },
       {
-        "t": "Glycolysis is a series of chemical reactions which involves the breaking down of glucose to a 3-carbon molecule called pyruvic acid (Pyruvate) and Glycolysis takes place in the cytoplasm of the cells with no oxygen being necessary for this process.",
-        "k": "p",
-        "zh": "糖酵解是一系列化學反應，涉及將葡萄糖分解為稱為丙酮酸（丙酮酸）的3碳分子，糖酵解發生在細胞的細胞質中，而此過程不需要氧氣。"
+        "t": "​(glyco for sugar, lysis for breaking down)",
+        "k": "h",
+        "zh": "•糖酵解糖解作用-葡萄糖分解為能量的代謝途徑（糖為糖，裂解為分解）"
       },
       {
-        "t": "Very little energy is produced or generated during glycolysis. A net formation of 2ATPs are produced from complete oxidation of one glucose molecule during glycolysis but when further oxidized in the mitochondria, more energy molecules are produced.",
+        "t": "Glycolysis is a series of chemical reactions which involves the breaking down of glucose to a 3-carbon molecule called pyruvic acid (Pyruvate) and Glycolysis takes place in the cytoplasm of the cells with no oxygen being necessary for this process. Very little energy is produced or generated during glycolysis. A net formation of 2ATPs are produced from complete oxidation of one glucose molecule during glycolysis but when further oxidized in the mitochondria, more energy molecules are produced. 7 / 53",
         "k": "p",
-        "zh": "在糖酵解過程中產生或產生的能量很少。在糖酵解過程中，一種葡萄糖分子完全氧化會產生2ATP的淨形成，但當在線粒體中進一步氧化時，會產生更多的能量分子。"
+        "zh": "糖酵解是一系列化學反應，涉及將葡萄糖分解為稱為丙酮酸（丙酮酸）的3碳分子，糖酵解發生在細胞的細胞質中，而此過程不需要氧氣。"
       },
       {
         "t": "Anabolism合成代謝",
@@ -7181,19 +11709,19 @@ window.HAZEL_LECTURES = [
         "zh": "第2階段能量（ ATP ）消耗，將前體轉化為反應性形式。"
       },
       {
-        "t": "Stage 3 Assembly of these activated precursors into complex molecules such as proteins, polysaccharides, lipids and nucleic acids.",
+        "t": "Stage 3 Assembly of these activated precursors into complex molecules such as proteins, polysaccharides, lipids and nucleic acids. Stages of anabolism – DNA synthesis as an example.",
         "k": "p",
         "zh": "第3階段將這些活化的前體組裝成複雜的分子，如蛋白質、多醣、脂質和核酸。"
       },
       {
-        "t": "Stages of anabolism – DNA synthesis as an example.",
-        "k": "p",
-        "zh": "合成代謝階段–以DNA合成為例。"
+        "t": "Enzymes酵素",
+        "k": "h",
+        "zh": "酶"
       },
       {
-        "t": "Enzymes酵素 Enzymes酵素",
+        "t": "Enzymes酵素",
         "k": "h",
-        "zh": "酵素 Enzymes酵素"
+        "zh": "酶"
       },
       {
         "t": "• Biological catalysts that ​",
@@ -7241,8 +11769,13 @@ window.HAZEL_LECTURES = [
         "zh": "•例如麥芽糖酶、乳糖酶、碳水化合物酶……。"
       },
       {
-        "t": "• lower the activation energy of a reaction by increasing the energy level of the substrate How does enzymes work?",
+        "t": "• lower the activation energy of a reaction by increasing the energy level of the substrate",
         "k": "li",
+        "zh": "•通過增加底物的能量水平來降低反應的活化能酶是如何工作的？"
+      },
+      {
+        "t": "How does enzymes work?",
+        "k": "h",
         "zh": "•通過增加底物的能量水平來降低反應的活化能酶是如何工作的？"
       },
       {
@@ -7256,9 +11789,14 @@ window.HAZEL_LECTURES = [
         "zh": "•活性部位取向基板•活性部位與基板結合，正確的反應位置會對必須"
       },
       {
-        "t": "• Enzyme brings substrate closer broken, making it easier to together separate molecules How does enzymes work?",
+        "t": "• Enzyme brings substrate closer broken, making it easier to together separate molecules",
         "k": "li",
-        "zh": "•酵素使底物更接近破碎，使分離的分子更容易聚集在一起酵素如何工作？"
+        "zh": "酵素"
+      },
+      {
+        "t": "How does enzymes work?",
+        "k": "h",
+        "zh": "•通過增加底物的能量水平來降低反應的活化能酶是如何工作的？"
       },
       {
         "t": "• Active Site:",
@@ -7296,7 +11834,12 @@ window.HAZEL_LECTURES = [
         "zh": "•反應的最終結果"
       },
       {
-        "t": "Enzyme Activation Energy and Enzymes",
+        "t": "Enzyme",
+        "k": "h",
+        "zh": "酵素"
+      },
+      {
+        "t": "Activation Energy and Enzymes",
         "k": "h",
         "zh": "酵素活化能和酵素"
       },
@@ -7316,8 +11859,8 @@ window.HAZEL_LECTURES = [
         "zh": "•酶降低活化能，使反應更容易進行。"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 1 p.52] The lock and key model",
-        "k": "p",
+        "t": "The lock and key model",
+        "k": "h",
         "zh": "（參考／來源）"
       },
       {
@@ -7336,8 +11879,13 @@ window.HAZEL_LECTURES = [
         "zh": "•一旦底物與活性位點結合，酶將促進反應並釋放反應產物。"
       },
       {
-        "t": "https://www.medicalnewstoday.com/articles/319704#how-they-work It is where the reaction occurs!",
-        "k": "p",
+        "t": "https://www.medicalnewstoday.com/articles/319704#how-they-work",
+        "k": "h",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "It is where the reaction occurs!",
+        "k": "h",
         "zh": "（參考／來源）"
       },
       {
@@ -7346,34 +11894,34 @@ window.HAZEL_LECTURES = [
         "zh": "影響酶反應速率的因素"
       },
       {
-        "t": "1. Temperature",
+        "t": "• Temperature",
         "k": "li",
-        "zh": "1.溫度"
+        "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
       },
       {
-        "t": "2. pH",
+        "t": "• pH",
         "k": "li",
-        "zh": "（見英文原文）"
+        "zh": "人體生理學概論I"
       },
       {
-        "t": "3. Enzyme concentration",
+        "t": "• Enzyme concentration",
         "k": "li",
         "zh": "3.酶濃度"
       },
       {
-        "t": "4. Substrate concentration",
+        "t": "• Substrate concentration",
         "k": "li",
         "zh": "4.底物濃度"
       },
       {
-        "t": "5. Presence of any inhibitors or activators",
+        "t": "• Presence of any inhibitors or activators",
         "k": "li",
         "zh": "5.存在任何抑制劑或活化劑"
       },
       {
-        "t": "1. Temperature",
+        "t": "• Temperature",
         "k": "li",
-        "zh": "1.溫度"
+        "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
       },
       {
         "t": "• Increase in temperature will increase the rate of enzyme-catalyzed reactions",
@@ -7386,9 +11934,9 @@ window.HAZEL_LECTURES = [
         "zh": "•當達到最大速率時，由於酶失去其活性構象並變性，進一步的溫度升高將降低反應速率"
       },
       {
-        "t": "2. pH",
+        "t": "• pH",
         "k": "li",
-        "zh": "（見英文原文）"
+        "zh": "人體生理學概論I"
       },
       {
         "t": "• pH = the power of hydrogen",
@@ -7401,14 +11949,19 @@ window.HAZEL_LECTURES = [
         "zh": "•帶正電荷的氫離子"
       },
       {
-        "t": "• Higher the amount of hydrogen ions, the more acidic of the area ➢Lower or higher pH ???",
+        "t": "• Higher the amount of hydrogen ions, the more acidic of the area",
         "k": "li",
         "zh": "•氫離子含量越高，該區域的酸性越高pH值越➢低或越高？ ？ ？"
       },
       {
-        "t": "2. pH",
+        "t": "➢Lower or higher pH ???",
+        "k": "h",
+        "zh": "•氫離子含量越高，該區域的酸性越高pH值越➢低或越高？ ？ ？"
+      },
+      {
+        "t": "• pH",
         "k": "li",
-        "zh": "（見英文原文）"
+        "zh": "人體生理學概論I"
       },
       {
         "t": "• Most enzymes are active only within a very narrow range of pH",
@@ -7431,9 +11984,14 @@ window.HAZEL_LECTURES = [
         "zh": "•酶的pH最佳值通常反映其中存在酶的體液的pH"
       },
       {
-        "t": "3. Enzyme Activation 酵素激活",
+        "t": "• Enzyme Activation",
         "k": "li",
-        "zh": "酵素激活"
+        "zh": "酵素活化能和酵素"
+      },
+      {
+        "t": "酵素激活",
+        "k": "h",
+        "zh": ""
       },
       {
         "t": "• Enzyme activation is the process that turns an inactive enzyme into an active one capable of speeding up metabolic reactions.",
@@ -7461,9 +12019,14 @@ window.HAZEL_LECTURES = [
         "zh": "•腸腔內酶原的活化保護胰臟細胞免受自我消化"
       },
       {
-        "t": "4. Substrate Concentration and Reversible Reactions",
+        "t": "• Substrate Concentration and Reversible",
         "k": "li",
-        "zh": "4.底物濃度與可逆反應"
+        "zh": "<g>受質 (Substrate)</g>"
+      },
+      {
+        "t": "Reactions",
+        "k": "h",
+        "zh": "2.酵素-像酵素這樣的蛋白質會加速體內的化學反應，例如在消化過程中分解食物和構建新分子。"
       },
       {
         "t": "• The rate of enzymatic reactions increases when either the substrate concentration or the enzyme concentration is increased",
@@ -7476,8 +12039,13 @@ window.HAZEL_LECTURES = [
         "zh": "•如果酶濃度保持不變，反應速率會隨著底物濃度的增加而增加，直到最大速率"
       },
       {
-        "t": "• When the rate of the reaction does not increase upon further addition of substrate, the enzyme is said to be saturated Cofactor輔因子",
+        "t": "• When the rate of the reaction does not increase upon further addition of substrate, the enzyme is said to be saturated",
         "k": "li",
+        "zh": "•當進一步添加底物後反應速率沒有增加時，該酶被稱為飽和輔因子輔因子"
+      },
+      {
+        "t": "Cofactor輔因子",
+        "k": "h",
         "zh": "•當進一步添加底物後反應速率沒有增加時，該酶被稱為飽和輔因子輔因子"
       },
       {
@@ -7496,8 +12064,13 @@ window.HAZEL_LECTURES = [
         "zh": "•例如鐵、鋅"
       },
       {
-        "t": "• Increase the speed of reaction Coenzymes輔酶",
+        "t": "• Increase the speed of reaction",
         "k": "li",
+        "zh": "•增加反應輔酶的速度輔酶"
+      },
+      {
+        "t": "Coenzymes輔酶",
+        "k": "h",
         "zh": "•增加反應輔酶的速度輔酶"
       },
       {
@@ -7526,12 +12099,17 @@ window.HAZEL_LECTURES = [
         "zh": "•例如：維生素"
       },
       {
-        "t": "https://www.pharmaguideline.com/2022/01/coenzymes-structure-and-biochemical-functions.html Enzyme Inhibitor酶抑制劑",
+        "t": "https://www.pharmaguideline.com/2022/01/coenzymes-structure-and-biochemical-functions.html",
         "k": "p",
         "zh": "（參考／來源）"
       },
       {
-        "t": "1. Competitive inhibitor競爭性抑制劑",
+        "t": "Enzyme Inhibitor酶抑制劑",
+        "k": "h",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "• Competitive inhibitor競爭性抑制劑",
         "k": "li",
         "zh": "競爭性抑制劑"
       },
@@ -7551,12 +12129,17 @@ window.HAZEL_LECTURES = [
         "zh": "•阻擋基板"
       },
       {
-        "t": "• Therefore inhibit the reaction Enzyme Inhibitor",
+        "t": "• Therefore inhibit the reaction",
         "k": "li",
         "zh": "•因此抑制反應酶抑制劑"
       },
       {
-        "t": "2. Non-competitive inhibitor/ Allosteric Site 非競爭性抑制劑",
+        "t": "Enzyme Inhibitor",
+        "k": "h",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "• Non-competitive inhibitor/ Allosteric Site 非競爭性抑制劑",
         "k": "li",
         "zh": "2.非競爭性抑制劑/變構部位 非競爭性抑制劑"
       },
@@ -7566,8 +12149,13 @@ window.HAZEL_LECTURES = [
         "zh": "•不附着在活性部位的分子"
       },
       {
-        "t": "• But attach to enzyme ➢CHANGE the shape of active site",
+        "t": "• But attach to enzyme",
         "k": "li",
+        "zh": "•但附在酵素上➢會改變活性部位的形狀"
+      },
+      {
+        "t": "➢CHANGE the shape of active site",
+        "k": "h",
         "zh": "•但附在酵素上➢會改變活性部位的形狀"
       },
       {
@@ -7576,8 +12164,33 @@ window.HAZEL_LECTURES = [
         "zh": "•基質無法與改變的活性部位結合"
       },
       {
-        "t": "• Therefore inhibit the reaction Examples of enzymatic reactions Enzyme Primary Location Reaction (Substrate → Product) Biological Function Triglycerides (Fats) → Fatty acids Breaks down dietary lipids in the Lipases Small intestine, stomach & glycerol digestive tract.",
+        "t": "• Therefore inhibit the reaction",
         "k": "li",
+        "zh": "•因此抑制反應酶抑制劑"
+      },
+      {
+        "t": "Examples of enzymatic reactions",
+        "k": "h",
+        "zh": "<g>例如:</g>"
+      },
+      {
+        "t": "Enzyme Primary Location Reaction (Substrate → Product) Biological Function",
+        "k": "p",
+        "zh": "酵素"
+      },
+      {
+        "t": "Triglycerides (Fats) → Fatty acids Breaks down dietary lipids in the",
+        "k": "h",
+        "zh": "•因此抑制反應酶主要定位反應（底物→產品）生物學功能甘油三酯（脂肪）→脂肪酸分解脂肪酶中的膳食脂質小腸、胃和甘油消化道。"
+      },
+      {
+        "t": "Lipases Small intestine, stomach",
+        "k": "h",
+        "zh": "•因此抑制反應酶主要定位反應（底物→產品）生物學功能甘油三酯（脂肪）→脂肪酸分解脂肪酶中的膳食脂質小腸、胃和甘油消化道。"
+      },
+      {
+        "t": "& glycerol digestive tract.",
+        "k": "p",
         "zh": "•因此抑制反應酶主要定位反應（底物→產品）生物學功能甘油三酯（脂肪）→脂肪酸分解脂肪酶中的膳食脂質小腸、胃和甘油消化道。"
       },
       {
@@ -7586,17 +12199,22 @@ window.HAZEL_LECTURES = [
         "zh": "唾液、胰腺分泌物澱粉（多醣）→引發小腸麥芽糖和短鏈糖口腔和小腸中澱粉酶的碳水化合物分解。"
       },
       {
-        "t": "Small intestine (brush Hydrolyzes disaccharide maltose into Maltase Maltose → Glucose + Glucose border) absorbable glucose.",
-        "k": "p",
+        "t": "Small intestine (brush Hydrolyzes disaccharide maltose into",
+        "k": "h",
         "zh": "小腸（刷水解二糖麥芽糖成麥芽糖麥芽→糖葡萄糖+葡萄糖邊界）可吸收的葡萄糖。"
       },
       {
-        "t": "Small intestine (secreted by Proteins & polypeptides → Cleaves proteins into smaller peptide Trypsin pancreas) Peptides & amino acids chains and amino acids.",
+        "t": "Maltase Maltose → Glucose + Glucose border) absorbable glucose. Small intestine (secreted by Proteins & polypeptides → Cleaves proteins into smaller peptide Trypsin pancreas) Peptides & amino acids chains and amino acids.",
         "k": "p",
         "zh": "小腸（由蛋白質和多肽分泌）→將蛋白質切割成較小的肽胰蛋白酶胰腺）肽和氨基酸鏈和氨基酸。"
       },
       {
-        "t": "Small intestine (brush Digest milk sugar (lactose) into simple Lactase Lactose → Glucose + Galactose border) monosaccharides.",
+        "t": "Small intestine (brush Digest milk sugar (lactose) into simple",
+        "k": "h",
+        "zh": "小腸（將消化乳糖（乳糖）刷成簡單的乳糖酶乳→糖+半乳糖邊緣）單糖。"
+      },
+      {
+        "t": "Lactase Lactose → Glucose + Galactose border) monosaccharides.",
         "k": "p",
         "zh": "小腸（將消化乳糖（乳糖）刷成簡單的乳糖酶乳→糖+半乳糖邊緣）單糖。"
       },
@@ -7611,8 +12229,13 @@ window.HAZEL_LECTURES = [
         "zh": "核/細胞質（在→脫氧核糖核苷酸DNA催化新DNA聚合酶細胞分裂合成期間）在複製和修復期間的鏈。"
       },
       {
-        "t": "Homeostasis 體內平衡 Fluctuation Around a Set Point",
-        "k": "p",
+        "t": "Homeostasis 體內平衡",
+        "k": "h",
+        "zh": "稳态"
+      },
+      {
+        "t": "Fluctuation Around a Set Point",
+        "k": "h",
         "zh": "穩態 體內平衡圍繞設定值波動"
       },
       {
@@ -7636,19 +12259,19 @@ window.HAZEL_LECTURES = [
         "zh": "•涉及三個系統："
       },
       {
-        "t": "1. Receptor/Sensor",
+        "t": "• Receptor/Sensor",
         "k": "li",
         "zh": "1.受體/感測器"
       },
       {
-        "t": "2. Control Center",
+        "t": "• Control Center",
         "k": "li",
         "zh": "2. 控制中心"
       },
       {
-        "t": "3. Effector效應器",
+        "t": "• Effector效應器",
         "k": "li",
-        "zh": "3.效應者效應器"
+        "zh": "反饋迴路反饋迴路維持體內平衡。受體向控制中心發出信號，表明變量偏離了正常範圍。控制中心調節效應器的動作，產生將變量返回到設定點的回應。在負面回饋中，返回設定點會停止回應。"
       },
       {
         "t": "Dynamic Equilibrium: Conditions are not strictly constant; instead, they fluctuate within a tight, healthy physiological range around a target set point.",
@@ -7656,7 +12279,7 @@ window.HAZEL_LECTURES = [
         "zh": "動態平衡：條件並非嚴格恆定；相反，它們在目標設定點附近緊湊、健康的生理範圍內波動。"
       },
       {
-        "t": "1. Negative Feedback",
+        "t": "• Negative Feedback",
         "k": "li",
         "zh": "负反馈"
       },
@@ -7681,37 +12304,27 @@ window.HAZEL_LECTURES = [
         "zh": "•負反饋是維持體內平衡的主要機制。它可以抵消遠離設定點的變化，有助於穩定生理過程。"
       },
       {
-        "t": "Feedback Loop Feedback loops maintain homeostasis. Receptors signal the control center that a variable has deviated outside its normal range. The control center regulates the action of the effectors, which produce a response that returns the variable to the set point. In negative feedback, the return to set point stops the response.",
-        "k": "p",
+        "t": "Feedback Loop",
+        "k": "h",
         "zh": "反饋迴路反饋迴路維持體內平衡。受體向控制中心發出信號，表明變量偏離了正常範圍。控制中心調節效應器的動作，產生將變量返回到設定點的回應。在負面回饋中，返回設定點會停止回應。"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 1 p.20]",
+        "t": "Feedback loops maintain homeostasis. Receptors signal the control center that a variable has deviated outside its normal range. The control center regulates the action of the effectors, which produce a response that returns the variable to the set point. In negative feedback, the return to set point stops the response. 29 / 53 [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 1 p.20]",
         "k": "p",
-        "zh": "（參考／來源）"
+        "zh": "解剖學與生理學"
       },
       {
-        "t": "1. Negative Feedback",
+        "t": "• Negative Feedback",
         "k": "li",
         "zh": "负反馈"
       },
       {
-        "t": "Negative Feedback Mechanism: Body Temperature (a) Negative feedback is one of the mechanisms by which homeostasis is maintained. Receptors",
+        "t": "Negative Feedback Mechanism: Body Temperature (a) Negative feedback is one of the mechanisms by which homeostasis is maintained. Receptors Blood glucose homeostasis signal the control center, which regulates the action of the effectors. In the example, body temperature is too high, so sweating occurs. Negative feedback stops the sweating when the body temperature returns to normal.",
         "k": "p",
         "zh": "負反饋機制：體溫（ a ）負反饋是維持體內平衡的機制之一。受體"
       },
       {
-        "t": "Blood glucose homeostasis signal the control center, which regulates the action of the effectors. In the example, body temperature is too high, so sweating occurs. Negative feedback stops the sweating when the body temperature returns to normal.",
-        "k": "p",
-        "zh": "血糖穩態會向控制中心發出訊號，控制中心進而調節效應器的運作。例如，當體溫過高時，就會發生出汗。當體溫恢復正常時，負回饋機制會停止流汗。"
-      },
-      {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 1 p.21]",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "2. Positive Feedback",
+        "t": "• Positive Feedback",
         "k": "li",
         "zh": "2.正面回饋"
       },
@@ -7721,24 +12334,49 @@ window.HAZEL_LECTURES = [
         "zh": "•用於加強反應，直到達到終點"
       },
       {
-        "t": "• Fast forward mechanisms cause changes in a physiological variable before they are actually needed Question?",
+        "t": "• Fast forward mechanisms cause changes in a physiological variable before they are actually needed",
         "k": "li",
         "zh": "•快進機制導致生理變量在實際需要之前發生變化問題？"
       },
       {
-        "t": "• Blood pressure When your blood pressure rises, your blood vessels can tell there's more resistance to blood flow. They tell the brain this is happening, and the brain communicates with the heart and blood vessels in response. This causes the heart rate to slow as the blood vessels open up more, allowing your blood pressure to return to normal. The opposite happens when you have low blood pressure.",
+        "t": "Question?",
+        "k": "h",
+        "zh": "•快進機制導致生理變量在實際需要之前發生變化問題？"
+      },
+      {
+        "t": "• Blood pressure",
         "k": "li",
+        "zh": "•血壓血壓"
+      },
+      {
+        "t": "When your blood pressure rises, your blood vessels can tell there's more resistance to blood flow. They tell the brain this is happening, and the brain communicates with the heart and blood vessels in response. This causes the heart rate to slow as the blood vessels open up more, allowing your blood pressure to return to normal. The opposite happens when you have low blood pressure.",
+        "k": "p",
         "zh": "•血壓當您的血壓升高時，您的血管可以分辨出對血流的阻力更大。它們告訴大腦這正在發生，大腦與心臟和血管進行溝通。這會導致心率隨著血管的開放而減慢，讓您的血壓恢復正常。當您患有低血壓時，情況正好相反。"
       },
       {
         "t": "Positive Feedback vs Negative Feedback?",
-        "k": "p",
+        "k": "h",
         "zh": "正面回饋與負面回饋？"
       },
       {
-        "t": "Membrane transport 跨膜運輸 Membrane transport",
+        "t": "(Page 33)",
         "k": "p",
-        "zh": "膜運輸 跨膜運輸 膜運輸"
+        "zh": "（此頁主要為標題／圖表）"
+      },
+      {
+        "t": "Membrane transport",
+        "k": "h",
+        "zh": "•膜運輸"
+      },
+      {
+        "t": "跨膜運輸",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Membrane transport",
+        "k": "h",
+        "zh": "•膜運輸"
       },
       {
         "t": "• Movement of substances into and out of the cell across the cell membrane / plasma membrane",
@@ -7771,29 +12409,34 @@ window.HAZEL_LECTURES = [
         "zh": "•被動運輸-無需能源​"
       },
       {
-        "t": "• Active transport​ - Cell must provide metabolic energy (ATP)​ Passive Membrane Transport",
+        "t": "• Active transport​ - Cell must provide metabolic energy (ATP)​",
         "k": "li",
         "zh": "•主動運輸-細胞必須提供代謝能（ ATP ）被動膜運輸"
       },
       {
-        "t": "1. Diffusion",
-        "k": "li",
-        "zh": "1.擴散"
+        "t": "Passive Membrane Transport",
+        "k": "h",
+        "zh": "•膜運輸"
       },
       {
-        "t": "2. Facilitated Diffusion",
+        "t": "• Diffusion",
         "k": "li",
-        "zh": "2.促進擴散"
+        "zh": "•在細胞質內，材料通過擴散移動"
       },
       {
-        "t": "3. Osmosis",
+        "t": "• Facilitated Diffusion",
         "k": "li",
-        "zh": "3.滲透"
+        "zh": "促進性擴散"
       },
       {
-        "t": "1. Diffusion",
+        "t": "• Osmosis",
         "k": "li",
-        "zh": "1.擴散"
+        "zh": "•識別和解釋不同類型的膜運輸（例如擴散、滲透、主動運輸）及其在細胞功能中的作用。"
+      },
+      {
+        "t": "• Diffusion",
+        "k": "li",
+        "zh": "•在細胞質內，材料通過擴散移動"
       },
       {
         "t": "• Net movement is from high concentration to low concentration, or down a concentration gradient",
@@ -7816,8 +12459,13 @@ window.HAZEL_LECTURES = [
         "zh": "跨質膜擴散https://teachmephysiology.com/biochemistry/molecules-and-signalling/diffusion/"
       },
       {
-        "t": "1. Diffusion Simple Diffusion簡單擴散",
+        "t": "• Diffusion",
         "k": "li",
+        "zh": "•在細胞質內，材料通過擴散移動"
+      },
+      {
+        "t": "Simple Diffusion簡單擴散",
+        "k": "h",
         "zh": "簡單擴散"
       },
       {
@@ -7851,14 +12499,9 @@ window.HAZEL_LECTURES = [
         "zh": "•例如：葡萄糖、離子（ Na、K、Ca2 ）、葡萄糖、乙醇、氨基酸"
       },
       {
-        "t": "channel proteins [Adapted from Seeley's Anatomy and Physiology (13 ed.), Chapter 1 p.82] th",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "2. Facilitated diffusion",
+        "t": "• Facilitated diffusion",
         "k": "li",
-        "zh": "2.促進擴散"
+        "zh": "促進性擴散"
       },
       {
         "t": "• Molecules move from the region of higher concentration to the region of lower concentration assisted by protein carriers within the membrane",
@@ -7881,14 +12524,14 @@ window.HAZEL_LECTURES = [
         "zh": "•例如，攝取腸細胞中的葡萄糖"
       },
       {
-        "t": "Facilitated diffusion [Adapted from Biology (2024), Chapter 5 Figure 5.9]",
-        "k": "p",
-        "zh": "（參考／來源）"
+        "t": "Facilitated diffusion",
+        "k": "h",
+        "zh": "促進性擴散"
       },
       {
-        "t": "3. Osmosis 滲透作用",
+        "t": "• Osmosis 滲透作用",
         "k": "li",
-        "zh": "滲透作用"
+        "zh": "•識別和解釋不同類型的膜運輸（例如擴散、滲透、主動運輸）及其在細胞功能中的作用。"
       },
       {
         "t": "• The net movement of water molecules from a less concentrated solution (the region of high water potential高水勢) to a more concentrated solution (the region of lower water potential 低水勢) through a selectively permeable membrane 半透膜",
@@ -7916,12 +12559,17 @@ window.HAZEL_LECTURES = [
         "zh": "低水位高水位（高濃度（低濃度溶質）溶質）"
       },
       {
-        "t": "• Osmosis usually results in a volume change​ Net movement of water molecules",
+        "t": "• Osmosis usually results in a volume change​ 40 / 53",
         "k": "li",
         "zh": "•滲透通常會導致體積變化水分子的淨運動"
       },
       {
-        "t": "3. Example of Osmosis",
+        "t": "Net movement of water molecules",
+        "k": "h",
+        "zh": "•水分子通過選擇性滲透膜從濃度較低的溶液（高水勢區域高水勢）到濃度較高的溶液（低水勢區域低水勢）的淨移動 半透膜"
+      },
+      {
+        "t": "• Example of Osmosis",
         "k": "li",
         "zh": "3.滲透的例子"
       },
@@ -7941,7 +12589,7 @@ window.HAZEL_LECTURES = [
         "zh": "•產生尿液：滲透作用影響腎臟中的尿液濃度。當腎小球濾液通過Henle迴圈時，滲透將水分吸出高度濃縮的髓質，形成更濃縮的尿液。"
       },
       {
-        "t": "3. Example of Osmosis",
+        "t": "• Example of Osmosis",
         "k": "li",
         "zh": "3.滲透的例子"
       },
@@ -7971,19 +12619,29 @@ window.HAZEL_LECTURES = [
         "zh": "•滲出-當物質放入高滲溶液（細胞外較高的溶質濃度）中時，溶劑分子移出細胞，細胞變得鬆弛。"
       },
       {
-        "t": "https://www.labxchange.org/library/pathway/lx-pathway:91dfe1df-cf5f4e3a-aa61-25686e04f6ff/items/lb:LabXchange:1c15140a:lx_image:1/55104 Osmotic pressure changes the shape of red blood cells in hypertonic, isotonic, and hypotonic solutions.",
+        "t": "https://www.labxchange.org/library/pathway/lx-pathway:91dfe1df-cf5f4e3a-aa61-25686e04f6ff/items/lb:LabXchange:1c15140a:lx_image:1/55104 Osmotic pressure changes the shape of red blood cells in hypertonic, isotonic, and hypotonic solutions. 43 / 53",
         "k": "p",
         "zh": "（參考／來源）"
       },
       {
-        "t": "Osmotic Pressure Osmotic pressure is the pressure required to stop water from diffusing through a membrane by osmosis.",
+        "t": "(Page 44)",
+        "k": "p",
+        "zh": "（此頁主要為標題／圖表）"
+      },
+      {
+        "t": "Osmotic Pressure",
+        "k": "h",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "Osmotic pressure is the pressure required to stop water from diffusing through a membrane by osmosis.",
         "k": "p",
         "zh": "滲透壓滲透壓是阻止水透過滲透膜擴散所需的壓力。"
       },
       {
-        "t": "4. Active Transport 主動運輸",
+        "t": "• Active Transport 主動運輸",
         "k": "li",
-        "zh": "主動運輸"
+        "zh": "• ATP水解為生物體和細胞中的許多重要過程提供所需的能量。這些包括細胞內信號傳遞、DNA和RNA合成、嘌呤能信號傳遞、突觸信號傳遞、主動運輸和肌肉收縮"
       },
       {
         "t": "• A process that involves the movement of molecules from a region of lower concentration to a region of higher concentration against a gradient or an obstacle with the use of external energy",
@@ -8016,9 +12674,14 @@ window.HAZEL_LECTURES = [
         "zh": "胞吞作用"
       },
       {
-        "t": "• Exocytosis 胞吐作用 Primary Active Transport 主要主動運輸",
+        "t": "• Exocytosis 胞吐作用",
         "k": "li",
-        "zh": "•胞吐胞吐作用主要活躍運輸 主要主動運輸"
+        "zh": "胞吐作用"
+      },
+      {
+        "t": "Primary Active Transport 主要主動運輸",
+        "k": "h",
+        "zh": "•主要活性運輸：直接使用ATP將分子泵送到膜上。"
       },
       {
         "t": "• Molecules are transported across the membrane by breaking down adenosine triphosphate (ATP), include ions such as Na+, K+, Mg2+, and Ca2+.",
@@ -8031,14 +12694,24 @@ window.HAZEL_LECTURES = [
         "zh": "•離子泵或離子通道有助於這些帶電分子在整個身體中的運輸"
       },
       {
-        "t": "• Energy source: hydrolysis of ATP ATP + H₂O → ADP + Inorganic Phosphate (Pᵢ) + Energy",
+        "t": "• Energy source: hydrolysis of ATP",
         "k": "li",
         "zh": "•能量來源： ATP、ATP + H ₂ O、→ADP +無機磷酸鹽(P) +能量的水解"
       },
       {
-        "t": "Sodium-potassium pump Secondary Active Transport 次級主動運輸",
-        "k": "p",
+        "t": "ATP + H₂O → ADP + Inorganic Phosphate (Pᵢ) + Energy",
+        "k": "h",
+        "zh": "•能量來源： ATP、ATP + H ₂ O、→ADP +無機磷酸鹽(P) +能量的水解"
+      },
+      {
+        "t": "Sodium-potassium pump",
+        "k": "h",
         "zh": "鈉鉀泵次要有源運輸 次級主動運輸"
+      },
+      {
+        "t": "Secondary Active Transport 次級主動運輸",
+        "k": "h",
+        "zh": "•二次主動運輸：使用從其他泵浦離子儲存的電化學梯度來移動物質。"
       },
       {
         "t": "• Energy source: use of ion concentration (often Na) difference across membrane ​(energy created from Primary Active Transport)",
@@ -8046,19 +12719,114 @@ window.HAZEL_LECTURES = [
         "zh": "•能量來源：使用膜上的離子濃度（通常為Na ）差異（從初級主動運輸產生的能量）"
       },
       {
-        "t": "• Example: symport; antiport e.g., Sodium-Glucose Transporters in small intestine and kidneys",
+        "t": "• Example: symport; antiport e.g., Sodium-Glucose",
         "k": "li",
         "zh": "•示例： symport ； anti-port ，例如小腸和腎臟中的鈉葡萄糖轉運蛋白"
       },
       {
-        "t": "- Transport glucose by utilizing the energy stored in Na+ gradients.",
+        "t": "Transporters in small intestine and kidneys",
+        "k": "h",
+        "zh": "運輸車"
+      },
+      {
+        "t": "• Transport glucose by utilizing the energy stored in Na+ gradients.",
         "k": "li",
         "zh": "-利用儲存在Na +梯度中的能量輸送葡萄糖。"
       },
       {
-        "t": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/facilitated-diffusion/a/active-transport Basis of Primary Active Transport Secondary Active Transport differentiation The transport of molecules against a The transport of two distinct molecules across a Definition concentration gradient through the use of energy membrane using energy in other forms than ATP generated by ATP Number of Two types of molecules are transported molecules A single molecule is transported simultaneously transported The concentration gradient of driving ion supplies Energy source Uses energy generated from ATP energy for the transport of the driving ion/molecule against its concentration gradient Number of substances May transport one or more substances Must transport more than one substance transported Types of Transmembrane proteins are specific to the ion Both antiporters and symporters are used in transmembrane transported through them secondary active transport proteins used Types of molecules Ions like sodium, potassium, and calcium are Ions like sodium act as the driving molecules transported transported across cell membrane Sodium potassium pump, calcium pump in Examples Glucose-sodium pump, sodium-potassium pump49 / 53 muscles Vesicular Transport 囊泡運輸 Endocytosis胞吞作用",
+        "t": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/facilitated-diffusion/a/active-transport",
         "k": "p",
         "zh": "（參考／來源）"
+      },
+      {
+        "t": "Basis of",
+        "k": "h",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "Primary Active Transport Secondary Active Transport differentiation",
+        "k": "h",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "The transport of molecules against a",
+        "k": "h",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "The transport of two distinct molecules across a",
+        "k": "h",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "Definition concentration gradient through the use of energy membrane using energy in other forms than ATP generated by ATP",
+        "k": "p",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "Number of",
+        "k": "h",
+        "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
+      },
+      {
+        "t": "Two types of molecules are transported molecules A single molecule is transported simultaneously transported",
+        "k": "p",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "The concentration gradient of driving ion supplies",
+        "k": "h",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "Energy source Uses energy generated from ATP energy for the transport of the driving ion/molecule against its concentration gradient Number of substances May transport one or more substances Must transport more than one substance transported",
+        "k": "p",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "Types of",
+        "k": "h",
+        "zh": "•兩種類型的脂質：❑脂肪（室溫下半固體）❑油（室溫下液體）"
+      },
+      {
+        "t": "Transmembrane proteins are specific to the ion Both antiporters and symporters are used in transmembrane transported through them secondary active transport proteins used",
+        "k": "p",
+        "zh": "•膜運輸"
+      },
+      {
+        "t": "Types of molecules Ions like sodium, potassium, and calcium are",
+        "k": "h",
+        "zh": "Types"
+      },
+      {
+        "t": "Ions like sodium act as the driving molecules transported transported across cell membrane",
+        "k": "p",
+        "zh": "血塊黃層"
+      },
+      {
+        "t": "Sodium potassium pump, calcium pump in",
+        "k": "h",
+        "zh": "（參考／來源）"
+      },
+      {
+        "t": "Examples Glucose-sodium pump, sodium-potassium pump49 / 53 muscles",
+        "k": "h",
+        "zh": "<g>例如:</g>"
+      },
+      {
+        "t": "Vesicular Transport",
+        "k": "h",
+        "zh": "囊泡運輸"
+      },
+      {
+        "t": "囊泡運輸",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Endocytosis胞吞作用",
+        "k": "h",
+        "zh": "胞吞作用"
       },
       {
         "t": "• cellular process where the cell membrane engulfs large particles or fluids, allowing them to enter the cell",
@@ -8096,63 +12864,43 @@ window.HAZEL_LECTURES = [
         "zh": "•例如，神經元分泌神經遞質"
       },
       {
-        "t": "• Both endocytosis and exocytosis are active transport processes https://digfir-published.macmillanusa.com/life11e/life11e_ch06_25.html Factors Affecting Rate of Active Transport",
+        "t": "• Both endocytosis and exocytosis are active transport processes 50 / 53 https://digfir-published.macmillanusa.com/life11e/life11e_ch06_25.html",
         "k": "li",
         "zh": "•胞吞作用和胞吐作用都是主動運輸過程https://digfir-published.macmillanusa.com/life11e/life11e_ch06_25.html影響主動運輸速率的因素"
       },
       {
-        "t": "1. Concentration ◼ The greater the concentration difference, the more the energy needed (as greater concentration gradient should be overcome)",
+        "t": "Factors Affecting Rate of Active Transport",
+        "k": "h",
+        "zh": "•胞吞作用和胞吐作用都是主動運輸過程https://digfir-published.macmillanusa.com/life11e/life11e_ch06_25.html影響主動運輸速率的因素"
+      },
+      {
+        "t": "• Concentration",
         "k": "li",
+        "zh": "3.酶濃度"
+      },
+      {
+        "t": "◼ The greater the concentration difference, the more the energy needed (as greater concentration gradient should be overcome)",
+        "k": "p",
         "zh": "1◼ .濃度濃度差異越大，需要的能量就越多（因為需要克服更大的濃度梯度）"
       },
       {
-        "t": "2. Energy (ATP) availability ◼ The lack of energy decreases the rate of active transport Reference Goodenough, J., & McGuire, B. (2017). Biology of humans: Concepts, applications and issues (6th ed.). Pearson.",
+        "t": "• Energy (ATP) availability",
         "k": "li",
         "zh": "2◼ .能量（ ATP ）可用性缺乏能量會降低主動運輸率參考Goodenough, J., & McGuire, B. (2017). Biology of humans: Concepts, Applications and Issues (6th ed.). Pearson."
       },
       {
-        "t": "Mader, S. S. (2024). Biology . New York, New York : McGraw-Hill.",
-        "k": "p",
-        "zh": "（參考／來源）"
+        "t": "◼ The lack of energy decreases the rate of active transport",
+        "k": "h",
+        "zh": "2◼ .能量（ ATP ）可用性缺乏能量會降低主動運輸率參考Goodenough, J., & McGuire, B. (2017). Biology of humans: Concepts, Applications and Issues (6th ed.). Pearson."
       },
       {
-        "t": "Martini, F., Nath, J. L., Bartholomew, E. F., Ober, W. C., & Ober, C. E. (2024).",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Fundamentals of anatomy and physiology (12th ed.). Pearson Education, Inc..",
-        "k": "p",
-        "zh": "解剖學和生理學基礎（第12版）。Pearson Education, Inc."
-      },
-      {
-        "t": "Patton, K. T., Bell, F., Thompson, T., & Williamson, P. (2024). The human body in health & disease (8th ed.). Elsevier.",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Patton, K. T., Bell, F. B., & Thompson, T. (2022). Anatomy and physiology (11th ed.). Elsevier.",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Saladin, K. S., & Gan, C. A. (2020). Human anatomy (6th ed.). McGraw-Hill Education.",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "VanPutte, C. L., Regan, J., & Russo, A. (2022). Seeley’s anatomy & physiology (13th edition.). New York, New York: McGraw-Hill Education.",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Welsh, C. J., Prentice-Craver, C., & Shier, D. (2021). Hole's essentials of human anatomy & physiology (14th ed.). McGraw-Hill Education.",
+        "t": "Goodenough, J., & McGuire, B. (2017). Biology of humans: Concepts, applications and issues (6th ed.). Pearson. Mader, S. S. (2024). Biology . New York, New York : McGraw-Hill. Martini, F., Nath, J. L., Bartholomew, E. F., Ober, W. C., & Ober, C. E. (2024). Fundamentals of anatomy and physiology (12th ed.). Pearson Education, Inc.. Patton, K. T., Bell, F., Thompson, T., & Williamson, P. (2024). The human body in health & disease (8th ed.). Elsevier. Patton, K. T., Bell, F. B., & Thompson, T. (2022). Anatomy and physiology (11th ed.). Elsevier. Saladin, K. S., & Gan, C. A. (2020). Human anatomy (6th ed.). McGraw-Hill Education. VanPutte, C. L., Regan, J., & Russo, A. (2022). Seeley’s anatomy & physiology (13th edition.). New York, New York: McGraw-Hill Education. Welsh, C. J., Prentice-Craver, C., & Shier, D. (2021). Hole's essentials of human anatomy & physiology (14th ed.). McGraw-Hill Education.",
         "k": "p",
         "zh": "（參考／來源）"
       },
       {
         "t": "Thank You!",
-        "k": "p",
+        "k": "h",
         "zh": "多謝！"
       }
     ]
@@ -8160,8 +12908,2700 @@ window.HAZEL_LECTURES = [
   {
     "id": "L3",
     "titleZh": "心血管系統",
-    "titleEn": "Cardiovascular System 心血管系統",
+    "titleEn": "Cardiovascular System",
+    "pageCount": 69,
+    "pages": [
+      {
+        "n": 1,
+        "blocks": [
+          {
+            "t": "Health and Life Sciences",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Higher Diploma in General Nursing for",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Enrolled Nurse (AS114218)",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Life Sciences (NHS4218)",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Lecture 3",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "Cardiovascular System 心血管系統",
+            "k": "h",
+            "zh": "•心血管系統•感官系統"
+          }
+        ],
+        "img": "assets/slides/L3/001.webp"
+      },
+      {
+        "n": 2,
+        "blocks": [
+          {
+            "t": "Module Intended Learning Outcomes (MILOs):",
+            "k": "h",
+            "zh": "模組預期學習成果（ MILO ） ："
+          },
+          {
+            "t": "On completion of this lesson, students are expected to be able to:",
+            "k": "h",
+            "zh": "完成本課程後，學生應能夠："
+          },
+          {
+            "t": "• Explain the structure and function of cells, tissues and organs of major body systems and physiological processes.",
+            "k": "li",
+            "zh": "•解釋主要身體系統的細胞、組織和器官的結構和功能以及生理過程。"
+          },
+          {
+            "t": "• Describe the interrelations between different body systems",
+            "k": "li",
+            "zh": "•描述不同身體系統之間的相互關係"
+          }
+        ],
+        "img": "assets/slides/L3/002.webp"
+      },
+      {
+        "n": 3,
+        "blocks": [
+          {
+            "t": "Learning outcomes:",
+            "k": "h",
+            "zh": "模組預期學習成果（ MILO ） ："
+          },
+          {
+            "t": "By the end of this lecture, students will be able to:",
+            "k": "h",
+            "zh": "學習成果：在本課程結束時，學生將能夠："
+          },
+          {
+            "t": "• Understand the basic structure and function of the heart",
+            "k": "li",
+            "zh": "•了解心臟的基本結構和功能"
+          },
+          {
+            "t": "• Describe the blood components and their functions in vascular system",
+            "k": "li",
+            "zh": "•描述血管系統中的血液成分及其功能"
+          },
+          {
+            "t": "• Describe pulmonary and systemic circulation in correct pathways",
+            "k": "li",
+            "zh": "•描述正確途徑的肺循環和全身循環"
+          },
+          {
+            "t": "• Understand types of blood vessels and identify their differences at different areas",
+            "k": "li",
+            "zh": "•了解血管類型並識別不同區域的差異"
+          },
+          {
+            "t": "• Describe basic concept of cardiac cycle",
+            "k": "li",
+            "zh": "•描述心臟週期的基本概念"
+          },
+          {
+            "t": "• Describe the role of baroreceptors in detecting changes in blood pressure and initiating the reflex to maintain homeostasis.",
+            "k": "li",
+            "zh": "•描述壓力感受器在檢測血壓變化和啟動反射以維持體內平衡方面的作用。"
+          }
+        ],
+        "img": "assets/slides/L3/003.webp"
+      },
+      {
+        "n": 4,
+        "blocks": [
+          {
+            "t": "Structure and Function of the Heart",
+            "k": "h",
+            "zh": "心臟心血管系統的結構和功能 心血管系統"
+          }
+        ],
+        "img": "assets/slides/L3/004.webp"
+      },
+      {
+        "n": 5,
+        "blocks": [
+          {
+            "t": "Cardiovascular system 心血管系統",
+            "k": "h",
+            "zh": "•心血管系統•感官系統"
+          },
+          {
+            "t": "• The heart心臟 (muscular pumping device)",
+            "k": "li",
+            "zh": "1.心臟心臟（肌肉抽吸裝置）"
+          },
+          {
+            "t": "• Pump the blood throughout the body",
+            "k": "li",
+            "zh": "•將血液泵入全身"
+          },
+          {
+            "t": "• A network of blood vessels血管 with blood血液",
+            "k": "li",
+            "zh": "2.有血液的血管血管網絡血液"
+          },
+          {
+            "t": "• Closed system 肺循環",
+            "k": "li",
+            "zh": "肺循環 體循環"
+          },
+          {
+            "t": "體循環",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "• With circulation循環",
+            "k": "li",
+            "zh": "•有循環循環"
+          },
+          {
+            "t": "• Blood can pass to different parts of body continuously (non-stop) via arteries動脈, veins靜脈 and capillaries微血管",
+            "k": "li",
+            "zh": "•血液可以通過動脈動脈、靜脈靜脈和毛細血管連續（不間斷）傳遞到身體的不同部位微血管"
+          },
+          {
+            "t": "Systemic and Pulmonary Circulation",
+            "k": "h",
+            "zh": "全身和肺循環"
+          },
+          {
+            "t": "The circulatory system consists of the pulmonary and systemic circulations. The right side of the heart pumps blood through vessels to the lungs and back to the left side of the heart through the pulmonary circulation. The left side of the heart pumps blood through vessels to the tissues of the body and back to the right side of the heart through the systemic circulation. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 20 p.714]",
+            "k": "p",
+            "zh": "循環系統由肺循環和全身循環組成。心臟右側跳動"
+          }
+        ],
+        "img": "assets/slides/L3/005.webp"
+      },
+      {
+        "n": 6,
+        "blocks": [
+          {
+            "t": "Functions of",
+            "k": "h",
+            "zh": "碳水化合物的功能"
+          },
+          {
+            "t": "Cardiovascular system",
+            "k": "h",
+            "zh": "•心血管系統•感官系統"
+          },
+          {
+            "t": "• Transportation of metabolic substances (by red blood cells)",
+            "k": "li",
+            "zh": "1.代謝物質的運輸（通過紅細胞）"
+          },
+          {
+            "t": "• Oxygen and carbon dioxide",
+            "k": "li",
+            "zh": "•氧氣和二氧化碳"
+          },
+          {
+            "t": "• Nutrients",
+            "k": "li",
+            "zh": "營養素"
+          },
+          {
+            "t": "• Waste products (metabolic wastes, excessive water, and ions)",
+            "k": "li",
+            "zh": "•廢物（代謝廢物、過量水和離子）"
+          },
+          {
+            "t": "The circulatory system is composed of blood vessels that carry the blood to the tissues of the body, allowing for the exchange of substances, such as O2, nutrients, CO2, and waste products, necessary to maintain homeostasis. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 21 p.756]",
+            "k": "p",
+            "zh": "循環系統由將血液運送到身體組織的血管組成，允許交換物質，如氧氣、營養物質、二氧化碳和"
+          }
+        ],
+        "img": "assets/slides/L3/006.webp"
+      },
+      {
+        "n": 7,
+        "blocks": [
+          {
+            "t": "Functions of cardiovascular system",
+            "k": "h",
+            "zh": "心血管系統的功能"
+          },
+          {
+            "t": "• Regulation",
+            "k": "li",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "• Hormones and heat (to regulate blood pressure) e.g. Adrenaline",
+            "k": "li",
+            "zh": "•激素和熱量（調節血壓） ，例如腎上腺素"
+          },
+          {
+            "t": "• In thermoregulation: (1) Vasoconstriction",
+            "k": "li",
+            "zh": "•體溫調節： (1)→血管收縮血壓或"
+          },
+          {
+            "t": "→ Blood pressure OR ? (2) Vasodilation",
+            "k": "h",
+            "zh": "•血壓血壓"
+          },
+          {
+            "t": "→ Blood pressure OR ?",
+            "k": "h",
+            "zh": "•體溫調節： (1)→血管收縮血壓或"
+          },
+          {
+            "t": "Thermoregulation in Humans:",
+            "k": "h",
+            "zh": "人體體溫調節："
+          },
+          {
+            "t": "Vasodilation widens blood vessels near the skin’s surface to release heat, while vasoconstriction Thermoregulation narrows them to retain warmth. These processes are controlled through feedback loops involving the hypothalamus, which acts as the body’s thermostat. 7 / 69",
+            "k": "p",
+            "zh": "血管舒張會擴大皮膚表面附近的血管以釋放熱量，而血管收縮溫度調節會縮小血管以保持溫暖。這些過程通過涉及下丘腦的反饋迴路來控制，下丘腦充當身體的恆溫器。"
+          }
+        ],
+        "img": "assets/slides/L3/007.webp"
+      },
+      {
+        "n": 8,
+        "blocks": [
+          {
+            "t": "Functions of cardiovascular system",
+            "k": "h",
+            "zh": "心血管系統的功能"
+          },
+          {
+            "t": "• Protection",
+            "k": "li",
+            "zh": "•磷脂（磷脂 ）是細胞膜中重要的防水化合物•保護"
+          },
+          {
+            "t": "• Clotting → protects against blood loss during tissue damage (by platelet)",
+            "k": "li",
+            "zh": "•凝血→可以防止組織損傷時失血（通過血小板）"
+          },
+          {
+            "t": "• Immune → protects against pathogens (by white blood cells)",
+            "k": "li",
+            "zh": "•→ 免疫防禦病原體（通過白細胞）"
+          },
+          {
+            "t": "Blood Clot",
+            "k": "h",
+            "zh": "2 ）它參與血液凝固和肌肉收縮氯維持陰離子負離子和陽離子之間的平衡正離子"
+          },
+          {
+            "t": "A blood clot consists of fibrin, which",
+            "k": "h",
+            "zh": "血凝塊血凝塊由纖維蛋白組成，白細胞類型會捕獲紅細胞、血小板和液體。"
+          },
+          {
+            "t": "Types of White Blood Cells traps red blood cells, platelets, and fluid. (a) Neutrophil, (b) eosinophil, (c) basophil, (d) lymphocyte, (e) monocyte/macrophage.",
+            "k": "p",
+            "zh": "Types"
+          }
+        ],
+        "img": "assets/slides/L3/008.webp"
+      },
+      {
+        "n": 9,
+        "blocks": [
+          {
+            "t": "What is blood?",
+            "k": "h",
+            "zh": "什麼是血？"
+          },
+          {
+            "t": "• Amount of blood circulating within an individual depends on their size and weight",
+            "k": "li",
+            "zh": "•個體內的血液循環量取決於其體型和體重"
+          },
+          {
+            "t": "• Average human adult has nearly 5 L of circulating blood volume",
+            "k": "li",
+            "zh": "•成年人平均有近5升的循環血容量"
+          },
+          {
+            "t": "• Consist of",
+            "k": "li",
+            "zh": "•由以下成分組成："
+          },
+          {
+            "t": "• Plasma血漿 – 55%",
+            "k": "li",
+            "zh": ""
+          },
+          {
+            "t": "• Blood cells血細胞 – 45%",
+            "k": "li",
+            "zh": "2.血細胞血細胞– 45%"
+          },
+          {
+            "t": "• Erythrocytes (RBC)",
+            "k": "li",
+            "zh": "•紅細胞(RBC)"
+          },
+          {
+            "t": "• Leukocytes (WBC)",
+            "k": "li",
+            "zh": "•白血球(WBC)"
+          },
+          {
+            "t": "• Platelets血小板 血塊黃層",
+            "k": "li",
+            "zh": "血凝塊血凝塊由纖維蛋白組成，白細胞類型會捕獲紅細胞、血小板和液體。"
+          }
+        ],
+        "img": "assets/slides/L3/009.webp"
+      },
+      {
+        "n": 10,
+        "blocks": [
+          {
+            "t": "Plasma血漿",
+            "k": "h",
+            "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
+          },
+          {
+            "t": "Serum 血清 :",
+            "k": "h",
+            "zh": "血小板 血塊黃層 Plasma血漿 Serum 血清"
+          },
+          {
+            "t": "• Plasma excludes fibrinogen and other clotting proteins",
+            "k": "li",
+            "zh": "•血漿不包括纖維蛋白原和其他凝血蛋白質"
+          },
+          {
+            "t": "• Water",
+            "k": "li",
+            "zh": "•水"
+          },
+          {
+            "t": "• Plasma proteins",
+            "k": "li",
+            "zh": "•血漿蛋白質"
+          },
+          {
+            "t": "• Albumins, globulins, fibrinogen",
+            "k": "li",
+            "zh": "•白蛋白、球蛋白、纖維蛋白原"
+          },
+          {
+            "t": "• Nutrients",
+            "k": "li",
+            "zh": "營養素"
+          },
+          {
+            "t": "• Glucose, amino acids, lipid, cholesterol, vitamins",
+            "k": "li",
+            "zh": "•葡萄糖、氨基酸、脂質、膽固醇、維生素"
+          },
+          {
+            "t": "• Metabolic wastes e.g. urea",
+            "k": "li",
+            "zh": "•代謝廢物，例如尿素"
+          },
+          {
+            "t": "• Hormones",
+            "k": "li",
+            "zh": "荷爾蒙"
+          },
+          {
+            "t": "• Ions 血塊黃層",
+            "k": "li",
+            "zh": "血塊黃層"
+          },
+          {
+            "t": "• Enzymes",
+            "k": "li",
+            "zh": "酶"
+          },
+          {
+            "t": "• Antibodies",
+            "k": "li",
+            "zh": "1.抗體-免疫應答。被稱為抗體的防禦性蛋白質與細菌和病毒等外來入侵者結合，從而將其從體內清除。"
+          }
+        ],
+        "img": "assets/slides/L3/010.webp"
+      },
+      {
+        "n": 11,
+        "blocks": [
+          {
+            "t": "Composition of Blood",
+            "k": "h",
+            "zh": "•血液抗體成分正常成人血液成分的近似值。"
+          },
+          {
+            "t": "Approximate values for the components of blood in a normal adult.",
+            "k": "p",
+            "zh": "•血液抗體成分正常成人血液成分的近似值。"
+          },
+          {
+            "t": "Chapter 19 p.684]",
+            "k": "h",
+            "zh": "（參考／來源）"
+          }
+        ],
+        "img": "assets/slides/L3/011.webp"
+      },
+      {
+        "n": 12,
+        "blocks": [
+          {
+            "t": "Blood cells - Erythrocyte紅血球",
+            "k": "h",
+            "zh": "血細胞-紅細胞紅血球紅血球的形狀和尺寸"
+          },
+          {
+            "t": "Shape and dimensions of a red blood cell",
+            "k": "h",
+            "zh": "血細胞-紅細胞紅血球紅血球的形狀和尺寸"
+          },
+          {
+            "t": "• Cells that contain haemoglobin (Hb) 血紅素",
+            "k": "li",
+            "zh": "•含有血紅蛋白（ Hb ）的細胞 血紅素"
+          },
+          {
+            "t": "• Oxygen-transporting protein that gives blood its red colour",
+            "k": "li",
+            "zh": "•讓血液呈現紅色的氧運輸蛋白質"
+          },
+          {
+            "t": "• Transport oxygen to tissues in exchange for carbon dioxide (Gas exchange)",
+            "k": "li",
+            "zh": "•輸送氧氣到組織以換取二氧化碳（氣體交換）"
+          },
+          {
+            "t": "• Biconcave雙凹盤形狀 disk shape",
+            "k": "li",
+            "zh": "•雙凹雙凹盤形狀盤形→表面積，用於氣體交換"
+          },
+          {
+            "t": "→ surface area for gas exchange",
+            "k": "h",
+            "zh": "•雙凹雙凹盤形狀盤形→表面積，用於氣體交換"
+          },
+          {
+            "t": "Hemoglobin (a) Hemoglobin consists of four subunits, each with a globin and a heme血基質. There are two alpha (α) globins 血球蛋白and two beta (β) globins. A heme is associated with each globin. (b) Each heme contains one iron atom (Fe) located at the center of the heme group. Oxygen binds to the heme on hemoglobin molecule. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 19 p.690]",
+            "k": "p",
+            "zh": "血紅蛋白(a)血紅蛋白由四個亞單位組成，每個亞單位都有一個血紅蛋白和一個血紅素血基質。"
+          }
+        ],
+        "img": "assets/slides/L3/012.webp"
+      },
+      {
+        "n": 13,
+        "blocks": [
+          {
+            "t": "Blood cells - Leukocytes白血球",
+            "k": "h",
+            "zh": "血細胞-白血球白血球"
+          },
+          {
+            "t": "• Protection: against infection",
+            "k": "li",
+            "zh": "•防護：免受感染"
+          }
+        ],
+        "img": "assets/slides/L3/013.webp"
+      },
+      {
+        "n": 14,
+        "blocks": [
+          {
+            "t": "Blood cells – Platelet 血小板",
+            "k": "h",
+            "zh": "血細胞–血小板 血小板"
+          },
+          {
+            "t": "• Smallest blood cells",
+            "k": "li",
+            "zh": "•最小的血細胞"
+          },
+          {
+            "t": "• Also called thrombocytes",
+            "k": "li",
+            "zh": "•也稱為血小板"
+          },
+          {
+            "t": "• Function in clotting",
+            "k": "li",
+            "zh": "•凝→聚在一起止血（止血）的功能止血"
+          },
+          {
+            "t": "→ cluster together to stop bleeding（hemostasis）止血",
+            "k": "h",
+            "zh": "•凝→聚在一起止血（止血）的功能止血"
+          }
+        ],
+        "img": "assets/slides/L3/014.webp"
+      },
+      {
+        "n": 15,
+        "blocks": [
+          {
+            "t": "Overview of Blood Cells",
+            "k": "h",
+            "zh": "血細胞概覽"
+          },
+          {
+            "t": "15 15 / 69",
+            "k": "h",
+            "zh": ""
+          }
+        ],
+        "img": "assets/slides/L3/015.webp"
+      },
+      {
+        "n": 16,
+        "blocks": [
+          {
+            "t": "16 16 / 69",
+            "k": "h",
+            "zh": ""
+          }
+        ],
+        "img": "assets/slides/L3/016.webp"
+      },
+      {
+        "n": 17,
+        "blocks": [
+          {
+            "t": "The Heart",
+            "k": "h",
+            "zh": "•解剖學-構結構成身體的結構以及這些結構如何相互關聯，例如心臟結構"
+          }
+        ],
+        "img": "assets/slides/L3/017.webp"
+      },
+      {
+        "n": 18,
+        "blocks": [
+          {
+            "t": "The Heart",
+            "k": "h",
+            "zh": "•解剖學-構結構成身體的結構以及這些結構如何相互關聯，例如心臟結構"
+          },
+          {
+            "t": "• Size of a fist, hollow, cone-shaped",
+            "k": "li",
+            "zh": "•拳頭大小，中空，錐形"
+          },
+          {
+            "t": "• Between the 2nd and 5th ribs; superior to the diaphragm, behind the sternum (inferior mediastinum縱隔)",
+            "k": "li",
+            "zh": "•第2和第5肋骨之間；橫膈膜上方，胸骨後方（縱隔下方縱隔）"
+          },
+          {
+            "t": "• Lies between the lungs; within the thoracic cavity:",
+            "k": "li",
+            "zh": "•位於肺部之間；胸腔內："
+          },
+          {
+            "t": "• Great blood vessels",
+            "k": "li",
+            "zh": "•大血管"
+          },
+          {
+            "t": "• Thymus, esophagus, trachea, thyroid, parathyroid",
+            "k": "li",
+            "zh": "•胸腺、食道、氣管、甲狀腺、甲狀旁腺"
+          },
+          {
+            "t": "• 1/3 to the right of the midsternal line and 2/3 to the left",
+            "k": "li",
+            "zh": "•胸骨中線右側1/3 ，左側2/3"
+          },
+          {
+            "t": "• Base: upper part of the heart, directed toward the right shoulder and lies beneath the 2nd rib",
+            "k": "li",
+            "zh": "•底部：心臟上部，指向右肩，位於第二肋骨下方"
+          },
+          {
+            "t": "• Apex: inferior and pointed tip of the heart; oriented toward the left hip, and rests at about the",
+            "k": "li",
+            "zh": "•心尖：心臟的下尖和尖尖；朝向左臀部，靜止在第5肋間隙左右心臟的功能"
+          },
+          {
+            "t": "5th intercostal space",
+            "k": "h",
+            "zh": "•心尖：心臟的下尖和尖尖；朝向左臀部，靜止在第5肋間隙左右心臟的功能"
+          }
+        ],
+        "img": "assets/slides/L3/018.webp"
+      },
+      {
+        "n": 19,
+        "blocks": [
+          {
+            "t": "Function of the Heart",
+            "k": "h",
+            "zh": "功能"
+          },
+          {
+            "t": "• To receive deoxygenated blood and transport metabolic waste products from the body, sending them to the lungs for oxygenation.",
+            "k": "li",
+            "zh": "•接收缺氧的血液並從身體運送代謝廢物，將其送到肺部進行氧合。"
+          },
+          {
+            "t": "• To pump oxygenated blood, which contains oxygen, nutrients, hormones, and other vital substances, to the cells, tissues, and organs throughout the body.",
+            "k": "li",
+            "zh": "•將含有氧氣、營養素、激素和其他重要物質的含氧血液泵送到全身的細胞、組織和器官。"
+          },
+          {
+            "t": "• To maintain the circulatory system and regulate blood pressure.",
+            "k": "li",
+            "zh": "•維持循環系統和調節血壓。"
+          }
+        ],
+        "img": "assets/slides/L3/019.webp"
+      },
+      {
+        "n": 20,
+        "blocks": [
+          {
+            "t": "Pericardium心包膜",
+            "k": "h",
+            "zh": "心包心包膜"
+          },
+          {
+            "t": "• The pericardium, also known as the pericardial sac, is a double-layered, closed sac that surrounds and protects the heart. It consists of:",
+            "k": "li",
+            "zh": "•心包，也稱為心包囊，是一個雙層、封閉的囊，圍繞並保護心臟。它包括："
+          },
+          {
+            "t": "• Fibrous Pericardium纖維性心包膜",
+            "k": "li",
+            "zh": "纖維性心包膜"
+          },
+          {
+            "t": "• Tough outer layer made of fibrous connective tissue",
+            "k": "li",
+            "zh": "•由纖維結締組織製成的堅韌外層"
+          },
+          {
+            "t": "• Prevents overexpansion of the heart",
+            "k": "li",
+            "zh": "•防止心臟過度膨脹"
+          },
+          {
+            "t": "• Anchors the heart within the mediastinum",
+            "k": "li",
+            "zh": "•將心臟錨定在縱隔內"
+          },
+          {
+            "t": "• Connects to the great vessels (e.g., aorta) above and the diaphragm below",
+            "k": "li",
+            "zh": "•連接到上方的大血管（例如主動脈）和下方的隔膜"
+          },
+          {
+            "t": "• Serous Pericardium漿膜性心包膜",
+            "k": "li",
+            "zh": "漿膜性心包膜"
+          },
+          {
+            "t": "• Inner layer made of simple squamous epithelium",
+            "k": "li",
+            "zh": "•由單純鱗狀上皮組成的內層"
+          },
+          {
+            "t": "• Provides a smooth, friction-reducing surface around the heart",
+            "k": "li",
+            "zh": "•在心臟周圍提供平滑、減少摩擦的表面"
+          },
+          {
+            "t": "Heart in the Pericardium",
+            "k": "h",
+            "zh": "心包中的心臟"
+          }
+        ],
+        "img": "assets/slides/L3/020.webp"
+      },
+      {
+        "n": 21,
+        "blocks": [
+          {
+            "t": "Heart Layers",
+            "k": "h",
+            "zh": "心臟層也稱為心臟壁，心臟由三層組成："
+          },
+          {
+            "t": "Also known as the heart wall, the heart consists of three layers:",
+            "k": "h",
+            "zh": "心臟層也稱為心臟壁，心臟由三層組成："
+          },
+          {
+            "t": "• Epicardium心外膜",
+            "k": "li",
+            "zh": "1.心外膜心外膜"
+          },
+          {
+            "t": "• This is the outer protective layer, made of fibrous and loose connective tissue.",
+            "k": "li",
+            "zh": "•這是由纖維和鬆散結締組織組成的外層保護層。"
+          },
+          {
+            "t": "• Myocardium心肌層",
+            "k": "li",
+            "zh": "2.心肌心肌層"
+          },
+          {
+            "t": "• The middle layer, composed of specialized cardiac muscle tissue, is responsible for the heart's pumping action.",
+            "k": "li",
+            "zh": "•中間層由專門的心肌組織組成，負責心臟的泵送動作。"
+          },
+          {
+            "t": "• Endocardium心內膜",
+            "k": "li",
+            "zh": "3.心內膜心內膜"
+          },
+          {
+            "t": "• This is a thin, smooth layer of endothelial cells that lines the heart's chambers.",
+            "k": "li",
+            "zh": "•這是一層薄而光滑的內皮細胞，排列在心臟腔室內。"
+          }
+        ],
+        "img": "assets/slides/L3/021.webp"
+      },
+      {
+        "n": 22,
+        "blocks": [
+          {
+            "t": "Vena cava = Vein Anatomy of the Heart",
+            "k": "h",
+            "zh": "腔靜脈=心臟靜脈解剖學肺=肺（上身至右心） （至全身）"
+          },
+          {
+            "t": "Pulmonary = Lung (Upper body to right heart) (To whole body)",
+            "k": "h",
+            "zh": "腔靜脈=心臟靜脈解剖學肺=肺（上身至右心） （至全身）"
+          },
+          {
+            "t": "Heart Chambers",
+            "k": "h",
+            "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+          },
+          {
+            "t": "Upper Chambers (receive blood):",
+            "k": "h",
+            "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+          },
+          {
+            "t": "Right atrium (RA)",
+            "k": "h",
+            "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+          },
+          {
+            "t": "Left atrium (LA)",
+            "k": "h",
+            "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+          },
+          {
+            "t": "Lower Chambers (pump blood):",
+            "k": "h",
+            "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+          },
+          {
+            "t": "Right ventricle (RV)",
+            "k": "h",
+            "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+          },
+          {
+            "t": "Left ventricle (LV)",
+            "k": "h",
+            "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+          },
+          {
+            "t": "Lower body to right heart)",
+            "k": "h",
+            "zh": "下半身至右心）動脈=遠離心臟心臟瓣膜靜心臟瓣膜脈=朝向心臟"
+          }
+        ],
+        "img": "assets/slides/L3/022.webp"
+      },
+      {
+        "n": 23,
+        "blocks": [
+          {
+            "t": "Artery= Away from heart The Heart Valves心臟瓣膜",
+            "k": "h",
+            "zh": "下半身至右心）動脈=遠離心臟心臟瓣膜靜心臟瓣膜脈=朝向心臟"
+          },
+          {
+            "t": "Vein= Toward the heart",
+            "k": "h",
+            "zh": "靜脈=朝向心臟通路："
+          },
+          {
+            "t": "Atrioventricular valves (AV valves)",
+            "k": "h",
+            "zh": "房室瓣（ AV瓣）"
+          },
+          {
+            "t": "Atrioventricular valves (AV valves)",
+            "k": "h",
+            "zh": "房室瓣（ AV瓣）"
+          },
+          {
+            "t": "Function:",
+            "k": "h",
+            "zh": "功能"
+          },
+          {
+            "t": "• To ensure the unidirectional flow of blood through the heart chambers and great arteries.",
+            "k": "li",
+            "zh": "•確保血液單向流過心室和大動脈。"
+          },
+          {
+            "t": "• To prevent backflow of blood when a chamber or vessel contracts. 23 / 69",
+            "k": "li",
+            "zh": "•防止腔室或血管收縮時血液回流。"
+          }
+        ],
+        "img": "assets/slides/L3/023.webp"
+      },
+      {
+        "n": 24,
+        "blocks": [
+          {
+            "t": "Blood Circulation循環",
+            "k": "h",
+            "zh": "血液循環循環"
+          },
+          {
+            "t": "• Pulmonary Circulation肺循環",
+            "k": "li",
+            "zh": "肺循環"
+          },
+          {
+            "t": "• Systemic Circulation體循環",
+            "k": "li",
+            "zh": "全身循環"
+          },
+          {
+            "t": "• Coronary Circulation冠狀循環",
+            "k": "li",
+            "zh": "冠狀循環"
+          },
+          {
+            "t": "• Portal Circulation肝門循環",
+            "k": "li",
+            "zh": "肝門循環"
+          },
+          {
+            "t": "To maintain enough oxygenation when the blood is transported from the lungs to the systemic circulation",
+            "k": "p",
+            "zh": "當血液從肺部運送到全身循環時，保持足夠的氧合"
+          }
+        ],
+        "img": "assets/slides/L3/024.webp"
+      },
+      {
+        "n": 25,
+        "blocks": [
+          {
+            "t": "• Pulmonary Circulation肺循環",
+            "k": "li",
+            "zh": "肺循環"
+          },
+          {
+            "t": "• Blood supply for gas exchange in LUNGS:",
+            "k": "li",
+            "zh": "•肺部氣體交換的血液供應："
+          },
+          {
+            "t": "• Carries deoxygenated blood from right heart to the lungs",
+            "k": "li",
+            "zh": "•將右心臟的缺氧血液攜帶到肺部"
+          },
+          {
+            "t": "• Returns oxygenated blood from lungs to left heart",
+            "k": "li",
+            "zh": "•將肺部的含氧血液送回左心"
+          },
+          {
+            "t": "Pulmonary Circulation",
+            "k": "h",
+            "zh": "肺循環"
+          },
+          {
+            "t": "Systemic Circulation",
+            "k": "h",
+            "zh": "全身循環"
+          },
+          {
+            "t": "25 25 / 69",
+            "k": "h",
+            "zh": ""
+          }
+        ],
+        "img": "assets/slides/L3/025.webp"
+      },
+      {
+        "n": 26,
+        "blocks": [
+          {
+            "t": "• Pulmonary Circulation肺循環 Artery= Away from heart",
+            "k": "li",
+            "zh": "肺循環"
+          },
+          {
+            "t": "Vein= Toward the heart",
+            "k": "h",
+            "zh": "靜脈=朝向心臟通路："
+          },
+          {
+            "t": "Pathway:",
+            "k": "h",
+            "zh": "銜接"
+          },
+          {
+            "t": "• Right atrium (Receiving chamber)",
+            "k": "li",
+            "zh": "1.右心房（收容室）→三尖瓣→右心室（出院室）"
+          },
+          {
+            "t": "→ tricuspid valve",
+            "k": "h",
+            "zh": "1.右心房（收容室）→三尖瓣→右心室（出院室）"
+          },
+          {
+            "t": "→ right ventricle (Discharging chamber)",
+            "k": "h",
+            "zh": "1.右心房（收容室）→三尖瓣→右心室（出院室）"
+          },
+          {
+            "t": "• → pulmonary semilunar valve",
+            "k": "li",
+            "zh": "2.→肺半月瓣→肺動脈幹→肺動脈（左、右）"
+          },
+          {
+            "t": "→ pulmonary trunk",
+            "k": "h",
+            "zh": "2.→肺半月瓣→肺動脈幹→肺動脈（左、右）"
+          },
+          {
+            "t": "→ pulmonary arteries (left and right)",
+            "k": "h",
+            "zh": "2.→肺半月瓣→肺動脈幹→肺動脈（左、右）"
+          },
+          {
+            "t": "• → lungs (gas exchange)",
+            "k": "li",
+            "zh": "3.→肺（氣體交換）"
+          },
+          {
+            "t": "• → pulmonary veins",
+            "k": "li",
+            "zh": "4.→肺靜脈→左心房（收容室）→二尖瓣/二尖瓣→左心室（出院室）"
+          },
+          {
+            "t": "→ left atrium (Receiving chamber)",
+            "k": "h",
+            "zh": "4.→肺靜脈→左心房（收容室）→二尖瓣/二尖瓣→左心室（出院室）"
+          },
+          {
+            "t": "→ mitral/bicuspid valve",
+            "k": "h",
+            "zh": "4.→肺靜脈→左心房（收容室）→二尖瓣/二尖瓣→左心室（出院室）"
+          },
+          {
+            "t": "→ left ventricle (Discharging chamber)",
+            "k": "h",
+            "zh": "4.→肺靜脈→左心房（收容室）→二尖瓣/二尖瓣→左心室（出院室）"
+          },
+          {
+            "t": "*artery carries deoxygenated blood 26 / 69",
+            "k": "h",
+            "zh": "*動脈攜帶缺氧血液"
+          }
+        ],
+        "img": "assets/slides/L3/026.webp"
+      },
+      {
+        "n": 27,
+        "blocks": [
+          {
+            "t": "• Systemic Circulation體循環",
+            "k": "li",
+            "zh": "全身循環"
+          },
+          {
+            "t": "• Carries oxygen and nutrients to all other parts of body and collect carbon dioxide and wastes from whole body",
+            "k": "li",
+            "zh": "•將氧氣和營養物質攜帶到身體的所有其他部位，並從全身收集二氧化碳和廢物"
+          },
+          {
+            "t": "• Carries oxygenated blood from left heart to the body",
+            "k": "li",
+            "zh": "•將含氧血液從左心臟運送到身體"
+          },
+          {
+            "t": "• Returns deoxygenated blood from body to right heart",
+            "k": "li",
+            "zh": "•將缺氧的血液從身體返回到右心"
+          },
+          {
+            "t": "Pulmonary Circulation",
+            "k": "h",
+            "zh": "肺循環"
+          },
+          {
+            "t": "Systemic Circulation",
+            "k": "h",
+            "zh": "全身循環"
+          },
+          {
+            "t": "27 27 / 69",
+            "k": "h",
+            "zh": ""
+          }
+        ],
+        "img": "assets/slides/L3/027.webp"
+      },
+      {
+        "n": 28,
+        "blocks": [
+          {
+            "t": "Artery= Away from heart",
+            "k": "h",
+            "zh": "下半身至右心）動脈=遠離心臟心臟瓣膜靜心臟瓣膜脈=朝向心臟"
+          },
+          {
+            "t": "• Systemic Circulation Vein= Toward the heart",
+            "k": "li",
+            "zh": "全身循環"
+          },
+          {
+            "t": "Pathway:",
+            "k": "h",
+            "zh": "銜接"
+          },
+          {
+            "t": "• Left ventricle (Discharging chamber)",
+            "k": "li",
+            "zh": "4.→肺靜脈→左心房（收容室）→二尖瓣/二尖瓣→左心室（出院室）"
+          },
+          {
+            "t": "• → aortic semilunar valves",
+            "k": "li",
+            "zh": "2.→主動脈半月瓣→主動脈"
+          },
+          {
+            "t": "→ aorta",
+            "k": "h",
+            "zh": "•連接到上方的大血管（例如主動脈）和下方的隔膜"
+          },
+          {
+            "t": "• → whole body",
+            "k": "li",
+            "zh": "腔靜脈=心臟靜脈解剖學肺=肺（上身至右心） （至全身）"
+          },
+          {
+            "t": "• → Superior and inferior vena cava",
+            "k": "li",
+            "zh": "4.→上下腔靜脈"
+          },
+          {
+            "t": "• → right atrium (Receiving chamber)",
+            "k": "li",
+            "zh": "1.右心房（收容室）→三尖瓣→右心室（出院室）"
+          },
+          {
+            "t": "*vein carries oxygenated blood 28 / 69",
+            "k": "h",
+            "zh": "*靜脈帶有含氧血液冠狀動冠狀循環脈溝的循環系統圖"
+          }
+        ],
+        "img": "assets/slides/L3/028.webp"
+      },
+      {
+        "n": 29,
+        "blocks": [
+          {
+            "t": "A diagram of the circulatory system 29 / 69",
+            "k": "h",
+            "zh": ""
+          }
+        ],
+        "img": "assets/slides/L3/029.webp"
+      },
+      {
+        "n": 30,
+        "blocks": [
+          {
+            "t": "Coronary Circulation",
+            "k": "h",
+            "zh": "冠狀循環"
+          },
+          {
+            "t": "冠狀循環 coronary sulcus",
+            "k": "h",
+            "zh": "*靜脈帶有含氧血液冠狀動冠狀循環脈溝的循環系統圖"
+          },
+          {
+            "t": "Provides cardiac muscle with reliable supplies of oxygen and nutrients:",
+            "k": "h",
+            "zh": "為心肌提供可靠的氧氣和營養供應："
+          },
+          {
+            "t": "Arterial Supply",
+            "k": "h",
+            "zh": "動脈供血"
+          },
+          {
+            "t": "• From the base of the aorta and encircle the heart in the coronary sulcus (groove between the atria and ventricles)",
+            "k": "li",
+            "zh": "•從主動脈底部包圍冠狀溝中的心臟（心房和心室之間的溝）靜脈供血"
+          },
+          {
+            "t": "Venous Supply",
+            "k": "h",
+            "zh": "•從主動脈底部包圍冠狀溝中的心臟（心房和心室之間的溝）靜脈供血"
+          },
+          {
+            "t": "• Several cardiac veins drain into the coronary sinus, then empty into the right atrium",
+            "k": "li",
+            "zh": "•幾條心臟靜脈排入冠狀竇，然後排入右心房"
+          },
+          {
+            "t": "Any coronary disorder or disease can reduce the flow of oxygen and nutrients to the heart muscle",
+            "k": "p",
+            "zh": "任何冠狀動脈疾病或疾病都可能減少氧氣和營養物質流入心臟肌肉➢增加心臟病發作和可能死亡的風險"
+          },
+          {
+            "t": "➢ Increase risk of heart attack and possibly death",
+            "k": "h",
+            "zh": "任何冠狀動脈疾病或疾病都可能減少氧氣和營養物質流入心臟肌肉➢增加心臟病發作和可能死亡的風險"
+          }
+        ],
+        "img": "assets/slides/L3/030.webp"
+      },
+      {
+        "n": 31,
+        "blocks": [
+          {
+            "t": "Cardiac Excitation (Cardiac Conduction System)",
+            "k": "h",
+            "zh": "心臟刺激（心臟傳導系統心臟傳導系統）專用細胞網絡（自律心肌）"
+          },
+          {
+            "t": "心臟傳導系統",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "A network of specialized cells (autorhythmic myocardium)",
+            "k": "h",
+            "zh": "心臟刺激（心臟傳導系統心臟傳導系統）專用細胞網絡（自律心肌）"
+          },
+          {
+            "t": "• Self-excitable; repeatedly generate action potential that trigger heart contraction",
+            "k": "li",
+            "zh": "•自我興奮；反覆產生觸發心臟收縮的動作電位"
+          },
+          {
+            "t": "• They acts as a pacemaker. Setting the rhythm of electrical excitation; initiate each heartbeat (pacemaker)",
+            "k": "li",
+            "zh": "•它們充當心律調節器。設定電激發的節奏；啟動每個心跳（心律調節器）"
+          },
+          {
+            "t": "• Process of electrical activity related to contraction of heart by stimulates the contraction of contractile myocardium in a coordinated (sequential) manner",
+            "k": "li",
+            "zh": "•與心臟收縮相關的電活動過程，以協調（順序）的方式刺激收縮心肌的收縮"
+          },
+          {
+            "t": "• Involves electrical signals by SA node and cardiac muscles (from the atria to the ventricles) to control heartbeat",
+            "k": "li",
+            "zh": "•涉及由SA節點和心肌（從心房到心室）發出的電子信號，以控制心跳"
+          },
+          {
+            "t": "• Ensuring efficient pumping of blood",
+            "k": "li",
+            "zh": "•確保有效的血液泵送"
+          },
+          {
+            "t": "• Involves:",
+            "k": "li",
+            "zh": "•導致蛋白質產生的基因表達涉及兩個主要步驟："
+          },
+          {
+            "t": "❖ Sinoatrial node (SA node) – initiates the heartbeat (pacemaker)",
+            "k": "h",
+            "zh": "•涉及：竇❖房結（ SA結節） –開始心跳（起搏器）❖房室結（ AV結節） -稍微延遲His ❖ （房室束）的脈衝，左右束分支❖浦肯野纖維（整個心室）"
+          },
+          {
+            "t": "❖ Atrioventricular node (AV node) - delays the impulse slightly",
+            "k": "h",
+            "zh": "•涉及：竇❖房結（ SA結節） –開始心跳（起搏器）❖房室結（ AV結節） -稍微延遲His ❖ （房室束）的脈衝，左右束分支❖浦肯野纖維（整個心室）"
+          },
+          {
+            "t": "❖ Bundle of His (Atrioventricular bundle), left and right bundle branches",
+            "k": "p",
+            "zh": "•涉及：竇❖房結（ SA結節） –開始心跳（起搏器）❖房室結（ AV結節） -稍微延遲His ❖ （房室束）的脈衝，左右束分支❖浦肯野纖維（整個心室）"
+          },
+          {
+            "t": "❖ Purkinje fibers (throughout the ventricle)",
+            "k": "h",
+            "zh": "•涉及：竇❖房結（ SA結節） –開始心跳（起搏器）❖房室結（ AV結節） -稍微延遲His ❖ （房室束）的脈衝，左右束分支❖浦肯野纖維（整個心室）"
+          }
+        ],
+        "img": "assets/slides/L3/031.webp"
+      },
+      {
+        "n": 32,
+        "blocks": [
+          {
+            "t": "Cardiac Excitation",
+            "k": "h",
+            "zh": "心臟興奮"
+          },
+          {
+            "t": "• Initiation of Action Potential:",
+            "k": "li",
+            "zh": "1.啟動行動潛力："
+          },
+          {
+            "t": "• The SA node generates an action potential (pacemaker) that spreads across the atrial walls.",
+            "k": "li",
+            "zh": "• SA結節產生橫跨心房壁的動作電位（心律調節器）。"
+          },
+          {
+            "t": "• Atrial Contraction:",
+            "k": "li",
+            "zh": "2.心房收縮："
+          },
+          {
+            "t": "• The action potential causes the atria to contract, pushing blood into the ventricles.",
+            "k": "li",
+            "zh": "•動作電位導致心房收縮，將血液推入心室。"
+          },
+          {
+            "t": "• Signal Propagation to Ventricles:",
+            "k": "li",
+            "zh": "3.訊號傳播至心室："
+          },
+          {
+            "t": "• The action potential travels from the AV node through the AV bundle (Bundle of (Bundle of His)",
+            "k": "li",
+            "zh": "•動作電位從房室結節穿過房室束（ His束）、束分支和浦肯野纖維，刺激心室壁。"
+          },
+          {
+            "t": "His), bundle branches, and Purkinje fibers, stimulating the ventricular walls.",
+            "k": "p",
+            "zh": "•動作電位從房室結節穿過房室束（ His束）、束分支和浦肯野纖維，刺激心室壁。"
+          },
+          {
+            "t": "• Ventricular Contraction:",
+            "k": "li",
+            "zh": "4.心室收縮："
+          },
+          {
+            "t": "• The ventricles contract, starting from the apex and moving upward toward the base of the heart, efficiently pumping blood out.",
+            "k": "li",
+            "zh": "•心室收縮，從心尖開始，向上移動到心臟底部，有效地泵出血液。"
+          }
+        ],
+        "img": "assets/slides/L3/032.webp"
+      },
+      {
+        "n": 33,
+        "blocks": [
+          {
+            "t": "Cardiac Excitation",
+            "k": "h",
+            "zh": "心臟興奮"
+          },
+          {
+            "t": "Both atria Both ventricles",
+            "k": "h",
+            "zh": "雙心房雙心室SA房室束浦肯野→ →去極化和去極→ → →化及His纖維結節收縮收縮"
+          },
+          {
+            "t": "SA AV Bundle Purkinje →",
+            "k": "h",
+            "zh": "雙心房雙心室SA房室束浦肯野→ →去極化和去極→ → →化及His纖維結節收縮收縮"
+          },
+          {
+            "t": "→ depolarize & → → → depolarize & node node of His fibers contract contract",
+            "k": "p",
+            "zh": "雙心房雙心室SA房室束浦肯野→ →去極化和去極→ → →化及His纖維結節收縮收縮"
+          }
+        ],
+        "img": "assets/slides/L3/033.webp"
+      },
+      {
+        "n": 34,
+        "blocks": [
+          {
+            "t": "Cardiac Cycle心動週期",
+            "k": "h",
+            "zh": "心動週期"
+          },
+          {
+            "t": "• A process of repetitive systole收縮期 (contraction; blood leaves the chamber) and diastole舒張期 (relaxation; blood fills the chamber) of heart chambers",
+            "k": "li",
+            "zh": "•心室的重複收縮收縮期（收縮；血液離開腔室）和舒張舒張期（放鬆；血液充滿腔室）過程"
+          },
+          {
+            "t": "• One complete contraction and relaxation of all four chambers of the heart S1",
+            "k": "li",
+            "zh": "•心臟所有四個腔室一次完全收縮和放鬆S1"
+          },
+          {
+            "t": "• Total duration is 0.8 seconds in a heart beating 74 bpm S2",
+            "k": "li",
+            "zh": "•心臟跳動74 bpm S2的總持續時間為0.8秒"
+          },
+          {
+            "t": "• Atrial systole : 0.1 seconds",
+            "k": "li",
+            "zh": "1.心房收縮期： 0.1秒"
+          },
+          {
+            "t": "• Ventricular systole : 0.3 seconds",
+            "k": "li",
+            "zh": "2.心室收縮： 0.3秒"
+          },
+          {
+            "t": "• Complete cardiac (4 chambers) diastole : 0.4 seconds",
+            "k": "li",
+            "zh": "3.完全心臟（ 4腔室）舒張期： 0.4秒心臟週期收縮機械事件等容收縮期心室收縮"
+          }
+        ],
+        "img": "assets/slides/L3/034.webp"
+      },
+      {
+        "n": 35,
+        "blocks": [
+          {
+            "t": "Mechanical Events of Cardiac Cycle",
+            "k": "h",
+            "zh": "心動週期"
+          }
+        ],
+        "img": "assets/slides/L3/035.webp"
+      },
+      {
+        "n": 36,
+        "blocks": [
+          {
+            "t": "Systole收縮期",
+            "k": "h",
+            "zh": "•心室的重複收縮收縮期（收縮；血液離開腔室）和舒張舒張期（放鬆；血液充滿腔室）過程"
+          },
+          {
+            "t": "Isovolumetric ventricular contraction",
+            "k": "h",
+            "zh": "3.完全心臟（ 4腔室）舒張期： 0.4秒心臟週期收縮機械事件等容收縮期心室收縮"
+          },
+          {
+            "t": "• Ventricle contract",
+            "k": "li",
+            "zh": "1.心室收縮"
+          },
+          {
+            "t": "• Ventricle pressure > atrium pressure",
+            "k": "li",
+            "zh": "2.心室壓>心房壓房→室瓣關閉S1"
+          },
+          {
+            "t": "→ AV valves closed. S1",
+            "k": "h",
+            "zh": "2.心室壓>心房壓房→室瓣關閉S1"
+          },
+          {
+            "t": "→ First heart sound S1 “Lup”",
+            "k": "h",
+            "zh": "→ 第一次心音S1 “Lup”"
+          },
+          {
+            "t": "• Ventricle pressure < aorta and pulmonary artery pressure",
+            "k": "li",
+            "zh": "3.心室壓力<主動脈和肺動脈壓→肺動脈和主動脈瓣關閉。"
+          },
+          {
+            "t": "→ Pulmonary and aortic valves closed.",
+            "k": "p",
+            "zh": "3.心室壓力<主動脈和肺動脈壓→肺動脈和主動脈瓣關閉。"
+          },
+          {
+            "t": "Ventricular ejection",
+            "k": "h",
+            "zh": "心室射血"
+          },
+          {
+            "t": "• Ventricular pressure > aorta and pulmonary artery pressure",
+            "k": "li",
+            "zh": "1.心室壓力>主動脈和肺動脈壓→主動脈和肺動脈瓣開啟。"
+          },
+          {
+            "t": "→ Aortic and pulmonary valves open.",
+            "k": "p",
+            "zh": "1.心室壓力>主動脈和肺動脈壓→主動脈和肺動脈瓣開啟。"
+          },
+          {
+            "t": "→ Blood is ejected from ventricles (stroke volume)",
+            "k": "h",
+            "zh": "從心室噴出→血液（卒中量）舒張期等容量舒張期心室弛豫"
+          }
+        ],
+        "img": "assets/slides/L3/036.webp"
+      },
+      {
+        "n": 37,
+        "blocks": [
+          {
+            "t": "(Page 37)",
+            "k": "p",
+            "zh": "（此頁主要為標題／圖表）"
+          }
+        ],
+        "img": "assets/slides/L3/037.webp"
+      },
+      {
+        "n": 38,
+        "blocks": [
+          {
+            "t": "Diastole舒張期",
+            "k": "h",
+            "zh": "•心室的重複收縮收縮期（收縮；血液離開腔室）和舒張舒張期（放鬆；血液充滿腔室）過程"
+          },
+          {
+            "t": "Isovolumetric ventricular relaxation",
+            "k": "h",
+            "zh": "從心室噴出→血液（卒中量）舒張期等容量舒張期心室弛豫"
+          },
+          {
+            "t": "• Ventricle relax (end-systolic volume)",
+            "k": "li",
+            "zh": "1.心室放鬆（收縮末期容積）"
+          },
+          {
+            "t": "• Ventricle pressure < aorta and pulmonary artery pressure",
+            "k": "li",
+            "zh": "3.心室壓力<主動脈和肺動脈壓→肺動脈和主動脈瓣關閉。"
+          },
+          {
+            "t": "→ aortic and pulmonary valves close.",
+            "k": "p",
+            "zh": "2.心室壓力<主動脈和肺動脈壓→主動脈和肺動脈瓣關閉。"
+          },
+          {
+            "t": "→ Second heart sound S2 “Dup”",
+            "k": "h",
+            "zh": "→ 第二心音S2 “Dup”"
+          },
+          {
+            "t": "• AV valves remain closed → No change in ventricular volume",
+            "k": "li",
+            "zh": "3.房室瓣保持關閉心室容積→無變化"
+          },
+          {
+            "t": "Ventricular Filling Phase S2 “Dup”",
+            "k": "h",
+            "zh": "心室充盈期S2 “Dup”"
+          },
+          {
+            "t": "• Blood is filled into atrium",
+            "k": "li",
+            "zh": "→ 血液充入心室"
+          },
+          {
+            "t": "• Atrium pressure > ventricle pressure",
+            "k": "li",
+            "zh": "2.心房壓力>心室壓力→房室瓣開啟。"
+          },
+          {
+            "t": "→ AV valves open.",
+            "k": "p",
+            "zh": "2.心房壓力>心室壓力→房室瓣開啟。"
+          },
+          {
+            "t": "→ Blood is filled into ventricle",
+            "k": "h",
+            "zh": "→ 血液充入心室"
+          },
+          {
+            "t": "Atrial contraction",
+            "k": "h",
+            "zh": "2.心房收縮："
+          },
+          {
+            "t": "→ Blood is further filled into ventricle (enddiastolic volume)",
+            "k": "h",
+            "zh": "心房收縮→血液進一步充入心室（舒張末期容積）"
+          }
+        ],
+        "img": "assets/slides/L3/038.webp"
+      },
+      {
+        "n": 39,
+        "blocks": [
+          {
+            "t": "(Page 39)",
+            "k": "p",
+            "zh": "（此頁主要為標題／圖表）"
+          }
+        ],
+        "img": "assets/slides/L3/039.webp"
+      },
+      {
+        "n": 40,
+        "blocks": [
+          {
+            "t": "Heart Sound心音",
+            "k": "h",
+            "zh": "心音心音"
+          },
+          {
+            "t": "• The heart produces two main sounds, heard using a stethoscope:",
+            "k": "li",
+            "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+          },
+          {
+            "t": "First heart sound S1 “Lub”",
+            "k": "h",
+            "zh": "→ 第一次心音S1 “Lup”"
+          },
+          {
+            "t": "• Produced by closing of AV valves during isovolumetric ventricular contraction",
+            "k": "li",
+            "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+          },
+          {
+            "t": "Second heart sound S2 “Dub”",
+            "k": "h",
+            "zh": "→ 第二心音S2 “Dup”"
+          },
+          {
+            "t": "• Produced by closing of aortic and pulmonary valves when the pressure in ventricles falls below the pressure in arteries",
+            "k": "li",
+            "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+          }
+        ],
+        "img": "assets/slides/L3/040.webp"
+      },
+      {
+        "n": 41,
+        "blocks": [
+          {
+            "t": "Electrocardiography (ECG) 心電圖",
+            "k": "h",
+            "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+          },
+          {
+            "t": "Limb leads (I,II,III)",
+            "k": "h",
+            "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+          },
+          {
+            "t": "Vertical plane",
+            "k": "h",
+            "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+          },
+          {
+            "t": "• Also called electrocardiogram.",
+            "k": "li",
+            "zh": "•也稱為心電圖。"
+          },
+          {
+            "t": "Each (ECG) electrode captures the heart's electrical activity from its specific placement on the body's surface.",
+            "k": "p",
+            "zh": "每個（ ECG ）電極從其在身體表面的特定位置捕捉心臟的電活動。"
+          },
+          {
+            "t": "Chest leads (V1–V6)",
+            "k": "h",
+            "zh": "胸導程(V1–V6)水平面心電圖(ECG) 心電圖"
+          },
+          {
+            "t": "Horizontal plane 41 / 69",
+            "k": "h",
+            "zh": ""
+          }
+        ],
+        "img": "assets/slides/L3/041.webp"
+      },
+      {
+        "n": 42,
+        "blocks": [
+          {
+            "t": "Electrocardiography (ECG) 心電圖",
+            "k": "h",
+            "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+          },
+          {
+            "t": "• P wave = atrial depolarization",
+            "k": "li",
+            "zh": "• P波=心房去極化"
+          },
+          {
+            "t": "• QRS complex = onset of ventricular depolarization",
+            "k": "li",
+            "zh": "• QRS波羣=心室去極化開始"
+          },
+          {
+            "t": "• T wave = ventricular repolarization",
+            "k": "li",
+            "zh": "• T波=心室復極"
+          },
+          {
+            "t": "• Atrial repolarization record is masked by the larger QRS complex",
+            "k": "li",
+            "zh": "•心房復極記錄被較大的QRS複合心電圖（ ECG ）心電圖掩蓋血管血管系統系統循環系統由血管組成，血管將血液運送到身體組織，允許交換維持體內平衡所必需的物質，如氧氣、營養物質、二氧化碳和廢物。"
+          }
+        ],
+        "img": "assets/slides/L3/042.webp"
+      },
+      {
+        "n": 43,
+        "blocks": [
+          {
+            "t": "Electrocardiography (ECG) 心電圖",
+            "k": "h",
+            "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+          }
+        ],
+        "img": "assets/slides/L3/043.webp"
+      },
+      {
+        "n": 44,
+        "blocks": [
+          {
+            "t": "The Vascular System",
+            "k": "h",
+            "zh": "•心房復極記錄被較大的QRS複合心電圖（ ECG ）心電圖掩蓋血管血管系統系統循環系統由血管組成，血管將血液運送到身體組織，允許交換維持體內平衡所必需的物質，如氧氣、營養物質、二氧化碳和廢物。"
+          },
+          {
+            "t": "血管系統",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "The circulatory system is composed of blood vessels that carry the blood to the tissues of the body, allowing for the exchange of substances, such as O2, nutrients, CO2, and waste products, necessary to maintain homeostasis.",
+            "k": "p",
+            "zh": "循環系統由將血液運送到身體組織的血管組成，允許交換物質，如氧氣、營養物質、二氧化碳和"
+          }
+        ],
+        "img": "assets/slides/L3/044.webp"
+      },
+      {
+        "n": 45,
+        "blocks": [
+          {
+            "t": "The Vascular System血管系統: Blood Vessels血管",
+            "k": "h",
+            "zh": "（參考／來源）"
+          },
+          {
+            "t": "• Transport blood to the tissues and back",
+            "k": "li",
+            "zh": "•將血液運送到組織並返回"
+          },
+          {
+            "t": "• Carry blood away from the heart",
+            "k": "li",
+            "zh": "•將血液帶離心臟"
+          },
+          {
+            "t": "• Arteries (Artery)",
+            "k": "li",
+            "zh": "•動脈（ Artery ）"
+          },
+          {
+            "t": "• Arterioles",
+            "k": "li",
+            "zh": "•小動脈"
+          },
+          {
+            "t": "• Exchanges between tissues and blood",
+            "k": "li",
+            "zh": "•組織和血液之間的交換"
+          },
+          {
+            "t": "• Capillary beds",
+            "k": "li",
+            "zh": "•毛細管牀"
+          },
+          {
+            "t": "• Return blood toward the heart",
+            "k": "li",
+            "zh": "•將血液送回心臟"
+          },
+          {
+            "t": "• Venules",
+            "k": "li",
+            "zh": "•靜脈"
+          },
+          {
+            "t": "• Veins",
+            "k": "li",
+            "zh": "•血液可以通過動脈動脈、靜脈靜脈和毛細血管連續（不間斷）傳遞到身體的不同部位微血管"
+          }
+        ],
+        "img": "assets/slides/L3/045.webp"
+      },
+      {
+        "n": 46,
+        "blocks": [
+          {
+            "t": "Artery動脈",
+            "k": "h",
+            "zh": "下半身至右心）動脈=遠離心臟心臟瓣膜靜心臟瓣膜脈=朝向心臟"
+          },
+          {
+            "t": "Direction of blood flow ➢ Away from heart to the body's tissues and organs. Presence of valves ➢ Absent (except at the base of pulmonary artery and aorta)",
+            "k": "p",
+            "zh": ""
+          },
+          {
+            "t": "Wall & thick layer of fibrous",
+            "k": "h",
+            "zh": "存在瓣膜➢不存在（肺動脈和主動脈底部除外）壁和厚層的纖維管腔組織厚肌肉壁以承受高壓；更具彈性的小管腔"
+          },
+          {
+            "t": "Lumen tissue thick muscular wall to withstand high pressure; more elastic small lumen",
+            "k": "p",
+            "zh": "存在瓣膜➢不存在（肺動脈和主動脈底部除外）壁和厚層的纖維管腔組織厚肌肉壁以承受高壓；更具彈性的小管腔"
+          },
+          {
+            "t": "Nature of blood ➢ Oxygenated blood (except in the pulmonary artery)",
+            "k": "h",
+            "zh": "血液➢含氧血液的性質（肺動脈除外）"
+          },
+          {
+            "t": "Blood pressure ➢ High (http://www.nytimes.com/imagepages/2007/08/01/health/adam/18020Developmentalprocessofatherosclerosis.html) 46 / 69",
+            "k": "p",
+            "zh": "血壓"
+          }
+        ],
+        "img": "assets/slides/L3/046.webp"
+      },
+      {
+        "n": 47,
+        "blocks": [
+          {
+            "t": "Artery",
+            "k": "h",
+            "zh": "下半身至右心）動脈=遠離心臟心臟瓣膜靜心臟瓣膜脈=朝向心臟"
+          },
+          {
+            "t": "Force for blood flow ➢ Pumping action of heart",
+            "k": "h",
+            "zh": "(http://www.nytimes.com/imagepages/2007/08/01/health/adam/18020Developmentalprocessofatherosclerosis.html)血流的動脈力心臟的➢泵動作用動脈壁的➢周期性伸展被稱為脈搏"
+          },
+          {
+            "t": "➢ Periodic stretching of the wall of arteries is called a pulse",
+            "k": "h",
+            "zh": "(http://www.nytimes.com/imagepages/2007/08/01/health/adam/18020Developmentalprocessofatherosclerosis.html)血流的動脈力心臟的➢泵動作用動脈壁的➢周期性伸展被稱為脈搏"
+          },
+          {
+            "t": "Location ➢ Deeper inside body",
+            "k": "h",
+            "zh": "位置身體內部➢更深處的毛細血管微血管"
+          }
+        ],
+        "img": "assets/slides/L3/047.webp"
+      },
+      {
+        "n": 48,
+        "blocks": [
+          {
+            "t": "Capillaries微血管",
+            "k": "h",
+            "zh": "•血液可以通過動脈動脈、靜脈靜脈和毛細血管連續（不間斷）傳遞到身體的不同部位微血管"
+          },
+          {
+            "t": "• Capillaries are the smallest blood vessels in the body.",
+            "k": "li",
+            "zh": "•毛細血管是體內最小的血管。"
+          },
+          {
+            "t": "• Composed of a single layer of endothelial cells (one cell thick!!)",
+            "k": "li",
+            "zh": "•由單層內皮細胞組成（一層細胞厚！ ！ ）"
+          },
+          {
+            "t": "• Capillary bed (a network of numerous capillaries) connecting arterioles and venules",
+            "k": "li",
+            "zh": "•連接小動脈和靜脈的毛細血管牀（由眾多毛細血管組成的網絡）"
+          },
+          {
+            "t": "• The walls of capillaries are one cell thick and consist of endothelial cells, making them semipermeable.",
+            "k": "li",
+            "zh": "•毛細血管壁是一個細胞厚度，由內皮細胞組成，使其具有半透性。"
+          },
+          {
+            "t": "• Facilitate exchange of water, O2, CO2, nutrients and waste",
+            "k": "li",
+            "zh": "•促進水、氧氣、二氧化碳、營養素和廢棄物的交換"
+          },
+          {
+            "t": "• Capillaries come in three structural types:",
+            "k": "li",
+            "zh": "•毛細血管有三種結構類型："
+          },
+          {
+            "t": "• Continuous;",
+            "k": "li",
+            "zh": "持續"
+          },
+          {
+            "t": "• Fenestrated;",
+            "k": "li",
+            "zh": "•開窗；"
+          },
+          {
+            "t": "• Sinusoids.",
+            "k": "li",
+            "zh": "•正弦波。"
+          }
+        ],
+        "img": "assets/slides/L3/048.webp"
+      },
+      {
+        "n": 49,
+        "blocks": [
+          {
+            "t": "Vein靜脈",
+            "k": "h",
+            "zh": "•血液可以通過動脈動脈、靜脈靜脈和毛細血管連續（不間斷）傳遞到身體的不同部位微血管"
+          },
+          {
+            "t": "Direction of blood flow ➢ Towards the heart from the body’s tissues and organs. Presence of valves ➢ Present. To prevent backflow of blood, ensuring it moves in one direction only.",
+            "k": "p",
+            "zh": "➢ 存在閥門。為防止血液回流，請確保血液僅向一個方向移動。"
+          },
+          {
+            "t": "Wall & Lumen (內腔) thin layer of fibrous tissue",
+            "k": "h",
+            "zh": "Wall & Lumen （壁和內腔內腔）薄層纖維組織"
+          },
+          {
+            "t": "thinner muscular wall; less elastic large lumen to reduce resistance of blood flow",
+            "k": "p",
+            "zh": "肌肉壁變薄；彈性較差的大管腔，以減少血流阻力"
+          },
+          {
+            "t": "Nature of blood ➢ Deoxygenated blood (except in the pulmonary vein)",
+            "k": "h",
+            "zh": "血液➢缺氧血液的性質（肺靜脈除外）"
+          },
+          {
+            "t": "Blood pressure ➢ Low (http://www.vascularconcepts.com/content/pages.php?pg=patients_cardio_system&page=the_blood) 49 / 69",
+            "k": "p",
+            "zh": "血壓➢低(http://www.vascularconcepts.com/content/pages.php?pg=patients_cardio_system&page=the_blood)血液流動的靜脈力血液被迫瓣膜被血壓向心臟打開靜脈被肌肉擠壓"
+          }
+        ],
+        "img": "assets/slides/L3/049.webp"
+      },
+      {
+        "n": 50,
+        "blocks": [
+          {
+            "t": "Vein",
+            "k": "h",
+            "zh": "•血液可以通過動脈動脈、靜脈靜脈和毛細血管連續（不間斷）傳遞到身體的不同部位微血管"
+          },
+          {
+            "t": "Force for blood flow",
+            "k": "h",
+            "zh": "(http://www.nytimes.com/imagepages/2007/08/01/health/adam/18020Developmentalprocessofatherosclerosis.html)血流的動脈力心臟的➢泵動作用動脈壁的➢周期性伸展被稱為脈搏"
+          },
+          {
+            "t": " Blood is forced  Valves are opened towards by blood pressure heart",
+            "k": "p",
+            "zh": "血壓➢低(http://www.vascularconcepts.com/content/pages.php?pg=patients_cardio_system&page=the_blood)血液流動的靜脈力血液被迫瓣膜被血壓向心臟打開靜脈被肌肉擠壓"
+          },
+          {
+            "t": " Vein is squeezed by muscles",
+            "k": "h",
+            "zh": "血壓➢低(http://www.vascularconcepts.com/content/pages.php?pg=patients_cardio_system&page=the_blood)血液流動的靜脈力血液被迫瓣膜被血壓向心臟打開靜脈被肌肉擠壓"
+          },
+          {
+            "t": " Valves  Body muscles, are closed particularly those in to prevent the limbs, contract backflow of and press against the blood veins",
+            "k": "p",
+            "zh": "瓣膜身體肌肉，特別是閉合的肌肉，以防止四肢收縮回流並壓迫血靜脈"
+          },
+          {
+            "t": "Location ➢ Close to the body surface (http://cnx.org/content/m46635/latest/2114_Skeletal_Muscle_Vein_Pump.jpg)",
+            "k": "p",
+            "zh": "位置➢ 靠近身體表面"
+          }
+        ],
+        "img": "assets/slides/L3/050.webp"
+      },
+      {
+        "n": 51,
+        "blocks": [
+          {
+            "t": "Hemodynamics 血液動力學",
+            "k": "h",
+            "zh": "(http://cnx.org/content/m46635/latest/2114_Skeletal_Muscle_Vein_Pump.jpg)血液動力學 血液動力學"
+          },
+          {
+            "t": "• Study of blood flow and the force involved in circulating blood throughout the cardiovascular system",
+            "k": "li",
+            "zh": "•研究整個心血管系統的血流量和血液循環所涉及的力量"
+          },
+          {
+            "t": "• Hemo = blood; Dynamics = power",
+            "k": "li",
+            "zh": "• Hemo = BLOOD ； Dynamics = POWER關鍵概念："
+          },
+          {
+            "t": "Key concepts:",
+            "k": "h",
+            "zh": "• Hemo = BLOOD ； Dynamics = POWER關鍵概念："
+          },
+          {
+            "t": "• Cardiac Output心輸出量",
+            "k": "li",
+            "zh": "心輸出量"
+          },
+          {
+            "t": "• Blood Flow 血流",
+            "k": "li",
+            "zh": "•血流 血流"
+          },
+          {
+            "t": "• Influence by blood pressure, blood vessel diameter, blood viscosity and resistance within the vessels",
+            "k": "li",
+            "zh": "•血壓、血管直徑、血液粘度和血管內阻力的影響"
+          },
+          {
+            "t": "• Blood pressure血壓",
+            "k": "li",
+            "zh": "•血壓血壓"
+          },
+          {
+            "t": "• Vascular Resistance血管阻力 (opposition to blood flow within the vessels)",
+            "k": "li",
+            "zh": "•血管阻力血管阻力（反對血管內的血流）"
+          },
+          {
+            "t": "• Venous return 靜脈回流",
+            "k": "li",
+            "zh": "靜脈回流"
+          }
+        ],
+        "img": "assets/slides/L3/051.webp"
+      },
+      {
+        "n": 52,
+        "blocks": [
+          {
+            "t": "Cardiac Output (CO) 心輸出量",
+            "k": "h",
+            "zh": "•心輸出量(CO)"
+          },
+          {
+            "t": "• Volume of blood pumped by each •Stroke volume (SV) 心搏量 ventricle (left ventricle) per minute • volume of blood ejected from each ventricle at each heartbeat",
+            "k": "li",
+            "zh": "•每次抽吸的血量•每分鐘的卒中量（ SV ）心搏量心室（左心室） •每次心跳時從每個心室噴出的血量"
+          },
+          {
+            "t": "• Unit: L/min",
+            "k": "li",
+            "zh": "•單位：升/分鐘"
+          },
+          {
+            "t": "•End-diastolic volume (EDV) (Preload)",
+            "k": "li",
+            "zh": "•舒張末期容積（ EDV ） （預載）"
+          },
+          {
+            "t": "• volume of blood in each ventricle at the end of diastole",
+            "k": "li",
+            "zh": "•舒張末期每個心室的血容量"
+          },
+          {
+            "t": "• Controlled by changing right before systole",
+            "k": "li",
+            "zh": "•通過在收縮期前更改來控制"
+          },
+          {
+            "t": "• Heart rate (HR): by stimulate/inhibit = volume of blood filled into each ventricle",
+            "k": "li",
+            "zh": "•心率（ HR ） ：刺激/抑制=充入每個心室的血量"
+          },
+          {
+            "t": "SA node",
+            "k": "h",
+            "zh": "SA節點"
+          },
+          {
+            "t": "•End-systolic volume (ESV) (Afterload)",
+            "k": "li",
+            "zh": "•收縮末期容積（ ESV ） （後載）"
+          },
+          {
+            "t": "• Stroke volume (SV): by • volume of blood remained in each ventricle after ejection stimulate/inhibit ventricles",
+            "k": "li",
+            "zh": "•每搏量（ SV ） ：按•噴射後每個心室殘留的血量刺激/抑制心室CO = HR • SV SV = EDV – ESV"
+          },
+          {
+            "t": "CO = HR  SV SV = EDV – ESV",
+            "k": "h",
+            "zh": "•每搏量（ SV ） ：按•噴射後每個心室殘留的血量刺激/抑制心室CO = HR • SV SV = EDV – ESV"
+          },
+          {
+            "t": "e.g. If heart rate of 75 beat/min and e.g. If EDV = 135 mL, ESV = 65 mL eject 70 ml of blood with each beat: SV = 135 mL – 65 mL = 70 mL",
+            "k": "p",
+            "zh": "例如，如果心率為75次/分鐘，例如，如果EDV = 135毫升， ESV = 65毫升，每次心跳噴射70毫升血液： SV = 135毫升– 65毫升= 70毫升CO = 5250毫升/分鐘(5.25 L/分鐘)行程容積(SV) Frank-Starling心臟定律EDV =舒張末期容積(預載)"
+          },
+          {
+            "t": "CO = 5250 ml/min (5.25 L/min)",
+            "k": "h",
+            "zh": "例如，如果心率為75次/分鐘，例如，如果EDV = 135毫升， ESV = 65毫升，每次心跳噴射70毫升血液： SV = 135毫升– 65毫升= 70毫升CO = 5250毫升/分鐘(5.25 L/分鐘)行程容積(SV) Frank-Starling心臟定律EDV =舒張末期容積(預載)"
+          }
+        ],
+        "img": "assets/slides/L3/052.webp"
+      },
+      {
+        "n": 53,
+        "blocks": [
+          {
+            "t": "Stroke volume (SV)",
+            "k": "h",
+            "zh": "•每次抽吸的血量•每分鐘的卒中量（ SV ）心搏量心室（左心室） •每次心跳時從每個心室噴出的血量"
+          }
+        ],
+        "img": "assets/slides/L3/053.webp"
+      },
+      {
+        "n": 54,
+        "blocks": [
+          {
+            "t": "Frank-Starling Law of the Heart EDV= End Diastolic Volume (Preload)",
+            "k": "h",
+            "zh": "例如，如果心率為75次/分鐘，例如，如果EDV = 135毫升， ESV = 65毫升，每次心跳噴射70毫升血液： SV = 135毫升– 65毫升= 70毫升CO = 5250毫升/分鐘(5.25 L/分鐘)行程容積(SV) Frank-Starling心臟定律EDV =舒張末期容積(預載)"
+          },
+          {
+            "t": "法蘭克-史達林定律",
+            "k": "h",
+            "zh": ""
+          },
+          {
+            "t": "• Increased EDV results in increased contractility and thus increased stroke volume.",
+            "k": "li",
+            "zh": "• EDV增加會導致收縮性增加，從而增加行程量。"
+          },
+          {
+            "t": "SV = EDV – ESV",
+            "k": "h",
+            "zh": "•每搏量（ SV ） ：按•噴射後每個心室殘留的血量刺激/抑制心室CO = HR • SV SV = EDV – ESV"
+          }
+        ],
+        "img": "assets/slides/L3/054.webp"
+      },
+      {
+        "n": 55,
+        "blocks": [
+          {
+            "t": "Factors Influencing Heart Rate CO = HR x SV",
+            "k": "h",
+            "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+          },
+          {
+            "t": "• All three factors act on the sinoatrial (SA) node, which is the heart’s natural pacemaker:",
+            "k": "li",
+            "zh": "•這三個因素都作用於竇房（ SA ）結，這是心臟的天然起搏器："
+          },
+          {
+            "t": "Increased Plasma Epinephrine",
+            "k": "h",
+            "zh": "血漿腎上腺素升高"
+          },
+          {
+            "t": "• Epinephrine (adrenaline) is a hormone released during stress or physical activity.",
+            "k": "li",
+            "zh": "•腎上腺素（腎上腺素）是一種在壓力或身體活動期間釋放的激素。"
+          },
+          {
+            "t": "• It stimulates the SA node, leading to a faster heart rate.",
+            "k": "li",
+            "zh": "•它刺激SA節點，導致心率加快。"
+          },
+          {
+            "t": "Increased Sympathetic Nerve Activity",
+            "k": "h",
+            "zh": "交感神經活動增加"
+          },
+          {
+            "t": "• The sympathetic nervous system activates the “fight or flight” response.",
+            "k": "li",
+            "zh": "•交感神經系統激活“戰鬥或逃跑”反應。"
+          },
+          {
+            "t": "• It increases both heart rate and force of contraction by stimulating the SA node.",
+            "k": "li",
+            "zh": "•它通過刺激SA結節來增加心率和收縮力。"
+          },
+          {
+            "t": "Decreased Parasympathetic Nerve Activity",
+            "k": "h",
+            "zh": "副交感神經活動減少"
+          },
+          {
+            "t": "• The parasympathetic nervous system normally slows the heart rate.",
+            "k": "li",
+            "zh": "•副交感神經系統通常會減慢心率。"
+          },
+          {
+            "t": "• Mediated by acetylcholine (opposes the SNS)",
+            "k": "li",
+            "zh": "•由乙酰膽鹼介導（反對SNS ）"
+          },
+          {
+            "t": "• When its activity decreases, the inhibitory effect is reduced, resulting in a higher heart rate.",
+            "k": "li",
+            "zh": "•當其活性降低時，抑制作用會降低，導致心率升高。"
+          }
+        ],
+        "img": "assets/slides/L3/055.webp"
+      },
+      {
+        "n": 56,
+        "blocks": [
+          {
+            "t": "Factors Influencing Stroke Volume CO = HR x SV",
+            "k": "h",
+            "zh": "影響卒中體積的因素CO = HR x SV"
+          },
+          {
+            "t": "Factor Effect on Heart",
+            "k": "h",
+            "zh": "對心臟的因子影響"
+          },
+          {
+            "t": "End-Diastolic More blood fills the ventricles",
+            "k": "h",
+            "zh": "舒張末期更多血液充滿心室收縮前心室→增加體積（ EDV ）/行程體積預載"
+          },
+          {
+            "t": "Ventricular before contraction → increases",
+            "k": "h",
+            "zh": "舒張末期更多血液充滿心室收縮前心室→增加體積（ EDV ）/行程體積預載"
+          },
+          {
+            "t": "Volume(EDV) / stroke volume",
+            "k": "h",
+            "zh": "舒張末期更多血液充滿心室收縮前心室→增加體積（ EDV ）/行程體積預載"
+          },
+          {
+            "t": "Pre-load",
+            "k": "h",
+            "zh": "舒張末期更多血液充滿心室收縮前心室→增加體積（ EDV ）/行程體積預載"
+          },
+          {
+            "t": "Sympathetic Stimulates the heart → increases",
+            "k": "h",
+            "zh": "交感神經刺激心臟→增加神經活動心率和收縮力"
+          },
+          {
+            "t": "Nerve Activity heart rate and force of contraction",
+            "k": "h",
+            "zh": "交感神經刺激心臟→增加神經活動心率和收縮力"
+          },
+          {
+            "t": "Plasma Hormone (adrenaline) that",
+            "k": "h",
+            "zh": "腎上腺素提高心率和收縮力的血漿激素（腎上腺素） CO = HR x SV HR、SV和CO EDV的調節EDV =舒張末期容積（預負荷）"
+          },
+          {
+            "t": "Epinephrine enhances heart rate and contractility",
+            "k": "h",
+            "zh": "腎上腺素提高心率和收縮力的血漿激素（腎上腺素） CO = HR x SV HR、SV和CO EDV的調節EDV =舒張末期容積（預負荷）"
+          }
+        ],
+        "img": "assets/slides/L3/056.webp"
+      },
+      {
+        "n": 57,
+        "blocks": [
+          {
+            "t": "CO = HR x SV",
+            "k": "h",
+            "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+          },
+          {
+            "t": "Regulation of HR, SV and CO EDV= End Diastolic Volume (Preload)",
+            "k": "h",
+            "zh": "腎上腺素提高心率和收縮力的血漿激素（腎上腺素） CO = HR x SV HR、SV和CO EDV的調節EDV =舒張末期容積（預負荷）"
+          },
+          {
+            "t": "Parasympathetic End-diastolic activity volume",
+            "k": "h",
+            "zh": "副交感神經舒張末期活動量"
+          },
+          {
+            "t": "Sympathetic Sympathetic stimulate activity activity (Starling law)",
+            "k": "h",
+            "zh": "交感神經交感神經刺激活動（斯塔林定律）"
+          },
+          {
+            "t": "inhibit stimulate stimulate",
+            "k": "h",
+            "zh": "抑制刺激刺激"
+          },
+          {
+            "t": "SA node ventricles",
+            "k": "h",
+            "zh": "SA結節心室"
+          },
+          {
+            "t": "Heart rate x Stroke volume",
+            "k": "h",
+            "zh": "心率x每搏音量"
+          },
+          {
+            "t": "Cardiac output",
+            "k": "h",
+            "zh": "心輸出量"
+          }
+        ],
+        "img": "assets/slides/L3/057.webp"
+      },
+      {
+        "n": 58,
+        "blocks": [
+          {
+            "t": "Blood Pressure It is the force per unit area exerted against the inner wall of a blood vessel.",
+            "k": "p",
+            "zh": "血壓它是每單位面積對血管內壁施加的力。"
+          },
+          {
+            "t": "= Arterial blood pressure",
+            "k": "h",
+            "zh": "=動脈血壓"
+          },
+          {
+            "t": "• Elastic tube with large radius and low-resistance",
+            "k": "li",
+            "zh": "•具有大半徑和低電阻的彈性管"
+          },
+          {
+            "t": "• Systolic pressure",
+            "k": "li",
+            "zh": "血壓"
+          },
+          {
+            "t": "• Maximum arterial pressure during ventricular ejection (about 125 mmHg)",
+            "k": "li",
+            "zh": "•心室彈出時的最大動脈壓（約125 mmHg ）"
+          },
+          {
+            "t": "• Diastolic pressure",
+            "k": "li",
+            "zh": "2.舒張壓"
+          },
+          {
+            "t": "• Minimum arterial pressure before ventricular relaxation (about 75 mmHg)",
+            "k": "li",
+            "zh": "•心室弛豫前的最小動脈壓（約75 mmHg ）"
+          },
+          {
+            "t": "• Apparatus for measuring arterial blood pressure",
+            "k": "li",
+            "zh": "•動脈血壓測量儀器"
+          },
+          {
+            "t": "• Sphygmomanometer + stethoscope",
+            "k": "li",
+            "zh": "•血壓計+聽診器"
+          },
+          {
+            "t": "• Unit: millimeters of mercury (mmHg) 58 / 69",
+            "k": "li",
+            "zh": "•單位：毫米汞柱(mmHg) CO = HR x SV"
+          }
+        ],
+        "img": "assets/slides/L3/058.webp"
+      },
+      {
+        "n": 59,
+        "blocks": [
+          {
+            "t": "CO = HR x SV",
+            "k": "h",
+            "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+          },
+          {
+            "t": "Regulation of Arterial Pressure",
+            "k": "h",
+            "zh": "動脈壓調節平均動脈壓（ MAP ） （心臟週期期間的平均血壓）由以下因素決定："
+          },
+          {
+            "t": "Mean arterial pressure (MAP) (average blood pressure during cardiac cycle) is determined by:",
+            "k": "p",
+            "zh": "心動週期"
+          },
+          {
+            "t": "• Cardiac output (CO)",
+            "k": "li",
+            "zh": "•心輸出量(CO)"
+          },
+          {
+            "t": "• Total peripheral resistance (TPR) (the sum of resistance to blood flow offered by all the systemic blood vessels)",
+            "k": "li",
+            "zh": "•總外周阻力（ TPR ） （所有全身血管對血流的阻力總和）"
+          },
+          {
+            "t": "MAP (BP) = CO x TPR",
+            "k": "h",
+            "zh": "MAP (BP) = CO x TPR CO = HR x SV動脈壓MAP調節= CO x TPR"
+          }
+        ],
+        "img": "assets/slides/L3/059.webp"
+      },
+      {
+        "n": 60,
+        "blocks": [
+          {
+            "t": "CO = HR x SV",
+            "k": "h",
+            "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+          },
+          {
+            "t": "Regulation of arterial pressure MAP = CO x TPR",
+            "k": "h",
+            "zh": "動脈壓調節平均動脈壓（ MAP ） （心臟週期期間的平均血壓）由以下因素決定："
+          },
+          {
+            "t": "Vasoconstriction or",
+            "k": "h",
+            "zh": "體積小動脈到大器官的血管收縮或舒張末期血管舒張交感神經副交感神經活動血液黏度"
+          },
+          {
+            "t": "End-diastolic vasodilation of volume arterioles to large organ",
+            "k": "h",
+            "zh": "體積小動脈到大器官的血管收縮或舒張末期血管舒張交感神經副交感神經活動血液黏度"
+          },
+          {
+            "t": "Sympathetic Parasympathetic activity activity Blood viscosity",
+            "k": "h",
+            "zh": "體積小動脈到大器官的血管收縮或舒張末期血管舒張交感神經副交感神經活動血液黏度"
+          },
+          {
+            "t": "Stroke X Heart rate volume",
+            "k": "h",
+            "zh": "行程X心率容量"
+          },
+          {
+            "t": "CO X TPR",
+            "k": "h",
+            "zh": "（見英文原文）"
+          },
+          {
+            "t": "MAP",
+            "k": "h",
+            "zh": "動脈壓調節平均動脈壓（ MAP ） （心臟週期期間的平均血壓）由以下因素決定："
+          }
+        ],
+        "img": "assets/slides/L3/060.webp"
+      },
+      {
+        "n": 61,
+        "blocks": [
+          {
+            "t": "Regulation of Arterial Pressure",
+            "k": "h",
+            "zh": "動脈壓調節平均動脈壓（ MAP ） （心臟週期期間的平均血壓）由以下因素決定："
+          },
+          {
+            "t": "• The body uses several mechanisms to control blood pressure, ensuring it stays within a healthy range",
+            "k": "li",
+            "zh": "•身體使用多種機制來控制血壓，確保血壓保持在健康的範圍內"
+          },
+          {
+            "t": "• Short Term Regulation:",
+            "k": "li",
+            "zh": "•短期監管："
+          },
+          {
+            "t": "• Baroreceptor",
+            "k": "li",
+            "zh": "•壓力感受器"
+          },
+          {
+            "t": "• Chemoreceptor",
+            "k": "li",
+            "zh": "•化學感受器"
+          },
+          {
+            "t": "• Hormones",
+            "k": "li",
+            "zh": "荷爾蒙"
+          },
+          {
+            "t": "• Epinephrine and norepinephrine (CNS: sympathetic)",
+            "k": "li",
+            "zh": "•腎上腺素和去甲腎上腺素（ CNS ：交感神經）"
+          },
+          {
+            "t": "• Long Term Regulation:",
+            "k": "li",
+            "zh": "•長期監管："
+          },
+          {
+            "t": "• Hormones",
+            "k": "li",
+            "zh": "荷爾蒙"
+          },
+          {
+            "t": "• Antidiuretic hormone (CNS: hypothalamus)",
+            "k": "li",
+            "zh": "•抗利尿激素（ CNS ：下丘腦）"
+          },
+          {
+            "t": "• Atrial natriuretic peptide (heart)",
+            "k": "li",
+            "zh": "•心房利鈉肽（心臟）"
+          },
+          {
+            "t": "• Renin-angiotensin-aldosterone system (RAAS)",
+            "k": "li",
+            "zh": "•腎素-血管緊張素-醛固酮系統（ RAAS ）"
+          },
+          {
+            "t": "• Liver, Kidneys, lungs, adrenal gland",
+            "k": "li",
+            "zh": "•肝臟、腎臟、肺、腎上腺CO = HR x SV"
+          }
+        ],
+        "img": "assets/slides/L3/061.webp"
+      },
+      {
+        "n": 62,
+        "blocks": [
+          {
+            "t": "CO = HR x SV",
+            "k": "h",
+            "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+          },
+          {
+            "t": "Baroreceptor Reflex MAP = CO x TPR",
+            "k": "h",
+            "zh": "壓力感受器反射圖= CO x TPR"
+          },
+          {
+            "t": "• Homeostatically or steadily regulates arterial pressure responding to changes in pressure",
+            "k": "li",
+            "zh": "•穩定地或穩定地調節動脈壓力，以應對壓力的變化"
+          },
+          {
+            "t": "Arterial baroreceptors",
+            "k": "h",
+            "zh": "動脈壓感受器"
+          },
+          {
+            "t": "• Pressure receptors Carotid sinus and Aortic arch that detect pressure stretch of arterial wall",
+            "k": "li",
+            "zh": "•壓力感受器頸動脈竇和主動脈弓，可檢測動脈壁的壓力伸展"
+          },
+          {
+            "t": "• Constantly active, producing a baseline frequency of action potentials in the sensory neurons",
+            "k": "li",
+            "zh": "•持續活躍，在感覺神經元中產生動作電位的基線頻率"
+          },
+          {
+            "t": "• Sudden blood pressure,  stretching of arterial wall,",
+            "k": "li",
+            "zh": "•突然的血壓、動脈壁的伸展、壓力感受器的刺激、發送到腦幹延髓中的延髓心血管/心臟調節中心的脈衝（動作電位頻率） （副交感神經活動）壓力感受器反射增加血壓降低血壓CO = HR x SV壓力感受器反射圖= CO x TPR CO = HR x SV"
+          },
+          {
+            "t": " stimulation on baroreceptors,  impulses (action potential frequency) sending to medullary cardiovascular/ cardioregulatory center in the medulla oblongata of brainstem (Parasympathetic activity )",
+            "k": "p",
+            "zh": "•壓力感受器"
+          }
+        ],
+        "img": "assets/slides/L3/062.webp"
+      },
+      {
+        "n": 63,
+        "blocks": [
+          {
+            "t": "Baroreceptor Reflex",
+            "k": "h",
+            "zh": "•壓力感受器"
+          },
+          {
+            "t": "Increased BP Decreased BP",
+            "k": "h",
+            "zh": "•突然的血壓、動脈壁的伸展、壓力感受器的刺激、發送到腦幹延髓中的延髓心血管/心臟調節中心的脈衝（動作電位頻率） （副交感神經活動）壓力感受器反射增加血壓降低血壓CO = HR x SV壓力感受器反射圖= CO x TPR CO = HR x SV"
+          }
+        ],
+        "img": "assets/slides/L3/063.webp"
+      },
+      {
+        "n": 64,
+        "blocks": [
+          {
+            "t": "CO = HR x SV",
+            "k": "h",
+            "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+          },
+          {
+            "t": "Baroreceptor Reflex MAP = CO x TPR",
+            "k": "h",
+            "zh": "壓力感受器反射圖= CO x TPR"
+          }
+        ],
+        "img": "assets/slides/L3/064.webp"
+      },
+      {
+        "n": 65,
+        "blocks": [
+          {
+            "t": "CO = HR x SV",
+            "k": "h",
+            "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+          },
+          {
+            "t": "Chemoreceptors MAP = CO x TPR",
+            "k": "h",
+            "zh": "化學感受器映射= CO x TPR"
+          },
+          {
+            "t": "• Blood pressure is regulated by chemoreceptor reflexes that sensitive to oxygen and carbon dioxide",
+            "k": "li",
+            "zh": "•血壓由對氧氣和二氧化碳敏感的化學感受器反應調節"
+          },
+          {
+            "t": "• Prominent chemoreceptors are in carotid and aortic bodies",
+            "k": "li",
+            "zh": "•著名的化學感受器位於頸動脈和主動脈體內"
+          },
+          {
+            "t": "• Send signals to vasomotor center of the medulla oblongata → vasoconstriction",
+            "k": "li",
+            "zh": "•向延髓血管→收縮的血管收縮中心發送信號"
+          },
+          {
+            "t": "The cardiovascular centre (CVC)",
+            "k": "h",
+            "zh": "心血管中心（ CVC ） CO = HR x SV腎臟調節（腎臟）圖= CO x TPR"
+          }
+        ],
+        "img": "assets/slides/L3/065.webp"
+      },
+      {
+        "n": 66,
+        "blocks": [
+          {
+            "t": "CO = HR x SV",
+            "k": "h",
+            "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+          },
+          {
+            "t": "Renal Regulation (Kidney) MAP = CO x TPR",
+            "k": "h",
+            "zh": "心血管中心（ CVC ） CO = HR x SV腎臟調節（腎臟）圖= CO x TPR"
+          },
+          {
+            "t": "• Kidney maintains long-term blood pressure by regulating blood volume (under the stimulation of Antidiuretic Hormone (ADH), or via renin production)",
+            "k": "li",
+            "zh": "•腎臟通過調節血容量（在抗利尿激素（ ADH ）的刺激下，或通過腎素生成）來維持長期血壓"
+          },
+          {
+            "t": "• Increased blood pressure stimulates the kidneys to eliminate water thus reducing blood pressure",
+            "k": "li",
+            "zh": "•血壓升高刺激腎臟排水，從而降低血壓"
+          },
+          {
+            "t": "• Decreased blood pressure stimulates the kidneys to do water retention, thus increasing blood pressure",
+            "k": "li",
+            "zh": "•血壓降低刺激腎臟保持水分，從而增加血壓CO = HR x SV Renin-Angiotensin-Aldosterone System MAP = CO x TPR References Goodenough, J., & McGuire, B. (2017)。Biology of humans: Concepts, Applications and Issues (6th ed.). Pearson."
+          }
+        ],
+        "img": "assets/slides/L3/066.webp"
+      },
+      {
+        "n": 67,
+        "blocks": [
+          {
+            "t": "CO = HR x SV",
+            "k": "h",
+            "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+          },
+          {
+            "t": "Renin-Angiotensin-Aldosterone System MAP = CO x TPR",
+            "k": "h",
+            "zh": "•腎素-血管緊張素-醛固酮系統（ RAAS ）"
+          }
+        ],
+        "img": "assets/slides/L3/067.webp"
+      },
+      {
+        "n": 68,
+        "blocks": [
+          {
+            "t": "Goodenough, J., & McGuire, B. (2017). Biology of humans: Concepts, applications and issues (6th ed.). Pearson. Mader, S. S. (2024). Biology . New York, New York : McGraw-Hill,. Martini, F., Nath, J. L., Bartholomew, E. F., Ober, W. C., & Ober, C. E. (2024). Fundamentals of anatomy and physiology (12th ed.). Pearson Education, Inc.. Patton, K. T., Bell, F., Thompson, T., & Williamson, P. (2024). The human body in health & disease (8th ed.). Elsevier. Patton, K. T., Bell, F. B., & Thompson, T. (2022). Anatomy and physiology (11th ed.). Elsevier. Saladin, K. S., & Gan, C. A. (2020). Human anatomy (6th ed.). McGraw-Hill Education. VanPutte, C. L., Regan, J., & Russo, A. (2022). Seeley’s anatomy & physiology (13th edition.). New York, New York: McGraw-Hill Education. Welsh, C. J., Prentice-Craver, C., & Shier, D. (2021). Hole's essentials of human anatomy & physiology (14th ed.). McGraw-Hill Education.",
+            "k": "p",
+            "zh": "（參考／來源）"
+          }
+        ],
+        "img": "assets/slides/L3/068.webp"
+      },
+      {
+        "n": 69,
+        "blocks": [
+          {
+            "t": "Thank You! 69 / 69",
+            "k": "h",
+            "zh": "多謝！"
+          }
+        ],
+        "img": "assets/slides/L3/069.webp"
+      }
+    ],
     "blocks": [
+      {
+        "t": "Health and Life Sciences",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Higher Diploma in General Nursing for",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Enrolled Nurse (AS114218)",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Life Sciences (NHS4218)",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Lecture 3",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Cardiovascular System 心血管系統",
+        "k": "h",
+        "zh": "•心血管系統•感官系統"
+      },
       {
         "t": "Module Intended Learning Outcomes (MILOs):",
         "k": "h",
@@ -8183,7 +15623,12 @@ window.HAZEL_LECTURES = [
         "zh": "•描述不同身體系統之間的相互關係"
       },
       {
-        "t": "Learning outcomes: By the end of this lecture, students will be able to:",
+        "t": "Learning outcomes:",
+        "k": "h",
+        "zh": "模組預期學習成果（ MILO ） ："
+      },
+      {
+        "t": "By the end of this lecture, students will be able to:",
         "k": "h",
         "zh": "學習成果：在本課程結束時，學生將能夠："
       },
@@ -8218,12 +15663,17 @@ window.HAZEL_LECTURES = [
         "zh": "•描述壓力感受器在檢測血壓變化和啟動反射以維持體內平衡方面的作用。"
       },
       {
-        "t": "Structure and Function of the Heart Cardiovascular system 心血管系統",
-        "k": "p",
+        "t": "Structure and Function of the Heart",
+        "k": "h",
         "zh": "心臟心血管系統的結構和功能 心血管系統"
       },
       {
-        "t": "1. The heart心臟 (muscular pumping device)",
+        "t": "Cardiovascular system 心血管系統",
+        "k": "h",
+        "zh": "•心血管系統•感官系統"
+      },
+      {
+        "t": "• The heart心臟 (muscular pumping device)",
         "k": "li",
         "zh": "1.心臟心臟（肌肉抽吸裝置）"
       },
@@ -8233,14 +15683,19 @@ window.HAZEL_LECTURES = [
         "zh": "•將血液泵入全身"
       },
       {
-        "t": "2. A network of blood vessels血管 with blood血液",
+        "t": "• A network of blood vessels血管 with blood血液",
         "k": "li",
         "zh": "2.有血液的血管血管網絡血液"
       },
       {
-        "t": "• Closed system 肺循環 體循環",
+        "t": "• Closed system 肺循環",
         "k": "li",
         "zh": "肺循環 體循環"
+      },
+      {
+        "t": "體循環",
+        "k": "h",
+        "zh": ""
       },
       {
         "t": "• With circulation循環",
@@ -8258,32 +15713,22 @@ window.HAZEL_LECTURES = [
         "zh": "全身和肺循環"
       },
       {
-        "t": "The circulatory system consists of the pulmonary and systemic circulations. The right side of the heart pumps",
+        "t": "The circulatory system consists of the pulmonary and systemic circulations. The right side of the heart pumps blood through vessels to the lungs and back to the left side of the heart through the pulmonary circulation. The left side of the heart pumps blood through vessels to the tissues of the body and back to the right side of the heart through the systemic circulation. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 20 p.714]",
         "k": "p",
         "zh": "循環系統由肺循環和全身循環組成。心臟右側跳動"
       },
       {
-        "t": "blood through vessels to the lungs and back to the left side of the heart through the pulmonary circulation.",
-        "k": "p",
-        "zh": "血液通過血管到達肺部，然後通過肺循環回到心臟的左側。"
-      },
-      {
-        "t": "The left side of the heart pumps blood through vessels to the tissues of the body and back to the right side of",
-        "k": "p",
-        "zh": "心臟的左側將血液通過血管泵送到身體的組織，然後回到右側"
-      },
-      {
-        "t": "the heart through the systemic circulation. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 20 p.714]",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Functions of Cardiovascular system",
+        "t": "Functions of",
         "k": "h",
-        "zh": "心血管系統的功能"
+        "zh": "碳水化合物的功能"
       },
       {
-        "t": "1. Transportation of metabolic substances (by red blood cells)",
+        "t": "Cardiovascular system",
+        "k": "h",
+        "zh": "•心血管系統•感官系統"
+      },
+      {
+        "t": "• Transportation of metabolic substances (by red blood cells)",
         "k": "li",
         "zh": "1.代謝物質的運輸（通過紅細胞）"
       },
@@ -8303,14 +15748,9 @@ window.HAZEL_LECTURES = [
         "zh": "•廢物（代謝廢物、過量水和離子）"
       },
       {
-        "t": "The circulatory system is composed of blood vessels that carry the blood to the tissues of the body, allowing for the exchange of substances, such as O2, nutrients, CO2, and",
+        "t": "The circulatory system is composed of blood vessels that carry the blood to the tissues of the body, allowing for the exchange of substances, such as O2, nutrients, CO2, and waste products, necessary to maintain homeostasis. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 21 p.756]",
         "k": "p",
         "zh": "循環系統由將血液運送到身體組織的血管組成，允許交換物質，如氧氣、營養物質、二氧化碳和"
-      },
-      {
-        "t": "waste products, necessary to maintain homeostasis. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 21 p.756]",
-        "k": "p",
-        "zh": "（參考／來源）"
       },
       {
         "t": "Functions of cardiovascular system",
@@ -8318,9 +15758,9 @@ window.HAZEL_LECTURES = [
         "zh": "心血管系統的功能"
       },
       {
-        "t": "2. Regulation",
+        "t": "• Regulation",
         "k": "li",
-        "zh": "2.法規"
+        "zh": "（參考／來源）"
       },
       {
         "t": "• Hormones and heat (to regulate blood pressure) e.g. Adrenaline",
@@ -8328,14 +15768,19 @@ window.HAZEL_LECTURES = [
         "zh": "•激素和熱量（調節血壓） ，例如腎上腺素"
       },
       {
-        "t": "• In thermoregulation: (1) Vasoconstriction → Blood pressure OR ?",
+        "t": "• In thermoregulation: (1) Vasoconstriction",
         "k": "li",
         "zh": "•體溫調節： (1)→血管收縮血壓或"
       },
       {
-        "t": "(2) Vasodilation → Blood pressure OR ?",
-        "k": "p",
-        "zh": "(2)→血管舒張血壓或"
+        "t": "→ Blood pressure OR ? (2) Vasodilation",
+        "k": "h",
+        "zh": "•血壓血壓"
+      },
+      {
+        "t": "→ Blood pressure OR ?",
+        "k": "h",
+        "zh": "•體溫調節： (1)→血管收縮血壓或"
       },
       {
         "t": "Thermoregulation in Humans:",
@@ -8343,7 +15788,7 @@ window.HAZEL_LECTURES = [
         "zh": "人體體溫調節："
       },
       {
-        "t": "Vasodilation widens blood vessels near the skin’s surface to release heat, while vasoconstriction Thermoregulation narrows them to retain warmth. These processes are controlled through feedback loops involving the hypothalamus, which acts as the body’s thermostat.",
+        "t": "Vasodilation widens blood vessels near the skin’s surface to release heat, while vasoconstriction Thermoregulation narrows them to retain warmth. These processes are controlled through feedback loops involving the hypothalamus, which acts as the body’s thermostat. 7 / 69",
         "k": "p",
         "zh": "血管舒張會擴大皮膚表面附近的血管以釋放熱量，而血管收縮溫度調節會縮小血管以保持溫暖。這些過程通過涉及下丘腦的反饋迴路來控制，下丘腦充當身體的恆溫器。"
       },
@@ -8353,9 +15798,9 @@ window.HAZEL_LECTURES = [
         "zh": "心血管系統的功能"
       },
       {
-        "t": "3. Protection",
+        "t": "• Protection",
         "k": "li",
-        "zh": "3.保護"
+        "zh": "•磷脂（磷脂 ）是細胞膜中重要的防水化合物•保護"
       },
       {
         "t": "• Clotting → protects against blood loss during tissue damage (by platelet)",
@@ -8368,18 +15813,23 @@ window.HAZEL_LECTURES = [
         "zh": "•→ 免疫防禦病原體（通過白細胞）"
       },
       {
-        "t": "Blood Clot A blood clot consists of fibrin, which Types of White Blood Cells traps red blood cells, platelets, and fluid.",
-        "k": "p",
+        "t": "Blood Clot",
+        "k": "h",
+        "zh": "2 ）它參與血液凝固和肌肉收縮氯維持陰離子負離子和陽離子之間的平衡正離子"
+      },
+      {
+        "t": "A blood clot consists of fibrin, which",
+        "k": "h",
         "zh": "血凝塊血凝塊由纖維蛋白組成，白細胞類型會捕獲紅細胞、血小板和液體。"
       },
       {
-        "t": "(a) Neutrophil, (b) eosinophil, (c) basophil, (d) lymphocyte, (e) monocyte/macrophage.",
+        "t": "Types of White Blood Cells traps red blood cells, platelets, and fluid. (a) Neutrophil, (b) eosinophil, (c) basophil, (d) lymphocyte, (e) monocyte/macrophage.",
         "k": "p",
-        "zh": "（ a ）嗜中性白血球， （ b ）嗜酸性白血球， （ c ）嗜鹼性白血球， （ d ）淋巴細胞， （ e ）單核細胞/巨噬細胞。"
+        "zh": "Types"
       },
       {
         "t": "What is blood?",
-        "k": "p",
+        "k": "h",
         "zh": "什麼是血？"
       },
       {
@@ -8398,12 +15848,12 @@ window.HAZEL_LECTURES = [
         "zh": "•由以下成分組成："
       },
       {
-        "t": "1. Plasma血漿 – 55%",
+        "t": "• Plasma血漿 – 55%",
         "k": "li",
-        "zh": "1.血漿血漿– 55%"
+        "zh": ""
       },
       {
-        "t": "2. Blood cells血細胞 – 45%",
+        "t": "• Blood cells血細胞 – 45%",
         "k": "li",
         "zh": "2.血細胞血細胞– 45%"
       },
@@ -8418,8 +15868,18 @@ window.HAZEL_LECTURES = [
         "zh": "•白血球(WBC)"
       },
       {
-        "t": "• Platelets血小板 血塊黃層 Plasma血漿 Serum 血清 :",
+        "t": "• Platelets血小板 血塊黃層",
         "k": "li",
+        "zh": "血凝塊血凝塊由纖維蛋白組成，白細胞類型會捕獲紅細胞、血小板和液體。"
+      },
+      {
+        "t": "Plasma血漿",
+        "k": "h",
+        "zh": "鐵它是許多酶、血紅蛋白和肌紅蛋白肌紅蛋白細胞和組織的組成部分人類細胞一種廣義的人類細胞，顯示質膜、細胞核和細胞質及其細胞器。雖然沒有單個細胞包含所有這些細胞器，但許多細胞包含大量這些細胞器。"
+      },
+      {
+        "t": "Serum 血清 :",
+        "k": "h",
         "zh": "血小板 血塊黃層 Plasma血漿 Serum 血清"
       },
       {
@@ -8473,18 +15933,33 @@ window.HAZEL_LECTURES = [
         "zh": "酶"
       },
       {
-        "t": "• Antibodies Composition of Blood Approximate values for the components of blood in a normal adult.",
+        "t": "• Antibodies",
         "k": "li",
+        "zh": "1.抗體-免疫應答。被稱為抗體的防禦性蛋白質與細菌和病毒等外來入侵者結合，從而將其從體內清除。"
+      },
+      {
+        "t": "Composition of Blood",
+        "k": "h",
         "zh": "•血液抗體成分正常成人血液成分的近似值。"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 19 p.684]",
+        "t": "Approximate values for the components of blood in a normal adult.",
         "k": "p",
+        "zh": "•血液抗體成分正常成人血液成分的近似值。"
+      },
+      {
+        "t": "Chapter 19 p.684]",
+        "k": "h",
         "zh": "（參考／來源）"
       },
       {
-        "t": "Blood cells - Erythrocyte紅血球 Shape and dimensions of a red blood cell",
-        "k": "p",
+        "t": "Blood cells - Erythrocyte紅血球",
+        "k": "h",
+        "zh": "血細胞-紅細胞紅血球紅血球的形狀和尺寸"
+      },
+      {
+        "t": "Shape and dimensions of a red blood cell",
+        "k": "h",
         "zh": "血細胞-紅細胞紅血球紅血球的形狀和尺寸"
       },
       {
@@ -8503,24 +15978,19 @@ window.HAZEL_LECTURES = [
         "zh": "•輸送氧氣到組織以換取二氧化碳（氣體交換）"
       },
       {
-        "t": "• Biconcave雙凹盤形狀 disk shape → surface area for gas exchange",
+        "t": "• Biconcave雙凹盤形狀 disk shape",
         "k": "li",
         "zh": "•雙凹雙凹盤形狀盤形→表面積，用於氣體交換"
       },
       {
-        "t": "Hemoglobin (a) Hemoglobin consists of four subunits, each with a globin and a heme血基質.",
+        "t": "→ surface area for gas exchange",
+        "k": "h",
+        "zh": "•雙凹雙凹盤形狀盤形→表面積，用於氣體交換"
+      },
+      {
+        "t": "Hemoglobin (a) Hemoglobin consists of four subunits, each with a globin and a heme血基質. There are two alpha (α) globins 血球蛋白and two beta (β) globins. A heme is associated with each globin. (b) Each heme contains one iron atom (Fe) located at the center of the heme group. Oxygen binds to the heme on hemoglobin molecule. [Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 19 p.690]",
         "k": "p",
         "zh": "血紅蛋白(a)血紅蛋白由四個亞單位組成，每個亞單位都有一個血紅蛋白和一個血紅素血基質。"
-      },
-      {
-        "t": "There are two alpha (α) globins 血球蛋白and two beta (β) globins. A heme is associated with each globin. (b) Each heme contains one iron atom (Fe) located at the center of the heme group. Oxygen binds to the heme on hemoglobin molecule.",
-        "k": "p",
-        "zh": "有兩種α (α)球蛋白血球蛋白和兩種β (β)球蛋白。血紅素與每個珠蛋白相關聯。（ b ）每個血紅素含有一個位於血紅素羣中心的鐵原子（ Fe ）。氧與血紅蛋白分子上的血紅素結合。"
-      },
-      {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 19 p.690]",
-        "k": "p",
-        "zh": "（參考／來源）"
       },
       {
         "t": "Blood cells - Leukocytes白血球",
@@ -8548,8 +16018,13 @@ window.HAZEL_LECTURES = [
         "zh": "•也稱為血小板"
       },
       {
-        "t": "• Function in clotting → cluster together to stop bleeding（hemostasis）止血",
+        "t": "• Function in clotting",
         "k": "li",
+        "zh": "•凝→聚在一起止血（止血）的功能止血"
+      },
+      {
+        "t": "→ cluster together to stop bleeding（hemostasis）止血",
+        "k": "h",
         "zh": "•凝→聚在一起止血（止血）的功能止血"
       },
       {
@@ -8558,9 +16033,24 @@ window.HAZEL_LECTURES = [
         "zh": "血細胞概覽"
       },
       {
-        "t": "15 16 The Heart The Heart",
-        "k": "p",
-        "zh": "15 16心靈心靈"
+        "t": "15 15 / 69",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "16 16 / 69",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "The Heart",
+        "k": "h",
+        "zh": "•解剖學-構結構成身體的結構以及這些結構如何相互關聯，例如心臟結構"
+      },
+      {
+        "t": "The Heart",
+        "k": "h",
+        "zh": "•解剖學-構結構成身體的結構以及這些結構如何相互關聯，例如心臟結構"
       },
       {
         "t": "• Size of a fist, hollow, cone-shaped",
@@ -8598,9 +16088,19 @@ window.HAZEL_LECTURES = [
         "zh": "•底部：心臟上部，指向右肩，位於第二肋骨下方"
       },
       {
-        "t": "• Apex: inferior and pointed tip of the heart; oriented toward the left hip, and rests at about the 5th intercostal space Function of the Heart",
+        "t": "• Apex: inferior and pointed tip of the heart; oriented toward the left hip, and rests at about the",
         "k": "li",
         "zh": "•心尖：心臟的下尖和尖尖；朝向左臀部，靜止在第5肋間隙左右心臟的功能"
+      },
+      {
+        "t": "5th intercostal space",
+        "k": "h",
+        "zh": "•心尖：心臟的下尖和尖尖；朝向左臀部，靜止在第5肋間隙左右心臟的功能"
+      },
+      {
+        "t": "Function of the Heart",
+        "k": "h",
+        "zh": "功能"
       },
       {
         "t": "• To receive deoxygenated blood and transport metabolic waste products from the body, sending them to the lungs for oxygenation.",
@@ -8673,17 +16173,17 @@ window.HAZEL_LECTURES = [
         "zh": "心包中的心臟"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 20 p.716]",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Heart Layers Also known as the heart wall, the heart consists of three layers:",
+        "t": "Heart Layers",
         "k": "h",
         "zh": "心臟層也稱為心臟壁，心臟由三層組成："
       },
       {
-        "t": "1. Epicardium心外膜",
+        "t": "Also known as the heart wall, the heart consists of three layers:",
+        "k": "h",
+        "zh": "心臟層也稱為心臟壁，心臟由三層組成："
+      },
+      {
+        "t": "• Epicardium心外膜",
         "k": "li",
         "zh": "1.心外膜心外膜"
       },
@@ -8693,7 +16193,7 @@ window.HAZEL_LECTURES = [
         "zh": "•這是由纖維和鬆散結締組織組成的外層保護層。"
       },
       {
-        "t": "2. Myocardium心肌層",
+        "t": "• Myocardium心肌層",
         "k": "li",
         "zh": "2.心肌心肌層"
       },
@@ -8703,7 +16203,7 @@ window.HAZEL_LECTURES = [
         "zh": "•中間層由專門的心肌組織組成，負責心臟的泵送動作。"
       },
       {
-        "t": "3. Endocardium心內膜",
+        "t": "• Endocardium心內膜",
         "k": "li",
         "zh": "3.心內膜心內膜"
       },
@@ -8713,19 +16213,69 @@ window.HAZEL_LECTURES = [
         "zh": "•這是一層薄而光滑的內皮細胞，排列在心臟腔室內。"
       },
       {
-        "t": "Vena cava = Vein Anatomy of the Heart Pulmonary = Lung (Upper body to right heart) (To whole body)",
-        "k": "p",
+        "t": "Vena cava = Vein Anatomy of the Heart",
+        "k": "h",
         "zh": "腔靜脈=心臟靜脈解剖學肺=肺（上身至右心） （至全身）"
       },
       {
-        "t": "Heart Chambers Upper Chambers (receive blood): Right atrium (RA) Left atrium (LA) Lower Chambers (pump blood): Right ventricle (RV) Left ventricle (LV)",
-        "k": "p",
+        "t": "Pulmonary = Lung (Upper body to right heart) (To whole body)",
+        "k": "h",
+        "zh": "腔靜脈=心臟靜脈解剖學肺=肺（上身至右心） （至全身）"
+      },
+      {
+        "t": "Heart Chambers",
+        "k": "h",
         "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
       },
       {
-        "t": "Lower body to right heart) Artery= Away from heart The Heart Valves心臟瓣膜 Vein= Toward the heart",
-        "k": "p",
+        "t": "Upper Chambers (receive blood):",
+        "k": "h",
+        "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+      },
+      {
+        "t": "Right atrium (RA)",
+        "k": "h",
+        "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+      },
+      {
+        "t": "Left atrium (LA)",
+        "k": "h",
+        "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+      },
+      {
+        "t": "Lower Chambers (pump blood):",
+        "k": "h",
+        "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+      },
+      {
+        "t": "Right ventricle (RV)",
+        "k": "h",
+        "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+      },
+      {
+        "t": "Left ventricle (LV)",
+        "k": "h",
+        "zh": "心腔上腔（接受血液） ：右心房（ RA ）左心房（ LA ）下腔（泵血） ：右心室（ RV ）左心室（ LV ）"
+      },
+      {
+        "t": "Lower body to right heart)",
+        "k": "h",
         "zh": "下半身至右心）動脈=遠離心臟心臟瓣膜靜心臟瓣膜脈=朝向心臟"
+      },
+      {
+        "t": "Artery= Away from heart The Heart Valves心臟瓣膜",
+        "k": "h",
+        "zh": "下半身至右心）動脈=遠離心臟心臟瓣膜靜心臟瓣膜脈=朝向心臟"
+      },
+      {
+        "t": "Vein= Toward the heart",
+        "k": "h",
+        "zh": "靜脈=朝向心臟通路："
+      },
+      {
+        "t": "Atrioventricular valves (AV valves)",
+        "k": "h",
+        "zh": "房室瓣（ AV瓣）"
       },
       {
         "t": "Atrioventricular valves (AV valves)",
@@ -8743,7 +16293,7 @@ window.HAZEL_LECTURES = [
         "zh": "•確保血液單向流過心室和大動脈。"
       },
       {
-        "t": "• To prevent backflow of blood when a chamber or vessel contracts.",
+        "t": "• To prevent backflow of blood when a chamber or vessel contracts. 23 / 69",
         "k": "li",
         "zh": "•防止腔室或血管收縮時血液回流。"
       },
@@ -8753,22 +16303,22 @@ window.HAZEL_LECTURES = [
         "zh": "血液循環循環"
       },
       {
-        "t": "1. Pulmonary Circulation肺循環",
+        "t": "• Pulmonary Circulation肺循環",
         "k": "li",
-        "zh": "1.肺循環肺循環"
+        "zh": "肺循環"
       },
       {
-        "t": "2. Systemic Circulation體循環",
+        "t": "• Systemic Circulation體循環",
         "k": "li",
-        "zh": "2.全身循環體循環"
+        "zh": "全身循環"
       },
       {
-        "t": "3. Coronary Circulation冠狀循環",
+        "t": "• Coronary Circulation冠狀循環",
         "k": "li",
         "zh": "冠狀循環"
       },
       {
-        "t": "4. Portal Circulation肝門循環",
+        "t": "• Portal Circulation肝門循環",
         "k": "li",
         "zh": "肝門循環"
       },
@@ -8778,14 +16328,9 @@ window.HAZEL_LECTURES = [
         "zh": "當血液從肺部運送到全身循環時，保持足夠的氧合"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 20 p.713]",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "1. Pulmonary Circulation肺循環",
+        "t": "• Pulmonary Circulation肺循環",
         "k": "li",
-        "zh": "1.肺循環肺循環"
+        "zh": "肺循環"
       },
       {
         "t": "• Blood supply for gas exchange in LUNGS:",
@@ -8813,49 +16358,89 @@ window.HAZEL_LECTURES = [
         "zh": "全身循環"
       },
       {
-        "t": "25",
-        "k": "p",
-        "zh": "（見英文原文）"
+        "t": "25 25 / 69",
+        "k": "h",
+        "zh": ""
       },
       {
-        "t": "1. Pulmonary Circulation肺循環 Artery= Away from heart",
+        "t": "• Pulmonary Circulation肺循環 Artery= Away from heart",
         "k": "li",
-        "zh": "1.肺循環肺循環動脈=遠離心臟"
+        "zh": "肺循環"
       },
       {
-        "t": "Vein= Toward the heart Pathway:",
+        "t": "Vein= Toward the heart",
         "k": "h",
         "zh": "靜脈=朝向心臟通路："
       },
       {
-        "t": "1. Right atrium (Receiving chamber) → tricuspid valve → right ventricle (Discharging chamber)",
+        "t": "Pathway:",
+        "k": "h",
+        "zh": "銜接"
+      },
+      {
+        "t": "• Right atrium (Receiving chamber)",
         "k": "li",
         "zh": "1.右心房（收容室）→三尖瓣→右心室（出院室）"
       },
       {
-        "t": "2. → pulmonary semilunar valve → pulmonary trunk → pulmonary arteries (left and right)",
+        "t": "→ tricuspid valve",
+        "k": "h",
+        "zh": "1.右心房（收容室）→三尖瓣→右心室（出院室）"
+      },
+      {
+        "t": "→ right ventricle (Discharging chamber)",
+        "k": "h",
+        "zh": "1.右心房（收容室）→三尖瓣→右心室（出院室）"
+      },
+      {
+        "t": "• → pulmonary semilunar valve",
         "k": "li",
         "zh": "2.→肺半月瓣→肺動脈幹→肺動脈（左、右）"
       },
       {
-        "t": "3. → lungs (gas exchange)",
+        "t": "→ pulmonary trunk",
+        "k": "h",
+        "zh": "2.→肺半月瓣→肺動脈幹→肺動脈（左、右）"
+      },
+      {
+        "t": "→ pulmonary arteries (left and right)",
+        "k": "h",
+        "zh": "2.→肺半月瓣→肺動脈幹→肺動脈（左、右）"
+      },
+      {
+        "t": "• → lungs (gas exchange)",
         "k": "li",
         "zh": "3.→肺（氣體交換）"
       },
       {
-        "t": "4. → pulmonary veins → left atrium (Receiving chamber) → mitral/bicuspid valve → left ventricle (Discharging chamber)",
+        "t": "• → pulmonary veins",
         "k": "li",
         "zh": "4.→肺靜脈→左心房（收容室）→二尖瓣/二尖瓣→左心室（出院室）"
       },
       {
-        "t": "*artery carries deoxygenated blood",
-        "k": "p",
+        "t": "→ left atrium (Receiving chamber)",
+        "k": "h",
+        "zh": "4.→肺靜脈→左心房（收容室）→二尖瓣/二尖瓣→左心室（出院室）"
+      },
+      {
+        "t": "→ mitral/bicuspid valve",
+        "k": "h",
+        "zh": "4.→肺靜脈→左心房（收容室）→二尖瓣/二尖瓣→左心室（出院室）"
+      },
+      {
+        "t": "→ left ventricle (Discharging chamber)",
+        "k": "h",
+        "zh": "4.→肺靜脈→左心房（收容室）→二尖瓣/二尖瓣→左心室（出院室）"
+      },
+      {
+        "t": "*artery carries deoxygenated blood 26 / 69",
+        "k": "h",
         "zh": "*動脈攜帶缺氧血液"
       },
       {
-        "t": "2. Systemic Circulation體循環",
+        "t": "• Systemic Circulation體循環",
         "k": "li",
-        "zh": "2.全身循環體循環"
+        "zh": "全身循環"
       },
       {
         "t": "• Carries oxygen and nutrients to all other parts of body and collect carbon dioxide and wastes from whole body",
@@ -8883,14 +16468,19 @@ window.HAZEL_LECTURES = [
         "zh": "全身循環"
       },
       {
-        "t": "27 Artery= Away from heart",
-        "k": "p",
-        "zh": "27 Artery =遠離心臟"
+        "t": "27 27 / 69",
+        "k": "h",
+        "zh": ""
       },
       {
-        "t": "2. Systemic Circulation Vein= Toward the heart",
+        "t": "Artery= Away from heart",
+        "k": "h",
+        "zh": "下半身至右心）動脈=遠離心臟心臟瓣膜靜心臟瓣膜脈=朝向心臟"
+      },
+      {
+        "t": "• Systemic Circulation Vein= Toward the heart",
         "k": "li",
-        "zh": "2.全身循環靜脈=朝向心臟"
+        "zh": "全身循環"
       },
       {
         "t": "Pathway:",
@@ -8898,33 +16488,53 @@ window.HAZEL_LECTURES = [
         "zh": "銜接"
       },
       {
-        "t": "1. Left ventricle (Discharging chamber)",
+        "t": "• Left ventricle (Discharging chamber)",
         "k": "li",
-        "zh": "1.左心室（出院室）"
+        "zh": "4.→肺靜脈→左心房（收容室）→二尖瓣/二尖瓣→左心室（出院室）"
       },
       {
-        "t": "2. → aortic semilunar valves → aorta",
+        "t": "• → aortic semilunar valves",
         "k": "li",
         "zh": "2.→主動脈半月瓣→主動脈"
       },
       {
-        "t": "3. → whole body",
-        "k": "li",
-        "zh": "3.→全身"
+        "t": "→ aorta",
+        "k": "h",
+        "zh": "•連接到上方的大血管（例如主動脈）和下方的隔膜"
       },
       {
-        "t": "4. → Superior and inferior vena cava",
+        "t": "• → whole body",
+        "k": "li",
+        "zh": "腔靜脈=心臟靜脈解剖學肺=肺（上身至右心） （至全身）"
+      },
+      {
+        "t": "• → Superior and inferior vena cava",
         "k": "li",
         "zh": "4.→上下腔靜脈"
       },
       {
-        "t": "5. → right atrium (Receiving chamber)",
+        "t": "• → right atrium (Receiving chamber)",
         "k": "li",
-        "zh": "5.→右心房（接收腔）"
+        "zh": "1.右心房（收容室）→三尖瓣→右心室（出院室）"
       },
       {
-        "t": "*vein carries oxygenated blood A diagram of the circulatory system Coronary Circulation 冠狀循環 coronary sulcus",
-        "k": "p",
+        "t": "*vein carries oxygenated blood 28 / 69",
+        "k": "h",
+        "zh": "*靜脈帶有含氧血液冠狀動冠狀循環脈溝的循環系統圖"
+      },
+      {
+        "t": "A diagram of the circulatory system 29 / 69",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Coronary Circulation",
+        "k": "h",
+        "zh": "冠狀循環"
+      },
+      {
+        "t": "冠狀循環 coronary sulcus",
+        "k": "h",
         "zh": "*靜脈帶有含氧血液冠狀動冠狀循環脈溝的循環系統圖"
       },
       {
@@ -8933,18 +16543,18 @@ window.HAZEL_LECTURES = [
         "zh": "為心肌提供可靠的氧氣和營養供應："
       },
       {
-        "t": "• Reference for the diagram: Lecture notes of Human Biology from the HD in Nursing programme. (n.d.)",
-        "k": "li",
-        "zh": "•圖表參考： HD in Nursing課程的人類生物學講座筆記。（ n.d. ）"
-      },
-      {
         "t": "Arterial Supply",
         "k": "h",
         "zh": "動脈供血"
       },
       {
-        "t": "• From the base of the aorta and encircle the heart in the coronary sulcus (groove between the atria and ventricles) Venous Supply",
+        "t": "• From the base of the aorta and encircle the heart in the coronary sulcus (groove between the atria and ventricles)",
         "k": "li",
+        "zh": "•從主動脈底部包圍冠狀溝中的心臟（心房和心室之間的溝）靜脈供血"
+      },
+      {
+        "t": "Venous Supply",
+        "k": "h",
         "zh": "•從主動脈底部包圍冠狀溝中的心臟（心房和心室之間的溝）靜脈供血"
       },
       {
@@ -8953,13 +16563,28 @@ window.HAZEL_LECTURES = [
         "zh": "•幾條心臟靜脈排入冠狀竇，然後排入右心房"
       },
       {
-        "t": "Any coronary disorder or disease can reduce the flow of oxygen and nutrients to the heart muscle ➢ Increase risk of heart attack and possibly death",
+        "t": "Any coronary disorder or disease can reduce the flow of oxygen and nutrients to the heart muscle",
         "k": "p",
         "zh": "任何冠狀動脈疾病或疾病都可能減少氧氣和營養物質流入心臟肌肉➢增加心臟病發作和可能死亡的風險"
       },
       {
-        "t": "Cardiac Excitation (Cardiac Conduction System) 心臟傳導系統 A network of specialized cells (autorhythmic myocardium)",
-        "k": "p",
+        "t": "➢ Increase risk of heart attack and possibly death",
+        "k": "h",
+        "zh": "任何冠狀動脈疾病或疾病都可能減少氧氣和營養物質流入心臟肌肉➢增加心臟病發作和可能死亡的風險"
+      },
+      {
+        "t": "Cardiac Excitation (Cardiac Conduction System)",
+        "k": "h",
+        "zh": "心臟刺激（心臟傳導系統心臟傳導系統）專用細胞網絡（自律心肌）"
+      },
+      {
+        "t": "心臟傳導系統",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "A network of specialized cells (autorhythmic myocardium)",
+        "k": "h",
         "zh": "心臟刺激（心臟傳導系統心臟傳導系統）專用細胞網絡（自律心肌）"
       },
       {
@@ -8988,8 +16613,28 @@ window.HAZEL_LECTURES = [
         "zh": "•確保有效的血液泵送"
       },
       {
-        "t": "• Involves: ❖ Sinoatrial node (SA node) – initiates the heartbeat (pacemaker) ❖ Atrioventricular node (AV node) - delays the impulse slightly ❖ Bundle of His (Atrioventricular bundle), left and right bundle branches ❖ Purkinje fibers (throughout the ventricle)",
+        "t": "• Involves:",
         "k": "li",
+        "zh": "•導致蛋白質產生的基因表達涉及兩個主要步驟："
+      },
+      {
+        "t": "❖ Sinoatrial node (SA node) – initiates the heartbeat (pacemaker)",
+        "k": "h",
+        "zh": "•涉及：竇❖房結（ SA結節） –開始心跳（起搏器）❖房室結（ AV結節） -稍微延遲His ❖ （房室束）的脈衝，左右束分支❖浦肯野纖維（整個心室）"
+      },
+      {
+        "t": "❖ Atrioventricular node (AV node) - delays the impulse slightly",
+        "k": "h",
+        "zh": "•涉及：竇❖房結（ SA結節） –開始心跳（起搏器）❖房室結（ AV結節） -稍微延遲His ❖ （房室束）的脈衝，左右束分支❖浦肯野纖維（整個心室）"
+      },
+      {
+        "t": "❖ Bundle of His (Atrioventricular bundle), left and right bundle branches",
+        "k": "p",
+        "zh": "•涉及：竇❖房結（ SA結節） –開始心跳（起搏器）❖房室結（ AV結節） -稍微延遲His ❖ （房室束）的脈衝，左右束分支❖浦肯野纖維（整個心室）"
+      },
+      {
+        "t": "❖ Purkinje fibers (throughout the ventricle)",
+        "k": "h",
         "zh": "•涉及：竇❖房結（ SA結節） –開始心跳（起搏器）❖房室結（ AV結節） -稍微延遲His ❖ （房室束）的脈衝，左右束分支❖浦肯野纖維（整個心室）"
       },
       {
@@ -8998,7 +16643,7 @@ window.HAZEL_LECTURES = [
         "zh": "心臟興奮"
       },
       {
-        "t": "1. Initiation of Action Potential:",
+        "t": "• Initiation of Action Potential:",
         "k": "li",
         "zh": "1.啟動行動潛力："
       },
@@ -9008,7 +16653,7 @@ window.HAZEL_LECTURES = [
         "zh": "• SA結節產生橫跨心房壁的動作電位（心律調節器）。"
       },
       {
-        "t": "2. Atrial Contraction:",
+        "t": "• Atrial Contraction:",
         "k": "li",
         "zh": "2.心房收縮："
       },
@@ -9018,17 +16663,22 @@ window.HAZEL_LECTURES = [
         "zh": "•動作電位導致心房收縮，將血液推入心室。"
       },
       {
-        "t": "3. Signal Propagation to Ventricles:",
+        "t": "• Signal Propagation to Ventricles:",
         "k": "li",
         "zh": "3.訊號傳播至心室："
       },
       {
-        "t": "• The action potential travels from the AV node through the AV bundle (Bundle of (Bundle of His) His), bundle branches, and Purkinje fibers, stimulating the ventricular walls.",
+        "t": "• The action potential travels from the AV node through the AV bundle (Bundle of (Bundle of His)",
         "k": "li",
         "zh": "•動作電位從房室結節穿過房室束（ His束）、束分支和浦肯野纖維，刺激心室壁。"
       },
       {
-        "t": "4. Ventricular Contraction:",
+        "t": "His), bundle branches, and Purkinje fibers, stimulating the ventricular walls.",
+        "k": "p",
+        "zh": "•動作電位從房室結節穿過房室束（ His束）、束分支和浦肯野纖維，刺激心室壁。"
+      },
+      {
+        "t": "• Ventricular Contraction:",
         "k": "li",
         "zh": "4.心室收縮："
       },
@@ -9043,7 +16693,17 @@ window.HAZEL_LECTURES = [
         "zh": "心臟興奮"
       },
       {
-        "t": "Both atria Both ventricles SA AV Bundle Purkinje → → depolarize & → → → depolarize & node node of His fibers contract contract",
+        "t": "Both atria Both ventricles",
+        "k": "h",
+        "zh": "雙心房雙心室SA房室束浦肯野→ →去極化和去極→ → →化及His纖維結節收縮收縮"
+      },
+      {
+        "t": "SA AV Bundle Purkinje →",
+        "k": "h",
+        "zh": "雙心房雙心室SA房室束浦肯野→ →去極化和去極→ → →化及His纖維結節收縮收縮"
+      },
+      {
+        "t": "→ depolarize & → → → depolarize & node node of His fibers contract contract",
         "k": "p",
         "zh": "雙心房雙心室SA房室束浦肯野→ →去極化和去極→ → →化及His纖維結節收縮收縮"
       },
@@ -9068,38 +16728,63 @@ window.HAZEL_LECTURES = [
         "zh": "•心臟跳動74 bpm S2的總持續時間為0.8秒"
       },
       {
-        "t": "1. Atrial systole : 0.1 seconds",
+        "t": "• Atrial systole : 0.1 seconds",
         "k": "li",
         "zh": "1.心房收縮期： 0.1秒"
       },
       {
-        "t": "2. Ventricular systole : 0.3 seconds",
+        "t": "• Ventricular systole : 0.3 seconds",
         "k": "li",
         "zh": "2.心室收縮： 0.3秒"
       },
       {
-        "t": "3. Complete cardiac (4 chambers) diastole : 0.4 seconds Mechanical Events of Cardiac Cycle Systole收縮期 Isovolumetric ventricular contraction",
+        "t": "• Complete cardiac (4 chambers) diastole : 0.4 seconds",
         "k": "li",
         "zh": "3.完全心臟（ 4腔室）舒張期： 0.4秒心臟週期收縮機械事件等容收縮期心室收縮"
       },
       {
-        "t": "1. Ventricle contract",
+        "t": "Mechanical Events of Cardiac Cycle",
+        "k": "h",
+        "zh": "心動週期"
+      },
+      {
+        "t": "Systole收縮期",
+        "k": "h",
+        "zh": "•心室的重複收縮收縮期（收縮；血液離開腔室）和舒張舒張期（放鬆；血液充滿腔室）過程"
+      },
+      {
+        "t": "Isovolumetric ventricular contraction",
+        "k": "h",
+        "zh": "3.完全心臟（ 4腔室）舒張期： 0.4秒心臟週期收縮機械事件等容收縮期心室收縮"
+      },
+      {
+        "t": "• Ventricle contract",
         "k": "li",
         "zh": "1.心室收縮"
       },
       {
-        "t": "2. Ventricle pressure > atrium pressure → AV valves closed. S1",
+        "t": "• Ventricle pressure > atrium pressure",
         "k": "li",
         "zh": "2.心室壓>心房壓房→室瓣關閉S1"
       },
       {
+        "t": "→ AV valves closed. S1",
+        "k": "h",
+        "zh": "2.心室壓>心房壓房→室瓣關閉S1"
+      },
+      {
         "t": "→ First heart sound S1 “Lup”",
-        "k": "p",
+        "k": "h",
         "zh": "→ 第一次心音S1 “Lup”"
       },
       {
-        "t": "3. Ventricle pressure < aorta and pulmonary artery pressure → Pulmonary and aortic valves closed.",
+        "t": "• Ventricle pressure < aorta and pulmonary artery pressure",
         "k": "li",
+        "zh": "3.心室壓力<主動脈和肺動脈壓→肺動脈和主動脈瓣關閉。"
+      },
+      {
+        "t": "→ Pulmonary and aortic valves closed.",
+        "k": "p",
         "zh": "3.心室壓力<主動脈和肺動脈壓→肺動脈和主動脈瓣關閉。"
       },
       {
@@ -9108,59 +16793,99 @@ window.HAZEL_LECTURES = [
         "zh": "心室射血"
       },
       {
-        "t": "1. Ventricular pressure > aorta and pulmonary artery pressure → Aortic and pulmonary valves open.",
+        "t": "• Ventricular pressure > aorta and pulmonary artery pressure",
         "k": "li",
         "zh": "1.心室壓力>主動脈和肺動脈壓→主動脈和肺動脈瓣開啟。"
       },
       {
-        "t": "→ Blood is ejected from ventricles (stroke volume) Diastole舒張期 Isovolumetric ventricular relaxation",
+        "t": "→ Aortic and pulmonary valves open.",
         "k": "p",
+        "zh": "1.心室壓力>主動脈和肺動脈壓→主動脈和肺動脈瓣開啟。"
+      },
+      {
+        "t": "→ Blood is ejected from ventricles (stroke volume)",
+        "k": "h",
         "zh": "從心室噴出→血液（卒中量）舒張期等容量舒張期心室弛豫"
       },
       {
-        "t": "1. Ventricle relax (end-systolic volume)",
+        "t": "(Page 37)",
+        "k": "p",
+        "zh": "（此頁主要為標題／圖表）"
+      },
+      {
+        "t": "Diastole舒張期",
+        "k": "h",
+        "zh": "•心室的重複收縮收縮期（收縮；血液離開腔室）和舒張舒張期（放鬆；血液充滿腔室）過程"
+      },
+      {
+        "t": "Isovolumetric ventricular relaxation",
+        "k": "h",
+        "zh": "從心室噴出→血液（卒中量）舒張期等容量舒張期心室弛豫"
+      },
+      {
+        "t": "• Ventricle relax (end-systolic volume)",
         "k": "li",
         "zh": "1.心室放鬆（收縮末期容積）"
       },
       {
-        "t": "2. Ventricle pressure < aorta and pulmonary artery pressure → aortic and pulmonary valves close.",
+        "t": "• Ventricle pressure < aorta and pulmonary artery pressure",
         "k": "li",
+        "zh": "3.心室壓力<主動脈和肺動脈壓→肺動脈和主動脈瓣關閉。"
+      },
+      {
+        "t": "→ aortic and pulmonary valves close.",
+        "k": "p",
         "zh": "2.心室壓力<主動脈和肺動脈壓→主動脈和肺動脈瓣關閉。"
       },
       {
         "t": "→ Second heart sound S2 “Dup”",
-        "k": "p",
+        "k": "h",
         "zh": "→ 第二心音S2 “Dup”"
       },
       {
-        "t": "3. AV valves remain closed → No change in ventricular volume",
+        "t": "• AV valves remain closed → No change in ventricular volume",
         "k": "li",
         "zh": "3.房室瓣保持關閉心室容積→無變化"
       },
       {
         "t": "Ventricular Filling Phase S2 “Dup”",
-        "k": "p",
+        "k": "h",
         "zh": "心室充盈期S2 “Dup”"
       },
       {
-        "t": "1. Blood is filled into atrium",
+        "t": "• Blood is filled into atrium",
         "k": "li",
-        "zh": "1.血液充入心房"
+        "zh": "→ 血液充入心室"
       },
       {
-        "t": "2. Atrium pressure > ventricle pressure → AV valves open.",
+        "t": "• Atrium pressure > ventricle pressure",
         "k": "li",
         "zh": "2.心房壓力>心室壓力→房室瓣開啟。"
       },
       {
-        "t": "→ Blood is filled into ventricle",
+        "t": "→ AV valves open.",
         "k": "p",
+        "zh": "2.心房壓力>心室壓力→房室瓣開啟。"
+      },
+      {
+        "t": "→ Blood is filled into ventricle",
+        "k": "h",
         "zh": "→ 血液充入心室"
       },
       {
-        "t": "Atrial contraction → Blood is further filled into ventricle (enddiastolic volume)",
-        "k": "p",
+        "t": "Atrial contraction",
+        "k": "h",
+        "zh": "2.心房收縮："
+      },
+      {
+        "t": "→ Blood is further filled into ventricle (enddiastolic volume)",
+        "k": "h",
         "zh": "心房收縮→血液進一步充入心室（舒張末期容積）"
+      },
+      {
+        "t": "(Page 39)",
+        "k": "p",
+        "zh": "（此頁主要為標題／圖表）"
       },
       {
         "t": "Heart Sound心音",
@@ -9168,8 +16893,43 @@ window.HAZEL_LECTURES = [
         "zh": "心音心音"
       },
       {
-        "t": "• The heart produces two main sounds, heard using a stethoscope: First heart sound S1 “Lub” ◦ Produced by closing of AV valves during isovolumetric ventricular contraction Second heart sound S2 “Dub” ◦ Produced by closing of aortic and pulmonary valves when the pressure in ventricles falls below the pressure in arteries Electrocardiography (ECG) 心電圖 Limb leads (I,II,III) Vertical plane",
+        "t": "• The heart produces two main sounds, heard using a stethoscope:",
         "k": "li",
+        "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+      },
+      {
+        "t": "First heart sound S1 “Lub”",
+        "k": "h",
+        "zh": "→ 第一次心音S1 “Lup”"
+      },
+      {
+        "t": "• Produced by closing of AV valves during isovolumetric ventricular contraction",
+        "k": "li",
+        "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+      },
+      {
+        "t": "Second heart sound S2 “Dub”",
+        "k": "h",
+        "zh": "→ 第二心音S2 “Dup”"
+      },
+      {
+        "t": "• Produced by closing of aortic and pulmonary valves when the pressure in ventricles falls below the pressure in arteries",
+        "k": "li",
+        "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+      },
+      {
+        "t": "Electrocardiography (ECG) 心電圖",
+        "k": "h",
+        "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+      },
+      {
+        "t": "Limb leads (I,II,III)",
+        "k": "h",
+        "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+      },
+      {
+        "t": "Vertical plane",
+        "k": "h",
         "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
       },
       {
@@ -9183,9 +16943,19 @@ window.HAZEL_LECTURES = [
         "zh": "每個（ ECG ）電極從其在身體表面的特定位置捕捉心臟的電活動。"
       },
       {
-        "t": "Chest leads (V1–V6) Horizontal plane Electrocardiography (ECG) 心電圖",
-        "k": "p",
+        "t": "Chest leads (V1–V6)",
+        "k": "h",
         "zh": "胸導程(V1–V6)水平面心電圖(ECG) 心電圖"
+      },
+      {
+        "t": "Horizontal plane 41 / 69",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "Electrocardiography (ECG) 心電圖",
+        "k": "h",
+        "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
       },
       {
         "t": "• P wave = atrial depolarization",
@@ -9203,13 +16973,33 @@ window.HAZEL_LECTURES = [
         "zh": "• T波=心室復極"
       },
       {
-        "t": "• Atrial repolarization record is masked by the larger QRS complex Electrocardiography (ECG) 心電圖 The Vascular System 血管系統 The circulatory system is composed of blood vessels that carry the blood to the tissues of the body, allowing for the exchange of substances, such as O2, nutrients, CO2, and waste products, necessary to maintain homeostasis.",
+        "t": "• Atrial repolarization record is masked by the larger QRS complex",
         "k": "li",
         "zh": "•心房復極記錄被較大的QRS複合心電圖（ ECG ）心電圖掩蓋血管血管系統系統循環系統由血管組成，血管將血液運送到身體組織，允許交換維持體內平衡所必需的物質，如氧氣、營養物質、二氧化碳和廢物。"
       },
       {
-        "t": "[Adapted from Seeley's Anatomy and Physiology (13th ed.), Chapter 21 p.756] The Vascular System血管系統: Blood Vessels血管",
+        "t": "Electrocardiography (ECG) 心電圖",
+        "k": "h",
+        "zh": "•心臟產生兩個主要聲音，使用聽診器聽到：第一個心臟聲音S1 “Lub”在等容心室收縮期間關閉房室瓣◦產生第二個心臟聲音S2 “Dub”當心室壓力低於動脈壓力時關閉主動脈和肺動脈瓣◦產生心電圖（ ECG ）心電圖肢體導線（ I ， II ， III ）垂直平面"
+      },
+      {
+        "t": "The Vascular System",
+        "k": "h",
+        "zh": "•心房復極記錄被較大的QRS複合心電圖（ ECG ）心電圖掩蓋血管血管系統系統循環系統由血管組成，血管將血液運送到身體組織，允許交換維持體內平衡所必需的物質，如氧氣、營養物質、二氧化碳和廢物。"
+      },
+      {
+        "t": "血管系統",
+        "k": "h",
+        "zh": ""
+      },
+      {
+        "t": "The circulatory system is composed of blood vessels that carry the blood to the tissues of the body, allowing for the exchange of substances, such as O2, nutrients, CO2, and waste products, necessary to maintain homeostasis.",
         "k": "p",
+        "zh": "循環系統由將血液運送到身體組織的血管組成，允許交換物質，如氧氣、營養物質、二氧化碳和"
+      },
+      {
+        "t": "The Vascular System血管系統: Blood Vessels血管",
+        "k": "h",
         "zh": "（參考／來源）"
       },
       {
@@ -9253,34 +17043,64 @@ window.HAZEL_LECTURES = [
         "zh": "•靜脈"
       },
       {
-        "t": "• Veins Artery動脈 Direction of blood flow ➢ Away from heart to the body's tissues and organs.",
+        "t": "• Veins",
         "k": "li",
-        "zh": "•靜脈動脈血流動脈方向從➢心臟流向身體的組織和器官。"
+        "zh": "•血液可以通過動脈動脈、靜脈靜脈和毛細血管連續（不間斷）傳遞到身體的不同部位微血管"
       },
       {
-        "t": "Presence of valves ➢ Absent (except at the base of pulmonary artery and aorta) Wall & thick layer of fibrous Lumen tissue thick muscular wall to withstand high pressure; more elastic small lumen",
+        "t": "Artery動脈",
+        "k": "h",
+        "zh": "下半身至右心）動脈=遠離心臟心臟瓣膜靜心臟瓣膜脈=朝向心臟"
+      },
+      {
+        "t": "Direction of blood flow ➢ Away from heart to the body's tissues and organs. Presence of valves ➢ Absent (except at the base of pulmonary artery and aorta)",
+        "k": "p",
+        "zh": ""
+      },
+      {
+        "t": "Wall & thick layer of fibrous",
+        "k": "h",
+        "zh": "存在瓣膜➢不存在（肺動脈和主動脈底部除外）壁和厚層的纖維管腔組織厚肌肉壁以承受高壓；更具彈性的小管腔"
+      },
+      {
+        "t": "Lumen tissue thick muscular wall to withstand high pressure; more elastic small lumen",
         "k": "p",
         "zh": "存在瓣膜➢不存在（肺動脈和主動脈底部除外）壁和厚層的纖維管腔組織厚肌肉壁以承受高壓；更具彈性的小管腔"
       },
       {
         "t": "Nature of blood ➢ Oxygenated blood (except in the pulmonary artery)",
-        "k": "p",
+        "k": "h",
         "zh": "血液➢含氧血液的性質（肺動脈除外）"
       },
       {
-        "t": "Blood pressure ➢ High",
+        "t": "Blood pressure ➢ High (http://www.nytimes.com/imagepages/2007/08/01/health/adam/18020Developmentalprocessofatherosclerosis.html) 46 / 69",
         "k": "p",
         "zh": "血壓"
       },
       {
-        "t": "(http://www.nytimes.com/imagepages/2007/08/01/health/adam/18020Developmentalprocessofatherosclerosis.html) Artery Force for blood flow ➢ Pumping action of heart ➢ Periodic stretching of the wall of arteries is called a pulse",
-        "k": "p",
+        "t": "Artery",
+        "k": "h",
+        "zh": "下半身至右心）動脈=遠離心臟心臟瓣膜靜心臟瓣膜脈=朝向心臟"
+      },
+      {
+        "t": "Force for blood flow ➢ Pumping action of heart",
+        "k": "h",
         "zh": "(http://www.nytimes.com/imagepages/2007/08/01/health/adam/18020Developmentalprocessofatherosclerosis.html)血流的動脈力心臟的➢泵動作用動脈壁的➢周期性伸展被稱為脈搏"
       },
       {
-        "t": "Location ➢ Deeper inside body Capillaries微血管",
-        "k": "p",
+        "t": "➢ Periodic stretching of the wall of arteries is called a pulse",
+        "k": "h",
+        "zh": "(http://www.nytimes.com/imagepages/2007/08/01/health/adam/18020Developmentalprocessofatherosclerosis.html)血流的動脈力心臟的➢泵動作用動脈壁的➢周期性伸展被稱為脈搏"
+      },
+      {
+        "t": "Location ➢ Deeper inside body",
+        "k": "h",
         "zh": "位置身體內部➢更深處的毛細血管微血管"
+      },
+      {
+        "t": "Capillaries微血管",
+        "k": "h",
+        "zh": "•血液可以通過動脈動脈、靜脈靜脈和毛細血管連續（不間斷）傳遞到身體的不同部位微血管"
       },
       {
         "t": "• Capillaries are the smallest blood vessels in the body.",
@@ -9328,18 +17148,18 @@ window.HAZEL_LECTURES = [
         "zh": "•正弦波。"
       },
       {
-        "t": "Vein靜脈 Direction of blood flow ➢ Towards the heart from the body’s tissues and organs.",
-        "k": "p",
-        "zh": "靜脈血流靜脈方向從身體的組織和器官➢朝向心臟。"
+        "t": "Vein靜脈",
+        "k": "h",
+        "zh": "•血液可以通過動脈動脈、靜脈靜脈和毛細血管連續（不間斷）傳遞到身體的不同部位微血管"
       },
       {
-        "t": "Presence of valves ➢ Present. To prevent backflow of blood, ensuring it moves in one direction only.",
+        "t": "Direction of blood flow ➢ Towards the heart from the body’s tissues and organs. Presence of valves ➢ Present. To prevent backflow of blood, ensuring it moves in one direction only.",
         "k": "p",
         "zh": "➢ 存在閥門。為防止血液回流，請確保血液僅向一個方向移動。"
       },
       {
         "t": "Wall & Lumen (內腔) thin layer of fibrous tissue",
-        "k": "p",
+        "k": "h",
         "zh": "Wall & Lumen （壁和內腔內腔）薄層纖維組織"
       },
       {
@@ -9349,12 +17169,32 @@ window.HAZEL_LECTURES = [
       },
       {
         "t": "Nature of blood ➢ Deoxygenated blood (except in the pulmonary vein)",
-        "k": "p",
+        "k": "h",
         "zh": "血液➢缺氧血液的性質（肺靜脈除外）"
       },
       {
-        "t": "Blood pressure ➢ Low (http://www.vascularconcepts.com/content/pages.php?pg=patients_cardio_system&page=the_blood) Vein Force for blood flow  Blood is forced  Valves are opened towards by blood pressure heart  Vein is squeezed by muscles",
+        "t": "Blood pressure ➢ Low (http://www.vascularconcepts.com/content/pages.php?pg=patients_cardio_system&page=the_blood) 49 / 69",
         "k": "p",
+        "zh": "血壓➢低(http://www.vascularconcepts.com/content/pages.php?pg=patients_cardio_system&page=the_blood)血液流動的靜脈力血液被迫瓣膜被血壓向心臟打開靜脈被肌肉擠壓"
+      },
+      {
+        "t": "Vein",
+        "k": "h",
+        "zh": "•血液可以通過動脈動脈、靜脈靜脈和毛細血管連續（不間斷）傳遞到身體的不同部位微血管"
+      },
+      {
+        "t": "Force for blood flow",
+        "k": "h",
+        "zh": "(http://www.nytimes.com/imagepages/2007/08/01/health/adam/18020Developmentalprocessofatherosclerosis.html)血流的動脈力心臟的➢泵動作用動脈壁的➢周期性伸展被稱為脈搏"
+      },
+      {
+        "t": " Blood is forced  Valves are opened towards by blood pressure heart",
+        "k": "p",
+        "zh": "血壓➢低(http://www.vascularconcepts.com/content/pages.php?pg=patients_cardio_system&page=the_blood)血液流動的靜脈力血液被迫瓣膜被血壓向心臟打開靜脈被肌肉擠壓"
+      },
+      {
+        "t": " Vein is squeezed by muscles",
+        "k": "h",
         "zh": "血壓➢低(http://www.vascularconcepts.com/content/pages.php?pg=patients_cardio_system&page=the_blood)血液流動的靜脈力血液被迫瓣膜被血壓向心臟打開靜脈被肌肉擠壓"
       },
       {
@@ -9363,13 +17203,13 @@ window.HAZEL_LECTURES = [
         "zh": "瓣膜身體肌肉，特別是閉合的肌肉，以防止四肢收縮回流並壓迫血靜脈"
       },
       {
-        "t": "Location ➢ Close to the body surface",
+        "t": "Location ➢ Close to the body surface (http://cnx.org/content/m46635/latest/2114_Skeletal_Muscle_Vein_Pump.jpg)",
         "k": "p",
         "zh": "位置➢ 靠近身體表面"
       },
       {
-        "t": "(http://cnx.org/content/m46635/latest/2114_Skeletal_Muscle_Vein_Pump.jpg) Hemodynamics 血液動力學",
-        "k": "p",
+        "t": "Hemodynamics 血液動力學",
+        "k": "h",
         "zh": "(http://cnx.org/content/m46635/latest/2114_Skeletal_Muscle_Vein_Pump.jpg)血液動力學 血液動力學"
       },
       {
@@ -9378,8 +17218,13 @@ window.HAZEL_LECTURES = [
         "zh": "•研究整個心血管系統的血流量和血液循環所涉及的力量"
       },
       {
-        "t": "• Hemo = blood; Dynamics = power Key concepts:",
+        "t": "• Hemo = blood; Dynamics = power",
         "k": "li",
+        "zh": "• Hemo = BLOOD ； Dynamics = POWER關鍵概念："
+      },
+      {
+        "t": "Key concepts:",
+        "k": "h",
         "zh": "• Hemo = BLOOD ； Dynamics = POWER關鍵概念："
       },
       {
@@ -9415,7 +17260,7 @@ window.HAZEL_LECTURES = [
       {
         "t": "Cardiac Output (CO) 心輸出量",
         "k": "h",
-        "zh": "心輸出量"
+        "zh": "•心輸出量(CO)"
       },
       {
         "t": "• Volume of blood pumped by each •Stroke volume (SV) 心搏量 ventricle (left ventricle) per minute • volume of blood ejected from each ventricle at each heartbeat",
@@ -9458,19 +17303,39 @@ window.HAZEL_LECTURES = [
         "zh": "•收縮末期容積（ ESV ） （後載）"
       },
       {
-        "t": "• Stroke volume (SV): by • volume of blood remained in each ventricle after ejection stimulate/inhibit ventricles CO = HR • SV SV = EDV – ESV",
+        "t": "• Stroke volume (SV): by • volume of blood remained in each ventricle after ejection stimulate/inhibit ventricles",
         "k": "li",
         "zh": "•每搏量（ SV ） ：按•噴射後每個心室殘留的血量刺激/抑制心室CO = HR • SV SV = EDV – ESV"
       },
       {
-        "t": "e.g. If heart rate of 75 beat/min and e.g. If EDV = 135 mL, ESV = 65 mL eject 70 ml of blood with each beat: SV = 135 mL – 65 mL = 70 mL CO = 5250 ml/min (5.25 L/min) Stroke volume (SV) Frank-Starling Law of the Heart EDV= End Diastolic Volume (Preload)",
+        "t": "CO = HR  SV SV = EDV – ESV",
+        "k": "h",
+        "zh": "•每搏量（ SV ） ：按•噴射後每個心室殘留的血量刺激/抑制心室CO = HR • SV SV = EDV – ESV"
+      },
+      {
+        "t": "e.g. If heart rate of 75 beat/min and e.g. If EDV = 135 mL, ESV = 65 mL eject 70 ml of blood with each beat: SV = 135 mL – 65 mL = 70 mL",
         "k": "p",
+        "zh": "例如，如果心率為75次/分鐘，例如，如果EDV = 135毫升， ESV = 65毫升，每次心跳噴射70毫升血液： SV = 135毫升– 65毫升= 70毫升CO = 5250毫升/分鐘(5.25 L/分鐘)行程容積(SV) Frank-Starling心臟定律EDV =舒張末期容積(預載)"
+      },
+      {
+        "t": "CO = 5250 ml/min (5.25 L/min)",
+        "k": "h",
+        "zh": "例如，如果心率為75次/分鐘，例如，如果EDV = 135毫升， ESV = 65毫升，每次心跳噴射70毫升血液： SV = 135毫升– 65毫升= 70毫升CO = 5250毫升/分鐘(5.25 L/分鐘)行程容積(SV) Frank-Starling心臟定律EDV =舒張末期容積(預載)"
+      },
+      {
+        "t": "Stroke volume (SV)",
+        "k": "h",
+        "zh": "•每次抽吸的血量•每分鐘的卒中量（ SV ）心搏量心室（左心室） •每次心跳時從每個心室噴出的血量"
+      },
+      {
+        "t": "Frank-Starling Law of the Heart EDV= End Diastolic Volume (Preload)",
+        "k": "h",
         "zh": "例如，如果心率為75次/分鐘，例如，如果EDV = 135毫升， ESV = 65毫升，每次心跳噴射70毫升血液： SV = 135毫升– 65毫升= 70毫升CO = 5250毫升/分鐘(5.25 L/分鐘)行程容積(SV) Frank-Starling心臟定律EDV =舒張末期容積(預載)"
       },
       {
         "t": "法蘭克-史達林定律",
         "k": "h",
-        "zh": "法蘭克-史達林定律"
+        "zh": ""
       },
       {
         "t": "• Increased EDV results in increased contractility and thus increased stroke volume.",
@@ -9478,8 +17343,13 @@ window.HAZEL_LECTURES = [
         "zh": "• EDV增加會導致收縮性增加，從而增加行程量。"
       },
       {
-        "t": "SV = EDV – ESV Factors Influencing Heart Rate CO = HR x SV",
-        "k": "p",
+        "t": "SV = EDV – ESV",
+        "k": "h",
+        "zh": "•每搏量（ SV ） ：按•噴射後每個心室殘留的血量刺激/抑制心室CO = HR • SV SV = EDV – ESV"
+      },
+      {
+        "t": "Factors Influencing Heart Rate CO = HR x SV",
+        "k": "h",
         "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
       },
       {
@@ -9539,7 +17409,7 @@ window.HAZEL_LECTURES = [
       },
       {
         "t": "Factors Influencing Stroke Volume CO = HR x SV",
-        "k": "p",
+        "k": "h",
         "zh": "影響卒中體積的因素CO = HR x SV"
       },
       {
@@ -9548,18 +17418,53 @@ window.HAZEL_LECTURES = [
         "zh": "對心臟的因子影響"
       },
       {
-        "t": "End-Diastolic More blood fills the ventricles Ventricular before contraction → increases Volume(EDV) / stroke volume Pre-load",
-        "k": "p",
+        "t": "End-Diastolic More blood fills the ventricles",
+        "k": "h",
         "zh": "舒張末期更多血液充滿心室收縮前心室→增加體積（ EDV ）/行程體積預載"
       },
       {
-        "t": "Sympathetic Stimulates the heart → increases Nerve Activity heart rate and force of contraction",
-        "k": "p",
+        "t": "Ventricular before contraction → increases",
+        "k": "h",
+        "zh": "舒張末期更多血液充滿心室收縮前心室→增加體積（ EDV ）/行程體積預載"
+      },
+      {
+        "t": "Volume(EDV) / stroke volume",
+        "k": "h",
+        "zh": "舒張末期更多血液充滿心室收縮前心室→增加體積（ EDV ）/行程體積預載"
+      },
+      {
+        "t": "Pre-load",
+        "k": "h",
+        "zh": "舒張末期更多血液充滿心室收縮前心室→增加體積（ EDV ）/行程體積預載"
+      },
+      {
+        "t": "Sympathetic Stimulates the heart → increases",
+        "k": "h",
         "zh": "交感神經刺激心臟→增加神經活動心率和收縮力"
       },
       {
-        "t": "Plasma Hormone (adrenaline) that Epinephrine enhances heart rate and contractility CO = HR x SV Regulation of HR, SV and CO EDV= End Diastolic Volume (Preload)",
-        "k": "p",
+        "t": "Nerve Activity heart rate and force of contraction",
+        "k": "h",
+        "zh": "交感神經刺激心臟→增加神經活動心率和收縮力"
+      },
+      {
+        "t": "Plasma Hormone (adrenaline) that",
+        "k": "h",
+        "zh": "腎上腺素提高心率和收縮力的血漿激素（腎上腺素） CO = HR x SV HR、SV和CO EDV的調節EDV =舒張末期容積（預負荷）"
+      },
+      {
+        "t": "Epinephrine enhances heart rate and contractility",
+        "k": "h",
+        "zh": "腎上腺素提高心率和收縮力的血漿激素（腎上腺素） CO = HR x SV HR、SV和CO EDV的調節EDV =舒張末期容積（預負荷）"
+      },
+      {
+        "t": "CO = HR x SV",
+        "k": "h",
+        "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+      },
+      {
+        "t": "Regulation of HR, SV and CO EDV= End Diastolic Volume (Preload)",
+        "k": "h",
         "zh": "腎上腺素提高心率和收縮力的血漿激素（腎上腺素） CO = HR x SV HR、SV和CO EDV的調節EDV =舒張末期容積（預負荷）"
       },
       {
@@ -9574,7 +17479,7 @@ window.HAZEL_LECTURES = [
       },
       {
         "t": "inhibit stimulate stimulate",
-        "k": "p",
+        "k": "h",
         "zh": "抑制刺激刺激"
       },
       {
@@ -9599,7 +17504,7 @@ window.HAZEL_LECTURES = [
       },
       {
         "t": "= Arterial blood pressure",
-        "k": "p",
+        "k": "h",
         "zh": "=動脈血壓"
       },
       {
@@ -9608,7 +17513,7 @@ window.HAZEL_LECTURES = [
         "zh": "•具有大半徑和低電阻的彈性管"
       },
       {
-        "t": "1. Systolic pressure",
+        "t": "• Systolic pressure",
         "k": "li",
         "zh": "血壓"
       },
@@ -9618,7 +17523,7 @@ window.HAZEL_LECTURES = [
         "zh": "•心室彈出時的最大動脈壓（約125 mmHg ）"
       },
       {
-        "t": "2. Diastolic pressure",
+        "t": "• Diastolic pressure",
         "k": "li",
         "zh": "2.舒張壓"
       },
@@ -9638,14 +17543,24 @@ window.HAZEL_LECTURES = [
         "zh": "•血壓計+聽診器"
       },
       {
-        "t": "• Unit: millimeters of mercury (mmHg) CO = HR x SV",
+        "t": "• Unit: millimeters of mercury (mmHg) 58 / 69",
         "k": "li",
         "zh": "•單位：毫米汞柱(mmHg) CO = HR x SV"
       },
       {
-        "t": "Regulation of Arterial Pressure Mean arterial pressure (MAP) (average blood pressure during cardiac cycle) is determined by:",
-        "k": "p",
+        "t": "CO = HR x SV",
+        "k": "h",
+        "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+      },
+      {
+        "t": "Regulation of Arterial Pressure",
+        "k": "h",
         "zh": "動脈壓調節平均動脈壓（ MAP ） （心臟週期期間的平均血壓）由以下因素決定："
+      },
+      {
+        "t": "Mean arterial pressure (MAP) (average blood pressure during cardiac cycle) is determined by:",
+        "k": "p",
+        "zh": "心動週期"
       },
       {
         "t": "• Cardiac output (CO)",
@@ -9658,13 +17573,33 @@ window.HAZEL_LECTURES = [
         "zh": "•總外周阻力（ TPR ） （所有全身血管對血流的阻力總和）"
       },
       {
-        "t": "MAP (BP) = CO x TPR CO = HR x SV Regulation of arterial pressure MAP = CO x TPR",
-        "k": "p",
+        "t": "MAP (BP) = CO x TPR",
+        "k": "h",
         "zh": "MAP (BP) = CO x TPR CO = HR x SV動脈壓MAP調節= CO x TPR"
       },
       {
-        "t": "Vasoconstriction or End-diastolic vasodilation of volume arterioles to large organ Sympathetic Parasympathetic activity activity Blood viscosity",
-        "k": "p",
+        "t": "CO = HR x SV",
+        "k": "h",
+        "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+      },
+      {
+        "t": "Regulation of arterial pressure MAP = CO x TPR",
+        "k": "h",
+        "zh": "動脈壓調節平均動脈壓（ MAP ） （心臟週期期間的平均血壓）由以下因素決定："
+      },
+      {
+        "t": "Vasoconstriction or",
+        "k": "h",
+        "zh": "體積小動脈到大器官的血管收縮或舒張末期血管舒張交感神經副交感神經活動血液黏度"
+      },
+      {
+        "t": "End-diastolic vasodilation of volume arterioles to large organ",
+        "k": "h",
+        "zh": "體積小動脈到大器官的血管收縮或舒張末期血管舒張交感神經副交感神經活動血液黏度"
+      },
+      {
+        "t": "Sympathetic Parasympathetic activity activity Blood viscosity",
+        "k": "h",
         "zh": "體積小動脈到大器官的血管收縮或舒張末期血管舒張交感神經副交感神經活動血液黏度"
       },
       {
@@ -9678,9 +17613,14 @@ window.HAZEL_LECTURES = [
         "zh": "（見英文原文）"
       },
       {
-        "t": "MAP Regulation of Arterial Pressure",
+        "t": "MAP",
         "k": "h",
-        "zh": "MAP動脈壓調節"
+        "zh": "動脈壓調節平均動脈壓（ MAP ） （心臟週期期間的平均血壓）由以下因素決定："
+      },
+      {
+        "t": "Regulation of Arterial Pressure",
+        "k": "h",
+        "zh": "動脈壓調節平均動脈壓（ MAP ） （心臟週期期間的平均血壓）由以下因素決定："
       },
       {
         "t": "• The body uses several mechanisms to control blood pressure, ensuring it stays within a healthy range",
@@ -9738,13 +17678,18 @@ window.HAZEL_LECTURES = [
         "zh": "•腎素-血管緊張素-醛固酮系統（ RAAS ）"
       },
       {
-        "t": "• Liver, Kidneys, lungs, adrenal gland CO = HR x SV",
+        "t": "• Liver, Kidneys, lungs, adrenal gland",
         "k": "li",
         "zh": "•肝臟、腎臟、肺、腎上腺CO = HR x SV"
       },
       {
+        "t": "CO = HR x SV",
+        "k": "h",
+        "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+      },
+      {
         "t": "Baroreceptor Reflex MAP = CO x TPR",
-        "k": "p",
+        "k": "h",
         "zh": "壓力感受器反射圖= CO x TPR"
       },
       {
@@ -9768,13 +17713,43 @@ window.HAZEL_LECTURES = [
         "zh": "•持續活躍，在感覺神經元中產生動作電位的基線頻率"
       },
       {
-        "t": "• Sudden blood pressure,  stretching of arterial wall,  stimulation on baroreceptors,  impulses (action potential frequency) sending to medullary cardiovascular/ cardioregulatory center in the medulla oblongata of brainstem (Parasympathetic activity ) Baroreceptor Reflex Increased BP Decreased BP CO = HR x SV Baroreceptor Reflex MAP = CO x TPR CO = HR x SV",
+        "t": "• Sudden blood pressure,  stretching of arterial wall,",
         "k": "li",
         "zh": "•突然的血壓、動脈壁的伸展、壓力感受器的刺激、發送到腦幹延髓中的延髓心血管/心臟調節中心的脈衝（動作電位頻率） （副交感神經活動）壓力感受器反射增加血壓降低血壓CO = HR x SV壓力感受器反射圖= CO x TPR CO = HR x SV"
       },
       {
-        "t": "Chemoreceptors MAP = CO x TPR",
+        "t": " stimulation on baroreceptors,  impulses (action potential frequency) sending to medullary cardiovascular/ cardioregulatory center in the medulla oblongata of brainstem (Parasympathetic activity )",
         "k": "p",
+        "zh": "•壓力感受器"
+      },
+      {
+        "t": "Baroreceptor Reflex",
+        "k": "h",
+        "zh": "•壓力感受器"
+      },
+      {
+        "t": "Increased BP Decreased BP",
+        "k": "h",
+        "zh": "•突然的血壓、動脈壁的伸展、壓力感受器的刺激、發送到腦幹延髓中的延髓心血管/心臟調節中心的脈衝（動作電位頻率） （副交感神經活動）壓力感受器反射增加血壓降低血壓CO = HR x SV壓力感受器反射圖= CO x TPR CO = HR x SV"
+      },
+      {
+        "t": "CO = HR x SV",
+        "k": "h",
+        "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+      },
+      {
+        "t": "Baroreceptor Reflex MAP = CO x TPR",
+        "k": "h",
+        "zh": "壓力感受器反射圖= CO x TPR"
+      },
+      {
+        "t": "CO = HR x SV",
+        "k": "h",
+        "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+      },
+      {
+        "t": "Chemoreceptors MAP = CO x TPR",
+        "k": "h",
         "zh": "化學感受器映射= CO x TPR"
       },
       {
@@ -9793,8 +17768,18 @@ window.HAZEL_LECTURES = [
         "zh": "•向延髓血管→收縮的血管收縮中心發送信號"
       },
       {
-        "t": "The cardiovascular centre (CVC) CO = HR x SV Renal Regulation (Kidney) MAP = CO x TPR",
-        "k": "p",
+        "t": "The cardiovascular centre (CVC)",
+        "k": "h",
+        "zh": "心血管中心（ CVC ） CO = HR x SV腎臟調節（腎臟）圖= CO x TPR"
+      },
+      {
+        "t": "CO = HR x SV",
+        "k": "h",
+        "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+      },
+      {
+        "t": "Renal Regulation (Kidney) MAP = CO x TPR",
+        "k": "h",
         "zh": "心血管中心（ CVC ） CO = HR x SV腎臟調節（腎臟）圖= CO x TPR"
       },
       {
@@ -9808,58 +17793,28 @@ window.HAZEL_LECTURES = [
         "zh": "•血壓升高刺激腎臟排水，從而降低血壓"
       },
       {
-        "t": "• Decreased blood pressure stimulates the kidneys to do water retention, thus increasing blood pressure CO = HR x SV Renin-Angiotensin-Aldosterone System MAP = CO x TPR References Goodenough, J., & McGuire, B. (2017). Biology of humans: Concepts, applications and issues (6th ed.). Pearson.",
+        "t": "• Decreased blood pressure stimulates the kidneys to do water retention, thus increasing blood pressure",
         "k": "li",
         "zh": "•血壓降低刺激腎臟保持水分，從而增加血壓CO = HR x SV Renin-Angiotensin-Aldosterone System MAP = CO x TPR References Goodenough, J., & McGuire, B. (2017)。Biology of humans: Concepts, Applications and Issues (6th ed.). Pearson."
       },
       {
-        "t": "Mader, S. S. (2024). Biology . New York, New York : McGraw-Hill,.",
+        "t": "CO = HR x SV",
+        "k": "h",
+        "zh": "SV = EDV – ESV影響心率的因素CO = HR x SV"
+      },
+      {
+        "t": "Renin-Angiotensin-Aldosterone System MAP = CO x TPR",
+        "k": "h",
+        "zh": "•腎素-血管緊張素-醛固酮系統（ RAAS ）"
+      },
+      {
+        "t": "Goodenough, J., & McGuire, B. (2017). Biology of humans: Concepts, applications and issues (6th ed.). Pearson. Mader, S. S. (2024). Biology . New York, New York : McGraw-Hill,. Martini, F., Nath, J. L., Bartholomew, E. F., Ober, W. C., & Ober, C. E. (2024). Fundamentals of anatomy and physiology (12th ed.). Pearson Education, Inc.. Patton, K. T., Bell, F., Thompson, T., & Williamson, P. (2024). The human body in health & disease (8th ed.). Elsevier. Patton, K. T., Bell, F. B., & Thompson, T. (2022). Anatomy and physiology (11th ed.). Elsevier. Saladin, K. S., & Gan, C. A. (2020). Human anatomy (6th ed.). McGraw-Hill Education. VanPutte, C. L., Regan, J., & Russo, A. (2022). Seeley’s anatomy & physiology (13th edition.). New York, New York: McGraw-Hill Education. Welsh, C. J., Prentice-Craver, C., & Shier, D. (2021). Hole's essentials of human anatomy & physiology (14th ed.). McGraw-Hill Education.",
         "k": "p",
         "zh": "（參考／來源）"
       },
       {
-        "t": "Martini, F., Nath, J. L., Bartholomew, E. F., Ober, W. C., & Ober, C. E. (2024).",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Fundamentals of anatomy and physiology (12th ed.). Pearson Education, Inc..",
-        "k": "p",
-        "zh": "解剖學和生理學基礎（第12版）。Pearson Education, Inc."
-      },
-      {
-        "t": "Patton, K. T., Bell, F., Thompson, T., & Williamson, P. (2024). The human body in health & disease (8th ed.). Elsevier.",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Patton, K. T., Bell, F. B., & Thompson, T. (2022). Anatomy and physiology (11th ed.).",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Elsevier.",
-        "k": "p",
-        "zh": "Elsevier。"
-      },
-      {
-        "t": "Saladin, K. S., & Gan, C. A. (2020). Human anatomy (6th ed.). McGraw-Hill Education.",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "VanPutte, C. L., Regan, J., & Russo, A. (2022). Seeley’s anatomy & physiology (13th edition.). New York, New York: McGraw-Hill Education.",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Welsh, C. J., Prentice-Craver, C., & Shier, D. (2021). Hole's essentials of human anatomy & physiology (14th ed.). McGraw-Hill Education.",
-        "k": "p",
-        "zh": "（參考／來源）"
-      },
-      {
-        "t": "Thank You!",
-        "k": "p",
+        "t": "Thank You! 69 / 69",
+        "k": "h",
         "zh": "多謝！"
       }
     ]

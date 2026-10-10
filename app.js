@@ -1310,11 +1310,17 @@
         '<a class="primary" href="#/lecture/' +
         encodeURIComponent(lid) +
         '">讀全文</a>' +
-        ((state.readPos && state.readPos[lid] > 80)
-          ? '<a class="ghost" href="#/lecture/' +
-            encodeURIComponent(lid) +
-            '/resume">繼續上次</a>'
-          : '');
+        (function () {
+          var _L = lectureById(lid);
+          var _pg = _L ? savedPageFor(_L) : 0;
+          return _pg
+            ? '<a class="ghost" href="#/lecture/' +
+              encodeURIComponent(lid) +
+              '/resume">繼續上次（第 ' +
+              _pg +
+              ' 頁）</a>'
+            : '';
+        })();
       var next = nextOpenGate(lid);
       if (next) {
         html +=
@@ -1350,6 +1356,29 @@
     main.innerHTML = html;
   }
 
+
+  function lecturePageCount(L) {
+    if (!L) return 1;
+    if (L.pages && L.pages.length) return L.pages.length;
+    if (L.pageCount) return L.pageCount;
+    return 1;
+  }
+
+  /** readPos stores 1-based PDF page. Legacy scrollY values (> pageCount) reset to 1. */
+  function savedPageFor(L) {
+    var saved = (state.readPos && state.readPos[L.id]) || 0;
+    var total = lecturePageCount(L);
+    if (!saved || saved < 1) return 0;
+    if (saved > total) return 0; // legacy scroll pixels
+    return Math.floor(saved);
+  }
+
+  function persistReadPage(lectureId, page) {
+    if (!state.readPos) state.readPos = {};
+    state.readPos[lectureId] = page;
+    saveState(state);
+  }
+
   function renderLecture(id, opts) {
     opts = opts || {};
     var L = lectureById(id);
@@ -1359,26 +1388,40 @@
         '<div class="card"><p>找不到此課全文。</p><a class="primary" href="#/">返回</a></div>';
       return;
     }
+    if (window.__hqScrollCleanup) {
+      try { window.__hqScrollCleanup(); } catch (e) {}
+    }
+
+    var pages = L.pages && L.pages.length ? L.pages : [{ n: 1, blocks: L.blocks || [], img: "" }];
+    var total = pages.length;
+    var savedPg = savedPageFor(L);
+    var pageNum = opts.page || (opts.resume && savedPg ? savedPg : 1);
+    if (pageNum < 1) pageNum = 1;
+    if (pageNum > total) pageNum = total;
+    var page = pages[pageNum - 1] || pages[0];
     var prog = lectureProgress(L.id);
     var next = nextOpenGate(L.id);
-    var saved = (state.readPos && state.readPos[L.id]) || 0;
+    var preferGate = firstGateForLecture(L.id);
+
+    persistReadPage(L.id, pageNum);
+
     var html =
       '<a class="backlink" href="#/">← 關卡列表</a>' +
       '<p class="kicker">' +
       escapeHtml(L.id) +
-      " · 全文</p>" +
+      " · 全文 · PDF 分頁</p>" +
       "<h2>" +
       escapeHtml(L.titleZh) +
       '</h2><p class="entitle">' +
       escapeHtml(L.titleEn) +
       "</p>" +
       '<div class="flow-steps compact"><span class="flow-step on">① 讀全文</span><span class="flow-arrow">→</span><span class="flow-step">② 溫重點</span><span class="flow-arrow">→</span><span class="flow-step">③ 測驗</span></div>' +
-      '<p class="lede reader-hint">像 Open Readle：掃全文，點唔識嘅英文就可睇解釋／發音／存生字。進度 ' +
+      '<p class="lede reader-hint">跟 PDF 一頁一頁讀；點英文可睇解釋／發音／存生字。進度 ' +
       prog.done +
       "/" +
       prog.total +
       " 關已通。</p>" +
-      '<div class="reader-toolbar card">' +
+      '<div class="reader-toolbar card page-toolbar">' +
       '<button type="button" class="chipbtn' +
       (showZh ? " on" : "") +
       '" id="toggle-zh" aria-pressed="' +
@@ -1386,18 +1429,39 @@
       '">' +
       (showZh ? "隱藏中文" : "顯示中文") +
       "</button>" +
-      (saved > 80
-        ? '<button type="button" class="ghost" id="resume-read">繼續上次閱讀</button>'
-        : "") +
-      '<span class="hint reader-pos-hint" id="read-pos-hint">' +
-      (saved > 80 ? "已記住閱讀位置" : "向下捲動會自動記住進度") +
-      "</span></div>" +
+      '<div class="page-nav" role="navigation" aria-label="PDF 頁">' +
+      '<button type="button" class="ghost page-btn" id="page-prev"' +
+      (pageNum <= 1 ? " disabled" : "") +
+      ">上一頁</button>" +
+      '<span class="page-indicator" id="page-indicator">' +
+      pageNum +
+      " / " +
+      total +
+      "</span>" +
+      '<button type="button" class="ghost page-btn" id="page-next"' +
+      (pageNum >= total ? " disabled" : "") +
+      ">下一頁</button></div>" +
+      '<span class="hint reader-pos-hint" id="read-pos-hint">已記到第 ' +
+      pageNum +
+      " 頁</span></div>" +
       '<article class="card reader' +
       (showZh ? "" : " hide-zh") +
-      '" id="lecture-reader">';
+      '" id="lecture-reader" data-page="' +
+      pageNum +
+      '">';
 
-    var preferGate = firstGateForLecture(L.id);
-    (L.blocks || []).forEach(function (b, bi) {
+    if (page.img) {
+      html +=
+        '<figure class="slide-fig">' +
+        '<img class="slide-img" src="' +
+        escapeHtml(page.img) +
+        '" alt="投影片第 ' +
+        pageNum +
+        ' 頁" loading="eager" decoding="async" width="900" />' +
+        '<figcaption class="hint">投影片預覽 · 可放大睇圖</figcaption></figure>';
+    }
+
+    (page.blocks || []).forEach(function (b, bi) {
       var t = b.t || "";
       var zh = b.zh || "";
       var k = b.k || "p";
@@ -1416,21 +1480,38 @@
       }
     });
 
-    // Next-step actions ONLY at end of body (not sticky / not floating)
     html +=
-      '<div class="card feature reader-next" id="lecture-next">' +
-      "<p><strong>讀完？下一步溫重點同測驗。</strong></p>" +
-      '<div class="gate-actions">' +
-      (next
-        ? '<a class="primary" href="#/gate/' +
-          next.id +
-          '">② 溫重點／測驗 →</a>'
-        : "") +
-      '<a class="ghost" href="#/">返回關卡</a></div></div>';
+      '<div class="page-nav bottom card" role="navigation">' +
+      '<button type="button" class="ghost page-btn" id="page-prev-b"' +
+      (pageNum <= 1 ? " disabled" : "") +
+      ">← 上一頁</button>" +
+      '<span class="page-indicator">' +
+      pageNum +
+      " / " +
+      total +
+      "</span>" +
+      '<button type="button" class="primary page-btn" id="page-next-b"' +
+      (pageNum >= total ? " disabled" : "") +
+      ">" +
+      (pageNum >= total ? "已到最後頁" : "下一頁 →") +
+      "</button></div>";
+
+    if (pageNum >= total) {
+      html +=
+        '<div class="card feature reader-next" id="lecture-next">' +
+        "<p><strong>讀完？下一步溫重點同測驗。</strong></p>" +
+        '<div class="gate-actions">' +
+        (next
+          ? '<a class="primary" href="#/gate/' +
+            next.id +
+            '">② 溫重點／測驗 →</a>'
+          : "") +
+        '<a class="ghost" href="#/">返回關卡</a></div></div>';
+    }
 
     html += "</article>";
-
     main.innerHTML = html;
+    window.scrollTo(0, 0);
 
     var reader = document.getElementById("lecture-reader");
     var toggle = document.getElementById("toggle-zh");
@@ -1444,45 +1525,33 @@
         if (reader) reader.classList.toggle("hide-zh", !showZh);
       });
     }
-    var resumeBtn = document.getElementById("resume-read");
-    if (resumeBtn && saved > 80) {
-      resumeBtn.addEventListener("click", function () {
-        window.scrollTo({ top: saved, behavior: "smooth" });
-      });
-    }
-    if (opts.resume && saved > 80) {
-      requestAnimationFrame(function () {
-        setTimeout(function () {
-          window.scrollTo({ top: saved, behavior: "smooth" });
-        }, 50);
-      });
-    }
 
-    var saveTimer = null;
-    function persistPos() {
-      if (!state.readPos) state.readPos = {};
-      state.readPos[L.id] = window.scrollY || 0;
-      saveState(state);
-      var hint = document.getElementById("read-pos-hint");
-      if (hint && state.readPos[L.id] > 80) {
-        hint.textContent = "進度已存 · 可按「繼續上次閱讀」";
-      }
+    function goPage(n) {
+      if (n < 1 || n > total) return;
+      persistReadPage(L.id, n);
+      location.hash = "#/lecture/" + encodeURIComponent(L.id) + "/p/" + n;
     }
-    function onScroll() {
-      if (saveTimer) clearTimeout(saveTimer);
-      saveTimer = setTimeout(persistPos, 400);
+    function bindNav(prevId, nextId) {
+      var prev = document.getElementById(prevId);
+      var nxt = document.getElementById(nextId);
+      if (prev) prev.addEventListener("click", function () { goPage(pageNum - 1); });
+      if (nxt) nxt.addEventListener("click", function () { goPage(pageNum + 1); });
     }
-    window.addEventListener("scroll", onScroll, { passive: true });
-    if (window.__hqScrollCleanup) {
-      try {
-        window.__hqScrollCleanup();
-      } catch (e) {}
+    bindNav("page-prev", "page-next");
+    bindNav("page-prev-b", "page-next-b");
+
+    var slide = reader && reader.querySelector(".slide-img");
+    if (slide) {
+      slide.addEventListener("click", function () {
+        if (document.fullscreenElement) {
+          document.exitFullscreen().catch(function () {});
+        } else if (slide.requestFullscreen) {
+          slide.requestFullscreen().catch(function () {});
+        } else {
+          window.open(slide.src, "_blank");
+        }
+      });
     }
-    window.__hqScrollCleanup = function () {
-      window.removeEventListener("scroll", onScroll);
-      persistPos();
-      window.__hqScrollCleanup = null;
-    };
   }
 
 
@@ -2251,9 +2320,13 @@
       renderGate(m[1]);
       return;
     }
-    var lm = hash.match(/^#\/lecture\/([\w-]+)(\/resume)?/);
+    var lm = hash.match(/^#\/lecture\/([\w-]+)(?:\/p\/(\d+)|(\/resume))?/);
     if (lm) {
-      renderLecture(lm[1], { resume: !!lm[2] });
+      var pageOpt = lm[2] ? parseInt(lm[2], 10) : 0;
+      renderLecture(lm[1], {
+        resume: !!lm[3],
+        page: pageOpt || undefined,
+      });
       return;
     }
     if (hash.indexOf("#/sync") === 0) {
