@@ -5968,9 +5968,9 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Proteins Amino Acid OS)",
-                "zh": "蛋白氨基酸OS ）"
+                "k": "p",
+                "t": "Proteins; Amino Acid.",
+                "zh": "蛋白質；氨基酸。"
               }
             ]
           }
@@ -6642,8 +6642,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "membrane regions of phospholipid surface molecules Polar (hydrophilic) regions Phospholipid of phospholipid bilayer molecules Internal membrane surface Cytoskeleton —— CYTOPLASM (intracellular fluid)",
-                "zh": "磷脂表面分子的膜區域極性（親水性）區域磷脂雙層分子的磷脂內膜表面細胞骨架——細胞質（細胞內液）"
+                "t": "EXTRACELLULAR FLUID; CYTOPLASM (intracellular fluid); Peripheral membrane protein; Integral membrane protein; Membrane channel; Carbohydrate chains; Glycoprotein; Glycocalyx; Glycolipid; External membrane surface; Phospholipid bilayer; Internal membrane surface; Nonpolar (hydrophobic) regions of phospholipid molecules; Polar (hydrophilic) regions of phospholipid molecules; Cholesterol; Cytoskeleton.",
+                "zh": "細胞外液；細胞質（細胞內液）；外周膜蛋白；整合膜蛋白；膜通道；碳水化合物鏈；糖蛋白；糖萼；糖脂；外膜面；磷脂雙層；內膜面；磷脂非極性（疏水）區；磷脂極性（親水）區；膽固醇；細胞骨架。"
               }
             ]
           },
@@ -7508,8 +7508,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Nervous system Endocrine system Respiratory system Ta we Cardiovascular and lymphatic systems x — Urinary system ON et ail | Reproductive system / } j i Integumentary system",
-                "zh": "神經系統內分泌系統呼吸系統Tawe心血管和淋巴系統x—泌尿系統ONetail|生殖系統/}ji整體系統"
+                "t": "Nervous system; Endocrine system; Respiratory system; Cardiovascular and lymphatic systems; Skeletal and muscular systems; Urinary system; Digestive system; Reproductive system; Integumentary system.",
+                "zh": "神經系統；內分泌系統；呼吸系統；心血管同淋巴系統；骨骼同肌肉系統；泌尿系統；消化系統；生殖系統；皮膚系統。"
               }
             ]
           }
@@ -11758,9 +11758,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "sred active site yor",
-                "zh": "（見英文）"
+                "k": "p",
+                "t": "altered active site",
+                "zh": "改變咗嘅活性部位"
+              },
+              {
+                "k": "p",
+                "t": "A non-competitive inhibitor binds away from the active site and changes the active site’s shape so the substrate cannot bind.",
+                "zh": "非競爭性抑制劑結合喺活性部位以外，改變活性部位形狀，令底物無法結合。"
               }
             ]
           }
@@ -12403,8 +12408,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Extracellular Fluid igh Concer ° re les (eg, ons) aaa AIAN NEM YX YO (MNO COCORO OBE Ga Phospholipid he i Pore Low C¢ trati Cytoplasm Facilitated Diff",
-                "zh": "細胞外液igh有關（例如，ONS）aaaAIANNEMYXYO（MNOCOCOROOBEGa磷脂hei孔低C¢trati細胞質促進差異"
+                "t": "Extracellular Fluid; Molecules (e.g., Ions); High Concentration; Channel Protein; Phospholipid Bilayer; Pore; Cytoplasm; Facilitated Diffusion; Low Concentration.",
+                "zh": "細胞外液；分子（例如離子）；高濃度；通道蛋白；磷脂雙層；孔道；細胞質；協助擴散；低濃度。"
               }
             ]
           }
@@ -12652,13 +12657,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Tonicity abilit of the con centr tion o olv ition to ffect the me and press fithin ¢ Yew Hypertonic When both the cell and the Ifa cell is placed in a hypotonic.",
-                "zh": "當細胞和Ifa細胞都置於低張狀態時，中心的張力能力可以完善me並按下fithin¢YewHypertonic"
+                "t": "Tonicity; Isotonic; Hypotonic; Hypertonic.",
+                "zh": "張力（Tonicity）；等張；低張；高張。"
               },
               {
                 "k": "p",
-                "t": ", mannitol, reduce brain swelling D5 (5% dextrose in water) D2.5 (2.5% dextrose in water) (ein d Kerlietslin tile chalt frenlitetwens iemrmeteel-cliemrean,",
-                "zh": "，甘露醇，減輕腦腫脹D5（水中5%葡萄糖）D2.5（水中2.5%葡萄糖）（eindKerlietslintilechaltfrenlitetwensiemrmeteel-cliemrean，"
+                "t": "Tonicity is the ability of the concentration of a solution to affect the volume and pressure within a cell. Isotonic: when both the cell and the surrounding solution have equal solute concentrations, e.g. normal saline (0.9% NaCl), D5 (5% dextrose in water). Hypotonic: if a cell is placed in a hypotonic solution it will take in water across the membrane, leading to hemolysis, e.g. half saline (0.45% NaCl), D2.5 (2.5% dextrose in water). Hypertonic: if a cell is in a hypertonic solution, water moves out of the cell leading to crenation, e.g. mannitol (used to reduce brain swelling).",
+                "zh": "張力係溶液濃度影響細胞內體積同壓力嘅能力。等張：細胞同外液溶質濃度相等，例如生理鹽水（0.9% NaCl）、D5（5% 葡萄糖水）。低張：細胞放入低張液會吸水，可致溶血（hemolysis），例如半滲鹽水（0.45% NaCl）、D2.5（2.5% 葡萄糖水）。高張：細胞喺高張液中水外流，可致皺縮（crenation），例如甘露醇（用以減輕腦腫脹）。"
               }
             ]
           }
@@ -12909,13 +12914,13 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "by the sodium-potassium pump, drives the transport of glucose against its concentration gradient.",
-                "zh": "通過鈉鉀泵，驅動葡萄糖的運輸抵禦其濃度梯度。"
+                "t": "Outside of cell; Inside of cell; Sodium-potassium pump (antiport); Na+; K+; Glucose; ATP; ADP + Pi.",
+                "zh": "細胞外；細胞內；鈉鉀泵（反向轉運）；Na+；K+；葡萄糖；ATP；ADP + Pi。"
               },
               {
                 "k": "p",
-                "t": "Na* Outside of cell Sochu.petaaslan. pump (Ad CLERC YAn))i POOCE Inside of cell — COx “?e Seo o Po",
-                "zh": "Na*單元格外Sochu.petaaslan.pump(AdCLERCYAn))iPOOCE單元格內—COx“?eSeooPo"
+                "t": "Primary active transport: the sodium-potassium pump moves Na+ using the energy of ATP hydrolysis to establish a concentration gradient of Na+. Secondary active transport: Na+, moving with the concentration gradient established by the sodium-potassium pump, drives the transport of glucose against its concentration gradient.",
+                "zh": "初級主動運輸：鈉鉀泵利用 ATP 水解嘅能量運送 Na+，建立 Na+ 濃度梯度。次級主動運輸：Na+ 順住鈉鉀泵建立嘅濃度梯度移動，驅動葡萄糖逆濃度梯度運送。"
               }
             ]
           },
@@ -12926,9 +12931,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Symporter Antiporter",
-                "zh": "共生運輸兵反運輸兵"
+                "k": "p",
+                "t": "Symporter; Antiporter; A; B.",
+                "zh": "同向轉運蛋白（Symporter）；反向轉運蛋白（Antiporter）；A；B。"
+              },
+              {
+                "k": "p",
+                "t": "A symporter moves A and B across the membrane in the same direction; an antiporter moves A and B in opposite directions.",
+                "zh": "同向轉運蛋白令 A 同 B 同一方向過膜；反向轉運蛋白令 A 同 B 相反方向過膜。"
               }
             ]
           }
@@ -14989,13 +14999,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Centr Blood Sample Blood Smear Blood plasma Platelets “Buty coat’ < white bood — cells Formed. Red blood.",
-                "zh": "Centr血液樣本血塗片血漿血小板“Butycoat”<whitebood—cellsFormed.紅色血液。"
-              },
-              {
-                "k": "p",
-                "t": "‘elements cells",
-                "zh": "‘元素單元格"
+                "t": "Centrifuged Blood Sample; Blood plasma; Buffy coat; Red blood cells; Formed elements; Blood Smear; Platelets; White blood cells; Red blood cells.",
+                "zh": "離心血液樣本；血漿；血沉棕黃層；紅血球；有形成分；血塗片；血小板；白血球；紅血球。"
               }
             ]
           }
@@ -16243,8 +16248,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Atrial excitation Ventricular excitation Begins Complete Begins Complete SA node AV node",
-                "zh": "心房興奮心室興奮開始完全開始完全SA結節房室結節"
+                "t": "Atrial excitation; Ventricular excitation; Begins; Complete; Begins; Complete; SA node; AV node.",
+                "zh": "心房興奮；心室興奮；開始；完成；開始；完成；竇房結（SA node）；房室結（AV node）。"
               }
             ]
           }
@@ -16508,8 +16513,8 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Ventricular filling 1a Rapid filing 1c Atrial systole 1b Diastasis",
-                "zh": "心室充盈1a快速充盈1c心房收縮1b舒張"
+                "t": "Ventricular filling; 1a Rapid filling; 1b Diastasis; 1c Atrial systole.",
+                "zh": "心室充盈；1a 快速充盈；1b 緩慢充盈（Diastasis）；1c 心房收縮。"
               }
             ]
           },
