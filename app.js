@@ -13,7 +13,16 @@
   var STORAGE_KEY = META.storageKey || "hazelquiz-v1";
   var ZH_PREF_KEY = "hazelquiz-show-zh";
   var GLOSS_CACHE_KEY = "hazelquiz-gloss-cache-v1";
-  var SRS = META.srsIntervals || [1, 3, 7, 14, 30];
+  var SRS = META.srsIntervals || [1, 3, 7, 14, 30]; // legacy day ladder (unused by flashcard ratings)
+  /* Flashcard SRS ratings (Open Readle–style) */
+  var RATING_META = {
+    new:   { id: "new",   label: "新增的單字", short: "新增",   intervalMs: 0,                 intervalLabel: "即學",   color: "teal" },
+    again: { id: "again", label: "再複習一次", short: "再複習", intervalMs: 1 * 60 * 1000,     intervalLabel: "1分鐘", color: "purple" },
+    hard:  { id: "hard",  label: "困難",       short: "困難",   intervalMs: 10 * 60 * 1000,    intervalLabel: "10分鐘", color: "red" },
+    ok:    { id: "ok",    label: "還可以",     short: "還可以", intervalMs: 2 * 24 * 60 * 60 * 1000, intervalLabel: "2天", color: "blue" },
+    easy:  { id: "easy",  label: "簡單",       short: "簡單",   intervalMs: 4 * 24 * 60 * 60 * 1000, intervalLabel: "4天", color: "green" },
+  };
+  var RATING_ORDER = ["new", "again", "hard", "ok", "easy"];
   var glossCache = null;
   var enrichInflight = {};
 
@@ -510,14 +519,79 @@
     });
   }
 
+  function itemDueAt(item) {
+    if (!item) return 0;
+    if (typeof item.dueAt === "number" && !isNaN(item.dueAt)) return item.dueAt;
+    if (item.due) {
+      var raw = String(item.due);
+      var p = Date.parse(raw.length === 10 ? raw + "T00:00:00" : raw);
+      return isNaN(p) ? 0 : p;
+    }
+    return 0;
+  }
+
+  function isDueItem(item) {
+    return isLiveBankItem(item) && itemDueAt(item) > 0 && itemDueAt(item) <= Date.now();
+  }
+
+  function itemRating(item) {
+    if (!isLiveBankItem(item)) return "new";
+    if (item.rating && RATING_META[item.rating]) return item.rating;
+    // Legacy: never graded → new; else map stage roughly
+    if (!item.reviewed && (item.stage === 0 || item.stage == null) && !item.lastRating) return "new";
+    if (item.lastRating && RATING_META[item.lastRating]) return item.lastRating;
+    var s = item.stage || 0;
+    if (s <= 0) return "again";
+    if (s === 1) return "hard";
+    if (s === 2) return "ok";
+    return "easy";
+  }
+
+  function ratingLabel(id) {
+    return (RATING_META[id] && RATING_META[id].short) || id;
+  }
+
+  function bucketCounts() {
+    var counts = { new: 0, again: 0, hard: 0, ok: 0, easy: 0 };
+    liveBankKeys().forEach(function (k) {
+      var r = itemRating(state.bank[k]);
+      if (counts[r] == null) counts[r] = 0;
+      counts[r] += 1;
+    });
+    return counts;
+  }
+
   function dueCount() {
-    var t = todayISO();
     var n = 0;
     Object.keys(state.bank).forEach(function (k) {
-      var item = state.bank[k];
-      if (isLiveBankItem(item) && item.due && item.due <= t) n += 1;
+      if (isDueItem(state.bank[k])) n += 1;
     });
     return n;
+  }
+
+  function newWordCount() {
+    var n = 0;
+    liveBankKeys().forEach(function (k) {
+      if (itemRating(state.bank[k]) === "new") n += 1;
+    });
+    return n;
+  }
+
+  function reviewQueue(filterRating) {
+    var due = [];
+    var news = [];
+    liveBankKeys().forEach(function (k) {
+      var item = state.bank[k];
+      var r = itemRating(item);
+      if (filterRating && r !== filterRating) return;
+      if (r === "new") news.push(item);
+      else if (isDueItem(item)) due.push(item);
+    });
+    due.sort(function (a, b) {
+      return itemDueAt(a) - itemDueAt(b);
+    });
+    // New first, then due (Open Readle–style daily practice)
+    return news.concat(due);
   }
 
   function updateBadge() {
@@ -1047,7 +1121,10 @@
       gloss: v.gloss || "",
       gateId: sheetTerm.gateId || "",
       stage: 0,
+      rating: "new",
+      reviewed: false,
       due: todayISO(),
+      dueAt: Date.now(),
       added: todayISO(),
     });
     saveState(state);
@@ -1723,10 +1800,12 @@
           escapeHtml(v.term) +
           "</strong> · " +
           escapeHtml(v.zh || "") +
-          '<p class="meta">下次複習 ' +
-          escapeHtml(v.due || "—") +
-          " · 階段 " +
-          (v.stage || 0) +
+          '<p class="meta"><span class="rating-chip rating-' +
+          escapeHtml(itemRating(v)) +
+          '">' +
+          escapeHtml(ratingLabel(itemRating(v))) +
+          "</span> · 下次 " +
+          escapeHtml(formatDue(v)) +
           '</p></button><button type="button" class="speakbtn tiny" data-speak="' +
           escapeHtml(v.term) +
           '" aria-label="發音">' +
@@ -1850,107 +1929,313 @@
     });
   }
 
-  function grade(v, know) {
+  function formatDue(item) {
+    var at = itemDueAt(item);
+    if (!at) return "—";
+    var d = new Date(at);
+    var now = Date.now();
+    var diff = at - now;
+    if (diff <= 0) return "而家";
+    if (diff < 60 * 60 * 1000) return Math.max(1, Math.round(diff / 60000)) + " 分鐘後";
+    if (diff < 24 * 60 * 60 * 1000) return Math.max(1, Math.round(diff / 3600000)) + " 小時後";
+    var iso =
+      d.getFullYear() +
+      "-" +
+      String(d.getMonth() + 1).padStart(2, "0") +
+      "-" +
+      String(d.getDate()).padStart(2, "0");
+    return iso;
+  }
+
+  function gradeRating(v, ratingId) {
     var key = v.term.toLowerCase();
     var item = state.bank[key];
     if (!item) return;
-    var stage = item.stage || 0;
-    if (know) stage = Math.min(stage + 1, SRS.length - 1);
-    else stage = 0;
-    item.stage = stage;
-    item.due = addDays(todayISO(), SRS[stage]);
+    var meta = RATING_META[ratingId] || RATING_META.again;
+    var now = Date.now();
+    var dueAt = now + (meta.intervalMs || 0);
+    item.rating = meta.id;
+    item.lastRating = meta.id;
+    item.reviewed = true;
+    item.stage =
+      meta.id === "again" ? 0 : meta.id === "hard" ? 1 : meta.id === "ok" ? 2 : 3;
+    item.dueAt = dueAt;
+    item.due =
+      new Date(dueAt).getFullYear() +
+      "-" +
+      String(new Date(dueAt).getMonth() + 1).padStart(2, "0") +
+      "-" +
+      String(new Date(dueAt).getDate()).padStart(2, "0");
     state.bank[key] = touchBankItem(item);
     saveState(state);
     updateBadge();
   }
 
-  function renderReview() {
+  function renderReviewHub() {
     setNav("review");
-    var t = todayISO();
-    var due = [];
-    Object.keys(state.bank).forEach(function (k) {
-      var item = state.bank[k];
-      if (isLiveBankItem(item) && item.due && item.due <= t) due.push(item);
+    var counts = bucketCounts();
+    var news = newWordCount();
+    var dueOnly = 0;
+    liveBankKeys().forEach(function (k) {
+      var it = state.bank[k];
+      if (itemRating(it) !== "new" && isDueItem(it)) dueOnly += 1;
     });
-    due.sort(function (a, b) {
-      return (a.due || "").localeCompare(b.due || "");
-    });
-
+    var sessionN = news + dueOnly;
     var html =
-      '<p class="kicker">間隔複習</p><h2>今日複習</h2>' +
-      '<p class="lede">間隔：1 · 3 · 7 · 14 · 30 日（記住／忘記會調整階段）</p>';
-
-    if (!due.length) {
+      '<p class="kicker">單字卡</p><h2 class="rev-title">單字卡複習</h2>' +
+      '<section class="rev-section"><h3 class="rev-h3">單字表</h3><div class="bucket-list">';
+    RATING_ORDER.forEach(function (id) {
+      var m = RATING_META[id];
       html +=
-        '<div class="card empty"><p>今日無需複習 🎉</p>' +
-        '<p class="hint">生字庫有 ' +
+        '<a class="bucket-row bucket-' +
+        m.color +
+        '" href="#/review/bucket/' +
+        id +
+        '"><span class="bucket-icon" aria-hidden="true"></span><span class="bucket-label">' +
+        escapeHtml(m.label) +
+        '</span><span class="bucket-count">' +
+        (counts[id] || 0) +
+        '</span><span class="bucket-chevron" aria-hidden="true">›</span></a>';
+    });
+    html +=
+      "</div></section>" +
+      '<section class="rev-section"><h3 class="rev-h3">今日練習 <span class="rev-dumbbell" aria-hidden="true">🏋️</span></h3>' +
+      '<div class="today-practice">' +
+      '<div class="today-stat"><div class="today-stat-n">' +
+      news +
+      '</div><div class="today-stat-l">新單字</div><div class="today-stat-sub">' +
+      news +
+      " 個單字</div></div>" +
+      '<div class="today-plus" aria-hidden="true">+</div>' +
+      '<div class="today-stat"><div class="today-stat-n">' +
+      dueOnly +
+      '</div><div class="today-stat-l">待複習</div><div class="today-stat-sub">' +
+      dueOnly +
+      " 個單字</div></div>" +
+      "</div>";
+    if (sessionN > 0) {
+      html +=
+        '<a class="primary rev-start" href="#/review/go">複習 ' +
+        sessionN +
+        " 個單字</a>";
+    } else {
+      html +=
+        '<div class="card empty rev-empty"><p>今日無需複習 🎉</p>' +
+        '<p class="hint">生字庫共 ' +
         liveBankKeys().length +
-        " 個詞。</p>" +
-        '<a class="primary" href="#/bank">查看生字</a></div>';
-      main.innerHTML = html;
-      return;
+        ' 個。喺全文點英文加生字後會出現喺呢度。</p>' +
+        '<a class="ghost" href="#/bank">查看生字</a></div>';
+    }
+    html += "</section>";
+    main.innerHTML = html;
+  }
+
+  function renderReviewBucket(ratingId) {
+    setNav("review");
+    var meta = RATING_META[ratingId] || RATING_META.new;
+    var items = [];
+    liveBankKeys().forEach(function (k) {
+      var it = state.bank[k];
+      if (itemRating(it) === meta.id) items.push(it);
+    });
+    items.sort(function (a, b) {
+      return (a.term || "").localeCompare(b.term || "");
+    });
+    var dueInBucket = items.filter(isDueItem);
+    var html =
+      '<a class="backlink" href="#/review">← 單字卡複習</a>' +
+      '<p class="kicker">單字表</p><h2>' +
+      escapeHtml(meta.label) +
+      "</h2>" +
+      '<p class="lede">共 ' +
+      items.length +
+      " 個" +
+      (dueInBucket.length ? " · 其中 " + dueInBucket.length + " 個到期" : "") +
+      "</p>";
+    if (dueInBucket.length) {
+      html +=
+        '<a class="primary rev-start" href="#/review/go/' +
+        meta.id +
+        '">複習呢啲到期（' +
+        dueInBucket.length +
+        "）</a>";
+    }
+    if (!items.length) {
+      html += '<div class="card empty"><p>呢個分類暫時未有生字。</p></div>';
+    } else {
+      items.forEach(function (v) {
+        html +=
+          '<div class="card vocab-card bank-item"><button type="button" class="vocab-main" data-bank="' +
+          escapeHtml(v.term.toLowerCase()) +
+          '"><strong>' +
+          escapeHtml(v.term) +
+          "</strong> · " +
+          escapeHtml(v.zh || "") +
+          '<p class="meta">下次 ' +
+          escapeHtml(formatDue(v)) +
+          (isDueItem(v) ? " · 到期" : "") +
+          '</p></button><button type="button" class="speakbtn tiny" data-speak="' +
+          escapeHtml(v.term) +
+          '" aria-label="發音">' +
+          speakIconSvg() +
+          "</button></div>";
+      });
+    }
+    main.innerHTML = html;
+    main.querySelectorAll("[data-bank]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var v = state.bank[btn.getAttribute("data-bank")];
+        if (v) openSheet(v, v.gateId || "");
+      });
+    });
+    main.querySelectorAll("[data-speak]").forEach(function (btn) {
+      btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        speak(btn.getAttribute("data-speak"), 0.9);
+      });
+    });
+  }
+
+  function renderReviewSession(filterRating) {
+    setNav("review");
+    var queue = reviewQueue(filterRating || null);
+    // If filter is a non-new bucket, reviewQueue already filters; for "new" include only new
+    if (filterRating === "new") {
+      queue = [];
+      liveBankKeys().forEach(function (k) {
+        var it = state.bank[k];
+        if (itemRating(it) === "new") queue.push(it);
+      });
+    } else if (filterRating && filterRating !== "new") {
+      queue = [];
+      liveBankKeys().forEach(function (k) {
+        var it = state.bank[k];
+        if (itemRating(it) === filterRating && isDueItem(it)) queue.push(it);
+      });
+      queue.sort(function (a, b) {
+        return itemDueAt(a) - itemDueAt(b);
+      });
     }
 
+    var newsLeft = queue.filter(function (v) {
+      return itemRating(v) === "new";
+    }).length;
+    var dueLeft = queue.length - newsLeft;
     var i = 0;
+    var revealed = false;
+
+    function headerChips() {
+      return (
+        '<div class="fc-top">' +
+        '<a class="fc-navback" href="#/review" aria-label="返回">‹</a>' +
+        '<span class="fc-chip">新單字 ' +
+        newsLeft +
+        '</span><span class="fc-chip on">待複習 ' +
+        Math.max(0, queue.length - i) +
+        "</span></div>"
+      );
+    }
+
     function showCard() {
-      if (i >= due.length) {
+      if (i >= queue.length) {
         main.innerHTML =
-          '<div class="card feature"><h2>複習完成</h2><p>今日 ' +
-          due.length +
-          ' 個已處理。</p><a class="primary" href="#/">返回關卡</a></div>';
+          '<div class="card feature rev-done"><h2>複習完成</h2><p>今次處理咗 ' +
+          queue.length +
+          ' 個單字。</p><a class="primary" href="#/review">返回單字卡</a></div>';
         updateBadge();
         return;
       }
-      var v = due[i];
+      var v = queue[i];
+      var r = itemRating(v);
+      var rMeta = RATING_META[r] || RATING_META.new;
+      revealed = false;
+      var concept = (v.gloss || "").trim();
+      if (concept && v.zh && concept === v.zh) concept = "";
+      if (!concept && v.gloss) concept = v.gloss;
       main.innerHTML =
-        '<p class="kicker">複習 ' +
-        (i + 1) +
-        " / " +
-        due.length +
-        '</p><div class="card feature"><div class="sheet-head" style="margin-bottom:8px"><h2 style="margin:0">' +
+        headerChips() +
+        '<div class="fc-card">' +
+        '<div class="fc-tags">' +
+        '<span class="fc-tag fc-tag-rating rating-' +
+        r +
+        '">' +
+        escapeHtml(rMeta.short) +
+        "</span>" +
+        (v.gateId
+          ? '<span class="fc-tag fc-tag-muted">' + escapeHtml(String(v.gateId).replace(/^g-?/, "")) + "</span>"
+          : "") +
+        "</div>" +
+        '<div class="fc-front">' +
+        '<p class="fc-term">' +
         escapeHtml(v.term) +
-        '</h2><button type="button" class="speakbtn" id="rev-speak" aria-label="發音">' +
+        "</p>" +
+        '<div class="fc-tools"><button type="button" class="speakbtn" id="rev-speak" aria-label="發音">' +
         speakIconSvg() +
-        '</button></div><p class="gloss" id="rev-zh" hidden>' +
-        escapeHtml(v.zh || "") +
-        '</p><p class="ex" id="rev-gloss" hidden>' +
-        escapeHtml(v.gloss || "") +
-        '</p><p class="phon" id="rev-ipa" hidden></p>' +
-        '<div class="gate-actions">' +
-        '<button type="button" class="ghost" id="rev-reveal">顯示答案</button>' +
-        '<button type="button" class="primary" id="rev-know" hidden>記住了</button>' +
-        '<button type="button" class="ghost" id="rev-forget" hidden>唔記得</button>' +
-        "</div></div>";
-      var ipaEl = document.getElementById("rev-ipa");
-      var revHint = phonHint(v);
-      if (revHint) {
-        ipaEl.textContent = revHint;
-      }
+        "</button></div>" +
+        "</div>" +
+        '<div class="fc-divider" aria-hidden="true"><span></span></div>' +
+        '<div class="fc-answer" id="fc-back" hidden>' +
+        '<p class="fc-zh">' +
+        escapeHtml(v.zh || "（未有翻譯）") +
+        "</p>" +
+        (concept
+          ? '<p class="fc-concept">' + escapeHtml(concept) + "</p>"
+          : '<p class="fc-concept muted">暫未有概念解釋 — 可返筆記再點一次詞彙補齊。</p>') +
+        (phonHint(v) ? '<p class="phon">' + escapeHtml(phonHint(v)) + "</p>" : "") +
+        "</div></div>" +
+        '<div class="fc-actions" id="fc-actions">' +
+        '<button type="button" class="primary fc-reveal" id="rev-reveal">揭曉答案 ✨</button>' +
+        "</div>";
+
       document.getElementById("rev-speak").addEventListener("click", function () {
         speak(v.term, 0.9);
       });
       document.getElementById("rev-reveal").addEventListener("click", function () {
-        document.getElementById("rev-zh").hidden = false;
-        document.getElementById("rev-gloss").hidden = false;
-        if (revHint) ipaEl.hidden = false;
-        document.getElementById("rev-know").hidden = false;
-        document.getElementById("rev-forget").hidden = false;
-        this.hidden = true;
-      });
-      document.getElementById("rev-know").addEventListener("click", function () {
-        grade(v, true);
-        i += 1;
-        showCard();
-      });
-      document
-        .getElementById("rev-forget")
-        .addEventListener("click", function () {
-          grade(v, false);
-          i += 1;
-          showCard();
+        revealed = true;
+        document.getElementById("fc-back").hidden = false;
+        var box = document.getElementById("fc-actions");
+        box.innerHTML =
+          '<div class="fc-grades">' +
+          '<button type="button" class="grade-btn grade-again" data-grade="again"><span>再複習一次</span><small>1分鐘</small></button>' +
+          '<button type="button" class="grade-btn grade-hard" data-grade="hard"><span>困難</span><small>10分鐘</small></button>' +
+          '<button type="button" class="grade-btn grade-ok" data-grade="ok"><span>還可以</span><small>2天</small></button>' +
+          '<button type="button" class="grade-btn grade-easy" data-grade="easy"><span>簡單</span><small>4天</small></button>' +
+          "</div>";
+        box.querySelectorAll("[data-grade]").forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            var wasNew = itemRating(v) === "new";
+            gradeRating(v, btn.getAttribute("data-grade"));
+            if (wasNew) newsLeft = Math.max(0, newsLeft - 1);
+            i += 1;
+            showCard();
+          });
         });
+      });
+    }
+
+    if (!queue.length) {
+      main.innerHTML =
+        '<a class="backlink" href="#/review">← 返回</a>' +
+        '<div class="card empty"><p>呢度暫時冇要複習嘅單字。</p></div>';
+      return;
     }
     showCard();
+  }
+
+  function renderReview() {
+    var hash = location.hash || "#/review";
+    var bm = hash.match(/^#\/review\/bucket\/(\w+)/);
+    if (bm) {
+      renderReviewBucket(bm[1]);
+      return;
+    }
+    var gm = hash.match(/^#\/review\/go(?:\/(\w+))?/);
+    if (gm) {
+      renderReviewSession(gm[1] || null);
+      return;
+    }
+    renderReviewHub();
   }
 
   function route() {
