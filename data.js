@@ -16350,8 +16350,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p036-01.webp",
-            "w": 914,
-            "h": 995,
+            "w": 1000,
+            "h": 897,
             "kind": "embed",
             "blocks": [
               {
@@ -16393,8 +16393,8 @@ window.HAZEL_LECTURES = [
           },
           {
             "src": "assets/figures/L3/p036-03.webp",
-            "w": 149,
-            "h": 254,
+            "w": 300,
+            "h": 392,
             "kind": "embed",
             "blocks": [
               {
@@ -16779,8 +16779,8 @@ window.HAZEL_LECTURES = [
         "figures": [
           {
             "src": "assets/figures/L3/p041-01.webp",
-            "w": 1000,
-            "h": 766,
+            "w": 916,
+            "h": 740,
             "kind": "embed",
             "blocks": [
               {
