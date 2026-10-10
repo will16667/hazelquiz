@@ -14199,5 +14199,180 @@ window.HAZEL_GLOSSARY = {
     "gloss": "色彩——護理／生理學筆記常見用詞。",
     "say": "",
     "ipa": ""
+  },
+  "making": {
+    "term": "making",
+    "zh": "製作",
+    "gloss": "製作——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "main": {
+    "term": "main",
+    "zh": "主要",
+    "gloss": "主要——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "steps": {
+    "term": "steps",
+    "zh": "步驟",
+    "gloss": "步驟——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "facilitate": {
+    "term": "facilitate",
+    "zh": "輔助",
+    "gloss": "輔助——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "nucleotides": {
+    "term": "nucleotides",
+    "zh": "核苷酸",
+    "gloss": "核苷酸——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "code": {
+    "term": "code",
+    "zh": "驗證碼",
+    "gloss": "驗證碼——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "thus": {
+    "term": "thus",
+    "zh": "週四",
+    "gloss": "週四——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "regulated": {
+    "term": "regulated",
+    "zh": "受管制",
+    "gloss": "受管制——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "necessary": {
+    "term": "necessary",
+    "zh": "必要的",
+    "gloss": "必要的——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "binds": {
+    "term": "binds",
+    "zh": "綁定",
+    "gloss": "綁定——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "supply": {
+    "term": "supply",
+    "zh": "供應",
+    "gloss": "供應——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "fragments": {
+    "term": "fragments",
+    "zh": "碎片",
+    "gloss": "碎片——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "humans": {
+    "term": "humans",
+    "zh": "人",
+    "gloss": "人——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "concepts": {
+    "term": "concepts",
+    "zh": "概念",
+    "gloss": "概念——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "health": {
+    "term": "health",
+    "zh": "健康情況",
+    "gloss": "健康情況——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "back": {
+    "term": "back",
+    "zh": "trở lại",
+    "gloss": "trở lại——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "stage": {
+    "term": "stage",
+    "zh": "階段",
+    "gloss": "階段——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "location": {
+    "term": "location",
+    "zh": "位置",
+    "gloss": "位置——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "intestinal": {
+    "term": "intestinal",
+    "zh": "<g>小腸</g>",
+    "gloss": "<g>小腸</g>——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "returns": {
+    "term": "returns",
+    "zh": "返回",
+    "gloss": "返回——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "allowing": {
+    "term": "allowing",
+    "zh": "允許",
+    "gloss": "允許——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "diffuse": {
+    "term": "diffuse",
+    "zh": "擴散",
+    "gloss": "擴散——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "co2": {
+    "term": "co2",
+    "zh": "二氧化碳",
+    "gloss": "二氧化碳——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "concentrated": {
+    "term": "concentrated",
+    "zh": "集中",
+    "gloss": "集中——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
+  },
+  "vascular": {
+    "term": "vascular",
+    "zh": "血管",
+    "gloss": "血管——護理／生理學筆記常見用詞。",
+    "say": "",
+    "ipa": ""
   }
 };

@@ -660,7 +660,7 @@
         ((state.readPos && state.readPos[lid] > 80)
           ? '<a class="ghost" href="#/lecture/' +
             encodeURIComponent(lid) +
-            '">繼續上次</a>'
+            '/resume">繼續上次</a>'
           : '');
       var next = nextOpenGate(lid);
       if (next) {
@@ -697,7 +697,8 @@
     main.innerHTML = html;
   }
 
-  function renderLecture(id) {
+  function renderLecture(id, opts) {
+    opts = opts || {};
     var L = lectureById(id);
     setNav("levels");
     if (!L) {
@@ -796,10 +797,11 @@
         window.scrollTo({ top: saved, behavior: "smooth" });
       });
     }
-    // Auto-offer resume once if deep into page
-    if (saved > 120) {
+    if (opts.resume && saved > 80) {
       requestAnimationFrame(function () {
-        /* stay at top; user taps 繼續上次 — avoid jump surprise */
+        setTimeout(function () {
+          window.scrollTo({ top: saved, behavior: "smooth" });
+        }, 50);
       });
     }
 
@@ -1274,9 +1276,9 @@
       renderGate(m[1]);
       return;
     }
-    var lm = hash.match(/^#\/lecture\/([\w-]+)/);
+    var lm = hash.match(/^#\/lecture\/([\w-]+)(\/resume)?/);
     if (lm) {
-      renderLecture(lm[1]);
+      renderLecture(lm[1], { resume: !!lm[2] });
       return;
     }
     if (hash.indexOf("#/bank") === 0) {
