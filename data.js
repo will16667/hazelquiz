@@ -8997,13 +8997,38 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "DNA; RNA; PROTEIN; Replication; Transcription; Reverse transcription; Translation.",
-                "zh": "DNA；RNA；蛋白質；複製；轉錄；逆轉錄；翻譯。"
+                "t": "DNA",
+                "zh": "DNA"
               },
               {
                 "k": "p",
-                "t": "Genetic information flows from DNA to RNA by transcription and from RNA to protein by translation; DNA can also replicate, and reverse transcription can make DNA from RNA.",
-                "zh": "遺傳訊息由 DNA 經轉錄到 RNA，再經翻譯到蛋白質；DNA 亦可複製，逆轉錄則可由 RNA 造 DNA。"
+                "t": "RNA",
+                "zh": "RNA"
+              },
+              {
+                "k": "p",
+                "t": "PROTEIN",
+                "zh": "蛋白質"
+              },
+              {
+                "k": "p",
+                "t": "Replication",
+                "zh": "複製"
+              },
+              {
+                "k": "p",
+                "t": "Transcription",
+                "zh": "轉錄"
+              },
+              {
+                "k": "p",
+                "t": "Reverse transcription",
+                "zh": "逆向轉錄"
+              },
+              {
+                "k": "p",
+                "t": "Translation",
+                "zh": "轉譯"
               }
             ]
           }
@@ -9046,9 +9071,69 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "1 Transcription",
+                "zh": "1 轉錄"
+              },
+              {
                 "k": "p",
-                "t": "This figure shows transcription and translation. Inside the nucleus, which contains the nucleolus, a DNA strand is used to make an mRNA strand during transcription; the mRNA then moves through a nuclear pore into the cytoplasm. In the cytoplasm, during translation, tRNA molecules bring amino acids from the amino acid pool—such as arginine and aspartic acid—to the ribosome. The mRNA strand passes through the ribosome, where anticodons on tRNA pair with mRNA codons, and the amino acids join to form a growing polypeptide chain.",
-                "zh": "呢幅圖展示轉錄同翻譯。細胞核內有核仁；轉錄時以 DNA 鏈為模板合成 mRNA，mRNA 再經核孔進入細胞質。喺細胞質進行翻譯時，tRNA 從氨基酸庫帶嚟氨基酸（例如精氨酸、天冬氨酸）到核糖體。mRNA 穿過核糖體，tRNA 嘅反密碼子同 mRNA 密碼子配對，氨基酸連接成逐漸延長嘅多肽鏈。"
+                "t": "Nucleolus",
+                "zh": "核仁"
+              },
+              {
+                "k": "p",
+                "t": "Nucleus",
+                "zh": "細胞核"
+              },
+              {
+                "k": "p",
+                "t": "DNA strand",
+                "zh": "DNA 鏈"
+              },
+              {
+                "k": "p",
+                "t": "mRNA strand",
+                "zh": "mRNA 鏈"
+              },
+              {
+                "k": "p",
+                "t": "Cytoplasm",
+                "zh": "細胞質"
+              },
+              {
+                "k": "h",
+                "t": "2 Translation",
+                "zh": "2 轉譯"
+              },
+              {
+                "k": "p",
+                "t": "Ribosome",
+                "zh": "核糖體"
+              },
+              {
+                "k": "p",
+                "t": "tRNA",
+                "zh": "tRNA"
+              },
+              {
+                "k": "p",
+                "t": "Amino acid pool",
+                "zh": "氨基酸庫"
+              },
+              {
+                "k": "p",
+                "t": "Arginine",
+                "zh": "精氨酸"
+              },
+              {
+                "k": "p",
+                "t": "Aspartic acid",
+                "zh": "天冬氨酸"
+              },
+              {
+                "k": "p",
+                "t": "Polypeptide chain",
+                "zh": "多肽鏈"
               }
             ]
           }
@@ -9137,13 +9222,53 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Extracellular fluid; Plasma membrane; Hormone; Receptor protein; Hormone-receptor complex; Nucleus; DNA; mRNA; Cytoplasm; New protein.",
-                "zh": "細胞外液；質膜；激素；受體蛋白；激素－受體複合物；細胞核；DNA；mRNA；細胞質；新蛋白質。"
+                "t": "Extracellular fluid",
+                "zh": "細胞外液"
               },
               {
                 "k": "p",
-                "t": "A lipid-soluble hormone crosses the plasma membrane, binds a cytoplasmic receptor to form a hormone-receptor complex, enters the nucleus, binds DNA to make mRNA, and the mRNA is translated in the cytoplasm into a new protein.",
-                "zh": "脂溶性激素穿過質膜，喺細胞質同受體結合形成激素－受體複合物，進入細胞核結合 DNA 轉錄出 mRNA，再喺細胞質翻譯成新蛋白質。"
+                "t": "Hormone",
+                "zh": "激素"
+              },
+              {
+                "k": "p",
+                "t": "Plasma membrane",
+                "zh": "質膜"
+              },
+              {
+                "k": "p",
+                "t": "Receptor protein",
+                "zh": "受體蛋白"
+              },
+              {
+                "k": "p",
+                "t": "Cytoplasm",
+                "zh": "細胞質"
+              },
+              {
+                "k": "p",
+                "t": "Hormone-receptor complex",
+                "zh": "激素–受體複合體"
+              },
+              {
+                "k": "p",
+                "t": "Nucleus",
+                "zh": "細胞核"
+              },
+              {
+                "k": "p",
+                "t": "DNA",
+                "zh": "DNA"
+              },
+              {
+                "k": "p",
+                "t": "mRNA",
+                "zh": "mRNA"
+              },
+              {
+                "k": "p",
+                "t": "New protein",
+                "zh": "新蛋白質"
               }
             ]
           }
@@ -9217,13 +9342,28 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Cytosine; Guanine; Thymine; Adenine; Original DNA molecule; Old strands (template); New strands; Nucleotides; 5′; 3′.",
-                "zh": "胞嘧啶；鳥嘌呤；胸腺嘧啶；腺嘌呤；原有 DNA 分子；舊鏈（模板）；新鏈；核苷酸；5′；3′。"
+                "t": "Cytosine (yellow); Guanine (green); Thymine (red); Adenine (blue).",
+                "zh": "胞嘧啶（黃）；鳥嘌呤（綠）；胸腺嘧啶（紅）；腺嘌呤（藍）。"
               },
               {
                 "k": "p",
-                "t": "1. DNA strands separate. 2. Old strands serve as templates for complementary new strands. 3. Two new identical DNA molecules form.",
-                "zh": "1. DNA 雙鏈分開。2. 舊鏈作為模板合成互補新鏈。3. 形成兩條相同嘅新 DNA 分子。"
+                "t": "Original DNA molecule",
+                "zh": "原來嘅 DNA 分子"
+              },
+              {
+                "k": "p",
+                "t": "1. DNA strands separate (template strands; 5′ / 3′).",
+                "zh": "1. DNA 雙鏈分開（模板鏈；5′／3′）。"
+              },
+              {
+                "k": "p",
+                "t": "2. Each strand serves as a template for a complementary new strand (nucleotides join).",
+                "zh": "2. 每條鏈作為模板合成互補新鏈（核苷酸接合）。"
+              },
+              {
+                "k": "p",
+                "t": "3. Two new identical DNA molecules form.",
+                "zh": "3. 形成兩個相同嘅新 DNA 分子。"
               }
             ]
           }
@@ -9327,14 +9467,39 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "PROPHASE; METAPHASE.",
-                "zh": "前期；中期。"
+                "k": "h",
+                "t": "PROPHASE",
+                "zh": "前期"
               },
               {
                 "k": "p",
-                "t": "Prophase: centrosomes in the poles; condensed chromatin forms chromosomes; nucleus membrane breaks. Metaphase: chromosomes aligned in the equatorial plane; centrosomes’ microtubules attached to the centromeres.",
-                "zh": "前期：中心體喺兩極；濃縮染色質形成染色體；核膜破裂。中期：染色體排列喺赤道面；中心體微管連去着絲粒。"
+                "t": "Centrosomes in the poles",
+                "zh": "中心體喺兩極"
+              },
+              {
+                "k": "p",
+                "t": "Condensed Chromatin forms Chromosomes",
+                "zh": "濃縮染色質形成染色體"
+              },
+              {
+                "k": "p",
+                "t": "Nucleus membrane breaks",
+                "zh": "核膜崩解"
+              },
+              {
+                "k": "h",
+                "t": "METAPHASE",
+                "zh": "中期"
+              },
+              {
+                "k": "p",
+                "t": "Chromosomes aligned in the equatorial plane",
+                "zh": "染色體排列喺赤道面"
+              },
+              {
+                "k": "p",
+                "t": "Centrosomes microtubules attached to the Centromeres",
+                "zh": "中心體微管連住着絲點"
               }
             ]
           },
@@ -9345,14 +9510,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "ANAPHASE; TELOPHASE.",
-                "zh": "後期；末期。"
+                "k": "h",
+                "t": "ANAPHASE",
+                "zh": "後期"
               },
               {
                 "k": "p",
-                "t": "Anaphase: sister chromatids separation. Telophase: formation of the 2 nuclei; duplication process ends.",
-                "zh": "後期：姊妹染色單體分開。末期：形成兩個細胞核；複製過程結束。"
+                "t": "Sister chromatids separation",
+                "zh": "姊妹染色分體分離"
+              },
+              {
+                "k": "h",
+                "t": "TELOPHASE",
+                "zh": "末期"
+              },
+              {
+                "k": "p",
+                "t": "Formation of the 2 nuclei / Duplication process ends",
+                "zh": "形成兩個細胞核／複製過程結束"
               }
             ]
           },
@@ -9363,9 +9538,14 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Chromosome Centromere",
-                "zh": "染色體着絲粒"
+                "k": "p",
+                "t": "Chromosome",
+                "zh": "染色體"
+              },
+              {
+                "k": "p",
+                "t": "Centromere",
+                "zh": "着絲點"
               }
             ]
           }
@@ -9433,9 +9613,34 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "MITOSIS",
+                "zh": "有絲分裂"
+              },
+              {
                 "k": "p",
-                "t": "MITOSIS; MEIOSIS; DNA replication; Mitosis; Two diploid cells; Interphase; Homologous Chromosomes; Meiosis I; Daughter Nuclei; Meiosis II; Daughter Nuclei II.",
-                "zh": "有絲分裂；減數分裂；DNA 複製；有絲分裂；兩個二倍體細胞；間期；同源染色體；減數分裂 I；子核；減數分裂 II；子核 II。"
+                "t": "DNA replication → Mitosis → Two diploid cells.",
+                "zh": "DNA 複製 → 有絲分裂 → 兩個二倍體細胞。"
+              },
+              {
+                "k": "h",
+                "t": "MEIOSIS",
+                "zh": "減數分裂"
+              },
+              {
+                "k": "p",
+                "t": "Interphase; Homologous Chromosomes.",
+                "zh": "間期；同源染色體。"
+              },
+              {
+                "k": "p",
+                "t": "Meiosis I → Daughter Nuclei.",
+                "zh": "減數分裂 I → 子核。"
+              },
+              {
+                "k": "p",
+                "t": "Meiosis II → Daughter Nuclei II (four haploid cells).",
+                "zh": "減數分裂 II → 子核 II（四個單倍體細胞）。"
               }
             ]
           },
@@ -9446,9 +9651,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Mitosis",
+                "zh": "有絲分裂"
+              },
+              {
                 "k": "p",
-                "t": "Mitosis; Meiosis; Parent cell; DNA replicates; 2 daughter cells; 4 daughter cells; U.S. National Library of Medicine.",
-                "zh": "有絲分裂；減數分裂；母細胞；DNA 複製；2 個子細胞；4 個子細胞；U.S. National Library of Medicine。"
+                "t": "Parent cell → DNA replicates → 2 daughter cells.",
+                "zh": "親代細胞 → DNA 複製 → 兩個子細胞。"
+              },
+              {
+                "k": "h",
+                "t": "Meiosis",
+                "zh": "減數分裂"
+              },
+              {
+                "k": "p",
+                "t": "Parent cell → DNA replicates → 2 daughter cells → 4 daughter cells.",
+                "zh": "親代細胞 → DNA 複製 → 兩個子細胞 → 四個子細胞。"
+              },
+              {
+                "k": "p",
+                "t": "U.S. National Library of Medicine",
+                "zh": "美國國家醫學圖書館"
               }
             ]
           }
@@ -9502,13 +9727,33 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Normal cell; Necrosis: Cell death after injury; Apoptosis: Programmed death of cells; Cell swelling; Cell disruption; Inflammatory response; Antibodies; Nuclear fragment; Cell debris; Apoptotic bodies; Phagocyte.",
-                "zh": "正常細胞；壞死：受傷後細胞死亡；凋亡：程序性細胞死亡；細胞腫脹；細胞破裂；炎症反應；抗體；核碎片；細胞碎片；凋亡小體；吞噬細胞。"
+                "t": "Normal cell",
+                "zh": "正常細胞"
+              },
+              {
+                "k": "h",
+                "t": "Necrosis — Cell death after injury",
+                "zh": "壞死 — 受傷後細胞死亡"
               },
               {
                 "k": "p",
-                "t": "In necrosis the cell swells, disrupts, and triggers an inflammatory response with antibodies. In apoptosis the nucleus fragments, apoptotic bodies form, and a phagocyte swallows the debris with no inflammatory reaction.",
-                "zh": "壞死時細胞腫脹、破裂，並引發有抗體嘅炎症反應。凋亡時細胞核碎裂、形成凋亡小體，吞噬細胞吞掉碎片，無炎症反應。"
+                "t": "Cell swelling → Cell disruption → Inflammatory response (Antibodies).",
+                "zh": "細胞腫脹 → 細胞破裂 → 炎症反應（抗體）。"
+              },
+              {
+                "k": "h",
+                "t": "Apoptosis — Programmed death of cells",
+                "zh": "細胞凋亡 — 程式化細胞死亡"
+              },
+              {
+                "k": "p",
+                "t": "Nuclear fragment; Cell debris; Apoptotic bodies.",
+                "zh": "核碎片；細胞碎片；凋亡小體。"
+              },
+              {
+                "k": "p",
+                "t": "Phagocyte: Debris is swallowed. No inflammatory reaction.",
+                "zh": "吞噬細胞：吞掉碎片。無炎症反應。"
               }
             ]
           }
@@ -9627,9 +9872,39 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Apoptosis",
+                "zh": "細胞凋亡"
+              },
+              {
                 "k": "p",
-                "t": "Apoptosis: A normal cell; The cell shrinks, Chromatin condenses; Membrane starts blebbing, Organelles disintegrate; Nucleus and organelles collapse, Membrane continues to bleb; Apoptotic bodies form; Macrophages phagocytose; No inflammation.",
-                "zh": "細胞凋亡：正常細胞；細胞縮小、染色質凝集；細胞膜開始出泡、胞器解體；細胞核同胞器塌陷、出泡持續；形成凋亡小體；巨噬細胞吞噬；無炎症。"
+                "t": "A normal cell",
+                "zh": "正常細胞"
+              },
+              {
+                "k": "p",
+                "t": "The cell shrinks / Chromatin condenses",
+                "zh": "細胞縮小／染色質濃縮"
+              },
+              {
+                "k": "p",
+                "t": "Membrane starts blebbing / Organelles disintegrate",
+                "zh": "細胞膜開始起泡／胞器崩解"
+              },
+              {
+                "k": "p",
+                "t": "Nucleus and organelles collapse / Membrane continues to bleb",
+                "zh": "細胞核同胞器崩塌／細胞膜繼續起泡"
+              },
+              {
+                "k": "p",
+                "t": "Apoptotic bodies form",
+                "zh": "形成凋亡小體"
+              },
+              {
+                "k": "p",
+                "t": "Macrophages phagocytose — No inflammation",
+                "zh": "巨噬細胞吞噬 — 無炎症"
               }
             ]
           }
