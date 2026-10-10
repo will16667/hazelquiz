@@ -122,6 +122,68 @@
       .replace(/"/g, "&quot;");
   }
 
+
+  var speakVoice = null;
+  var speakVoiceReady = false;
+
+  function englishVoice() {
+    if (!window.speechSynthesis || !window.speechSynthesis.getVoices) return null;
+    var voices = window.speechSynthesis.getVoices() || [];
+    var best = null;
+    var score = -1;
+    voices.forEach(function (v) {
+      var lang = String(v.lang || "").replace(/_/g, "-").toLowerCase();
+      var name = String(v.name || "").toLowerCase();
+      var s = 0;
+      if (lang.indexOf("en") === 0 || name.indexOf("english") !== -1) s += 2;
+      if (lang === "en-us") s += 6;
+      if (name.indexOf("english") !== -1) s += 1;
+      if (s > score) {
+        score = s;
+        best = v;
+      }
+    });
+    return score > 0 ? best : null;
+  }
+
+  function refreshVoice() {
+    speakVoice = englishVoice();
+    speakVoiceReady = true;
+  }
+
+  if (window.speechSynthesis) {
+    refreshVoice();
+    if (window.speechSynthesis.addEventListener) {
+      window.speechSynthesis.addEventListener("voiceschanged", refreshVoice);
+    } else {
+      window.speechSynthesis.onvoiceschanged = refreshVoice;
+    }
+  }
+
+  function speak(text, rate) {
+    var t = String(text || "").trim();
+    if (!t) return;
+    var r = typeof rate === "number" ? rate : 0.9;
+    if (!window.speechSynthesis || typeof window.SpeechSynthesisUtterance === "undefined") {
+      alert("此瀏覽器不支援英文語音（speechSynthesis）。");
+      return;
+    }
+    try {
+      window.speechSynthesis.cancel();
+    } catch (e) {}
+    var u = new SpeechSynthesisUtterance(t);
+    u.lang = "en-US";
+    u.rate = r;
+    var v = speakVoice || englishVoice();
+    if (v) u.voice = v;
+    window.speechSynthesis.speak(u);
+  }
+
+  function speakIconSvg() {
+    return '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 10h3.2L12 6v12l-4.8-4H4v-4z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M16 9.2a3.6 3.6 0 0 1 0 5.6M18.4 7a6.2 6.2 0 0 1 0 10"/></svg>';
+  }
+
+
   function linkTerms(text, vocab, gateId) {
     if (!vocab || !vocab.length) return escapeHtml(text);
     var terms = vocab
@@ -240,6 +302,14 @@
   backdrop.addEventListener("click", closeSheet);
   document.getElementById("sheet-save").addEventListener("click", saveVocab);
   document.getElementById("sheet-remove").addEventListener("click", removeVocab);
+  document.getElementById("sheet-speak").addEventListener("click", function () {
+    if (!sheetTerm || !sheetTerm.vocab) return;
+    speak(sheetTerm.vocab.term, 0.9);
+  });
+  document.getElementById("sheet-slow").addEventListener("click", function () {
+    if (!sheetTerm || !sheetTerm.vocab) return;
+    speak(sheetTerm.vocab.term, 0.6);
+  });
 
   main.addEventListener("click", function (e) {
     var t = e.target.closest(".term");
@@ -369,16 +439,46 @@
 
     html += '<div id="pane-study">';
     (g.cards || []).forEach(function (c, idx) {
+      var titleEn = c.titleEn || "";
+      var titleZh = c.titleZh || "";
+      var titleFallback = c.title || "";
       html +=
         '<article class="card study-card"><p class="kicker">卡片 ' +
         (idx + 1) +
-        "</p><h3>" +
-        linkTerms(c.title, g.vocab, g.id) +
-        "</h3><ul>";
+        '</p><div class="bi-head">';
+      if (titleEn) {
+        html +=
+          '<h3 class="bi-en-title">' +
+          linkTerms(titleEn, g.vocab, g.id) +
+          "</h3>";
+      }
+      if (titleZh) {
+        html += '<p class="bi-zh-title">' + escapeHtml(titleZh) + "</p>";
+      }
+      if (!titleEn && !titleZh) {
+        html +=
+          "<h3>" + linkTerms(titleFallback, g.vocab, g.id) + "</h3>";
+      }
+      html += "</div>";
       (c.bullets || []).forEach(function (b) {
-        html += "<li>" + linkTerms(b, g.vocab, g.id) + "</li>";
+        var en = typeof b === "string" ? b : b.en || "";
+        var zh = typeof b === "string" ? "" : b.zh || "";
+        html += '<div class="bi-pair">';
+        if (en) {
+          html +=
+            '<p class="bi-en"><span class="lang-pill">EN</span>' +
+            linkTerms(en, g.vocab, g.id) +
+            "</p>";
+        }
+        if (zh) {
+          html +=
+            '<p class="bi-zh"><span class="lang-pill">中</span>' +
+            escapeHtml(zh) +
+            "</p>";
+        }
+        html += "</div>";
       });
-      html += "</ul></article>";
+      html += "</article>";
     });
     html +=
       '<div class="gate-actions"><button type="button" class="primary" id="go-quiz">開始測驗</button></div></div>';
@@ -389,7 +489,7 @@
     html += '<div id="pane-vocab" hidden>';
     (g.vocab || []).forEach(function (v) {
       html +=
-        '<button type="button" class="card" style="width:100%;text-align:left" data-open-vocab="' +
+        '<div class="card vocab-card"><button type="button" class="vocab-main" data-open-vocab="' +
         escapeHtml(v.term) +
         '" data-gate="' +
         g.id +
@@ -399,7 +499,13 @@
         escapeHtml(v.zh || "") +
         '<p class="hint" style="margin:4px 0 0">' +
         escapeHtml(v.gloss || "") +
-        "</p></button>";
+        '</p></button><button type="button" class="speakbtn tiny" data-speak="' +
+        escapeHtml(v.term) +
+        '" aria-label="發音 ' +
+        escapeHtml(v.term) +
+        '">' +
+        speakIconSvg() +
+        "</button></div>";
     });
     html += "</div>";
 
@@ -432,6 +538,13 @@
     main.querySelectorAll("[data-open-vocab]").forEach(function (btn) {
       btn.addEventListener("click", function () {
         openSheet(findVocab(btn.getAttribute("data-open-vocab"), g), g.id);
+      });
+    });
+    main.querySelectorAll("[data-speak]").forEach(function (btn) {
+      btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        speak(btn.getAttribute("data-speak"), 0.9);
       });
     });
   }
@@ -558,7 +671,7 @@
       keys.forEach(function (k) {
         var v = state.bank[k];
         html +=
-          '<button type="button" class="card bank-item" style="width:100%;text-align:left" data-bank="' +
+          '<div class="card vocab-card bank-item"><button type="button" class="vocab-main" data-bank="' +
           escapeHtml(k) +
           '"><strong>' +
           escapeHtml(v.term) +
@@ -568,7 +681,11 @@
           escapeHtml(v.due || "—") +
           " · 階段 " +
           (v.stage || 0) +
-          "</p></button>";
+          '</p></button><button type="button" class="speakbtn tiny" data-speak="' +
+          escapeHtml(v.term) +
+          '" aria-label="發音">' +
+          speakIconSvg() +
+          "</button></div>";
       });
     }
     main.innerHTML = html;
@@ -576,6 +693,13 @@
       btn.addEventListener("click", function () {
         var v = state.bank[btn.getAttribute("data-bank")];
         if (v) openSheet(v, v.gateId || "");
+      });
+    });
+    main.querySelectorAll("[data-speak]").forEach(function (btn) {
+      btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        speak(btn.getAttribute("data-speak"), 0.9);
       });
     });
   }
@@ -637,15 +761,18 @@
         (i + 1) +
         " / " +
         due.length +
-        '</p><div class="card feature"><h2>' +
+        '</p><div class="card feature"><div class="sheet-head" style="margin-bottom:8px"><h2 style="margin:0">' +
         escapeHtml(v.term) +
-        '</h2><p class="gloss" id="rev-zh" hidden>' +
+        '</h2><button type="button" class="speakbtn" id="rev-speak" aria-label="發音">' +
+        speakIconSvg() +
+        '</button></div><p class="gloss" id="rev-zh" hidden>' +
         escapeHtml(v.zh || "") +
         '</p><p class="ex" id="rev-gloss" hidden>' +
         escapeHtml(v.gloss || "") +
         '</p><p class="ipa" id="rev-ipa" hidden></p>' +
         '<div class="gate-actions">' +
         '<button type="button" class="ghost" id="rev-reveal">顯示答案</button>' +
+        '<button type="button" class="ghost" id="rev-slow">慢速發音</button>' +
         '<button type="button" class="primary" id="rev-know" hidden>記住了</button>' +
         '<button type="button" class="ghost" id="rev-forget" hidden>唔記得</button>' +
         "</div></div>";
@@ -653,6 +780,12 @@
       if (v.ipa) {
         ipaEl.textContent = v.ipa;
       }
+      document.getElementById("rev-speak").addEventListener("click", function () {
+        speak(v.term, 0.9);
+      });
+      document.getElementById("rev-slow").addEventListener("click", function () {
+        speak(v.term, 0.6);
+      });
       document.getElementById("rev-reveal").addEventListener("click", function () {
         document.getElementById("rev-zh").hidden = false;
         document.getElementById("rev-gloss").hidden = false;

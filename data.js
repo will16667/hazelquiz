@@ -1,5 +1,6 @@
 // HazelQuiz — Life Sciences gate content (from course notes L1–L3)
 // Do not invent clinical facts beyond notes.
+// Cards use bilingual bullets: {en, zh}.
 window.HAZEL_GATES = [
   {
     "id": "g1",
@@ -11,52 +12,124 @@ window.HAZEL_GATES = [
       {
         "title": "Anatomy 解剖學",
         "bullets": [
-          "研究構成身體的結構（structures），以及結構之間的關係。",
-          "例子：心臟的結構。",
-          "Macroscopic anatomy：肉眼可見；Microscopic anatomy：肉眼看不見。"
-        ]
+          {
+            "en": "Studies the structures that make up the body and how those structures relate.",
+            "zh": "研究構成身體的結構（structures），以及結構之間的關係。"
+          },
+          {
+            "en": "Example: the structure of the heart.",
+            "zh": "例子：心臟的結構。"
+          },
+          {
+            "en": "Macroscopic anatomy: visible to the naked eye; Microscopic anatomy: not visible to the naked eye.",
+            "zh": "Macroscopic anatomy：肉眼可見；Microscopic anatomy：肉眼看不見。"
+          }
+        ],
+        "titleEn": "Anatomy",
+        "titleZh": "解剖學"
       },
       {
         "title": "Physiology 生理學",
         "bullets": [
-          "研究身體及其部分如何運作或發揮功能（function）。",
-          "例子：心臟如何泵血？"
-        ]
+          {
+            "en": "Studies how the body and its parts work or function.",
+            "zh": "研究身體及其部分如何運作或發揮功能（function）。"
+          },
+          {
+            "en": "Example: how does the heart pump blood?",
+            "zh": "例子：心臟如何泵血？"
+          }
+        ],
+        "titleEn": "Physiology",
+        "titleZh": "生理學"
       },
       {
         "title": "四大營養素概覽",
         "bullets": [
-          "維持人體日常生命所需的四種主要食物成分：",
-          "1. Carbohydrates 碳水化合物",
-          "2. Lipids 脂質",
-          "3. Proteins 蛋白質",
-          "4. Water 水"
-        ]
+          {
+            "en": "Four major food components needed for daily human life:",
+            "zh": "維持人體日常生命所需的四種主要食物成分："
+          },
+          {
+            "en": "1. Carbohydrates",
+            "zh": "1. Carbohydrates 碳水化合物"
+          },
+          {
+            "en": "2. Lipids",
+            "zh": "2. Lipids 脂質"
+          },
+          {
+            "en": "3. Proteins",
+            "zh": "3. Proteins 蛋白質"
+          },
+          {
+            "en": "4. Water",
+            "zh": "4. Water 水"
+          }
+        ],
+        "titleEn": "Four major nutrients overview",
+        "titleZh": "四大營養素概覽"
       },
       {
         "title": "ATP 三磷酸腺苷（預告）",
         "bullets": [
-          "ATP 是細胞內攜帶能量的分子，為生物活動提供能量來源。",
-          "ATP ↔ ADP + Pi + energy",
-          "ADP 轉為 ATP 可儲存能量；ATP 水解則釋放能量。"
-        ]
+          {
+            "en": "ATP is the energy-carrying molecule in cells and supplies energy for biological activity.",
+            "zh": "ATP 是細胞內攜帶能量的分子，為生物活動提供能量來源。"
+          },
+          {
+            "en": "ATP ↔ ADP + Pi + energy",
+            "zh": "ATP ↔ ADP + Pi + energy"
+          },
+          {
+            "en": "Converting ADP to ATP stores energy; hydrolysing ATP releases energy.",
+            "zh": "ADP 轉為 ATP 可儲存能量；ATP 水解則釋放能量。"
+          }
+        ],
+        "titleEn": "ATP (preview)",
+        "titleZh": "三磷酸腺苷（預告）"
       },
       {
         "title": "核酸 Nucleic Acids 概覽",
         "bullets": [
-          "DNA（去氧核糖核酸）：編碼製造蛋白質所需資訊，作為遺傳物質。",
-          "RNA（核糖核酸）：多種形式，參與蛋白質合成。",
-          "流程：DNA →（Transcription）→ RNA →（Translation）→ Protein"
-        ]
+          {
+            "en": "DNA (deoxyribonucleic acid): encodes information to make proteins; genetic material.",
+            "zh": "DNA（去氧核糖核酸）：編碼製造蛋白質所需資訊，作為遺傳物質。"
+          },
+          {
+            "en": "RNA (ribonucleic acid): several forms; takes part in protein synthesis.",
+            "zh": "RNA（核糖核酸）：多種形式，參與蛋白質合成。"
+          },
+          {
+            "en": "Pathway: DNA → (Transcription) → RNA → (Translation) → Protein",
+            "zh": "流程：DNA →（Transcription）→ RNA →（Translation）→ Protein"
+          }
+        ],
+        "titleEn": "Nucleic acids overview",
+        "titleZh": "核酸概覽"
       },
       {
         "title": "礦物鹽與離子（摘要）",
         "bullets": [
-          "Calcium：骨骼牙齒、凝血、肌肉收縮。",
-          "Iron：酵素、血紅素（haemoglobin）、肌紅蛋白（myoglobin）。",
-          "Iodine：生長激素及甲狀腺素成分。",
-          "Phosphate：核酸、ATP、骨骼牙齒成分。"
-        ]
+          {
+            "en": "Calcium: bones and teeth, blood clotting, muscle contraction.",
+            "zh": "Calcium：骨骼牙齒、凝血、肌肉收縮。"
+          },
+          {
+            "en": "Iron: enzymes, haemoglobin, myoglobin.",
+            "zh": "Iron：酵素、血紅素（haemoglobin）、肌紅蛋白（myoglobin）。"
+          },
+          {
+            "en": "Iodine: component of growth hormone and thyroid hormones.",
+            "zh": "Iodine：生長激素及甲狀腺素成分。"
+          },
+          {
+            "en": "Phosphate: component of nucleic acids, ATP, bones and teeth.",
+            "zh": "Phosphate：核酸、ATP、骨骼牙齒成分。"
+          }
+        ],
+        "titleEn": "Mineral salts and ions (summary)",
+        "titleZh": "礦物鹽與離子（摘要）"
       }
     ],
     "vocab": [
@@ -182,55 +255,123 @@ window.HAZEL_GATES = [
       {
         "title": "Carbohydrates 是甚麼？",
         "bullets": [
-          "有機食物成分，由 C、H、O 組成。",
-          "H:O 比例 = 2:1。",
-          "常見於米、麵包、水果等。"
-        ]
+          {
+            "en": "Organic food component made of C, H and O.",
+            "zh": "有機食物成分，由 C、H、O 組成。"
+          },
+          {
+            "en": "H:O ratio = 2:1.",
+            "zh": "H:O 比例 = 2:1。"
+          },
+          {
+            "en": "Common in rice, bread, fruit, etc.",
+            "zh": "常見於米、麵包、水果等。"
+          }
+        ],
+        "titleEn": "What are carbohydrates?",
+        "titleZh": "碳水化合物是甚麼？"
       },
       {
         "title": "三類碳水化合物",
         "bullets": [
-          "Monosaccharides（單糖／簡單糖）",
-          "Disaccharides（雙糖）",
-          "Polysaccharides（多糖）"
-        ]
+          {
+            "en": "Monosaccharides (simple sugars)",
+            "zh": "Monosaccharides（單糖／簡單糖）"
+          },
+          {
+            "en": "Disaccharides",
+            "zh": "Disaccharides（雙糖）"
+          },
+          {
+            "en": "Polysaccharides",
+            "zh": "Polysaccharides（多糖）"
+          }
+        ],
+        "titleEn": "Three types of carbohydrates",
+        "titleZh": "三類碳水化合物"
       },
       {
         "title": "單糖 Monosaccharides",
         "bullets": [
-          "Glucose 葡萄糖：碳水消化的主要終產物；呼吸時分解釋放能量。",
-          "Fructose 果糖：最甜的簡單糖；常見於水果與蜂蜜。"
-        ]
+          {
+            "en": "Glucose: main end product of carbohydrate digestion; broken down in respiration to release energy.",
+            "zh": "Glucose 葡萄糖：碳水消化的主要終產物；呼吸時分解釋放能量。"
+          },
+          {
+            "en": "Fructose: the sweetest simple sugar; common in fruit and honey.",
+            "zh": "Fructose 果糖：最甜的簡單糖；常見於水果與蜂蜜。"
+          }
+        ],
+        "titleEn": "Monosaccharides",
+        "titleZh": "單糖"
       },
       {
         "title": "雙糖 Disaccharides",
         "bullets": [
-          "Maltose 麥芽糖 = Glucose + Glucose（澱粉消化中間物）",
-          "Sucrose 蔗糖 = Glucose + Fructose（餐桌糖）"
-        ]
+          {
+            "en": "Maltose = Glucose + Glucose (intermediate in starch digestion)",
+            "zh": "Maltose 麥芽糖 = Glucose + Glucose（澱粉消化中間物）"
+          },
+          {
+            "en": "Sucrose = Glucose + Fructose (table sugar)",
+            "zh": "Sucrose 蔗糖 = Glucose + Fructose（餐桌糖）"
+          }
+        ],
+        "titleEn": "Disaccharides",
+        "titleZh": "雙糖"
       },
       {
         "title": "多糖 Polysaccharides",
         "bullets": [
-          "Starch 澱粉：植物主要食物儲備（由 glucose 組成）",
-          "Glycogen 糖原：動物主要碳水儲存",
-          "Cellulose 纖維素：植物細胞壁；人體不能消化"
-        ]
+          {
+            "en": "Starch: main plant food reserve (made of glucose)",
+            "zh": "Starch 澱粉：植物主要食物儲備（由 glucose 組成）"
+          },
+          {
+            "en": "Glycogen: main carbohydrate store in animals",
+            "zh": "Glycogen 糖原：動物主要碳水儲存"
+          },
+          {
+            "en": "Cellulose: plant cell walls; humans cannot digest it",
+            "zh": "Cellulose 纖維素：植物細胞壁；人體不能消化"
+          }
+        ],
+        "titleEn": "Polysaccharides",
+        "titleZh": "多糖"
       },
       {
         "title": "功能：能量與儲存",
         "bullets": [
-          "主要／首要身體能量來源。",
-          "過多葡萄糖以 glycogen 儲存，主要在肝臟與骨骼肌。",
-          "能量需求增加時，glycogen 分解為 glucose 供能。"
-        ]
+          {
+            "en": "Primary / main source of body energy.",
+            "zh": "主要／首要身體能量來源。"
+          },
+          {
+            "en": "Excess glucose is stored as glycogen, mainly in liver and skeletal muscle.",
+            "zh": "過多葡萄糖以 glycogen 儲存，主要在肝臟與骨骼肌。"
+          },
+          {
+            "en": "When energy demand rises, glycogen breaks down to glucose for fuel.",
+            "zh": "能量需求增加時，glycogen 分解為 glucose 供能。"
+          }
+        ],
+        "titleEn": "Function: energy and storage",
+        "titleZh": "功能：能量與儲存"
       },
       {
         "title": "其他功能",
         "bullets": [
-          "結構支持：參與細胞結構與細胞產物合成。",
-          "DNA／RNA 組成部分。"
-        ]
+          {
+            "en": "Structural support: involved in cell structure and synthesis of cell products.",
+            "zh": "結構支持：參與細胞結構與細胞產物合成。"
+          },
+          {
+            "en": "Component of DNA/RNA.",
+            "zh": "DNA／RNA 組成部分。"
+          }
+        ],
+        "titleEn": "Other functions",
+        "titleZh": "其他功能"
       }
     ],
     "vocab": [
@@ -367,71 +508,174 @@ window.HAZEL_GATES = [
       {
         "title": "Lipids 脂質",
         "bullets": [
-          "由 C、H、O 組成。",
-          "不溶於水，但易溶於有機溶劑（如酒精、丙酮、乙醚）。",
-          "兩類：Fats（室溫半固）、Oils（室溫液態）。",
-          "Triglyceride 三酸甘油酯：3 個脂肪酸 + 1 個 glycerol。"
-        ]
+          {
+            "en": "Made of C, H and O.",
+            "zh": "由 C、H、O 組成。"
+          },
+          {
+            "en": "Insoluble in water, but soluble in organic solvents (e.g. alcohol, acetone, ether).",
+            "zh": "不溶於水，但易溶於有機溶劑（如酒精、丙酮、乙醚）。"
+          },
+          {
+            "en": "Two types: Fats (semi-solid at room temperature), Oils (liquid at room temperature).",
+            "zh": "兩類：Fats（室溫半固）、Oils（室溫液態）。"
+          },
+          {
+            "en": "Triglyceride: 3 fatty acids + 1 glycerol.",
+            "zh": "Triglyceride 三酸甘油酯：3 個脂肪酸 + 1 個 glycerol。"
+          }
+        ],
+        "titleEn": "Lipids",
+        "titleZh": "脂質"
       },
       {
         "title": "脂質功能",
         "bullets": [
-          "食物儲備與能量來源（碳水用盡後常用脂肪）。",
-          "結構材料：Phospholipids 磷脂是細胞膜重要成分。",
-          "代謝調節：部分激素屬脂質（如性激素）。",
-          "防水層、保護（內臟周圍脂肪減震）。"
-        ]
+          {
+            "en": "Food reserve and energy source (fat often used after carbohydrates are depleted).",
+            "zh": "食物儲備與能量來源（碳水用盡後常用脂肪）。"
+          },
+          {
+            "en": "Structural material: phospholipids are important components of cell membranes.",
+            "zh": "結構材料：Phospholipids 磷脂是細胞膜重要成分。"
+          },
+          {
+            "en": "Metabolic regulation: some hormones are lipids (e.g. sex hormones).",
+            "zh": "代謝調節：部分激素屬脂質（如性激素）。"
+          },
+          {
+            "en": "Waterproofing and protection (fat around organs cushions shock).",
+            "zh": "防水層、保護（內臟周圍脂肪減震）。"
+          }
+        ],
+        "titleEn": "Functions of lipids",
+        "titleZh": "脂質功能"
       },
       {
         "title": "Proteins 蛋白質",
         "bullets": [
-          "大型複雜分子；含 C、H、O、N（有時有 S、P）。",
-          "基本單位：Amino acids 胺基酸。",
-          "胺基酸連接成 polypeptide 多肽 → 再形成 protein。"
-        ]
+          {
+            "en": "Large complex molecules; contain C, H, O, N (sometimes S, P).",
+            "zh": "大型複雜分子；含 C、H、O、N（有時有 S、P）。"
+          },
+          {
+            "en": "Basic unit: amino acids.",
+            "zh": "基本單位：Amino acids 胺基酸。"
+          },
+          {
+            "en": "Amino acids link into polypeptides → then form proteins.",
+            "zh": "胺基酸連接成 polypeptide 多肽 → 再形成 protein。"
+          }
+        ],
+        "titleEn": "Proteins",
+        "titleZh": "蛋白質"
       },
       {
         "title": "蛋白質功能",
         "bullets": [
-          "Antibody：免疫防禦。",
-          "Enzyme：加快化學反應。",
-          "Messenger：激素／受體傳訊（如 insulin）。",
-          "Structural：keratin、collagen 等。",
-          "Transport／Storage：如 haemoglobin 運氧。"
-        ]
+          {
+            "en": "Antibody: immune defence.",
+            "zh": "Antibody：免疫防禦。"
+          },
+          {
+            "en": "Enzyme: speeds up chemical reactions.",
+            "zh": "Enzyme：加快化學反應。"
+          },
+          {
+            "en": "Messenger: hormone/receptor signalling (e.g. insulin).",
+            "zh": "Messenger：激素／受體傳訊（如 insulin）。"
+          },
+          {
+            "en": "Structural: e.g. keratin, collagen.",
+            "zh": "Structural：keratin、collagen 等。"
+          },
+          {
+            "en": "Transport/Storage: e.g. haemoglobin carries oxygen.",
+            "zh": "Transport／Storage：如 haemoglobin 運氧。"
+          }
+        ],
+        "titleEn": "Functions of proteins",
+        "titleZh": "蛋白質功能"
       },
       {
         "title": "Denaturation 與 Renaturation",
         "bullets": [
-          "Denaturation 蛋白質變性：失去特定三維構形；胺基酸序列不變；失去溶解性與生物活性。",
-          "原因：熱／輻射、極端 pH、機械力、化學物（非極性溶劑、清潔劑）。",
-          "Renaturation 復性：恢復生物活性。"
-        ]
+          {
+            "en": "Denaturation: loss of specific 3D shape; amino-acid sequence unchanged; loss of solubility and biological activity.",
+            "zh": "Denaturation 蛋白質變性：失去特定三維構形；胺基酸序列不變；失去溶解性與生物活性。"
+          },
+          {
+            "en": "Causes: heat/radiation, extreme pH, mechanical force, chemicals (non-polar solvents, detergents).",
+            "zh": "原因：熱／輻射、極端 pH、機械力、化學物（非極性溶劑、清潔劑）。"
+          },
+          {
+            "en": "Renaturation: restoration of biological activity.",
+            "zh": "Renaturation 復性：恢復生物活性。"
+          }
+        ],
+        "titleEn": "Denaturation & renaturation",
+        "titleZh": "變性與復性"
       },
       {
         "title": "Water 水",
         "bullets": [
-          "人體約 75% 由水組成。",
-          "良好溶劑：代謝反應介質；稀釋廢物。",
-          "體溫調節：高熱容。",
-          "表面張力／毛細作用；運輸養分；潤滑（如滑液 synovial fluid）。"
-        ]
+          {
+            "en": "About 75% of the human body is water.",
+            "zh": "人體約 75% 由水組成。"
+          },
+          {
+            "en": "Good solvent: medium for metabolic reactions; dilutes wastes.",
+            "zh": "良好溶劑：代謝反應介質；稀釋廢物。"
+          },
+          {
+            "en": "Body-temperature regulation: high heat capacity.",
+            "zh": "體溫調節：高熱容。"
+          },
+          {
+            "en": "Surface tension/capillary action; transports nutrients; lubrication (e.g. synovial fluid).",
+            "zh": "表面張力／毛細作用；運輸養分；潤滑（如滑液 synovial fluid）。"
+          }
+        ],
+        "titleEn": "Water",
+        "titleZh": "水"
       },
       {
         "title": "ATP 與核酸再溫",
         "bullets": [
-          "ATP：能量載體；水解供能。",
-          "DNA 編碼蛋白質資訊；RNA 參與蛋白質合成。"
-        ]
+          {
+            "en": "ATP: energy carrier; hydrolysis supplies energy.",
+            "zh": "ATP：能量載體；水解供能。"
+          },
+          {
+            "en": "DNA encodes protein information; RNA takes part in protein synthesis.",
+            "zh": "DNA 編碼蛋白質資訊；RNA 參與蛋白質合成。"
+          }
+        ],
+        "titleEn": "ATP",
+        "titleZh": "與核酸再溫"
       },
       {
         "title": "小結對比",
         "bullets": [
-          "碳水：主要即時能量；glycogen 儲存。",
-          "脂質：長期儲備、細胞膜、激素。",
-          "蛋白質：結構、酵素、免疫、運輸。",
-          "水：溶劑、溫度、運輸、潤滑。"
-        ]
+          {
+            "en": "Carbohydrates: main immediate energy; stored as glycogen.",
+            "zh": "碳水：主要即時能量；glycogen 儲存。"
+          },
+          {
+            "en": "Lipids: long-term reserve, cell membranes, hormones.",
+            "zh": "脂質：長期儲備、細胞膜、激素。"
+          },
+          {
+            "en": "Proteins: structure, enzymes, immunity, transport.",
+            "zh": "蛋白質：結構、酵素、免疫、運輸。"
+          },
+          {
+            "en": "Water: solvent, temperature control, transport, lubrication.",
+            "zh": "水：溶劑、溫度、運輸、潤滑。"
+          }
+        ],
+        "titleEn": "Summary comparison",
+        "titleZh": "小結對比"
       }
     ],
     "vocab": [
@@ -568,68 +812,162 @@ window.HAZEL_GATES = [
       {
         "title": "結構組織層級",
         "bullets": [
-          "Chemical：原子組成分子",
-          "Cell：分子組成細胞",
-          "Tissue：相似細胞組成組織",
-          "Organ：不同組織組成器官",
-          "System：器官協同工作",
-          "Organism：器官系統組成個體"
-        ]
+          {
+            "en": "Chemical: atoms form molecules",
+            "zh": "Chemical：原子組成分子"
+          },
+          {
+            "en": "Cell: molecules form cells",
+            "zh": "Cell：分子組成細胞"
+          },
+          {
+            "en": "Tissue: similar cells form tissues",
+            "zh": "Tissue：相似細胞組成組織"
+          },
+          {
+            "en": "Organ: different tissues form organs",
+            "zh": "Organ：不同組織組成器官"
+          },
+          {
+            "en": "System: organs work together",
+            "zh": "System：器官協同工作"
+          },
+          {
+            "en": "Organism: organ systems form the individual",
+            "zh": "Organism：器官系統組成個體"
+          }
+        ],
+        "titleEn": "Levels of structural organisation",
+        "titleZh": "結構組織層級"
       },
       {
         "title": "四類組織",
         "bullets": [
-          "Muscle tissue：收縮產生運動",
-          "Nervous tissue：傳遞與整合訊息",
-          "Epithelial tissue：保護邊界、離子／分子擴散",
-          "Connective tissue：支持其他組織"
-        ]
+          {
+            "en": "Muscle tissue: contracts to produce movement",
+            "zh": "Muscle tissue：收縮產生運動"
+          },
+          {
+            "en": "Nervous tissue: transmits and integrates information",
+            "zh": "Nervous tissue：傳遞與整合訊息"
+          },
+          {
+            "en": "Epithelial tissue: protective barrier; ion/molecule diffusion",
+            "zh": "Epithelial tissue：保護邊界、離子／分子擴散"
+          },
+          {
+            "en": "Connective tissue: supports other tissues",
+            "zh": "Connective tissue：支持其他組織"
+          }
+        ],
+        "titleEn": "Four tissue types",
+        "titleZh": "四類組織"
       },
       {
         "title": "Muscle Tissue",
         "bullets": [
-          "Skeletal：肌腱連骨骼兩端",
-          "Cardiac：心臟",
-          "Smooth：消化道、血管、泌尿與生殖系統"
-        ]
+          {
+            "en": "Skeletal: tendons attach to bones at both ends",
+            "zh": "Skeletal：肌腱連骨骼兩端"
+          },
+          {
+            "en": "Cardiac: heart",
+            "zh": "Cardiac：心臟"
+          },
+          {
+            "en": "Smooth: digestive tract, blood vessels, urinary and reproductive systems",
+            "zh": "Smooth：消化道、血管、泌尿與生殖系統"
+          }
+        ],
+        "titleEn": "Muscle tissue",
+        "titleZh": "肌肉組織"
       },
       {
         "title": "Nervous Tissue",
         "bullets": [
-          "由 neurons（神經元）與 supporting cells 組成。",
-          "Neuron：產生與傳導電活動／神經訊號。"
-        ]
+          {
+            "en": "Made of neurons and supporting cells.",
+            "zh": "由 neurons（神經元）與 supporting cells 組成。"
+          },
+          {
+            "en": "Neuron: generates and conducts electrical activity / nerve signals.",
+            "zh": "Neuron：產生與傳導電活動／神經訊號。"
+          }
+        ],
+        "titleEn": "Nervous tissue",
+        "titleZh": "神經組織"
       },
       {
         "title": "Epithelial Tissue",
         "bullets": [
-          "上皮膜：單層（simple）或多層（stratified）；覆蓋體表、襯裡空腔。",
-          "Squamous：扁平，易擴散／過濾（微血管壁、肺泡、表皮）。",
-          "Cuboidal：立方形，分泌／吸收（腎小管、外分泌腺導管）。",
-          "Columnar：柱狀，常有微絨毛；吸收／分泌（消化道）。"
-        ]
+          {
+            "en": "Epithelial membranes: simple (one layer) or stratified (many layers); cover body surfaces and line cavities.",
+            "zh": "上皮膜：單層（simple）或多層（stratified）；覆蓋體表、襯裡空腔。"
+          },
+          {
+            "en": "Squamous: flat; easy diffusion/filtration (capillary walls, alveoli, epidermis).",
+            "zh": "Squamous：扁平，易擴散／過濾（微血管壁、肺泡、表皮）。"
+          },
+          {
+            "en": "Cuboidal: cube-shaped; secretion/absorption (renal tubules, exocrine ducts).",
+            "zh": "Cuboidal：立方形，分泌／吸收（腎小管、外分泌腺導管）。"
+          },
+          {
+            "en": "Columnar: column-shaped, often with microvilli; absorption/secretion (GI tract).",
+            "zh": "Columnar：柱狀，常有微絨毛；吸收／分泌（消化道）。"
+          }
+        ],
+        "titleEn": "Epithelial tissue",
+        "titleZh": "上皮組織"
       },
       {
         "title": "Connective Tissue",
         "bullets": [
-          "含細胞與大量細胞外基質。",
-          "Proper：疏鬆（如真皮）、緻密（腱、韌帶）。",
-          "Supporting：軟骨、骨。",
-          "Fluid：血液（plasma 基質）、脂肪組織。"
-        ]
+          {
+            "en": "Contains cells and abundant extracellular matrix.",
+            "zh": "含細胞與大量細胞外基質。"
+          },
+          {
+            "en": "Proper: loose (e.g. dermis), dense (tendons, ligaments).",
+            "zh": "Proper：疏鬆（如真皮）、緻密（腱、韌帶）。"
+          },
+          {
+            "en": "Supporting: cartilage, bone.",
+            "zh": "Supporting：軟骨、骨。"
+          },
+          {
+            "en": "Fluid: blood (plasma matrix), adipose tissue.",
+            "zh": "Fluid：血液（plasma 基質）、脂肪組織。"
+          }
+        ],
+        "titleEn": "Connective tissue",
+        "titleZh": "結締組織"
       },
       {
         "title": "主要器官系統（摘要）",
         "bullets": [
-          "循環（心血管＋淋巴）、呼吸、消化、泌尿、肌肉骨骼。",
-          "免疫、感覺、神經、內分泌、生殖、皮膚。"
-        ]
+          {
+            "en": "Circulatory (cardiovascular + lymphatic), respiratory, digestive, urinary, musculoskeletal.",
+            "zh": "循環（心血管＋淋巴）、呼吸、消化、泌尿、肌肉骨骼。"
+          },
+          {
+            "en": "Immune, sensory, nervous, endocrine, reproductive, integumentary.",
+            "zh": "免疫、感覺、神經、內分泌、生殖、皮膚。"
+          }
+        ],
+        "titleEn": "Major organ systems (summary)",
+        "titleZh": "主要器官系統（摘要）"
       },
       {
         "title": "與體內平衡",
         "bullets": [
-          "身體結構協同維持 homeostasis（體內平衡）。"
-        ]
+          {
+            "en": "Body structures work together to maintain homeostasis.",
+            "zh": "身體結構協同維持 homeostasis（體內平衡）。"
+          }
+        ],
+        "titleEn": "Link to homeostasis",
+        "titleZh": "與體內平衡"
       }
     ],
     "vocab": [
@@ -755,64 +1093,146 @@ window.HAZEL_GATES = [
       {
         "title": "Cell 細胞",
         "bullets": [
-          "生物的基本結構與功能單位。",
-          "可 macroscopic 或 microscopic。",
-          "分化細胞能執行專一功能。"
-        ]
+          {
+            "en": "Basic structural and functional unit of living things.",
+            "zh": "生物的基本結構與功能單位。"
+          },
+          {
+            "en": "May be macroscopic or microscopic.",
+            "zh": "可 macroscopic 或 microscopic。"
+          },
+          {
+            "en": "Differentiated cells can perform specialised functions.",
+            "zh": "分化細胞能執行專一功能。"
+          }
+        ],
+        "titleEn": "Cell",
+        "titleZh": "細胞"
       },
       {
         "title": "Cell Membrane／Plasma Membrane",
         "bullets": [
-          "覆蓋每個活細胞，包圍 cytoplasm。",
-          "分隔 extracellular 與 intracellular。",
-          "磷脂雙層（phospholipid bilayer）＋蛋白質（受體、運輸蛋白）。",
-          "維持完整性；控制物質進出。"
-        ]
+          {
+            "en": "Covers every living cell and encloses the cytoplasm.",
+            "zh": "覆蓋每個活細胞，包圍 cytoplasm。"
+          },
+          {
+            "en": "Separates extracellular from intracellular.",
+            "zh": "分隔 extracellular 與 intracellular。"
+          },
+          {
+            "en": "Phospholipid bilayer + proteins (receptors, transport proteins).",
+            "zh": "磷脂雙層（phospholipid bilayer）＋蛋白質（受體、運輸蛋白）。"
+          },
+          {
+            "en": "Maintains integrity; controls what enters and leaves.",
+            "zh": "維持完整性；控制物質進出。"
+          }
+        ],
+        "titleEn": "Cell membrane / plasma membrane",
+        "titleZh": "細胞膜／質膜"
       },
       {
         "title": "Fluid-mosaic model",
         "bullets": [
-          "磷脂雙層＋膽固醇；蛋白質「浮」於膜中。",
-          "親水頭朝外／朝胞質；疏水尾朝膜中央。"
-        ]
+          {
+            "en": "Phospholipid bilayer + cholesterol; proteins \"float\" in the membrane.",
+            "zh": "磷脂雙層＋膽固醇；蛋白質「浮」於膜中。"
+          },
+          {
+            "en": "Hydrophilic heads face out/cytosol; hydrophobic tails face the membrane centre.",
+            "zh": "親水頭朝外／朝胞質；疏水尾朝膜中央。"
+          }
+        ],
+        "titleEn": "Fluid-mosaic model",
+        "titleZh": "流動鑲嵌模型"
       },
       {
         "title": "Cytoplasm 與 Nucleus",
         "bullets": [
-          "Cytoplasm：膜與核之間膠狀物質；細胞器懸浮其中；材料可擴散。",
-          "Cytosol：細胞質的液體部分。",
-          "Nucleus：最大細胞器；含 DNA／染色體；控制中心；指導蛋白質合成。"
-        ]
+          {
+            "en": "Cytoplasm: gel between membrane and nucleus; organelles suspended; materials can diffuse.",
+            "zh": "Cytoplasm：膜與核之間膠狀物質；細胞器懸浮其中；材料可擴散。"
+          },
+          {
+            "en": "Cytosol: the liquid part of cytoplasm.",
+            "zh": "Cytosol：細胞質的液體部分。"
+          },
+          {
+            "en": "Nucleus: largest organelle; contains DNA/chromosomes; control centre; directs protein synthesis.",
+            "zh": "Nucleus：最大細胞器；含 DNA／染色體；控制中心；指導蛋白質合成。"
+          }
+        ],
+        "titleEn": "Cytoplasm & nucleus",
+        "titleZh": "細胞質與細胞核"
       },
       {
         "title": "Mitochondrion 粒線體",
         "bullets": [
-          "數量視能量需求。",
-          "雙膜：外膜平滑；內膜深褶。",
-          "功能：由食物分子釋放能量並轉為 ATP。"
-        ]
+          {
+            "en": "Number depends on energy demand.",
+            "zh": "數量視能量需求。"
+          },
+          {
+            "en": "Double membrane: smooth outer membrane; deeply folded inner membrane.",
+            "zh": "雙膜：外膜平滑；內膜深褶。"
+          },
+          {
+            "en": "Function: release energy from food molecules and convert it to ATP.",
+            "zh": "功能：由食物分子釋放能量並轉為 ATP。"
+          }
+        ],
+        "titleEn": "Mitochondrion",
+        "titleZh": "粒線體"
       },
       {
         "title": "ER 內質網",
         "bullets": [
-          "Rough ER：有 ribosomes；協助蛋白質合成。",
-          "Smooth ER：無 ribosomes；合成／代謝碳水、脂質等非蛋白物質。"
-        ]
+          {
+            "en": "Rough ER: has ribosomes; helps protein synthesis.",
+            "zh": "Rough ER：有 ribosomes；協助蛋白質合成。"
+          },
+          {
+            "en": "Smooth ER: no ribosomes; synthesises/metabolises carbohydrates, lipids and other non-protein substances.",
+            "zh": "Smooth ER：無 ribosomes；合成／代謝碳水、脂質等非蛋白物質。"
+          }
+        ],
+        "titleEn": "Endoplasmic reticulum (ER)",
+        "titleZh": "內質網"
       },
       {
         "title": "其他細胞器功能表",
         "bullets": [
-          "Ribosome：蛋白質合成",
-          "Golgi Complex：合成碳水、包裝分泌分子",
-          "Lysosome：消化外來分子及損耗細胞器",
-          "Nucleolus：製造 rRNA 給核糖體"
-        ]
+          {
+            "en": "Ribosome: protein synthesis",
+            "zh": "Ribosome：蛋白質合成"
+          },
+          {
+            "en": "Golgi complex: synthesises carbohydrates; packages molecules for secretion",
+            "zh": "Golgi Complex：合成碳水、包裝分泌分子"
+          },
+          {
+            "en": "Lysosome: digests foreign molecules and worn organelles",
+            "zh": "Lysosome：消化外來分子及損耗細胞器"
+          },
+          {
+            "en": "Nucleolus: makes rRNA for ribosomes",
+            "zh": "Nucleolus：製造 rRNA 給核糖體"
+          }
+        ],
+        "titleEn": "Other organelles — function table",
+        "titleZh": "其他細胞器功能表"
       },
       {
         "title": "小結",
         "bullets": [
-          "膜控制進出；質提供反應平台；核存遺傳資訊；粒線體產 ATP。"
-        ]
+          {
+            "en": "Membrane controls entry/exit; cytoplasm is a reaction platform; nucleus stores genetic information; mitochondria make ATP.",
+            "zh": "膜控制進出；質提供反應平台；核存遺傳資訊；粒線體產 ATP。"
+          }
+        ],
+        "titleEn": "Summary",
+        "titleZh": "小結"
       }
     ],
     "vocab": [
@@ -938,55 +1358,123 @@ window.HAZEL_GATES = [
       {
         "title": "Gene 基因",
         "bullets": [
-          "遺傳的功能單位；是 DNA 片段。",
-          "Heredity：性狀由親代傳至子代。",
-          "人類約 20,000 個基因；指示性狀與製造蛋白質。"
-        ]
+          {
+            "en": "Functional unit of heredity; a segment of DNA.",
+            "zh": "遺傳的功能單位；是 DNA 片段。"
+          },
+          {
+            "en": "Heredity: traits passed from parents to offspring.",
+            "zh": "Heredity：性狀由親代傳至子代。"
+          },
+          {
+            "en": "Humans have about 20,000 genes; they direct traits and protein production.",
+            "zh": "人類約 20,000 個基因；指示性狀與製造蛋白質。"
+          }
+        ],
+        "titleEn": "Gene",
+        "titleZh": "基因"
       },
       {
         "title": "Chromosomes 染色體",
         "bullets": [
-          "長串 DNA，纏繞 histones。",
-          "成對出現：23 對，共 46 條。"
-        ]
+          {
+            "en": "Long strands of DNA wound around histones.",
+            "zh": "長串 DNA，纏繞 histones。"
+          },
+          {
+            "en": "Appear in pairs: 23 pairs, 46 in total.",
+            "zh": "成對出現：23 對，共 46 條。"
+          }
+        ],
+        "titleEn": "Chromosomes",
+        "titleZh": "染色體"
       },
       {
         "title": "Gene expression",
         "bullets": [
-          "由 DNA 產生 RNA 及／或蛋白質的過程。",
-          "Transcription：DNA → RNA（細胞核）",
-          "Translation：RNA → Protein（細胞質核糖體）"
-        ]
+          {
+            "en": "Process of producing RNA and/or protein from DNA.",
+            "zh": "由 DNA 產生 RNA 及／或蛋白質的過程。"
+          },
+          {
+            "en": "Transcription: DNA → RNA (in the nucleus)",
+            "zh": "Transcription：DNA → RNA（細胞核）"
+          },
+          {
+            "en": "Translation: RNA → Protein (at cytoplasmic ribosomes)",
+            "zh": "Translation：RNA → Protein（細胞質核糖體）"
+          }
+        ],
+        "titleEn": "Gene expression",
+        "titleZh": "基因表達"
       },
       {
         "title": "DNA vs RNA",
         "bullets": [
-          "DNA：雙螺旋；鹼基配對 T–A、C–G；遺傳密碼。",
-          "RNA：單股；有 Uracil、無 Thymine；協助由 DNA 合成蛋白質。",
-          "真核：DNA 多在核；RNA 可在核內外。"
-        ]
+          {
+            "en": "DNA: double helix; base pairing T–A, C–G; genetic code.",
+            "zh": "DNA：雙螺旋；鹼基配對 T–A、C–G；遺傳密碼。"
+          },
+          {
+            "en": "RNA: single strand; has uracil, no thymine; helps synthesise protein from DNA.",
+            "zh": "RNA：單股；有 Uracil、無 Thymine；協助由 DNA 合成蛋白質。"
+          },
+          {
+            "en": "In eukaryotes: DNA mostly in the nucleus; RNA can be inside or outside the nucleus.",
+            "zh": "真核：DNA 多在核；RNA 可在核內外。"
+          }
+        ],
+        "titleEn": "DNA vs RNA",
+        "titleZh": "DNA 與 RNA"
       },
       {
         "title": "Protein Synthesis 步驟",
         "bullets": [
-          "Transcription：以 DNA 為模板造 mRNA；mRNA 經核孔到核糖體。",
-          "Translation：讀 mRNA 密碼，按序連接胺基酸成蛋白質。"
-        ]
+          {
+            "en": "Transcription: use DNA as template to make mRNA; mRNA goes through nuclear pores to ribosomes.",
+            "zh": "Transcription：以 DNA 為模板造 mRNA；mRNA 經核孔到核糖體。"
+          },
+          {
+            "en": "Translation: read mRNA codons and link amino acids in order to make a protein.",
+            "zh": "Translation：讀 mRNA 密碼，按序連接胺基酸成蛋白質。"
+          }
+        ],
+        "titleEn": "Protein synthesis steps",
+        "titleZh": "蛋白質合成步驟"
       },
       {
         "title": "基因表達調控",
         "bullets": [
-          "全身細胞 DNA 相同，但非所有基因都活躍。",
-          "分化時部分片段不活躍（如 Hb 基因在多數細胞不活躍）。",
-          "調節分子可增減轉錄；例：T3 激素增加特定基因轉錄。"
-        ]
+          {
+            "en": "All body cells have the same DNA, but not all genes are active.",
+            "zh": "全身細胞 DNA 相同，但非所有基因都活躍。"
+          },
+          {
+            "en": "During differentiation some segments are inactive (e.g. Hb genes inactive in most cells).",
+            "zh": "分化時部分片段不活躍（如 Hb 基因在多數細胞不活躍）。"
+          },
+          {
+            "en": "Regulatory molecules can increase or decrease transcription; e.g. T3 hormone increases transcription of certain genes.",
+            "zh": "調節分子可增減轉錄；例：T3 激素增加特定基因轉錄。"
+          }
+        ],
+        "titleEn": "Regulation of gene expression",
+        "titleZh": "基因表達調控"
       },
       {
         "title": "DNA Replication",
         "bullets": [
-          "Interphase 的 S phase：兩股分開作模板，合成互補股。",
-          "結果：兩條相同 DNA；各含一舊股＋一新股。"
-        ]
+          {
+            "en": "S phase of interphase: two strands separate as templates and synthesise complementary strands.",
+            "zh": "Interphase 的 S phase：兩股分開作模板，合成互補股。"
+          },
+          {
+            "en": "Result: two identical DNA molecules; each has one old strand + one new strand.",
+            "zh": "結果：兩條相同 DNA；各含一舊股＋一新股。"
+          }
+        ],
+        "titleEn": "DNA replication",
+        "titleZh": "DNA 複製"
       }
     ],
     "vocab": [
@@ -1112,51 +1600,107 @@ window.HAZEL_GATES = [
       {
         "title": "為何需要新細胞？",
         "bullets": [
-          "生長、發育、修復／替換、繁殖。",
-          "分裂前於 interphase 倍增質量與內容。"
-        ]
+          {
+            "en": "Growth, development, repair/replacement, reproduction.",
+            "zh": "生長、發育、修復／替換、繁殖。"
+          },
+          {
+            "en": "Before division, mass and contents double in interphase.",
+            "zh": "分裂前於 interphase 倍增質量與內容。"
+          }
+        ],
+        "titleEn": "Why new cells are needed",
+        "titleZh": "為何需要新細胞？"
       },
       {
         "title": "Mitosis 有絲分裂",
         "bullets": [
-          "產生遺傳上相同的細胞。",
-          "幾乎全身細胞（眼、皮膚、毛髮、肌肉等）。",
-          "用途：生長與修復。"
-        ]
+          {
+            "en": "Produces genetically identical cells.",
+            "zh": "產生遺傳上相同的細胞。"
+          },
+          {
+            "en": "Almost all body cells (eye, skin, hair, muscle, etc.).",
+            "zh": "幾乎全身細胞（眼、皮膚、毛髮、肌肉等）。"
+          },
+          {
+            "en": "Uses: growth and repair.",
+            "zh": "用途：生長與修復。"
+          }
+        ],
+        "titleEn": "Mitosis",
+        "titleZh": "有絲分裂"
       },
       {
         "title": "Meiosis 減數分裂",
         "bullets": [
-          "產生遺傳上不同、只含一半 DNA 的細胞。",
-          "用途：繁殖。"
-        ]
+          {
+            "en": "Produces genetically different cells with only half the DNA.",
+            "zh": "產生遺傳上不同、只含一半 DNA 的細胞。"
+          },
+          {
+            "en": "Use: reproduction.",
+            "zh": "用途：繁殖。"
+          }
+        ],
+        "titleEn": "Meiosis",
+        "titleZh": "減數分裂"
       },
       {
         "title": "有絲分裂階段名稱",
         "bullets": [
-          "DNA 複製／重複相關階段：Prophase、Metaphase、Anaphase、Telophase。"
-        ]
+          {
+            "en": "DNA replication / related stages: Prophase, Metaphase, Anaphase, Telophase.",
+            "zh": "DNA 複製／重複相關階段：Prophase、Metaphase、Anaphase、Telophase。"
+          }
+        ],
+        "titleEn": "Stages of mitosis",
+        "titleZh": "有絲分裂階段名稱"
       },
       {
         "title": "Apoptosis 細胞凋亡",
         "bullets": [
-          "自然、受調控的程序性細胞死亡。",
-          "控制組織細胞數量；胚胎去除多餘組織（如指間）。",
-          "清除受損、病毒感染、潛在癌細胞。"
-        ]
+          {
+            "en": "Natural, regulated programmed cell death.",
+            "zh": "自然、受調控的程序性細胞死亡。"
+          },
+          {
+            "en": "Controls tissue cell numbers; removes excess tissue in the embryo (e.g. between fingers).",
+            "zh": "控制組織細胞數量；胚胎去除多餘組織（如指間）。"
+          },
+          {
+            "en": "Clears damaged, virus-infected and potentially cancerous cells.",
+            "zh": "清除受損、病毒感染、潛在癌細胞。"
+          }
+        ],
+        "titleEn": "Apoptosis",
+        "titleZh": "細胞凋亡"
       },
       {
         "title": "Necrosis 細胞壞死",
         "bullets": [
-          "非自然死亡，例如因疾病或損傷。"
-        ]
+          {
+            "en": "Unnatural death, e.g. from disease or injury.",
+            "zh": "非自然死亡，例如因疾病或損傷。"
+          }
+        ],
+        "titleEn": "Necrosis",
+        "titleZh": "細胞壞死"
       },
       {
         "title": "凋亡機制摘要",
         "bullets": [
-          "特定基因編碼相關蛋白；部分蛋白由粒線體釋入胞質。",
-          "染色質濃縮碎裂 → 核碎裂 → 細胞碎裂 → 巨噬細胞吞噬。"
-        ]
+          {
+            "en": "Specific genes encode related proteins; some proteins are released from mitochondria into the cytosol.",
+            "zh": "特定基因編碼相關蛋白；部分蛋白由粒線體釋入胞質。"
+          },
+          {
+            "en": "Chromatin condenses and fragments → nuclear fragmentation → cell fragmentation → phagocytosis by macrophages.",
+            "zh": "染色質濃縮碎裂 → 核碎裂 → 細胞碎裂 → 巨噬細胞吞噬。"
+          }
+        ],
+        "titleEn": "Apoptosis mechanism summary",
+        "titleZh": "凋亡機制摘要"
       }
     ],
     "vocab": [
@@ -1276,47 +1820,104 @@ window.HAZEL_GATES = [
       {
         "title": "Metabolism 新陳代謝",
         "bullets": [
-          "活細胞內維持生命的一系列化學反應。",
-          "使生物能生長繁殖、維持結構、對環境反應。"
-        ]
+          {
+            "en": "A series of chemical reactions in living cells that sustain life.",
+            "zh": "活細胞內維持生命的一系列化學反應。"
+          },
+          {
+            "en": "Lets organisms grow and reproduce, maintain structure and respond to the environment.",
+            "zh": "使生物能生長繁殖、維持結構、對環境反應。"
+          }
+        ],
+        "titleEn": "Metabolism",
+        "titleZh": "新陳代謝"
       },
       {
         "title": "兩大類",
         "bullets": [
-          "Catabolism 分解代謝：分解食物成較簡單形式，提供能量與原料。",
-          "Anabolism 合成代謝：建造／修復身體；需要能量。"
-        ]
+          {
+            "en": "Catabolism: breaks food into simpler forms, providing energy and building blocks.",
+            "zh": "Catabolism 分解代謝：分解食物成較簡單形式，提供能量與原料。"
+          },
+          {
+            "en": "Anabolism: builds/repairs the body; requires energy.",
+            "zh": "Anabolism 合成代謝：建造／修復身體；需要能量。"
+          }
+        ],
+        "titleEn": "Two major types",
+        "titleZh": "兩大類"
       },
       {
         "title": "Catabolism 與 Glycolysis",
         "bullets": [
-          "Glycolysis 糖解：分解 glucose 供能（glyco＝糖，lysis＝分解）。",
-          "在 cytoplasm 進行；不需氧。",
-          "Glucose → pyruvic acid／pyruvate（3C）；淨得約 2 ATP；進入粒線體可再產更多能量。"
-        ]
+          {
+            "en": "Glycolysis: breaks down glucose for energy (glyco = sugar, lysis = breakdown).",
+            "zh": "Glycolysis 糖解：分解 glucose 供能（glyco＝糖，lysis＝分解）。"
+          },
+          {
+            "en": "Occurs in the cytoplasm; does not need oxygen.",
+            "zh": "在 cytoplasm 進行；不需氧。"
+          },
+          {
+            "en": "Glucose → pyruvic acid/pyruvate (3C); net ~2 ATP; entering mitochondria can yield more energy.",
+            "zh": "Glucose → pyruvic acid／pyruvate（3C）；淨得約 2 ATP；進入粒線體可再產更多能量。"
+          }
+        ],
+        "titleEn": "Catabolism & glycolysis",
+        "titleZh": "分解代謝與糖解"
       },
       {
         "title": "Anabolism 三階段概念",
         "bullets": [
-          "Stage 1：產生前驅物（胺基酸、單糖、核苷酸等）",
-          "Stage 2：消耗 ATP 把前驅物變成活化形式",
-          "Stage 3：組裝成複雜分子（蛋白質、多糖、脂質、核酸）",
-          "吃太多超過需要時，多餘養分常以脂肪儲存。"
-        ]
+          {
+            "en": "Stage 1: produce precursors (amino acids, monosaccharides, nucleotides, etc.)",
+            "zh": "Stage 1：產生前驅物（胺基酸、單糖、核苷酸等）"
+          },
+          {
+            "en": "Stage 2: use ATP to convert precursors into activated forms",
+            "zh": "Stage 2：消耗 ATP 把前驅物變成活化形式"
+          },
+          {
+            "en": "Stage 3: assemble into complex molecules (proteins, polysaccharides, lipids, nucleic acids)",
+            "zh": "Stage 3：組裝成複雜分子（蛋白質、多糖、脂質、核酸）"
+          },
+          {
+            "en": "When intake exceeds need, surplus nutrients are often stored as fat.",
+            "zh": "吃太多超過需要時，多餘養分常以脂肪儲存。"
+          }
+        ],
+        "titleEn": "Anabolism — three stages",
+        "titleZh": "合成代謝三階段"
       },
       {
         "title": "ATP 與代謝關係",
         "bullets": [
-          "分解代謝釋放能量，用於由 ADP＋Pi 形成 ATP。",
-          "合成代謝時 ATP → ADP，釋放能量驅動建造。"
-        ]
+          {
+            "en": "Catabolism releases energy used to form ATP from ADP + Pi.",
+            "zh": "分解代謝釋放能量，用於由 ADP＋Pi 形成 ATP。"
+          },
+          {
+            "en": "In anabolism, ATP → ADP, releasing energy to drive building.",
+            "zh": "合成代謝時 ATP → ADP，釋放能量驅動建造。"
+          }
+        ],
+        "titleEn": "ATP",
+        "titleZh": "與代謝關係"
       },
       {
         "title": "例子",
         "bullets": [
-          "Anabolism：骨礦化生長、肌肉量增加。",
-          "Catabolism：消化分解碳水／蛋白／脂肪。"
-        ]
+          {
+            "en": "Anabolism: bone mineralisation/growth, increased muscle mass.",
+            "zh": "Anabolism：骨礦化生長、肌肉量增加。"
+          },
+          {
+            "en": "Catabolism: digestion breaking down carbohydrates/proteins/fats.",
+            "zh": "Catabolism：消化分解碳水／蛋白／脂肪。"
+          }
+        ],
+        "titleEn": "Examples",
+        "titleZh": "例子"
       }
     ],
     "vocab": [
@@ -1436,65 +2037,150 @@ window.HAZEL_GATES = [
       {
         "title": "Enzymes 是甚麼？",
         "bullets": [
-          "生物催化劑：加快化學反應／代謝速率。",
-          "反應結束後本身不變；不改變反應本質或最終結果。",
-          "本質是蛋白質；催化來自複雜結構。",
-          "降低活化能（activation energy）。"
-        ]
+          {
+            "en": "Biological catalysts: speed up chemical reactions / metabolic rate.",
+            "zh": "生物催化劑：加快化學反應／代謝速率。"
+          },
+          {
+            "en": "Unchanged after the reaction; do not change the nature or final outcome of the reaction.",
+            "zh": "反應結束後本身不變；不改變反應本質或最終結果。"
+          },
+          {
+            "en": "Are proteins; catalysis comes from complex structure.",
+            "zh": "本質是蛋白質；催化來自複雜結構。"
+          },
+          {
+            "en": "Lower activation energy.",
+            "zh": "降低活化能（activation energy）。"
+          }
+        ],
+        "titleEn": "What are enzymes?",
+        "titleZh": "酵素是甚麼？"
       },
       {
         "title": "Active site、Substrate、Products",
         "bullets": [
-          "Active site：受質結合位置；具高度專一性。",
-          "Substrate：酵素催化反應的反應物。",
-          "Products：反應終產物。",
-          "Lock and key model：活性部位形狀配合特定受質。"
-        ]
+          {
+            "en": "Active site: where substrate binds; highly specific.",
+            "zh": "Active site：受質結合位置；具高度專一性。"
+          },
+          {
+            "en": "Substrate: reactant in an enzyme-catalysed reaction.",
+            "zh": "Substrate：酵素催化反應的反應物。"
+          },
+          {
+            "en": "Products: end products of the reaction.",
+            "zh": "Products：反應終產物。"
+          },
+          {
+            "en": "Lock and key model: active-site shape fits a specific substrate.",
+            "zh": "Lock and key model：活性部位形狀配合特定受質。"
+          }
+        ],
+        "titleEn": "Active site, substrate, products",
+        "titleZh": "活性部位、受質、產物"
       },
       {
         "title": "影響反應速率的因素",
         "bullets": [
-          "Temperature、pH、Enzyme concentration、Substrate concentration、Inhibitors／Activators。"
-        ]
+          {
+            "en": "Temperature、pH、Enzyme concentration、Substrate concentration、Inhibitors／Activators。",
+            "zh": "Temperature、pH、Enzyme concentration、Substrate concentration、Inhibitors／Activators。"
+          }
+        ],
+        "titleEn": "Factors affecting reaction rate",
+        "titleZh": "影響反應速率的因素"
       },
       {
         "title": "溫度與 pH",
         "bullets": [
-          "升溫起初加快反應；超過後酵素變性、速率下降。",
-          "多數酵素只在窄 pH 範圍活躍；pH optimum 常反映所在體液 pH。",
-          "極端 pH 會使酵素變性。"
-        ]
+          {
+            "en": "Warming first speeds the reaction; beyond that the enzyme denatures and rate falls.",
+            "zh": "升溫起初加快反應；超過後酵素變性、速率下降。"
+          },
+          {
+            "en": "Most enzymes are active only in a narrow pH range; pH optimum often matches the body fluid where they work.",
+            "zh": "多數酵素只在窄 pH 範圍活躍；pH optimum 常反映所在體液 pH。"
+          },
+          {
+            "en": "Extreme pH denatures enzymes.",
+            "zh": "極端 pH 會使酵素變性。"
+          }
+        ],
+        "titleEn": "pH",
+        "titleZh": "溫度與"
       },
       {
         "title": "飽和與激活",
         "bullets": [
-          "受質增加至某點後速率不再升 → enzyme saturated。",
-          "Zymogen：無活性前體，分泌後才激活（如胰臟消化酶在腸腔激活，保護胰細胞）。"
-        ]
+          {
+            "en": "After substrate rises to a point, rate stops rising → enzyme saturated.",
+            "zh": "受質增加至某點後速率不再升 → enzyme saturated。"
+          },
+          {
+            "en": "Zymogen: inactive precursor, activated after secretion (e.g. pancreatic digestive enzymes activated in the gut lumen, protecting pancreatic cells).",
+            "zh": "Zymogen：無活性前體，分泌後才激活（如胰臟消化酶在腸腔激活，保護胰細胞）。"
+          }
+        ],
+        "titleEn": "Saturation and activation",
+        "titleZh": "飽和與激活"
       },
       {
         "title": "Cofactor 與 Coenzyme",
         "bullets": [
-          "Cofactor：非蛋白分子，協助生化反應（如鐵、鋅）。",
-          "Coenzyme：有機輔因子（如維生素）；可作載體；較易移除。"
-        ]
+          {
+            "en": "Cofactor: non-protein molecule that helps biochemical reactions (e.g. iron, zinc).",
+            "zh": "Cofactor：非蛋白分子，協助生化反應（如鐵、鋅）。"
+          },
+          {
+            "en": "Coenzyme: organic cofactor (e.g. vitamins); can act as a carrier; easier to remove.",
+            "zh": "Coenzyme：有機輔因子（如維生素）；可作載體；較易移除。"
+          }
+        ],
+        "titleEn": "Cofactor & coenzyme",
+        "titleZh": "輔因子與輔酶"
       },
       {
         "title": "抑制劑",
         "bullets": [
-          "Competitive：形狀似受質，佔用 active site，阻擋受質。",
-          "Non-competitive／Allosteric：不佔 active site，改變活性部位形狀。"
-        ]
+          {
+            "en": "Competitive: shape like substrate, occupies active site, blocks substrate.",
+            "zh": "Competitive：形狀似受質，佔用 active site，阻擋受質。"
+          },
+          {
+            "en": "Non-competitive/Allosteric: does not occupy active site; changes active-site shape.",
+            "zh": "Non-competitive／Allosteric：不佔 active site，改變活性部位形狀。"
+          }
+        ],
+        "titleEn": "Inhibitors",
+        "titleZh": "抑制劑"
       },
       {
         "title": "消化相關酵素例子",
         "bullets": [
-          "Amylase：澱粉 → maltose／短鏈糖",
-          "Maltase：maltose → glucose＋glucose",
-          "Lipases：triglycerides → fatty acids＋glycerol",
-          "Lactase：lactose → glucose＋galactose",
-          "Trypsin：蛋白質／多肽 → peptides／amino acids"
-        ]
+          {
+            "en": "Amylase: starch → maltose / short-chain sugars",
+            "zh": "Amylase：澱粉 → maltose／短鏈糖"
+          },
+          {
+            "en": "Maltase：maltose → glucose＋glucose",
+            "zh": "Maltase：maltose → glucose＋glucose"
+          },
+          {
+            "en": "Lipases：triglycerides → fatty acids＋glycerol",
+            "zh": "Lipases：triglycerides → fatty acids＋glycerol"
+          },
+          {
+            "en": "Lactase：lactose → glucose＋galactose",
+            "zh": "Lactase：lactose → glucose＋galactose"
+          },
+          {
+            "en": "Trypsin: proteins/polypeptides → peptides / amino acids",
+            "zh": "Trypsin：蛋白質／多肽 → peptides／amino acids"
+          }
+        ],
+        "titleEn": "Digestive enzyme examples",
+        "titleZh": "消化相關酵素例子"
       }
     ],
     "vocab": [
@@ -1620,47 +2306,104 @@ window.HAZEL_GATES = [
       {
         "title": "Homeostasis 定義",
         "bullets": [
-          "生物自動保持體內穩定，同時對外在環境變化作出調整。",
-          "目的：使身體正常運作並存活。",
-          "Dynamic equilibrium：並非絕對恆定，而是在 set point 附近健康範圍波動。"
-        ]
+          {
+            "en": "Automatic maintenance of internal stability while adjusting to external changes.",
+            "zh": "生物自動保持體內穩定，同時對外在環境變化作出調整。"
+          },
+          {
+            "en": "Purpose: so the body can function normally and survive.",
+            "zh": "目的：使身體正常運作並存活。"
+          },
+          {
+            "en": "Dynamic equilibrium: not absolutely fixed, but fluctuates in a healthy range around a set point.",
+            "zh": "Dynamic equilibrium：並非絕對恆定，而是在 set point 附近健康範圍波動。"
+          }
+        ],
+        "titleEn": "Homeostasis — definition",
+        "titleZh": "體內平衡定義"
       },
       {
         "title": "三大元件",
         "bullets": [
-          "1. Receptor／Sensor 感受器",
-          "2. Control Center 控制中心",
-          "3. Effector 效應器"
-        ]
+          {
+            "en": "1. Receptor / Sensor",
+            "zh": "1. Receptor／Sensor 感受器"
+          },
+          {
+            "en": "2. Control Centre",
+            "zh": "2. Control Center 控制中心"
+          },
+          {
+            "en": "3. Effector",
+            "zh": "3. Effector 效應器"
+          }
+        ],
+        "titleEn": "Three components",
+        "titleZh": "三大元件"
       },
       {
         "title": "Negative Feedback 負回饋",
         "bullets": [
-          "系統反應與啟動變化相反；較常見。",
-          "減少過度反應，把變數維持在正常範圍。",
-          "維持體內平衡的主要機制。"
-        ]
+          {
+            "en": "System response opposes the change that started it; more common.",
+            "zh": "系統反應與啟動變化相反；較常見。"
+          },
+          {
+            "en": "Reduces overshoot and keeps variables in the normal range.",
+            "zh": "減少過度反應，把變數維持在正常範圍。"
+          },
+          {
+            "en": "Main mechanism for maintaining homeostasis.",
+            "zh": "維持體內平衡的主要機制。"
+          }
+        ],
+        "titleEn": "Negative feedback",
+        "titleZh": "負回饋"
       },
       {
         "title": "負回饋例子",
         "bullets": [
-          "體溫過高 → 出汗等 → 回到正常後停止反應。",
-          "血壓／血糖等亦可透過負回饋調節（筆記問答例子）。"
-        ]
+          {
+            "en": "Body temperature too high → sweating etc. → response stops when back to normal.",
+            "zh": "體溫過高 → 出汗等 → 回到正常後停止反應。"
+          },
+          {
+            "en": "Blood pressure / blood glucose etc. can also be regulated by negative feedback (examples in notes Q&A).",
+            "zh": "血壓／血糖等亦可透過負回饋調節（筆記問答例子）。"
+          }
+        ],
+        "titleEn": "Negative feedback examples",
+        "titleZh": "負回饋例子"
       },
       {
         "title": "Positive Feedback 正回饋",
         "bullets": [
-          "加強反應直至達到終點。",
-          "「快轉」機制：在實際需要前推動生理變數改變。"
-        ]
+          {
+            "en": "Amplifies the response until an endpoint is reached.",
+            "zh": "加強反應直至達到終點。"
+          },
+          {
+            "en": "\"Fast-forward\" mechanism: drives a physiological variable change before it is fully needed.",
+            "zh": "「快轉」機制：在實際需要前推動生理變數改變。"
+          }
+        ],
+        "titleEn": "Positive feedback",
+        "titleZh": "正回饋"
       },
       {
         "title": "回饋迴路流程",
         "bullets": [
-          "感受器偵測偏離 → 通知控制中心 → 調節效應器 → 回到 set point。",
-          "負回饋：回到 set point 後停止該反應。"
-        ]
+          {
+            "en": "Receptor detects deviation → notifies control centre → adjusts effector → returns toward set point.",
+            "zh": "感受器偵測偏離 → 通知控制中心 → 調節效應器 → 回到 set point。"
+          },
+          {
+            "en": "Negative feedback: response stops once back at the set point.",
+            "zh": "負回饋：回到 set point 後停止該反應。"
+          }
+        ],
+        "titleEn": "Feedback loop pathway",
+        "titleZh": "回饋迴路流程"
       }
     ],
     "vocab": [
@@ -1769,55 +2512,123 @@ window.HAZEL_GATES = [
       {
         "title": "Membrane transport 概論",
         "bullets": [
-          "物質進出細胞，穿越細胞膜。",
-          "膜為 semi-permeable／selectively permeable。",
-          "脂質雙層為框架。",
-          "Passive：不需能量；Active：需 ATP。"
-        ]
+          {
+            "en": "Movement of substances into/out of the cell across the cell membrane.",
+            "zh": "物質進出細胞，穿越細胞膜。"
+          },
+          {
+            "en": "Membrane is semi-permeable / selectively permeable.",
+            "zh": "膜為 semi-permeable／selectively permeable。"
+          },
+          {
+            "en": "Lipid bilayer is the framework.",
+            "zh": "脂質雙層為框架。"
+          },
+          {
+            "en": "Passive: no energy needed; Active: needs ATP.",
+            "zh": "Passive：不需能量；Active：需 ATP。"
+          }
+        ],
+        "titleEn": "Membrane transport overview",
+        "titleZh": "跨膜運輸概論"
       },
       {
         "title": "Passive 三類",
         "bullets": [
-          "1. Diffusion",
-          "2. Facilitated Diffusion",
-          "3. Osmosis"
-        ]
+          {
+            "en": "1. Diffusion",
+            "zh": "1. Diffusion"
+          },
+          {
+            "en": "2. Facilitated Diffusion",
+            "zh": "2. Facilitated Diffusion"
+          },
+          {
+            "en": "3. Osmosis",
+            "zh": "3. Osmosis"
+          }
+        ],
+        "titleEn": "Three types of passive transport",
+        "titleZh": "被動運輸三類"
       },
       {
         "title": "Diffusion 擴散",
         "bullets": [
-          "淨移動：高濃度 → 低濃度（順濃度梯度）。",
-          "粒子趨向均勻分布；達平衡後無淨擴散。"
-        ]
+          {
+            "en": "Net movement: high concentration → low concentration (down the gradient).",
+            "zh": "淨移動：高濃度 → 低濃度（順濃度梯度）。"
+          },
+          {
+            "en": "Particles tend toward even distribution; no net diffusion after equilibrium.",
+            "zh": "粒子趨向均勻分布；達平衡後無淨擴散。"
+          }
+        ],
+        "titleEn": "Diffusion",
+        "titleZh": "擴散"
       },
       {
         "title": "Simple vs Facilitated",
         "bullets": [
-          "Simple diffusion：非極性、脂溶物質直接穿脂質雙層（如肺泡 O₂、CO₂）。",
-          "Facilitated：水溶性經通道／載體蛋白（如離子、glucose、amino acids）。"
-        ]
+          {
+            "en": "Simple diffusion: non-polar, lipid-soluble substances cross the bilayer directly (e.g. O₂, CO₂ in alveoli).",
+            "zh": "Simple diffusion：非極性、脂溶物質直接穿脂質雙層（如肺泡 O₂、CO₂）。"
+          },
+          {
+            "en": "Facilitated: water-soluble via channels/carriers (e.g. ions, glucose, amino acids).",
+            "zh": "Facilitated：水溶性經通道／載體蛋白（如離子、glucose、amino acids）。"
+          }
+        ],
+        "titleEn": "Simple vs facilitated diffusion",
+        "titleZh": "簡單擴散 vs 協助擴散"
       },
       {
         "title": "Osmosis 滲透",
         "bullets": [
-          "水分子經半透膜：由高水勢（低溶質）→ 低水勢（高溶質）。",
-          "通常伴隨體積改變。",
-          "例子：腎小管重吸收水、腸道吸收水。"
-        ]
+          {
+            "en": "Water across a semi-permeable membrane: high water potential (low solute) → low water potential (high solute).",
+            "zh": "水分子經半透膜：由高水勢（低溶質）→ 低水勢（高溶質）。"
+          },
+          {
+            "en": "Usually accompanied by volume change.",
+            "zh": "通常伴隨體積改變。"
+          },
+          {
+            "en": "Examples: water reabsorption in renal tubules; water absorption in the gut.",
+            "zh": "例子：腎小管重吸收水、腸道吸收水。"
+          }
+        ],
+        "titleEn": "Osmosis",
+        "titleZh": "滲透"
       },
       {
         "title": "滲透與 RBC 形狀",
         "bullets": [
-          "Hypotonic（外低溶質）：水入細胞 → 脹硬（endosmosis）。",
-          "Hypertonic（外高溶質）：水出細胞 → 萎軟（exosmosis）。",
-          "Isotonic：體積相對穩定。"
-        ]
+          {
+            "en": "Hypotonic (low external solute): water enters cell → swells (endosmosis).",
+            "zh": "Hypotonic（外低溶質）：水入細胞 → 脹硬（endosmosis）。"
+          },
+          {
+            "en": "Hypertonic (high external solute): water leaves cell → shrinks (exosmosis).",
+            "zh": "Hypertonic（外高溶質）：水出細胞 → 萎軟（exosmosis）。"
+          },
+          {
+            "en": "Isotonic: volume relatively stable.",
+            "zh": "Isotonic：體積相對穩定。"
+          }
+        ],
+        "titleEn": "RBC 形狀",
+        "titleZh": "滲透與"
       },
       {
         "title": "Osmotic pressure",
         "bullets": [
-          "阻止水經膜滲透擴散所需的壓力。"
-        ]
+          {
+            "en": "Pressure needed to stop osmotic diffusion of water across a membrane.",
+            "zh": "阻止水經膜滲透擴散所需的壓力。"
+          }
+        ],
+        "titleEn": "Osmotic pressure",
+        "titleZh": "滲透壓"
       }
     ],
     "vocab": [
@@ -1943,60 +2754,130 @@ window.HAZEL_GATES = [
       {
         "title": "Active Transport 定義",
         "bullets": [
-          "分子由低濃度 → 高濃度（逆梯度），需外部能量。"
-        ]
+          {
+            "en": "Molecules move from low → high concentration (against gradient); needs external energy.",
+            "zh": "分子由低濃度 → 高濃度（逆梯度），需外部能量。"
+          }
+        ],
+        "titleEn": "Active transport — definition",
+        "titleZh": "主動運輸定義"
       },
       {
         "title": "主要類型",
         "bullets": [
-          "Primary：直接用 ATP 泵分子。",
-          "Secondary：利用其他離子電化學梯度（常由初級泵建立）。",
-          "Vesicular：Endocytosis／Exocytosis。"
-        ]
+          {
+            "en": "Primary: uses ATP directly to pump molecules.",
+            "zh": "Primary：直接用 ATP 泵分子。"
+          },
+          {
+            "en": "Secondary: uses electrochemical gradients of other ions (often set up by primary pumps).",
+            "zh": "Secondary：利用其他離子電化學梯度（常由初級泵建立）。"
+          },
+          {
+            "en": "Vesicular：Endocytosis／Exocytosis。",
+            "zh": "Vesicular：Endocytosis／Exocytosis。"
+          }
+        ],
+        "titleEn": "Main types",
+        "titleZh": "主要類型"
       },
       {
         "title": "Primary Active Transport",
         "bullets": [
-          "ATP 水解供能：ATP＋H₂O → ADP＋Pi＋Energy。",
-          "例子：Sodium-potassium pump；運送 Na⁺、K⁺、Ca²⁺ 等。"
-        ]
+          {
+            "en": "ATP hydrolysis supplies energy: ATP + H₂O → ADP + Pi + Energy.",
+            "zh": "ATP 水解供能：ATP＋H₂O → ADP＋Pi＋Energy。"
+          },
+          {
+            "en": "Examples: sodium-potassium pump; transports Na⁺, K⁺, Ca²⁺, etc.",
+            "zh": "例子：Sodium-potassium pump；運送 Na⁺、K⁺、Ca²⁺ 等。"
+          }
+        ],
+        "titleEn": "Primary active transport",
+        "titleZh": "初級主動運輸"
       },
       {
         "title": "Secondary Active Transport",
         "bullets": [
-          "能量來源：膜兩側離子（常為 Na⁺）濃度差。",
-          "Symport／Antiport。",
-          "例子：小腸與腎的 Sodium-Glucose transporters。"
-        ]
+          {
+            "en": "Energy source: ion concentration difference across the membrane (often Na⁺).",
+            "zh": "能量來源：膜兩側離子（常為 Na⁺）濃度差。"
+          },
+          {
+            "en": "Symport／Antiport。",
+            "zh": "Symport／Antiport。"
+          },
+          {
+            "en": "Examples: sodium-glucose transporters in small intestine and kidney.",
+            "zh": "例子：小腸與腎的 Sodium-Glucose transporters。"
+          }
+        ],
+        "titleEn": "Secondary active transport",
+        "titleZh": "次級主動運輸"
       },
       {
         "title": "初級 vs 次級（對照）",
         "bullets": [
-          "初級：直接用 ATP；可運一種或多種物質。",
-          "次級：不用直接 ATP，而用離子梯度；通常同時運超過一種物質。"
-        ]
+          {
+            "en": "Primary: uses ATP directly; can move one or more substances.",
+            "zh": "初級：直接用 ATP；可運一種或多種物質。"
+          },
+          {
+            "en": "Secondary: no direct ATP; uses ion gradients; usually moves more than one substance at once.",
+            "zh": "次級：不用直接 ATP，而用離子梯度；通常同時運超過一種物質。"
+          }
+        ],
+        "titleEn": "vs 次級（對照）",
+        "titleZh": "初級"
       },
       {
         "title": "Vesicular Transport",
         "bullets": [
-          "Endocytosis 胞吞：膜吞入大粒子／液體；Phagocytosis 吞固體（如 WBC 食細菌）。",
-          "Exocytosis 胞吐：囊泡與膜融合釋出內容（如神經遞質）。",
-          "兩者皆屬主動過程。"
-        ]
+          {
+            "en": "Endocytosis: membrane engulfs large particles/fluid; Phagocytosis engulfs solids (e.g. WBC eating bacteria).",
+            "zh": "Endocytosis 胞吞：膜吞入大粒子／液體；Phagocytosis 吞固體（如 WBC 食細菌）。"
+          },
+          {
+            "en": "Exocytosis: vesicle fuses with membrane to release contents (e.g. neurotransmitters).",
+            "zh": "Exocytosis 胞吐：囊泡與膜融合釋出內容（如神經遞質）。"
+          },
+          {
+            "en": "Both are active processes.",
+            "zh": "兩者皆屬主動過程。"
+          }
+        ],
+        "titleEn": "Vesicular transport",
+        "titleZh": "囊泡運輸"
       },
       {
         "title": "影響主動運輸速率",
         "bullets": [
-          "濃度差愈大，需能愈多。",
-          "ATP 不足會降低速率。"
-        ]
+          {
+            "en": "Larger concentration difference → more energy needed.",
+            "zh": "濃度差愈大，需能愈多。"
+          },
+          {
+            "en": "Insufficient ATP lowers the rate.",
+            "zh": "ATP 不足會降低速率。"
+          }
+        ],
+        "titleEn": "Factors affecting active transport rate",
+        "titleZh": "影響主動運輸速率"
       },
       {
         "title": "張力溫習",
         "bullets": [
-          "Hypotonic／Isotonic／Hypertonic 影響 RBC 形狀（見上一關）。",
-          "臨床與護理常需理解溶液張力對細胞的影響。"
-        ]
+          {
+            "en": "Hypotonic / Isotonic / Hypertonic affect RBC shape (see previous gate).",
+            "zh": "Hypotonic／Isotonic／Hypertonic 影響 RBC 形狀（見上一關）。"
+          },
+          {
+            "en": "Clinically and in nursing it is important to understand how solution tonicity affects cells.",
+            "zh": "臨床與護理常需理解溶液張力對細胞的影響。"
+          }
+        ],
+        "titleEn": "Tonicity review",
+        "titleZh": "張力溫習"
       }
     ],
     "vocab": [
@@ -2122,53 +3003,115 @@ window.HAZEL_GATES = [
       {
         "title": "Cardiovascular system 組成",
         "bullets": [
-          "Heart：肌肉泵，推動血液。",
-          "血管網絡＋血液：封閉系統，經 arteries、veins、capillaries 不停循環。"
-        ]
+          {
+            "en": "Heart: muscular pump that drives blood.",
+            "zh": "Heart：肌肉泵，推動血液。"
+          },
+          {
+            "en": "Vessel network + blood: closed system circulating continuously via arteries, veins, capillaries.",
+            "zh": "血管網絡＋血液：封閉系統，經 arteries、veins、capillaries 不停循環。"
+          }
+        ],
+        "titleEn": "Cardiovascular system composition",
+        "titleZh": "心血管系統組成"
       },
       {
         "title": "兩大循環概覽",
         "bullets": [
-          "Pulmonary circulation 肺循環：右心 → 肺 → 左心。",
-          "Systemic circulation 體循環：左心 → 全身組織 → 右心。"
-        ]
+          {
+            "en": "Pulmonary circulation: right heart → lungs → left heart.",
+            "zh": "Pulmonary circulation 肺循環：右心 → 肺 → 左心。"
+          },
+          {
+            "en": "Systemic circulation: left heart → body tissues → right heart.",
+            "zh": "Systemic circulation 體循環：左心 → 全身組織 → 右心。"
+          }
+        ],
+        "titleEn": "Two major circuits overview",
+        "titleZh": "兩大循環概覽"
       },
       {
         "title": "CVS 功能 1：運輸",
         "bullets": [
-          "由 RBC 等運送 O₂／CO₂、養分、代謝廢物。"
-        ]
+          {
+            "en": "Transports O₂/CO₂, nutrients and metabolic wastes via RBCs etc.",
+            "zh": "由 RBC 等運送 O₂／CO₂、養分、代謝廢物。"
+          }
+        ],
+        "titleEn": "CVS",
+        "titleZh": "功能 1：運輸"
       },
       {
         "title": "CVS 功能 2：調節",
         "bullets": [
-          "激素與熱；體溫調節時血管收縮／舒張。",
-          "Vasoconstriction：近皮血管收窄保暖。",
-          "Vasodilation：近皮血管擴張散熱。",
-          "下視丘如體溫調節器。"
-        ]
+          {
+            "en": "Hormones and heat; vessels constrict/dilate for temperature regulation.",
+            "zh": "激素與熱；體溫調節時血管收縮／舒張。"
+          },
+          {
+            "en": "Vasoconstriction: near-skin vessels narrow to conserve heat.",
+            "zh": "Vasoconstriction：近皮血管收窄保暖。"
+          },
+          {
+            "en": "Vasodilation: near-skin vessels widen to lose heat.",
+            "zh": "Vasodilation：近皮血管擴張散熱。"
+          },
+          {
+            "en": "Hypothalamus acts like a thermostat.",
+            "zh": "下視丘如體溫調節器。"
+          }
+        ],
+        "titleEn": "CVS",
+        "titleZh": "功能 2：調節"
       },
       {
         "title": "CVS 功能 3：保護",
         "bullets": [
-          "Clotting（血小板）：防失血。",
-          "Immune（WBC）：防病原體。"
-        ]
+          {
+            "en": "Clotting (platelets): prevents blood loss.",
+            "zh": "Clotting（血小板）：防失血。"
+          },
+          {
+            "en": "Immune (WBC): defends against pathogens.",
+            "zh": "Immune（WBC）：防病原體。"
+          }
+        ],
+        "titleEn": "CVS",
+        "titleZh": "功能 3：保護"
       },
       {
         "title": "血液量與組成",
         "bullets": [
-          "成人循環血量約近 5 L（視體型）。",
-          "Plasma 血漿約 55%；Blood cells 約 45%。",
-          "細胞：Erythrocytes、Leukocytes、Platelets。"
-        ]
+          {
+            "en": "Adult circulating blood volume ~5 L (depends on body size).",
+            "zh": "成人循環血量約近 5 L（視體型）。"
+          },
+          {
+            "en": "Plasma ~55%; blood cells ~45%.",
+            "zh": "Plasma 血漿約 55%；Blood cells 約 45%。"
+          },
+          {
+            "en": "Cells: erythrocytes, leukocytes, platelets.",
+            "zh": "細胞：Erythrocytes、Leukocytes、Platelets。"
+          }
+        ],
+        "titleEn": "Blood volume and composition",
+        "titleZh": "血液量與組成"
       },
       {
         "title": "Plasma 內容",
         "bullets": [
-          "水；plasma proteins（albumins、globulins、fibrinogen）；養分；廢物（如 urea）；激素；離子；酵素；抗體。",
-          "Serum 血清：不含 fibrinogen 及其他凝血蛋白的 plasma。"
-        ]
+          {
+            "en": "Water; plasma proteins (albumins, globulins, fibrinogen); nutrients; wastes (e.g. urea); hormones; ions; enzymes; antibodies.",
+            "zh": "水；plasma proteins（albumins、globulins、fibrinogen）；養分；廢物（如 urea）；激素；離子；酵素；抗體。"
+          },
+          {
+            "en": "Serum: plasma without fibrinogen and other clotting proteins.",
+            "zh": "Serum 血清：不含 fibrinogen 及其他凝血蛋白的 plasma。"
+          }
+        ],
+        "titleEn": "Plasma contents",
+        "titleZh": "血漿內容"
       }
     ],
     "vocab": [
@@ -2294,44 +3237,92 @@ window.HAZEL_GATES = [
       {
         "title": "Erythrocytes 紅血球",
         "bullets": [
-          "含 haemoglobin（Hb）血紅素；使血呈紅色。",
-          "運 O₂ 至組織，交換 CO₂（氣體交換）。",
-          "雙凹盤形 → 增加氣體交換表面積。"
-        ]
+          {
+            "en": "Contain haemoglobin (Hb); make blood red.",
+            "zh": "含 haemoglobin（Hb）血紅素；使血呈紅色。"
+          },
+          {
+            "en": "Carry O₂ to tissues and exchange CO₂ (gas exchange).",
+            "zh": "運 O₂ 至組織，交換 CO₂（氣體交換）。"
+          },
+          {
+            "en": "Biconcave disc → increases surface area for gas exchange.",
+            "zh": "雙凹盤形 → 增加氣體交換表面積。"
+          }
+        ],
+        "titleEn": "Erythrocytes",
+        "titleZh": "紅血球"
       },
       {
         "title": "Haemoglobin 結構概念",
         "bullets": [
-          "四個亞基，各有 globin＋heme。",
-          "兩個 α、兩個 β globins。",
-          "每個 heme 中央有一個鐵原子（Fe）；氧結合於 heme。"
-        ]
+          {
+            "en": "Four subunits, each with globin + heme.",
+            "zh": "四個亞基，各有 globin＋heme。"
+          },
+          {
+            "en": "Two α and two β globins.",
+            "zh": "兩個 α、兩個 β globins。"
+          },
+          {
+            "en": "Each heme has a central iron atom (Fe); oxygen binds to heme.",
+            "zh": "每個 heme 中央有一個鐵原子（Fe）；氧結合於 heme。"
+          }
+        ],
+        "titleEn": "Haemoglobin structure",
+        "titleZh": "血紅素結構概念"
       },
       {
         "title": "Leukocytes 白血球",
         "bullets": [
-          "功能：對抗感染、保護。",
-          "類型例子：neutrophil、eosinophil、basophil、lymphocyte、monocyte／macrophage。"
-        ]
+          {
+            "en": "Function: fight infection and protect.",
+            "zh": "功能：對抗感染、保護。"
+          },
+          {
+            "en": "Type examples: neutrophil, eosinophil, basophil, lymphocyte, monocyte/macrophage.",
+            "zh": "類型例子：neutrophil、eosinophil、basophil、lymphocyte、monocyte／macrophage。"
+          }
+        ],
+        "titleEn": "Leukocytes",
+        "titleZh": "白血球"
       },
       {
         "title": "Platelets 血小板",
         "bullets": [
-          "最小血細胞；亦稱 thrombocytes。",
-          "凝血：聚集止血（hemostasis）。"
-        ]
+          {
+            "en": "Smallest blood cells; also called thrombocytes.",
+            "zh": "最小血細胞；亦稱 thrombocytes。"
+          },
+          {
+            "en": "Clotting: aggregate to stop bleeding (haemostasis).",
+            "zh": "凝血：聚集止血（hemostasis）。"
+          }
+        ],
+        "titleEn": "Platelets",
+        "titleZh": "血小板"
       },
       {
         "title": "血塊概念",
         "bullets": [
-          "血塊含 fibrin，困住 RBC、血小板與液體。"
-        ]
+          {
+            "en": "A clot contains fibrin trapping RBCs, platelets and fluid.",
+            "zh": "血塊含 fibrin，困住 RBC、血小板與液體。"
+          }
+        ],
+        "titleEn": "Blood clot concept",
+        "titleZh": "血塊概念"
       },
       {
         "title": "對照記憶",
         "bullets": [
-          "RBC：運氣體；WBC：免疫；Platelets：止血。"
-        ]
+          {
+            "en": "RBC: gas transport; WBC: immunity; Platelets: haemostasis.",
+            "zh": "RBC：運氣體；WBC：免疫；Platelets：止血。"
+          }
+        ],
+        "titleEn": "Comparison memory aid",
+        "titleZh": "對照記憶"
       }
     ],
     "vocab": [
@@ -2446,63 +3437,142 @@ window.HAZEL_GATES = [
       {
         "title": "心臟位置與外形",
         "bullets": [
-          "約拳頭大小；中空錐形。",
-          "約第 2–5 肋之間；膈上、胸骨後（下縱隔）。",
-          "約 1/3 在中線右、2/3 在左。",
-          "Base 朝右肩約第 2 肋下；Apex 朝左髖約第 5 肋間。"
-        ]
+          {
+            "en": "About fist-sized; hollow cone shape.",
+            "zh": "約拳頭大小；中空錐形。"
+          },
+          {
+            "en": "Between about ribs 2–5; above the diaphragm, behind the sternum (inferior mediastinum).",
+            "zh": "約第 2–5 肋之間；膈上、胸骨後（下縱隔）。"
+          },
+          {
+            "en": "About 1/3 to the right of midline, 2/3 to the left.",
+            "zh": "約 1/3 在中線右、2/3 在左。"
+          },
+          {
+            "en": "Base toward right shoulder ~below rib 2; Apex toward left hip ~5th intercostal space.",
+            "zh": "Base 朝右肩約第 2 肋下；Apex 朝左髖約第 5 肋間。"
+          }
+        ],
+        "titleEn": "Heart location and shape",
+        "titleZh": "心臟位置與外形"
       },
       {
         "title": "心臟功能",
         "bullets": [
-          "接收缺氧血與代謝廢物送往肺氧合。",
-          "泵出含氧血、養分、激素至全身。",
-          "維持循環並調節血壓。"
-        ]
+          {
+            "en": "Receives deoxygenated blood and metabolic wastes and sends them to the lungs for oxygenation.",
+            "zh": "接收缺氧血與代謝廢物送往肺氧合。"
+          },
+          {
+            "en": "Pumps oxygenated blood, nutrients and hormones to the whole body.",
+            "zh": "泵出含氧血、養分、激素至全身。"
+          },
+          {
+            "en": "Maintains circulation and helps regulate blood pressure.",
+            "zh": "維持循環並調節血壓。"
+          }
+        ],
+        "titleEn": "Heart functions",
+        "titleZh": "心臟功能"
       },
       {
         "title": "Pericardium 心包",
         "bullets": [
-          "雙層閉合囊保護心臟。",
-          "Fibrous：堅韌外層；防過度擴張；固定於縱隔。",
-          "Serous：內層；減少摩擦。"
-        ]
+          {
+            "en": "Double-layered closed sac protecting the heart.",
+            "zh": "雙層閉合囊保護心臟。"
+          },
+          {
+            "en": "Fibrous: tough outer layer; prevents over-expansion; anchored in the mediastinum.",
+            "zh": "Fibrous：堅韌外層；防過度擴張；固定於縱隔。"
+          },
+          {
+            "en": "Serous: inner layer; reduces friction.",
+            "zh": "Serous：內層；減少摩擦。"
+          }
+        ],
+        "titleEn": "Pericardium",
+        "titleZh": "心包"
       },
       {
         "title": "心壁三層",
         "bullets": [
-          "Epicardium 心外膜（外）",
-          "Myocardium 心肌層（中；泵血）",
-          "Endocardium 心內膜（內皮襯裡）"
-        ]
+          {
+            "en": "Epicardium (outer)",
+            "zh": "Epicardium 心外膜（外）"
+          },
+          {
+            "en": "Myocardium (middle; pumps blood)",
+            "zh": "Myocardium 心肌層（中；泵血）"
+          },
+          {
+            "en": "Endocardium (inner endothelial lining)",
+            "zh": "Endocardium 心內膜（內皮襯裡）"
+          }
+        ],
+        "titleEn": "Three layers of the heart wall",
+        "titleZh": "心壁三層"
       },
       {
         "title": "四腔",
         "bullets": [
-          "上腔接收：Right atrium、Left atrium",
-          "下腔泵出：Right ventricle、Left ventricle"
-        ]
+          {
+            "en": "Receiving chambers above: right atrium, left atrium",
+            "zh": "上腔接收：Right atrium、Left atrium"
+          },
+          {
+            "en": "Pumping chambers below: right ventricle, left ventricle",
+            "zh": "下腔泵出：Right ventricle、Left ventricle"
+          }
+        ],
+        "titleEn": "Four chambers",
+        "titleZh": "四腔"
       },
       {
         "title": "瓣膜功能",
         "bullets": [
-          "保證血液單向流動；防止回流。",
-          "記憶：Artery＝離開心臟；Vein＝回心臟。"
-        ]
+          {
+            "en": "Ensure one-way blood flow; prevent backflow.",
+            "zh": "保證血液單向流動；防止回流。"
+          },
+          {
+            "en": "Memory: artery = away from heart; vein = toward heart.",
+            "zh": "記憶：Artery＝離開心臟；Vein＝回心臟。"
+          }
+        ],
+        "titleEn": "Valve functions",
+        "titleZh": "瓣膜功能"
       },
       {
         "title": "AV valves 概念",
         "bullets": [
-          "房室瓣位於心房與心室之間（筆記圖示 AV valves）。",
-          "右：tricuspid；左：mitral／bicuspid（於循環路徑中出現）。"
-        ]
+          {
+            "en": "AV valves sit between atria and ventricles (AV valves in notes diagrams).",
+            "zh": "房室瓣位於心房與心室之間（筆記圖示 AV valves）。"
+          },
+          {
+            "en": "Right: tricuspid; left: mitral/bicuspid (appear along the circulation path).",
+            "zh": "右：tricuspid；左：mitral／bicuspid（於循環路徑中出現）。"
+          }
+        ],
+        "titleEn": "AV valves",
+        "titleZh": "房室瓣概念"
       },
       {
         "title": "記憶口訣",
         "bullets": [
-          "Vena cava＝靜脈回心；Pulmonary＝與肺相關。",
-          "結構服務功能：接收→泵出→單向瓣膜。"
-        ]
+          {
+            "en": "Vena cava = veins returning to the heart; Pulmonary = related to the lungs.",
+            "zh": "Vena cava＝靜脈回心；Pulmonary＝與肺相關。"
+          },
+          {
+            "en": "Structure serves function: receive → pump out → one-way valves.",
+            "zh": "結構服務功能：接收→泵出→單向瓣膜。"
+          }
+        ],
+        "titleEn": "Memory tips",
+        "titleZh": "記憶口訣"
       }
     ],
     "vocab": [
@@ -2628,55 +3698,123 @@ window.HAZEL_GATES = [
       {
         "title": "四類循環名稱",
         "bullets": [
-          "Pulmonary 肺循環",
-          "Systemic 體循環",
-          "Coronary 冠狀循環",
-          "Portal 肝門循環（筆記列出）"
-        ]
+          {
+            "en": "Pulmonary circulation",
+            "zh": "Pulmonary 肺循環"
+          },
+          {
+            "en": "Systemic circulation",
+            "zh": "Systemic 體循環"
+          },
+          {
+            "en": "Coronary circulation",
+            "zh": "Coronary 冠狀循環"
+          },
+          {
+            "en": "Portal (hepatic) circulation (listed in notes)",
+            "zh": "Portal 肝門循環（筆記列出）"
+          }
+        ],
+        "titleEn": "Four circulation names",
+        "titleZh": "四類循環名稱"
       },
       {
         "title": "肺循環路徑",
         "bullets": [
-          "RA → tricuspid → RV → pulmonary semilunar → pulmonary trunk／arteries → lungs → pulmonary veins → LA → mitral → LV",
-          "攜帶缺氧血由右心到肺；攜帶含氧血回左心。",
-          "注意：肺動脈攜帶缺氧血（例外）。"
-        ]
+          {
+            "en": "RA → tricuspid → RV → pulmonary semilunar → pulmonary trunk／arteries → lungs → pulmonary veins → LA → mitral → LV",
+            "zh": "RA → tricuspid → RV → pulmonary semilunar → pulmonary trunk／arteries → lungs → pulmonary veins → LA → mitral → LV"
+          },
+          {
+            "en": "Carries deoxygenated blood from right heart to lungs; carries oxygenated blood back to left heart.",
+            "zh": "攜帶缺氧血由右心到肺；攜帶含氧血回左心。"
+          },
+          {
+            "en": "Note: pulmonary arteries carry deoxygenated blood (exception).",
+            "zh": "注意：肺動脈攜帶缺氧血（例外）。"
+          }
+        ],
+        "titleEn": "Pulmonary circulation path",
+        "titleZh": "肺循環路徑"
       },
       {
         "title": "體循環路徑",
         "bullets": [
-          "LV → aortic semilunar → aorta → 全身 → SVC／IVC → RA",
-          "含氧血由左心到全身；缺氧血回右心。",
-          "注意：肺靜脈攜帶含氧血（例外）。"
-        ]
+          {
+            "en": "LV → aortic semilunar → aorta → body → SVC/IVC → RA",
+            "zh": "LV → aortic semilunar → aorta → 全身 → SVC／IVC → RA"
+          },
+          {
+            "en": "Oxygenated blood from left heart to body; deoxygenated blood back to right heart.",
+            "zh": "含氧血由左心到全身；缺氧血回右心。"
+          },
+          {
+            "en": "Note: pulmonary veins carry oxygenated blood (exception).",
+            "zh": "注意：肺靜脈攜帶含氧血（例外）。"
+          }
+        ],
+        "titleEn": "Systemic circulation path",
+        "titleZh": "體循環路徑"
       },
       {
         "title": "Coronary Circulation",
         "bullets": [
-          "供應心肌氧與養分。",
-          "動脈：由主動脈根部發出，沿冠狀溝環繞。",
-          "靜脈：多條心靜脈匯入 coronary sinus → 右心房。",
-          "冠狀疾病可減少心肌氧供 → 心梗風險。"
-        ]
+          {
+            "en": "Supplies myocardium with oxygen and nutrients.",
+            "zh": "供應心肌氧與養分。"
+          },
+          {
+            "en": "Arteries: arise from aortic root and encircle in the coronary sulcus.",
+            "zh": "動脈：由主動脈根部發出，沿冠狀溝環繞。"
+          },
+          {
+            "en": "Veins: several cardiac veins drain into coronary sinus → right atrium.",
+            "zh": "靜脈：多條心靜脈匯入 coronary sinus → 右心房。"
+          },
+          {
+            "en": "Coronary disease can reduce myocardial oxygen supply → risk of infarction.",
+            "zh": "冠狀疾病可減少心肌氧供 → 心梗風險。"
+          }
+        ],
+        "titleEn": "Coronary circulation",
+        "titleZh": "冠狀循環"
       },
       {
         "title": "記憶：例外",
         "bullets": [
-          "多數動脈＝含氧；例外：肺動脈＝缺氧。",
-          "多數靜脈＝缺氧；例外：肺靜脈＝含氧。"
-        ]
+          {
+            "en": "Most arteries = oxygenated; exception: pulmonary arteries = deoxygenated.",
+            "zh": "多數動脈＝含氧；例外：肺動脈＝缺氧。"
+          },
+          {
+            "en": "Most veins = deoxygenated; exception: pulmonary veins = oxygenated.",
+            "zh": "多數靜脈＝缺氧；例外：肺靜脈＝含氧。"
+          }
+        ],
+        "titleEn": "Remember: exceptions",
+        "titleZh": "記憶：例外"
       },
       {
         "title": "目的",
         "bullets": [
-          "維持由肺到體循環運輸時足夠氧合。"
-        ]
+          {
+            "en": "Maintain adequate oxygenation while transporting from lungs to systemic circulation.",
+            "zh": "維持由肺到體循環運輸時足夠氧合。"
+          }
+        ],
+        "titleEn": "Purpose",
+        "titleZh": "目的"
       },
       {
         "title": "小結",
         "bullets": [
-          "右心管肺；左心管全身；冠狀養心本身。"
-        ]
+          {
+            "en": "Right heart serves lungs; left heart serves body; coronary vessels feed the heart itself.",
+            "zh": "右心管肺；左心管全身；冠狀養心本身。"
+          }
+        ],
+        "titleEn": "Summary",
+        "titleZh": "小結"
       }
     ],
     "vocab": [
@@ -2802,60 +3940,130 @@ window.HAZEL_GATES = [
       {
         "title": "Cardiac Conduction System",
         "bullets": [
-          "特化自律心肌網絡；可自我興奮產生動作電位。",
-          "Pacemaker 設定節律；協調收縮順序。"
-        ]
+          {
+            "en": "Specialised autorhythmic myocardial network; can self-excite and generate action potentials.",
+            "zh": "特化自律心肌網絡；可自我興奮產生動作電位。"
+          },
+          {
+            "en": "Pacemaker sets the rhythm; coordinates contraction sequence.",
+            "zh": "Pacemaker 設定節律；協調收縮順序。"
+          }
+        ],
+        "titleEn": "Cardiac conduction system",
+        "titleZh": "心臟傳導系統"
       },
       {
         "title": "傳導元件",
         "bullets": [
-          "SA node：啟動心跳（pacemaker）",
-          "AV node：稍微延遲衝動",
-          "Bundle of His、左右束支",
-          "Purkinje fibers：貫穿心室"
-        ]
+          {
+            "en": "SA node: initiates the heartbeat (pacemaker)",
+            "zh": "SA node：啟動心跳（pacemaker）"
+          },
+          {
+            "en": "AV node: slightly delays the impulse",
+            "zh": "AV node：稍微延遲衝動"
+          },
+          {
+            "en": "Bundle of His, left and right bundle branches",
+            "zh": "Bundle of His、左右束支"
+          },
+          {
+            "en": "Purkinje fibres: spread through the ventricles",
+            "zh": "Purkinje fibers：貫穿心室"
+          }
+        ],
+        "titleEn": "Conduction components",
+        "titleZh": "傳導元件"
       },
       {
         "title": "興奮順序",
         "bullets": [
-          "SA → 兩房去極化收縮 → AV → Bundle of His → Purkinje → 兩室去極化收縮（由心尖向上）。"
-        ]
+          {
+            "en": "SA → atrial depolarisation/contraction → AV → Bundle of His → Purkinje → ventricular depolarisation/contraction (apex upward).",
+            "zh": "SA → 兩房去極化收縮 → AV → Bundle of His → Purkinje → 兩室去極化收縮（由心尖向上）。"
+          }
+        ],
+        "titleEn": "Excitation sequence",
+        "titleZh": "興奮順序"
       },
       {
         "title": "Cardiac Cycle",
         "bullets": [
-          "Systole 收縮期：血液離開心腔。",
-          "Diastole 舒張期：血液充盈心腔。",
-          "一次完整收縮＋舒張；約 0.8 s（約 74 bpm 時）。"
-        ]
+          {
+            "en": "Systole: blood leaves the chambers.",
+            "zh": "Systole 收縮期：血液離開心腔。"
+          },
+          {
+            "en": "Diastole: blood fills the chambers.",
+            "zh": "Diastole 舒張期：血液充盈心腔。"
+          },
+          {
+            "en": "One complete contraction + relaxation; ~0.8 s (at about 74 bpm).",
+            "zh": "一次完整收縮＋舒張；約 0.8 s（約 74 bpm 時）。"
+          }
+        ],
+        "titleEn": "Cardiac cycle",
+        "titleZh": "心動週期"
       },
       {
         "title": "時間分配（筆記）",
         "bullets": [
-          "Atrial systole ≈ 0.1 s",
-          "Ventricular systole ≈ 0.3 s",
-          "Complete diastole ≈ 0.4 s"
-        ]
+          {
+            "en": "Atrial systole ≈ 0.1 s",
+            "zh": "Atrial systole ≈ 0.1 s"
+          },
+          {
+            "en": "Ventricular systole ≈ 0.3 s",
+            "zh": "Ventricular systole ≈ 0.3 s"
+          },
+          {
+            "en": "Complete diastole ≈ 0.4 s",
+            "zh": "Complete diastole ≈ 0.4 s"
+          }
+        ],
+        "titleEn": "Time allocation (notes)",
+        "titleZh": "時間分配（筆記）"
       },
       {
         "title": "Systole 機械事件摘要",
         "bullets": [
-          "Isovolumetric contraction：室壓＞房壓 → AV 關閉 → S1「Lup」；半月瓣仍關。",
-          "Ejection：室壓＞動脈壓 → 主動脈／肺動脈瓣開 → 射出（stroke volume）。"
-        ]
+          {
+            "en": "Isovolumetric contraction: ventricular pressure > atrial → AV close → S1 \"Lup\"; semilunar valves still closed.",
+            "zh": "Isovolumetric contraction：室壓＞房壓 → AV 關閉 → S1「Lup」；半月瓣仍關。"
+          },
+          {
+            "en": "Ejection: ventricular pressure > arterial → aortic/pulmonary valves open → ejection (stroke volume).",
+            "zh": "Ejection：室壓＞動脈壓 → 主動脈／肺動脈瓣開 → 射出（stroke volume）。"
+          }
+        ],
+        "titleEn": "Systole — mechanical events",
+        "titleZh": "收縮期機械事件摘要"
       },
       {
         "title": "Diastole 機械事件摘要",
         "bullets": [
-          "Isovolumetric relaxation：室壓＜動脈壓 → 半月瓣關 → S2「Dup」；AV 仍關。",
-          "Filling：房壓＞室壓 → AV 開 → 充盈；心房收縮進一步充盈（EDV）。"
-        ]
+          {
+            "en": "Isovolumetric relaxation: ventricular pressure < arterial → semilunar close → S2 \"Dup\"; AV still closed.",
+            "zh": "Isovolumetric relaxation：室壓＜動脈壓 → 半月瓣關 → S2「Dup」；AV 仍關。"
+          },
+          {
+            "en": "Filling: atrial pressure > ventricular → AV open → filling; atrial contraction adds more filling (EDV).",
+            "zh": "Filling：房壓＞室壓 → AV 開 → 充盈；心房收縮進一步充盈（EDV）。"
+          }
+        ],
+        "titleEn": "Diastole — mechanical events",
+        "titleZh": "舒張期機械事件摘要"
       },
       {
         "title": "小結",
         "bullets": [
-          "電活動由 SA 起；機械週期收縮／舒張交替泵血。"
-        ]
+          {
+            "en": "Electrical activity starts at SA; mechanical cycle alternates systole/diastole to pump blood.",
+            "zh": "電活動由 SA 起；機械週期收縮／舒張交替泵血。"
+          }
+        ],
+        "titleEn": "Summary",
+        "titleZh": "小結"
       }
     ],
     "vocab": [
@@ -2981,42 +4189,84 @@ window.HAZEL_GATES = [
       {
         "title": "Heart Sounds",
         "bullets": [
-          "聽診器可聽到兩個主要心音。"
-        ]
+          {
+            "en": "Two main heart sounds can be heard with a stethoscope.",
+            "zh": "聽診器可聽到兩個主要心音。"
+          }
+        ],
+        "titleEn": "Heart sounds",
+        "titleZh": "心音"
       },
       {
         "title": "S1「Lub／Lup」",
         "bullets": [
-          "等容收縮時 AV 瓣關閉產生。"
-        ]
+          {
+            "en": "Produced by AV valve closure during isovolumetric contraction.",
+            "zh": "等容收縮時 AV 瓣關閉產生。"
+          }
+        ],
+        "titleEn": "S1 “Lub/Lup”",
+        "titleZh": "第一心音"
       },
       {
         "title": "S2「Dub／Dup」",
         "bullets": [
-          "心室壓低於動脈壓時，主動脈與肺動脈瓣關閉產生。"
-        ]
+          {
+            "en": "Produced when ventricular pressure falls below arterial pressure and aortic and pulmonary valves close.",
+            "zh": "心室壓低於動脈壓時，主動脈與肺動脈瓣關閉產生。"
+          }
+        ],
+        "titleEn": "S2 “Dub/Dup”",
+        "titleZh": "第二心音"
       },
       {
         "title": "ECG 是甚麼？",
         "bullets": [
-          "Electrocardiography／electrocardiogram：體表電極記錄心臟電活動。",
-          "Limb leads（I, II, III）垂直面；Chest leads（V1–V6）水平面。"
-        ]
+          {
+            "en": "Electrocardiography/electrocardiogram: surface electrodes record the heart's electrical activity.",
+            "zh": "Electrocardiography／electrocardiogram：體表電極記錄心臟電活動。"
+          },
+          {
+            "en": "Limb leads (I, II, III) frontal plane; chest leads (V1–V6) horizontal plane.",
+            "zh": "Limb leads（I, II, III）垂直面；Chest leads（V1–V6）水平面。"
+          }
+        ],
+        "titleEn": "What is an ECG?",
+        "titleZh": "心電圖是甚麼？"
       },
       {
         "title": "波形意義",
         "bullets": [
-          "P wave＝心房去極化",
-          "QRS complex＝心室去極化開始",
-          "T wave＝心室再極化",
-          "心房再極化被較大的 QRS 掩蓋"
-        ]
+          {
+            "en": "P wave = atrial depolarisation",
+            "zh": "P wave＝心房去極化"
+          },
+          {
+            "en": "QRS complex = start of ventricular depolarisation",
+            "zh": "QRS complex＝心室去極化開始"
+          },
+          {
+            "en": "T wave = ventricular repolarisation",
+            "zh": "T wave＝心室再極化"
+          },
+          {
+            "en": "Atrial repolarisation is hidden by the larger QRS",
+            "zh": "心房再極化被較大的 QRS 掩蓋"
+          }
+        ],
+        "titleEn": "Wave meanings",
+        "titleZh": "波形意義"
       },
       {
         "title": "與週期連結",
         "bullets": [
-          "電活動（ECG）觸發機械收縮；心音對應瓣膜關閉時機。"
-        ]
+          {
+            "en": "Electrical activity (ECG) triggers mechanical contraction; heart sounds mark valve-closure timing.",
+            "zh": "電活動（ECG）觸發機械收縮；心音對應瓣膜關閉時機。"
+          }
+        ],
+        "titleEn": "Link to the cardiac cycle",
+        "titleZh": "與週期連結"
       }
     ],
     "vocab": [
@@ -3136,57 +4386,131 @@ window.HAZEL_GATES = [
       {
         "title": "血管角色",
         "bullets": [
-          "動脈／小動脈：運血離開心臟。",
-          "微血管床：組織與血交換。",
-          "小靜脈／靜脈：運血回心。"
-        ]
+          {
+            "en": "Arteries/arterioles: carry blood away from the heart.",
+            "zh": "動脈／小動脈：運血離開心臟。"
+          },
+          {
+            "en": "Capillary beds: exchange between tissues and blood.",
+            "zh": "微血管床：組織與血交換。"
+          },
+          {
+            "en": "Venules/veins: carry blood back to the heart.",
+            "zh": "小靜脈／靜脈：運血回心。"
+          }
+        ],
+        "titleEn": "Roles of blood vessels",
+        "titleZh": "血管角色"
       },
       {
         "title": "Artery 特徵",
         "bullets": [
-          "離心；一般無瓣（肺動脈與主動脈根部除外）。",
-          "管壁厚、彈性大、管腔相對小；耐高壓。",
-          "多為含氧血（肺動脈例外）；血壓高。",
-          "血流動力來自心泵；管壁週期伸展＝pulse；位置較深。"
-        ]
+          {
+            "en": "Away from heart; generally no valves (except pulmonary artery and aortic root).",
+            "zh": "離心；一般無瓣（肺動脈與主動脈根部除外）。"
+          },
+          {
+            "en": "Thick elastic walls, relatively small lumen; withstand high pressure.",
+            "zh": "管壁厚、彈性大、管腔相對小；耐高壓。"
+          },
+          {
+            "en": "Mostly oxygenated blood (pulmonary arteries excepted); high blood pressure.",
+            "zh": "多為含氧血（肺動脈例外）；血壓高。"
+          },
+          {
+            "en": "Flow driven by the heart pump; cyclic wall stretch = pulse; deeper location.",
+            "zh": "血流動力來自心泵；管壁週期伸展＝pulse；位置較深。"
+          }
+        ],
+        "titleEn": "Artery features",
+        "titleZh": "動脈特徵"
       },
       {
         "title": "Capillaries",
         "bullets": [
-          "最細；單層內皮（一層細胞厚）；半透。",
-          "連接小動脈與小靜脈；交換水、O₂、CO₂、養分、廢物。",
-          "類型：continuous、fenestrated、sinusoids。"
-        ]
+          {
+            "en": "Finest vessels; single endothelial layer (one cell thick); semi-permeable.",
+            "zh": "最細；單層內皮（一層細胞厚）；半透。"
+          },
+          {
+            "en": "Connect arterioles and venules; exchange water, O₂, CO₂, nutrients, wastes.",
+            "zh": "連接小動脈與小靜脈；交換水、O₂、CO₂、養分、廢物。"
+          },
+          {
+            "en": "Types: continuous, fenestrated, sinusoids.",
+            "zh": "類型：continuous、fenestrated、sinusoids。"
+          }
+        ],
+        "titleEn": "Capillaries",
+        "titleZh": "微血管"
       },
       {
         "title": "Vein 特徵",
         "bullets": [
-          "回心；有瓣防回流。",
-          "壁較薄、彈性較少、管腔較大降阻力。",
-          "多為缺氧血（肺靜脈例外）；血壓低。",
-          "位置較近體表。"
-        ]
+          {
+            "en": "Toward the heart; have valves to prevent backflow.",
+            "zh": "回心；有瓣防回流。"
+          },
+          {
+            "en": "Thinner walls, less elastic, larger lumen lowers resistance.",
+            "zh": "壁較薄、彈性較少、管腔較大降阻力。"
+          },
+          {
+            "en": "Mostly deoxygenated blood (pulmonary veins excepted); low blood pressure.",
+            "zh": "多為缺氧血（肺靜脈例外）；血壓低。"
+          },
+          {
+            "en": "Lie nearer the body surface.",
+            "zh": "位置較近體表。"
+          }
+        ],
+        "titleEn": "Vein features",
+        "titleZh": "靜脈特徵"
       },
       {
         "title": "靜脈回流輔助",
         "bullets": [
-          "骨骼肌泵：肌肉收縮擠壓靜脈。",
-          "瓣膜：壓力開；防回流時關。"
-        ]
+          {
+            "en": "Skeletal muscle pump: muscle contraction squeezes veins.",
+            "zh": "骨骼肌泵：肌肉收縮擠壓靜脈。"
+          },
+          {
+            "en": "Valves: open under pressure; close to prevent backflow.",
+            "zh": "瓣膜：壓力開；防回流時關。"
+          }
+        ],
+        "titleEn": "Aids to venous return",
+        "titleZh": "靜脈回流輔助"
       },
       {
         "title": "對照表記憶",
         "bullets": [
-          "動脈：高壓、厚壁、離心。",
-          "靜脈：低壓、有瓣、回心。",
-          "微血管：交換場所。"
-        ]
+          {
+            "en": "Arteries: high pressure, thick walls, away from heart.",
+            "zh": "動脈：高壓、厚壁、離心。"
+          },
+          {
+            "en": "Veins: low pressure, valves, toward heart.",
+            "zh": "靜脈：低壓、有瓣、回心。"
+          },
+          {
+            "en": "Capillaries: site of exchange.",
+            "zh": "微血管：交換場所。"
+          }
+        ],
+        "titleEn": "Comparison table memory",
+        "titleZh": "對照表記憶"
       },
       {
         "title": "與穩態",
         "bullets": [
-          "血管網讓物質交換以維持 homeostasis。"
-        ]
+          {
+            "en": "Vessel network enables material exchange to maintain homeostasis.",
+            "zh": "血管網讓物質交換以維持 homeostasis。"
+          }
+        ],
+        "titleEn": "Link to homeostasis",
+        "titleZh": "與穩態"
       }
     ],
     "vocab": [
@@ -3312,52 +4636,111 @@ window.HAZEL_GATES = [
       {
         "title": "Hemodynamics",
         "bullets": [
-          "研究血流及推動循環的力量。",
-          "關鍵：Cardiac Output、Blood Flow、Blood Pressure、Vascular Resistance、Venous return。"
-        ]
+          {
+            "en": "Study of blood flow and the forces that drive circulation.",
+            "zh": "研究血流及推動循環的力量。"
+          },
+          {
+            "en": "Key ideas: cardiac output, blood flow, blood pressure, vascular resistance, venous return.",
+            "zh": "關鍵：Cardiac Output、Blood Flow、Blood Pressure、Vascular Resistance、Venous return。"
+          }
+        ],
+        "titleEn": "Hemodynamics",
+        "titleZh": "血液動力學"
       },
       {
         "title": "Cardiac Output",
         "bullets": [
-          "每分鐘由（左）心室泵出的血量；單位 L／min。",
-          "CO＝HR × SV",
-          "例：HR 75、SV 70 mL → CO＝5250 mL／min（5.25 L／min）。"
-        ]
+          {
+            "en": "Blood volume pumped by the (left) ventricle per minute; unit L/min.",
+            "zh": "每分鐘由（左）心室泵出的血量；單位 L／min。"
+          },
+          {
+            "en": "CO＝HR × SV",
+            "zh": "CO＝HR × SV"
+          },
+          {
+            "en": "Example: HR 75, SV 70 mL → CO = 5250 mL/min (5.25 L/min).",
+            "zh": "例：HR 75、SV 70 mL → CO＝5250 mL／min（5.25 L／min）。"
+          }
+        ],
+        "titleEn": "Cardiac output",
+        "titleZh": "心輸出量"
       },
       {
         "title": "Stroke Volume",
         "bullets": [
-          "每次心跳由心室射出的血量。",
-          "SV＝EDV − ESV",
-          "例：EDV 135 mL、ESV 65 mL → SV＝70 mL。"
-        ]
+          {
+            "en": "Blood volume ejected by the ventricle each beat.",
+            "zh": "每次心跳由心室射出的血量。"
+          },
+          {
+            "en": "SV＝EDV − ESV",
+            "zh": "SV＝EDV − ESV"
+          },
+          {
+            "en": "Example: EDV 135 mL, ESV 65 mL → SV = 70 mL.",
+            "zh": "例：EDV 135 mL、ESV 65 mL → SV＝70 mL。"
+          }
+        ],
+        "titleEn": "Stroke volume",
+        "titleZh": "每搏輸出量"
       },
       {
         "title": "EDV 與 ESV",
         "bullets": [
-          "EDV（Preload）：舒張末期心室血量。",
-          "ESV（Afterload 相關描述於筆記）：射血後剩餘血量。"
-        ]
+          {
+            "en": "EDV (preload): ventricular blood volume at end of diastole.",
+            "zh": "EDV（Preload）：舒張末期心室血量。"
+          },
+          {
+            "en": "ESV (related to afterload in notes): blood remaining after ejection.",
+            "zh": "ESV（Afterload 相關描述於筆記）：射血後剩餘血量。"
+          }
+        ],
+        "titleEn": "EDV & ESV",
+        "titleZh": "舒張末期容積與收縮末期容積"
       },
       {
         "title": "Frank-Starling Law",
         "bullets": [
-          "EDV 增加 → 收縮力增加 → SV 增加。"
-        ]
+          {
+            "en": "Increased EDV → increased contractile force → increased SV.",
+            "zh": "EDV 增加 → 收縮力增加 → SV 增加。"
+          }
+        ],
+        "titleEn": "Frank-Starling law",
+        "titleZh": "Frank-Starling 定律"
       },
       {
         "title": "影響 HR 的因素",
         "bullets": [
-          "皆作用於 SA node：",
-          "↑ Plasma epinephrine；↑ Sympathetic；↓ Parasympathetic（ACh 通常抑制）→ HR 升。"
-        ]
+          {
+            "en": "All act on the SA node:",
+            "zh": "皆作用於 SA node："
+          },
+          {
+            "en": "↑ Plasma epinephrine; ↑ Sympathetic; ↓ Parasympathetic (ACh usually inhibits) → HR rises.",
+            "zh": "↑ Plasma epinephrine；↑ Sympathetic；↓ Parasympathetic（ACh 通常抑制）→ HR 升。"
+          }
+        ],
+        "titleEn": "HR 的因素",
+        "titleZh": "影響"
       },
       {
         "title": "影響 SV 的因素",
         "bullets": [
-          "↑ EDV／preload → ↑ SV",
-          "Sympathetic 與 epinephrine：增加收縮力（與 HR）。"
-        ]
+          {
+            "en": "↑ EDV／preload → ↑ SV",
+            "zh": "↑ EDV／preload → ↑ SV"
+          },
+          {
+            "en": "Sympathetic and epinephrine: increase contractility (and HR).",
+            "zh": "Sympathetic 與 epinephrine：增加收縮力（與 HR）。"
+          }
+        ],
+        "titleEn": "SV 的因素",
+        "titleZh": "影響"
       }
     ],
     "vocab": [
@@ -3483,60 +4866,130 @@ window.HAZEL_GATES = [
       {
         "title": "Blood Pressure",
         "bullets": [
-          "單位面積對血管內壁的力；常指動脈壓。",
-          "Systolic：心室射血時最大動脈壓（約 125 mmHg）。",
-          "Diastolic：心室舒張前最小動脈壓（約 75 mmHg）。",
-          "測量：Sphygmomanometer＋stethoscope；單位 mmHg。"
-        ]
+          {
+            "en": "Force per unit area on the vessel wall; usually means arterial pressure.",
+            "zh": "單位面積對血管內壁的力；常指動脈壓。"
+          },
+          {
+            "en": "Systolic: maximum arterial pressure during ventricular ejection (~125 mmHg).",
+            "zh": "Systolic：心室射血時最大動脈壓（約 125 mmHg）。"
+          },
+          {
+            "en": "Diastolic: minimum arterial pressure before ventricular diastole ends (~75 mmHg).",
+            "zh": "Diastolic：心室舒張前最小動脈壓（約 75 mmHg）。"
+          },
+          {
+            "en": "Measured with sphygmomanometer + stethoscope; unit mmHg.",
+            "zh": "測量：Sphygmomanometer＋stethoscope；單位 mmHg。"
+          }
+        ],
+        "titleEn": "Blood pressure",
+        "titleZh": "血壓"
       },
       {
         "title": "MAP",
         "bullets": [
-          "Mean arterial pressure 由 CO 與 TPR 決定。",
-          "MAP（BP）＝ CO × TPR"
-        ]
+          {
+            "en": "Mean arterial pressure determined by CO and TPR.",
+            "zh": "Mean arterial pressure 由 CO 與 TPR 決定。"
+          },
+          {
+            "en": "MAP（BP）＝ CO × TPR",
+            "zh": "MAP（BP）＝ CO × TPR"
+          }
+        ],
+        "titleEn": "Mean arterial pressure (MAP)",
+        "titleZh": "平均動脈壓"
       },
       {
         "title": "短期 vs 長期調節",
         "bullets": [
-          "短期：Baroreceptor、Chemoreceptor、激素（epinephrine／norepinephrine）。",
-          "長期：ADH、ANP、RAAS（肝、腎、肺、腎上腺）。"
-        ]
+          {
+            "en": "Short-term: baroreceptors, chemoreceptors, hormones (epinephrine/norepinephrine).",
+            "zh": "短期：Baroreceptor、Chemoreceptor、激素（epinephrine／norepinephrine）。"
+          },
+          {
+            "en": "Long-term: ADH, ANP, RAAS (liver, kidney, lung, adrenal).",
+            "zh": "長期：ADH、ANP、RAAS（肝、腎、肺、腎上腺）。"
+          }
+        ],
+        "titleEn": "vs 長期調節",
+        "titleZh": "短期"
       },
       {
         "title": "Baroreceptor Reflex",
         "bullets": [
-          "頸動脈竇與主動脈弓壓力感受器偵測管壁伸展。",
-          "BP 突升 → 伸展↑ → 衝動↑ → 延髓心血管中樞 → 副交感↑ 等 → 回穩。",
-          "持續維持動脈壓穩態。"
-        ]
+          {
+            "en": "Baroreceptors in carotid sinus and aortic arch detect wall stretch.",
+            "zh": "頸動脈竇與主動脈弓壓力感受器偵測管壁伸展。"
+          },
+          {
+            "en": "Sudden BP rise → more stretch → more impulses → medullary CV centre → ↑ parasympathetic etc. → stabilise.",
+            "zh": "BP 突升 → 伸展↑ → 衝動↑ → 延髓心血管中樞 → 副交感↑ 等 → 回穩。"
+          },
+          {
+            "en": "Continuously help maintain arterial pressure homeostasis.",
+            "zh": "持續維持動脈壓穩態。"
+          }
+        ],
+        "titleEn": "Baroreceptor reflex",
+        "titleZh": "壓力感受器反射"
       },
       {
         "title": "Chemoreceptors",
         "bullets": [
-          "對氧與二氧化碳敏感；頸動脈體與主動脈體。",
-          "訊號至延髓血管運動中樞 → 可致血管收縮。"
-        ]
+          {
+            "en": "Sensitive to oxygen and carbon dioxide; carotid and aortic bodies.",
+            "zh": "對氧與二氧化碳敏感；頸動脈體與主動脈體。"
+          },
+          {
+            "en": "Signals to medullary vasomotor centre → can cause vasoconstriction.",
+            "zh": "訊號至延髓血管運動中樞 → 可致血管收縮。"
+          }
+        ],
+        "titleEn": "Chemoreceptors",
+        "titleZh": "化學感受器"
       },
       {
         "title": "腎臟長期調節",
         "bullets": [
-          "調血容量：ADH 或 renin 途徑。",
-          "BP↑ → 排水 → BP↓；BP↓ → 留水 → BP↑。"
-        ]
+          {
+            "en": "Adjust blood volume via ADH or renin pathways.",
+            "zh": "調血容量：ADH 或 renin 途徑。"
+          },
+          {
+            "en": "BP↑ → excrete water → BP↓; BP↓ → retain water → BP↑.",
+            "zh": "BP↑ → 排水 → BP↓；BP↓ → 留水 → BP↑。"
+          }
+        ],
+        "titleEn": "Long-term renal regulation",
+        "titleZh": "腎臟長期調節"
       },
       {
         "title": "RAAS（概念）",
         "bullets": [
-          "Renin-Angiotensin-Aldosterone System：長期血壓／血容量調節路徑（筆記以圖呈現；涉及腎素－血管張力素－醛固酮）。"
-        ]
+          {
+            "en": "Renin-Angiotensin-Aldosterone System: long-term BP/volume pathway (shown as a figure in notes; involves renin–angiotensin–aldosterone).",
+            "zh": "Renin-Angiotensin-Aldosterone System：長期血壓／血容量調節路徑（筆記以圖呈現；涉及腎素－血管張力素－醛固酮）。"
+          }
+        ],
+        "titleEn": "RAAS (concept)",
+        "titleZh": "腎素－血管張力素－醛固酮系統"
       },
       {
         "title": "綜合公式記憶",
         "bullets": [
-          "CO＝HR×SV；MAP＝CO×TPR。",
-          "短期神經反射＋長期激素／腎／RAAS。"
-        ]
+          {
+            "en": "CO＝HR×SV；MAP＝CO×TPR。",
+            "zh": "CO＝HR×SV；MAP＝CO×TPR。"
+          },
+          {
+            "en": "Short-term neural reflexes + long-term hormones/kidney/RAAS.",
+            "zh": "短期神經反射＋長期激素／腎／RAAS。"
+          }
+        ],
+        "titleEn": "Key formula memory",
+        "titleZh": "綜合公式記憶"
       }
     ],
     "vocab": [
@@ -3654,8 +5107,14 @@ window.HAZEL_GATES = [
   }
 ];
 window.HAZEL_META = {
-  appName: "HazelQuiz",
-  storageKey: "hazelquiz-v1",
-  course: "AS114218 Life Sciences (HHS4218 / NHS4218)",
-  srsIntervals: [1, 3, 7, 14, 30]
+  "appName": "HazelQuiz",
+  "storageKey": "hazelquiz-v1",
+  "course": "AS114218 Life Sciences (HHS4218 / NHS4218)",
+  "srsIntervals": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ]
 };

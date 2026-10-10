@@ -229,3 +229,71 @@ h2 { font-size: 1.28rem; }
   body { font-size: 17px; }
   .sheet { border-radius: 20px; bottom: 24px; left: 50%; transform: translateX(-50%); width: min(520px, calc(100% - 40px)); }
 }
+
+/* Pronunciation */
+.speakbtn {
+  width: 44px;
+  height: 44px;
+  min-height: 44px;
+  border-radius: 50%;
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--line));
+  background: color-mix(in srgb, var(--accent) 12%, var(--card));
+  color: var(--accent-2);
+  display: grid;
+  place-items: center;
+  padding: 0;
+  flex: none;
+}
+.speakbtn svg { width: 22px; height: 22px; }
+.speakbtn.tiny {
+  width: 36px; height: 36px; min-height: 36px;
+}
+.speakbtn.tiny svg { width: 18px; height: 18px; }
+.sheet-titleblock { flex: 1 1 auto; min-width: 0; }
+.sheet-head { align-items: flex-start; }
+
+/* Bilingual study cards */
+.bi-head {
+  display: flex; flex-direction: column; gap: 2px; margin: 6px 0 8px;
+}
+.bi-en-title {
+  margin: 0; font-size: 1.08rem; font-weight: 800; line-height: 1.35;
+}
+.bi-zh-title {
+  margin: 0; color: var(--accent-2); font-weight: 700; font-size: 1.02rem;
+}
+.bi-pair {
+  margin: 10px 0 0; padding: 10px 12px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--soft) 70%, var(--card));
+  border: 1px solid var(--line);
+}
+.bi-pair + .bi-pair { margin-top: 8px; }
+.bi-en {
+  margin: 0; font-weight: 650; line-height: 1.45;
+}
+.bi-zh {
+  margin: 4px 0 0; color: var(--muted); font-size: 0.95rem; line-height: 1.5;
+}
+.lang-pill {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: var(--soft);
+  color: var(--accent-2);
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.vocab-row {
+  display: flex; gap: 8px; align-items: flex-start; width: 100%;
+}
+.vocab-row .vocab-main {
+  flex: 1; text-align: left; border: none; background: transparent;
+  padding: 0; min-height: 0;
+}
+.vocab-card {
+  display: flex; gap: 8px; align-items: flex-start;
+}

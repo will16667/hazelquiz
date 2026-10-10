@@ -43,10 +43,11 @@
   <div id="backdrop" class="backdrop" hidden></div>
   <div id="sheet" class="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheet-term" tabindex="-1">
     <div class="sheet-head">
-      <div>
+      <div class="sheet-titleblock">
         <h2 id="sheet-term"></h2>
         <p id="sheet-zh" class="gloss"></p>
       </div>
+      <button type="button" class="speakbtn" id="sheet-speak" aria-label="發音"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 10h3.2L12 6v12l-4.8-4H4v-4z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M16 9.2a3.6 3.6 0 0 1 0 5.6M18.4 7a6.2 6.2 0 0 1 0 10"/></svg></button>
       <button type="button" class="iconx" id="sheet-close" aria-label="關閉">×</button>
     </div>
     <p id="sheet-ipa" class="ipa" hidden></p>
@@ -54,6 +55,7 @@
     <div class="sheet-actions">
       <button type="button" class="primary" id="sheet-save">加進生字卡持續複習</button>
       <button type="button" class="ghost" id="sheet-remove" hidden>移除</button>
+      <button type="button" class="ghost" id="sheet-slow">慢速發音</button>
     </div>
     <p id="sheet-note" class="hint" hidden></p>
   </div>
