@@ -5249,7 +5249,6 @@ window.HAZEL_GATES = [
     ]
   }
 ];
-
 window.HAZEL_META = {
   "appName": "HazelQuiz",
   "storageKey": "hazelquiz-v1",
@@ -5262,7 +5261,6 @@ window.HAZEL_META = {
     30
   ]
 };
-
 window.HAZEL_LECTURES = [
   {
     "id": "L1",
@@ -12240,13 +12238,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "ATP Production and Breakdown",
-                "zh": "ATP 產生與分解"
+                "t": "ATP Production",
+                "zh": "ATP 產生"
+              },
+              {
+                "k": "h",
+                "t": "ATP Breakdown",
+                "zh": "ATP 分解"
               },
               {
                 "k": "p",
-                "t": "1 Catabolism: Energy released from food powers ATP production. 2 Anabolism: Energy released from ATP breakdown powers cellular processes. The cycle shows ATP at the top and ADP + Pi after ATP breakdown at the bottom.",
-                "zh": "1分解代謝：食物釋出的能量推動ATP產生。2合成代謝：ATP分解釋出的能量推動細胞過程。圖中循環上方為ATP，下方為ATP分解後的ADP+Pi。"
+                "t": "1. Catabolism — Energy released from food powers ATP production.",
+                "zh": "1. 分解代謝 — 食物釋放嘅能量推動 ATP 產生。"
+              },
+              {
+                "k": "p",
+                "t": "2. Anabolism — Energy released from ATP breakdown powers cellular processes.",
+                "zh": "2. 合成代謝 — ATP 分解釋放嘅能量推動細胞過程。"
               }
             ]
           },
@@ -12257,14 +12265,19 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Catabolism and Anabolism",
-                "zh": "分解代謝與合成代謝"
+                "k": "p",
+                "t": "Food",
+                "zh": "食物"
               },
               {
                 "k": "p",
-                "t": "Catabolism breaks food down and releases energy. Anabolism builds larger molecules and requires energy.",
-                "zh": "分解代謝將食物分解並釋放能量。合成代謝建造較大分子，需要能量。"
+                "t": "Catabolism — Releases energy",
+                "zh": "分解代謝 — 釋放能量"
+              },
+              {
+                "k": "p",
+                "t": "Anabolism — Requires energy",
+                "zh": "合成代謝 — 需要能量"
               }
             ]
           }
@@ -12308,13 +12321,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "h",
-                "t": "Catabolism of a larger molecule",
-                "zh": "較大分子的分解代謝"
+                "t": "catabolic reaction",
+                "zh": "分解代謝反應"
               },
               {
                 "k": "p",
-                "t": "A larger molecule is broken into smaller molecules and energy is released.",
-                "zh": "較大分子被拆成較小分子，並釋放能量。"
+                "t": "larger molecule",
+                "zh": "較大分子"
+              },
+              {
+                "k": "p",
+                "t": "energy",
+                "zh": "能量"
+              },
+              {
+                "k": "p",
+                "t": "smaller molecules",
+                "zh": "較小分子"
               }
             ]
           },
@@ -12325,14 +12348,34 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "h",
-                "t": "Glucose metabolism pathway",
-                "zh": "葡萄糖代謝途徑"
+                "k": "p",
+                "t": "Glucose from digestive tract; Glycogen in liver → Glucose from liver.",
+                "zh": "消化系統葡萄糖；肝糖原 → 肝臟葡萄糖。"
               },
               {
                 "k": "p",
-                "t": "Glucose from the digestive tract and from liver glycogen enters capillary blood plasma, then crosses interstitial fluid and the plasma membrane into the cell cytoplasm. In the cytoplasm, glycolysis converts glucose to pyruvic acid. Anaerobic metabolism in skeletal muscle can form lactic acid. Pyruvic acid enters the mitochondrion for aerobic respiration: the Krebs cycle and electron transport produce CO2 + H2O.",
-                "zh": "來自消化道及肝糖原的葡萄糖進入微血管血漿，再經組織間液與細胞膜進入細胞質。在細胞質中，糖酵解把葡萄糖轉成丙酮酸；骨骼肌的無氧代謝可形成乳酸。丙酮酸進入線粒體進行有氧呼吸：克氏循環與電子傳遞產生CO2+H2O。"
+                "t": "Glucose in blood plasma → Interstitial fluid → Plasma membrane → Glucose in cell cytoplasm.",
+                "zh": "血漿葡萄糖 → 組織液 → 質膜 → 細胞質葡萄糖。"
+              },
+              {
+                "k": "p",
+                "t": "Glycolysis → Pyruvic acid.",
+                "zh": "糖酵解 → 丙酮酸。"
+              },
+              {
+                "k": "p",
+                "t": "Anaerobic (Metabolism in skeletal muscle) → Lactic acid.",
+                "zh": "無氧（骨骼肌代謝）→ 乳酸。"
+              },
+              {
+                "k": "p",
+                "t": "Into mitochondrion → Krebs cycle → Electron transport → Aerobic Respiration → CO₂ + H₂O.",
+                "zh": "進入線粒體 → 克氏循環 → 電子傳遞 → 有氧呼吸 → CO₂ + H₂O。"
+              },
+              {
+                "k": "p",
+                "t": "Capillary; Interstitial fluid; Plasma membrane; Cytoplasm; Mitochondrion.",
+                "zh": "微血管；組織液；質膜；細胞質；線粒體。"
               }
             ]
           }
@@ -12380,14 +12423,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "anabolic reaction; energy; smaller molecules; larger molecule.",
-                "zh": "合成代謝反應；能量；較小分子；較大分子。"
+                "k": "h",
+                "t": "anabolic reaction",
+                "zh": "合成代謝反應"
               },
               {
                 "k": "p",
-                "t": "An anabolic reaction uses energy to combine smaller molecules into a larger molecule.",
-                "zh": "合成代謝反應消耗能量，將較小分子結合成較大分子。"
+                "t": "energy",
+                "zh": "能量"
+              },
+              {
+                "k": "p",
+                "t": "smaller molecules",
+                "zh": "較小分子"
+              },
+              {
+                "k": "p",
+                "t": "larger molecule",
+                "zh": "較大分子"
               }
             ]
           },
@@ -12398,9 +12451,29 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Stages of Anabolism",
+                "zh": "合成代謝階段"
+              },
+              {
                 "k": "p",
-                "t": "Stages of Anabolism:; Production of the precursor; Energy (ATP) consumption; Complex molecule formation; nucleotides; DNA.",
-                "zh": "合成代謝階段：；前體產生；消耗能量（ATP）；形成複雜分子；核苷酸；DNA。"
+                "t": "Production of the precursor",
+                "zh": "前體產生"
+              },
+              {
+                "k": "p",
+                "t": "Energy (ATP) consumption",
+                "zh": "消耗能量（ATP）"
+              },
+              {
+                "k": "p",
+                "t": "Complex molecule formation",
+                "zh": "複雜分子形成"
+              },
+              {
+                "k": "p",
+                "t": "nucleotides → DNA",
+                "zh": "核苷酸 → DNA"
               }
             ]
           }
@@ -12484,14 +12557,44 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "Enzyme as Catalyst; Substrate (reactant); Enzyme; Enzyme-substrate Complex; Products; Enzyme + product.",
-                "zh": "酶作為催化劑；底物（反應物）；酶；酶－底物複合物；產物；酶＋產物。"
+                "k": "h",
+                "t": "Enzyme as Catalyst",
+                "zh": "酶作為催化劑"
               },
               {
                 "k": "p",
-                "t": "Substrate enters active site of the enzyme. Chemical reaction is triggered by the enzyme. Enzyme releases the products.",
-                "zh": "底物進入酶嘅活性部位。酶觸發化學反應。酶釋放產物。"
+                "t": "Substrate (reactant)",
+                "zh": "底物（反應物）"
+              },
+              {
+                "k": "p",
+                "t": "Enzyme",
+                "zh": "酶"
+              },
+              {
+                "k": "p",
+                "t": "Substrate enters active site of the enzyme.",
+                "zh": "底物進入酶嘅活性部位。"
+              },
+              {
+                "k": "p",
+                "t": "Enzyme-substrate Complex",
+                "zh": "酶–底物複合體"
+              },
+              {
+                "k": "p",
+                "t": "Chemical reaction is triggered by the enzyme.",
+                "zh": "酶觸發化學反應。"
+              },
+              {
+                "k": "p",
+                "t": "Products; Enzyme + product",
+                "zh": "產物；酶 + 產物"
+              },
+              {
+                "k": "p",
+                "t": "Enzyme releases the products.",
+                "zh": "酶釋放產物。"
               }
             ]
           },
@@ -12502,14 +12605,34 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "Enzymes Function: How They Work; Sucrose; Enzyme; Glucose; Fructose.",
-                "zh": "酶點樣運作；蔗糖；酶；葡萄糖；果糖。"
+                "k": "h",
+                "t": "Enzymes Function: How They Work",
+                "zh": "酶嘅功能：點樣運作"
               },
               {
                 "k": "p",
-                "t": "1. Sucrose and Enzyme before binding together to form enzyme-substrate complex. 2. The substrate and enzyme bonding to form the Enzyme-substrate complex. 3. Breaking the bond between glucose and fructose. 4. The products glucose and fructose are released from the enzyme.",
-                "zh": "1. 蔗糖同酶結合前。2. 底物同酶結合形成酶－底物複合物。3. 打斷葡萄糖同果糖之間嘅鍵。4. 產物葡萄糖同果糖由酶釋放。"
+                "t": "Sucrose; Enzyme; Glucose; Fructose",
+                "zh": "蔗糖；酶；葡萄糖；果糖"
+              },
+              {
+                "k": "p",
+                "t": "1. Sucrose and Enzyme before binding together to form enzyme-substrate complex.",
+                "zh": "1. 蔗糖同酶結合前，準備形成酶–底物複合體。"
+              },
+              {
+                "k": "p",
+                "t": "2. The substrate and enzyme bonding to form the Enzyme-substrate complex.",
+                "zh": "2. 底物同酶結合形成酶–底物複合體。"
+              },
+              {
+                "k": "p",
+                "t": "3. Breaking the bond between glucose and fructose.",
+                "zh": "3. 打斷葡萄糖同果糖之間嘅鍵。"
+              },
+              {
+                "k": "p",
+                "t": "4. The products glucose and fructose are released from the enzyme.",
+                "zh": "4. 產物葡萄糖同果糖由酶釋放。"
               }
             ]
           }
@@ -12545,13 +12668,7 @@ window.HAZEL_LECTURES = [
             "w": 975,
             "h": 320,
             "kind": "embed",
-            "blocks": [
-              {
-                "k": "p",
-                "t": "The left path shows an enzyme joining two small substrates into one larger product; the right path shows the same enzyme breaking one larger substrate into two smaller products.",
-                "zh": "左邊顯示酶把兩件細底物合成一件大產物；右邊顯示同一酶把一件大底物分解成兩件細產物。"
-              }
-            ]
+            "blocks": []
           }
         ]
       },
@@ -12639,13 +12756,33 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Total energy; Reactant; Product; Enzyme; Normal activation energy; Activation energy lowered by enzyme.",
-                "zh": "總能量；反應物；產物；酶；正常活化能；酶降低咗嘅活化能。"
+                "t": "Total energy",
+                "zh": "總能量"
               },
               {
                 "k": "p",
-                "t": "An enzyme lowers the activation energy of a reaction compared with the uncatalyzed pathway, while reactant and product energy levels stay the same.",
-                "zh": "同無催化途徑相比，酶降低反應活化能，而反應物同產物能量水平不變。"
+                "t": "Reactant",
+                "zh": "反應物"
+              },
+              {
+                "k": "p",
+                "t": "Product",
+                "zh": "產物"
+              },
+              {
+                "k": "p",
+                "t": "Enzyme",
+                "zh": "酶"
+              },
+              {
+                "k": "p",
+                "t": "Normal activation energy",
+                "zh": "正常活化能"
+              },
+              {
+                "k": "p",
+                "t": "Activation energy lowered by enzyme",
+                "zh": "酶降低咗嘅活化能"
               }
             ]
           }
@@ -12688,9 +12825,34 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Enzyme lock and key model",
+                "zh": "酶鎖鑰模型"
+              },
+              {
                 "k": "p",
-                "t": "Enzyme lock and key model; Substrates; Enzyme; Active site; Enzyme-Substrate complex; Product.",
-                "zh": "酶鎖鑰模型；底物；酶；活性部位；酶－底物複合物；產物。"
+                "t": "Substrates",
+                "zh": "底物"
+              },
+              {
+                "k": "p",
+                "t": "Enzyme",
+                "zh": "酶"
+              },
+              {
+                "k": "p",
+                "t": "Active site",
+                "zh": "活性部位"
+              },
+              {
+                "k": "p",
+                "t": "Enzyme-Substrate complex",
+                "zh": "酶–底物複合體"
+              },
+              {
+                "k": "p",
+                "t": "Product",
+                "zh": "產物"
               }
             ]
           }
@@ -12714,8 +12876,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "This figure shows an enzyme-catalyzed reaction in three steps. The overall equation is A + B (reactants) going to C + D (products) with the help of an enzyme. In panel (a), the enzyme has active sites and the separate substrates A and B approach it. In panel (b), the substrates bind to form the enzyme-substrate complex. In panel (c), the reaction products C and D leave, and the enzyme is unchanged and ready to work again.",
-                "zh": "呢幅圖分三步展示酶促反應。總反應係反應物 A + B 喺酶作用下變成產物 C + D。圖(a)顯示酶嘅活性部位，以及分開嘅底物 A 同 B。圖(b)中底物結合形成酶－底物複合物。圖(c)中產物 C 同 D 離開，酶本身不變，可以再次催化。"
+                "t": "A + B (Reactants) → Enzyme → C + D (Products)",
+                "zh": "A + B（反應物）→ 酶 → C + D（產物）"
+              },
+              {
+                "k": "p",
+                "t": "(a) Enzyme and substrates — Active sites; Substrate A; Substrate B.",
+                "zh": "（a）酶同底物 — 活性部位；底物 A；底物 B。"
+              },
+              {
+                "k": "p",
+                "t": "(b) Enzyme-substrate complex",
+                "zh": "（b）酶–底物複合體"
+              },
+              {
+                "k": "p",
+                "t": "(c) Reaction products and enzyme (unchanged) — Product C; Product D.",
+                "zh": "（c）反應產物同酶（不變）— 產物 C；產物 D。"
               }
             ]
           }
@@ -21755,7 +21932,6 @@ window.HAZEL_LECTURES = [
     ]
   }
 ];
-
 window.HAZEL_GLOSSARY = {
   "learning": {
     "term": "Learning",
