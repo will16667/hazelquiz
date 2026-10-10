@@ -8022,14 +8022,39 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
-                "k": "p",
-                "t": "Chemical Level: Atoms, Molecules, Protein, DNA, Sucrose; Cell Level: Cells, Epithelial cell, Neuron (cell), Smooth muscle cell; Tissue Level: Tissues, Epithelial tissue, Nervous tissue, Smooth muscle tissue; Organ Level: Organs, Bladder, Brain, Stomach; Organ System Level: Organ Systems, Urinary system, Nervous system, Digestive system; Organism Level: Organism.",
-                "zh": "化學層次：原子、分子、蛋白質、DNA、蔗糖；細胞層次：細胞、上皮細胞、神經元、平滑肌細胞；組織層次：組織、上皮組織、神經組織、平滑肌組織；器官層次：器官、膀胱、腦、胃；器官系統層次：器官系統、泌尿系統、神經系統、消化系統；個體層次：生物體。"
+                "k": "h",
+                "t": "Levels of organization",
+                "zh": "組織層次"
               },
               {
                 "k": "p",
-                "t": "Body organization rises from atoms and molecules to cells, tissues, organs, organ systems, and the whole organism.",
-                "zh": "身體組織層次由原子分子升到細胞、組織、器官、器官系統，再到成個生物體。"
+                "t": "Chemical Level: Atoms → Molecules (Protein, DNA, Sucrose).",
+                "zh": "化學層次：原子 → 分子（蛋白質、DNA、蔗糖）。"
+              },
+              {
+                "k": "p",
+                "t": "Cell Level: Cells (Epithelial cell, Neuron, Smooth muscle cell).",
+                "zh": "細胞層次：細胞（上皮細胞、神經元、平滑肌細胞）。"
+              },
+              {
+                "k": "p",
+                "t": "Tissue Level: Tissues (Epithelial tissue, Nervous tissue, Smooth muscle tissue).",
+                "zh": "組織層次：組織（上皮組織、神經組織、平滑肌組織）。"
+              },
+              {
+                "k": "p",
+                "t": "Organ Level: Organs (Bladder, Brain, Stomach).",
+                "zh": "器官層次：器官（膀胱、腦、胃）。"
+              },
+              {
+                "k": "p",
+                "t": "Organ System Level: Organ Systems (Urinary, Nervous, Digestive).",
+                "zh": "器官系統層次：器官系統（泌尿、神經、消化）。"
+              },
+              {
+                "k": "p",
+                "t": "Organism Level: Organism.",
+                "zh": "個體層次：生物個體。"
               }
             ]
           }
@@ -8073,8 +8098,23 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Connective tissue; Epithelial tissue; Muscle tissue; Nervous tissue.",
-                "zh": "結締組織；上皮組織；肌肉組織；神經組織。"
+                "t": "Connective tissue",
+                "zh": "結締組織"
+              },
+              {
+                "k": "p",
+                "t": "Epithelial tissue",
+                "zh": "上皮組織"
+              },
+              {
+                "k": "p",
+                "t": "Muscle tissue",
+                "zh": "肌肉組織"
+              },
+              {
+                "k": "p",
+                "t": "Nervous tissue",
+                "zh": "神經組織"
               }
             ]
           }
@@ -8159,13 +8199,7 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 491,
             "kind": "embed",
-            "blocks": [
-              {
-                "k": "p",
-                "t": "This figure illustrates a neuron (nerve cell). On the left is a model of a neuron with a cell body containing the nucleus, branching dendrites, and a long axon covered by myelin sheath segments. On the right is a light micrograph of a real neuron. The inset shows the brain and spinal cord as the central nervous system where such cells are found.",
-                "zh": "呢幅圖說明神經元（神經細胞）。左邊係神經元模型：細胞體含細胞核，有分支嘅樹突，同埋被覆髓鞘嘅長軸突。右邊係真實神經元嘅光學顯微照片。小圖標示腦同脊髓等中樞神經系統位置。"
-              }
-            ]
+            "blocks": []
           }
         ]
       },
@@ -8227,8 +8261,18 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "This figure compares three epithelial cell shapes. A squamous cell is thin and flattened, like a scale, with the nucleus causing a slight central bulge. A cuboidal cell is roughly as tall as it is wide, like a cube, with a central nucleus. A columnar cell is tall and narrow, like a column, with the nucleus along its height.",
-                "zh": "呢幅圖比較三種上皮細胞形態。鱗狀細胞薄而扁，似鱗片，細胞核令中央稍為隆起。立方細胞高度同寬度大致相若，似立方體，細胞核喺中央。柱狀細胞高而窄，似柱子，細胞核沿高度方向排列。"
+                "t": "Squamous",
+                "zh": "鱗狀"
+              },
+              {
+                "k": "p",
+                "t": "Cuboidal",
+                "zh": "立方"
+              },
+              {
+                "k": "p",
+                "t": "Columnar",
+                "zh": "柱狀"
               }
             ]
           }
@@ -8306,9 +8350,24 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "Types of connective tissue",
+                "zh": "結締組織類型"
+              },
+              {
                 "k": "p",
-                "t": "connective tissue; types of connective tissue; connective tissue proper; loose connective tissue: areolar, adipose, reticular; dense connective tissue: regular, irregular, elastic; supporting connective tissue; cartilage: hyaline, fibrocartilage, elastic; bone: compact, spongy; fluid connective tissue; blood; lymph.",
-                "zh": "結締組織；結締組織類型；固有結締組織；疏鬆結締組織：疏鬆、脂肪、網狀；緻密結締組織：規則、不規則、彈性；支持性結締組織；軟骨：透明、纖維、彈性；骨：密質、鬆質；液體結締組織；血液；淋巴。"
+                "t": "Connective tissue proper: loose (areolar, adipose, reticular); dense (regular, irregular, elastic).",
+                "zh": "固有結締組織：疏鬆（疏鬆、脂肪、網狀）；緻密（規則、不規則、彈性）。"
+              },
+              {
+                "k": "p",
+                "t": "Supporting connective tissue: cartilage (hyaline, fibrocartilage, elastic); bone (compact, spongy).",
+                "zh": "支持結締組織：軟骨（透明、纖維、彈性）；骨（緻密、海綿）。"
+              },
+              {
+                "k": "p",
+                "t": "Fluid connective tissue: blood; lymph.",
+                "zh": "液體結締組織：血液；淋巴。"
               }
             ]
           }
@@ -8329,7 +8388,68 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 614,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "h",
+                "t": "Connective Tissue Proper",
+                "zh": "固有結締組織"
+              },
+              {
+                "k": "p",
+                "t": "Loose — Areolar connective tissue (under skin): Nucleus; Elastic fiber; Collagen fiber.",
+                "zh": "疏鬆 — 疏鬆結締組織（皮下）：細胞核；彈性纖維；膠原纖維。"
+              },
+              {
+                "k": "p",
+                "t": "Loose — Adipose (around muscle): Nucleus; Fat cells.",
+                "zh": "疏鬆 — 脂肪組織（肌肉周圍）：細胞核；脂肪細胞。"
+              },
+              {
+                "k": "p",
+                "t": "Loose — Reticular tissue (bone marrow): Leukocytes; Reticular fibers.",
+                "zh": "疏鬆 — 網狀組織（骨髓）：白血球；網狀纖維。"
+              },
+              {
+                "k": "p",
+                "t": "Dense — Dense regular connective tissue (tendon): Nucleus of fibroblast; Collagen fibers.",
+                "zh": "緻密 — 規則緻密結締組織（肌腱）：纖維母細胞核；膠原纖維。"
+              },
+              {
+                "k": "p",
+                "t": "Dense — Dense regular elastic connective tissue (wall of aorta): Elastic fibers; Nucleus of fibroblast.",
+                "zh": "緻密 — 規則彈性緻密結締組織（主動脈壁）：彈性纖維；纖維母細胞核。"
+              },
+              {
+                "k": "p",
+                "t": "Fluid — Blood: Platelets; Red blood cells; White blood cells.",
+                "zh": "液體 — 血液：血小板；紅血球；白血球。"
+              },
+              {
+                "k": "h",
+                "t": "Supporting Connective Tissue",
+                "zh": "支持結締組織"
+              },
+              {
+                "k": "p",
+                "t": "Elastic cartilage (outer ear): Elastic fibers in matrix; Chondrocytes in lacunae; Nucleus.",
+                "zh": "彈性軟骨（外耳）：基質中嘅彈性纖維；陷窩內軟骨細胞；細胞核。"
+              },
+              {
+                "k": "p",
+                "t": "Hyaline cartilage (larynx): Matrix; Chondrocyte in a lacuna; Nucleus.",
+                "zh": "透明軟骨（喉）：基質；陷窩內軟骨細胞；細胞核。"
+              },
+              {
+                "k": "p",
+                "t": "Fibrocartilage (pubic symphysis): Chondrocyte in lacuna; Nucleus; Collagen fibers in matrix.",
+                "zh": "纖維軟骨（恥骨聯合）：陷窩內軟骨細胞；細胞核；基質中嘅膠原纖維。"
+              },
+              {
+                "k": "p",
+                "t": "Bone (femur) — Compact bone: Lacuna; Central canal; Matrix organized into lamellae.",
+                "zh": "骨（股骨）— 緻密骨：陷窩；中央管；基質排成骨板。"
+              }
+            ]
           }
         ]
       },
@@ -8406,8 +8526,48 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "Nervous system; Endocrine system; Respiratory system; Cardiovascular and lymphatic systems; Skeletal and muscular systems; Urinary system; Digestive system; Reproductive system; Integumentary system.",
-                "zh": "神經系統；內分泌系統；呼吸系統；心血管同淋巴系統；骨骼同肌肉系統；泌尿系統；消化系統；生殖系統；皮膚系統。"
+                "t": "Nervous system",
+                "zh": "神經系統"
+              },
+              {
+                "k": "p",
+                "t": "Endocrine system",
+                "zh": "內分泌系統"
+              },
+              {
+                "k": "p",
+                "t": "Respiratory system",
+                "zh": "呼吸系統"
+              },
+              {
+                "k": "p",
+                "t": "Cardiovascular and lymphatic systems",
+                "zh": "心血管同淋巴系統"
+              },
+              {
+                "k": "p",
+                "t": "Skeletal and muscular systems",
+                "zh": "骨骼同肌肉系統"
+              },
+              {
+                "k": "p",
+                "t": "Urinary system",
+                "zh": "泌尿系統"
+              },
+              {
+                "k": "p",
+                "t": "Digestive system",
+                "zh": "消化系統"
+              },
+              {
+                "k": "p",
+                "t": "Reproductive system",
+                "zh": "生殖系統"
+              },
+              {
+                "k": "p",
+                "t": "Integumentary system",
+                "zh": "皮膚系統"
               }
             ]
           }
@@ -8612,8 +8772,43 @@ window.HAZEL_LECTURES = [
             "blocks": [
               {
                 "k": "p",
-                "t": "DNA double helix; Base pair; Cytosine; Thymine; Guanine; Adenine; Pyrimidines; Purines; C; G; A; T.",
-                "zh": "DNA 雙螺旋；鹼基對；胞嘧啶；胸腺嘧啶；鳥嘌呤；腺嘌呤；嘧啶；嘌呤；C；G；A；T。"
+                "t": "DNA double helix",
+                "zh": "DNA 雙螺旋"
+              },
+              {
+                "k": "p",
+                "t": "Base pair",
+                "zh": "鹼基對"
+              },
+              {
+                "k": "p",
+                "t": "Cytosine",
+                "zh": "胞嘧啶"
+              },
+              {
+                "k": "p",
+                "t": "Thymine",
+                "zh": "胸腺嘧啶"
+              },
+              {
+                "k": "p",
+                "t": "Guanine",
+                "zh": "鳥嘌呤"
+              },
+              {
+                "k": "p",
+                "t": "Adenine",
+                "zh": "腺嘌呤"
+              },
+              {
+                "k": "p",
+                "t": "Pyrimidines",
+                "zh": "嘧啶"
+              },
+              {
+                "k": "p",
+                "t": "Purines",
+                "zh": "嘌呤"
               }
             ]
           },
@@ -8624,9 +8819,39 @@ window.HAZEL_LECTURES = [
             "kind": "embed",
             "blocks": [
               {
+                "k": "h",
+                "t": "RNA",
+                "zh": "RNA"
+              },
+              {
                 "k": "p",
-                "t": "This figure shows the structure of RNA and its nitrogenous bases. RNA has a single-stranded sugar-phosphate backbone with nitrogenous bases extending from it. The four RNA bases are adenine (A), uracil (U), cytosine (C), and guanine (G); in RNA, uracil replaces the thymine found in DNA.",
-                "zh": "呢幅圖展示 RNA 結構同佢嘅含氮鹼基。RNA 係單股糖－磷酸骨架，上面伸出含氮鹼基。四種 RNA 鹼基係腺嘌呤（A）、尿嘧啶（U）、胞嘧啶（C）同鳥嘌呤（G）；RNA 用尿嘧啶取代 DNA 入面嘅胸腺嘧啶。"
+                "t": "Nitrogenous bases",
+                "zh": "含氮鹼基"
+              },
+              {
+                "k": "p",
+                "t": "Adenine",
+                "zh": "腺嘌呤"
+              },
+              {
+                "k": "p",
+                "t": "Uracil",
+                "zh": "尿嘧啶"
+              },
+              {
+                "k": "p",
+                "t": "Cytosine",
+                "zh": "胞嘧啶"
+              },
+              {
+                "k": "p",
+                "t": "Guanine",
+                "zh": "鳥嘌呤"
+              },
+              {
+                "k": "p",
+                "t": "RNA nitrogenous bases",
+                "zh": "RNA 含氮鹼基"
               }
             ]
           }
@@ -8672,7 +8897,33 @@ window.HAZEL_LECTURES = [
             "w": 1000,
             "h": 375,
             "kind": "embed",
-            "blocks": []
+            "blocks": [
+              {
+                "k": "p",
+                "t": "DNA",
+                "zh": "DNA"
+              },
+              {
+                "k": "p",
+                "t": "RNA",
+                "zh": "RNA"
+              },
+              {
+                "k": "p",
+                "t": "Protein",
+                "zh": "蛋白質"
+              },
+              {
+                "k": "p",
+                "t": "Transcription",
+                "zh": "轉錄"
+              },
+              {
+                "k": "p",
+                "t": "Translation",
+                "zh": "轉譯"
+              }
+            ]
           },
           {
             "src": "assets/figures/L1/p042-02.webp",
